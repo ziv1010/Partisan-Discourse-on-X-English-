@@ -1,0 +1,485 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,stance,stance_reason
+2021726,"Trudeau may be a two-faced neta who backed the tractor blockade in India but he has at least put ""national interest"" first to clear the trucker blockade. Indian state should have set aside its regard for the opinion of lutyens bolesheviks and cleared Singhu and Shaheen bagh.",Pro Ruling,pro ruling,shaheen bagh,"['indian', 'blockade', 'trucker']","[{'text': 'indian', 'score': 0.4011}, {'text': 'blockade', 'score': 0.3946}, {'text': 'trucker', 'score': 0.2893}]",Against ,"says that like Trudeau, Indian State should put national interest first and clear shaheen bagh. "
+5280,"Shaheen Bagh protesters open up barricades to let a Hindu funeral procession pass.
+
+Please show it to the anti nationals who call Shaheen baghis anti nationals.
+
+#शाहीनबाग़Protest🇮🇳 https://t.co/l5ktaXzV3a",Pro OPP,pro opposition,shaheen bagh,"['protesters', 'funeral', 'baghis']","[{'text': 'protesters', 'score': 0.5251}, {'text': 'funeral', 'score': 0.4116}, {'text': 'baghis', 'score': 0.3634}]",For,shows the humanity of protesters.
+608872,"FINAL #ShaheenBaghProtests update.
+
+PRESS CONFERENCE will NOT HAPPEN, as broken by me at 10:10 pm.
+
+Protests to continue. Road to remain closed. Protesters divided in 2 factions.
+
+Will keep updating.",Pro OPP,pro opposition,shaheen bagh,"['protests', 'closed', 'bagh']","[{'text': 'protests', 'score': 0.4601}, {'text': 'closed', 'score': 0.4175}, {'text': 'bagh', 'score': 0.3556}]",Neutral ,"no stance taken, only news delivered "
+2557183,"Since when did Shaheen Bagh become #MuslimArea?
+
+From #Gyanvapi to #ShaheenBagh,
+it’s all about the muscle power.
+
+Here I talk to @pradip103 at @jankibaat1 !
+
+ https://t.co/NSKyLq3LAv",Pro Ruling,pro ruling,shaheen bagh,"['muslim', 'muscle', 'power']","[{'text': 'muslim', 'score': 0.6286}, {'text': 'muscle', 'score': 0.2551}, {'text': 'power', 'score': 0.1031}]",Against ,questions since when did it become muslim area? 
+2067160,"EXPLOSIVE BREAK ON ⁦@TheNewIndian_in⁩
+
+Jahangirpuri Violence Was Continuation Of Anti CAA Protest: ⁦@DelhiPolice⁩ Charge Sheet,reports ⁦@AlokReporter⁩
+
+“Its established incident was continuation of anti CAA-NRC of 2019-20 in Shaheen Bagh” https://t.co/aLRNGLXlcq",Pro Ruling,pro ruling,shaheen bagh,"['violence', 'bagh', 'thenewindian_in']","[{'text': 'violence', 'score': 0.5373}, {'text': 'bagh', 'score': 0.1529}, {'text': 'thenewindian_in', 'score': 0.0878}]",Neutral ,"no stance taken, only news delivered "
+98702,This is with what @ArvindKejriwal stands for. Sisodia openly he said he’s with #ShaheenBagh protesters. Do you think they’ll not demand separate Delhi if won ? ☹️ https://t.co/xszKmo0gDZ,Pro Ruling,pro ruling,shaheen bagh,"['delhi', 'protesters', 'won']","[{'text': 'delhi', 'score': 0.4611}, {'text': 'protesters', 'score': 0.4597}, {'text': 'won', 'score': 0.2766}]",Against ,claims that shaheen bagh will demand a separate delhi if they won. 
+93832,"VIDEO: #ShaheenBagh Protesters say- One month, one year... protests will continue. Have faith in judiciary. 
+
+Tarannum ji who’s been here since day1 says, “Yeh lambi ladayi hai. Protests jaari rahegi.”
+
+First reaction on SC hearing. #CitizenshipAmendmentAct #AntiCAA_NRC_NPR https://t.co/lQMD9WARVJ",Pro OPP,pro opposition,shaheen bagh,"['protests', 'day1', 'hearing']","[{'text': 'protests', 'score': 0.5042}, {'text': 'day1', 'score': 0.2979}, {'text': 'hearing', 'score': 0.1862}]",For ,shows how protesters have faith in judiciary and resilience. 
+341454,"Finally! Famous Shaheen Bagh ki Dadi has reached as ""Farmers' protest"". Last time she had won prize after 51 deaths. Lets see what she is expecting now.
+ https://t.co/ibDWZ2FdX6",Pro Ruling,pro ruling,shaheen bagh,"['farmers', 'bagh', 'protest']","[{'text': 'farmers', 'score': 0.3919}, {'text': 'bagh', 'score': 0.376}, {'text': 'protest', 'score': 0.3357}]",Against ,mocks how its spreading death and chaos. 
+286975,"Huge crowd at Shaheen Bagh protest tonight. 😍😍
+
+See the sea of people, salute to people of Shaheen Bagh. 
+
+#CAA_NRCProtests #CAA_NRC_Protests 
+#ShaheenBaghProtest https://t.co/5WX1wvWnFQ",Pro OPP,pro opposition,shaheen bagh,"['bagh', 'protests', 'tonight']","[{'text': 'bagh', 'score': 0.5215}, {'text': 'protests', 'score': 0.5007}, {'text': 'tonight', 'score': 0.2221}]",For ,salutes people of shaheen bagh. 
+1090,Can Hindus in Pakistan do #ShaheenBagh kind of communal protest?,Pro Ruling,pro ruling,shaheen bagh,"['hindus', 'protest', 'bagh']","[{'text': 'hindus', 'score': 0.5589}, {'text': 'protest', 'score': 0.4786}, {'text': 'bagh', 'score': 0.3386}]",Against ,"calls it a ""communal protest"". "
+116508,"There were people saying Shaheen Bagh should be halted as it’s helping the BJP. I wrote on 31 Jan, amidst BJP’s heightened Hindutva pitch, that an AAP victory was a foregone conclusion and therefore, Shaheen Bagh need not give in to the pressure 
+https://t.co/hcyMQDp7ZZ",Pro OPP,pro opposition,shaheen bagh,"['bagh', 'hindutva', 'halted']","[{'text': 'bagh', 'score': 0.479}, {'text': 'hindutva', 'score': 0.3978}, {'text': 'halted', 'score': 0.29}]",For ,shows how there is a false narrative around the protest. 
+127521,BJP's Kapil Mishra declares 'won't allow second Shaheen Bagh' amid pro &amp; anti-CAA protests https://t.co/ERaB5qCY33,Pro Ruling,pro ruling,shaheen bagh,"['mishra', 'bagh', 'protests']","[{'text': 'mishra', 'score': 0.4736}, {'text': 'bagh', 'score': 0.4195}, {'text': 'protests', 'score': 0.2078}]",Neutral ,"no stance taken, only news delivered "
+48080,"Kid: Give us vote in the name of Balakot
+
+Adult: Give us vote in the name of Shaheen Bagh
+
+Legend: Vote de, Vaccine le",Pro OPP,pro opposition,shaheen bagh,"['vote', 'bagh', 'vaccine']","[{'text': 'vote', 'score': 0.5216}, {'text': 'bagh', 'score': 0.4802}, {'text': 'vaccine', 'score': 0.4367}]",For ,mocks bjp. 
+330305,Do you know that #BoycottWilliamDalrymple is part of the group that spread fake news during Shaheen Bagh and internationally spread Hindu hate. Defeat them. This is your biggest opportunity. Don’t cry later. I am already into this war. Join me.,Pro Ruling,pro ruling,shaheen bagh,"['boycott', 'hindu', 'join']","[{'text': 'boycott', 'score': 0.5247}, {'text': 'hindu', 'score': 0.4343}, {'text': 'join', 'score': 0.1931}]",Against ,encouraging and warning people to defeat shaheen bagh or cry later. 
+1308089,"Joint venture partnership 
+
+The expected merger of #SinghuBorder and #ShaheenBagh
+ Khalistanis and Islamists come together. 
+
+I had long said that the #FarmerProtest is a sequel, in essence #ShaheenBaghSeason-2 https://t.co/MCI61ogCtX",Pro Ruling,pro ruling,shaheen bagh,"['merger', 'protest', 'farmer']","[{'text': 'merger', 'score': 0.4415}, {'text': 'protest', 'score': 0.3319}, {'text': 'farmer', 'score': 0.2382}]",Against ,"shown as an ""islamist movement""."
+1013129,"Remember, it took a pandemic for the Shaheen Bagh protest to be suspended. Arrests, communal violence, attacks, govt crackdown, SC intervention couldn't stop it. Farmers protest too is unlikely to give in due to govt's measures",Pro OPP,pro opposition,shaheen bagh,"['protest', 'bagh', 'farmers']","[{'text': 'protest', 'score': 0.5508}, {'text': 'bagh', 'score': 0.3375}, {'text': 'farmers', 'score': 0.2533}]",For ,shows resilience of protesters in the face of horrible things. 
+373855,"""We'll cut 'Northeast' from rest of India, use Kanhaiya Kumar to instigate people” 'The Wire' columnist's anti-national rant exposes the agenda behind anti-CAA Shaheen Bagh protests: https://t.co/mqtodcG615 via @eOrganiser",Pro Ruling,pro ruling,shaheen bagh,"['india', 'northeast', 'cut']","[{'text': 'india', 'score': 0.4973}, {'text': 'northeast', 'score': 0.4819}, {'text': 'cut', 'score': 0.3381}]",Against ,claims that shaheeh bagh has anti-national agenda. 
+747353,"Pic 1 - How Sardar DS Bindra sold his flat to fund and feed Shaheen Bagh Protestors opposing CAA.
+
+Pic 2,3,4 - Persecuted Sikhs of Afghanistan using CAA to come to India. https://t.co/SZWCaueAWX",Pro Ruling,pro ruling,shaheen bagh,"['sardar', 'protestors', 'india']","[{'text': 'sardar', 'score': 0.5334}, {'text': 'protestors', 'score': 0.3329}, {'text': 'india', 'score': 0.3192}]",Against ,shows how CAA is helping persucted sikhs in Afghanistan and shaheen bagh stops that. 
+186469,"‘Symbol of resistance’: #ShaheenBagh protestor #Bilkis among TIME’s most influential people of 2020
+https://t.co/lHfe66qCYN",Pro OPP,pro opposition,shaheen bagh,"['protestor', 'bagh', '2020']","[{'text': 'protestor', 'score': 0.5429}, {'text': 'bagh', 'score': 0.4003}, {'text': '2020', 'score': 0.3089}]",For ,Shaheen Bagh leader among Time's most influential people of 2020. global recognition. 
+98735,"Sonia, Rahul's statement today on CAA. All journalists again going to Shaheen Bagh.
+
+What's cooking? Is Congress planning something violent?",Pro Ruling,pro ruling,shaheen bagh,"['journalists', 'congress', 'cooking']","[{'text': 'journalists', 'score': 0.447}, {'text': 'congress', 'score': 0.401}, {'text': 'cooking', 'score': 0.334}]",Against ,shows that shaheen bagh is influenced by congress who could be planning violence. 
+273922,"What a stellar idea it would be for PM @narendramodi to hand over his social media accounts to the #WomenofShaheenBagh for Women's Day. Let the World see that the PM of India respects women who are protesting for their Democratic rights.
+
+That might help to heal the whole Nation.",Pro OPP,pro opposition,shaheen bagh,"['narendramodi', 'women', 'protesting']","[{'text': 'narendramodi', 'score': 0.4743}, {'text': 'women', 'score': 0.4115}, {'text': 'protesting', 'score': 0.2728}]",For ,mocks modi. 
+356547,"Mitroon-mark this tweet : 
+
+#muslimquotasplit is not a random announcement of 2 CONg ruled states 
+
+It is Phase 2 of the Evil Queens sinister plot to Break India once again &amp; u will see Raj CG etc do the same
+
+Phase 1 was Anti CAA protest, Shaheen Bagh &amp; finally #DelhiRiots",Pro Ruling,pro ruling,shaheen bagh,"['muslim', 'phase', 'tweet']","[{'text': 'muslim', 'score': 0.4731}, {'text': 'phase', 'score': 0.2164}, {'text': 'tweet', 'score': 0.2037}]",Against ,"calls it the ""evil queen's sinister plot to break india"". "
+1939012,Why the media is not showing this? Why can't you show this @ndtv ? Congress protesting in Shaheen Bagh. https://t.co/aqKlkkHi2K,Pro OPP,pro opposition,shaheen bagh,"['media', 'protesting', 'bagh']","[{'text': 'media', 'score': 0.4641}, {'text': 'protesting', 'score': 0.4582}, {'text': 'bagh', 'score': 0.3127}]",For ,shows how media does not show how congress supports shaheen bagh. 
+603410,"Forget Pakistan, how many wokes are willing to shift to Shaheen Bagh or Jamia Nagar and not just show up there for pics? Why do they live in areas populated by communal Hindus? https://t.co/JOsl1BrL7y",Pro Ruling,pro ruling,shaheen bagh,"['hindus', 'populated', 'wokes']","[{'text': 'hindus', 'score': 0.5399}, {'text': 'populated', 'score': 0.3949}, {'text': 'wokes', 'score': 0.251}]",Against ,states that these are areas ruled by communal hindus. 
+408133,"Shaheen Bagh shooter Kapil Gujjar joins BJP. 
+
+This person had shot fire on Muslim protesters in Delhi, now he got his reward from BJP. https://t.co/iOTlhW12af",Pro OPP,pro opposition,shaheen bagh,"['muslim', 'joins', 'fire']","[{'text': 'muslim', 'score': 0.4034}, {'text': 'joins', 'score': 0.294}, {'text': 'fire', 'score': 0.2929}]",For ,shows how bjp rewards those who target muslims. 
+472826,What are the achievements of Shaheen Bagh protests in the eyes of secular-liberal ecosystem? Has there been any such claims or analysis? I guess the only thing (apart from death and violence that they love) could be that they could get bad press for India in international media?,Pro Ruling,pro ruling,shaheen bagh,"['protests', 'india', 'bagh']","[{'text': 'protests', 'score': 0.5023}, {'text': 'india', 'score': 0.3556}, {'text': 'bagh', 'score': 0.3052}]",Against ,claims that shaheen bagh protesters love death and violence. 
+154097,"Right-wing activist enters #ShaheenBagh wearing burqa
+@vinitgoenka @AkshayMarathe @sunilbharala
+
+Watch more here: https://t.co/ygrjOoDsic
+
+#ShaheenBaghProtests #CAAProtests #CAA_NRCProtests https://t.co/ASAdfPU2zf",Pro OPP,pro opposition,shaheen bagh,"['burqa', 'protests', 'bagh']","[{'text': 'burqa', 'score': 0.5066}, {'text': 'protests', 'score': 0.481}, {'text': 'bagh', 'score': 0.4186}]",For ,shows how the right is trying to mock and intervene in shaheen bagh.
+844843,Farmer union leaders on Friday warned the government that it should not take their agitation lightly and think that it can be handled like the Shaheen Bagh protest against the new citizenship regime. https://t.co/pjpqvkiRJk,Pro OPP,pro opposition,shaheen bagh,"['protest', 'farmer', 'government']","[{'text': 'protest', 'score': 0.4297}, {'text': 'farmer', 'score': 0.3281}, {'text': 'government', 'score': 0.3279}]",Neutral ,no stance taken on shaheen bagh. 
+591106,"The BJP leader said people are sporting burqas in Delhi’s Shaheen Bagh protest against the new citizenship law, and added that burqa helps terrorists, thieves and anti-socials elements to hide behind it.
+
+https://t.co/p7a2ITXRGC",Pro OPP,pro opposition,shaheen bagh,"['burqas', 'protest', 'sporting']","[{'text': 'burqas', 'score': 0.7991}, {'text': 'protest', 'score': 0.387}, {'text': 'sporting', 'score': 0.1615}]",Against ,links it to terrorism. 
+189752,"Shaheen Bagh is a Name of History, it's a Headquarter of All Democratic &amp; Secular Indian Citizens, The Leaders of This Historical Situations is a ShaheenBagh women's (Dabang Dadi).✊ #BraveWomenOfShaheenBagh https://t.co/kUvihNJspO",Pro OPP,pro opposition,shaheen bagh,"['bagh', 'indian', 'leaders']","[{'text': 'bagh', 'score': 0.5975}, {'text': 'indian', 'score': 0.4512}, {'text': 'leaders', 'score': 0.3462}]",For ,praises shaheen bagh. 
+1154020,"Instead spending money on farmers rally and Shaheen bagh extremists , providing them biryanis, ads, shelter, massages, providing them alcohol. Radical left could have built hospitals @sambitswaraj @BJP4India",Pro Ruling,pro ruling,shaheen bagh,"['extremists', 'farmers', 'spending']","[{'text': 'extremists', 'score': 0.4769}, {'text': 'farmers', 'score': 0.3652}, {'text': 'spending', 'score': 0.2844}]",Against ,labels them as extremists. 
+184248,"Appointment of Sanjay Hegde as SC's interlocutor important win for Shaheen Bagh: 
+- With SC involved, it might give protection from police crackdown for now
+- Gives legitimate forum for protesters to put forward  demands to SC (even though legal challenge to CAA is separate)",Pro OPP,pro opposition,shaheen bagh,"['hegde', 'protesters', 'police']","[{'text': 'hegde', 'score': 0.4454}, {'text': 'protesters', 'score': 0.3088}, {'text': 'police', 'score': 0.3002}]",For ,shows some helpful measures for protesters. 
+1196885,"This cannot be a co incidence but a well plan strategy of #YogendraYadav to destabilise d cntry. 
+
+-JNU violence- 
+-Shaheen bagh-
+-Farmers violence-
+- Anti CAA &amp; NRC protests 
+
+#Yogendra Yadav was present.
+
+#ArrestYogendraYadav",Pro Ruling,pro ruling,shaheen bagh,"['yogendra', 'protests', 'destabilise']","[{'text': 'yogendra', 'score': 0.602}, {'text': 'protests', 'score': 0.3816}, {'text': 'destabilise', 'score': 0.2742}]",Against ,shows its agenda is to destabilise the country. 
+345819,If it is true that protestors at Shaheen Bagh chanted Jinnah Wali Azadi then why do they want CAA to give Indian citizenship to those who are already enjoying Jinnahwali Azadi in Pakistan! Do these Islamo-leftists use their brains or are just pathologically anti India &amp; anti Modi https://t.co/QmMw9047lR,Pro Ruling,pro ruling,shaheen bagh,"['islamo', 'protestors', 'citizenship']","[{'text': 'islamo', 'score': 0.4455}, {'text': 'protestors', 'score': 0.3768}, {'text': 'citizenship', 'score': 0.236}]",Against ,"labels them as ""pathologically anti-india""."
+708156,"Use of Indian national flag in US' Capitol protest is condemnable
+
+Also, there was tricolour:
+
+1) During Sharjeel Imam's speech to cut Northeast from India
+
+2) At Shaheen Bagh where 'Jinnah Wali Azadi' slogan was raised
+
+3) At Jamia Nagar where 'Hinduo Se Azadi' slogan was raised",Pro Ruling,pro ruling,shaheen bagh,"['flag', 'indian', 'speech']","[{'text': 'flag', 'score': 0.5583}, {'text': 'indian', 'score': 0.4152}, {'text': 'speech', 'score': 0.3604}]",Against ,says that raising the Indian flag at shaheen bagh is condemnable. 
+25852,"So the blatant goondaism on display in India's capital is over with police clearing Shaheen Bagh. However, the scars will remain. Can look the other way and talk diplomatically but fact remains- 53 people would have been alive if people hadnt started blocking random public roads",Pro Ruling,pro ruling,shaheen bagh,"['police', 'scars', 'goondaism']","[{'text': 'police', 'score': 0.3656}, {'text': 'scars', 'score': 0.3619}, {'text': 'goondaism', 'score': 0.3209}]",Against ,"trivialises protest to ""blocking of random roads"". "
+320985,"82-year-old Shaheen Bagh protester Bilkis Bano, Gaana singer Isaivani, para-athlete Manasi Joshi and climate activist Ridhima Pandey are the four Indian women who were included in the ‘BBC 100 Women 2020‘ list, released on Tuesday.
+
+https://t.co/9qWkTxkJn8",Pro OPP,pro opposition,shaheen bagh,"['women', '2020', 'protester']","[{'text': 'women', 'score': 0.5382}, {'text': '2020', 'score': 0.2931}, {'text': 'protester', 'score': 0.2371}]",For ,shows how shaheen bagh women leaders were given international recognition and praise. 
+1105855,"2020 was the year of state power. From sudden lockdown, jailing activists, outlawing right to love, the State is snatching away individual freedom. But there’s a backlash: 2020 began with Shaheen Bagh, is ending with Singhu Border. #FarmersProtest. My oped in @timesofindia today https://t.co/R4LyCSBeCk",Pro OPP,pro opposition,shaheen bagh,"['2020', 'protest', 'lockdown']","[{'text': '2020', 'score': 0.5123}, {'text': 'protest', 'score': 0.312}, {'text': 'lockdown', 'score': 0.2179}]",For ,shows how state is snatching away individual freedom. 
+1855573,"Kejriwal is building a special residential school for Rohingya kids at Nanakhedi (Delhi)
+
+Local Hindu ladies have been protesting against it from last 10 days
+
+Media showed 24x7 protest of Shaheen bagh by M ladies 
+
+But there is completed media black out for this news 👇 https://t.co/hmT0n3ZNdz",Pro Ruling,pro ruling,shaheen bagh,"['hindu', 'protesting', '24x7']","[{'text': 'hindu', 'score': 0.4309}, {'text': 'protesting', 'score': 0.2863}, {'text': '24x7', 'score': 0.0384}]",Neutral ,no stance taken on shaheen bagh. 
+43313,"Almost all of the Muslims in Padma list are those who share Hindu culture. Perhaps a symbolism/message from Modi govt that Sharjleels and Shaheen Baghs are not the only faces. I'm feeling optimist for an hour, so I'll settle for this right now.",Pro Ruling,pro ruling,shaheen bagh,"['hindu', 'baghs', 'optimist']","[{'text': 'hindu', 'score': 0.6591}, {'text': 'baghs', 'score': 0.2659}, {'text': 'optimist', 'score': 0.0924}]",Against ,shows hope for other muslims not part of shaheen bagh. 
+131972,This video is from #ShaheenBagh - the police did arrive in large numbers to remove barricades and urge protesters to break up and leave. But the women who have been on an #NRC sit in for 20 days plus came forward and the police have retreated. The vigil continues https://t.co/RIOMEYgKN3,Pro OPP,pro opposition,shaheen bagh,"['barricades', 'protesters', 'video']","[{'text': 'barricades', 'score': 0.5206}, {'text': 'protesters', 'score': 0.4817}, {'text': 'video', 'score': 0.335}]",For ,"says the ""vigil continues"", underlying tone of pride. "
+2891673,"Haldwani protest could be Shaheen Bagh 2.0: Not just the roadblock but there are other parallels too. Here is what the drama is about
+
+My article  https://t.co/JvTCqJj3Lg",Pro Ruling,pro ruling,shaheen bagh,"['protest', 'bagh', 'parallels']","[{'text': 'protest', 'score': 0.5889}, {'text': 'bagh', 'score': 0.343}, {'text': 'parallels', 'score': 0.2321}]",Against ,"calls it ""drama"". "
+1065,"Mother of 3 took her infant to Shaheen Bagh every day though he had a rasping cough &amp; cold. He died in his sleep. The father blames the govt, NRC &amp; CAA for the child's death, not his wife or himself for dragging an infant in bitter cold to the protest zone https://t.co/JKrMwk6MrS",Pro Ruling,pro ruling,shaheen bagh,"['infant', 'cough', 'protest']","[{'text': 'infant', 'score': 0.4346}, {'text': 'cough', 'score': 0.3971}, {'text': 'protest', 'score': 0.2676}]",Against ,shows how protesters blame government for their own wrong doings. 
+749325,"Andolan Jivi is the name given by Modiji to people who can't live without protests
+
+Few Andolan Jivis are:
+
+* Yogendra Yadav
+* Swara Bhaskar
+* Arundhati Roy
+* Prashant Bhushan
+* Bilkis Dadi of Shaheen Bagh fame
+
+Add few more Andolan Jivis &amp; RETWEET",Pro Ruling,pro ruling,shaheen bagh,"['andolan', 'protests', 'retweet']","[{'text': 'andolan', 'score': 0.542}, {'text': 'protests', 'score': 0.3462}, {'text': 'retweet', 'score': 0.1127}]",Against ,says that these are people who cant live without a protest. Asks to retweet and spread the word. 
+312145,"#ShaheenBaghModel | I support Shaheen Baghs all across the country, I stand by my sisters who are protesting against the black law: @warispathan - National Spokesperson, AIMIM https://t.co/q6D4dGx1Yf",Pro Ruling,pro ruling,shaheen bagh,"['protesting', 'black', 'baghs']","[{'text': 'protesting', 'score': 0.461}, {'text': 'black', 'score': 0.3688}, {'text': 'baghs', 'score': 0.359}]",For ,shows support for shaheen bagh. 
+136241,"Noida-Faridabad road that’s been blocked by Traffic Police for 2 months was BRIEFLY opened. Now, barricaded once again!
+
+Q: If road can be opened, why not just open it?
+
+Q: 180 meters of road 13A is occupied by #ShaheenBagh protests, why are SO many other KEY roads blocked?
+
+WHY!",Pro OPP,pro opposition,shaheen bagh,"['roads', 'faridabad', 'protests']","[{'text': 'roads', 'score': 0.4806}, {'text': 'faridabad', 'score': 0.4791}, {'text': 'protests', 'score': 0.2782}]",Neutral ,no stance taken on shaheen bagh. 
+646627,What started as ‘smash brahminical patriarchy’ has now evolved into hate crimes against Brahmins. Pretty sure he/him/she/her uses ‘Sanghis’ and ‘gaumutra’ as a slur and will poop on a police car as a protest at nearest Shaheen Bagh. https://t.co/wLTWAjlZzx,Pro Ruling,pro ruling,shaheen bagh,"['brahmins', 'hate', 'police']","[{'text': 'brahmins', 'score': 0.5168}, {'text': 'hate', 'score': 0.4461}, {'text': 'police', 'score': 0.2713}]",Against ,claims it is hate crime against Brahmins. 
+162102,"Protesting farmers &amp; their dalal-proxies block roads in Delhi, showing they’ve no interest in talks with the govt. They want to disrupt &amp; create anarchy. Dissent is democratic, creating public disorder isn’t. Like #ShaheenBagh this too will end badly — for the anarchists.",Pro Ruling,pro ruling,shaheen bagh,"['protesting', 'roads', 'farmers']","[{'text': 'protesting', 'score': 0.4855}, {'text': 'roads', 'score': 0.3577}, {'text': 'farmers', 'score': 0.2572}]",Against ,claims that the protesters just want to disrupt and create anarchy. 
+483815,Delhi police special cell arrests PFI president and secretary in connection with alleged #ShaheenBagh funding,Pro Ruling,pro ruling,shaheen bagh,"['police', 'cell', 'president']","[{'text': 'police', 'score': 0.3526}, {'text': 'cell', 'score': 0.1736}, {'text': 'president', 'score': 0.107}]",Neutral ,"no stance taken, only news delivered "
+160114,"Shaheen Bagh Template. Police Barricades Roads where Protests are not happening, and people blame Protestors. Next we will see Visuals of Ambulance stuck in a Barricaded road and Farmers will be blamed even though they are protesting far far away https://t.co/nSPCerXJyx",Pro OPP,pro opposition,shaheen bagh,"['barricades', 'protestors', 'farmers']","[{'text': 'barricades', 'score': 0.5088}, {'text': 'protestors', 'score': 0.4897}, {'text': 'farmers', 'score': 0.2042}]",For ,shows how protesters are blamed for everything even though it’s the police at fault. 
+59791,"As the Ruling party inducts Shaheen Bagh protestors, maybe activists who took part are owed an apology from those who claimed the movement was ""anti national""? 
+https://t.co/FFgjTBsZvb",Pro OPP,pro opposition,shaheen bagh,"['protestors', 'apology', 'bagh']","[{'text': 'protestors', 'score': 0.5642}, {'text': 'apology', 'score': 0.4895}, {'text': 'bagh', 'score': 0.1887}]",For ,claims that the activists of shaheen bagh are owed an apology for being called anti national. 
+113953,"Following Coronavirus,some well-meaning people are asking the women of ShaheenBagh to end the protest.
+Fine.
+But have you tried putting some of this pressure on the govt to withdraw CAA?
+Why expect all responsible behaviour &amp; prudence from oppressed people?
+None from oppressors?",Pro OPP,pro opposition,shaheen bagh,"['protest', 'coronavirus', 'putting']","[{'text': 'protest', 'score': 0.4394}, {'text': 'coronavirus', 'score': 0.3932}, {'text': 'putting', 'score': -0.022}]",For ,"calls protesters ""oppressed"" and the State ""oppresor"". "
+288347,"""The Shaheen Bagh protest has rattled the Sangh parivar not merely by its persistence but by the number of women at its heart."" | Shah Alam Khan writes.
+
+https://t.co/MiFiWnrsZ2",Pro OPP,pro opposition,shaheen bagh,"['protest', 'bagh', 'women']","[{'text': 'protest', 'score': 0.501}, {'text': 'bagh', 'score': 0.4131}, {'text': 'women', 'score': 0.3465}]",For ,shows how Shaheen bagh had women at its core. 
+199358,"BJP: Shaheen Bagh Protestors are supported by AAP
+
+Also BJP: Shaheen Bagh Shooter is supported by AAP
+ 
+Mota bhai, Desperation mein itni jaldi arguments mat badlo ki khud hi ko counter karne lag jayo 😂",Pro OPP,pro opposition,shaheen bagh,"['khud', 'protestors', 'shooter']","[{'text': 'khud', 'score': 0.4482}, {'text': 'protestors', 'score': 0.4222}, {'text': 'shooter', 'score': 0.1367}]",For ,shows how bjp puts forth random arguments to oppose the protest. 
+1196140,"1. Farmers' protest:
+
+NHAI suffered a toll revenue loss of ₹814.4 crore till March 16 on account of farmers' protest in 3 states ( Punjab, Haryana, Rajasthan)
+
+2. Shaheen Bagh protest:
+
+News report- commercial showrooms &amp; retail outlets faced losses approximating to ₹150 crore",Pro Ruling,pro ruling,shaheen bagh,"['loss', 'farmers', 'protest']","[{'text': 'loss', 'score': 0.4908}, {'text': 'farmers', 'score': 0.3558}, {'text': 'protest', 'score': 0.3126}]",Against ,shows revenue loss due to protests. 
+85228,"Kapil Gujjar who flred at Shaheen Bagh was plotted by Arvind Kejriwal to defame Hindus. Reciting Hanuman Chalisa was all drama. 
+
+#AAPKeTerrorists https://t.co/BOe7FxGzzE",Pro Ruling,pro ruling,shaheen bagh,"['hindus', 'terrorists', 'bagh']","[{'text': 'hindus', 'score': 0.4937}, {'text': 'terrorists', 'score': 0.4011}, {'text': 'bagh', 'score': 0.2982}]",Neutral ,no stance taken on shaheen bagh. 
+160938,"If @ArvindKejriwal fails to clear the Islamist mess of #ShaheenBagh before the elections, will you still vote for him? 
+
+Just reply NO or YES.",Pro Ruling,pro ruling,shaheen bagh,"['islamist', 'elections', 'fails']","[{'text': 'islamist', 'score': 0.4765}, {'text': 'elections', 'score': 0.3896}, {'text': 'fails', 'score': 0.1072}]",Against ,"calls it an ""islamist mess"". "
+269662,CAA-NRC protests: Shaheen Bagh and Biryani are anti-national https://t.co/8xPDcQaV09,Pro OPP,pro opposition,shaheen bagh,"['protests', 'national', 'bagh']","[{'text': 'protests', 'score': 0.592}, {'text': 'national', 'score': 0.4057}, {'text': 'bagh', 'score': 0.3804}]",For ,subtle mockery of how everything is being labelled as anti-national. 
+455801,"#ShaheenBagh 's protestors send BJP IT Cell Head, @amitmalviya , a Rs 1 Cr defamation notice for casting aspersions on the protests through false allegations https://t.co/Dcuc3edjxm",Pro OPP,pro opposition,shaheen bagh,"['protestors', 'send', 'cell']","[{'text': 'protestors', 'score': 0.3936}, {'text': 'send', 'score': 0.3042}, {'text': 'cell', 'score': 0.2335}]",Neutral ,"no stance taken, only news delivered "
+197793,"""Tukde-Tukde Gang"" Turning Farmers' Stir Into Shaheen Bagh: BJP's Manoj Tiwari https://t.co/UmI8POOHsT https://t.co/wklAy7hWbU",Pro OPP,pro opposition,shaheen bagh,"['farmers', 'bagh', 'turning']","[{'text': 'farmers', 'score': 0.5431}, {'text': 'bagh', 'score': 0.3316}, {'text': 'turning', 'score': 0.2939}]",Neutral ,"no stance taken, only news delivered "
+226565,"On a sit-in for over a month against the #CitizenshipAmendmentAct, women protesters at #ShaheenBagh voted in batches on Saturday so that the agitation remains unaffected https://t.co/Ccj4PsnZ2y",Pro OPP,pro opposition,shaheen bagh,"['protesters', 'women', 'unaffected']","[{'text': 'protesters', 'score': 0.5594}, {'text': 'women', 'score': 0.325}, {'text': 'unaffected', 'score': 0.2994}]",Neutral ,"no stance taken, only news delivered "
+395839,"‘Rambhakt’ Gopal shooting in Jamia: A well hatched conspiracy? Here are some questions that need answers
+
+#Jamia #ShaheenBaghProtests
+#RambhaktGopal #DelhiPolice
+
+https://t.co/EiAKAn7sZv",Pro Ruling,pro ruling,shaheen bagh,"['rambhakt', 'police', 'shooting']","[{'text': 'rambhakt', 'score': 0.4898}, {'text': 'police', 'score': 0.3291}, {'text': 'shooting', 'score': 0.3289}]",Against ,claims there is a conspiracy going on. 
+78503,"I salute every hero n warrior sitting at #ShaheenBagh 
+You are the epitome of what an Indian should be like, the true guardians of the Constitution of India.
+We need you. Strong and safe.
+This #CoronavirusOutbreak is real.
+I urge you to go back to the safe confines. We shall win.",Pro OPP,pro opposition,shaheen bagh,"['coronavirus', 'india', 'warrior']","[{'text': 'coronavirus', 'score': 0.496}, {'text': 'india', 'score': 0.4663}, {'text': 'warrior', 'score': 0.4537}]",For ,"calls protesters ""hero"" and ""warrior"" and offers salute. "
+1046936,"Has it ever occurred to you that people sitting on Farmer's Protest or Shaheen Bagh ; कौन हैं यह लोग? कहाँ से आते हैं?
+
+Found the answer finally 👇 https://t.co/MfHoz7u7AN",Pro Ruling,pro ruling,shaheen bagh,"['protest', 'bagh', 'farmer']","[{'text': 'protest', 'score': 0.4498}, {'text': 'bagh', 'score': 0.3906}, {'text': 'farmer', 'score': 0.3658}]",Neutral ,"no stance taken, only news delivered "
+493721,"I guess the UN Secretary General will not be allowed to set foot in India anymore. One more feather in the cap of fascist govt. 
+#India_With_ShaheenBagh
+#IndiaAgainstCAA_NPR_NRC
+@UN @UN_News_Centre @UNGeneva @UNHumanRights @UNOCHA @washingtonpost @AJENews @BBCWorld @gulf_news https://t.co/871p4LLctb",Pro OPP,pro opposition,shaheen bagh,"['india', 'secretary', 'gulf_news']","[{'text': 'india', 'score': 0.4989}, {'text': 'secretary', 'score': 0.3891}, {'text': 'gulf_news', 'score': 0.1591}]",For ,"hashtag suggests that ""india is with shaheen bagh"". Also calls govt ""fascist"". "
+424418,"Irrespective of political leaning, I must applaud the women of Shaheen Bagh and their dedication to protest even after the Corona Virus panic.
+More power to you all.
+Peeche nahi hatna, aaj Corona se dar gaye toh kal Modi koi aur virus le ayega.
+Hatna nahi hai.",Pro Ruling,pro ruling,shaheen bagh,"['protest', 'bagh', 'virus']","[{'text': 'protest', 'score': 0.4498}, {'text': 'bagh', 'score': 0.3865}, {'text': 'virus', 'score': 0.2445}]",For ,praises the courage and dedication of women. 
+958621,"#LeftRightCentre | “I smile when I read these orders. How far removed they are from the reality on the ground! The constitution of India gives us the right to protest…”: Yogendra Yadav, Swaraj India, on the SC order on Shaheen Bagh protests https://t.co/MhSwBNihYc",Pro OPP,pro opposition,shaheen bagh,"['protest', 'india', 'bagh']","[{'text': 'protest', 'score': 0.4599}, {'text': 'india', 'score': 0.4436}, {'text': 'bagh', 'score': 0.2355}]",For ,claims how shaheen bagh is legitimate as constitution gives right to protest. 
+269198,"""Lots of Muslims have apparently joined the party in Kashmir. 
+
+And only the other day, we learnt to our horror  that those very ‘activists’ who were manning the barricades at Shaheen Bagh have now infiltrated the ruling party..."" | Harish Khare.
+
+https://t.co/u6gTosZg2u",Pro OPP,pro opposition,shaheen bagh,"['muslims', 'joined', 'barricades']","[{'text': 'muslims', 'score': 0.5133}, {'text': 'joined', 'score': 0.2637}, {'text': 'barricades', 'score': 0.1982}]",Against ,"""infilitrated"" "
+63891,"Watch |  Thousands of women protesters at #ShaheenBagh had unexpected company: A group of Sikh men, part of a farmers' union, from Punjab arrived to show solidarity with the protesters. Within an hour a langar was up and running. #CAA #NRC #NPR 
+https://t.co/60mdLSLBlG https://t.co/Aoirq7Gdn2",Pro OPP,pro opposition,shaheen bagh,"['protesters', 'bagh', 'farmers']","[{'text': 'protesters', 'score': 0.5182}, {'text': 'bagh', 'score': 0.3513}, {'text': 'farmers', 'score': 0.279}]",For ,shows solidarity of indians for shaheen bagh. 
+285871,"This article in @scroll_in describes how 2 unrelated roads near Shaheen Bagh have been barricaded by Delhi Police giving no concrete reason beyond ""security concerns.""
+
+It reeks of mischief to create resentment amongst commuters against protestors.
+
+https://t.co/4uXFw2eDDU
+
+(2/2)",Pro OPP,pro opposition,shaheen bagh,"['roads', 'protestors', 'scroll_in']","[{'text': 'roads', 'score': 0.4863}, {'text': 'protestors', 'score': 0.2667}, {'text': 'scroll_in', 'score': 0.1475}]",For ,shows how media is trying to create resentment against protesters. 
+103751,"Do watch our special show on Kashmiri Pandits who had to flee the Valley because of jihadist threats 30 years ago.
+'Kashmiri Pandit Aur Shaheen Bagh' Today at 6.40 pm @indiatvnews
+
+#Shikara @rahulpandita @VVCFilms #VidhuVinodChopra #AbhijitJoshi 
+@SushantBSinha https://t.co/idvEONYmQU",Pro Ruling,pro ruling,shaheen bagh,"['indiatvnews', 'jihadist', 'flee']","[{'text': 'indiatvnews', 'score': 0.6012}, {'text': 'jihadist', 'score': 0.4537}, {'text': 'flee', 'score': 0.3163}]",Neutral ,"no stance taken, only news delivered "
+176673,"Isn’t #ShaheenBagh a communal protest? 
+
+Why are we letting a mini Kashmir emerge? 
+
+Are poor, illiterate Muslims children &amp; women being used as weapon by the #UrbanNaxals? 
+
+If your answer is Yes to all questions, join me in exposing and defeating these communal protest.",Pro Ruling,pro ruling,shaheen bagh,"['kashmir', 'protest', 'illiterate']","[{'text': 'kashmir', 'score': 0.5134}, {'text': 'protest', 'score': 0.4075}, {'text': 'illiterate', 'score': 0.1429}]",Against ,"calls shaheen bagh ""communal protest"" and ""mini kashmir"". "
+110175,"Our family has no links  with @AamAadmiParty say relatives in of #ShaheenBaghFiring accused Kapil Gujjar, those pictures are from Lok Sabha polls when every party was campaigning in our village. @DelhiPolice investigate soberly, thoroughly before rushing to provide sound bites 🙏 https://t.co/cC7Ciq3RhG",Pro OPP,pro opposition,shaheen bagh,"['relatives', 'firing', 'delhipolice']","[{'text': 'relatives', 'score': 0.3459}, {'text': 'firing', 'score': 0.2638}, {'text': 'delhipolice', 'score': 0.1133}]",Neutral ,"no stance taken, only news delivered "
+214072,"Watching #BatlaHouse. Had covered the encounter at L18. An encounter that resulted in the elimination of the Delhi module of #IndianMujahideen. Yet this politics over encounter.
+Is there a pattern to these protests?
+From Batla House to Art 370, CAA, Shaheen Bagh, Sharjeel Imam...",Pro Ruling,pro ruling,shaheen bagh,"['delhi', 'protests', 'encounter']","[{'text': 'delhi', 'score': 0.5033}, {'text': 'protests', 'score': 0.4474}, {'text': 'encounter', 'score': 0.3694}]",Against ,says protests are patterns. 
+36349,"Simple solution: instead of election speeches, PM or HM/senior mantri should go to Shaheen Bagh.. their presence alone is easiest way to end this standoff. If the protesters still don't relent, no one can accuse Centre of not trying. Why sit on ego? https://t.co/cSYLehmmZO",Pro OPP,pro opposition,shaheen bagh,"['protesters', 'sit', 'senior']","[{'text': 'protesters', 'score': 0.431}, {'text': 'sit', 'score': 0.2853}, {'text': 'senior', 'score': 0.1989}]",For ,shows how centre is being egotistic. 
+318951,"An image from Pakistan, shot in 2015, has been shared on social media with the false claim that anti-CAA protesters in Shaheen Bagh burned the Indian national flag. #AltNewsFactCheck | @thisisjignesh 
+
+https://t.co/EGBOkR6ce4",Pro OPP,pro opposition,shaheen bagh,"['pakistan', 'protesters', 'burned']","[{'text': 'pakistan', 'score': 0.5074}, {'text': 'protesters', 'score': 0.451}, {'text': 'burned', 'score': 0.3811}]",For ,exposes fake narratives being spread about shaheen bagh. 
+616907,"Courageous, creative, womanly dignified , above all imbued with patriotism and love for beloved Bharat that is India, #ShaheenBagh is a marvel of democracy. Privileged to spend the evening here https://t.co/LRxDSTinLG",Pro OPP,pro opposition,shaheen bagh,"['india', 'bagh', 'patriotism']","[{'text': 'india', 'score': 0.5167}, {'text': 'bagh', 'score': 0.4276}, {'text': 'patriotism', 'score': 0.3804}]",For ,"calls shaheen bagh a ""marvel of democracy"". "
+91757,The #SupremeCourt said on Monday that people have a fundamental right to protest against a law but the blocking of public roads is a matter of concern and there has to be a balancing factor. #ShaheenBagh https://t.co/T5po9UVcx4,Pro OPP,pro opposition,shaheen bagh,"['protest', 'roads', 'court']","[{'text': 'protest', 'score': 0.5439}, {'text': 'roads', 'score': 0.342}, {'text': 'court', 'score': 0.3243}]",Neutral ,"no stance taken, only news delivered "
+139705,"Delhi elections were a direct contest between @ArvindKejriwal &amp; @AmitShah. Kejriwal is responsible for the AAP sweep. Shah is responsible for BJP’s flop show. Nadda, Shaheen Bagh, Tiwari, Delhi police, Chaurasia and Chaudhary were all side shows. It is really as simple as that.",Pro OPP,pro opposition,shaheen bagh,"['delhi', 'elections', 'sweep']","[{'text': 'delhi', 'score': 0.5408}, {'text': 'elections', 'score': 0.5004}, {'text': 'sweep', 'score': 0.2599}]",Neutral ,no stance taken on shaheen bagh. 
+395921,"Kashmir Locked... is their biggest pain
+They never thought someone would ever dare to touch their den
+
+Economy is doing fine, fuel prices are under control
+Shaheen Bagh an@rkalis are fading... Population control bill next...
+
+Modi is the biggest thing which happened to we Indians https://t.co/8bnxAaZhkZ",Pro Ruling,pro ruling,shaheen bagh,"['kashmir', 'pain', 'fuel']","[{'text': 'kashmir', 'score': 0.4733}, {'text': 'pain', 'score': 0.2288}, {'text': 'fuel', 'score': 0.0039}]",Against ,"shows how shaheen bagh is ""under control"" and how modi is the best thing to happen to india. "
+310166,Old image from Pakistan shared as Shaheen Bagh protesters burning Indian flag - Alt News https://t.co/41ivFUv1yQ,Pro OPP,pro opposition,shaheen bagh,"['protesters', 'pakistan', 'burning']","[{'text': 'protesters', 'score': 0.4906}, {'text': 'pakistan', 'score': 0.4906}, {'text': 'burning', 'score': 0.4256}]",For ,shows how fake news is being spread. 
+1062,"Why was it alright for @RanaAyyub to dress up as a Hindu &amp; go around with a hidden camera interviewing BJP/RSS people in Gujarat but not alright for @gunjakapoor to wear a #burqa/veil &amp; ask probing questions in #ShaheenBagh? 
+
+Answer: #PoliticalHypocrisy",Pro Ruling,pro ruling,shaheen bagh,"['hindu', 'hypocrisy', 'interviewing']","[{'text': 'hindu', 'score': 0.5294}, {'text': 'hypocrisy', 'score': 0.3205}, {'text': 'interviewing', 'score': 0.2118}]",Against ,says there is political hypocricy. 
+134267,"WATCH N SHARE
+
+AAP MLA @Saurabh_MLAgk Speaks about the alleged Role of BJP and HOW BJP masterminded the entire Shaheen Bagh Protests.
+
+BJP polarized votes in Delhi Elections using the Shaheen Bagh protests. It was a strategy, planned, scripted by BJP.
+
+@Sonal_MK https://t.co/TrCALhj077",Pro OPP,pro opposition,shaheen bagh,"['saurabh_mlagk', 'elections', 'polarized']","[{'text': 'saurabh_mlagk', 'score': 0.5914}, {'text': 'elections', 'score': 0.3078}, {'text': 'polarized', 'score': 0.0693}]",Against ,shows how shaheen bagh was a masterminded plan of BJP. 
+265478,The #ShaheenBagh protests began with commitment to constitution. There are times when individual rights to protest have to be abandoned in view of larger public good. Please listen to appeals to move even the few protesters at site. You are now harming and not helping the cause.,Pro OPP,pro opposition,shaheen bagh,"['protests', 'bagh', 'abandoned']","[{'text': 'protests', 'score': 0.6177}, {'text': 'bagh', 'score': 0.382}, {'text': 'abandoned', 'score': 0.1674}]",For ,"shows how shaheen bagh is a ""commitment to constitution"". "
+162709,"Shaheen Bagh ki ‘daadi’ farmer protest mein. Ye rishta kya kehlata hai?
+https://t.co/SzhqyfgIVz",Pro Ruling,pro ruling,shaheen bagh,"['kya', 'farmer', 'protest']","[{'text': 'kya', 'score': 0.4871}, {'text': 'farmer', 'score': 0.4376}, {'text': 'protest', 'score': 0.4094}]",Against ,mocks bilkis bano. 
+1965530,"Tear gas wasn’t used in Shaheen Bagh. Lathi charges weren’t considered during the farmers protest. But after 32 years when for the 1st time they tried to raise their voices, police used full force, both lathi’s &amp; tear gas against Kashmiri Hindus. Think about the message here.",Pro Ruling,pro ruling,shaheen bagh,"['hindus', 'force', 'gas']","[{'text': 'hindus', 'score': 0.3411}, {'text': 'force', 'score': 0.1857}, {'text': 'gas', 'score': 0.1557}]",Neutral ,no stance taken on shaheen bagh. 
+14925,"After sending Shah (Shaheen Bagh ko current lagao), Thakur (Goli Maro ...), Adityanath (Boli se nahi to Goli se); &amp; several shooters fire to Jamia &amp; Shaheen Bagh after such incitement; Modi says Jamia &amp;Shaheen Bagh peaceful protests against divisive NRC&amp;CAA are attempt to divide!",Pro OPP,pro opposition,shaheen bagh,"['shah', 'protests', 'divide']","[{'text': 'shah', 'score': 0.5353}, {'text': 'protests', 'score': 0.3286}, {'text': 'divide', 'score': 0.2142}]",For ,shows the violence being conducted against peaceful protesters. 
+153066,If Desh ke Gaddaron ko Goli maaro saalo ko is openly instigating people to lynch Shaheen Bagh protesters then how is this  speech not asking people for the lynching of an elected Prime minister of  our country? https://t.co/LtuzjT2rmS,Pro Ruling,pro ruling,shaheen bagh,"['lynching', 'protesters', 'minister']","[{'text': 'lynching', 'score': 0.417}, {'text': 'protesters', 'score': 0.3734}, {'text': 'minister', 'score': 0.3625}]",Neutral ,no stance taken on shaheen bagh. 
+367532,"Being graceful in victory is an art. 
+
+While @SChopraINC, @YasminKidwai, @srinivasiyc, @salman7khurshid, @priyankagandhi &amp; many others from Congress rushed to assistance of protestors, Kejriwal wanted to “clear Shaheen Bagh in 2 hours”.
+
+Why lie so much just to take potshots? 🙄 https://t.co/2oDxev7wG5",Pro OPP,pro opposition,shaheen bagh,"['priyankagandhi', 'protestors', 'congress']","[{'text': 'priyankagandhi', 'score': 0.5008}, {'text': 'protestors', 'score': 0.3986}, {'text': 'congress', 'score': 0.3304}]",Neutral ,no stance taken on shaheen bagh. 
+286500,"Shaheen Bagh, Jamia , JNU mein Hinduon ki liye pyar ke geet gaye ja rahe the https://t.co/16zPsmHj4F",Pro Ruling,pro ruling,shaheen bagh,"['hinduon', 'bagh', 'gaye']","[{'text': 'hinduon', 'score': 0.5714}, {'text': 'bagh', 'score': 0.457}, {'text': 'gaye', 'score': 0.3825}]",Against ,sarcastic tone. 
+205981,Me &amp; @raghav355 dared to go for a @IndiaToday debate at #ShaheenBagh in @rahulkanwal’s show today. As soon we expressed our views we both were man-handled &amp; pushed. Thanks to @_sabanaqvi &amp; @javedmansari to help us come out mid-debate.,Pro Ruling,pro ruling,shaheen bagh,"['debate', 'indiatoday', 'javedmansari']","[{'text': 'debate', 'score': 0.5783}, {'text': 'indiatoday', 'score': 0.3868}, {'text': 'javedmansari', 'score': 0.3765}]",Against ,shows how protesters are violent. 
+1425418,"Today, last year. Memories of #ShaheenBagh and those women of raw indomitable courage. Yesterday Shaheen, today #Singhu: the bravery of India’s citizens always inspires https://t.co/cwlzGyw5rW",Pro OPP,pro opposition,shaheen bagh,"['india', 'bravery', 'bagh']","[{'text': 'india', 'score': 0.5167}, {'text': 'bravery', 'score': 0.4645}, {'text': 'bagh', 'score': 0.3687}]",For ,"praises women protesters for having ""raw indomitable courage"". "
+395782,RT if you too believe that Shaheen Bagh protesters will disappear post elections just like how Aarey activists disappeared post Maharashtra elections,Pro Ruling,pro ruling,shaheen bagh,"['protesters', 'disappeared', 'maharashtra']","[{'text': 'protesters', 'score': 0.4918}, {'text': 'disappeared', 'score': 0.3517}, {'text': 'maharashtra', 'score': 0.2928}]",Against ,shows how it is a political ploy. 
+461909,Shaheen Bagh sowed so many seeds 😍😍😍 #FarmersProtest #IndiaWithFarmers #shaheenbagh https://t.co/tudPQFUJ5i,Pro OPP,pro opposition,shaheen bagh,"['farmers', 'bagh', 'protest']","[{'text': 'farmers', 'score': 0.515}, {'text': 'bagh', 'score': 0.4289}, {'text': 'protest', 'score': 0.3696}]",For ,positive attitude. 
+181038,"#Hyderabadpolice on Tuesday filed a case against well-known poet and #Congress leader #ImranPratapgarhi for asking why a #ShaheenBagh-like protest has not been held in the city.
+
+Photo: Imran Pratapgarhi https://t.co/FbVcYYVEa8",Pro OPP,pro opposition,shaheen bagh,"['hyderabad', 'protest', 'filed']","[{'text': 'hyderabad', 'score': 0.4356}, {'text': 'protest', 'score': 0.3398}, {'text': 'filed', 'score': 0.3227}]",Neutral ,no stance taken on shaheen bagh. 
+159009,"Far away from #ShaheenBagh, two days ago, a TMC leader in Bengal fired at anti-CAA protesters and killed two. MSM and SM QaumReds quietly shoved it under the carpet. Narrative ka sawal hai. #kapilgujjar
+https://t.co/WdZMJCSkri",Pro Ruling,pro ruling,shaheen bagh,"['bengal', 'protesters', 'fired']","[{'text': 'bengal', 'score': 0.4318}, {'text': 'protesters', 'score': 0.4099}, {'text': 'fired', 'score': 0.3115}]",For ,shows how killing of protesters are shoved under the carpet. 
+64745,"In the next few hours, @OpIndia_com and @OpIndia_in are going to publish some exclusive stories on #ShaheenBagh. Their Jihad is as clear as day. Stay tuned.",Pro Ruling,pro ruling,shaheen bagh,"['jihad', 'opindia_com', 'hours']","[{'text': 'jihad', 'score': 0.6247}, {'text': 'opindia_com', 'score': 0.3606}, {'text': 'hours', 'score': 0.1146}]",Against ,"calls shaheen bagh ""jihad"". "
+445181,"Time for the government to use force &amp; disperse the Shaheen Bagh gang. Yesterday, they were a national nuisance. Today, they have become a national hazard. What they are doing is trying to blackmail the country into submission. #CoronaVirus  https://t.co/do32hsiPwK",Pro Ruling,pro ruling,shaheen bagh,"['government', 'blackmail', 'coronavirus']","[{'text': 'government', 'score': 0.4163}, {'text': 'blackmail', 'score': 0.2846}, {'text': 'coronavirus', 'score': 0.2832}]",Against ,encouraging Government to use force against shaheen bagh. 
+159103,"The economist of #ShaheenBagh 
+
+Giving open call for economic and civil revolt to Islamic women protestors. https://t.co/o5h0DJEByJ",Pro Ruling,pro ruling,shaheen bagh,"['islamic', 'protestors', 'economist']","[{'text': 'islamic', 'score': 0.5246}, {'text': 'protestors', 'score': 0.5147}, {'text': 'economist', 'score': 0.3352}]",Against ,negative connotations. 
+383500,we can conclude that those who are protesting against CAA in Shaheen bagh and those who are serving them langar don’t want Modi govt to help hindu asylum seekers in India from Pakistan https://t.co/DzSWJUMux5,Pro Ruling,pro ruling,shaheen bagh,"['hindu', 'protesting', 'asylum']","[{'text': 'hindu', 'score': 0.4569}, {'text': 'protesting', 'score': 0.3139}, {'text': 'asylum', 'score': 0.2996}]",Against ,claims that shaheen bagh is against those hindus trying to seek asylum in India from Pakistan.
+450155,"""I want to dedicate this award to the people of Kashmir and the women of Shaheen Bagh who have been the single largest influence on my journalism this year,"" said @khanumarfa on receiving the 2019 Chameli Devi Jain Award alongside @rohini_mohan.
+
+https://t.co/Y8ItMOzhLk https://t.co/AGlBiaKaW1",Pro OPP,pro opposition,shaheen bagh,"['journalism', 'award', 'kashmir']","[{'text': 'journalism', 'score': 0.4872}, {'text': 'award', 'score': 0.48}, {'text': 'kashmir', 'score': 0.4108}]",For ,praises shaheen bagh. 
+28260,"Modi's police issues ultimatum to vacate the protesting site against #CAA_NRC at Shaheen Bagh, Delhi. #JNUViolence has been created to divert the attention from #CAA_NRCProtests  &amp; polarize the country further to brand the #CAA_NRC protesters anti-nationals.",Pro OPP,pro opposition,shaheen bagh,"['protests', 'police', 'brand']","[{'text': 'protests', 'score': 0.4716}, {'text': 'police', 'score': 0.4014}, {'text': 'brand', 'score': 0.0008}]",For ,shows how government is creating anti-national narratives towards shaheen bagh. 
+330191,"Recently:
+
+- 4 days ago, ex AMUSU leader Mr. Sajjad Subhan was wearing Burkha in a protest.
+
+- Maa Kaali was shown wearing Hijab in poster.
+
+- Indulekha wore Burkha in anti CAA protest.
+
+But how dare YouTuber Gunja Kapoor went to Shaheen Bagh in Burkha for undercover reporting?",Pro Ruling,pro ruling,shaheen bagh,"['burkha', 'protest', 'youtuber']","[{'text': 'burkha', 'score': 0.5792}, {'text': 'protest', 'score': 0.3305}, {'text': 'youtuber', 'score': 0.1019}]",Against ,shows hypocricy of protesters. 
+223299,"This is from Shaheen Bagh ❤️❤️
+
+Muslim kids bringing dupatta of their mothers and Sikhs tying turban for them.. 
+
+This unity gonna haunt Sanghis... They wanted to divide us but now people are coming more close to each other. 
+
+Video : @bushrakhanum86 
+
+#ShaheenBaghProtest https://t.co/4i1hXlxQoB",Pro OPP,pro opposition,shaheen bagh,"['muslim', 'bringing', 'tying']","[{'text': 'muslim', 'score': 0.6126}, {'text': 'bringing', 'score': 0.2583}, {'text': 'tying', 'score': 0.1701}]",For ,showing how shaheen bagh is bringing people closer to one another. 
+80506,Why Shaheen Bagh protesters need not worry about Delhi election https://t.co/hcyMQDp7ZZ,Pro OPP,pro opposition,shaheen bagh,"['protesters', 'delhi', 'worry']","[{'text': 'protesters', 'score': 0.4812}, {'text': 'delhi', 'score': 0.3623}, {'text': 'worry', 'score': 0.253}]",For ,comforts shaheen bagh protesters. 
+933078,AIDWA President fiercely hit out at the ruling government for a range of authoritarian actions and said that all the recent movements have a common goal - to protect Constitution against fascism. #ShaheenBagh #CAA #NRC #Protests https://t.co/t47NLoTaCQ,Pro OPP,pro opposition,shaheen bagh,"['authoritarian', 'protests', 'range']","[{'text': 'authoritarian', 'score': 0.5445}, {'text': 'protests', 'score': 0.5242}, {'text': 'range', 'score': 0.062}]",For ,says shaheen bagh seeks to protect constitution from fascist government. 
+98662,"Didn’t put this video of Shaheen Bagh before but it is crystal clear that protest at  Shaheen Bagh  was also about Ram Mandir, Triple Talaq and hate for Hinduism. Look how protestors are brainwashed with hate.
+#ShaheenBaghProtests https://t.co/Ab60boxIv6",Pro Ruling,pro ruling,shaheen bagh,"['bagh', 'protestors', 'hinduism']","[{'text': 'bagh', 'score': 0.4517}, {'text': 'protestors', 'score': 0.4356}, {'text': 'hinduism', 'score': 0.3906}]",Against ,claims that shaheen bagh symbolises hate for hinduism. 
+412319,"Govt's Plan B to discredit Shaheen Bagh:
+
+Fake sting to claim it is a paid protest.
+
+Zee News asks why no one protested for KPs in 1990.
+
+India Today raises the issue of traffic snarls.
+
+All 3 narratives are pushed by IT Cell on Social Media.",Pro OPP,pro opposition,shaheen bagh,"['discredit', 'india', 'traffic']","[{'text': 'discredit', 'score': 0.412}, {'text': 'india', 'score': 0.3532}, {'text': 'traffic', 'score': 0.2155}]",For ,shows how government controls media narratives about shaheen bagh to discredit it. 
+135961,"This right here is @sardanarohit not only spreading fake news about the current farmer protests but also the Shaheen Bagh protests. 
+
+He is engaging in hate speech and dividing India. All those who advertise with his channel or associate with it in anyway promote this. https://t.co/vtpltZouWZ",Pro OPP,pro opposition,shaheen bagh,"['sardanarohit', 'india', 'protests']","[{'text': 'sardanarohit', 'score': 0.4564}, {'text': 'india', 'score': 0.4355}, {'text': 'protests', 'score': 0.4243}]",For,claims that there is fake news and hate speech being spread about shaheen bagh. 
+176621,"Zee News Editor-In-Chief Sudhir Chaudhary stopped by protesters from entering Shaheen Bagh
+
+https://t.co/pYGBSmMjYK
+
+#370InShaheenBagh 
+
+#ShaheenBagh",Pro Ruling,pro ruling,shaheen bagh,"['protesters', '370inshaheenbagh', 'stopped']","[{'text': 'protesters', 'score': 0.4568}, {'text': '370inshaheenbagh', 'score': 0.3908}, {'text': 'stopped', 'score': 0.2733}]",Against ,hashtag suggests negative view. 
+312144,"#ShaheenBaghModel | Shaheen Bagh is a people's protest, it is a satyagraha against the black law. The people who are protesting want to save the Constitution and the democracy: @warispathan- National Spokesperson, AIMIM
+https://t.co/jghcakh6lP",Pro Ruling,pro ruling,shaheen bagh,"['bagh', 'protesting', 'satyagraha']","[{'text': 'bagh', 'score': 0.5628}, {'text': 'protesting', 'score': 0.5453}, {'text': 'satyagraha', 'score': 0.3709}]",For ,claims that those protesting at shaheen bagh want to save democracy and constitution. 
+72786,"#Verified             #Breaking
+
+👉BJP cancels Kapil Gujjar's membership
+
+👉BJP says it didn't know Kapil had fired at anti-CAA protesters at #ShaheenBagh
+
+👉Kapil had earlier today joined BJP
+
+👉Kapil had in February shot at protesters &amp; said, 'In India, only Hindus will rule'",Pro OPP,pro opposition,shaheen bagh,"['hindus', 'fired', 'protesters']","[{'text': 'hindus', 'score': 0.4064}, {'text': 'fired', 'score': 0.3125}, {'text': 'protesters', 'score': 0.2888}]",Neutral ,"no stance taken, only news delivered "
+961843,"In wanting to resurrect and stir massive Shaheen Bagh-like protests in UP, Owaisi has picked the wrong man. One can almost imagine Yogi Adityanath calling him up and whispering: Tu aayega na, darega toh nahin?
+
+My views on Owasi’s CAA dare, on @TimesNow. https://t.co/lWKUwscLE3",Pro Ruling,pro ruling,shaheen bagh,"['nahin', 'protests', 'resurrect']","[{'text': 'nahin', 'score': 0.4641}, {'text': 'protests', 'score': 0.3222}, {'text': 'resurrect', 'score': 0.0908}]",Against ,shows how shaheen bagh was planned. 
+272707,"Solicitor General reiterates  ""I don't want the message to be that we've been brought to our knees""
+
+#ShaheenBaghProtests",Pro OPP,pro opposition,shaheen bagh,"['protests', 'general', 'knees']","[{'text': 'protests', 'score': 0.5401}, {'text': 'general', 'score': 0.4173}, {'text': 'knees', 'score': 0.3186}]",Neutral ,no stance taken on shaheen bagh. 
+312155,"#ShaheenBaghGoHome | People from all walks of life are against the black law and they are protesting: @warispathan, National Spokesperson, AIMIM https://t.co/RZHKU3wOei",Pro Ruling,pro ruling,shaheen bagh,"['black', 'protesting', 'bagh']","[{'text': 'black', 'score': 0.4705}, {'text': 'protesting', 'score': 0.4526}, {'text': 'bagh', 'score': 0.3421}]",For ,"shows how shaheen bagh is a protest against a ""black law"". "
+109816,"#ShaheenBagh perhaps the only place in India ushering in the new year with the national anthem. 
+
+(Video courtesy @VakashaS ) https://t.co/yJFLeO02Gf",Pro OPP,pro opposition,shaheen bagh,"['anthem', 'india', 'bagh']","[{'text': 'anthem', 'score': 0.5136}, {'text': 'india', 'score': 0.4251}, {'text': 'bagh', 'score': 0.3868}]",For ,portrays how shaheen bagh stands for India. 
+41198,"@DelhiPolice @SudarshanNewsTV @CPDelhi @HMOIndia @AmitShah Sudarshan sought Police permission for #JantaMarch against murderous attacks on Hindu girls, which was not refused.
+
+While we were peacefully protesting, one Sarfroz ordered police to assault women &amp; sadhus 
+
+Hindus can't protest for 101 mts but #shaheenbagh allowed for 101 days!",Pro Ruling,pro ruling,shaheen bagh,"['hindus', 'police', 'protesting']","[{'text': 'hindus', 'score': 0.4547}, {'text': 'police', 'score': 0.4304}, {'text': 'protesting', 'score': 0.3357}]",Against,shows hypocricy against Hindus. 
+45107,So @Mayawati supporter Kapil suddenly turned ‘saffron’ and went to #ShaheenBagh? Do they really think the people of India are this stupid?  https://t.co/3QbgmkYEaH,Pro Ruling,pro ruling,shaheen bagh,"['india', 'stupid', 'saffron']","[{'text': 'india', 'score': 0.4158}, {'text': 'stupid', 'score': 0.294}, {'text': 'saffron', 'score': 0.1369}]",Neutral ,no stance taken on shaheen bagh. 
+12514,"My hair stylist a muslim man invested Rs. 5 lakhs in a salon in Shaheen Bagh but protests killed his business before it could take-off. Not a single person lost citizenship but many genuinely talented people lost employment, business and even their lives. Bilkis is not my hero. https://t.co/tiUrArik1f",Pro Ruling,pro ruling,shaheen bagh,"['muslim', 'hero', 'invested']","[{'text': 'muslim', 'score': 0.4554}, {'text': 'hero', 'score': 0.3065}, {'text': 'invested', 'score': 0.2409}]",Against ,claims that shaheen bagh was disastrous for livelihoods. 
+341455,"Tara Singh Hayer, publisher of Indo-Canadian Times, was killed at Surrey, #Canada, for opposing Khalistanis and deposing before investigators probing Air India Kanishka bombing.
+I say again, this protest has as much to do with #FarmLaws2020 as #Shaheenbagh had to do with #CAA https://t.co/AqWuvaO5SZ",Pro Ruling,pro ruling,shaheen bagh,"['killed', 'india', 'farmlaws2020']","[{'text': 'killed', 'score': 0.4812}, {'text': 'india', 'score': 0.2859}, {'text': 'farmlaws2020', 'score': 0.1932}]",Against ,portrays that shaheen bagh was planned and not genuine. 
+152833,"#ShaheenBaghDoesntCare | This is an unprecedented, global situation, countries have been locked down. Gatherings have been stopped. It is our duty as citizens to keep Indians healthy: @NalinSKohli- National Spokesperson, BJP &amp; Sr Advocate, SC
+https://t.co/jghcajZuXf https://t.co/8eaHRyif0x",Pro Ruling,pro ruling,shaheen bagh,"['indians', 'spokesperson', 'locked']","[{'text': 'indians', 'score': 0.5459}, {'text': 'spokesperson', 'score': 0.2469}, {'text': 'locked', 'score': 0.2023}]",Against ,hashtag suggests negative view. 
+253735,"Imagine...
+The Govt of India,
+The entire media of India,
+The Supreme Court of India,
+The Political Parties of India,
+Everyone is talking &amp; scratching their heads over what to do with #ShaheenBaghProtests
+.
+There is no other issue or bigger crisis than opening a road in Delhi!🤣🙏",Pro OPP,pro opposition,shaheen bagh,"['delhi', 'protests', 'scratching']","[{'text': 'delhi', 'score': 0.4453}, {'text': 'protests', 'score': 0.3816}, {'text': 'scratching', 'score': 0.1069}]",For ,sarcastic tone. 
+226332,"Many netizens asked #PMModi to hand over his social media accounts to the women of #ShaheenBagh, while some asked him to give it to missing JNU student Najeeb’s mother and #RohithVemula’s mother. #SheInspiresUs https://t.co/t8Lt7i9D6e",Pro OPP,pro opposition,shaheen bagh,"['najeeb', 'media', 'netizens']","[{'text': 'najeeb', 'score': 0.3718}, {'text': 'media', 'score': 0.2933}, {'text': 'netizens', 'score': 0.1889}]",For ,mocks modi. 
+1258630,"Dilli Morcha!
+
+Identify the faces!
+Mark the agenda!
+These are Neither Sikhs, Nor Farmers!
+These are the same Paid Protestors who were at #ShaheenBagh!
+
+#SinghuBorder is the new #ShaheenBagh
+
+Will they burn Delhi again? https://t.co/An10NAuZiT",Pro Ruling,pro ruling,shaheen bagh,"['delhi', 'protestors', 'burn']","[{'text': 'delhi', 'score': 0.4681}, {'text': 'protestors', 'score': 0.3544}, {'text': 'burn', 'score': 0.2407}]",Against ,calls shaheen bagh a paid protest and not genuine. 
+134269,"IMPORTANT PRESS CONF BY AAP
+
+@Saurabh_MLAgk Exposes the BJP &amp; it's entire Delhi Election Campaign which was based on #ShaheenBagh
+
+They used Shaheen Bagh for their Electoral benefit
+
+Now, these Shaheen bagh conspirators are joining the BJP!!
+
+Pro-Democracy activists feel cheated. https://t.co/GmoMcEskHV",Pro OPP,pro opposition,shaheen bagh,"['saurabh_mlagk', 'election', 'conspirators']","[{'text': 'saurabh_mlagk', 'score': 0.5068}, {'text': 'election', 'score': 0.3513}, {'text': 'conspirators', 'score': 0.3398}]",Against ,shows how shaheen bagh was a conspiracy to support bjp. 
+240516,Shaheen Bagh protest site seen empty as AAP all set to return in Delhi https://t.co/KNxHb0cOxT,Pro Ruling,pro ruling,shaheen bagh,"['empty', 'delhi', 'protest']","[{'text': 'empty', 'score': 0.3653}, {'text': 'delhi', 'score': 0.2868}, {'text': 'protest', 'score': 0.2473}]",Neutral ,"no stance taken, only news delivered "
+223232,"This guy is Kapil Gujjar who'd shot fire at Shaheen Bagh protest.
+
+After getting bail, he received heroic welcome. 
+
+These sick people glorify murderers/terrorists/rapists because victims are Muslims. https://t.co/OtmDTt4YOp",Pro OPP,pro opposition,shaheen bagh,"['muslims', 'bail', 'fire']","[{'text': 'muslims', 'score': 0.5427}, {'text': 'bail', 'score': 0.2851}, {'text': 'fire', 'score': 0.2433}]",For ,shows how hindus get easy bail for attacking muslims. 
+34402,"The police begin the RTI response by talking about Jamia &amp; the usual ""burning of buses"" garbage (which is totally irrelevant).
+
+Then they mention that Shaheen Bagh protestors occupied Road No. 13A 
+
+(Pls note that the occupied part was only 100-150 metres)
+
+(2/4)",Pro OPP,pro opposition,shaheen bagh,"['police', 'protestors', '150']","[{'text': 'police', 'score': 0.4367}, {'text': 'protestors', 'score': 0.3242}, {'text': '150', 'score': 0.2784}]",For ,shows how misinformation is being spread. 
+225364,"Thousands of packets of free biryani, Rs 500-700 reportedly spent on each protester, other event expenses?
+Who is sponsoring the #ShaheenBagh protests?
+
+#ShaheenBaghTruth #ShaheenBaghCracks",Pro Ruling,pro ruling,shaheen bagh,"['protester', 'bagh', '500']","[{'text': 'protester', 'score': 0.5502}, {'text': 'bagh', 'score': 0.3669}, {'text': '500', 'score': 0.31}]",Against ,suggests that somone is sponsoring the protest. 
+25872,"Shaheen Bagh protestors feel they should not have to prove their Indian citizenship. But they want special privileges that ordinary citizens do not have, including the right to occupy public spaces and disrupt public activity for months on end. What principles do they represent?",Pro Ruling,pro ruling,shaheen bagh,"['citizens', 'indian', 'principles']","[{'text': 'citizens', 'score': 0.4619}, {'text': 'indian', 'score': 0.3704}, {'text': 'principles', 'score': 0.2754}]",Against ,shows hypocricy of protesters. 
+1193473,So this farmer protest is indeed shaheen bagh 2 .. shaheen bagh burqa gang used to get only 500 rupees per day but here they 2-3k plus food and liquor https://t.co/g4eR2aquwF,Pro Ruling,pro ruling,shaheen bagh,"['protest', 'farmer', 'liquor']","[{'text': 'protest', 'score': 0.4429}, {'text': 'farmer', 'score': 0.4276}, {'text': 'liquor', 'score': 0.2557}]",Against ,suggests it’s a paid protest.
+229187,"Two massive protests,
+Both peacefully asking Govt to roll back a Bad Bill,
+Only one manages to make the Govt. bend over backwards.
+Why?
+They may appear similar; but #ShaheenBagh &amp; #FarmerProtests are deeply different too.
+Brilliant writing by @Pun_Starr🔥
+-https://t.co/JbLcNDmwgD https://t.co/SPiVUfSXps",Pro OPP,pro opposition,shaheen bagh,"['protests', 'both', 'farmer']","[{'text': 'protests', 'score': 0.5095}, {'text': 'both', 'score': 0.4725}, {'text': 'farmer', 'score': 0.2217}]",For ,shows how shaheen bagh is peaceful.
+185883,"A month on, #ShaheenBaghProtest shows no signs of flagging. Centered around a core group of local women, Shaheen Bagh has inspired people from across India to organise similar sit-ins. 
+
+#India #News #TelegraphIndia… https://t.co/ZLmwVXQVDL",Pro OPP,pro opposition,shaheen bagh,"['bagh', 'india', 'protest']","[{'text': 'bagh', 'score': 0.5129}, {'text': 'india', 'score': 0.4123}, {'text': 'protest', 'score': 0.3723}]",For ,conveys how shaheen bagh is led by women and inspiring. 
+591004,"#Video | 'Naam #ShaheenBagh Hai' is a poem by Darab Farooqui, dedicated to the protest at Shaheen Bagh, a fountainhead of resistance against #CAA,# NRC and NPR.
+https://t.co/edowTcg491",Pro OPP,pro opposition,shaheen bagh,"['bagh', 'protest', 'farooqui']","[{'text': 'bagh', 'score': 0.5195}, {'text': 'protest', 'score': 0.4398}, {'text': 'farooqui', 'score': 0.402}]",For ,"calls it a ""fountainhead of resistance""."
+115980,Bapu on Dandi March with a kid leading....This FYI #SupremeCourt. The women take kids to #ShaheenBaghProtest as there’s nobody to look after them back home.  https://t.co/GkPQeNOIR1,Pro OPP,pro opposition,shaheen bagh,"['protest', 'court', 'bagh']","[{'text': 'protest', 'score': 0.491}, {'text': 'court', 'score': 0.3549}, {'text': 'bagh', 'score': 0.3319}]",For ,shows obstacles for protesting women and how they overcome it. 
+98728,"This is what @_sabanaqvi types are doing in #ShaheenBagh yesterday Arnab @republic said that they want to create #ShaheenBagh bags across India. 
+
+They basically meant Kabja of Arterial Roads across Indian cities. 
+
+Here is the detailed plan folks. 
+
+https://t.co/lMQhkEukLi",Pro Ruling,pro ruling,shaheen bagh,"['bagh', 'india', 'roads']","[{'text': 'bagh', 'score': 0.572}, {'text': 'india', 'score': 0.3891}, {'text': 'roads', 'score': 0.2557}]",Against ,shows that shaheen bagh is part of a bigger plot to capture arterial roads. 
+70317,Happening now: #ShaheenBagh Dadi Bilkis Bano came to the #FarmersProtest site to register her support to farmers. But is being escorted out of here by @DelhiPolice https://t.co/PGtz3Vwyk3,Pro OPP,pro opposition,shaheen bagh,"['farmers', 'protest', 'bagh']","[{'text': 'farmers', 'score': 0.4652}, {'text': 'protest', 'score': 0.3896}, {'text': 'bagh', 'score': 0.3419}]",Neutral ,"no stance taken, only news delivered "
+353990,"Watch | ""Only what Hindus want will happen in this country,"" the #ShaheenBagh shooter said as the police led him away.
+
+Read here https://t.co/ITfWdQHav4 https://t.co/qGXsLlDabx",Pro OPP,pro opposition,shaheen bagh,"['hindus', 'bagh', 'shooter']","[{'text': 'hindus', 'score': 0.6069}, {'text': 'bagh', 'score': 0.2811}, {'text': 'shooter', 'score': 0.2695}]",Neutral ,"no stance taken, only news delivered "
+312192,"#GunsInDelhi | The entire country has become Shaheen Bagh, I am with all the protesters. The BJP is scared: @warispathan- National Spokesperson, AIMIM
+https://t.co/RZHKU3wOei",Pro Ruling,pro ruling,shaheen bagh,"['delhi', 'protesters', 'guns']","[{'text': 'delhi', 'score': 0.4889}, {'text': 'protesters', 'score': 0.4302}, {'text': 'guns', 'score': 0.3745}]",For ,shows how shaheen bagh is being supported by the country. 
+929009,"Despite their different trajectories, Shaheen Bagh and farmers protests teach us a lesson that we would do well to learn: in political cultures beleaguered by majoritarianism, mobilized minorities offer the most reliable resistance to bigotry and reaction. https://t.co/6T5Noxt1FT",Pro OPP,pro opposition,shaheen bagh,"['protests', 'bagh', 'farmers']","[{'text': 'protests', 'score': 0.5044}, {'text': 'bagh', 'score': 0.292}, {'text': 'farmers', 'score': 0.2142}]",For ,shows how mobolised minorities offer reliable resistance to majoritarianism and bigotry. 
+199296,"This! Beautiful picture. #ShaheenBagh dadis bless @DelhiPolice officer (Please tag photographer)
+
+This happened earlier today when delegation led by dadis met cops, sought permission to march to Home Minister’s Res to meet him
+
+Cops assured them, their request will be taken ahead https://t.co/ESePVhcTzZ",Pro OPP,pro opposition,shaheen bagh,"['cops', 'delegation', 'delhipolice']","[{'text': 'cops', 'score': 0.5193}, {'text': 'delegation', 'score': 0.388}, {'text': 'delhipolice', 'score': 0.1209}]",For ,"calls old shaheen bagh women blessing police officers a ""beautiful picture"". "
+152314,"Good Morning @priyankac19 Aunty, 
+Farmers aren't protesting.. Dalals &amp; Khalistan Supporters are.. Oops &amp; it's joined by Shaheen Bagh gang too.. 
+Proofs hai.. Come out of your Louis Vuitton &amp; read @OpIndia_com exposè.. And other two are @sardesairajdeep &amp; @Shehla_Rashid types😅 https://t.co/bx9hXt45fB",Pro Ruling,pro ruling,shaheen bagh,"['protesting', 'farmers', 'shehla_rashid']","[{'text': 'protesting', 'score': 0.4719}, {'text': 'farmers', 'score': 0.4269}, {'text': 'shehla_rashid', 'score': 0.3044}]",Against ,shows that it’s a khalistani scheme. 
+1994285,"Shazia Ilmi, BJP spokesperson : The Opposition has no problem with anti encroachment drives elsewhere but Shaheen Bagh. 
+#BulldozerInShaheenBagh
+@shaziailmi 
+@pradip103 
+@IndiaNews_itv",Pro Ruling,pro ruling,shaheen bagh,"['opposition', 'indianews_itv', 'bulldozer']","[{'text': 'opposition', 'score': 0.459}, {'text': 'indianews_itv', 'score': 0.4218}, {'text': 'bulldozer', 'score': 0.413}]",Against ,"hashtag suggests that ""bulldozer raj"" should be done in shaheen bagh. "
+16493,"Distances:
+
+Tamil Nadu to Delhi - 2488 kms
+Assam to Delhi - 2092 kms
+Shaheen Bagh to Jantar Mantar - 15 kms
+
+If poor farmers can come from Tamil Nadu and Assam to protest at Ramlila Maidan, why can’t Shaheen Bagh protestors go there?
+
+Why this blackmail?",Pro Ruling,pro ruling,shaheen bagh,"['delhi', 'distances', 'protestors']","[{'text': 'delhi', 'score': 0.5245}, {'text': 'distances', 'score': 0.3446}, {'text': 'protestors', 'score': 0.2873}]",For ,shows how there is blackmail against shaheen bagh. 
+199978,"After SC observations, Shaheen Bagh protesters should call off their protest
+
+https://t.co/7rOoqRpywQ",Pro Ruling,pro ruling,shaheen bagh,"['protesters', 'call', 'bagh']","[{'text': 'protesters', 'score': 0.5309}, {'text': 'call', 'score': 0.306}, {'text': 'bagh', 'score': 0.2879}]",Against ,calls for calling off of shaheen bagh. 
+82051,"""Absolutely condemn Sharjeel Imam's comment on Assam. Women in Shaheen Bagh have been protesting for this country in cold weather and this comment is unconditionally against their efforts,” said AIMIM Chief Asaduddin Owaisi.
+Read here: https://t.co/nyoU1TGsP6 https://t.co/MgiJ72oEQY",Pro OPP,pro opposition,shaheen bagh,"['protesting', 'assam', 'bagh']","[{'text': 'protesting', 'score': 0.4137}, {'text': 'assam', 'score': 0.4075}, {'text': 'bagh', 'score': 0.2027}]",For ,portrays strength and might of women. 
+1703869,"A year ago, OpIndia went on ground at Shaheen Bagh to bring in how the so-called organic protests were very well organised. Read what we found  https://t.co/csbBBBC9XC",Pro Ruling,pro ruling,shaheen bagh,"['protests', 'organic', 'ground']","[{'text': 'protests', 'score': 0.4669}, {'text': 'organic', 'score': 0.3463}, {'text': 'ground', 'score': 0.3438}]",Against ,claims that shaheen bagh is actually an organised protest and not organic in nature. 
+461231,"#ExpressOpinion | No matter where you stand on CAA and NRC, there is no way that the grit and perseverance of Shaheen Bagh protesters as also their warmth can go unnoticed by anyone, @sahilmbeg writes. 
+ https://t.co/5UZN45Cj7N",Pro OPP,pro opposition,shaheen bagh,"['protesters', 'perseverance', 'bagh']","[{'text': 'protesters', 'score': 0.5305}, {'text': 'perseverance', 'score': 0.2854}, {'text': 'bagh', 'score': 0.2826}]",For ,"commends the ""grit"", ""perseverence"" and ""warmth"" of shaheen bagh. "
+712554,"Bhima Koregaon
+Shaheen Bagh
+Farmers’ Movement
+They control the narrative.
+They have the machinery.
+They know how to crush people’s movements.",Pro OPP,pro opposition,shaheen bagh,"['movement', 'farmers', 'bhima']","[{'text': 'movement', 'score': 0.4586}, {'text': 'farmers', 'score': 0.4544}, {'text': 'bhima', 'score': 0.3283}]",For ,shows how government controls the narrative and technology to crush peoples movement like shaheen bagh. 
+896206,"74% respondents found @PMOIndia performance either outstanding or good in @IndiaToday #MoodOfTheNation. 23% say average or poor. NDA (minus Shiv Sena &amp; Akali Dal) at 321 &amp; UPA at 93. #NDA vote share at 43% in survey despite #ShaheenBagh, #farmersrprotest #Pandemic #Recession
+#LAC https://t.co/C4ZuGEzL1m",Pro Ruling,pro ruling,shaheen bagh,"['indiatoday', 'performance', 'recession']","[{'text': 'indiatoday', 'score': 0.4717}, {'text': 'performance', 'score': 0.3665}, {'text': 'recession', 'score': 0.323}]",Neutral ,no stance taken on shaheen bagh. 

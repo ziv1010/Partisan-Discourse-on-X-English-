@@ -1,0 +1,374 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,STANCE ,Reasoning 
+,"Did our former PM Dr. Manmohan Sigh not remark that democracy is being harmed due to protests on Telangana issue?
+
+Atal Ji created not one but three states. The entire process was done in an amicable manner, unlike what happened during the creation of Telangana: PM @narendramodi",Pro Ruling,,modi,"['narendramodi', 'protests', 'states']","[{'text': 'narendramodi', 'score': 0.4407}, {'text': 'protests', 'score': 0.3252}, {'text': 'states', 'score': 0.2692}]",for ,shows under congress there is disorder but under BJP there was amicability in state creation. 
+,"#modi_rojgaar_do is trending. for good reason. He promised 2 Cr new jobs/Year. Instead, he destroyed 2 Cr existing jobs/Year. Saw a KM long line of young men in queue at Palampur today for a few army jobs.
+BJP tries to employ them in their troll army to divert them to Communalism",Pro OPP,,modi,"['modirojgaardo', 'employ', 'trending']","[{'text': 'modirojgaardo', 'score': 0.4132}, {'text': 'employ', 'score': 0.3171}, {'text': 'trending', 'score': 0.2526}]",against ,Modi destroyed jobs. wants young men to turn towards communalism.
+,"Don’t allow pliable media &amp; @narendramodi to spin this as an act of largesse. Bereft of a shred of remorse, unapologetic for the violence wreaked on #FarmersProtest_Martyrs It is simply the ground realities of Punjab &amp; #UPElections2022 that’s compelled him #जीता_किसान_हारा_अभिमान https://t.co/WSrjI8GreG",Pro OPP,,modi,"['narendramodi', 'protest', 'media']","[{'text': 'narendramodi', 'score': 0.6044}, {'text': 'protest', 'score': 0.4142}, {'text': 'media', 'score': 0.3509}]",against ,shows media is pliable under modi and that modi is spinning false tales on farmers protest. 
+,Many many congrats to Gautam Adani &amp; @narendramodi truly an achievement https://t.co/MaFazk1ujh,Pro OPP,,modi,"['congrats', 'narendramodi', 'amp']","[{'text': 'congrats', 'score': 0.6029}, {'text': 'narendramodi', 'score': 0.5716}, {'text': 'amp', 'score': 0.2994}]",for ,celebratory towards Modi's achievement
+,PM @narendramodi talks about something interesting which he received from Tamil Nadu... #MannKiBaat https://t.co/uQYhK7E2Hx,Pro Ruling,,modi,"['narendramodi', 'kiba', 'talks']","[{'text': 'narendramodi', 'score': 0.689}, {'text': 'kiba', 'score': 0.5269}, {'text': 'talks', 'score': 0.3749}]",neutral ,no stance taken. 
+,"Looking ahead, we could create a common Research Platform, to coordinate research on controlling epidemic diseases within our South Asian region. The Indian Council of Medical Research can offer help coordinating such an exercise: PM @narendramodi #SAARCfightsCorona",Pro Ruling,,modi,"['diseases', 'narendramodi', 'coordinating']","[{'text': 'diseases', 'score': 0.4143}, {'text': 'narendramodi', 'score': 0.2936}, {'text': 'coordinating', 'score': 0.2554}]",for ,shows modi taking initiative towards R&D and regional cooperation. 
+,PM @narendramodi praying to Sant Tukaram Ji in Pune. The ideals of Sant Tukaram motivate several people. He inspires us to serve others and nurture a compassionate society. https://t.co/SzxGtwOAuM,Pro Ruling,,modi,"['praying', 'narendramodi', 'us']","[{'text': 'praying', 'score': 0.5899}, {'text': 'narendramodi', 'score': 0.5221}, {'text': 'us', 'score': 0.1059}]",for ,modi is a good example and inspiring. 
+,Was Prime Minister @narendramodi knowingly dissembling? Or was he incorrectly briefed? Or does the government believe it can say anything and get away with it in this post-truth world? 4/4,Pro OPP,,modi,"['narendramodi', 'government', 'dissembling']","[{'text': 'narendramodi', 'score': 0.4581}, {'text': 'government', 'score': 0.3227}, {'text': 'dissembling', 'score': 0.2394}]",against ,calls out modi on his incorrect truths and words. 
+,"So @narendramodi is off to the #Matua shrine to prey on a persecuted community for electoral gain. The man is manic in his quest for power, and content to bastardise religion for personal gain. May the Matuas not be fooled by him &amp; say #NoVoteToBJP for the #WestBengalElections https://t.co/Hwrv5mDuB6",Pro OPP,,modi,"['narendramodi', 'elections', 'persecuted']","[{'text': 'narendramodi', 'score': 0.6179}, {'text': 'elections', 'score': 0.3242}, {'text': 'persecuted', 'score': 0.3185}]",against ,shows modi as a predator of votes willing to do anything for power. calls him manic. 
+,"So disoriented post #NupurSharma that @BJP4India needs to bring back the pea sheller, @drharshvardhan to cheerlead @narendramodi with these nonsensical lies 🙄 https://t.co/60rjyX3vqF",Pro OPP,,modi,"['narendramodi', 'lies', 'cheerlead']","[{'text': 'narendramodi', 'score': 0.6419}, {'text': 'lies', 'score': 0.417}, {'text': 'cheerlead', 'score': 0.2067}]",against ,modi and his supporters spread nonsensical lies. 
+,"COVID-19 does not, but BJP does. Every single person that @narendramodi follows on Twitter, and who is associated with BJP directly or indirectly, do only one thing day in and day out, that is spew hate against minorities. Take action, don't just give the nation some more faff. https://t.co/BzaLEUyNy3",Pro OPP,,modi,"['narendramodi', 'minorities', 'don']","[{'text': 'narendramodi', 'score': 0.4323}, {'text': 'minorities', 'score': 0.3849}, {'text': 'don', 'score': 0.251}]",against ,in a way states that covid-19 is better than BJP. modi accused of spreading hate against minorities. 
+,"COVID-19 does not see race, religion, colour, caste, creed, language or borders before striking. 
+
+Our response and conduct thereafter should attach primacy to unity and brotherhood. 
+
+We are in this together: PM @narendramodi",Pro Ruling,,modi,"['brotherhood', 'narendramodi', 'conduct']","[{'text': 'brotherhood', 'score': 0.4765}, {'text': 'narendramodi', 'score': 0.3347}, {'text': 'conduct', 'score': 0.2527}]",for ,shows modi asking people to stand united in a brotherhood against covid-19
+,"This ⁦@narendramodi⁩ Govt appears to be hell bent on destroying the dignity and sobriety of the three services; and replacing it with some bastardised Bollywood culture
+
+How embarrassing this “Navy nautanki” is! Are the service chiefs going to shut their eyes and acquiesce? https://t.co/e3CZFgpgkp",Pro OPP,,modi,"['narendramodi', 'navy', 'shut']","[{'text': 'narendramodi', 'score': 0.4792}, {'text': 'navy', 'score': 0.3743}, {'text': 'shut', 'score': 0.3113}]",against ,"shows modi trying to ""bastardise"" bollywood. destroying it of its sober and dignifiying qualities. "
+,Bihar CM Shri @NitishKumar Ji called on PM @narendramodi. https://t.co/Bl3ULMJNHe,Pro Ruling,,modi,"['narendramodi', 'called', 'cm']","[{'text': 'narendramodi', 'score': 0.7006}, {'text': 'called', 'score': 0.3905}, {'text': 'cm', 'score': 0.1399}]",neutral ,no stance taken. only news delivered 
+,"Shukriya Modi ji !!
+
+https://t.co/EkcBEe78AC https://t.co/gsW2vbmDqL",Pro OPP,,modi,"['shukriya', 'ji', 'modi']","[{'text': 'shukriya', 'score': 0.7118}, {'text': 'ji', 'score': 0.4571}, {'text': 'modi', 'score': 0.4357}]",for ,thanking modi
+,"Appreciating #VivekAgnihotri's (@vivekagnihotri) film '#TheKashmirFiles', Prime Minister #NarendraModi (@narendramodi) on Tuesday said more films like this need to be made so that people can know the truth. https://t.co/7bVDXp7jBf",Pro OPP,,modi,"['films', 'narendramodi', 'appreciating']","[{'text': 'films', 'score': 0.5221}, {'text': 'narendramodi', 'score': 0.394}, {'text': 'appreciating', 'score': 0.1393}]",for ,shows modi promoting films like kashmir files that speak the truth. 
+,"Harnessing the power of tech for shared progress!
+
+PM @narendramodi and @POTUS @JoeBiden interacted with Indian and American CEOs of leading tech companies.
+
+They discussed promoting innovation and exploring opportunities for collaboration between the vibrant tech sectors of… https://t.co/GFa7P8SEoc https://t.co/o1DRU3lNnz",Pro Ruling,,modi,"['collaboration', 'narendramodi', 'sectors']","[{'text': 'collaboration', 'score': 0.4573}, {'text': 'narendramodi', 'score': 0.3515}, {'text': 'sectors', 'score': 0.2832}]",for ,shows modi promoting power of tech for shared progress with the USA. greater colloboration and cooperation with a superpower. 
+,"Wah Modi Ji Wah ! 
+
+You thought you replace Nehru’s legacy by just renaming a road ?? 
+
+You are living in fools paradise ! 
+
+#ModiHaiToMumkinHai https://t.co/cE7JiFeSAu",Pro OPP,,modi,"['fools', 'road', 'modihaitomumkinhai']","[{'text': 'fools', 'score': 0.3631}, {'text': 'road', 'score': 0.3627}, {'text': 'modihaitomumkinhai', 'score': 0.0553}]",against ,calls modi a fool. says he can never recreate Nehru's legacy. 
+,"A lighthouse surrounded by land...
+
+PM @narendramodi mentions a unique lighthouse in Surendranagar in Gujarat. #MannKiBaat https://t.co/oTVobQT6Xs",Pro Ruling,,modi,"['lighthouse', 'narendramodi', 'mentions']","[{'text': 'lighthouse', 'score': 0.7372}, {'text': 'narendramodi', 'score': 0.4753}, {'text': 'mentions', 'score': 0.1721}]",neutral ,no stance on modi taken. lighthouse is the topic. 
+,"What topics do you think PM Shri @narendramodi should speak about in his ""Mann Ki Baat"" on 27th December.
+
+Share them with PM now!
+
+#MannKiBaat https://t.co/4vE4UL7G1l",Pro Ruling,,modi,"['narendramodi', 'topics', 'should']","[{'text': 'narendramodi', 'score': 0.4445}, {'text': 'topics', 'score': 0.4413}, {'text': 'should', 'score': 0.2595}]",neutral ,no stance taken. 
+,"Congratulating the first batch students, CM Shri @vijayrupanibjp said that AIIMS-Rajkot, foundation stone of which will be laid by PM Shri @narendramodi soon, will breathe a new life into the healthcare sector and further reduce the gap in affordable health services in the State. https://t.co/5JVwwGOOzS",Pro Ruling,,modi,"['life', 'narendramodi', 'batch']","[{'text': 'life', 'score': 0.4257}, {'text': 'narendramodi', 'score': 0.2576}, {'text': 'batch', 'score': 0.2104}]",for ,"modi to lay foundation stone in a university. will ""breathe a new life"" into the healthcare sector. "
+,"PM @narendramodi unveils a bust of Mahatma Gandhi in Hiroshima, Japan. https://t.co/RmZobqj9d2",Pro Ruling,,modi,"['narendramodi', 'bust', 'unveils']","[{'text': 'narendramodi', 'score': 0.4044}, {'text': 'bust', 'score': 0.3029}, {'text': 'unveils', 'score': 0.2455}]",neutral ,no stance taken. only news delivered 
+,This face should haunt you @narendramodi &amp; @AmitShah attacking students is shameful. How much do you hate education? https://t.co/kKuCx4hc6Z,Pro OPP,,modi,"['shameful', 'education', 'narendramodi']","[{'text': 'shameful', 'score': 0.4731}, {'text': 'education', 'score': 0.4364}, {'text': 'narendramodi', 'score': 0.3271}]",against ,modi attacks students and is said to hate education. 
+,"Story of Bhageerathi Amma shared by PM @narendramodi in the February 2020 edition of #MannKiBaat programme!
+
+#NariShaktiforNewIndia 
+
+(23/n) https://t.co/a1uLaPgWzK",Pro Ruling,,modi,"['narendramodi', '2020', 'shared']","[{'text': 'narendramodi', 'score': 0.7649}, {'text': '2020', 'score': 0.3142}, {'text': 'shared', 'score': 0.2604}]",for ,shows modi talking about women empowerment. 
+,"Hon'ble PM Shri @narendramodi interacted with #Tokyo2020 #TeamIndia athletes &amp; congratulated them for their outstanding performance at the Olympics. 🇮🇳 
+
+@PMOIndia @Media_SAI @YASMinistry @ianuragthakur @NisithPramanik https://t.co/5Kj5fzeIls",Pro Ruling,,modi,"['narendramodi', 'olympics', 'interacted']","[{'text': 'narendramodi', 'score': 0.5}, {'text': 'olympics', 'score': 0.4499}, {'text': 'interacted', 'score': 0.269}]",for ,"""honorable PM shri"". lot of respect in title. also shows modi as warm and humble."
+,"After programmes in Hyderabad, PM @narendramodi landed in Chennai, where he was welcomed by Governor Shri RN Ravi, CM Shri @mkstalin, Ministers, MPs and other dignitaries. https://t.co/PlQgErBxPA",Pro Ruling,,modi,"['narendramodi', 'dignitaries', 'landed']","[{'text': 'narendramodi', 'score': 0.672}, {'text': 'dignitaries', 'score': 0.3123}, {'text': 'landed', 'score': 0.2224}]",neutral ,no stance taken. only news delivered 
+,"5 Rafael came, All media were hailing and marketing @narendramodi , because advertisement budget is higher and defnece budget is lesser.
+
+India's Airforce is at 4th position in world, because defence budget was higher and advertisement budget was low.
+
+#BiharRejectNDA",Pro OPP,,modi,"['narendramodi', 'airforce', 'marketing']","[{'text': 'narendramodi', 'score': 0.4802}, {'text': 'airforce', 'score': 0.3724}, {'text': 'marketing', 'score': 0.2483}]",against ,shows how media is always just marketing and praising modi and ignoring other imp news. 
+,"Dear @narendramodi Ji,
+Please don’t celebrate me if you are not going to listen my voice. 
+
+Thank you for selecting me amongst the inspiring women of the country under your initiative #SheInspiresUs. After thinking many times, I decided to turns down this honour. 🙏🏻
+
+Jai Hind! https://t.co/pjgi0TUdWa",Pro OPP,,modi,"['narendramodi', 'celebrate', 'voice']","[{'text': 'narendramodi', 'score': 0.5562}, {'text': 'celebrate', 'score': 0.3453}, {'text': 'voice', 'score': 0.2979}]",against ,shows modi as hypocritical. award presented by him rejected. 
+,"Prime Minister @narendramodi may just have signalled a big allocation for defence equipment manufacturing, 3 days before the budget. #AatmanirbharBharat https://t.co/K51a6zIp9N",Pro Ruling,,modi,"['equipment', 'narendramodi', 'budget']","[{'text': 'equipment', 'score': 0.4418}, {'text': 'narendramodi', 'score': 0.4025}, {'text': 'budget', 'score': 0.3067}]",neutral ,no stance taken. only news delivered 
+,"Prime Minister @narendramodi  shares glimpses of his day in Northeast
+
+Read here: https://t.co/DINMq8tNST https://t.co/q6DRKIrmof",Pro Ruling,,modi,"['narendramodi', 'glimpses', 'northeast']","[{'text': 'narendramodi', 'score': 0.6058}, {'text': 'glimpses', 'score': 0.4748}, {'text': 'northeast', 'score': 0.4681}]",for ,Northeast is a particularly fragile zone and modi seems to be doing good propoganda. 
+,"The fourth pillar is- Mission mode implementation.
+
+A well-thought of idea on paper makes it a good idea.
+
+And, a good idea well implemented makes it a great one: PM @narendramodi",Pro Ruling,,modi,"['mission', 'fourth', 'narendramodi']","[{'text': 'mission', 'score': 0.5722}, {'text': 'fourth', 'score': 0.3462}, {'text': 'narendramodi', 'score': 0.2922}]",for ,shows modi as promoting well thought ideas. 
+,"CM Shri @Bhupendrapbjp attended #8thGCM of @NITIAayog, chaired by Hon’ble PM Shri @narendramodi in the presence of #TeamIndia at New Delhi today. Hon’ble CM presented Gujarat’s development vision and achievements as well as expressed commitment to collaborate with the Centre with… https://t.co/35dCo7KDGe https://t.co/vhOz7ghLRv",Pro Ruling,,modi,"['narendramodi', 'attended', '8thgcm']","[{'text': 'narendramodi', 'score': 0.6329}, {'text': 'attended', 'score': 0.4688}, {'text': '8thgcm', 'score': 0.3085}]",for ,"""honorable PM shri"". lot of respect in title. demonstrates how modi expresses commitment to having a greater developmental vision for Gujarat. "
+,"Yo Narendra - go on. Do what you can. 
+
+cc: @narendramodi @DelhiPolice https://t.co/HYenfax0FK",Pro OPP,,modi,"['narendramodi', 'go', 'delhipolice']","[{'text': 'narendramodi', 'score': 0.6475}, {'text': 'go', 'score': 0.3191}, {'text': 'delhipolice', 'score': 0.3108}]",against ,almost as if mocking or baiting modi. 
+,"Shri P.S. Sreedharan Pillai, the Governor of Goa met PM @narendramodi. https://t.co/XlCrl7GStm",Pro Ruling,,modi,"['narendramodi', 'governor', 'pm']","[{'text': 'narendramodi', 'score': 0.5894}, {'text': 'governor', 'score': 0.3034}, {'text': 'pm', 'score': 0.1329}]",neutral ,no stance taken. only news delivered 
+,"Despite GOI push, #MannKiAtBaat100 of @narendramodi had total views/listeners across top 10 TV channels on April 30 of under 2 lakhs. Whereas Satyapal Malik, in his 2nd big interview to @thewire_in, got 17 lakh views the same day! His first interview is 53 lakh views! #justsaying https://t.co/VqP9jdG5AS",Pro OPP,,modi,"['narendramodi', 'channels', 'lakhs']","[{'text': 'narendramodi', 'score': 0.5029}, {'text': 'channels', 'score': 0.3432}, {'text': 'lakhs', 'score': 0.2763}]",for ,shows how GOI tries to promote modi's mann ki baat and stil fails in front of independent speakers. 
+,"Dekho, pakad liya. Yeh DeMo ka result hai. #ModiHaiToMumkinHai https://t.co/cM3JgKRrky",Pro OPP,,modi,"['liya', 'modihaitomumkinhai', 'demo']","[{'text': 'liya', 'score': 0.6928}, {'text': 'modihaitomumkinhai', 'score': 0.5181}, {'text': 'demo', 'score': 0.3388}]",for ,hashtag shows support for modi. seems to imply that demonitization is seemingly helping catch someone (probably corruption). 
+,".@narendramodi - Saheb ! Rajneeti nahi…. Kashmiri Pandito ko waapis Kashmir le ke jaao 
+
+ https://t.co/qlJvsHTQ63",Pro OPP,,modi,"['kashmir', 'narendramodi', 'ke']","[{'text': 'kashmir', 'score': 0.7019}, {'text': 'narendramodi', 'score': 0.6764}, {'text': 'ke', 'score': 0.2982}]",against ,"subtle tone of mockery in ""saheb"", calls on modi to help kashmiri pandits "
+,"Our Vice President is a Kisan Putra and he studied at a Sainik school. 
+
+Thus, he is closely associated with Jawans and Kisans: PM @narendramodi speaking in the Rajya Sabha",Pro Ruling,,modi,"['narendramodi', 'president', 'school']","[{'text': 'narendramodi', 'score': 0.523}, {'text': 'president', 'score': 0.4016}, {'text': 'school', 'score': 0.2471}]",neutral ,no stance on modi taken. lighthouse is the topic. 
+,Works inaugurated in #Kerala cover a wide range of sectors. They will energise the growth trajectory of building an #AatmaNirbharBharat: PM @narendramodi. #PMModiInKerala @PIB_India @MIB_India @PMOIndia https://t.co/Fx2i1SiH2w,Pro Ruling,,modi,"['narendramodi', 'sectors', 'cover']","[{'text': 'narendramodi', 'score': 0.5124}, {'text': 'sectors', 'score': 0.4559}, {'text': 'cover', 'score': 0.1451}]",for ,shows modi's commitment to aatmanirbharbharat and work towards growth. 
+,"A major blow for press freedom, a major setback to @narendramodi’s plan for full spectrum dominance over the media.
+
+His writ runs over a major section of print and TV news but digital platforms are not going to abandon their duty so easily.
+
+https://t.co/UbT275Qb3m",Pro OPP,,modi,"['media', 'narendramodi', 'setback']","[{'text': 'media', 'score': 0.6219}, {'text': 'narendramodi', 'score': 0.3895}, {'text': 'setback', 'score': 0.2152}]",against ,modi controls the media and its freedom. 
+,Wah Modi Ji Wah ✌️✌️ https://t.co/HrqRlRqpkX https://t.co/TUwMxnPL0e,Pro OPP,,modi,"['wah', 'modi', 'ji']","[{'text': 'wah', 'score': 0.6506}, {'text': 'modi', 'score': 0.5155}, {'text': 'ji', 'score': 0.5132}]",against ,tone of sarcasm. 
+,Modi job choddo yaa  #modi_job_do,Pro OPP,,modi,"['job', 'yaa', 'modi']","[{'text': 'job', 'score': 0.5924}, {'text': 'yaa', 'score': 0.5514}, {'text': 'modi', 'score': 0.516}]",against ,Asking modi to either give a job or stop making it difficult to get one. 
+,"Prime Minister Shri @narendramodi will address the nation at 5 PM today, 7th June.",Pro Ruling,,modi,"['narendramodi', 'minister', 'address']","[{'text': 'narendramodi', 'score': 0.457}, {'text': 'minister', 'score': 0.3993}, {'text': 'address', 'score': 0.1921}]",neutral ,no stance taken. only news delivered 
+,Saare paap isi duniya mei dhoke jana padega @narendramodi https://t.co/AKtJQMrXUT,Pro OPP,,modi,"['duniya', 'dhoke', 'narendramodi']","[{'text': 'duniya', 'score': 0.5839}, {'text': 'dhoke', 'score': 0.5525}, {'text': 'narendramodi', 'score': 0.4502}]",against ,warning modi that he will end up paying for his sins. 
+,"Towards a stronger 🇮🇳-🇺🇸 partnership!
+
+Glimpses from the ceremonial welcome for PM @narendramodi at the @WhiteHouse. https://t.co/xBXn6gNdGo",Pro Ruling,,modi,"['narendramodi', 'welcome', 'whitehouse']","[{'text': 'narendramodi', 'score': 0.5679}, {'text': 'welcome', 'score': 0.5184}, {'text': 'whitehouse', 'score': 0.47}]",for ,shows modi strengthing US-India partnership. 
+,"Some free advice for @narendramodi Ji ! 
+
+Still it’s not late, better late than never! https://t.co/WEeOWanIzb",Pro OPP,,modi,"['narendramodi', 'late', 'advice']","[{'text': 'narendramodi', 'score': 0.5828}, {'text': 'late', 'score': 0.5215}, {'text': 'advice', 'score': 0.4226}]",against ,giving advice to take back whatever modi has done and not make a mistake. 
+,"People as well as political parties across Maharashtra have started reacting on @narendramodi's remarks. They are tweeting with this hashtag. 
+
+#महाराष्ट्रद्रोही_bjp",Pro OPP,,modi,"['narendramodi', 'tweeting', 'reacting']","[{'text': 'narendramodi', 'score': 0.5633}, {'text': 'tweeting', 'score': 0.5596}, {'text': 'reacting', 'score': 0.4045}]",against ,calling modi a traitor of Maharashtra and how people are calling him the same thing. 
+,"After @Amul_Coop announced its plans to sell milk and curd in the #Bengaluru market, #Congress leader @siddaramaiah tweeted asking PM @narendramodi, who was visiting #Karnataka, whether the purpose of his visit was ""to loot the state"". #AmulvsNandini 
+https://t.co/Qh94hlutm4",Pro OPP,,modi,"['narendramodi', 'milk', 'tweeted']","[{'text': 'narendramodi', 'score': 0.4929}, {'text': 'milk', 'score': 0.3363}, {'text': 'tweeted', 'score': 0.2368}]",neutral ,no stance taken. only news delivered 
+,@AkramShahBJP @JPNadda @narendramodi @blsanthosh Thanks so much Akram Bhai🇮🇳🙏,Pro Ruling,,modi,"['akramshahbjp', 'narendramodi', 'thanks']","[{'text': 'akramshahbjp', 'score': 0.7632}, {'text': 'narendramodi', 'score': 0.6229}, {'text': 'thanks', 'score': 0.4536}]",for ,thanking bjp. 
+,PM @narendramodi to inaugurate India’s first Semicon conference in Bengaluru today. Watch live at 11AM: https://t.co/mXfmYCzUGF https://t.co/8bWQzTLDoS,Pro Ruling,,modi,"['conference', 'narendramodi', 'semicon']","[{'text': 'conference', 'score': 0.4502}, {'text': 'narendramodi', 'score': 0.4084}, {'text': 'semicon', 'score': 0.3845}]",neutral ,no stance taken. only news delivered 
+,"Smt Champa Singh from Anuppur district of Madhya Pradesh shared her experiences as 'Krishi Sakhi' with PM @narendramodi and narrated how she has benefitted from @DAY_NRLM
+
+#AatmanirbharNariShakti 
+
+@MinistryWCD @MoRD_GOI @mopr_goi https://t.co/Ug0BVWSAM6",Pro Ruling,,modi,"['narendramodi', 'experiences', 'mopr_goi']","[{'text': 'narendramodi', 'score': 0.6017}, {'text': 'experiences', 'score': 0.4158}, {'text': 'mopr_goi', 'score': 0.3567}]",for ,How modi is helping women empowerment.
+,@ItsMePragnesh @Anil82302640 @narendramodi @AmitShah A government which is a failure on all fronts and people still ask what is the alternative. Put a rock in his place. At least the rock won't spread hatred. Rest the countrymen will take the country forward,Pro OPP,,modi,"['government', 'rock', 'narendramodi']","[{'text': 'government', 'score': 0.4545}, {'text': 'rock', 'score': 0.4069}, {'text': 'narendramodi', 'score': 0.3973}]",against ,literally asking to put a rock instead of the existing Govt. accuses govt of spreading hate. 
+,Does chartered accountant @PiyushGoyal think people are taking oxygen for fun? Or doctors are giving oxygen to patients when it’s not needed? Be it farmers protest or Covid management a debit-credit guy like him ruins things further for @narendramodi through his arrogant comments,Pro OPP,,modi,"['oxygen', 'accountant', 'narendramodi']","[{'text': 'oxygen', 'score': 0.4191}, {'text': 'accountant', 'score': 0.3262}, {'text': 'narendramodi', 'score': 0.2527}]",for ,an accountant is targetted for making arrogant comments at Modi. 
+,The fact that @narendramodi  can tout “AYUSH-related remedies” when there aren’t any is one more example of his breathtaking ineptitude and ideologically-driven callousness towards the people of India. https://t.co/oVf8mUxApZ,Pro OPP,,modi,"['narendramodi', 'remedies', 'example']","[{'text': 'narendramodi', 'score': 0.686}, {'text': 'remedies', 'score': 0.4564}, {'text': 'example', 'score': 0.2347}]",against ,"""breathtaking ineptitude"" and ""ideologically driven callousness"". "
+,"Until we don’t nurture &amp; understand the true capabilities and aspirations of our children, they will never be able to realise their full potential: PM @narendramodi #ParikshaPeCharcha",Pro Ruling,,modi,"['nurture', 'potential', 'narendramodi']","[{'text': 'nurture', 'score': 0.5173}, {'text': 'potential', 'score': 0.4075}, {'text': 'narendramodi', 'score': 0.3602}]",for ,Shows Modi as nurturing. 
+,"PM is leaving for Ahmedabad to join last rites of his mother,
+Flagging off of Vande Bharat train, other developmental works of railways and under Namami Gange and meeting of National Ganga Council to be held as per plan at kolkata, 
+PM @narendramodi may join through VC.",Pro Ruling,,modi,"['narendramodi', 'leaving', 'council']","[{'text': 'narendramodi', 'score': 0.4427}, {'text': 'leaving', 'score': 0.4188}, {'text': 'council', 'score': 0.162}]",for ,shows development happening under modii. 
+,"PDT Achary on why the @narendramodi government’s decision to ‘renominate’ @swapan55‘s to the Rajya Sabha after his resignation is  ‘Constitutionally Wrong’
+
+https://t.co/4QhJJhPAXd 
+
+via @thewire_in https://t.co/ToujKyf7zn",Pro OPP,,modi,"['narendramodi', 'wrong', 'thewire_in']","[{'text': 'narendramodi', 'score': 0.5667}, {'text': 'wrong', 'score': 0.3303}, {'text': 'thewire_in', 'score': 0.1415}]",neutral ,no stance taken. only news delivered 
+,Mr. @narendramodi you're not selling only government sector. you're selling jobs of millions of youth and their dreams also. whose future are also depends on that jobs. #PrivatizationNoSolution,Pro OPP,,modi,"['privatization', 'narendramodi', 'jobs']","[{'text': 'privatization', 'score': 0.527}, {'text': 'narendramodi', 'score': 0.3399}, {'text': 'jobs', 'score': 0.3079}]",against ,accusing modi of selling off everything to private sector. 
+,"And, no holds barred @RahulGandhi calls the corona pandemic “Movid” after @narendramodi",Pro OPP,,modi,"['narendramodi', 'pandemic', 'barred']","[{'text': 'narendramodi', 'score': 0.5781}, {'text': 'pandemic', 'score': 0.4758}, {'text': 'barred', 'score': 0.2767}]",against ,modi caled a virus. 
+,"While in Assam, PM @narendramodi reviewed the situation in Uttarakhand. He spoke to CM @tsrawatbjp and other top officials. He took stock of the rescue and relief work underway. Authorities are working to provide all possible support to the affected.",Pro Ruling,,modi,"['narendramodi', 'rescue', 'reviewed']","[{'text': 'narendramodi', 'score': 0.6305}, {'text': 'rescue', 'score': 0.437}, {'text': 'reviewed', 'score': 0.3092}]",for ,shows modi as proactive and involved in stressful conditions. 
+,"I am happy to be here in Coimbatore.
+
+This is a city of industry and innovation.
+
+Today we begin many development works that will benefit Coimbatore and the entire Tamil Nadu: PM @narendramodi",Pro Ruling,,modi,"['narendramodi', 'innovation', 'happy']","[{'text': 'narendramodi', 'score': 0.475}, {'text': 'innovation', 'score': 0.3642}, {'text': 'happy', 'score': 0.3594}]",for ,shows development happening under modii. 
+,"Dear @narendramodi:
+
+Amidst all the happenings of the last few days, pls do know that I’ve not forgotten about the PM CARES scam nor have I stopped working on it. 
+
+Sab hisaab rakha jaaega. 
+
+Cheers.",Pro OPP,,modi,"['scam', 'narendramodi', 'forgotten']","[{'text': 'scam', 'score': 0.5303}, {'text': 'narendramodi', 'score': 0.4304}, {'text': 'forgotten', 'score': 0.2584}]",against ,"shows that ""pm caring"" is a scam and that one day all debts would be taken into account. "
+,PM @narendramodi reviewed the status of Human Resources in all departments and ministries and instructed that recruitment of 10 lakh people be done by the Government in mission mode in next 1.5 years.,Pro Ruling,,modi,"['recruitment', 'government', 'narendramodi']","[{'text': 'recruitment', 'score': 0.3608}, {'text': 'government', 'score': 0.3461}, {'text': 'narendramodi', 'score': 0.2727}]",for ,shows modi helping employment. 
+,"Whether @_pallavighosh or @ShekharGupta their honour quotient is so darn low, that even their recent attempts to call out callous incompetence of @narendramodi fails to be on target. They continue to play tippy toes at calling out the diabolical #ModiMadeDisaster on #COVID19India",Pro OPP,,modi,"['narendramodi', 'incompetence', 'toes']","[{'text': 'narendramodi', 'score': 0.6109}, {'text': 'incompetence', 'score': 0.3524}, {'text': 'toes', 'score': 0.2039}]",against ,calls modi diabolical and how news anchors cannot call out his incompetence. 
+,"Adarniya @narendramodi ji, 
+Happy New Year!!! 
+Ummeed hai ke yeh naya saal aapko buddhi de...",Pro OPP,,modi,"['narendramodi', 'year', 'happy']","[{'text': 'narendramodi', 'score': 0.5769}, {'text': 'year', 'score': 0.5145}, {'text': 'happy', 'score': 0.4452}]",against ,"sarcastic undertone, hoping that modi gets brains. "
+,"Students want to know from PM @narendramodi if they should be more scared of examinations or pressure from parents and teachers. 
+#ParikshaPeCharcha https://t.co/deoTadolyc",Pro Ruling,,modi,"['examinations', 'narendramodi', 'scared']","[{'text': 'examinations', 'score': 0.4974}, {'text': 'narendramodi', 'score': 0.4016}, {'text': 'scared', 'score': 0.399}]",for ,shows how students have faith in modi and turn to him for advice. 
+,A sea of women welcome PM @narendramodi ji today at Prayagraj https://t.co/MpsV3exZqg,Pro Ruling,,modi,"['women', 'welcome', 'narendramodi']","[{'text': 'women', 'score': 0.5433}, {'text': 'welcome', 'score': 0.5063}, {'text': 'narendramodi', 'score': 0.4564}]",for ,shows how women support modi. 
+,"#No1_Dubakoor_Modi
+
+It is in national interest to keep out Divider-in-Chief and Sanghi slaves. https://t.co/XkY8guC70O",Pro OPP,,modi,"['slaves', 'no1dubakoormodi', 'keep']","[{'text': 'slaves', 'score': 0.4493}, {'text': 'no1dubakoormodi', 'score': 0.3656}, {'text': 'keep', 'score': 0.3353}]",against ,questioning modi's decisions.
+,Press note dated 29 Jan 2021 #FarmerTikaitVsModiDakait https://t.co/ux0y5yqGks,Pro OPP,,modi,"['2021', 'farmer', 'tikaitvsmodidakait']","[{'text': '2021', 'score': 0.5165}, {'text': 'farmer', 'score': 0.5157}, {'text': 'tikaitvsmodidakait', 'score': 0.4203}]",neutral ,no stance taken. only news delivered 
+,Wah Modijee Wah https://t.co/hyKXUPX5eP,Pro OPP,,modi,"['wah', 'modijee']","[{'text': 'wah', 'score': 0.6734}, {'text': 'modijee', 'score': 0.6584}]",against ,tone of sarcasm. 
+,"Successful climate actions also need adequate financing. 
+
+for this, developed countries need to fulfill their commitments on finance and technology transfer: PM @narendramodi",Pro Ruling,,modi,"['financing', 'climate', 'narendramodi']","[{'text': 'financing', 'score': 0.4594}, {'text': 'climate', 'score': 0.3602}, {'text': 'narendramodi', 'score': 0.2143}]",for ,shows modi as a responsible climate leader. 
+,The nation’s tallest leader PM @narendramodi has often lead by example and driven home the point “Dignity of labour” shall always be respected. https://t.co/hULfECr78g,Pro Ruling,,modi,"['narendramodi', 'labour', 'lead']","[{'text': 'narendramodi', 'score': 0.486}, {'text': 'labour', 'score': 0.4407}, {'text': 'lead', 'score': 0.3492}]",against ,tone of sarcasm. 
+,"Andhra CM @ysjagan almost certainly took @narendramodi into confidence about what he was planning to do. 
+
+After all, he met the PM in Delhi on the very day he sent his missive to CJI Bobde.
+
+https://t.co/pa1xBVoBXw via @thewire_in",Pro OPP,,modi,"['narendramodi', 'confidence', 'thewire_in']","[{'text': 'narendramodi', 'score': 0.6407}, {'text': 'confidence', 'score': 0.3206}, {'text': 'thewire_in', 'score': 0.1213}]",,"No context given of what Andhra CM did, something good or bad?"
+,"PM @narendramodi spoke to Gujarat CM @Bhupendrapbjp and other officials regarding the mishap in Morbi. He has sought urgent mobilisation of teams for rescue ops. He has asked that the situation be closely and continuously monitored, and extend all possible help to those affected.",Pro Ruling,,modi,"['narendramodi', 'rescue', 'monitored']","[{'text': 'narendramodi', 'score': 0.4663}, {'text': 'rescue', 'score': 0.461}, {'text': 'monitored', 'score': 0.3958}]",for ,shows modi being proactive and dependable in a time of conflict. 
+,"Such statements are seeds of the riots and hate in the country. Army and defence have been the core priority of nation.
+
+@narendramodi is using hide his failures is the proof that he is the weakest man, who can not handle dissent. 
+
+These kind of people are a curse to nation. https://t.co/Ffnk2ddL4R",Pro OPP,,modi,"['narendramodi', 'hate', 'army']","[{'text': 'narendramodi', 'score': 0.5595}, {'text': 'hate', 'score': 0.3464}, {'text': 'army', 'score': 0.1929}]",against ,accuses modi of spreading hate and riots. says hes weak and a failure. 
+,"Mr. @narendramodi Where is 2 crore jobs every year? 
+
+Never vote to BJP who destroyed Students life.
+
+#JusticeforArmyStudents https://t.co/tmi2LS7EZH",Pro OPP,,modi,"['narendramodi', 'railway', 'calendar']","[{'text': 'narendramodi', 'score': 0.4168}, {'text': 'railway', 'score': 0.3553}, {'text': 'calendar', 'score': 0.2913}]",against ,shows how modi failed to deliver on his promise of creating jobs and instead destroyed the lives of students. 
+,"PM Shri @narendramodi to e-launch various health, tourism and farmer oriented projects in Gujarat on October 24, 2020. https://t.co/mfyT4mSV3S",Pro Ruling,,modi,"['narendramodi', '2020', 'health']","[{'text': 'narendramodi', 'score': 0.4808}, {'text': '2020', 'score': 0.3201}, {'text': 'health', 'score': 0.2619}]",for ,shows modi promoting development. 
+,@narendramodi There was a old report that a woman who inspired Modi handled his Twitter account. https://t.co/d21xMpZ0eP,Pro OPP,,modi,"['narendramodi', 'woman', 'account']","[{'text': 'narendramodi', 'score': 0.4229}, {'text': 'woman', 'score': 0.3822}, {'text': 'account', 'score': 0.3051}]",neutral ,no stance taken. only news delivered 
+,What a meeting. What a leader. What an Aura. Will post more details. We spent some thought provoking minutes in a no holds barred discussion. Thank you @narendramodi you always inspire. @AmitBagaria12,Pro Ruling,,modi,"['meeting', 'inspire', 'narendramodi']","[{'text': 'meeting', 'score': 0.6286}, {'text': 'inspire', 'score': 0.4058}, {'text': 'narendramodi', 'score': 0.4034}]",for ,praises modi for being inspiring. 
+,"US $ = 76.88 
+
+Today US $ against One Indian Rupee has crossed all previous records. Indian Rupee is all time low. 
+I hope PM @narendramodi must have remembered CM Modi words. If not here then he should watch this and feel embarrassed. 😁 https://t.co/KSmKZySuZJ",Pro OPP,,modi,"['narendramodi', 'records', 'crossed']","[{'text': 'narendramodi', 'score': 0.3981}, {'text': 'records', 'score': 0.2091}, {'text': 'crossed', 'score': 0.1861}]",against ,demanding Modi to remember his promises. blaming him for fall of indian rupee.
+,"The only man responsible for this is Narendra Modi !
+Can you see this Modi , resign please !!
+
+#ResignModi
+ @narendramodi https://t.co/stVlTcXLuc",Pro OPP,,modi,"['resign', 'narendramodi', 'responsible']","[{'text': 'resign', 'score': 0.4852}, {'text': 'narendramodi', 'score': 0.4838}, {'text': 'responsible', 'score': 0.3058}]",against ,demanding Modi to resign as prime minister 
+,"Meanwhile, just in case any Indian is still worried about Chinese troops in Ladakh, they can shift their attention to the year-long commemoration of the 1971 war.
+
+What irony! @narendramodi is celebrating a grand Indira Gandhi victory to shift attention from a Modi defeat! https://t.co/Sl5U9eGzw5",Pro OPP,,modi,"['narendramodi', 'celebrating', 'troops']","[{'text': 'narendramodi', 'score': 0.4979}, {'text': 'celebrating', 'score': 0.3758}, {'text': 'troops', 'score': 0.2748}]",against ,showing how Modi lost to chinese troops and is diverting attention by focusing on a victory made by the congress years earlier. 
+,"This ⁦@narendramodi⁩ Govt appears to be hell bent on destroying the dignity and sobriety of the three services; and replacing it with some bastardised Bollywood culture
+
+How embarrassing this “Navy nautanki” is! Are the service chiefs going to shut their eyes and acquiesce? https://t.co/e3CZFgpgkp",Pro OPP,,modi,"['narendramodi', 'navy', 'shut']","[{'text': 'narendramodi', 'score': 0.4792}, {'text': 'navy', 'score': 0.3743}, {'text': 'shut', 'score': 0.3113}]",against ,"accusing modi and his govt of destroying the dignity and sobriety of the services, including media and pop culture in india. "
+,"Perfect reply to @narendramodi 's MNREGA allegations by Congress leader @ManishTewari .
+
+Exposed the hypocrisy of Modi government
+
+🔥🔥🔥 https://t.co/yB6oOP7gO0",Pro OPP,,modi,"['narendramodi', 'hypocrisy', 'congress']","[{'text': 'narendramodi', 'score': 0.5808}, {'text': 'hypocrisy', 'score': 0.4457}, {'text': 'congress', 'score': 0.3671}]",against ,calling modi hypocritical. support for congress. 
+,"Shri @KalrajMishra, the Governor of Rajasthan met PM @narendramodi. https://t.co/SDLKdEd0Y0",Pro Ruling,,modi,"['narendramodi', 'governor', 'pm']","[{'text': 'narendramodi', 'score': 0.6417}, {'text': 'governor', 'score': 0.2446}, {'text': 'pm', 'score': 0.147}]",neutral ,no stance taken. only news delivered 
+,Dr Manmohan Singh’s letter to @narendramodi. Read the suggestions. This is what a leader with gravitas and vision would write. Hope the @PMOIndia considers them seriously and implements them for the good of the nation. https://t.co/wi1vbWPcRp,Pro OPP,,modi,"['narendramodi', 'write', 'gravitas']","[{'text': 'narendramodi', 'score': 0.5621}, {'text': 'write', 'score': 0.3189}, {'text': 'gravitas', 'score': 0.1719}]",against ,shows how Dr. Manmohan Singh has always been a better leader than modi. 
+,"To give SPEED to our growth story, Gatishakti unifies 100 lakh crores projects by combining 16 ministries
+
+This will reduced RED-TAPISM &amp; speed infrastructure development that will improve ease of doing business 
+
+#21YearsOfPMModi https://t.co/jUR11KcsFm",Pro Ruling,,modi,"['projects', 'speed', '21yearsofpmmodi']","[{'text': 'projects', 'score': 0.4628}, {'text': 'speed', 'score': 0.3706}, {'text': '21yearsofpmmodi', 'score': 0.2914}]",for ,shows how development is fastening in India due to modi. 
+,"His bravery and ideals inspire every Indian. His contribution to India is indelible. 
+
+India bows to the great Netaji Subhas Chandra Bose. 
+
+PM @narendramodi began his Kolkata visit and #ParakramDivas programmes by paying homage to Netaji Bose at Netaji Bhawan. https://t.co/2DG49aB4vW",Pro Ruling,,modi,"['narendramodi', 'bravery', 'paying']","[{'text': 'narendramodi', 'score': 0.6455}, {'text': 'bravery', 'score': 0.3074}, {'text': 'paying', 'score': -0.0106}]",for ,"shows how modi honoured Bose, strong support for Bose. "
+,"PM @narendramodi’s long &amp; detailed phone calls to around 20 CMs over last 12 days, on fighting #COVID &amp; asking directly what more the state needs, cutting the bureaucracy in between
+
+How this new approach has worked? My Special story @moneycontrolcom 
+
+https://t.co/J7MoVjoTXJ",Pro Ruling,,modi,"['narendramodi', 'moneycontrolcom', 'cutting']","[{'text': 'narendramodi', 'score': 0.4612}, {'text': 'moneycontrolcom', 'score': 0.2355}, {'text': 'cutting', 'score': 0.1234}]",for ,shows how Modi is trying to effectively unite nation against fight on covid. 
+,"At the Vatican City, PM @narendramodi had a meeting with Pope Francis. @Pontifex https://t.co/o9OobfIBkL",Pro Ruling,,modi,"['pope', 'narendramodi', 'city']","[{'text': 'pope', 'score': 0.627}, {'text': 'narendramodi', 'score': 0.2394}, {'text': 'city', 'score': 0.1787}]",neutral ,no stance taken. only news delivered 
+,Followed by.... https://t.co/iGlvmtMJi5,Pro OPP,,modi,"['narendramodi', 'by', 'followed']","[{'text': 'narendramodi', 'score': 0.8818}, {'text': 'by', 'score': 0.4683}, {'text': 'followed', 'score': 0.4177}]",neutral ,no stance taken. only news delivered 
+,Hon’ble PM @narendramodi pays his tributes to the martyrs of the 2001 Parliament Attack. https://t.co/aGUAai3HxK,Pro Ruling,,modi,"['martyrs', 'narendramodi', '2001']","[{'text': 'martyrs', 'score': 0.6069}, {'text': 'narendramodi', 'score': 0.4272}, {'text': '2001', 'score': 0.1856}]",for ,shows modi paying respects to martyrs. 
+,"I was little busy yesterday, looks like I missed Fancy dress photo shoot ?? 
+
+He is insane man 🤨 Best part is the fools who share those pics &amp; jump up and down ! 
+
+#ModiHaiToMumkinHai https://t.co/MAFAgvhL4z",Pro OPP,,modi,"['pics', 'fools', 'modihaitomumkinhai']","[{'text': 'pics', 'score': 0.4804}, {'text': 'fools', 'score': 0.3411}, {'text': 'modihaitomumkinhai', 'score': 0.1052}]",against ,calls modi an insane man. 
+,"Swami Atmasthananda Ji devoted his life to serving society. PM @narendramodi had the honour of knowing him for many years and always receiving his blessings. At around 10:45 AM, PM Modi will address a programme via video conferencing to mark Swami Atmasthananda’s birth centenary.",Pro Ruling,,modi,"['narendramodi', 'centenary', 'serving']","[{'text': 'narendramodi', 'score': 0.6477}, {'text': 'centenary', 'score': 0.4375}, {'text': 'serving', 'score': 0.3021}]",for ,shows how modi had the blessings of a famous and respected Swami. 
+,"IT man-turned-#BJP (@BJP4India) worker walking barefoot since 2012 to see #NarendraModi (@narendramodi) become PM, now for 3rd time
+
+Read: https://t.co/y0qLZk11pJ https://t.co/NR7tyIA7uL",Pro OPP,,modi,"['narendramodi', 'barefoot', 'worker']","[{'text': 'narendramodi', 'score': 0.6305}, {'text': 'barefoot', 'score': 0.4199}, {'text': 'worker', 'score': 0.3095}]",for ,shows how population loves modi. 
+,"Terminal decline: How #GVK group's infra bets cost it Mumbai airport biz to the rising star of Indian business @gautam_adani otherwise known as @narendramodi “son from another father” unconscionable favouritism to Adani-Ambani while all of India bleeds 😡
+https://t.co/B3vbO1HDBj",Pro OPP,,modi,"['airport', 'narendramodi', 'bets']","[{'text': 'airport', 'score': 0.5021}, {'text': 'narendramodi', 'score': 0.4531}, {'text': 'bets', 'score': 0.3236}]",against ,shows how modi supports corrupt capitalistism and industrialists while India bleeds. 
+,"Chief Justice, Ramana has asked the Modi Govt. 
+Do we need ""sedition law"" (Section 124A of IPC) even after 75 years of Independence? 
+#SeditionLaw 
+#ModiBabaAur78Chor",Pro OPP,,modi,"['law', 'chief', 'modibabaaur78chor']","[{'text': 'law', 'score': 0.4162}, {'text': 'chief', 'score': 0.2267}, {'text': 'modibabaaur78chor', 'score': 0.0958}]",against ,"shows modi asking for sedition law despite 75 years of independence. hashtag is a taunt at modi and his team of ""thieves"". "
+,"PM @narendramodi emplanes for Tokyo, where he will take part in the Quad Summit and other programmes. https://t.co/SxYEqsm3dm",Pro Ruling,,modi,"['narendramodi', 'tokyo', 'quad']","[{'text': 'narendramodi', 'score': 0.4491}, {'text': 'tokyo', 'score': 0.428}, {'text': 'quad', 'score': 0.1367}]",neutral ,no stance taken. only news delivered 
+,Unfortunate is the fact that we are governed by @narendramodi https://t.co/zvUEii6bYV,Pro OPP,,modi,"['narendramodi', 'governed', 'unfortunate']","[{'text': 'narendramodi', 'score': 0.6932}, {'text': 'governed', 'score': 0.5383}, {'text': 'unfortunate', 'score': 0.3525}]",against ,comments that being governed under modi is a misfortune. 
+,"What a magnificent new home for the people who uphold our Constitution, represent every citizen of this great Nation and protect the diversity of her one People @narendramodi ji. 
+A new Parliament building for a New India but with the age old dream of Glory for India. Jai Hind!… https://t.co/OgafXSFoOn https://t.co/FjXFZwYk2T",Pro OPP,,modi,"['home', 'narendramodi', 'constitution']","[{'text': 'home', 'score': 0.4821}, {'text': 'narendramodi', 'score': 0.4726}, {'text': 'constitution', 'score': 0.4523}]",for ,"praises the new parliament building as a great place for those ""upholding"" the constitution and a New India. "
+,PM @narendramodi visited the Heliopolis War Memorial in Cairo. He paid homage to the supreme sacrifice made by countless Indian soldiers during the First World War. https://t.co/l4rGbIcOud,Pro Ruling,,modi,"['memorial', 'heliopolis', 'narendramodi']","[{'text': 'memorial', 'score': 0.4878}, {'text': 'heliopolis', 'score': 0.4523}, {'text': 'narendramodi', 'score': 0.3403}]",for ,Shows Modi remembering the sacrifices of past indian soldiers in a foreign country. 
+,"Discussions continue between PM @narendramodi and Chancellor Scholz in Berlin. Both leaders are reviewing the full range of bilateral ties between India and Germany, including giving an impetus to trade as well as cultural linkages. @Bundeskanzler https://t.co/Wj3M8mVQjr",Pro Ruling,,modi,"['berlin', 'linkages', 'narendramodi']","[{'text': 'berlin', 'score': 0.5548}, {'text': 'linkages', 'score': 0.2491}, {'text': 'narendramodi', 'score': 0.2451}]",neutral ,no stance taken. only news delivered 
+,"Prime Minister @narendramodi in Surat.
+Migratory election birds just don’t get the connect Modi Ji has with the masses, more so in #Gujarat 
+https://t.co/396F0iFQsA",Pro Ruling,,modi,"['narendramodi', 'birds', 'election']","[{'text': 'narendramodi', 'score': 0.4956}, {'text': 'birds', 'score': 0.4699}, {'text': 'election', 'score': 0.4347}]",for ,praises connect that Modi has with masses. 
+,"Environmental sustainability can only be achieved through climate justice. 
+
+Energy requirements of the people of India are expected to nearly double in the next 20 years. 
+
+Denying this energy would be denying life itself to millions: PM @narendramodi",Pro Ruling,,modi,"['sustainability', 'millions', 'narendramodi']","[{'text': 'sustainability', 'score': 0.4794}, {'text': 'millions', 'score': 0.2603}, {'text': 'narendramodi', 'score': 0.2134}]",for ,Modi as a responsibile climate leader. 
+,"@AditiAnarayanan @narendramodi Party functions are different from govt or official ones. Also, why should any CM receive the PM? India is a federal nation. PM is not the emperor.",Pro OPP,,modi,"['govt', 'narendramodi', 'functions']","[{'text': 'govt', 'score': 0.4856}, {'text': 'narendramodi', 'score': 0.4188}, {'text': 'functions', 'score': 0.1809}]",against ,Modi is not treated as a normal PM but an emperor. 
+,"Well played @Pvsindhu1! 
+
+PM @narendramodi spoke to PV Sindhu and congratulated her on winning the Bronze at #Tokyo2020.",Pro Ruling,,modi,"['congratulated', 'narendramodi', 'bronze']","[{'text': 'congratulated', 'score': 0.5125}, {'text': 'narendramodi', 'score': 0.4473}, {'text': 'bronze', 'score': 0.3673}]",neutral ,no stance taken. only news delivered 
+,The Governor of Andhra Pradesh Shri Biswa Bhusan Harichandan called on PM @narendramodi. https://t.co/1IJipEHnxO,Pro Ruling,,modi,"['narendramodi', 'called', 'governor']","[{'text': 'narendramodi', 'score': 0.6399}, {'text': 'called', 'score': 0.3599}, {'text': 'governor', 'score': 0.3547}]",neutral ,no stance taken. only news delivered 
+,PM @narendramodi visited the Heliopolis War Memorial in Cairo. He paid homage to the supreme sacrifice made by countless Indian soldiers during the First World War. https://t.co/l4rGbIcOud,Pro Ruling,,modi,"['memorial', 'heliopolis', 'narendramodi']","[{'text': 'memorial', 'score': 0.4878}, {'text': 'heliopolis', 'score': 0.4523}, {'text': 'narendramodi', 'score': 0.3403}]",for ,Shows Modi remembering the sacrifices of past indian soldiers in a foreign country. 
+,"PM @narendramodi to interact with representatives from #Varanasi based NGOs tomorrow
+
+PM to discuss and showcase the efforts of these organizations towards food distribution and other assistance measures during #lockdown
+
+Details: https://t.co/UNpOGqAXlY",Pro Ruling,,modi,"['narendramodi', 'organizations', 'lockdown']","[{'text': 'narendramodi', 'score': 0.4139}, {'text': 'organizations', 'score': 0.3945}, {'text': 'lockdown', 'score': 0.1917}]",for ,Shows modi being interactive and collaborative with on ground NGOs for greater good. 
+,"Will he match the color of the jhola with his shawl or his kurta? 
+#JholaUthaoModiji https://t.co/pU08kNfxQ5",Pro OPP,,modi,"['jholauthaomodiji', 'shawl', 'color']","[{'text': 'jholauthaomodiji', 'score': 0.5597}, {'text': 'shawl', 'score': 0.4399}, {'text': 'color', 'score': 0.4273}]",against ,tone of mockery
+,"Yo Narendra - go on. Do what you can. 
+
+cc: @narendramodi @DelhiPolice https://t.co/HYenfax0FK",Pro OPP,,modi,"['narendramodi', 'go', 'delhipolice']","[{'text': 'narendramodi', 'score': 0.6475}, {'text': 'go', 'score': 0.3191}, {'text': 'delhipolice', 'score': 0.3108}]",against ,challenging modi. 
+,"PM @narendramodi’s water mission is a game changer, writes @Sanju_Verma_. #MustRead https://t.co/Hnxa1XUah5",Pro Ruling,,modi,"['water', 'narendramodi', 'mission']","[{'text': 'water', 'score': 0.4803}, {'text': 'narendramodi', 'score': 0.4733}, {'text': 'mission', 'score': 0.4428}]",for ,"shows modi as a changemaker and visioneer. labels article as ""must read"". "
+,Truly Delhi’s tragedy has @narendramodi in 7 RCR &amp; @ArvindKejriwal as CM. Worst administrative disaster for our city,Pro OPP,,modi,"['disaster', 'narendramodi', 'administrative']","[{'text': 'disaster', 'score': 0.5395}, {'text': 'narendramodi', 'score': 0.4903}, {'text': 'administrative', 'score': 0.2952}]",against ,Modi seen as administrative disaster along with Kejriwal. 
+,"“Explain the need of new parliament when half of India is hungry”- Mr Kamal Hassan asks PM Shri @narendramodi 
+
+@ikamalhaasan Sir,here is the reply from a common citizen😀🤣😍 https://t.co/CGrU0rIBRn",Pro Ruling,,modi,"['parliament', 'narendramodi', 'hungry']","[{'text': 'parliament', 'score': 0.5097}, {'text': 'narendramodi', 'score': 0.4798}, {'text': 'hungry', 'score': 0.4642}]",for ,Mocking someone for challengings Modi's new parliament building. 
+,"Modi @narendramodi has succeeded wildly in doing what Musharraf failed to do with Kargil -- internationalising Kashmir to the extent that all and sundry are offering to mediate: Trump, Xi, now even Guterres! Is Trump gearing up to make the offer in India?? https://t.co/2sjEXJqQCF",Pro OPP,,modi,"['narendramodi', 'trump', 'internationalising']","[{'text': 'narendramodi', 'score': 0.5342}, {'text': 'trump', 'score': 0.3094}, {'text': 'internationalising', 'score': 0.2409}]",for ,shows modi as an important international player. 
+,"▶️PRESS COMMUNIQUE 
+
+#PresidentKovind, as advised by the Prime Minister @narendramodi has appointed the members of the Council of Ministers
+
+#Govt4Growth 
+
+🔗https://t.co/0w59WWixB1",Pro Ruling,,modi,"['ministers', 'narendramodi', 'growth']","[{'text': 'ministers', 'score': 0.475}, {'text': 'narendramodi', 'score': 0.3463}, {'text': 'growth', 'score': 0.2799}]",neutral ,no stance taken. only news delivered 
+,"PM Shri ⁦@narendramodi⁩’s #SankalpManthan: read, absorb, disseminate: 
+
+https://t.co/IW8me5qpcZ
+
+via NaMo App",Pro Ruling,,modi,"['narendramodi', 'absorb', 'app']","[{'text': 'narendramodi', 'score': 0.6196}, {'text': 'absorb', 'score': 0.35}, {'text': 'app', 'score': 0.2922}]",for ,requesting viewers to read modi's work and to absorb and disseminate it. 
+,"Mar 24: Gotcha. You're all locked
+
+Mar 27: No. Workers can't go home
+
+Apr 14: No!
+
+Apr 17: Only Kota students can go
+
+Apr 30: Migrants can go home. But only by bus.
+
+May 2: Okay Trains. But you pay
+
+May 4: We pay. But partly.
+
+How screwed up your decision making is @narendramodi?",Pro OPP,,modi,"['migrants', 'screwed', 'narendramodi']","[{'text': 'migrants', 'score': 0.4435}, {'text': 'screwed', 'score': 0.3485}, {'text': 'narendramodi', 'score': 0.301}]",against ,Mockingly shows Modi's destructive decision making during covid. 
+,Prime Ministers @narendramodi and @SherBDeuba take part in the Shilanyas programme for the India International Centre for Buddhist Culture and Heritage in the Lumbini Monastic Zone. This Centre will deepen the cultural and people-to-people linkages between India and Nepal. 🇮🇳 🇳🇵 https://t.co/n5TLc1iDUM,Pro Ruling,,modi,"['narendramodi', 'ministers', 'linkages']","[{'text': 'narendramodi', 'score': 0.5648}, {'text': 'ministers', 'score': 0.3255}, {'text': 'linkages', 'score': 0.1951}]",for ,shows how modi is taking active steps to deepen cultural ties between India and Nepal. 
+,"2013: ""Modinomics"" 
+
+2017: ""Game Plan to revive economy"" 
+
+2018: Modi ""took direct charge"" of the economy 
+ 
+2019: ""Budget took economy to SemiFinals""
+
+In 2022 clueless Modi is still clueless, while lapdog media still covers up Modi failures🔥
+
+#WhoLetIndiaDown ?
+Modi &amp; Co. https://t.co/WsW0vg3izv",Pro OPP,,modi,"['modinomics', 'india', 'down']","[{'text': 'modinomics', 'score': 0.4121}, {'text': 'india', 'score': 0.2564}, {'text': 'down', 'score': 0.1824}]",against ,Gives timeline of Modi's ideas and calls him clueless. calls the media out on being the lapdog to his failures. 
+,Will PM @narendramodi create awareness against rumours of Child Kidnapping across India in his #MannKiBaat,Pro OPP,,modi,"['narendramodi', 'kidnapping', 'awareness']","[{'text': 'narendramodi', 'score': 0.5342}, {'text': 'kidnapping', 'score': 0.4271}, {'text': 'awareness', 'score': 0.3106}]",against ,awareness against' an important concern. 
+,"Our youth, our scholars should take the responsibility that they will help the efforts of the country in writing the history of our freedom fighters: PM @narendramodi #AmritMahotsav",Pro Ruling,,modi,"['scholars', 'narendramodi', 'fighters']","[{'text': 'scholars', 'score': 0.4451}, {'text': 'narendramodi', 'score': 0.3188}, {'text': 'fighters', 'score': 0.2477}]",for ,shows modi involving the youth in writing the history of freedom struggle. 
+,The language &amp; attitude of the ruling party's leaders towards protesting farmers is a mirror of @narendramodi 's vision. #TeamKisan🚜  https://t.co/tv9710ibux,Pro OPP,,modi,"['narendramodi', 'protesting', 'team']","[{'text': 'narendramodi', 'score': 0.5872}, {'text': 'protesting', 'score': 0.4167}, {'text': 'team', 'score': 0.281}]",against ,"""team kisan"" and hints at modi's lack of proper response to them. "
+,"Textile sector has always brought opportunities, will help in building self-reliant India: PM @narendramodi. Take a look at the key highlights from PM’s address on Textile Traditions. #AatmaNirbharBharat https://t.co/McYoOu5OpC",Pro Ruling,,modi,"['textile', 'narendramodi', 'sector']","[{'text': 'textile', 'score': 0.6092}, {'text': 'narendramodi', 'score': 0.3927}, {'text': 'sector', 'score': 0.2843}]",for ,shows modi emphasis on textile industry being integral to aatmanirbhar bharat. 
+,RT if you think @narendramodi shouldn't watch the women's hockey semi-final match tomorrow.,Pro OPP,,modi,"['narendramodi', 'hockey', 'watch']","[{'text': 'narendramodi', 'score': 0.4148}, {'text': 'hockey', 'score': 0.3902}, {'text': 'watch', 'score': 0.3837}]",against ,calling on modi to sit out women's hockey match. 
+,"A special start to a special visit. 
+
+PM @narendramodi was welcomed by PM Frederiksen at Copenhagen. 
+@Statsmin https://t.co/iRnJt6J8k3",Pro Ruling,,modi,"['welcomed', 'narendramodi', 'statsmin']","[{'text': 'welcomed', 'score': 0.5139}, {'text': 'narendramodi', 'score': 0.3616}, {'text': 'statsmin', 'score': 0.1878}]",for ,"warm stance towards modi. ""special start to a special visit"". "
+,"PM Shri @narendramodi today virtually laid the foundation stone of Light House Projects as part of Global Housing Technology Challenge-India in 6 Indian cities including Rajkot where 1144 houses will be built with the help of tunnels, monolithic concrete construction technology. https://t.co/w6rBEnuS1P",Pro Ruling,,modi,"['construction', 'light', 'narendramodi']","[{'text': 'construction', 'score': 0.5281}, {'text': 'light', 'score': 0.3413}, {'text': 'narendramodi', 'score': 0.2817}]",for ,"modi ""laying foundation stone"" is also symbolic of more concrete development coming indias way. "
+,"In 2002,pregnant Bilkis Bano &amp; other women of her family where gang raped, 7-people where murdered. In 2008, 11 convicts get life Imprisonment. Gujarat govt after forgiving there punishment, they where given freedom today.
+&amp; today PM @narendramodi has talked about women's respect",Pro OPP,,modi,"['imprisonment', 'pregnant', 'narendramodi']","[{'text': 'imprisonment', 'score': 0.5379}, {'text': 'pregnant', 'score': 0.3786}, {'text': 'narendramodi', 'score': 0.3156}]",against ,calls out modi on not supporting women and having a weak judiciary. 
+,"Modinomics is going to enable more inflation.
+
+Silly Modinomics",Pro OPP,,modi,"['inflation', 'modinomics', 'silly']","[{'text': 'inflation', 'score': 0.6504}, {'text': 'modinomics', 'score': 0.5349}, {'text': 'silly', 'score': 0.2275}]",against ,shows modi's economics as silly and leading to rise in prices. 
+,As Punjab politics boils the infamous IT cell runs a vicious campaign attacking farmers as “khalistanis” with a huge number of fake accounts. Time to rein in your troll army General @narendramodi,Pro OPP,,modi,"['narendramodi', 'campaign', 'cell']","[{'text': 'narendramodi', 'score': 0.4211}, {'text': 'campaign', 'score': 0.3231}, {'text': 'cell', 'score': 0.1601}]",against ,"calling modi a ""general"" and hence authoratative. calls his govt and fans ""troll army"". "
+,PM @narendramodi begins address at the distribution of #PMJAY cards in Gujarat!,Pro Ruling,,modi,"['narendramodi', 'address', 'cards']","[{'text': 'narendramodi', 'score': 0.5308}, {'text': 'address', 'score': 0.3878}, {'text': 'cards', 'score': 0.3452}]",neutral ,no stance taken. only news delivered 
+,Karnataka CM Shri @BSYBJP met PM @narendramodi. @CMofKarnataka https://t.co/k9xUUH47ZO,Pro Ruling,,modi,"['narendramodi', 'bsybjp', 'cmofkarnataka']","[{'text': 'narendramodi', 'score': 0.6831}, {'text': 'bsybjp', 'score': 0.4581}, {'text': 'cmofkarnataka', 'score': 0.3803}]",neutral ,no stance taken. only news delivered 
+,"From today, #Modified_Lockdown is being implemented in the state. I urge everyone to follow all the guidelines &amp; adhere to instructions. No one should be negligent &amp; those who are not included in category of activities which are allowed under modified lockdown ,must #StayHome🏠.",Pro OPP,,modi,"['lockdown', 'modified', 'state']","[{'text': 'lockdown', 'score': 0.6546}, {'text': 'modified', 'score': 0.4168}, {'text': 'state', 'score': 0.3148}]",neutral ,"no stance taken, looks like advisory on lockdown. "
+,"Kangana Ranaut did two moronic things. She called for genocide in Bengal. And she reminded her Dear Leader of his Gujarat days to make the point that he is fully capable of unleashing genocide.
+
+With bhakts like this, @narendramodi needs no enemies!
+
+https://t.co/dWRwtSymB3",Pro OPP,,modi,"['narendramodi', 'genocide', 'make']","[{'text': 'narendramodi', 'score': 0.596}, {'text': 'genocide', 'score': 0.4747}, {'text': 'make', 'score': 0.1018}]",against ,"mocking kangana's ""dear leader"". also claiming that he is capable of conducting genocide. "
+,"@narendramodi There is nowhere in the world a massacre place is celebrated by light and sound , shame on you you have no  sense of empathy at all .",Pro OPP,,modi,"['massacre', 'narendramodi', 'light']","[{'text': 'massacre', 'score': 0.4076}, {'text': 'narendramodi', 'score': 0.2975}, {'text': 'light', 'score': 0.2176}]",against ,shames modi and declares he is not empathetic. 
+,"At around 4 PM today in the Lok Sabha, Prime Minister @narendramodi will reply to the Motion of Thanks on the President’s address.",Pro Ruling,,modi,"['reply', 'narendramodi', 'minister']","[{'text': 'reply', 'score': 0.5276}, {'text': 'narendramodi', 'score': 0.4269}, {'text': 'minister', 'score': 0.2954}]",neutral ,no stance taken. only news delivered 
+,PM @narendramodi shares an anecdote when he had visited a Telugu family in America. #MannKiBaat https://t.co/SFBtFnLxMX,Pro Ruling,,modi,"['narendramodi', 'family', 'america']","[{'text': 'narendramodi', 'score': 0.6644}, {'text': 'family', 'score': 0.413}, {'text': 'america', 'score': 0.314}]",for ,promoting modi's mann ki baat. 
+,"The Governor of Punjab, Shri Banwarilal Purohit called on PM @narendramodi. https://t.co/gmUlgFbwvz",Pro Ruling,,modi,"['narendramodi', 'governor', 'called']","[{'text': 'narendramodi', 'score': 0.5969}, {'text': 'governor', 'score': 0.3611}, {'text': 'called', 'score': 0.3196}]",neutral ,no stance taken. only news delivered 
+,Deeply anguished by the loss of lives due to a fire in Dhanbad. My thoughts are with those who lost their loved ones. May the injured recover soon: PM @narendramodi,Pro Ruling,,modi,"['fire', 'narendramodi', 'recover']","[{'text': 'fire', 'score': 0.4779}, {'text': 'narendramodi', 'score': 0.4418}, {'text': 'recover', 'score': 0.3161}]",for ,Modi's statement on tragedy that happened. 
+,Explain this @narendramodi https://t.co/leShPALVBh,Pro OPP,,modi,"['narendramodi', 'explain', 'this']","[{'text': 'narendramodi', 'score': 0.8696}, {'text': 'explain', 'score': 0.5118}, {'text': 'this', 'score': 0.4487}]",against ,underlying tone of contempt and scorn. 
+,On your face @ReallySwara 😂 https://t.co/wzO43jwd1r,Pro Ruling,,modi,"['face', 'narendramodi', 'your']","[{'text': 'face', 'score': 0.692}, {'text': 'narendramodi', 'score': 0.5986}, {'text': 'your', 'score': 0.5003}]",,no context given. 
+,"Hello @narendramodi and @AmitShah, please resign. Let someone else from @BJP4India who has an iota of conscience and little bit of empathy take over. Any leader with the most basic qualities of a functional human would do better. Anyone except the two of you.",Pro OPP,,modi,"['narendramodi', 'resign', 'empathy']","[{'text': 'narendramodi', 'score': 0.5338}, {'text': 'resign', 'score': 0.5142}, {'text': 'empathy', 'score': 0.2473}]",against ,Calling on modi to resign as he does not even have the basic qualities of a functional human. 
+,"MSP was there.
+
+MSP is there.
+
+MSP will remain in the future.
+
+Affordable ration for the poor will continue. 
+
+Mandis will be modernised: PM @narendramodi #PMinRajyaSabha",Pro Ruling,,modi,"['msp', 'narendramodi', 'poor']","[{'text': 'msp', 'score': 0.4419}, {'text': 'narendramodi', 'score': 0.338}, {'text': 'poor', 'score': 0.3308}]",for ,Modi's statement on affordable ration. 
+,"US legislators urge Modi to reverse Rahul disqualification
+
+@RahulGandhi @narendramodi
+
+#RahulGandhi #NarendraModi #USlegislation #UnitedStates
+
+https://t.co/gaIyGvtxRR",Pro OPP,,modi,"['legislators', 'narendramodi', 'reverse']","[{'text': 'legislators', 'score': 0.3567}, {'text': 'narendramodi', 'score': 0.3174}, {'text': 'reverse', 'score': 0.301}]",neutral ,no stance taken. only news delivered 
+,"The road accident in Andhra Pradesh’s Kurnool district is saddening. In this hour of sadness, my thoughts are with those who lost their loved ones. I hope that the injured recover at the earliest: PM @narendramodi",Pro Ruling,,modi,"['accident', 'narendramodi', 'hope']","[{'text': 'accident', 'score': 0.5804}, {'text': 'narendramodi', 'score': 0.4161}, {'text': 'hope', 'score': 0.2538}]",for ,Modi's statement on tragedy that happened. 
+,"What a magnificent new home for the people who uphold our Constitution, represent every citizen of this great Nation and protect the diversity of her one People @narendramodi ji. 
+A new Parliament building for a New India but with the age old dream of Glory for India. Jai Hind!… https://t.co/OgafXSFoOn https://t.co/FjXFZwYk2T",Pro OPP,,modi,"['home', 'narendramodi', 'constitution']","[{'text': 'home', 'score': 0.4821}, {'text': 'narendramodi', 'score': 0.4726}, {'text': 'constitution', 'score': 0.4523}]",for ,"praises the new parliament building as a great place for those ""upholding"" the constitution and a New India. "
+,Prime Minister @narendramodi will address the nation at 10 AM on 14th April 2020.,Pro Ruling,,modi,"['narendramodi', 'minister', '2020']","[{'text': 'narendramodi', 'score': 0.4593}, {'text': 'minister', 'score': 0.3393}, {'text': '2020', 'score': 0.3091}]",neutral ,no stance taken. only news delivered 
+,“Has @narendramodi created his own Lutyens’ gang- which he has often derided- with Arnab Goswami as it’s CEO?” - @INCIndia,Pro OPP,,modi,"['narendramodi', 'goswami', 'has']","[{'text': 'narendramodi', 'score': 0.5522}, {'text': 'goswami', 'score': 0.5483}, {'text': 'has', 'score': 0.2807}]",against ,"calls on modi for creating his own ""lutyens gang""."
+,"RaGa made so much noise about shortage of safety gear but if they were in power, we would have had Ch!na-quality safety gears &amp; their shortage &amp; smuggling like in Rajasthan
+
+But thanks @narendramodi for not compromising with quality of safety gear
+
+https://t.co/LKj7mxvENs",Pro Ruling,,modi,"['safety', 'shortage', 'narendramodi']","[{'text': 'safety', 'score': 0.4796}, {'text': 'shortage', 'score': 0.3246}, {'text': 'narendramodi', 'score': 0.2957}]",for ,calls modi to be a better leader than rahul gandhi and also not compromising on safety gear. 
+,"On the sidelines of the @g20org Rome Summit, PM @narendramodi interacts with various leaders. https://t.co/7L3vbpRzUs",Pro Ruling,,modi,"['leaders', 'narendramodi', 'sidelines']","[{'text': 'leaders', 'score': 0.5439}, {'text': 'narendramodi', 'score': 0.4532}, {'text': 'sidelines', 'score': 0.2069}]",for ,show modi interacting with various leaders. confident. 

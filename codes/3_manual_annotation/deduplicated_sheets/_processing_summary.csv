@@ -1,0 +1,16 @@
+file,keyword,original_count,duplicates_removed,replacements_added,final_count,status
+shaheen_bagh.csv,shaheen bagh,150,0,0,150,No duplicates
+modi.csv,modi,150,4,4,150,Processed
+hindu.csv,hindu,120,0,0,120,No duplicates
+hindutva.csv,hindutva,120,4,4,120,Processed
+congress.csv,congress,120,2,2,120,Processed
+muslim.csv,muslim,150,0,0,150,No duplicates
+farm_laws.csv,farm laws,150,0,0,150,No duplicates
+kashmir.csv,kashmir,120,4,4,120,Processed
+caa.csv,caa,150,0,0,150,No duplicates
+farmers_protests.csv,farmers protests,120,18,0,102,Processed
+kashmiri_pandits.csv,kashmiri pandits,120,26,0,94,Processed
+china.csv,china,120,1,1,120,Processed
+rahulgandhi.csv,rahulgandhi,120,7,7,120,Processed
+ram_mandir.csv,ram mandir,150,0,0,150,No duplicates
+new_parliament.csv,new parliament,150,0,0,150,No duplicates

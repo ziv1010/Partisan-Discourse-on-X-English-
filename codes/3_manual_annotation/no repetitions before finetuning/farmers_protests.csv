@@ -1,0 +1,319 @@
+source_row,tweet,tweet_label,subjects,subjects_scored,keyword,label_norm,matched keyword,stance,stance_reason
+717821,Those asking for political rallies to stop &amp; kumbh mela to be cut short won’t breathe a word about 5-month-old farmers’ protests. #Superspreaders in #Covid-hit #Punjab are a protected species?,Pro Ruling,"['protests', 'farmers', 'spreaders']","[{'text': 'protests', 'score': 0.3905}, {'text': 'farmers', 'score': 0.3259}, {'text': 'spreaders', 'score': 0.2562}]",farmers protests,Pro Ruling,farmers protests,Against,farmers protest is a super spreader of covid. 
+1487834,"Breaking: India reacts to comments by Rihanna, Greta and others on farmers protests in India. MEA says,""temptation of sensationalist social media hashtags and comments, especially when resorted to by celebrities and others, is neither accurate nor responsible. "" https://t.co/7A0V0Jazzw",Pro Ruling,"['india', 'protests', 'hashtags']","[{'text': 'india', 'score': 0.4438}, {'text': 'protests', 'score': 0.4009}, {'text': 'hashtags', 'score': 0.3044}]",farmers protests,Pro Ruling,farmers protests,Against,condems foreign celebrities for sensationalising farmers protest.
+571770,Protesters heckle Republic Bharat and Zee News journalists for reporting about the farmers' protests https://t.co/WGcix7k3Ea,Pro Ruling,"['protesters', 'journalists', 'farmers']","[{'text': 'protesters', 'score': 0.5599}, {'text': 'journalists', 'score': 0.483}, {'text': 'farmers', 'score': 0.2625}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance taken. 
+1012783,"Khalistani Sponsored Farmers’ Protests Links With Diljit Dosanjh’s Web Of Shell Companies
+ 
+ https://t.co/ARVzzPnc3D",Pro Ruling,"['protests', 'farmers', 'shell']","[{'text': 'protests', 'score': 0.4749}, {'text': 'farmers', 'score': 0.3949}, {'text': 'shell', 'score': 0.1551}]",farmers protests,Pro Ruling,farmers protests,Against,accuses farmers protest of being sponsored by Khalistanis. 
+543384,"The above four incidents have happened in the last 6 days.
+ 
+ Punjab needs to be on high alert. Pakistan is using farmers' protests for its own Khalistan agenda against India.",Pro Ruling,"['pakistan', 'protests', 'farmers']","[{'text': 'pakistan', 'score': 0.5321}, {'text': 'protests', 'score': 0.3965}, {'text': 'farmers', 'score': 0.3443}]",farmers protests,Pro Ruling,farmers protests,Against,says farmers protest is being used by Pakistan to further its Khalistani agenda. 
+914238,"#JustIn | The next round of talks between #farmers and Central Government over the #FarmLaws, to be held on 19th January.
+ 
+ #FarmersProtests 
+ (ANI)",Pro Ruling,"['farmers', 'protests', 'next']","[{'text': 'farmers', 'score': 0.5247}, {'text': 'protests', 'score': 0.3939}, {'text': 'next', 'score': 0.2594}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance taken. 
+1150883,"Farmers protests. 
+ 
+ Free liquor distribution https://t.co/QXh9sQWATi",Pro Ruling,"['farmers', 'liquor', 'protests']","[{'text': 'farmers', 'score': 0.5226}, {'text': 'liquor', 'score': 0.5209}, {'text': 'protests', 'score': 0.4869}]",farmers protests,Pro Ruling,farmers protests,Against,claims that farmers protest equals to the distribution of free alcohol. 
+1308074,"In name of ""Farmers protests "" more hooliganism - see how they break barricades &amp; misuse tricolour as a ḍanḍa to scare cops 
+ 
+ WILL FANCY DRESS KISAN NETAS LIKE YOYA AND HANNAN MOLLAH CONDEMN IT?
+ 
+ ⁦@amitmalviya⁩ ⁦@AmitShah⁩ ⁦@myogiadityanath⁩ https://t.co/JxZefFnxVy",Pro Ruling,"['hooliganism', 'farmers', 'break']","[{'text': 'hooliganism', 'score': 0.6617}, {'text': 'farmers', 'score': 0.4004}, {'text': 'break', 'score': 0.1586}]",farmers protests,Pro Ruling,farmers protests,Against,says there is more vandalism and hooliganism is being propogated in the name of farmers protest. 
+1403928,"A girl from West Bengal came to join farmers' protest.
+ 
+ She was raped by protestors at the protest site at Tikri border. Later, she died due to COVID-19.
+ 
+ And, no outrage by so called farmers' leaders as they are busy in massage machines &amp; tattoo parlour.
+ 
+ Are these our Anndatas?",Pro Ruling,"['farmers', 'protestors', 'raped']","[{'text': 'farmers', 'score': 0.4148}, {'text': 'protestors', 'score': 0.4094}, {'text': 'raped', 'score': 0.2766}]",farmers protests,Pro Ruling,farmers protests,Against,says how a girl was raped by protesters in the farmers protest. 
+1688352,"All-in all expert Pratap Bhanu Mehta, who was actually exhorting the people to come out on the street during farmers protests and stage a revolution, now dispensing gyan on Covid containment strategies.",Pro Ruling,"['protests', 'farmers', 'dispensing']","[{'text': 'protests', 'score': 0.5068}, {'text': 'farmers', 'score': 0.3839}, {'text': 'dispensing', 'score': 0.3495}]",farmers protests,Pro Ruling,farmers protests,Against,implying that farmers protest led to spread of covid. 
+2458395,"Muskan turns out to be the daughter of a PFI leader &amp; Aliya the cousin of a PFI member. The farmers protests weren’t about farmers. These protests aren’t about education. The cause changes, but the goal remains the same: To cause violence, disruption, &amp; try to malign India.",Pro Ruling,"['protests', 'farmers', 'daughter']","[{'text': 'protests', 'score': 0.4572}, {'text': 'farmers', 'score': 0.3407}, {'text': 'daughter', 'score': 0.258}]",farmers protests,Pro Ruling,farmers protests,Against,claims that the farmers protest is not about farmers but about causing disruption and violence. 
+1296420,"Deep Sidhu arrested!
+ 
+ So if he was a BJP agent why did Delhi police arrest him? And strangely Lakha Singh was spotted at a farmer's protest site! Hmmmmm so who is shielding these ""agents"" ??",Pro Ruling,"['singh', 'arrested', 'protest']","[{'text': 'singh', 'score': 0.4202}, {'text': 'arrested', 'score': 0.3852}, {'text': 'protest', 'score': 0.1537}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance taken. 
+313284,"Bhartiya Kisan Union is leading organiser of farmers protests demanding roll back of Farms Bills. In 2019, @BKU_KisanUnion demanded: abolition of APMCs, full freedom to trade, full freedom to sell, rent &amp; lease farmland, contract farming, repeal of 9th schedule, futures trading. https://t.co/HEZtH5yL83",Pro Ruling,"['farmers', 'bku_kisanunion', 'protests']","[{'text': 'farmers', 'score': 0.4816}, {'text': 'bku_kisanunion', 'score': 0.4317}, {'text': 'protests', 'score': 0.4221}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance takenn only news delivered. 
+1173853,"The ugly truth of ""Farmers"" protests https://t.co/EBa2zmowuT",Pro Ruling,"['farmers', 'protests', 'ugly']","[{'text': 'farmers', 'score': 0.6188}, {'text': 'protests', 'score': 0.5646}, {'text': 'ugly', 'score': 0.2415}]",farmers protests,Pro Ruling,farmers protests,Against ,"title shows agenda to expose the ""ugly truth"" behind farmers protest. "
+587139,"After brutally suppressing protests by indigenous tribes in Canada, PM Justin Trudeau pontificates over farmers’ protests in India
+ 
+ https://t.co/ajV0F02joU",Pro Ruling,"['protests', 'canada', 'farmers']","[{'text': 'protests', 'score': 0.4856}, {'text': 'canada', 'score': 0.4653}, {'text': 'farmers', 'score': 0.3024}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance taken. 
+2256392,"What innocent common people don’t understand is that #UrbanNaxals employ Bollywood stars and even international celebs to influence policy to keep India disturbed. You saw it in CAA/ Farmer’s protests. So, what @narendramodi says about influencing WB is absolutely correct. https://t.co/AdiKIUAUtk",Pro Ruling,"['naxal', 'india', 'urban']","[{'text': 'naxal', 'score': 0.4997}, {'text': 'india', 'score': 0.39}, {'text': 'urban', 'score': 0.2802}]",farmers protests,Pro Ruling,farmers protests,Against ,equates farmers to urban naxals. claims that main purpose is to disturb india. 
+1681269,"#FarmersProtests: Over 300 Twitter handles generated from #Pakistan to disrupt tractor rally, says Delhi Police
+ 
+ #TractorMarch #RepublicDay #RepublicDayIndia 
+ 
+ https://t.co/oEU5NInpjy",Pro Ruling,"['protests', 'tractor', 'india']","[{'text': 'protests', 'score': 0.4313}, {'text': 'tractor', 'score': 0.4035}, {'text': 'india', 'score': 0.1952}]",farmers protests,Pro Ruling,farmers protests,Against ,shows Pakistani links to farmers protest. 
+1237306,"This is how @the_hindu reported the Taliban-style execution of a Dalit labourer at the #FarmersProtest site on Singhu border. 
+ The photo caption is a reassertion of the paper’s ideology.
+ How do they look at their reflection in the mirror? https://t.co/FHjXBYbrf4",Pro Ruling,"['the_hindu', 'taliban', 'mirror']","[{'text': 'the_hindu', 'score': 0.4371}, {'text': 'taliban', 'score': 0.4181}, {'text': 'mirror', 'score': 0.3161}]",farmers protests,Pro Ruling,farmers protests,Against ,implies that farmers follow taliban style execution of dalit minorities. 
+1737018,"The most tragic part of these #FarmersProtests is the wedge that is being driven between Hindus and Sikhs, something the Congress has done earlier too, for political gain.",Pro Ruling,"['protests', 'farmers', 'wedge']","[{'text': 'protests', 'score': 0.4823}, {'text': 'farmers', 'score': 0.3757}, {'text': 'wedge', 'score': 0.1871}]",farmers protests,Pro Ruling,farmers protests,Against ,claims that farmers protest is only succeeding in creating a wedge between sikhs and hindus. 
+783414,"Yogendra Yadav knew that a girl was gangraped on farmer's protest site.. So were many farmer leaders.
+ 
+ But due to their agenda, they kept silent. https://t.co/AbFpj62tGW",Pro Ruling,"['yogendra', 'protest', 'gangraped']","[{'text': 'yogendra', 'score': 0.4702}, {'text': 'protest', 'score': 0.307}, {'text': 'gangraped', 'score': 0.2836}]",farmers protests,Pro Ruling,farmers protests,Against ,shows how farmers raped girls on farmers protest site and senior leadership of the protest stayed silent. 
+869342,"Caught on camera (sting) that the Govt machinery in Punjab is, Financially, logistically and by way of manpower supporting the Farmers Protests. 
+ One who believes talks will resolve the deadlock is being naive.
+ #6monthsRation
+ #8RoundsTalks
+ #DeadLockContinues https://t.co/DoaI88ejRK",Pro Ruling,"['deadlock', 'farmers', 'protests']","[{'text': 'deadlock', 'score': 0.4138}, {'text': 'farmers', 'score': 0.2549}, {'text': 'protests', 'score': 0.1717}]",farmers protests,Pro Ruling,farmers protests,Against ,believes that farmers protest is going to continue as it supports political agenda. 
+1165093,"Cushioned sofas on tractors is not a protest... it is 'protest tourism' to misguide our farmers!
+ 
+ #FarmersProtests #FarmLaws #Farmers #RahulGandhi #congressfreeindia https://t.co/QAeYwPZq9p",Pro Ruling,"['farmers', 'protests', 'sofas']","[{'text': 'farmers', 'score': 0.4624}, {'text': 'protests', 'score': 0.3123}, {'text': 'sofas', 'score': 0.2976}]",farmers protests,Pro Ruling,farmers protests,Against ,"accuses farmers of propogating ""protest tourism"" and being misguided. "
+215325,"Dissent in Democracy? 
+ Or Anarchy?
+ Farmers Protests or are 'farmers' an excuse to disrupt law &amp; order.
+ Mobile towers: Do they not help with online education? 
+ Communication?
+ Telemedicine? 
+ Banking? 
+ Who is disrupting India again &amp; again? 
+ Violation of law is totally unacceptable https://t.co/bQW7c27rnD",Pro Ruling,"['democracy', 'farmers', 'telemedicine']","[{'text': 'democracy', 'score': 0.4609}, {'text': 'farmers', 'score': 0.2248}, {'text': 'telemedicine', 'score': 0.1512}]",farmers protests,Pro Ruling,farmers protests,Against ,claims that farmers protest is an excuse to disrupt law and propogate violence. 
+1762082,"After Congress toolkit, video of Kamal Nath asking Congress workers to ‘set fire’ over farmers protest surfaces on social media
+ 
+ https://t.co/fYtZelUKXB",Pro Ruling,"['farmers', 'congress', 'media']","[{'text': 'farmers', 'score': 0.3811}, {'text': 'congress', 'score': 0.3674}, {'text': 'media', 'score': 0.2542}]",farmers protests,Pro Ruling,farmers protests,Against ,implies that farmers protest is congress propoganda to spread disruption. 
+58963,"Times of India published article: ""Muslim-Sikh Amity"" during the farmers' protests. Nice!
+ 
+ But, TOI should've added those Hindus too who were present in protest where Yograj Singh said ""Inki aurate take-take k bhaw bikti thi"" and they didn't even stop him, might have clapped too.",Pro Ruling,"['hindus', 'protests', 'didn']","[{'text': 'hindus', 'score': 0.6113}, {'text': 'protests', 'score': 0.3729}, {'text': 'didn', 'score': 0.1248}]",farmers protests,Pro Ruling,farmers protests,Against ,shows how farmers protest is insulting hindus and those hindus present during these protests are no better than muslim and sikhs. 
+322919,"Farmers are worried that solution will be reached &amp; they'll have to go back to work &amp; lose Freebies they're enjoying at #FarmersProtests 😂😂 ""Meeting Chal rahi hai, Kahin Faisla na ho jaye, Wapis jaa kar kaam karna padega Yahan toh Anand hai"" 😂😂 https://t.co/veYZrJJBLW",Pro Ruling,"['farmers', 'protests', 'back']","[{'text': 'farmers', 'score': 0.6109}, {'text': 'protests', 'score': 0.2655}, {'text': 'back', 'score': 0.1597}]",farmers protests,Pro Ruling,farmers protests,Against ,implying that farmers protest is a hoax and an excuse to not work. 
+1404889,"Pl stop #FarmersProtests. 
+ They are super spreaders. Dangerous for everyone else. 
+ 
+ Ask any doctor, virologist, expert, scientist or even a man with common sense. Except for stupid liberals and frustrated leftists.",Pro Ruling,"['protests', 'farmers', 'virologist']","[{'text': 'protests', 'score': 0.5043}, {'text': 'farmers', 'score': 0.4787}, {'text': 'virologist', 'score': -0.0076}]",farmers protests,Pro Ruling,farmers protests,Against ,claiming that farmers protest is a super spreader of covid and dangerous for everyone. 
+313787,"New agricultural reforms 2020 will save the lives of several farmers.
+ 
+ #Farmers #FarmersIssue #FarmBills2020 #FarmersProtests https://t.co/crQlRXxjll",Pro Ruling,"['farmers', '2020', 'protests']","[{'text': 'farmers', 'score': 0.5386}, {'text': '2020', 'score': 0.3585}, {'text': 'protests', 'score': 0.256}]",farmers protests,Pro Ruling,farmers protests,Against ,claims that the bills that the farmers are fighting against will actually save the lives of several farmers. 
+1481824,"Delhi Police squeezes Permission 
+ 
+ 5000 Tractors permitted for Rally with proper Documentation like RC etc from 12pm to 5 pm with only 5000 Participants . No deviation from Routes allowed 
+ 
+ #FarmersProtests 
+ #TractorMarch",Pro Ruling,"['tractors', 'delhi', 'protests']","[{'text': 'tractors', 'score': 0.4316}, {'text': 'delhi', 'score': 0.2845}, {'text': 'protests', 'score': 0.2833}]",farmers protests,Pro Ruling,farmers protests,neutral ,"no stance taken, only news delivered. "
+1447246,"It feels like reading my own book #UrbanNaxals written in 2018 where I exposed their global plan to turnover Indian state with armed revolution in 2020. It’s all coming true.
+ 
+ Take a look at this most important #FarmersProtest strategy PPT made by #UrbanNaxals against India.
+ 
+ 1/9 https://t.co/iqQFtUMxzN",Pro Ruling,"['naxal', 'urban', 'farmers']","[{'text': 'naxal', 'score': 0.4802}, {'text': 'urban', 'score': 0.285}, {'text': 'farmers', 'score': 0.2205}]",farmers protests,Pro Ruling,farmers protests,Against ,equates farmers to urban naxals. claims that main purpose is to disturb india and start an armed revolution. 
+1465652,Control the so-called farmers protests or people will bring them under control. There is only so much that the public can tolerate.,Pro Ruling,"['protests', 'farmers', 'control']","[{'text': 'protests', 'score': 0.4329}, {'text': 'farmers', 'score': 0.3166}, {'text': 'control', 'score': 0.3058}]",farmers protests,Pro Ruling,farmers protests,Against ,implies that farmers protest is a hoax and needs to be controlled. 
+1741412,Kangana Ranaut explodes at Rihanna entering Farmers' protest; says 'sit down you fool' https://t.co/BsbuLj64Ll,Pro Ruling,"['explodes', 'farmers', 'sit']","[{'text': 'explodes', 'score': 0.281}, {'text': 'farmers', 'score': 0.1602}, {'text': 'sit', 'score': 0.1551}]",farmers protests,Pro Ruling,farmers protests,neutral ,"no stance taken, only news delivered. "
+1158508,"Delhi Farmers Protest Sites Major Spreader ; Many Covid positive Villagers returning from Delhi border protest sites, causing Covid surge in rural Punjab.
+ 
+ https://t.co/ARBNlNqiOj",Pro Ruling,"['protest', 'farmers', 'border']","[{'text': 'protest', 'score': 0.4202}, {'text': 'farmers', 'score': 0.3597}, {'text': 'border', 'score': 0.1688}]",farmers protests,Pro Ruling,farmers protests,Against ,claiming that farmers protest is a super spreader of covid and dangerous for everyone. 
+1558634,"Big twist in farmers conspiracy claim!
+ 
+ In Haryana police's custody, Masked man claims to have been abducted by the protesting farmers.
+ 
+ #FarmersProtests #Farmers #FarmLaws https://t.co/ud2lTqZ7y2",Pro Ruling,"['farmers', 'abducted', 'protesting']","[{'text': 'farmers', 'score': 0.4795}, {'text': 'abducted', 'score': 0.3544}, {'text': 'protesting', 'score': 0.2508}]",farmers protests,Pro Ruling,farmers protests,Against ,"labels farmers protest as a ""conspiracy"". also discusses their violent and mafia like behaviour. "
+520753,"Cost of farmers protests so far 70,000 crores, because of dharna economic slowdown in neighbouring industries and small factories, might lead to riots, @diljitdosanjh and @priyankachopra you understand our actions have serious consequences please tell me who will pay for this? https://t.co/1KHSuFyQTo",Pro Ruling,"['protests', 'farmers', 'cost']","[{'text': 'protests', 'score': 0.4316}, {'text': 'farmers', 'score': 0.3748}, {'text': 'cost', 'score': 0.3269}]",farmers protests,Pro Ruling,farmers protests,Against ,suggests that farmers protest would lead to riots and is a very costly endeavor which would burden the Indian economy. 
+414460,"Dr. Anand Ranganathan @ARanganathan72 busts the 'Farmers Protests'
+ 
+ With Hindi and Punjabi subtitles
+ 
+ Video by @prachyam7 
+ 
+ #किसान_नहीं_कांग्रेस_परेशान_है https://t.co/XtNdV6YSZK",Pro Ruling,"['protests', 'farmers', 'subtitles']","[{'text': 'protests', 'score': 0.4841}, {'text': 'farmers', 'score': 0.4403}, {'text': 'subtitles', 'score': 0.2394}]",farmers protests,Pro Ruling,farmers protests,Against ,"shows how someone ""bust"" the farmers protest. "
+2238348,"Modi Govt in 🔥 Mood Today!
+ 
+ NOW...INCOME TAX DEPT IS CONDUCTING SURVEY ACTION AT ""OXFAM INDIA""(DELHI)!!
+ 
+ Survey Action..1st Step to investigate Money Laundering.Then enters ED!
+ 
+ Oxfam India is NGO funded by SOROS &amp; OMIDYAR! Was involved in Anti-CAA Ri0t$ &amp; Fake Farmers Protests!",Pro Ruling,"['india', 'tax', 'oxfam']","[{'text': 'india', 'score': 0.4761}, {'text': 'tax', 'score': 0.4301}, {'text': 'oxfam', 'score': 0.4204}]",farmers protests,Pro Ruling,farmers protests,Against ,calls farmers protest fake. 
+274384,"#WATCH These Haryana farmers completely expose the manufactured #FarmersProtests &amp; the corruption by previous governments..
+ 
+ #FarmersBill2020 https://t.co/6LroetoTsm",Pro Ruling,"['farmers', 'protests', 'bill2020']","[{'text': 'farmers', 'score': 0.5888}, {'text': 'protests', 'score': 0.218}, {'text': 'bill2020', 'score': 0.1591}]",farmers protests,Pro Ruling,farmers protests,Against ,claims that farmers protest is not organic but a manufactured strategy. 
+1576034,"As soon cases started rising, Kumbh mela was stopped. Modi’s election rallies stop. While farmers’ protests, opposition rallies &amp; Islamist rallies demanding beheading of blasphemers continue. If someone is quoting the first two while ignoring the rest, he is a Hinduphobic trash.",Pro Ruling,"['hinduphobic', 'election', 'beheading']","[{'text': 'hinduphobic', 'score': 0.47}, {'text': 'election', 'score': 0.3357}, {'text': 'beheading', 'score': 0.2398}]",farmers protests,Pro Ruling,farmers protests,Against ,"says whoever is supporting farmers protest and stopping kumbh mela due to covid is ""hinduphobic"". "
+1404329,"Journalism is independent research and not mere reproduction of narratives. The global media has done a very shoddy job on the coverage of farmers’ protests in India.
+ 
+ Most reports are superficial and cover just one side of the story.
+ 
+ Normalising violence is supporting violence.",Pro Ruling,"['journalism', 'normalising', 'farmers']","[{'text': 'journalism', 'score': 0.6809}, {'text': 'normalising', 'score': 0.1947}, {'text': 'farmers', 'score': 0.1728}]",farmers protests,Pro Ruling,farmers protests,Against ,implies that global media is normalising the violence of farmers protest. 
+11949,"Do you know why #Canada is involved in Indian #FarmersProtests ? BC if Indian farmer get direct access to the bigger market, better facilities, more money to Farmer . Canadian exports to INDIA will go to zero!
+ #FarmerBill2020 
+ #FarmersWithModi 
+ #FarmerProtestHijacked https://t.co/xMTuumPrCc",Pro Ruling,"['canada', 'farmers', 'hijacked']","[{'text': 'canada', 'score': 0.5191}, {'text': 'farmers', 'score': 0.4781}, {'text': 'hijacked', 'score': -0.0782}]",farmers protests,Pro Ruling,farmers protests,Against ,claims that farmers protest is being hijacked by canada to support its own economic agenda. 
+1555466,"Reality Check!
+ 
+ #Farmers #FarmersProtests #RahulGandhi #CongressMuktBharat https://t.co/ZKEoTGqPbz",Pro Ruling,"['farmers', 'protests', 'check']","[{'text': 'farmers', 'score': 0.6224}, {'text': 'protests', 'score': 0.4148}, {'text': 'check', 'score': 0.1696}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance taken. not enough context given. 
+513424,"@GauravPandhi Dummy I said Bilkis Dadi ji who got popularity in Shaheen Baag which lead to massive riots is also in Farmers protests,but it was not her so I deleted that picture but next day Bilkis Dadi was actually in the farmers protests. I don’t consider myself wrong, was just ahead time.",Pro Ruling,"['gauravpandhi', 'protests', 'deleted']","[{'text': 'gauravpandhi', 'score': 0.4171}, {'text': 'protests', 'score': 0.3643}, {'text': 'deleted', 'score': 0.1461}]",farmers protests,Pro Ruling,farmers protests,neutral ,no stance taken. 
+1308020,Some global celebs deleted their tweets after ascertaining the truth about farmers’ protests in India. Realised it was imprudent to comment on matters unknown to them but here we have Mia Khalifa thanking Jagmeet Singh for food in exchange for spreading disinfo as if it’s a joke.,Pro Ruling,"['tweets', 'celebs', 'india']","[{'text': 'tweets', 'score': 0.3935}, {'text': 'celebs', 'score': 0.3191}, {'text': 'india', 'score': 0.2761}]",farmers protests,Pro Ruling,farmers protests,Against ,shows how global celebrities are slowly deleting tweets after learning truth about farmers protest. 
+958736,"Now khaps also decide to strengthen #FarmersProtest sites at Delhi borders !
+ 
+ One thing is clear that had @PMOIndia the faintest idea about the will power of farmers, about the resolve they r showing in their protests against #FarmLaws, the Govt would not have brought #FarmLaws ! https://t.co/gGQQPSIezk",Pro OPP,"['farmers', 'protests', 'borders']","[{'text': 'farmers', 'score': 0.4435}, {'text': 'protests', 'score': 0.2818}, {'text': 'borders', 'score': 0.1664}]",farmers protests,Pro Opp,farmers protests,For ,commends the willpower and resolve of farmers. 
+1123111,"Ok. In that case, let the Modi Govt (especially the Home Ministry) respond to this RTI of mine &amp; state on record as to how they determined the presence of Khalistanis at farmers' protests &amp; what action has been taken.
+ 
+ If not, the Union of India would stand guilty of perjury. https://t.co/LUrrJ08iNi https://t.co/VakLshSuuT",Pro OPP,"['india', 'guilty', 'protests']","[{'text': 'india', 'score': 0.4872}, {'text': 'guilty', 'score': 0.2178}, {'text': 'protests', 'score': 0.2099}]",farmers protests,Pro Opp,farmers protests,For ,asking Modi government to deliver evidence on the accusation that khalistanis are involved in farmers protest or else they would be held responsible for perjury. 
+702364,"Malific Intent ! Centre’s untimely and adamant approach for implementation of direct payment to Farmers, scuttles APMC system ... Using every ploy to dismember the resilient socio-economic fabric of Punjab’s Agriculture which has organically evolved over decades #FarmersProtests",Pro OPP,"['agriculture', 'payment', 'protests']","[{'text': 'agriculture', 'score': 0.5067}, {'text': 'payment', 'score': 0.304}, {'text': 'protests', 'score': 0.2271}]",farmers protests,Pro Opp,farmers protests,For ,blames government. 
+1306543,"The govt shut off electricity from farmers protest sites last night. It is like a military siege, blocking access routes to farmers protest sites, shutting off internet! Then sending 1000s of armed policemen, para military &amp; hundreds of stone throwing BJP goons to evict farmers! https://t.co/HuvIDlp7ev",Pro OPP,"['electricity', 'farmers', 'protest']","[{'text': 'electricity', 'score': 0.421}, {'text': 'farmers', 'score': 0.362}, {'text': 'protest', 'score': 0.2951}]",farmers protests,Pro Opp,farmers protests,For ,shows government's brutal response to farmers protesting. 
+36967,Farmers protests are our last line of defence against Corporate takeover of India’s Food Systems... Govt giving baseless arguments that Farmers who gave India Food Security over generations of hard labour are misguided about there own occupation. Justifying a fault doubles it up! https://t.co/VUfKclhlDC,Pro OPP,"['farmers', 'protests', 'last']","[{'text': 'farmers', 'score': 0.5253}, {'text': 'protests', 'score': 0.3091}, {'text': 'last', 'score': 0.2237}]",farmers protests,Pro Opp,farmers protests,For ,claims that farmers protest is the last line of defence over a corporate takeover. 
+112400,Chulhas have started coming on National Highways ! #FarmersProtests #FarmLaws https://t.co/bRWqkfs6qa,Pro OPP,"['farmers', 'highways', 'protests']","[{'text': 'farmers', 'score': 0.4107}, {'text': 'highways', 'score': 0.3991}, {'text': 'protests', 'score': 0.2438}]",farmers protests,Pro Opp,farmers protests,neutral ,no stance taken. 
+60714,"Karnal, Sonipat, Panipat, Ambala, Kaithal, Gurgaon Toll plazas made toll free ! #FarmersProtests #FarmLaws",Pro OPP,"['farmers', 'toll', 'protests']","[{'text': 'farmers', 'score': 0.4999}, {'text': 'toll', 'score': 0.3425}, {'text': 'protests', 'score': 0.2594}]",farmers protests,Pro Opp,farmers protests,neutral ,no stance taken. 
+956457,"A year after EAM Jaishankar boycotted an HFAC meeting because of comments on J&amp;K that constituted external ""interference"", Indian Ambassador to US discusses Indias ""internal issues"" like farmers protests with the House India Caucus. Sign of the times changing. https://t.co/Sep2jrCIL2",Pro OPP,"['ambassador', 'indian', 'boycotted']","[{'text': 'ambassador', 'score': 0.4255}, {'text': 'indian', 'score': 0.3894}, {'text': 'boycotted', 'score': 0.2167}]",farmers protests,Pro Opp,farmers protests,For ,shows government stance changing based on their feasibility. 
+959609,"Just another Friday at Tikri Border's
+ #FarmersProtest site. Cloudy weather. https://t.co/Zn45MTxENq",Pro OPP,"['protest', 'cloudy', 'farmers']","[{'text': 'protest', 'score': 0.565}, {'text': 'cloudy', 'score': 0.4246}, {'text': 'farmers', 'score': 0.3736}]",farmers protests,Pro Opp,farmers protests,neutral ,no stance taken. 
+518309,Farmers' protests have increased by 700% since Modi govt has come to power. Who is voting for BJP then?,Pro OPP,"['protests', 'farmers', 'increased']","[{'text': 'protests', 'score': 0.4184}, {'text': 'farmers', 'score': 0.4147}, {'text': 'increased', 'score': 0.3745}]",farmers protests,Pro Opp,farmers protests,For ,blames Modi government. 
+133314,"#Verified #Breaking
+ 
+ 👉Farmers to boycott all Jio/Reliance/Adani products- from stores to toll plaza to mobile sims
+ 
+ 👉Jaipur-Highway to be blocked till December 12th
+ 
+ 👉New slogan of #FarmersProtest- 'Sarkaar ki Asli Majboori - Adani, Ambani, Jamakhori'",Pro OPP,"['boycott', 'farmers', 'breaking']","[{'text': 'boycott', 'score': 0.4493}, {'text': 'farmers', 'score': 0.4121}, {'text': 'breaking', 'score': 0.1648}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1143275,"200 women protesters leaving for Kisan Parliament at Jantar Mantar #Delhi ! #FarmersProtest 
+ 
+ P.S-This is for those bozzos, bhakts, Sarkari spin doctors, Godi Media who claim that women protesters, have left #FarmersProtest sites, that women are not treated equally. https://t.co/ppPab3g8q0",Pro OPP,"['protesters', 'women', 'farmers']","[{'text': 'protesters', 'score': 0.5155}, {'text': 'women', 'score': 0.4453}, {'text': 'farmers', 'score': 0.2563}]",farmers protests,Pro Opp,farmers protests,For ,shows women's support and involvement in farmers protest. 
+1637245,"Yes, now world is watching .. 
+ #PMO #NarendraModi
+ #FarmersProtests https://t.co/yLFL3jbAj6",Pro OPP,"['farmers', 'protests', 'pmo']","[{'text': 'farmers', 'score': 0.4722}, {'text': 'protests', 'score': 0.4529}, {'text': 'pmo', 'score': 0.1734}]",farmers protests,Pro Opp,farmers protests,For ,claims that world is watching India's government. 
+1393658,"Ranga-Billa is just waiting for farmers to get violent
+ 
+ Media is already given full script with graphics
+ 
+ #FarmersProtests",Pro OPP,"['farmers', 'media', 'script']","[{'text': 'farmers', 'score': 0.3364}, {'text': 'media', 'score': 0.308}, {'text': 'script', 'score': 0.193}]",farmers protests,Pro Opp,farmers protests,For ,blames media bias against farmers. 
+257885,"#FarmersProtests | As the agitating farmers continued their sit-in on the Delhi-Jaipur highway, Rajasthan Chief Minister #AshokGehlot on Monday condemned the statements of the #BJP leaders decrying their protest. 
+ https://t.co/QFuwZUNl1x",Pro OPP,"['farmers', 'protests', 'ashok']","[{'text': 'farmers', 'score': 0.5005}, {'text': 'protests', 'score': 0.4602}, {'text': 'ashok', 'score': 0.1845}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+601485,"Sonipat Mayoral Election Result 2020
+ 
+ INC 72118 Votes
+ BJP 58300 Votes
+ 
+ Since their masters lost at the epicenter of Farmers Protests, there is a pin drop silence in Godi Media.
+ 
+ #FarmersAppealTotalRepeal",Pro OPP,"['election', 'farmers', 'silence']","[{'text': 'election', 'score': 0.4342}, {'text': 'farmers', 'score': 0.3904}, {'text': 'silence', 'score': 0.1756}]",farmers protests,Pro Opp,farmers protests,For ,"calls out media for ""sitting in government's lap"". "
+743442,"Good speech in support of farmers protests, questioning government on Chinese incursions &amp; Kashmir encounters etc https://t.co/sGycHzDi5Y",Pro OPP,"['speech', 'chinese', 'farmers']","[{'text': 'speech', 'score': 0.5173}, {'text': 'chinese', 'score': 0.3974}, {'text': 'farmers', 'score': 0.325}]",farmers protests,Pro Opp,farmers protests,For ,claims speeches at farmers protest make good points while questioning government choices. 
+934703,#SamyuktaKisanMorcha members claim that #DeepSidhu and his band were all along working at cross purposes from them and did not follow their commonly agreed upon decisions #FarmersProtests https://t.co/4vK4Dzz9ZH,Pro OPP,"['band', 'farmers', 'cross']","[{'text': 'band', 'score': 0.3724}, {'text': 'farmers', 'score': 0.3144}, {'text': 'cross', 'score': 0.1903}]",farmers protests,Pro Opp,farmers protests,For ,shows that there were some outliers in farmers protest but that doesnt mean the entire protest is aligned like that. 
+1330232,"My lung power doesn’t permit a #FarmersProtests support video but my heart goes out to our brave Annadata, who have persevered in peace &amp; solidarity against a deaf, inhumane @PMOIndia who has merely occupied himself with efforts to discredit their demands #किसान_के_लिए_बोले_भारत https://t.co/0CDQMRfcKT",Pro OPP,"['protests', 'farmers', 'deaf']","[{'text': 'protests', 'score': 0.4431}, {'text': 'farmers', 'score': 0.3422}, {'text': 'deaf', 'score': 0.1913}]",farmers protests,Pro Opp,farmers protests,For ,calls modi government deaf and inhumane. sympathises with protesters. 
+948158,Watch &amp; listen: A beautiful requiem for the farmers protests https://t.co/Uw828GhuXi,Pro OPP,"['protests', 'farmers', 'watch']","[{'text': 'protests', 'score': 0.5292}, {'text': 'farmers', 'score': 0.5289}, {'text': 'watch', 'score': 0.3705}]",farmers protests,Pro Opp,farmers protests,For ,"""beautiful requiem"""
+363073,"Protesting farmers announce that they will boycott the Jio products including Jio Sims and phones..
+ 
+ New slogan of #FarmersProtest- 'Sarkaar ki Asli Majboori - Adani, Ambani, Jamakhori'
+  #BoycottAmbaniAdani",Pro OPP,"['farmers', 'boycott', 'phones']","[{'text': 'farmers', 'score': 0.4114}, {'text': 'boycott', 'score': 0.4}, {'text': 'phones', 'score': 0.0719}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+450714,"What if they can't be here physically ! My Sisters My Strength - The Daughters of Haryana Sent Blankets For their brothers &amp; Sisters at Tikri Border
+ 
+ Dear Shaktis,
+ We are Proud of you 🙇
+ 
+ #FarmersProtests https://t.co/ZWcbtzI5cB",Pro OPP,"['haryana', 'sisters', 'protests']","[{'text': 'haryana', 'score': 0.392}, {'text': 'sisters', 'score': 0.375}, {'text': 'protests', 'score': 0.3219}]",farmers protests,Pro Opp,farmers protests,For ,shows how women members are proud of their male farmer counterparts for conducting the protest. 
+1393901,"Something that the mainstream media will never show us! 
+ #FarmersProtests https://t.co/af6pTgbXWQ",Pro OPP,"['farmers', 'protests', 'never']","[{'text': 'farmers', 'score': 0.5428}, {'text': 'protests', 'score': 0.5105}, {'text': 'never', 'score': 0.1399}]",farmers protests,Pro Opp,farmers protests,For ,shows media bias against farmers. 
+1284235,"During ongoing #FarmersProtests
+ I still remember @KamalaHarris said in October 2019, “We have to remind the Kashmiris that they are not alone in the world. We are keeping a track on the situation. There is a need to intervene if the situation demands.”",Pro OPP,"['farmers', 'protests', 'kashmiris']","[{'text': 'farmers', 'score': 0.3332}, {'text': 'protests', 'score': 0.3184}, {'text': 'kashmiris', 'score': 0.2787}]",farmers protests,Pro Opp,farmers protests,neutral ,no stance taken. 
+450701,"Today at Tikri we had water botels shortage 
+ 
+ So you are donating send water bottle packages !
+ Avoid Bananas Please It's cold 🙏
+ 
+ #FarmersProtests",Pro OPP,"['bottle', 'protests', 'farmers']","[{'text': 'bottle', 'score': 0.4318}, {'text': 'protests', 'score': 0.3149}, {'text': 'farmers', 'score': 0.2958}]",farmers protests,Pro Opp,farmers protests,For ,requesting water bottles for farmers. 
+413557,"He is a farmer from Chandwad, 60 km from Nashik. 
+ He says during pandemic it was agriculture that helped GDP to an extent when rest of the companies had shut down! So why kill agriculture? 
+ 
+ Oh yes, he is aware and educated about surroundings
+ 
+ #FarmersProtests #Maharashtra https://t.co/I9D52jHZDl",Pro OPP,"['farmer', 'chandwad', 'pandemic']","[{'text': 'farmer', 'score': 0.5322}, {'text': 'chandwad', 'score': 0.3207}, {'text': 'pandemic', 'score': 0.2421}]",farmers protests,Pro Opp,farmers protests,For ,"shows farmers saved india during covid, also calls them aware and educated. "
+2772402,"Former Twitter CEO @Jack Dorsey in an interview to @esaagar @krystalball on Breaking Points says, 
+ “India for example, India is one of the country which had many requests around farmers protests, around particular journalists which were critical of the government, and manifest in… https://t.co/EteNBAKYrO https://t.co/zD7ZCf7m96",Pro OPP,"['india', 'protests', 'jack']","[{'text': 'india', 'score': 0.5963}, {'text': 'protests', 'score': 0.3461}, {'text': 'jack', 'score': 0.0068}]",farmers protests,Pro Opp,farmers protests,For ,shows foreign speculation on Indian Government handling of farmers protest. 
+1388213,Farmers arriving in Delhi for the tractor parade receive a rousing reception. #FarmersProtests https://t.co/RcofTV6HCq,Pro OPP,"['farmers', 'protests', 'arriving']","[{'text': 'farmers', 'score': 0.5807}, {'text': 'protests', 'score': 0.4021}, {'text': 'arriving', 'score': 0.2686}]",farmers protests,Pro Opp,farmers protests,For ,"""receive rousing reception"" "
+2855725,"Former Twitter CEO @Jack Dorsey in an interview to @esaagar @krystalball on Breaking Points talks about Worlds Largest Democracy, 
+ “India for example, India is one of the country which had many requests around farmers protests, around particular journalists which were critical of… https://t.co/NRNZa5Wt0S https://t.co/unF6dVmv0O",Pro OPP,"['india', 'protests', 'jack']","[{'text': 'india', 'score': 0.5605}, {'text': 'protests', 'score': 0.3431}, {'text': 'jack', 'score': 0.0515}]",farmers protests,Pro Opp,farmers protests,For ,shows foreign speculation on Indian Government handling of farmers protest. 
+727115,"#Verified
+ 
+ 👉Samyukt Kisan Morcha (SKM) CONFIRMS- #FarmersProtest will continue
+ 
+ 👉SKM is the ONLY AUTHORIZED body on #FarmersProtest
+ 
+ 👉SKM- We have nothing to do with what happened in Supreme Court
+ 
+ 👉SKM- Our talks are with government which will happen next on January 15th",Pro OPP,"['protest', 'farmers', 'skm']","[{'text': 'protest', 'score': 0.4268}, {'text': 'farmers', 'score': 0.3193}, {'text': 'skm', 'score': 0.2964}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1605093,"Indian National Congress are strongly rallying behind the farmers of the nation!
+ 
+ Modi &amp; Co are trying to sell farming sector also to AA &amp; at any cost @INCIndia will not allow that!
+ 
+ We are committed to support farmers of our nation ☝🏼
+ 
+ #IndiaSupportsChakkaJaam 
+ #FarmersProtests",Pro OPP,"['farmers', 'congress', 'rallying']","[{'text': 'farmers', 'score': 0.4957}, {'text': 'congress', 'score': 0.4302}, {'text': 'rallying', 'score': 0.3615}]",farmers protests,Pro Opp,farmers protests,For ,"blames modi government, shows farmers being supported by congress. "
+1338739,"Protesters at the Singhu border observe 'Black Day' as they complete six months of agitation against farm laws
+ 
+ #FarmersProtests 
+ 
+ (ANI) https://t.co/5JPARzkj0M",Pro OPP,"['protesters', 'black', 'farm']","[{'text': 'protesters', 'score': 0.4891}, {'text': 'black', 'score': 0.4084}, {'text': 'farm', 'score': 0.1826}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+2045754,"Solid speech by @RahulGandhi in LS yesterday..Raised plight of Unorganised sector, Unemployment, students protests, need to respect India’s diversity, Farmers protests,
+ totalitarian attitude of govt. , the erosion of institutions of the state, Pegasus &amp; National security..
+ 👏🏽👏🏽👏🏽",Pro OPP,"['rahulgandhi', 'speech', 'unemployment']","[{'text': 'rahulgandhi', 'score': 0.6019}, {'text': 'speech', 'score': 0.4558}, {'text': 'unemployment', 'score': 0.2361}]",farmers protests,Pro Opp,farmers protests,For ,accuses government of being totalitarian. 
+1340976,"#Verified #Breaking
+ 
+ 👉Samyukt Kisan Morcha tells me that 228 protestors have died so far in
+ #FarmersProtest
+ 
+ 👉Samyukt Kisan Morcha is the only body authorized to make official statements on #FarmersProtest",Pro OPP,"['protestors', 'farmers', 'died']","[{'text': 'protestors', 'score': 0.5227}, {'text': 'farmers', 'score': 0.3975}, {'text': 'died', 'score': 0.3483}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+182156,"Despite reporters at protest site, Godi media showed PM Modi's Varanasi visit UNINTERRUPTED full day.
+ 
+ If one only watches TV, it would appear #FarmersProtests is over.
+ 
+ It's clearer now that corporate-media is anti-poor/farmer. That's the nature of anything run by corporates.",Pro OPP,"['farmers', 'media', 'protests']","[{'text': 'farmers', 'score': 0.3933}, {'text': 'media', 'score': 0.3476}, {'text': 'protests', 'score': 0.2958}]",farmers protests,Pro Opp,farmers protests,For ,accuses media of being biased towards government and being anti-poor and anti-farmer. 
+1125807,"This is a Teaser/Promo of '124a', a Documentary Film based on the ongoing Farmers Protests in India. The voice in the background is the speech of Sir Charlie Chaplin (As Hynkel) from his historic movie The Great Dictator (1940). 
+ Link : https://t.co/QJPgvn3WeM https://t.co/Vgp7iWuAlw",Pro OPP,"['speech', 'india', '124a']","[{'text': 'speech', 'score': 0.4388}, {'text': 'india', 'score': 0.3449}, {'text': '124a', 'score': 0.3257}]",farmers protests,Pro Opp,farmers protests,For ,subtly shows how farmers are protesting against a dictatorship. 
+811806,"#FarmersProtest
+ 
+ Sunday, Singhu, Spines. https://t.co/RJoQhGqfbJ",Pro OPP,"['farmers', 'protest', 'spines']","[{'text': 'farmers', 'score': 0.5855}, {'text': 'protest', 'score': 0.5829}, {'text': 'spines', 'score': 0.1901}]",farmers protests,Pro Opp,farmers protests,For ,"shows the strength of farmers through the word ""spines"" "
+452174,"""The more you bully a Punjabi, the more angry (s)he gets. This is now about Fakr, Pride""- I am in rural Punjab to understand the sentiment driving #FarmersProtests. ""Yeh Kisan Ki ladai nahin, Insan Ki Ladai hai""- More reports @themojo_in #PunjabDiaries https://t.co/aQ0UMMwwsw https://t.co/pdDBWNGOCw",Pro OPP,"['punjabi', 'protests', 'themojo_in']","[{'text': 'punjabi', 'score': 0.5962}, {'text': 'protests', 'score': 0.456}, {'text': 'themojo_in', 'score': 0.2338}]",farmers protests,Pro Opp,farmers protests,For ,shows how farmers are reclaiming their rights and pride and will not tolerate the government bullying them. 
+325731,"No foreign country Canada or any other, or leader Trudeau or others 
+ have a right to comment on our domestic issues! 
+ But the rule was broken by our Hon'ble PM shri #NarendraModi ji when he campaiged for President Trump saying ""Ab ki baar Trump Sarkar"" ..
+ #FarmersProtests",Pro OPP,"['canada', 'farmers', 'trump']","[{'text': 'canada', 'score': 0.4398}, {'text': 'farmers', 'score': 0.3758}, {'text': 'trump', 'score': 0.255}]",farmers protests,Pro Opp,farmers protests,For ,portrays modi as hypocritical. 
+1603515,"BREAKING: Congress raises the pitch over Farmers Protests in UP. Priyanka Gandhi to go to Saharanpur tomorrow, will be attending a Kisan Mahapanchayat.",Pro OPP,"['congress', 'saharanpur', 'raises']","[{'text': 'congress', 'score': 0.435}, {'text': 'saharanpur', 'score': 0.3919}, {'text': 'raises', 'score': 0.2077}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1446152,"The bench disappears from the VC session.
+ 
+ AG : Are they going to post it tomorrow?
+ 
+ Dave : I don't know. I think they are passing some orders.
+ 
+ #FarmersProtests 
+ #FarmLaws
+ #SupremeCourt",Pro OPP,"['bench', 'farmers', 'protests']","[{'text': 'bench', 'score': 0.3784}, {'text': 'farmers', 'score': 0.3176}, {'text': 'protests', 'score': 0.2068}]",farmers protests,Pro Opp,farmers protests,For ,shows absurdity of government. 
+1588744,@DDNewslive @narendramodi Grandstanding a celebration of #chaurichauramahotsav a struggle in which BJP-RSS played no part is hypocrisy at it’s pinnacle. Try instead @PMOIndia to stop playing “Chupa Chupi” with the #FarmersProtests &amp; #RepealThreeFarmActs now. Gross inhumanity &amp; callous disregard must stop,Pro OPP,"['narendramodi', 'hypocrisy', 'gross']","[{'text': 'narendramodi', 'score': 0.5556}, {'text': 'hypocrisy', 'score': 0.3163}, {'text': 'gross', 'score': 0.1603}]",farmers protests,Pro Opp,farmers protests,For ,"shows how government doesnt reveal all information about farmers protest and instead plays ""chupa chupi"". ""gross inhumanity"". "
+412789,@nstomar You heartless man. Stop with all the lies and false propaganda against the #FarmersProtests The life of #SantBabaRamSingh is on your government’s callous hands. Repeal the #FarmBills2020 @narendramodi @AmitShah https://t.co/JDasnSNNqc,Pro OPP,"['narendramodi', 'protests', 'heartless']","[{'text': 'narendramodi', 'score': 0.507}, {'text': 'protests', 'score': 0.2794}, {'text': 'heartless', 'score': 0.2761}]",farmers protests,Pro Opp,farmers protests,For ,calling a man heartless for spreading lies and false propoganda against farmers protest. 
+1306741,"In Dec, @PiyushGoyal claimed that farmers' protests at Singhu are being controlled by Maoists. 
+ 
+ Ergo, I filed an RTI with Home Ministry to confirm his statement.
+ 
+ MHA says the record for Maoists controlling the protests is ""NIL"". 
+ 
+ Detective Goyal has no shame in lying publicly. https://t.co/Wj0Z7ZB3aX",Pro OPP,"['maoists', 'farmers', 'record']","[{'text': 'maoists', 'score': 0.6525}, {'text': 'farmers', 'score': 0.3418}, {'text': 'record', 'score': 0.0152}]",farmers protests,Pro Opp,farmers protests,For ,shows that maoists are not controlling the farmers protest and that it is false propoganda by govt. 
+846426,"Hey @Jack pls add a Twitter emoji to the massive #FarmersProtests in India -- like you did for historic international protests like #BlackLivesMatter 
+ 
+ May be 🚜 🏹",Pro OPP,"['twitter', 'farmers', 'india']","[{'text': 'twitter', 'score': 0.4923}, {'text': 'farmers', 'score': 0.4067}, {'text': 'india', 'score': 0.2772}]",farmers protests,Pro Opp,farmers protests,For ,requesting international recognition of farmers protest. 
+1440209,"Kisan Sansad' begins at Jantar Mantar. 
+ 
+ The Delhi government and police had yesterday agreed to let farmers hold the Kisan Sansad from today till August 9 between 11am and 5pm.
+ 
+ #FarmersProtests https://t.co/lpr6gjnMKB",Pro OPP,"['kisan', 'farmers', 'protests']","[{'text': 'kisan', 'score': 0.4432}, {'text': 'farmers', 'score': 0.361}, {'text': 'protests', 'score': 0.1882}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1530513,"#Verified
+ 
+ 👉#FarmersProtest set to intensify in March
+ 
+ 👉Samyukt Kisan Morcha along with local unions announces March's Mahapanchayats
+ 
+ 👉Many Mahapanchayats pan India with special focus on Madhya Pradesh, Karnataka, Telangana,West Bengal &amp; Odisha
+ 
+ 👉Feb was about UP &amp; Rajasthan",Pro OPP,"['mahapanchayats', 'protest', 'intensify']","[{'text': 'mahapanchayats', 'score': 0.4856}, {'text': 'protest', 'score': 0.4439}, {'text': 'intensify', 'score': 0.2686}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1565206,"I have received report that 76 farmers have passed away during the protest against three farm laws. Today, I announce that we'll provide govt job to one family member of those from Punjab who die in agitation at Delhi borders: #PunjabCM @capt_amarinder
+ 
+ #FarmersProtests https://t.co/QiRwmSz4xP",Pro OPP,"['farmers', 'protests', 'passed']","[{'text': 'farmers', 'score': 0.5984}, {'text': 'protests', 'score': 0.254}, {'text': 'passed', 'score': 0.1967}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1019002,"You cut off internet for farmers protests, but for provocative TV content you do nothing: Supreme Court to Central government https://t.co/EbsteIn3Ld",Pro OPP,"['protests', 'tv', 'farmers']","[{'text': 'protests', 'score': 0.3928}, {'text': 'tv', 'score': 0.3236}, {'text': 'farmers', 'score': 0.2085}]",farmers protests,Pro Opp,farmers protests,For ,shows supreme court condemning government actions regarding farmers protest. 
+2798697,Shameful by @PMOIndia threats to raid homes of Twitter officials if “farmers protests” &amp; “critical journalists” were not censored https://t.co/7esRcNlHNG,Pro OPP,"['threats', 'journalists', 'farmers']","[{'text': 'threats', 'score': 0.4963}, {'text': 'journalists', 'score': 0.382}, {'text': 'farmers', 'score': 0.1989}]",farmers protests,Pro Opp,farmers protests,For ,calls modi shameful. 
+1019391,"In an attempt to keep the narrative alive that the farmers' protests have a 'Muslim agenda', a photo of Muslim women showing solidarity with farmers at Tikri border has been shared with the claim that the movement has been 'hijacked'. | @HereisKinjal 
+ 
+ https://t.co/VIccqQzABb",Pro OPP,"['muslim', 'protests', 'farmers']","[{'text': 'muslim', 'score': 0.5289}, {'text': 'protests', 'score': 0.4951}, {'text': 'farmers', 'score': 0.4453}]",farmers protests,Pro Opp,farmers protests,For ,claims there is a fake narrative that farmers protest is a muslim agenda. 
+691374,"For those, who say #FarmersProtests are only from Punjab and Haryana, this is Rajasthan! https://t.co/Z8v9q3vp0F",Pro OPP,"['haryana', 'farmers', 'protests']","[{'text': 'haryana', 'score': 0.5489}, {'text': 'farmers', 'score': 0.4733}, {'text': 'protests', 'score': 0.402}]",farmers protests,Pro Opp,farmers protests,For ,shows how farmers protest is not just limited to punjab and haryana but spreading across india. 
+1299670,"“women like Kaur, long used to having their contributions to farming overlooked as part of their household duties” stand steadfast at #FarmersProtests “the biggest in human history—has prompted thousands to make their voices heard” #InternationalWomensDay https://t.co/KjPFVJgaf7",Pro OPP,"['womens', 'farmers', 'protests']","[{'text': 'womens', 'score': 0.4585}, {'text': 'farmers', 'score': 0.4239}, {'text': 'protests', 'score': 0.3798}]",farmers protests,Pro Opp,farmers protests,For ,shows women's support and involvement in farmers protest. 
+1048001,"A meeting between #Farmers and Police is underway at #Singhuborder 
+ #FarmersProtests #FarmLaws
+ https://t.co/pfyXopfl2p",Pro OPP,"['farmers', 'protests', 'police']","[{'text': 'farmers', 'score': 0.5025}, {'text': 'protests', 'score': 0.278}, {'text': 'police', 'score': 0.1689}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+581930,"Emerging from the meeting, #RahulGandhi said, “We met the #President and informed him of our view regarding the three #farmlaws. We informed the President that it is critical that they are taken back”. #Opposition #FarmersProtest #SitaramYechury https://t.co/RjEy8frPee",Pro OPP,"['farmers', 'protest', 'back']","[{'text': 'farmers', 'score': 0.4752}, {'text': 'protest', 'score': 0.3529}, {'text': 'back', 'score': 0.2446}]",farmers protests,Pro Opp,farmers protests,For ,shows congress supporting farmers protest. 
+855864,"My take on the rather misleading article by @sdhume in WSJ on the farmers protests.
+ 
+ https://t.co/EiDClfgDm3 https://t.co/am6Kxnm6gN",Pro OPP,"['protests', 'farmers', 'misleading']","[{'text': 'protests', 'score': 0.4839}, {'text': 'farmers', 'score': 0.4369}, {'text': 'misleading', 'score': 0.3499}]",farmers protests,Pro Opp,farmers protests,For ,calls article on farmers protest misleading. 
+601464,"Protesters agitating against the new #FarmLaws run a tractor over a police barricade in #Bajpur, of the Udham Singh Nagar district in Uttarakhand 
+ #FarmersProtests
+ 
+ https://t.co/Ayr8AxgZ2Z",Pro OPP,"['protesters', 'tractor', 'run']","[{'text': 'protesters', 'score': 0.5169}, {'text': 'tractor', 'score': 0.5143}, {'text': 'run', 'score': 0.2916}]",farmers protests,Pro Opp,farmers protests,neutral ,"no stance taken, only news delivered. "
+1789563,"In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ""internal matters"" (farmers protests, CAA,J&amp;K etc).",Pro OPP,"['govt', 'indian', 'protests']","[{'text': 'govt', 'score': 0.4187}, {'text': 'indian', 'score': 0.3912}, {'text': 'protests', 'score': 0.359}]",farmers protests,Pro Opp,farmers protests,For ,calls out government hypocricy. 

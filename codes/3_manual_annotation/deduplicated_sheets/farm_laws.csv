@@ -1,0 +1,468 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,STANCE ,Reasoning 
+1964686,"Liberal Logic:
+Farm laws passed by anti-farmers.
+CAA passed by anti-Muslims. 
+PoW Act, 1991 passed by parliament.",Pro Ruling,pro ruling,farm laws,"['farmers', 'liberal', 'muslims']","[{'text': 'farmers', 'score': 0.4913}, {'text': 'liberal', 'score': 0.4652}, {'text': 'muslims', 'score': 0.4147}]",For ,suggests that liberal logic is absurd. 
+102351,"""Farm laws opened up doors of new opportunities for farmers.""
+https://t.co/qoUSoLYeCo
+#MannKiBaat 
+@PMOIndia @TimesNow https://t.co/qqp466gCvR",Pro Ruling,pro ruling,farm laws,"['farmers', 'doors', 'timesnow']","[{'text': 'farmers', 'score': 0.6195}, {'text': 'doors', 'score': 0.2646}, {'text': 'timesnow', 'score': 0.237}]",For ,farm laws = better opportunities for farmers.
+938470,"Protesters enter Delhi’s #RedFort and wave their flags from the ramparts 
+#FarmLaws #FarmersProtests #TractorRally 
+https://t.co/uPFQqZdbKN",Pro OPP,pro opposition,farm laws,"['protesters', 'tractor', 'enter']","[{'text': 'protesters', 'score': 0.5645}, {'text': 'tractor', 'score': 0.3536}, {'text': 'enter', 'score': 0.1603}]",Neutral ,"no stance taken, only news delivered."
+577584,"@RahulGandhi @SaralPatel #IndiaWithFarmers 
+Crony Sevak with his bosses
+#SuitBootKiCorruptSarkar with the Adani-Ambani Farm Laws. 
+
+#AmbaniAdaniKaPM
+
+#SuitBootLootKiSarkar 
+#ModiHaiAmbaniKa https://t.co/8IwgpuRuoV",Pro OPP,pro opposition,farm laws,"['rahulgandhi', 'bosses', 'boot']","[{'text': 'rahulgandhi', 'score': 0.5958}, {'text': 'bosses', 'score': 0.3238}, {'text': 'boot', 'score': 0.0261}]",Against ,shows that modi supports capitalists like Adani and is looting the farmers with his crony activities. 
+554923,"Mr P Chidambram: 
+
+If farm bills r really good then Why the most productive farmers of India- who come from Punjab &amp; Haryana - are on streets?
+
+And we aren’t talking about marginal farmers, v r talking about most productive farmers in country, who are protesting against Farm Laws",Pro OPP,pro opposition,farm laws,"['farmers', 'india', 'bills']","[{'text': 'farmers', 'score': 0.5812}, {'text': 'india', 'score': 0.3498}, {'text': 'bills', 'score': 0.189}]",Against ,questioning goodness of farm laws.
+1406151,"Gopal Singh Chawla, a close aide of Hafiz Saeed and a Khalistani terrorist announces a tractor rally in Pakistan against India’s farm laws.
+
+Goes on to further explain the authenticity of the ongoing farmers’ protests. After all, you are known by the kind of support, you attract.",Pro Ruling,pro ruling,farm laws,"['rally', 'tractor', 'india']","[{'text': 'rally', 'score': 0.4934}, {'text': 'tractor', 'score': 0.4588}, {'text': 'india', 'score': 0.2981}]",For ,shows that farmer protesting is actually a close aid of khalistani terrorist. 
+707585,"So, Protestors also vandalized the tableaux of UP: Ram Mandir and Uttarakhand: Kedarnath Temple, which were displayed in the Republic Day parade.
+
+Are these our Anndatas?
+
+And, what's the relation between Ram Mandir and Kedarnath Temple with 3 Farm laws? Please tell anyone",Pro Ruling,pro ruling,farm laws,"['temple', 'vandalized', 'protestors']","[{'text': 'temple', 'score': 0.5796}, {'text': 'vandalized', 'score': 0.4427}, {'text': 'protestors', 'score': 0.3284}]",For ,shows how protestors are vandalising temples. 
+816313,"This #Rajasthan #farmer rightly predicted that nothing will come out of yesterday's meeting of farmers with @PMOIndia ! Come out of your homes, we are 5 Km from #Dharuheda #Haryana; help your fellow farmers, help yourself, says this farmer ! #FarmerProtests #FarmLaws https://t.co/QEGxwooYV0",Pro OPP,pro opposition,farm laws,"['farmer', 'haryana', 'protests']","[{'text': 'farmer', 'score': 0.553}, {'text': 'haryana', 'score': 0.4165}, {'text': 'protests', 'score': 0.1817}]",Against ,encouraging citizens to help farmers protesting against farm laws. 
+1750524,"No record of the death of farmers during protests against farm laws, hence no question of compensation: Govt informs Parliament
+
+https://t.co/i2tLFitdFU",Pro Ruling,pro ruling,farm laws,"['farmers', 'death', 'protests']","[{'text': 'farmers', 'score': 0.4718}, {'text': 'death', 'score': 0.4054}, {'text': 'protests', 'score': 0.2977}]",For ,shows there is no record of death of farmers. 
+836180,"Farmers in #Punjab and #Haryana burnt copies of farm laws in “Lohri bonfire” as a mark of protest and shouted slogans against the Union government even as several farmers in tractor-trolleys continued to head for Delhi to participate in ‘tractor parade.’ 
+https://t.co/jv01N16XY6",Pro OPP,pro opposition,farm laws,"['farmers', 'burnt', 'protest']","[{'text': 'farmers', 'score': 0.5214}, {'text': 'burnt', 'score': 0.4201}, {'text': 'protest', 'score': 0.2423}]",Neutral ,"no stance taken, only news delivered."
+2208288,"Watch @parakala bust the insidious project that’s underway with regard to the repealed #farmlaws The ruling party, a large vocal section of the middle class &amp; media such as #ImandarAnjana are pushing a completely flawed narrative यह देखिए @RakeshTikaitBKU
+https://t.co/pQd05mR68Q",Pro OPP,pro opposition,farm laws,"['parakala', 'media', 'repealed']","[{'text': 'parakala', 'score': 0.4522}, {'text': 'media', 'score': 0.3672}, {'text': 'repealed', 'score': 0.2711}]",Against ,calls farm laws 'insidious'. 
+314040,"FUNDS to create turmoil, not to maintain PEACE!!!
+
+#FarmerBill2020 #FarmLaws2020 #FarmersProstests #FarmersWithModi https://t.co/VM6PiVbQKn",Pro Ruling,pro ruling,farm laws,"['farmers', 'turmoil', 'bill2020']","[{'text': 'farmers', 'score': 0.6118}, {'text': 'turmoil', 'score': 0.2432}, {'text': 'bill2020', 'score': 0.2403}]",For ,hashtag suggests farmers support modi and hence farm laws. 
+526254,"Protest hijacked by maoist elements, demands beyond ambit of farm laws ; @PiyushGoyal 
+#RealFarmersWithModi https://t.co/ACm6RxEtS0",Pro Ruling,pro ruling,farm laws,"['maoist', 'farmers', 'hijacked']","[{'text': 'maoist', 'score': 0.64}, {'text': 'farmers', 'score': 0.4642}, {'text': 'hijacked', 'score': 0.283}]",For ,hashtag suggests 'real' farmers stand with modi and farm laws. 
+1177474,"Anti-farm laws protesters raising Khalistani slogans disrupt Holi celebrations by the Indian community in Alberta, Canada
+https://t.co/PpLJSIaGRg",Pro Ruling,pro ruling,farm laws,"['protesters', 'canada', 'farm']","[{'text': 'protesters', 'score': 0.6219}, {'text': 'canada', 'score': 0.2795}, {'text': 'farm', 'score': 0.2357}]",For ,shows that anti-farm law protestors raise khalistani slogans. 
+2581801,"In first phase of UP polls (Western UP) BJP got 50 percent votes!
+
+50 percent!
+
+So there was never any farm anger
+
+It was only a mirage, created by media.
+
+It is time to bring back farm laws.",Pro Ruling,pro ruling,farm laws,"['farm', 'anger', 'media']","[{'text': 'farm', 'score': 0.4256}, {'text': 'anger', 'score': 0.2548}, {'text': 'media', 'score': 0.1668}]",For ,"demands that there actually isnt any anger against farm laws, but it is just an illusion created by media. Encourages for the reinforcement of farm laws. "
+1138371,"“The government has offered to discuss clause by clause of the three farm laws and if there are any shortcomings it was ready to make changes” PM @narendramodi
+
+#PMInLokSabha https://t.co/FGKIgw7g8c",Pro Ruling,pro ruling,farm laws,"['clause', 'government', 'narendramodi']","[{'text': 'clause', 'score': 0.5398}, {'text': 'government', 'score': 0.4225}, {'text': 'narendramodi', 'score': 0.3997}]",Neutral ,"no stance taken, only news delivered."
+793913,"#NDTVExclusive | “When the three farm laws are repealed and a bill is introduced on MSP guarantee, the farmers’ protest will end”: Rakesh Tikait (@RakeshTikaitBKU), Farmer Leader, on Kisaan Mahapanchayat in UP
+
+https://t.co/VVuX4BuR2k",Pro OPP,pro opposition,farm laws,"['farmers', 'repealed', 'ndtv']","[{'text': 'farmers', 'score': 0.5563}, {'text': 'repealed', 'score': 0.3718}, {'text': 'ndtv', 'score': 0.224}]",Neutral ,"no stance taken, only news delivered."
+1297876,"Khalistanis protest, raise abusive slogans outside Indian doctor's house in California for supporting Indian farm laws https://t.co/ng1v4B6SSV",Pro Ruling,pro ruling,farm laws,"['protest', 'khalistanis', 'farm']","[{'text': 'protest', 'score': 0.5817}, {'text': 'khalistanis', 'score': 0.4099}, {'text': 'farm', 'score': 0.2264}]",For ,shows how anti-farm laws protests are supported by khalistanis. 
+498586,"AAP reveals its agenda behind fueling protests!!
+
+#FarmersWithModi #FarmerPolitics #FarmersProtest #FarmLaws2020 https://t.co/vIFD4Pxurm",Pro Ruling,pro ruling,farm laws,"['protest', 'farmer', 'fueling']","[{'text': 'protest', 'score': 0.4875}, {'text': 'farmer', 'score': 0.3256}, {'text': 'fueling', 'score': 0.2219}]",For ,hashtag suggests farmers support modi and hence farm laws. 
+649315,"Made my day watching @RakeshTikaitBKU wipe the floor with @anjanaomkashyap हिंदी में कहता “इज़्ज़त का फ़लूदा” Time to smell the coffee girl, not your bank account 🤣😂🤣 #FarmersShineInOlympics #FarmersProtest Take back the #FarmLaws Modi, this’ll hurt big
+https://t.co/3roBUtRDKI",Pro OPP,pro opposition,farm laws,"['smell', 'farmers', 'olympics']","[{'text': 'smell', 'score': 0.4203}, {'text': 'farmers', 'score': 0.3216}, {'text': 'olympics', 'score': 0.2196}]",Against ,calls for modi to take back farm laws as it will not end well. 
+216429,"What exactly are the demands of the agitating  farmers ?? 
+As most of the demands are already included in the New Farm Laws 
+
+➡️MSP is not scrapped 
+
+➡️MSP is included - point 5
+
+➡️Adequate Protection of their land holdings- point 8",Pro Ruling,pro ruling,farm laws,"['farmers', 'demands', 'protection']","[{'text': 'farmers', 'score': 0.5307}, {'text': 'demands', 'score': 0.4542}, {'text': 'protection', 'score': 0.2113}]",For ,suggests that the farm laws actually already incorporate most of the demands that the farmers are making.
+186667,"Political role reversals on past #FarmLaws 
+
+@amanpanwar @pkdnambiar
+
+Watch the full discussion here: https://t.co/ik8s4iaM93
+
+#FarmLaws2020 #FarmBills #FarmersProtest #FarmerAgitation #farmersagitation https://t.co/Luvkjfzl8h",Pro OPP,pro opposition,farm laws,"['farmers', 'protest', 'bills']","[{'text': 'farmers', 'score': 0.5722}, {'text': 'protest', 'score': 0.3709}, {'text': 'bills', 'score': 0.2497}]",Neutral ,"no stance taken, only news delivered."
+1404284,"Domestic violence isn't an internal issue as it's illegal as per Indian law.
+
+Whereas the implementation process of farm laws, the peaceful dissent, action on violent protests &amp; propaganda, the steps to prevent violence are within the legal framework, hence our internal matter.",Pro Ruling,pro ruling,farm laws,"['violence', 'domestic', 'indian']","[{'text': 'violence', 'score': 0.5359}, {'text': 'domestic', 'score': 0.4335}, {'text': 'indian', 'score': 0.2931}]",For ,"shows that for violent protest, the steps taken by the government are well within the legal framework. "
+133340,"#TheBigFight | ""Intent of the bill is entirely pro-corporate, the result is chaos"":  P Sainath, Founder-Editor, P.A.R.I. on new farm laws 
+
+#FarmersProtest #NDTVExclusive https://t.co/A4h70Jcgmz",Pro OPP,pro opposition,farm laws,"['farmers', 'protest', 'ndtv']","[{'text': 'farmers', 'score': 0.5196}, {'text': 'protest', 'score': 0.4313}, {'text': 'ndtv', 'score': 0.2497}]",Against ,claims that the farm laws are in the interests of corporate rule. 
+203748,"With Ranjeet Singh, who is at the forefront of #FarmersProtests at Rajasthan-Haryana border at #Shahjahanpur, around 4 thousand farmers have gathered at the border to protest against the #FarmLaws ! https://t.co/e3D95WL3di",Pro OPP,pro opposition,farm laws,"['farmers', 'protests', 'border']","[{'text': 'farmers', 'score': 0.5677}, {'text': 'protests', 'score': 0.3693}, {'text': 'border', 'score': 0.2905}]",Neutral ,"no stance taken, only news delivered."
+675426,"Hundreds of precious lives hv been lost in the ongoing farmers’ protest but no affct on Modi govt
+Its a big shame that govt of the nation don’t bother abt its people
+Undeniably, #FarmLawsAreSuicidalLaws",Pro OPP,pro opposition,farm laws,"['farmers', 'suicidal', 'undeniably']","[{'text': 'farmers', 'score': 0.478}, {'text': 'suicidal', 'score': 0.3004}, {'text': 'undeniably', 'score': 0.156}]",Against ,"calls farm laws ""suicide laws"". "
+1438065,"5 reasons why farmers won the farm laws battle against Modi govt
+
+@ChitleenKSethi reports for ThePrint
+
+https://t.co/pPfjkFp2GZ",Pro OPP,pro opposition,farm laws,"['farmers', 'won', 'theprint']","[{'text': 'farmers', 'score': 0.646}, {'text': 'won', 'score': 0.2886}, {'text': 'theprint', 'score': 0.1003}]",Against ,claims that farmers won the farm laws against modi. Suggests a battle against an unwilling leader. 
+935375,"#NIA has summoned nearly 20 farmers’ leaders, journalists and social activists to #Delhi even as the Agriculture Minister ruled out a repeal of the #farmlaws and asked #farmers not to be ‘stubborn’. #FarmersProtest https://t.co/u8EHKHhboL",Pro OPP,pro opposition,farm laws,"['farmers', 'summoned', 'journalists']","[{'text': 'farmers', 'score': 0.5368}, {'text': 'summoned', 'score': 0.2106}, {'text': 'journalists', 'score': 0.1181}]",Against ,"shows that anti-farm law protests are making progress even if agriculture minister condescendingly calls farmers ""stubborn"". "
+313809,"Darshan Pal
+
+Party: CPI(Maoist)
+Background: State convenor of AIKSCC
+
+Supported the release of Naxalites of 'Bheema Koregaon Violence' and 'Delhi Riots'
+
+#FarmLaws2020 #FarmerBill2020 #FarmersWithModi #FarmerPolitics https://t.co/5dcyjxyQtv",Pro Ruling,pro ruling,farm laws,"['maoist', 'farmers', 'bill2020']","[{'text': 'maoist', 'score': 0.4826}, {'text': 'farmers', 'score': 0.4075}, {'text': 'bill2020', 'score': 0.1353}]",For ,hashtag suggests farmers support modi and hence farm laws. 
+1594930,"Punjab CM Amarinder Singh has objected to the Centre's move of directly making payments to farmers' bank account, alleging that it would aggravate the ongoing crisis over farm laws
+https://t.co/19NJ2RLATw",Pro Ruling,pro ruling,farm laws,"['objected', 'farmers', 'account']","[{'text': 'objected', 'score': 0.4005}, {'text': 'farmers', 'score': 0.298}, {'text': 'account', 'score': 0.158}]",Neutral ,no stance on farm laws being taken. 
+1238625,"‘Won’t allow BJP-RSS to organise any event until farm laws not scrapped’: RSS Blood donation camp cancelled in Punjab after ruckus by protestors
+
+https://t.co/22vhD1owbH",Pro Ruling,pro ruling,farm laws,"['rss', 'protestors', 'blood']","[{'text': 'rss', 'score': 0.3936}, {'text': 'protestors', 'score': 0.1955}, {'text': 'blood', 'score': 0.1688}]",For ,"hints at how anti-farm law protestors creating ""ruckus"" at even blood donation camps. "
+66633,"New Zealand: Indian origin Radio host stabbed by assailants after he supported the new farm laws in India, in critical condition
+
+https://t.co/t8i1WYh6TI",Pro Ruling,pro ruling,farm laws,"['radio', 'stabbed', 'indian']","[{'text': 'radio', 'score': 0.3756}, {'text': 'stabbed', 'score': 0.3581}, {'text': 'indian', 'score': 0.33}]",Neutral ,"no stance taken, only news delivered."
+97325,"I write for @CNNnews18 on the new farm laws; the new laws will benefit farmers. Do give this one a read!
+https://t.co/syftxmpbsn",Pro Ruling,pro ruling,farm laws,"['farmers', 'cnnnews18', 'benefit']","[{'text': 'farmers', 'score': 0.5815}, {'text': 'cnnnews18', 'score': 0.2086}, {'text': 'benefit', 'score': 0.1149}]",For ,claims that the new farm laws will actually help the farmers. 
+314059,"Where’s the party tonight?
+
+- Pizza
+- DJ
+- Foot massager
+- Political ‘party’
+
+Rush to the nearest protest site!
+
+#RealFarmersWithModi #FarmersProtests #FarmLaws2020 #pizza https://t.co/YurrnPqwwD",Pro Ruling,pro ruling,farm laws,"['party', 'pizza', 'farmers']","[{'text': 'party', 'score': 0.506}, {'text': 'pizza', 'score': 0.4638}, {'text': 'farmers', 'score': 0.2919}]",For ,hashtag suggests 'real' farmers stand with modi and farm laws and that the anti-farm law protests are just an excuse for another big party. 
+211181,"Peas Rate per kg :
+
+Rs 6/- At Mandi
+Rs 20/- At Farmer's door step
+
+New Farm laws enabled the farmers to sell their produce at higher rate at their door steps https://t.co/njMPAcwFer",Pro Ruling,pro ruling,farm laws,"['farmers', 'rate', 'mandi']","[{'text': 'farmers', 'score': 0.5054}, {'text': 'rate', 'score': 0.4275}, {'text': 'mandi', 'score': -0.0635}]",For ,shows how the new farm laws actually help farmers sell at higher prices. 
+1948241,"Not a single farmer died in #UttarPradesh during the farmers’ protest that began in November 2020 against the three farm laws, Chief Minister #YogiAdityanath has stated, reports @omar7rashid 
+https://t.co/67MSG7byey",Pro OPP,pro opposition,farm laws,"['farmers', 'died', 'omar7rashid']","[{'text': 'farmers', 'score': 0.4913}, {'text': 'died', 'score': 0.3123}, {'text': 'omar7rashid', 'score': 0.0877}]",Neutral ,"no stance taken, only news delivered."
+1095489,"Alleged Farmer Leader Rakesh Tikait calls for Demolishing Some godowns being built by private companies if Centre does not repeal Farm Laws (Tribune)
+
+And He wants Vaccination Centre at Protesting sites .. Wah !!",Pro Ruling,pro ruling,farm laws,"['farm', 'vaccination', 'protesting']","[{'text': 'farm', 'score': 0.4083}, {'text': 'vaccination', 'score': 0.3523}, {'text': 'protesting', 'score': 0.3367}]",For ,mocks the absurdity of anti-farm law protest leaders. 
+211622,Modi Government has agreed to all the demands of Farmers but now wolves in sheep's clothing want all the new Farm laws to be withdrawn https://t.co/hAmpmID5i8,Pro Ruling,pro ruling,farm laws,"['sheep', 'farmers', 'government']","[{'text': 'sheep', 'score': 0.4538}, {'text': 'farmers', 'score': 0.377}, {'text': 'government', 'score': 0.2986}]",For ,calls farmers protesting 'wolves in sheeps clothing'.
+278939,"Congress exposed yet again!
+
+Even before farm bills were passed by Parliament last week,
+
+Maharashtra Govt was the first to implement farm laws, that too in August
+
+Yet Congress led opposition is protesting across the nation
+
+Even the word 'SHAME' isn't enough to describe this!",Pro Ruling,pro ruling,farm laws,"['congress', 'farm', 'exposed']","[{'text': 'congress', 'score': 0.4341}, {'text': 'farm', 'score': 0.4338}, {'text': 'exposed', 'score': 0.2071}]",For ,shows that anti-farm law protests are actually congress propoganda and doing. 
+1176719,"“Farmers” Mhd Sarfaraz &amp; Co-am have joined Kisan Andolan because they are fed up with the evi! Mudi Govt &amp; want it to rollback the 3 oppressive farm laws called CAA NRC NPR 
+
+#toolkit exposed 
+https://t.co/RwgCu0Nngy",Pro Ruling,pro ruling,farm laws,"['andolan', 'farmers', 'joined']","[{'text': 'andolan', 'score': 0.459}, {'text': 'farmers', 'score': 0.4318}, {'text': 'joined', 'score': 0.264}]",For ,sarcastic undertone questions if these are even real farmers. Suggests its just a congress toolkit. 
+695892,"#मोदी_किसान_विरोधी has no courage for several months, to personally meet and talk to farmers on his #AdaniAmbaniFarmLaws https://t.co/6O6bMCZsRf",Pro OPP,pro opposition,farm laws,"['farmers', 'courage', 'meet']","[{'text': 'farmers', 'score': 0.4856}, {'text': 'courage', 'score': 0.3508}, {'text': 'meet', 'score': 0.2844}]",Against ,hashtag suggests that the farm laws actually benefit large corporates like adani and ambani. 
+53070,"Yogendra Yadav, 100 farmers detained in Haryana's Sirsa after agitating against Centre's new farm laws
+
+@_YogendraYadav 
+
+https://t.co/cldp7evx0y",Pro OPP,pro opposition,farm laws,"['farmers', 'haryana', 'detained']","[{'text': 'farmers', 'score': 0.5157}, {'text': 'haryana', 'score': 0.4008}, {'text': 'detained', 'score': 0.3198}]",Neutral ,"no stance taken, only news delivered."
+35283,"Farmers are protesting for their survival; new #FarmLaws will snatch away their land: Delhi Chief Minister Arvind Kejriwal at Singhu border
+
+(PTI) https://t.co/TRqB6gRXQZ",Pro OPP,pro opposition,farm laws,"['farmers', 'protesting', 'snatch']","[{'text': 'farmers', 'score': 0.6201}, {'text': 'protesting', 'score': 0.3675}, {'text': 'snatch', 'score': 0.1326}]",Against ,claims that new farm laws will snatch away farmers survival and land. 
+384332,"Exclusive: Why PM Modi said, Centre will remove all misgivings of farmers on new farm laws 
+
+#AajKiBaat @RajatSharmaLive https://t.co/8mwi1ho4pm",Pro Ruling,pro ruling,farm laws,"['farmers', 'misgivings', 'remove']","[{'text': 'farmers', 'score': 0.5627}, {'text': 'misgivings', 'score': 0.3525}, {'text': 'remove', 'score': 0.3478}]",Neutral ,"no stance taken, only news delivered."
+414893,"Mahatma Gandhi's statue vandalised by Khalistani elements in Washington DC during Anti-farm laws protests, organisers brazen it out https://t.co/wa8ScFzIwY",Pro Ruling,pro ruling,farm laws,"['statue', 'protests', 'farm']","[{'text': 'statue', 'score': 0.6046}, {'text': 'protests', 'score': 0.368}, {'text': 'farm', 'score': 0.2526}]",For ,suggests that anti-farm protests have khalistani elements. 
+37210,"3Women in #India are emerging equally as defenders of #humanrights; the ongoing farmer agitation saw some10,000 female farmers marching towards #Delhi to protest against the #farmlaws. #FarmersProtest https://t.co/JcYuXiWxFo",Pro OPP,pro opposition,farm laws,"['3women', 'protest', 'farmer']","[{'text': '3women', 'score': 0.4593}, {'text': 'protest', 'score': 0.3349}, {'text': 'farmer', 'score': 0.3177}]",Against ,"shows how 10,000 female farmers are also emerging as equal defenders of human rights (which are suggesting to be undermined by the new farm laws). "
+698569,"Farmers are holding a mahapanchayat today to show strength against the three contentious farm laws in Muzaffarnagar.
+Seen in the picture are Naresh Tikait and Ghulam Jola attending the mahapanchayat.
+Photo: Anuj Kumar https://t.co/GdLxJ3zqZR",Pro OPP,pro opposition,farm laws,"['farmers', 'holding', 'muzaffarnagar']","[{'text': 'farmers', 'score': 0.6041}, {'text': 'holding', 'score': 0.366}, {'text': 'muzaffarnagar', 'score': 0.3069}]",Neutral ,"no stance taken, only news delivered."
+815221,"The RLD has thrown its force behind the ongoing farmers’ agitation over the farm laws, with its leader, former MP Jayant Chaudhary, declaring an extended programme of mahapanchayats across western #UttarPradesh till the first week of March.
+https://t.co/hBslGUvWAs",Pro OPP,pro opposition,farm laws,"['rld', 'farmers', 'force']","[{'text': 'rld', 'score': 0.4453}, {'text': 'farmers', 'score': 0.3835}, {'text': 'force', 'score': 0.3024}]",Neutral ,"no stance taken, only news delivered."
+1455951,"#Verified
+
+👉More colours in #FarmersProtest
+
+👉Farmers to celebrate 'Pagdi Sambhal Day' on Feb 23  &amp;  wear green turbans
+
+👉This to assert self-respect of farmers
+
+👉Song Pagdi Sambal by Zhang Sial's editor Dayal was a precursor to ANDOLAN against farm laws of Britishers in 1906",Pro OPP,pro opposition,farm laws,"['farmers', 'colours', 'protest']","[{'text': 'farmers', 'score': 0.5021}, {'text': 'colours', 'score': 0.4549}, {'text': 'protest', 'score': 0.3604}]",Neutral ,"no stance taken, only news delivered "
+187479,"@RahulGandhi @BhavikaKapoor5 #SuitBootLootKiSarkar pushed down farm income growth to a 14 yr low by 2018. This predatory regime has always betrayed farmers from 2014, starting with Land Acquisition amendment, stopping bonuses, scrapping APMCs &amp; MSPs in Bihar &amp; now farm laws for greedy crony capitalists. https://t.co/iWern5nDc8",Pro OPP,pro opposition,farm laws,"['farmers', 'down', 'msps']","[{'text': 'farmers', 'score': 0.5238}, {'text': 'down', 'score': 0.2508}, {'text': 'msps', 'score': 0.0845}]",Against ,claims that farm laws are only for greedy corporates. 
+2496635,"Contrary:
+
+- AAP criticized muslims for spreading corona and implemented farm laws. 
+Won
+
+- Yogi was nowhere when people were dyinb last year. 
+Won 
+
+- Modi lied in parliament and on TV about China.
+Still favourite. 
+
+- Amit Shah man killed farmers and Won",Pro OPP,pro opposition,farm laws,"['muslims', 'farmers', 'nowhere']","[{'text': 'muslims', 'score': 0.5518}, {'text': 'farmers', 'score': 0.2175}, {'text': 'nowhere', 'score': 0.0287}]",Against ,shows how leaders do worse (like farm laws) and still win. 
+47735,"""PM Forcing A Gift That Farmers Don't Want"": Yogendra Yadav On #FarmLaws 
+https://t.co/yT8Gp11YnN https://t.co/0KHAX2o408",Pro OPP,pro opposition,farm laws,"['farmers', 'gift', 'forcing']","[{'text': 'farmers', 'score': 0.6319}, {'text': 'gift', 'score': 0.3743}, {'text': 'forcing', 'score': 0.349}]",Against ,"underlying tone of sarcasm calling the farm laws a ""gift"". "
+916162,BIG : Three Farm Laws Have Been Stayed By Apex Court And These Acts Are Not In Place. What Are You Protesting For ? : SC to Farmers’ Body,Pro Ruling,pro ruling,farm laws,"['farmers', 'protesting', 'court']","[{'text': 'farmers', 'score': 0.5399}, {'text': 'protesting', 'score': 0.365}, {'text': 'court', 'score': 0.209}]",For  ,shows how supreme court itself questioning farmers on what they really are protesting for? 
+715388,Visual evidence released by Delhi police show horrific violence by “farmers” protesting against #FarmLaws on R-Day.  @priyankagandhi &amp; other opposition leaders should be ashamed for condoning R-Day protests that were criminal in intent. But shame is not in politicians’ vocabulary,Pro Ruling,pro ruling,farm laws,"['shame', 'farmers', 'police']","[{'text': 'shame', 'score': 0.4234}, {'text': 'farmers', 'score': 0.3822}, {'text': 'police', 'score': 0.2821}]",For ,claims how anti-farm laws are violent and criminal in intent. 
+1446154,"Attorney General : When they go before the Committee, will it be their only demand that the laws must be repealed? If they are not prepared to tell their exact grievances, the committee will not be useful.
+
+#FarmersProtests 
+#FarmLaws
+#SupremeCourt",Pro OPP,pro opposition,farm laws,"['committee', 'farmers', 'attorney']","[{'text': 'committee', 'score': 0.4801}, {'text': 'farmers', 'score': 0.3613}, {'text': 'attorney', 'score': 0.2725}]",Neutral ,"no stance taken, only news delivered "
+102347,"Mann Ki Baat: PM Modi says new farm laws have begun mitigating farmers' problems in short span of time.
+https://t.co/UMP54Km585
+#MannKiBaat 
+@PMOIndia @Oneindia https://t.co/AXViqWI40M",Pro Ruling,pro ruling,farm laws,"['farmers', 'laws', 'new']","[{'text': 'farmers', 'score': 0.5877}, {'text': 'laws', 'score': 0.351}, {'text': 'new', 'score': 0.2231}]",For ,claims that new farm laws have already starting helping farmers in no time. 
+211186,"Make the New farm Laws optional for the States :
+
+States which want to keep their farmers in 19th century era can opt out and those states which wants to take their farmers to 21st century can implement it.",Pro Ruling,pro ruling,farm laws,"['farmers', 'states', 'optional']","[{'text': 'farmers', 'score': 0.469}, {'text': 'states', 'score': 0.4081}, {'text': 'optional', 'score': 0.277}]",For ,"implies that by implementing the farm laws, farmers can actually move ahead in the 21st century and not stay backward. "
+994382,"In the past Modi ji did not take back CAA to win Delhi or West Bengal, where BJP had really worked hard. So to think that he has repelled Farm laws to win state election is naive. There is something more to it. Things that Government will never tell us and should not be told.",Pro Ruling,pro ruling,farm laws,"['election', 'farm', 'naive']","[{'text': 'election', 'score': 0.3292}, {'text': 'farm', 'score': 0.2765}, {'text': 'naive', 'score': 0.1476}]",For ,calling for people to trust the intent of government implementing farm laws and not question their motives. 
+190212,"Punjab Congress chief startles leadership during protest against farm laws
+
+Read @ANI Story | https://t.co/oq00KuxNdk https://t.co/SXbxQ6pEf2",Pro Ruling,pro ruling,farm laws,"['leadership', 'congress', 'startles']","[{'text': 'leadership', 'score': 0.4957}, {'text': 'congress', 'score': 0.3638}, {'text': 'startles', 'score': 0.2127}]",Neutral ,"no stance taken, only news delivered "
+1914071,"In the #ModiInterview, PM @narendramodi speaks about the Farm laws; Tune in to watch the full interview here - https://t.co/RdOPX9kmYV https://t.co/SV8ALcRas1",Pro Ruling,pro ruling,farm laws,"['narendramodi', 'farm', 'interview']","[{'text': 'narendramodi', 'score': 0.5388}, {'text': 'farm', 'score': 0.4609}, {'text': 'interview', 'score': 0.342}]",Neutral ,"no stance taken, only news delivered "
+1449783,"Movement suspended, not withdrawn: #RakeshTikait
+#FarmLawsRepealed #FarmersProtest 
+ https://t.co/AB4qgCqstm",Pro OPP,pro opposition,farm laws,"['protest', 'farm', 'suspended']","[{'text': 'protest', 'score': 0.4896}, {'text': 'farm', 'score': 0.383}, {'text': 'suspended', 'score': 0.3049}]",Neutral ,"no stance taken, only news delivered "
+422701,"Yesterday during a discussion with Farmers, Govt asked about the specific Clauses in #FarmLaws which are against the farmers
+
+And as you can guess, they could not answer a single clause which is against them.
+
+Govt has now asked them to come up with the problematic clause. 😁 https://t.co/MkJwUsbZoT",Pro Ruling,pro ruling,farm laws,"['farmers', 'clause', 'govt']","[{'text': 'farmers', 'score': 0.5248}, {'text': 'clause', 'score': 0.4716}, {'text': 'govt', 'score': 0.2761}]",For ,claims that there is actually no problematic clause in farm laws and even farmers couldn’t come up with one. 
+1084237,"US backs India's new farm laws, says these reforms will improve efficiency of markets and attract Investments. US hopes any differences could be solved by talks as observed by SC",Pro Ruling,pro ruling,farm laws,"['reforms', 'india', 'backs']","[{'text': 'reforms', 'score': 0.4617}, {'text': 'india', 'score': 0.3295}, {'text': 'backs', 'score': 0.1999}]",For ,shows how even the US supports farm laws and believes it will increase efficiency and investments. 
+102549,"With new farm laws, new agricultural techniques will be introduced, so that farmers can increase their output, with better packaging, and value addition. Once it will be done our farmers will be demanded by the entire world: PM @narendramodi https://t.co/bqCPo4GciX",Pro Ruling,pro ruling,farm laws,"['farmers', 'narendramodi', 'new']","[{'text': 'farmers', 'score': 0.5798}, {'text': 'narendramodi', 'score': 0.3224}, {'text': 'new', 'score': 0.3134}]",For ,lists advantages of farm laws. 
+14778,"#Video | @_YogendraYadav, President of Swaraj India, speaks to The Quint about the historic farmers' agitation, the role of Adani and Ambani, and why the government is forcing the farmers to accept the #farmlaws. 
+
+https://t.co/FXV9nLwWjN",Pro OPP,pro opposition,farm laws,"['farmers', 'government', 'video']","[{'text': 'farmers', 'score': 0.5638}, {'text': 'government', 'score': 0.3408}, {'text': 'video', 'score': 0.2595}]",Neutral ,"no stance taken, only news delivered "
+147107,"#BengalShowdown | TMC leaders can protest peacefully against the farm laws in Delhi and nobody will touch them, but when BJP workers do the same in Bengal - they will be killed?: @NupurSharmaBJP - National Spokesperson, BJP &amp; Advocate, SC https://t.co/tjvFHPBAaU",Pro Ruling,pro ruling,farm laws,"['bengal', 'protest', 'workers']","[{'text': 'bengal', 'score': 0.4149}, {'text': 'protest', 'score': 0.3482}, {'text': 'workers', 'score': 0.2866}]",Neutral ,no stance on farm laws being taken. 
+52920,"The farmers agitation, though sparked off by Farm laws(seen as handing over farm sector to Companies)goes beyond this. There is an underlying anger at this govt selling the country to cronies&amp;is quick to defame&amp;harass those who oppose its policies.Govt failed to read their spirit",Pro OPP,pro opposition,farm laws,"['farmers', 'govt', 'harass']","[{'text': 'farmers', 'score': 0.5506}, {'text': 'govt', 'score': 0.3413}, {'text': 'harass', 'score': 0.2388}]",Against ,claims that government selling the country to cronies through farm laws. 
+772093,Supreme Court orders stay on farm laws! #FarmLaws #FarmersProtest https://t.co/8M9Gmrq4Md,Pro OPP,pro opposition,farm laws,"['farmers', 'stay', 'court']","[{'text': 'farmers', 'score': 0.489}, {'text': 'stay', 'score': 0.2738}, {'text': 'court', 'score': 0.1859}]",Neutral ,"no stance taken, only news delivered "
+783869,"When UK Parliament discusses the Indian Farm laws, you know these colonisers have not changed their colonial mindset.",Pro Ruling,pro ruling,farm laws,"['colonisers', 'indian', 'not']","[{'text': 'colonisers', 'score': 0.3947}, {'text': 'indian', 'score': 0.2368}, {'text': 'not', 'score': 0.1329}]",Neutral ,no stance on farm laws being taken. 
+256329,"Congress leader #PriyankaGandhi took a dig at #PMModi over attempts to stop farmers from marching to #Delhi over #farmlaws, saying the PM who is worried about ‘one nation, one election’ should also implement ‘one nation, one treatment’. #FarmersProtest https://t.co/qb5mNGVMLv",Pro OPP,pro opposition,farm laws,"['farmers', 'election', 'treatment']","[{'text': 'farmers', 'score': 0.413}, {'text': 'election', 'score': 0.3339}, {'text': 'treatment', 'score': 0.1571}]",Against ,claims that PM modi is biased. 
+120710,"This is the spirit of #FarmersProtests, this is the spirit of our elders, this is #Punjab @PMOIndia ji ! #FarmLaws https://t.co/52KmBIIICk",Pro OPP,pro opposition,farm laws,"['farmers', 'protests', 'elders']","[{'text': 'farmers', 'score': 0.6217}, {'text': 'protests', 'score': 0.4068}, {'text': 'elders', 'score': 0.2862}]",Against ,supports anti-farms laws and hails the spirit of old farmers. 
+168251,How well do you know about the new Agriculture Farm Laws? Put your knowledge to test by participating in the #FarmersFirstQuiz and stand a chance to win a cash prize upto Rs. 2 Lakh. https://t.co/4X3X1Z8XkV @AgriGoI @nstomar @PIB_India https://t.co/43zTYQbmNm,Pro Ruling,pro ruling,farm laws,"['farmers', 'test', 'pib_india']","[{'text': 'farmers', 'score': 0.5049}, {'text': 'test', 'score': 0.2696}, {'text': 'pib_india', 'score': 0.0812}]",Neutral ,no stance on farm laws being taken. 
+1333847,@BDUTT Surely it’s beholden on the ruling party aka @narendramodi to #RepealFarmLaws and protect the lives of those in the #FarmersProtests Seems tad twisted to put the onus on the Opposition rather than call out the gross inhumanity of @PMOIndia,Pro OPP,pro opposition,farm laws,"['narendramodi', 'repeal', 'farm']","[{'text': 'narendramodi', 'score': 0.443}, {'text': 'repeal', 'score': 0.409}, {'text': 'farm', 'score': 0.3742}]",Against ,calls for holding Modi responsible for the gross inhumanities against farmers. 
+322191,"This is the reality of @PMOIndia's claim that ""only after the #FarmLaws, can farmers sell their produce as per their wish"" ! When P.M wants to build a false narrative, how the hell can u fault the farmers, of not trusting him
+This trust deficit is also an imp player #FarmProtests https://t.co/rx7ihPSo8A",Pro OPP,pro opposition,farm laws,"['farmers', 'trust', 'deficit']","[{'text': 'farmers', 'score': 0.4968}, {'text': 'trust', 'score': 0.3507}, {'text': 'deficit', 'score': 0.1881}]",Against ,claims that Modi is building a false narrative.
+652760,"Centre's three farm laws are death warrant for farmers. The government wants to take away their lands and give them to 3-4 capitalists. Farmers will become labourers in their own fields, that is why it's do or die situation for farmers: Delhi CM Arvind Kejriwal in Meerut https://t.co/vMrsAFK1Hl",Pro Ruling,pro ruling,farm laws,"['farmers', 'warrant', 'death']","[{'text': 'farmers', 'score': 0.5186}, {'text': 'warrant', 'score': 0.2463}, {'text': 'death', 'score': 0.2368}]",Against ,"calls the farm laws a ""death warrant for farmers""."
+186854,"#LeftRightCentre | Congress MP Deepender Hooda on farm laws
+
+#FarmersProtest https://t.co/34eFWunBUQ",Pro OPP,pro opposition,farm laws,"['farmers', 'protest', 'congress']","[{'text': 'farmers', 'score': 0.5336}, {'text': 'protest', 'score': 0.4433}, {'text': 'congress', 'score': 0.3396}]",Neutral ,"no stance taken, only news delivered "
+854968,"Muzzafarnagar Mahapanchayat; Lakhs of farmers from UP, Haryana, Punjab, Maharashtra &amp; other parts of Nation beefed up to participate
+Major issues that are being faced by farmers including unconstitutional farm laws wll be discussed
+#मुजफ्फरनगर_किसान_महापंचायत https://t.co/rLmaG10vTa",Pro OPP,pro opposition,farm laws,"['farmers', 'muzzafarnagar', 'unconstitutional']","[{'text': 'farmers', 'score': 0.5794}, {'text': 'muzzafarnagar', 'score': 0.324}, {'text': 'unconstitutional', 'score': 0.204}]",Against ,"calls farm laws ""unconstitutional"". "
+1740250,Anti-drug laws to farm laws to UAPA: Are liberals undermining the Indian state by calling everything 'draconian'? (writes @AbhishBanerj)  https://t.co/5okjdZHiDX,Pro Ruling,pro ruling,farm laws,"['indian', 'liberals', 'drug']","[{'text': 'indian', 'score': 0.4853}, {'text': 'liberals', 'score': 0.4231}, {'text': 'drug', 'score': 0.3675}]",For ,"claims that liberals are calling any new law ""draconian"" these days even if they are not, including farm laws. "
+1692846,Is the Former Home Minister of India justifying the violence &amp; assault on police in the name of protest against Farm laws?? Just asking.... https://t.co/wRx1B9JZ8R,Pro Ruling,pro ruling,farm laws,"['minister', 'india', 'assault']","[{'text': 'minister', 'score': 0.3828}, {'text': 'india', 'score': 0.3493}, {'text': 'assault', 'score': 0.2696}]",For,claims that violence and assault in the name of anti-farm laws is not justified. 
+186973,A message for Kangana ji ! #FarmersProtests #FarmLaws https://t.co/Ko6xc36GxX,Pro OPP,pro opposition,farm laws,"['farmers', 'kangana', 'protests']","[{'text': 'farmers', 'score': 0.6574}, {'text': 'kangana', 'score': 0.3393}, {'text': 'protests', 'score': 0.3293}]",Neutral ,"no stance taken, only news delivered."
+1375679,"Shame on Congress! They accepted today that Amarinder was equally responsible for 3 black farm laws &amp; still they lied to Public !! 
+
+Punjab voters will give a befitting reply in coming elections https://t.co/h5IPTIEozd",Pro OPP,pro opposition,farm laws,"['congress', 'shame', 'amarinder']","[{'text': 'congress', 'score': 0.4161}, {'text': 'shame', 'score': 0.271}, {'text': 'amarinder', 'score': 0.1342}]",Against ,"calls farm laws ""black""."
+1558273,"Promising increased MSP alone is not enough. It is the quantity of govt procurement at MSP which matters!
+
+Modi govt bought 74 times more Pulses from our farmers than the UPA govt!
+
+#FarmBills2020 #FarmLaws2020 #Farmers https://t.co/VqOROGrw5P",Pro Ruling,pro ruling,farm laws,"['msp', 'farmers', 'increased']","[{'text': 'msp', 'score': 0.3693}, {'text': 'farmers', 'score': 0.3488}, {'text': 'increased', 'score': 0.3097}]",For ,shows that Modi govt helping farmers through these laws. 
+313126,"Modi Government’s Strong Commitment towards MSP &amp; Mandis
+
+#PMKisan #FarmersWithModi #FarmerBill2020 #FarmBills2020 #FarmLaws2020 https://t.co/P8HsgV3PGX",Pro Ruling,pro ruling,farm laws,"['farmers', 'bill2020', 'real']","[{'text': 'farmers', 'score': 0.6481}, {'text': 'bill2020', 'score': 0.3006}, {'text': 'real', 'score': 0.2164}]",For ,hashtag suggests farmers support modi and hence farm laws. 
+52915,"Seeing the strength&amp;resolve of agitating farmers, the govt has relented &amp; agreed to amend the 3 farm laws. Farmers groups are rightly demanding repeal of these laws which are designed to hand over farm sector to corporates. MSP on Swaminathan formula must be ensured for all crops",Pro OPP,pro opposition,farm laws,"['farmers', 'govt', 'relented']","[{'text': 'farmers', 'score': 0.4922}, {'text': 'govt', 'score': 0.36}, {'text': 'relented', 'score': 0.3075}]",Against ,claims that farmers are rightly demanding for the farm laws to be repealed which would inevitably put them into the hands of corporate. 
+657512,"Govt has straight away lied in Parliament that farmers do not know what's black in the farm laws. 
+We call P.M. for an open debate and clear the confusion 
+
+#FarmersCallPMforDebate",Pro OPP,pro opposition,farm laws,"['farmers', 'black', 'lied']","[{'text': 'farmers', 'score': 0.4989}, {'text': 'black', 'score': 0.2953}, {'text': 'lied', 'score': 0.292}]",Against ,claims that Government lied to parliament within context of farm laws. 
+783757,New Farm Laws Are A Death Warrant For Farmers: Delhi CM Arvind Kejriwal. The Anarchist ⁦@ArvindKejriwal⁩ keeps misleading people with fake narratives ⁦@ARanganathan72⁩ ⁦@PrinceArihan⁩  https://t.co/oLgaIo5wZy,Pro Ruling,pro ruling,farm laws,"['farmers', 'fake', 'aranganathan72']","[{'text': 'farmers', 'score': 0.5071}, {'text': 'fake', 'score': 0.2477}, {'text': 'aranganathan72', 'score': 0.1916}]",For ,"calls kejriwal an ""anarchist"" for misleading people by calling the new farm laws a ""death warrant"". "
+204873,"Haryana BJP leader Shyam Singh Rana quits party over recently enacted farm laws, says farmers' concerns are genuine and government should have addressed them(PTI) https://t.co/JCq9tW0CGc https://t.co/C2yxzlL97O",Pro OPP,pro opposition,farm laws,"['farmers', 'quits', 'party']","[{'text': 'farmers', 'score': 0.3957}, {'text': 'quits', 'score': 0.2959}, {'text': 'party', 'score': 0.2178}]",Against ,shows how bjp leader quit after farm laws and supports farmers concerns. 
+638724,‘Govt is committed to helping the small #farmers in the country assuring them profitable returns. The 3 #farmlaws enacted by the parliament in the previous session aims at further helping the small farmers. The 3 new legislations provide more rights and power to the farmers’,Pro Ruling,pro ruling,farm laws,"['farmers', 'small', 'parliament']","[{'text': 'farmers', 'score': 0.5902}, {'text': 'small', 'score': 0.3109}, {'text': 'parliament', 'score': 0.2849}]",For ,claims that the government is trying to help farmers through farm laws. 
+156027,"#OppositionMisleadFarmers
+Farm laws are legal and the Government has the right to make laws related to the trade. Both APMC and MSP will not be affected: Union Minister @nstomar  https://t.co/tJc574vfls",Pro Ruling,pro ruling,farm laws,"['farmers', 'government', 'apmc']","[{'text': 'farmers', 'score': 0.4824}, {'text': 'government', 'score': 0.2758}, {'text': 'apmc', 'score': 0.1915}]",For ,claims that the farm laws are good and legal but the opposition is misleading people. 
+757608,"1. Farm laws are not imposed, it gives an extra option without replacing the current system.
+
+2. Few farmers are on the street because political parties and communists misguided them.
+
+3. Modi Sarkar has prioritized small farmers instead of reach farmers. https://t.co/UsBfeOQcVZ",Pro Ruling,pro ruling,farm laws,"['farmers', 'prioritized', 'communists']","[{'text': 'farmers', 'score': 0.5358}, {'text': 'prioritized', 'score': 0.2996}, {'text': 'communists', 'score': 0.2518}]",For ,shows how modi is supporting small farmersa and how communists are misguiding the few farmers who are protesting. 
+1069536,"Discussion must be on unethical #FarmLaws , not on protests.
+
+Protests are going on because pimp government is trying to force the  laws which are against farmers. 
+Since past 60 days farmers are protesting in biting cold, lost 150 lives, got beaten by police. 
+#FarmersProstests",Pro OPP,pro opposition,farm laws,"['farmers', 'protests', 'unethical']","[{'text': 'farmers', 'score': 0.4848}, {'text': 'protests', 'score': 0.3764}, {'text': 'unethical', 'score': 0.2955}]",Against ,"calls farm laws ""unethical"". "
+703410,"Joint Statement by 12 Major Opposition Parties’ leaders : 
+
+We extend our support to the call given by the Samyukta Kisan Morcha (SKM) to observe a countrywide protest day on May 26 marking the completion of six months of the heroic peaceful Kisan struggle. 
+
+#FarmLaws 
+1/3 https://t.co/TBbucjbz9v",Pro OPP,pro opposition,farm laws,"['protest', 'farm', 'months']","[{'text': 'protest', 'score': 0.5253}, {'text': 'farm', 'score': 0.3447}, {'text': 'months', 'score': 0.2502}]",Against ,"calls anti-farm law protests ""heroic"". "
+928177,"Kanoon wapsi nahi, to ghar wapsi nahi, says #BKU leader #RakeshTikait 
+#FarmersProtest #FarmLaws
+https://t.co/GVC3MjTJHm",Pro OPP,pro opposition,farm laws,"['farmers', 'protest', 'laws']","[{'text': 'farmers', 'score': 0.5664}, {'text': 'protest', 'score': 0.3475}, {'text': 'laws', 'score': 0.3397}]",Against ,shows how farmers wont return till they are not given justice. 
+742713,"Until the govt withdraws farm laws, ""We will continue to send food and rations to the border.”
+
+Farmers in West UP, many of them in debt themselves, are pooling in resources to send food at Ghazipur site.
+
+I profile one such village for @PARInetwork https://t.co/xxMOFyXLXx",Pro OPP,pro opposition,farm laws,"['farmers', 'ghazipur', 'withdraws']","[{'text': 'farmers', 'score': 0.5304}, {'text': 'ghazipur', 'score': 0.4181}, {'text': 'withdraws', 'score': 0.0591}]",Against ,shows how farmers are receiving support even from farmers in debt. 
+2734378,"It was brave farmers, particularly of Punjab, who fought and halted the juggernaut of Adanification of the nation. Remember, inspite of many farmers losing lives opposing the farm laws, Modi took an year to withdraw the laws. That is the importance of this nexus for the regime..",Pro OPP,pro opposition,farm laws,"['farmers', 'fought', 'halted']","[{'text': 'farmers', 'score': 0.4439}, {'text': 'fought', 'score': 0.1888}, {'text': 'halted', 'score': 0.1308}]",Against ,"says farm laws are ""adanification"" and calls anti-farm law protestors ""brave"". "
+1360824,"I can’t wait for @PMOIndia to head out to phoren &amp; be asked WHY farmers from Punjab, Haryana &amp; Uttar Pradesh have been protesting for months over the #FarmLaws with concerns that they’ll lead to erosion of the minimum support price (MSP) system unheard 😡
+https://t.co/oW8LUX77WD",Pro OPP,pro opposition,farm laws,"['pmoindia', 'farmers', 'unheard']","[{'text': 'pmoindia', 'score': 0.46}, {'text': 'farmers', 'score': 0.3417}, {'text': 'unheard', 'score': 0.0415}]",Against ,claims that modi does not listen to concerns of farmers. 
+757415,"No wonder India got colonised easily. Indian opinion makers even today line up behind foreigners — celebs &amp; nonentities — against issues of national interest, whether reformist farm laws or economy. Modi govt has serious flaws, deserves constructive criticism not mindless anarchy",Pro Ruling,pro ruling,farm laws,"['india', 'reformist', 'celebs']","[{'text': 'india', 'score': 0.5323}, {'text': 'reformist', 'score': 0.3586}, {'text': 'celebs', 'score': 0.0618}]",For ,"calls farm laws ""reformist"" "
+1726512,"‘Azadi’ slogans raised at Azad Maidan in Mumbai as thousands of Muslim protestors gathered to protest against farm laws
+
+https://t.co/IYISzeKRJo",Pro Ruling,pro ruling,farm laws,"['protest', 'muslim', 'farm']","[{'text': 'protest', 'score': 0.4964}, {'text': 'muslim', 'score': 0.4589}, {'text': 'farm', 'score': 0.2788}]",Neutral ,"no stance taken, only news delivered "
+804550,"As a mark of intensifying the movement against 3 Black Laws farmers' leaders in plans to gherao the Parliament
+Aiming towards a peaceful protest leaving only one msg: REPEAL FARM LAWS
+
+#किसान_संसद_कूच_करेगा https://t.co/dm9i238bAn",Pro OPP,pro opposition,farm laws,"['farmers', 'protest', 'msg']","[{'text': 'farmers', 'score': 0.5094}, {'text': 'protest', 'score': 0.4466}, {'text': 'msg', 'score': 0.1718}]",Against ,"calls farm laws ""black""."
+36648,"BIG NEWS
+
+Supreme Court Hearing on #FarmersProtests 
+
+1. Congress favors Committee formation
+2. Modi Govt defends the Farm laws
+3. @ArvindKejriwal Govt Strongly raise issues of Farmers
+
+AAP has been fighting for the rights of Farmers
+Delhi Govt is with Farmers
+
+Watch Below report https://t.co/AlnZSSKaQo",Pro OPP,pro opposition,farm laws,"['farmers', 'protests', 'hearing']","[{'text': 'farmers', 'score': 0.4877}, {'text': 'protests', 'score': 0.3686}, {'text': 'hearing', 'score': 0.0722}]",Against ,"says that it is the ""right of farmers"" to have these laws repealed. "
+637366,"How PM is dismantling India's corrupt?
+
+-10 JP by destroying their loot avenues: Subsidies, Mines and Arms purchase.
+-Punjabi Mandi dalals through the new farm laws.
+-Bengal politicians by destroying their income from Coal mafia and illegal/fake currency. https://t.co/ZNLMzpKMDM",Pro Ruling,pro ruling,farm laws,"['india', 'dismantling', 'politicians']","[{'text': 'india', 'score': 0.4784}, {'text': 'dismantling', 'score': 0.4651}, {'text': 'politicians', 'score': 0.2637}]",For ,claims that PM is actually dismantling corruption in India through farm laws. 
+1140130,"Big twist in farmers conspiracy claim!
+
+In Haryana police's custody, Masked man claims to have been abducted by the protesting farmers.
+
+#FarmersProtests #Farmers #FarmLaws https://t.co/ud2lTqZ7y2",Pro Ruling,pro ruling,farm laws,"['farmers', 'abducted', 'protesting']","[{'text': 'farmers', 'score': 0.4795}, {'text': 'abducted', 'score': 0.3544}, {'text': 'protesting', 'score': 0.2508}]",For ,"says that anti-farm laws are ""conspiracy"" claims. "
+119224,#ProfAshokGulati: “Repealing these farm laws would be like robbing more than 90% of farmers — who never gained from the #MSP system &amp; are largely small &amp; marginal — of their rights.” #FarmersProtest,Pro Ruling,pro ruling,farm laws,"['farmers', 'repealing', 'marginal']","[{'text': 'farmers', 'score': 0.5352}, {'text': 'repealing', 'score': 0.3187}, {'text': 'marginal', 'score': 0.2857}]",For ,claims that repealing the farms laws would be like robbing 90% of the farmers. 
+767104,"Today India is rapidly acquiring farm land by giving adequate compensation to the farmers.
+More than 20 Expressways are getting build in India on the land acquired &amp; hundreds of industrial corridors/ food parks are coming up adjoining those roads
+
+Same will happen with #FarmLaws",Pro Ruling,pro ruling,farm laws,"['india', 'farm', 'roads']","[{'text': 'india', 'score': 0.4472}, {'text': 'farm', 'score': 0.4446}, {'text': 'roads', 'score': 0.3712}]",For ,says farmers will be compensated through farm laws. 
+1341336,"Delhi: Hundreds of women protesters from Punjab reach Tikri border
+
+NDTV’s Shonakshi Chakravarty reports from ground zero
+
+#FarmersProtest #FarmLaws https://t.co/8IogdsoBXb",Pro OPP,pro opposition,farm laws,"['protest', 'farmers', 'ndtv']","[{'text': 'protest', 'score': 0.477}, {'text': 'farmers', 'score': 0.3593}, {'text': 'ndtv', 'score': 0.1653}]",Neutral ,"no stance taken, only news delivered "
+152433,Will the Farm Bills ushered in by the NDA government help farmers? Do they remove MSP or public procurement? @Sanju_Verma_ answers many such questions and debunks the myths surrounding the new #FarmLaws #ModiWithFarmers https://t.co/JiBOTJfjwa,Pro Ruling,pro ruling,farm laws,"['farmers', 'bills', 'remove']","[{'text': 'farmers', 'score': 0.4795}, {'text': 'bills', 'score': 0.2777}, {'text': 'remove', 'score': 0.0873}]",Neutral ,"no stance taken, only news delivered "
+698578,"Where @_YogendraYadav says ""Several Cabinet Ministers are prepared to take back the Farm Laws, the Prime Minister is not. ""  on the #FarmersProtests and where we are headed ahead of Republic Day. Full conversation @themojostory https://t.co/aLloUf3lio https://t.co/Vq8eifbL2S",Pro OPP,pro opposition,farm laws,"['ministers', 'back', 'protests']","[{'text': 'ministers', 'score': 0.5449}, {'text': 'back', 'score': 0.261}, {'text': 'protests', 'score': 0.2542}]",Neutral ,"no stance taken, only news delivered "
+1167922,"#Watch: #Congress party leaders celebrate as #PMModi takes back 3 #FarmLaws!
+
+Visuals from @INCIndia office CSMT, #Mumbai 
+
+🎥BL Soni 
+
+#News #Farmers #FarmersProtest @PMOIndia @narendramodi @BJP4India #FarmLawsRepealed https://t.co/qJr4GHBIgn",Pro OPP,pro opposition,farm laws,"['farmers', 'congress', 'bjp4india']","[{'text': 'farmers', 'score': 0.4583}, {'text': 'congress', 'score': 0.4466}, {'text': 'bjp4india', 'score': 0.2685}]",Neutral ,"no stance taken, only news delivered "
+661625,"After @rihanna's post on Indian #FarmersProtest, @akshaykumar and @ajaydevgn stand united with #IndiaAgainstPropaganda.
+
+#FarmLaws 
+
+https://t.co/Zf56Dh9Ym1",Pro Ruling,pro ruling,farm laws,"['akshaykumar', 'farmers', 'protest']","[{'text': 'akshaykumar', 'score': 0.5887}, {'text': 'farmers', 'score': 0.3961}, {'text': 'protest', 'score': 0.3271}]",For ,Rihanna's post was in favor of farmers protest. This tweet claims that indian celebrities stand against this sort of false propoganda. 
+749368,32 Farmers unions who protested against three Farm Laws to meet tomorrow and annouce formation of a new Political Party to fight Elections; Press conference likely at 4pm in chandigarh,Pro Ruling,pro ruling,farm laws,"['unions', 'farmers', 'protested']","[{'text': 'unions', 'score': 0.5247}, {'text': 'farmers', 'score': 0.4713}, {'text': 'protested', 'score': 0.3646}]",Neutral ,"no stance taken, only news delivered "
+1934551,"PM Modi : I will exercise silence when it comes to Farmers Movement &amp; my security breach in Punjab.
+
+I guess the secret reason behind withdrawal of farm laws won’t be revealed ever.",Pro Ruling,pro ruling,farm laws,"['farmers', 'silence', 'security']","[{'text': 'farmers', 'score': 0.4135}, {'text': 'silence', 'score': 0.3563}, {'text': 'security', 'score': 0.2402}]",Against ,"subtly mocks the ""secret"" reason behind why Modi withdrew farm laws. "
+193190,"Punjab Congress MPs - Mr @RavneetBittu ; Mr @GurjeetSAujla and Mr Jasbir Singh Gill - continue their protest at Jantar Mantar 
+
+#FarmLaws https://t.co/RxXV9dQGQK",Pro OPP,pro opposition,farm laws,"['congress', 'continue', 'farm']","[{'text': 'congress', 'score': 0.4718}, {'text': 'continue', 'score': 0.2764}, {'text': 'farm', 'score': 0.2031}]",Neutral ,"no stance taken, only news delivered "
+1354183,"Farmers Protest: No State Demanded Repelling Of Farm Laws At NITI Aayog Meet Presided By PM Modi
+
+https://t.co/PvrrbnRVsn",Pro Ruling,pro ruling,farm laws,"['farmers', 'protest', 'repelling']","[{'text': 'farmers', 'score': 0.589}, {'text': 'protest', 'score': 0.3674}, {'text': 'repelling', 'score': 0.1364}]",For ,shows how all states support farm laws. 
+463364,"Farmers have been protesting about the centre's farm laws. Here's everything you need to know about the farmers protest.
+#Farmers #FarmersDelhiProtest #FarmersProtest #FarmersBill2020 https://t.co/eHiRkqaL0G",Pro OPP,pro opposition,farm laws,"['farmers', 'protesting', 'bill2020']","[{'text': 'farmers', 'score': 0.4954}, {'text': 'protesting', 'score': 0.4458}, {'text': 'bill2020', 'score': 0.1473}]",Neutral ,"no stance taken, only news delivered "
+145441,"Another Aam Aadmi Party leader with no clue about what's wrong with the new farm laws.
+
+#FarmBills2020 #FarmersProtestHijacked https://t.co/d52Qd8v427",Pro Ruling,pro ruling,farm laws,"['farmers', 'farmbills2020', 'hijacked']","[{'text': 'farmers', 'score': 0.5209}, {'text': 'farmbills2020', 'score': 0.2283}, {'text': 'hijacked', 'score': 0.1349}]",Neutral ,no stance taken on farm laws. Only claiming that farmers protest has been hijacked. 
+1108978,BREAKING: We had said that the three farm laws will have to be taken back. We said this because we knew the might of industrialists won’t be able to stand the might of farmers: Rahul Gandhi https://t.co/qP65XbHEpI,Pro OPP,pro opposition,farm laws,"['farmers', 'laws', 'back']","[{'text': 'farmers', 'score': 0.5062}, {'text': 'laws', 'score': 0.3472}, {'text': 'back', 'score': 0.2245}]",Neutral ,"no stance taken, only news delivered "
+784995,"#BREAKING | India summons British High Commissioner over ""unwarranted discussion"" in British Parliament over Indian farm laws, reports @sidhant https://t.co/emUZGHeXBa",Pro Ruling,pro ruling,farm laws,"['india', 'commissioner', 'high']","[{'text': 'india', 'score': 0.4147}, {'text': 'commissioner', 'score': 0.3772}, {'text': 'high', 'score': 0.0621}]",Neutral ,"no stance taken, only news delivered "
+710501,Standing with farmers and defending their right to protest doesn’t mean standing with environmentally unsound practices. The protests are against the new farm laws and not some environmentally friendly farming practices that the govt is trying to introduce. https://t.co/fKBn2PxfGH,Pro OPP,pro opposition,farm laws,"['protest', 'farmers', 'doesn']","[{'text': 'protest', 'score': 0.4988}, {'text': 'farmers', 'score': 0.4804}, {'text': 'doesn', 'score': 0.1225}]",Against ,clears misconceptions around anti-farm laws protest. 
+1059245,"#TheBigFight | “The government has lost the confidence of the people”: Deepender Singh Hooda, MP, Congress 
+
+#NDTVExclusive | #FarmLaws | #FarmersProtest 
+https://t.co/n4iLFFFrAu",Pro OPP,pro opposition,farm laws,"['farmers', 'congress', 'confidence']","[{'text': 'farmers', 'score': 0.4746}, {'text': 'congress', 'score': 0.4682}, {'text': 'confidence', 'score': 0.2675}]",Neutral ,"no stance taken, only news delivered "
+882778,"Why did @narendramodi withdraw #FarmLaws?
+
+Akal Takht Jathedar Giani Harpreet Singh’s statement gives us a clue
+
+Politicians have always played the game of divide &amp; rule
+
+Not Modiji
+
+He always spoke of Vikas for 130 crore Indians &amp; put his reputation at stake for UNITY of India🇮🇳 https://t.co/IqnHw9xOmp",Pro Ruling,pro ruling,farm laws,"['narendramodi', 'withdraw', 'politicians']","[{'text': 'narendramodi', 'score': 0.5325}, {'text': 'withdraw', 'score': 0.3532}, {'text': 'politicians', 'score': 0.3214}]",For ,claims that Modi wanted to unite the country and even put his reputation at stake. All he wanted was development of all indians through farm laws. 
+253108,"This is #Shahjahanpur Rajasthan-Haryana border, where #farmers are gathering to protest against the #FarmLaws ! This is a 5 Km long tent city ! #FarmerProtests https://t.co/tDYr1SbmFi",Pro OPP,pro opposition,farm laws,"['farmers', 'tent', 'protests']","[{'text': 'farmers', 'score': 0.5713}, {'text': 'tent', 'score': 0.3784}, {'text': 'protests', 'score': 0.3527}]",Neutral ,"no stance taken, only news delivered "
+205802,"While Arvind Kejriwal and his party leaders are busy extending support to protesting ‘farmers’ from Punjab, his government in Delhi very quietly notified one of the three farm laws he opposes.
+
+https://t.co/ePfPocvYU4",Pro Ruling,pro ruling,farm laws,"['farmers', 'protesting', 'government']","[{'text': 'farmers', 'score': 0.4846}, {'text': 'protesting', 'score': 0.3063}, {'text': 'government', 'score': 0.2254}]",For ,shows how even congress to a certain extent supports farm laws. 
+1470625,"In the coming weeks, YoYa will play the dual role of a psephologist and an election commissioner. 
+Farm laws, what's that? #BengalElections2021 #fridaymorning",Pro Ruling,pro ruling,farm laws,"['elections', 'yoya', 'psephologist']","[{'text': 'elections', 'score': 0.4927}, {'text': 'yoya', 'score': 0.4723}, {'text': 'psephologist', 'score': 0.0746}]",For ,shows that opposition party leaders just taking advantage of farm laws protest. 
+594834,"To protest against the #FarmLaws, &amp; the indifference of the Center Govt to address their concerns regarding these #FarmLaws. Farmers in lakhs will start their ""Kisan Yatra"" from Shambhu Border (Punjab-Haryana Border) on 25 Nov, &amp; will reach Delhi on the 26'th Nov. #FarmProtests https://t.co/yUroSQ2fDx",Pro OPP,pro opposition,farm laws,"['haryana', 'farmers', 'protests']","[{'text': 'haryana', 'score': 0.4404}, {'text': 'farmers', 'score': 0.4395}, {'text': 'protests', 'score': 0.3309}]",Against ,"calls government ""indifferent"" to concerns of farmers. "
+2880727,"Administering anti-CoVID vaccines to a billion people twice over within a year is our greatest achievement since independence; repealing Farm laws our worst - while one saved millions, the other abandoned them.
+
+My podcast with @BeerBicepsGuy. Do watch: https://t.co/qUsFH4lwcP",Pro Ruling,pro ruling,farm laws,"['vaccines', 'independence', 'podcast']","[{'text': 'vaccines', 'score': 0.5431}, {'text': 'independence', 'score': 0.1953}, {'text': 'podcast', 'score': 0.1091}]",For ,claims that repealing the farms laws was one of Indian Govt's biggest mistakes. 
+461906,"Today, #Singhu Border ! #FarmersProtests #FarmLaws https://t.co/olfJtrVcGa",Pro OPP,pro opposition,farm laws,"['farmers', 'protests', 'border']","[{'text': 'farmers', 'score': 0.6399}, {'text': 'protests', 'score': 0.3636}, {'text': 'border', 'score': 0.3394}]",Neutral ,"no stance taken, only news delivered "
+1028016,"The Indian government must immediately stop its escalating crackdown on protesters, farming leaders and journalists, amid ongoing nationwide demonstrations against three recently introduced farm laws, Amnesty International said today https://t.co/3eX9bsjCW9",Pro OPP,pro opposition,farm laws,"['crackdown', 'indian', 'escalating']","[{'text': 'crackdown', 'score': 0.4949}, {'text': 'indian', 'score': 0.3138}, {'text': 'escalating', 'score': 0.1717}]",Against ,claims how government has an escalating crackdown on protesters. 
+675372,"Just heard, todays #farmers meeting again yielded Zilch. Farmers want a Yes or No answer, that whether Govt will repeal the #FarmLaws or not &amp; Govt is again running away from the million dollar question. Next meeting is on 8 Jan. Strategy of wearing down farmers, will surely fail",Pro OPP,pro opposition,farm laws,"['farmers', 'repeal', 'meeting']","[{'text': 'farmers', 'score': 0.5442}, {'text': 'repeal', 'score': 0.2866}, {'text': 'meeting', 'score': 0.2222}]",Against ,shows that government is running from farmers main question on farm laws. 
+1200020,"Amidst the ongoing agitation against the new farm laws, a group of ‘farmers’ vandalised a Patanjali Ayurved store in Kundli on the Delhi-Haryana border
+https://t.co/UNR6zAldRE",Pro Ruling,pro ruling,farm laws,"['farmers', 'store', 'agitation']","[{'text': 'farmers', 'score': 0.5562}, {'text': 'store', 'score': 0.3958}, {'text': 'agitation', 'score': 0.077}]",For ,"subtly mocks if these are even ""real"" farmers protesting as they are vandalising things around them."
+1735748,Congress lead by Rahul Gandhi walks out of the Parliament when Prime Minister was speaking about Farm Laws. That's why Indians are walking out of these AndolanJeevi parties.,Pro Ruling,pro ruling,farm laws,"['indians', 'congress', 'out']","[{'text': 'indians', 'score': 0.495}, {'text': 'congress', 'score': 0.459}, {'text': 'out', 'score': 0.3284}]",Neutral ,no stance taken on farm laws. Only claiming that farmers protest has been hijacked. 
+795050,"To mark six months of their protests against the three controversial farm laws, the Samyukt Kisan Morcha, along with the central trade unions, will observe May 26 as “black day”.
+
+Modi had first taken oath as the prime minister on May 26, 2014.
+
+https://t.co/DPZnSRTzf9",Pro OPP,pro opposition,farm laws,"['day', 'protests', 'unions']","[{'text': 'day', 'score': 0.4387}, {'text': 'protests', 'score': 0.2295}, {'text': 'unions', 'score': 0.1351}]",Neutral ,"no stance taken, only news delivered "
+1114765,"This is a wonderful news! 
+Thank you,@narendramodi ji, @PMOIndia, for taking back the farm laws. Thank you, farmers, for raising just demands through peaceful protests. Hope you will happily return to be with your families on the Parkash Purab of Sri Guru Nanak Dev Ji today.",Pro OPP,pro opposition,farm laws,"['farmers', 'back', 'protests']","[{'text': 'farmers', 'score': 0.4818}, {'text': 'back', 'score': 0.3042}, {'text': 'protests', 'score': 0.2757}]",Against ,thanks modi for taking back farm laws. 
+1011960,"IMF LAUDS MODI'S FARM LAWS 
+
+END THE POLITICALLY MOTIVATED PROTESTS
+https://t.co/3Jjm6zm9d3",Pro Ruling,pro ruling,farm laws,"['protests', 'end', 'farm']","[{'text': 'protests', 'score': 0.4585}, {'text': 'end', 'score': 0.3365}, {'text': 'farm', 'score': 0.2574}]",For ,shows how IMF actually lauds the farm laws. 
+188129,"#Delhi CM #ArvindKejriwal to visit #SinghuBorder (#Haryana-#Delhi border) today where #farmers’ #protest, against #Centre’s #FarmLaws, entered 12th day https://t.co/ruuBVmrOxb",Pro OPP,pro opposition,farm laws,"['farmers', 'sing', 'hub']","[{'text': 'farmers', 'score': 0.2705}, {'text': 'sing', 'score': 0.2312}, {'text': 'hub', 'score': 0.2157}]",Neutral ,"no stance taken, only news delivered "
+498067,"Farmers from West Bengal thank PM @narendramodi for the new farm laws &amp; agricultural reforms
+
+#FarmBills2020 https://t.co/tuyolAVIpS",Pro Ruling,pro ruling,farm laws,"['farmers', 'narendramodi', 'farmbills2020']","[{'text': 'farmers', 'score': 0.6016}, {'text': 'narendramodi', 'score': 0.4383}, {'text': 'farmbills2020', 'score': 0.1342}]",For ,shows how farmers from West Bengal thank Modi for farm laws and reforms. 
+1562046,"Father To Son - What Do You Want To Become In Life, Doctor Or Engineer?
+
+Next Generation Son- Nope Dad! I Will Be A Pseudo Kisan Leader
+
+#Farmers #RakeshTikait #FarmersProtests #FarmLaws https://t.co/FvNeTgqvZK",Pro Ruling,pro ruling,farm laws,"['farmers', 'doctor', 'protests']","[{'text': 'farmers', 'score': 0.5011}, {'text': 'doctor', 'score': 0.2068}, {'text': 'protests', 'score': 0.0275}]",For ,"calls protesting farmer leader ""pseudo""."
+843186,"BKU president Balbir Singh Rajewal thanked PM #Modi for the decision but said will not end #protests until a law is made regarding MSP 
+#farmlaws #threefarmlaws https://t.co/UlGDGj2Rn3",Pro OPP,pro opposition,farm laws,"['thanked', 'protests', 'farm']","[{'text': 'thanked', 'score': 0.3437}, {'text': 'protests', 'score': 0.3204}, {'text': 'farm', 'score': 0.2196}]",Neutral ,"no stance taken, only news delivered "
+928203,"Workers under the watch of police personnel on Monday hooked iron rods between two rows of cement barriers on a flank of the main highway at #SinghuBorder to further restrict the movement of protesters agitating against the new farm laws at the site.
+
+https://t.co/0sykxsrb87",Pro OPP,pro opposition,farm laws,"['workers', 'rods', 'protesters']","[{'text': 'workers', 'score': 0.5493}, {'text': 'rods', 'score': 0.4592}, {'text': 'protesters', 'score': 0.2727}]",Against ,shows how police and workers jointly are making farmers protest movement difficult. 
+924982,"Nobody in the world needs to know anything about Modi's farm laws when they can all see the govt repression, duplicity &amp; brutality on shameless display.
+
+#ModiGlobalDisaster  
+#ModiFailsIndia https://t.co/Qqek3oA5nX",Pro OPP,pro opposition,farm laws,"['india', 'farm', 'nobody']","[{'text': 'india', 'score': 0.3646}, {'text': 'farm', 'score': 0.323}, {'text': 'nobody', 'score': 0.1828}]",Against ,"calls farm laws ""repression"", ""duplicity"" and ""shameless"". "
+638685,"700 farmers Will never return to their homes , Thanks to Modi ji and his black Farm laws .
+#FarmersProtest",Pro OPP,pro opposition,farm laws,"['farmers', 'protest', 'never']","[{'text': 'farmers', 'score': 0.5492}, {'text': 'protest', 'score': 0.2642}, {'text': 'never', 'score': 0.1601}]",Against ,"calls farm laws ""black""."
+1394017,"SHOCKING
+
+Agriculture Minister Still Defending the #FarmLaws
+
+He says, #FarmersProtest is confined to just one state. 
+
+He is ignorant, He doesn't know that Farmers from across India are protesting and demanding the repealing of the Law https://t.co/59cMx2cq6j",Pro OPP,pro opposition,farm laws,"['farmers', 'protesting', 'minister']","[{'text': 'farmers', 'score': 0.5617}, {'text': 'protesting', 'score': 0.3931}, {'text': 'minister', 'score': 0.3847}]",Against ,"calls agricultural minister supporting farm laws ""ignorant"". "
+1615835,"Farm Laws Can Wait!
+
+Focus can be:
+1. Security of the Nation.
+Punjab being Border State.
+2. Drug Menace.
+3. Conversions.
+
+Congress, AAP, Pakistan, Khalistani , Anti India Forces fell into their own trap?
+
+If Captain join hands with BJP &amp; becomes CM, Farm Laws can be implemented?",Pro Ruling,pro ruling,farm laws,"['farm', 'congress', 'drug']","[{'text': 'farm', 'score': 0.3981}, {'text': 'congress', 'score': 0.2903}, {'text': 'drug', 'score': 0.0332}]",Neutral ,no stance on farm laws being taken. 
+657653,"Even after 6 months, Farmers stand together for upliftment of rural India &amp; against laws authored by crony capitalists
+
+Modi Govt working only for Corporates, trashed every democractic parliamentary procedure to push unconstitutional farm laws on India
+
+#एकजुट_किसान_मोदी_परेशान https://t.co/Fhsm4T8f2M",Pro OPP,pro opposition,farm laws,"['farmers', 'upliftment', 'parliamentary']","[{'text': 'farmers', 'score': 0.6471}, {'text': 'upliftment', 'score': 0.2119}, {'text': 'parliamentary', 'score': 0.1753}]",Against ,"calls farm laws the product of ""crony capitalists"". "
+20508,"Breaking : 
+
+Delhi CM @ArvindKejriwal tears copies of the 3 farm laws passed by the central government. 
+
+#FarmersProtests 
+
+https://t.co/hd8WbhWLVb",Pro OPP,pro opposition,farm laws,"['farmers', 'protests', 'breaking']","[{'text': 'farmers', 'score': 0.5277}, {'text': 'protests', 'score': 0.4026}, {'text': 'breaking', 'score': 0.2378}]",Neutral ,no stance on farm laws being taken. 
+1093295,"Farm laws won’t be repealed, government tells farmers’ leaders  https://t.co/Snp7gFcaTS",Pro Ruling,pro ruling,farm laws,"['farmers', 'repealed', 'leaders']","[{'text': 'farmers', 'score': 0.4647}, {'text': 'repealed', 'score': 0.3475}, {'text': 'leaders', 'score': 0.213}]",Neutral ,no stance on farm laws being taken. 
+313058,"""Farmers around Delhi are being instigated with rumors around #FarmLaws2020. They should exercise caution &amp; not fall prey to such misinformation. Farmers deserve the freedom to sell just like other sectors,"" says PM @narendramodi
+
+#KutchWelcomesPMModi #FarmersWithModi https://t.co/MRgRtaDWc6",Pro Ruling,pro ruling,farm laws,"['farmers', 'narendramodi', 'rumors']","[{'text': 'farmers', 'score': 0.6174}, {'text': 'narendramodi', 'score': 0.3829}, {'text': 'rumors', 'score': 0.276}]",For ,says that there is misinformation against farm laws to agitate farmers. 
+288372,Don’t delegitimise and discredit #Farmers as “Khalistanis”. Protests are democracy’s oxygen and provide an opportunity for a dialogue between citizen and state. My oped in @timesofindia today. #supportfarmers #FarmLaws https://t.co/SAAMohkaOw,Pro OPP,pro opposition,farm laws,"['protests', 'farmers', 'oxygen']","[{'text': 'protests', 'score': 0.5065}, {'text': 'farmers', 'score': 0.4924}, {'text': 'oxygen', 'score': -0.0213}]",Against ,says that anti-farm laws protesters are being delegitimised by being labelled khalistanis. 
+118745,"THIS IS HUGE: An Umbrella Organization: All India Kisan Coordination Committee - Which has more than 7,000 NGOs &amp; 250 Farmers Organisation working under them extend support to Modi Govt's Farm Laws ✌️ #FarmerProtests https://t.co/EqhOCj84nx",Pro Ruling,pro ruling,farm laws,"['organisation', 'protests', 'extend']","[{'text': 'organisation', 'score': 0.4647}, {'text': 'protests', 'score': 0.384}, {'text': 'extend', 'score': 0.1893}]",For ,shows how a massive farmers organisation supports farm laws. 
+86254,"Telangana is 4th highest in #FarmerSuicides in India (NCRB data). How can #KCR play politics of #FarmLaws? Are farmers collateral damage in BJP-KCR plans? 
+
+Govt decision will also affect middle class and those dependent on PDS in #Telangana #FarmerProtests https://t.co/JSaukKOxqA",Pro OPP,pro opposition,farm laws,"['farmers', 'india', 'suicides']","[{'text': 'farmers', 'score': 0.4435}, {'text': 'india', 'score': 0.3911}, {'text': 'suicides', 'score': 0.2232}]",Against ,shows how farm laws will impact entire society negatively. 
+1327118,"@RahulGandhi @DrINCsupporter True... Modi's crony farm laws are an attack on not only farmers, but the food security of 130 crore Indians who will be subjected to profiteering &amp; high food prices by greedy monopolistic crony capitalists. #SuitBootKiCorruptSarkar",Pro OPP,pro opposition,farm laws,"['farmers', 'crony', 'security']","[{'text': 'farmers', 'score': 0.5113}, {'text': 'crony', 'score': 0.4249}, {'text': 'security', 'score': 0.2331}]",Against ,"calls farm laws ""crony"". "

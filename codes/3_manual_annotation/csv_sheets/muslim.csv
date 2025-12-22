@@ -1,0 +1,364 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,STANCE ,Reasoning 
+,"Sudarshan News falsely claimed that Pawan Hans Ltd only recruited Muslim students. However, 38 students in total were recruited by the government-owned company, out of which 25 were Hindu and 13 were Muslim. #AltNewsFactCheck | @Priyankajha0 @zoo_bear
+https://t.co/rAgo7PS0Hw",Pro OPP,,muslim,"['muslim', 'recruited', 'zoo_bear']","[{'text': 'muslim', 'score': 0.5246}, {'text': 'recruited', 'score': 0.3593}, {'text': 'zoo_bear', 'score': 0.0407}]",For ,Does not talk negatively and says that it was not muslim centric representation. 
+,"Dear Muslim brothers and sisters,
+After watching yesterday's video and observing Police and Govt (s) attitude related to the incident, I am shocked. 
+
+It is unimaginable what all you have to face, one after another.  Hope we will change it together. 
+
+Sorry. 😔",Pro OPP,,muslim,"['muslim', 'unimaginable', 'sisters']","[{'text': 'muslim', 'score': 0.5595}, {'text': 'unimaginable', 'score': 0.2195}, {'text': 'sisters', 'score': 0.1337}]",For ,Sympathises with plight of muslims. 
+,RSS volunteers distributed grocery kits to needy Muslim familes. #RSSinAction https://t.co/IsnWhnPQh4,Pro Ruling,,muslim,"['volunteers', 'muslim', 'grocery']","[{'text': 'volunteers', 'score': 0.4564}, {'text': 'muslim', 'score': 0.3757}, {'text': 'grocery', 'score': 0.3734}]",Against ,Muslims shown as poor and dependent. RSS given saviour stature. Does not view Muslims in equal category. 
+,"We have reached a stage where a sitting Chief minister is openly warning Hindus to not venture into Muslim Areas. The last time this happened was back in the 1940s. And that resulted in India giving away a Muslim Area.
+
+Those who do not learn from history are doomed to repeat it.",Pro Ruling,,muslim,"['muslim', 'india', 'warning']","[{'text': 'muslim', 'score': 0.5719}, {'text': 'india', 'score': 0.4218}, {'text': 'warning', 'score': 0.2145}]",Against ,Shown Muslims as threatening and having their separate areas. Hints at humilation of partition. 
+,🔸Why Muslims are afraid of Uniform Civil Code? https://t.co/RGkkM4ZWkc,Pro Ruling,,muslim,"['muslims', 'afraid', 'uniform']","[{'text': 'muslims', 'score': 0.5703}, {'text': 'afraid', 'score': 0.2466}, {'text': 'uniform', 'score': 0.2419}]",Neutral,does not take stance. asking question. 
+,BJP MP calls for boycott of muslims. @moliticsindia cartoon #HateSpeech https://t.co/lIjJzLE8Ox,Pro OPP,,muslim,"['muslims', 'boycott', 'speech']","[{'text': 'muslims', 'score': 0.5395}, {'text': 'boycott', 'score': 0.4821}, {'text': 'speech', 'score': 0.2261}]",For ,Hashtag shows that it is hate speech against muslims. 
+,"Kahe ki conspiracy ?  Muslims should stop playing victim card. Supreme Court ke faisle ka samman karo, achche naagrik bano. https://t.co/yhzrIEzN4E",Pro OPP,,muslim,"['muslims', 'conspiracy', 'card']","[{'text': 'muslims', 'score': 0.6159}, {'text': 'conspiracy', 'score': 0.3248}, {'text': 'card', 'score': 0.2871}]",Against ,Muslims are not good citizens and always play on the victim card. 
+,People were shot dead by police when they protested against bulldozers demolishing their homes in Muslim majority area of Turkman Gate when Indira gandhi was in power. Yeah we know. https://t.co/e4ifgRXpmu,Pro Ruling,,muslim,"['dead', 'muslim', 'bulldozers']","[{'text': 'dead', 'score': 0.3439}, {'text': 'muslim', 'score': 0.3145}, {'text': 'bulldozers', 'score': 0.2313}]",,"Tweet does not specify religion of people that were killed but does show that it was in a muslim dominated area. hence area could be unsafe. However, does not specify religion of killers either."
+,Imagine if this mob at Capitol Hill comprised of Muslims or Black people ?,Pro OPP,,muslim,"['mob', 'muslims', 'if']","[{'text': 'mob', 'score': 0.5675}, {'text': 'muslims', 'score': 0.5094}, {'text': 'if', 'score': 0.1205}]",neutral,"no stance taken, rhetorical question asked. "
+,"Mocking Hindu Gods is not Freedom of Expression , mocking Sanatan Sanskriti is not Freedom of Expression. If likes of #MunawarFaruqui do this as a matter of practice, people have the right to democratic protest under Constitution. I will bust   #LobbyMuslimCard attempt at tonight",Pro Ruling,,muslim,"['muslim', 'constitution', 'tonight']","[{'text': 'muslim', 'score': 0.5366}, {'text': 'constitution', 'score': 0.2899}, {'text': 'tonight', 'score': 0.1518}]",Against ,shows a muslim making fun of Hindu Gods and practices. 
+,"#MyKindaMuslim! 
+Isn’t the boy fearless and kind?
+ https://t.co/0O1uJVTksj",Pro Ruling,,muslim,"['muslim', 'boy', 'fearless']","[{'text': 'muslim', 'score': 0.5822}, {'text': 'boy', 'score': 0.3958}, {'text': 'fearless', 'score': 0.3383}]",For ,Muslims shown as kind and fearless. Positive attributes. 
+,Why Lakshadweep? 93% of Lakshadweep's population are Muslims.,Pro OPP,,muslim,"['muslims', 'lakshadweep', 'why']","[{'text': 'muslims', 'score': 0.6187}, {'text': 'lakshadweep', 'score': 0.4231}, {'text': 'why', 'score': 0.3114}]",Neutral,no stance taken. does not answer if majority being muslim is good or bad. 
+,"These stories give hope!
+
+A wedding in the time of communal riots. 
+
+A hindu family was given protection by the Muslim neighbourhood. 
+
+Wedding in their Chandbagh house, 50 meters away, main road had turned into a battleground. 
+
+“Woh hum sab Ki beti thi”
+
+https://t.co/9FlRsQ3Peu",Pro OPP,,muslim,"['muslim', 'hope', 'neighbourhood']","[{'text': 'muslim', 'score': 0.5306}, {'text': 'hope', 'score': 0.3195}, {'text': 'neighbourhood', 'score': 0.3183}]",For ,shows cooperation by Muslims and good community living between the opposing religions. 
+,"The other side of the story is that tomorrow when a poor Indian Muslim man is lynched, this outrage from the Arabic states won't be seen. Religion considers the dead more important than the living.",Pro OPP,,muslim,"['muslim', 'lynched', 'dead']","[{'text': 'muslim', 'score': 0.5161}, {'text': 'lynched', 'score': 0.4118}, {'text': 'dead', 'score': 0.2994}]",For ,"plight of Muslims, especially in India. "
+,"Faisal is not the first victim of police brutality in India. 
+
+There are many cases of extra judicial killings in India where Muslims were killed. Although UP Police filed FIR against 3 cops for Faisal's murder but will this system bring them to justice?
+
+ #फैसल_को_इंसाफ_दो",Pro OPP,,muslim,"['brutality', 'muslims', 'india']","[{'text': 'brutality', 'score': 0.4396}, {'text': 'muslims', 'score': 0.3443}, {'text': 'india', 'score': 0.3121}]",For ,Demonstrates plight of Muslims in India who are subject to violence by the State in the form of policy brutality. 
+,"As an Indian Muslim, i hang my head in despair #MuslimLivesMatter https://t.co/amD7rB3btb",Pro OPP,,muslim,"['muslim', 'despair', 'indian']","[{'text': 'muslim', 'score': 0.7492}, {'text': 'despair', 'score': 0.3963}, {'text': 'indian', 'score': 0.3839}]",For ,Calls for better living conditions for Muslims 
+,"My request to @mieknathshinde &amp; @Dev_Fadnavis - please release Saad Ashfaque Ansari and provide him security. A young brave Muslim boy, trying to modernise his community needs our support - not our jails.",Pro Ruling,,muslim,"['muslim', 'jails', 'release']","[{'text': 'muslim', 'score': 0.5157}, {'text': 'jails', 'score': 0.3438}, {'text': 'release', 'score': 0.2592}]",For ,Muslim boy's arrest seen as unfair. Seen as pioneering modernisation and hence should be released. 
+,"NY Times on UP: ""Police officers opened fire on demonstrators,broke into houses&amp;stole money, &amp;threatened to rape women.The BBC aired footage showing police officers knocking down security cameras in a Muslim neighborhood&amp; shattering windows of parked cars"" https://t.co/p0sCvZa57W",Pro OPP,,muslim,"['police', 'demonstrators', 'muslim']","[{'text': 'police', 'score': 0.5114}, {'text': 'demonstrators', 'score': 0.4071}, {'text': 'muslim', 'score': 0.2847}]",For ,Demonstrates plight of Muslims in India who are subject to violence by the State in the form of policy brutality. 
+,"What did the BJP govt achieve with CAA-NRC except for hate against Muslims? 
+
+In what way it was good for India?",Pro OPP,,muslim,"['india', 'muslims', 'hate']","[{'text': 'india', 'score': 0.4271}, {'text': 'muslims', 'score': 0.3992}, {'text': 'hate', 'score': 0.1881}]",For ,Govt propoganda to instill communal hate. Criticises policies. 
+,"Muslim community under Modi Govt is growing and there is no fear to them as propogated by you and your ilk. Apprehension of the threat to lives of Muslims by BJP is kept alive to keep them united as a vote bank.
+So Mr Owaisi, Stop this propoganda.
+ 3/3 https://t.co/zEXGa6Lxq7",Pro Ruling,,muslim,"['muslims', 'fear', 'growing']","[{'text': 'muslims', 'score': 0.6007}, {'text': 'fear', 'score': 0.2578}, {'text': 'growing', 'score': 0.2523}]",Against ,"shows Muslim community as flourishing and all ideas of ""hate"" against them as false. "
+,"Brahmin thrashes Thakur with his shoe: no punishment
+
+Muslim sells shoe with Thakur written on it: gets booked. 
+
+Law is equal for all citizens?",Pro OPP,,muslim,"['muslim', 'punishment', 'shoe']","[{'text': 'muslim', 'score': 0.501}, {'text': 'punishment', 'score': 0.4203}, {'text': 'shoe', 'score': 0.2694}]",For ,shows unfair treatment of Muslims. Not considered equal in the eyes of Indian law. 
+,Shame on these Indian Muslims of Bhopal. Celebrating the beheadings in France. https://t.co/tIONvY27gq,Pro Ruling,,muslim,"['muslims', 'beheadings', 'france']","[{'text': 'muslims', 'score': 0.6467}, {'text': 'beheadings', 'score': 0.5445}, {'text': 'france', 'score': 0.3425}]",Against ,Seen as violent and disrespectful.
+,"The Prime Time anchors who spent all their time talking about Hindu-muslim , mandir -masjid this is on you. 
+
+Know that there is consequence to your fear mongering, this is the real life consequence",Pro OPP,,muslim,"['muslim', 'fear', 'anchors']","[{'text': 'muslim', 'score': 0.453}, {'text': 'fear', 'score': 0.4206}, {'text': 'anchors', 'score': 0.19}]",Neutral,No information given about what consequences. No stance actively taken. 
+,🔸How Zakat affects non-muslims? https://t.co/BIDikCUPZx,Pro Ruling,,muslim,"['muslims', 'affects', 'non']","[{'text': 'muslims', 'score': 0.6943}, {'text': 'affects', 'score': 0.3288}, {'text': 'non', 'score': 0.1413}]",Neutral,"No stance, only question asked. "
+,"8 years ago when @peta held a protest in India imploring Muslims to turn Vegan at Eid their activists were thrashed so badly they might have been lynched had the police not intervened.
+
+Peta decided to save themselves instead of animals and never held a protest on Eid ever again. https://t.co/RVtldFWVFJ",Pro Ruling,,muslim,"['vegan', 'muslims', 'lynched']","[{'text': 'vegan', 'score': 0.4224}, {'text': 'muslims', 'score': 0.3456}, {'text': 'lynched', 'score': 0.1643}]",Against ,Seen as violent and dangerous. 
+,Rana ayyub wants this to happen in India for the hash tag  #muslimsLivesMatter https://t.co/tjgI3I3LL5,Pro Ruling,,muslim,"['muslims', 'india', 'lives']","[{'text': 'muslims', 'score': 0.6234}, {'text': 'india', 'score': 0.4271}, {'text': 'lives', 'score': 0.2519}]",For ,hashtag implores to have Muslim lives seen as equal. 
+,Some comment we should not over react when Hindu culture is subtly mocked but I wonder if that logic holds good if advertisements or movies mock Muslims and Christians too. @TanishqJewelry should make an ad with Muslim girl married to a Hindu boy. But will they?,Pro Ruling,,muslim,"['muslims', 'should', 'advertisements']","[{'text': 'muslims', 'score': 0.4824}, {'text': 'should', 'score': 0.1922}, {'text': 'advertisements', 'score': 0.1283}]",Neutral,No stance taken on Muslims but on how Indian media works. 
+,"Indian Muslims got Arabs to go to when someone hurts their religious feelings in reciprocation, who do the Kashmiri Hindus go to, to report their killings?
+
+Oh wait, the rights &amp; lives of non-Muslims just don’t matter, not when they are in majority &amp; surely not when in minority.",Pro Ruling,,muslim,"['muslims', 'reciprocation', 'hurts']","[{'text': 'muslims', 'score': 0.5828}, {'text': 'reciprocation', 'score': 0.1682}, {'text': 'hurts', 'score': 0.1414}]",Against ,How muslim lives seem to matter but not Hindu lives. 
+,"Anand Swaroop claims to have threatened People/hotels in Haridwar not to celebrate Christmas. He says, For this year, he won't allow Muslims and Christians to celebrate their festivals in Uttarkhand since it belongs only to Hindus. #HaridwarHateAssembly https://t.co/j43qFS8PzS",Pro OPP,,muslim,"['festivals', 'muslims', 'threatened']","[{'text': 'festivals', 'score': 0.4677}, {'text': 'muslims', 'score': 0.4117}, {'text': 'threatened', 'score': 0.2639}]",For ,Shows hate against Muslims and their festivals. 
+,Maharashtra government to seek legal opinion on quota for Muslims: Nawab Malik https://t.co/sMQlsM9zlN,Pro OPP,,muslim,"['muslims', 'maharashtra', 'government']","[{'text': 'muslims', 'score': 0.4835}, {'text': 'maharashtra', 'score': 0.3573}, {'text': 'government', 'score': 0.2717}]",Neutral,no stance taken. 
+,Insulting Prophet has become new normal now sad part is even Muslims have taken it as part of life,Pro OPP,,muslim,"['muslims', 'insulting', 'new']","[{'text': 'muslims', 'score': 0.6755}, {'text': 'insulting', 'score': 0.3675}, {'text': 'new', 'score': 0.1995}]",For ,Shows plight of Muslims who have to bear the humilation of seeing the Prophet mocked. 
+,"In May 2019, one of the country’s largest Buddhist chapters called for stoning Muslims to death and spread rumours that Muslim-owned restaurants used “sterilization medicine” in their food to reduce Sinhalese Buddhist fertility rates.
+Sounds familiar? +
+https://t.co/EbIMISumWi",Pro OPP,,muslim,"['muslim', 'sterilization', 'restaurants']","[{'text': 'muslim', 'score': 0.4799}, {'text': 'sterilization', 'score': 0.4134}, {'text': 'restaurants', 'score': 0.2405}]",For ,"Shows hate against Muslims by a religion considered ""peaceful"""
+,"Listen blind devotees, he is Aftab, he is not a Muslim, he is a Parsi
+
+ Parsis take away the recognition of their religion by marrying in other religions!!
+
+ They consider Ahura Mazda as God
+ and worship fire
+
+@RubikaLiyaquat @anjanaomkashyap @AMISHDEVGAN rest all dale of sanghi https://t.co/doO0zxxi9S",Pro OPP,,muslim,"['muslim', 'rubikaliyaquat', 'blind']","[{'text': 'muslim', 'score': 0.5477}, {'text': 'rubikaliyaquat', 'score': 0.3605}, {'text': 'blind', 'score': 0.208}]",Against ,"shows muslims as uneducated by calling them ""blind devotees"""
+,This Hindu nationalist who is a criminal asked for a genocide of Muslims at a packed public rally with hundreds of policemen last week. He repeats his statement here that he proudly called for genocide of muslims while @narendramodi government looks the other way @POTUS https://t.co/f5LQMCGEjx,Pro OPP,,muslim,"['muslims', 'rally', 'week']","[{'text': 'muslims', 'score': 0.571}, {'text': 'rally', 'score': 0.3059}, {'text': 'week', 'score': -0.0038}]",For ,Shows how govt ignores hate and genocidal threats against Muslims. 
+,"News Channels are already celebrating because there was an FIR against him and he ""apologised"" because of their News Impact.  
+Here, In one more video, He not only THREATENS TO R@P€ MUSLIM WOMEN. BUT ALSO CHALLENGES POLICE &amp; UP GOVT TO TAKE ACTION AGAINST HIM.
+#ArrestBajrangMuni https://t.co/svcrQhHCTc",Pro OPP,,muslim,"['muslim', 'apologised', 'channels']","[{'text': 'muslim', 'score': 0.4487}, {'text': 'apologised', 'score': 0.2836}, {'text': 'channels', 'score': 0.1856}]",For ,Shows danger to Muslim women out of communal hate and how news channel are selfish. 
+,"Himank Bansal, Student, studying in IFHE Hyderabad assaulted and forced to chant Allah Hu akbar in campus by Senior Muslim students.
+
+IFHE comes under the Hyderabad parliamentary constituency of Asaduddin Owaisi. https://t.co/IN0EuU5N9H",Pro Ruling,,muslim,"['muslim', 'assaulted', 'campus']","[{'text': 'muslim', 'score': 0.6051}, {'text': 'assaulted', 'score': 0.3742}, {'text': 'campus', 'score': 0.2744}]",Against ,Shows muslims as violent and as bullies. 
+,"Hindu Vahini called Kushinagar Police in UP to block an interfaith marriage. Cops picked up the couple &amp; tortured the groom. They were let go after the bride said she was a Muslim herself.
+
+When asked if action would be taken against Hindu Vahini, cops said “mistakes happen”. https://t.co/vjdW7L03z4",Pro OPP,,muslim,"['muslim', 'cops', 'couple']","[{'text': 'muslim', 'score': 0.4877}, {'text': 'cops', 'score': 0.2986}, {'text': 'couple', 'score': 0.2178}]",For ,Different law for hindu and muslims. Muslims face torture and Hindus are let go. 
+,Seer' threatens to rape Muslim women! https://t.co/2pMtwPah5D,Pro OPP,,muslim,"['muslim', 'rape', 'threatens']","[{'text': 'muslim', 'score': 0.5552}, {'text': 'rape', 'score': 0.5157}, {'text': 'threatens', 'score': 0.3993}]",For ,Shows danger to Muslim women due to communal hate. 
+,One of India’s top news channels led by @aroonpurie yet again leading the hate agenda with a brazen dog-whistle against Muslims. And to do this in the name of journalism. https://t.co/NVIZ6um3KJ,Pro OPP,,muslim,"['journalism', 'muslims', 'aroonpurie']","[{'text': 'journalism', 'score': 0.5713}, {'text': 'muslims', 'score': 0.4584}, {'text': 'aroonpurie', 'score': 0.2924}]",For ,Shows how media and news channel further propogate communal hate and disperse it. 
+,"In India, as I have been saying, a cow’s life is more important than a Muslim’s life! In UP, a Muslim driver is brutally being beaten by Hindu right-wing mob over accusations of carrying beef in his vehicle! https://t.co/X4ZM9w0CNJ",Pro OPP,,muslim,"['muslim', 'cow', 'driver']","[{'text': 'muslim', 'score': 0.4914}, {'text': 'cow', 'score': 0.4431}, {'text': 'driver', 'score': 0.2031}]",For ,Plight of Muslims and the torture they endure. their lives not seen as important. 
+,India: Communists join forces with Muslim leaders against Hindus https://t.co/SEKtFg3cnL,Pro Ruling,,muslim,"['communists', 'muslim', 'india']","[{'text': 'communists', 'score': 0.5732}, {'text': 'muslim', 'score': 0.5133}, {'text': 'india', 'score': 0.4096}]",Against ,Shows Muslims and communists as plotting against hindus. 
+,Most probably Boko Haram(zadas) massacred a Nigerian Church and killed at least 50 people. Why do Muslims have so many terrorist organizations?,Pro Ruling,,muslim,"['muslims', 'killed', 'organizations']","[{'text': 'muslims', 'score': 0.4947}, {'text': 'killed', 'score': 0.2949}, {'text': 'organizations', 'score': 0.2156}]",Against ,Muslims seen as terrorists. 
+,"Islam has massacred over 669+ million non-Muslims.
+
+Muslim historian Firistha wrote that over 400 million HINDUS  were massacred. They destroyed &amp; looted our temples, burnt libraries &amp; Universities, raped our girls. &amp; what Hindus did? They named their streest, cities after them. https://t.co/zoKa1qDcXP",Pro Ruling,,muslim,"['muslims', 'destroyed', 'libraries']","[{'text': 'muslims', 'score': 0.6112}, {'text': 'destroyed', 'score': 0.372}, {'text': 'libraries', 'score': 0.208}]",Against ,Muslims seen as terrorists and violent. 
+,"Families are still looking for missing members, the tears of the victims have not dried up but this scum continues to brazenly peddle anti muslim hatred on his channel. This man and his masters enabled the anti muslim pogrom but who will seek accountability ? https://t.co/BYQUuBcMaM",Pro OPP,,muslim,"['muslim', 'accountability', 'missing']","[{'text': 'muslim', 'score': 0.5873}, {'text': 'accountability', 'score': 0.1673}, {'text': 'missing', 'score': 0.155}]",For ,Shows how media and news channel further propogate communal hate and disperse it. 
+,"‘Tear Them Apart’: How Hindutva WhatsApp Group Demanded Murder, Rape of Muslims in Delhi Riots. Messages boasting of fearsome violence. 125 members in group who are identified. Many boasted of killing Muslims. Yet police goes after peaceful CAA protestors!
+https://t.co/GSqzLo42TK",Pro OPP,,muslim,"['muslims', 'whatsapp', 'caa']","[{'text': 'muslims', 'score': 0.446}, {'text': 'whatsapp', 'score': 0.3542}, {'text': 'caa', 'score': 0.2246}]",For ,Shows Hindutva using whatsapp as a medium to spread hate and violence against Muslims. 
+,"OMG !!  What kind of inflammatory statement by @ThePrintIndia is this??
+
+As per @ShekharGupta, Yogi is working towards a Muslim-Mukt UP.
+
+@Uppolice, @AwasthiAwanishK, @myogioffice - Should take serious cognisance of this 🙏 https://t.co/9VvknLIqZ4",Pro Ruling,,muslim,"['muslim', 'theprintindia', 'inflammatory']","[{'text': 'muslim', 'score': 0.6112}, {'text': 'theprintindia', 'score': 0.3425}, {'text': 'inflammatory', 'score': 0.3372}]",For ,Shows how media and State both propogate Muslim hate and disperse violence. 
+,"Farooq Abdullah’s hand on terrorist Yasin Malik’s shoulder.
+
+Yasin Malik is a JKLF terrorist who killed Kashmiri Pandits, Indian Air Force men, Kashmiri Muslim women &amp; kidnapped Rubaiya Sayeed.
+
+What is Farooq Abdullah’s link with JKLF?
+
+Why did he abandon Kashmiri Hindus to die? https://t.co/Raee6PH8hO",Pro Ruling,,muslim,"['muslim', 'force', 'kidnapped']","[{'text': 'muslim', 'score': 0.4408}, {'text': 'force', 'score': 0.1515}, {'text': 'kidnapped', 'score': 0.127}]",Against ,"Shows a Muslim's link to a terrorist, also a muslim. "
+,"You are saying ISIS, Taliban, Al Qaeda, Boko Haram's Islam is not true Islam. Then tell me which countries practice true Islam! The truth is, not a single Muslim country treats women as equal human beings.",Pro Ruling,,muslim,"['muslim', 'women', 'countries']","[{'text': 'muslim', 'score': 0.5328}, {'text': 'women', 'score': 0.2854}, {'text': 'countries', 'score': 0.2081}]",Against ,Shows Muslim as horrible to women and takes the name of famous terrorist organisations who all practice Islam. 
+,"Moplah massacre: Classical dancer Kalyanikutty Amma’s granddaughter recounts how their ancestral home is now occupied by Muslims
+https://t.co/wlJk3pIBkp",Pro Ruling,,muslim,"['muslims', 'granddaughter', 'kalyanikutty']","[{'text': 'muslims', 'score': 0.7274}, {'text': 'granddaughter', 'score': 0.1906}, {'text': 'kalyanikutty', 'score': 0.0689}]",Against ,Muslims as predatory and taking over Hindu homes. 
+,"Sharjeel Imam talking with a tricolour in the background, says
+1 this is a Muslim protest not secular
+2 Brits were better to Muslims than India post 1950
+3 Muslims should reject Gandhi &amp; Nation
+4 Gandhi was the 20th century’s biggest fascist
+5 Jinnah was moderate https://t.co/dT6CCXj01r",Pro Ruling,,muslim,"['muslims', 'biggest', 'tricolour']","[{'text': 'muslims', 'score': 0.5946}, {'text': 'biggest', 'score': 0.1604}, {'text': 'tricolour', 'score': 0.1072}]",Against ,Shows how Indian flag being in the background of a muslim is perceived. 
+,"Aren’t you ashamed even a bit while writing this shit? Why did you forget to factcheck the video and put a clipped video? Why don’t you try to be the true muslim you are and own it up that your tweet incited a mob of ‘sir tan se juda’ chanting Muslim terrorists, who took 6 lives. https://t.co/WU5Q7EgWZk",Pro Ruling,,muslim,"['muslim', 'tweet', 'clipped']","[{'text': 'muslim', 'score': 0.4572}, {'text': 'tweet', 'score': 0.2529}, {'text': 'clipped', 'score': 0.1247}]",Against ,Muslims as violent and lethal. 
+,"India will get a Muslim PM when 
+1. Kashmir elects a Hindu CM 
+2. A Hindu manages waqf properties 
+3. Muslims denounce violent verses 
+4. Aurangzeb stops being the baap 
+5. Zakaat is deposited to helprahul@icici",Pro Ruling,,muslim,"['india', 'muslims', 'elects']","[{'text': 'india', 'score': 0.5381}, {'text': 'muslims', 'score': 0.5347}, {'text': 'elects', 'score': 0.247}]",Against ,Muslim as violent and cannot lead. 
+,Someone trying their best to bring in Muslim angle here... Should have also mentioned about Green caps worn by farmers..  Also Green peas in Biryani. Nice try though. 👏👏 https://t.co/Rqig5t4xlD,Pro OPP,,muslim,"['muslim', 'green', 'caps']","[{'text': 'muslim', 'score': 0.4909}, {'text': 'green', 'score': 0.4446}, {'text': 'caps', 'score': 0.3379}]",Against ,trying to denounce how muslim identity is not relevant in whatever discourse is happening in this thread. 
+,"Kejriwal says ""if we had police, we'll clear Shaheen bagh in 2 hrs"" but doesn't say ""if we had police, we'll arrest Jantar Mantar mob"". Why? 
+
+Because he knows his average Hindu voter is more communalised than his avg Muslim voter. Also the 1st has an option, 2nd doesn't. https://t.co/kK9mr6gXoc",Pro OPP,,muslim,"['muslim', 'voter', 'police']","[{'text': 'muslim', 'score': 0.4219}, {'text': 'voter', 'score': 0.3504}, {'text': 'police', 'score': 0.2923}]",For ,Hindus as more communal than Muslims and hence a bigger threat.
+,"9 years ago, Peta held a rally in India imploring Muslims to turn Vegan at Eid. Their activists were thrashed so badly they might have been lynched had the police not intervened. Peta never held a rally on Eid ever again.
+
+All the gyan is reserved exclusively for Hindu festivals. https://t.co/5kAEkLiHVK",Pro Ruling,,muslim,"['vegan', 'muslims', 'festivals']","[{'text': 'vegan', 'score': 0.3942}, {'text': 'muslims', 'score': 0.3675}, {'text': 'festivals', 'score': 0.2646}]",Against ,Muslims are violent. 
+,"""Har mulle ko ghar se aur uske masjid se kheench ke maarunga jo bhi Hindu ki taraf dekha toh""– one more video of Bajrang Muni threatening violence against Muslims. But @sitapurpolice has still not arrested him.
+
+Video by TV9. https://t.co/42N94t0EIp",Pro OPP,,muslim,"['muslims', 'arrested', 'tv9']","[{'text': 'muslims', 'score': 0.5147}, {'text': 'arrested', 'score': 0.4697}, {'text': 'tv9', 'score': 0.1805}]",For ,Shows hate speech and threat of violence against Muslims. shows unfairness of police at not arresting the Hindu inciting violence. 
+,"REPORT THIS CHANNEL ! 
+
+https://t.co/LLpZxR9q4B
+
+Hello @YouTube @YouTubeIndia , this channel ""If Vs But"" spreading hatred against Muslims, this channel is full of hateful content, suspend this account.…",Pro OPP,,muslim,"['muslims', 'hateful', 'channel']","[{'text': 'muslims', 'score': 0.5669}, {'text': 'hateful', 'score': 0.3673}, {'text': 'channel', 'score': 0.3589}]",For ,calls for the arrest of a youtube channel spreading hate against muslims. 
+,"A few of the contributions of muslims in our struggle for independence &amp; in the making of our nation. There are many, many more https://t.co/NLz18SbgcB",Pro OPP,,muslim,"['muslims', 'independence', 'contributions']","[{'text': 'muslims', 'score': 0.648}, {'text': 'independence', 'score': 0.4114}, {'text': 'contributions', 'score': 0.3235}]",For ,How muslims were also a part of the freedom struggle and contributed a lot into making an Independent India. 
+,"Sorry Aakar bhai you are wrong on this. By your logic since I am an atheist, why not seperate Seats for atheists? Why just Muslims? Why not Buddhists, Jains or Sikhs? Where will this end @Aakar__Patel bhai? Let's not divide our India but rather encourage more Muslims to contest.w https://t.co/Bi6aVCNLwc",Pro OPP,,muslim,"['muslims', 'atheists', 'seats']","[{'text': 'muslims', 'score': 0.448}, {'text': 'atheists', 'score': 0.4257}, {'text': 'seats', 'score': 0.3262}]",Against ,Against separate representation for Muslims in elections. 
+,"The RSS playbook is in full swing under Modi-Shah. 
+
+Muslim men are leaving #Jahangirpuri out of fear of ⁦@DelhiPolice⁩ harassment. Since the communal violence &amp; demolition drive cops have allegedly picked up Muslim men &amp; been threatening their women https://t.co/5oE77wOZF7",Pro OPP,,muslim,"['muslim', 'playbook', 'cops']","[{'text': 'muslim', 'score': 0.4486}, {'text': 'playbook', 'score': 0.2188}, {'text': 'cops', 'score': 0.2171}]",For ,Shows how muslim hate has spread under current Modi govt and shows the torture they are facing. 
+,"Sir, in Egypt I have seen Muslims rioting if a Coptic man married a Muslim woman. Conversely, there would be feasting and dancing in the streets if a Muslim man married a Coptic woman. 
+That apart, I wonder why the ad was not about a Hindu man and his Muslim wife. Recall 'Bombay' https://t.co/rCcAZCz1wU",Pro Ruling,,muslim,"['muslims', 'rioting', 'would']","[{'text': 'muslims', 'score': 0.6159}, {'text': 'rioting', 'score': 0.3387}, {'text': 'would', 'score': 0.1597}]",Against ,shows double standards of Muslims when it comes to the two genders. 
+,"A Muslim man and his parents are being lynched by Hindu right wing mob in MP, India.  https://t.co/cS7cx0rQvt",Pro OPP,,muslim,"['lynched', 'muslim', 'india']","[{'text': 'lynched', 'score': 0.6339}, {'text': 'muslim', 'score': 0.439}, {'text': 'india', 'score': 0.2324}]",For ,Muslims being lynched by Hindu mob. 
+,"Poonam &amp; her son Deepak killed Anjan Das by feeding him sleeping pills &amp; chopped his body into small pieces &amp; stored it in refrigerator. They then started to dispose of body by throwing some parts daily in different areas.
+ @ANI reporting on crime when Accused isn't a Muslim 👇 https://t.co/fnrqTRZ6zs",Pro OPP,,muslim,"['killed', 'muslim', 'refrigerator']","[{'text': 'killed', 'score': 0.4875}, {'text': 'muslim', 'score': 0.4496}, {'text': 'refrigerator', 'score': 0.0266}]",For ,shows how some channels on report on crime if its a muslim perpetrator. here a hindu crime is being reported. 
+,"Another Muslim beaten mercilessly by Hindu right wing in Haryana, India in the name of cow protection. https://t.co/Fu8F8RLysf",Pro OPP,,muslim,"['beaten', 'muslim', 'india']","[{'text': 'beaten', 'score': 0.5791}, {'text': 'muslim', 'score': 0.5076}, {'text': 'india', 'score': 0.3391}]",For ,Shows plight and torture of muslims. 
+,"The Akhilesh Yadav govt had filed 40 cases on Hindus in connection with the 2013 Muzaffarnagar riots. Muslims were made accused in only 1 case. Later the court acquitted all the Hindus, while finding all muslims guilty in only one case filed by police. #सत्तामोही_श्रीरामद्रोही",Pro Ruling,,muslim,"['muslims', 'riots', 'cases']","[{'text': 'muslims', 'score': 0.5514}, {'text': 'riots', 'score': 0.3848}, {'text': 'cases', 'score': 0.3185}]",For ,Different law for Hindu and muslims. Hindus are mostly let off easy while Muslims are always penalised. 
+,"In its 'UPSC Jihad' show, Sudarshan News portrayed that Muslim aspirants are favoured in the exam. The channel used false claims to assert that Muslims are offered benefits to the disadvantage of Hindu candidates. #AltNewsFactCheck | @Pooja_Chaudhuri
+
+https://t.co/N7dCWCG458",Pro OPP,,muslim,"['muslims', 'disadvantage', 'exam']","[{'text': 'muslims', 'score': 0.6125}, {'text': 'disadvantage', 'score': 0.3446}, {'text': 'exam', 'score': 0.2859}]",For ,Shows how misinformation about Muslims in disseminated by biased news channels. 
+,India: Acid factory discovered inside Muslim-owned shop as Muslimas attack cops with acid https://t.co/qs8B8hcrD9,Pro Ruling,,muslim,"['muslimas', 'factory', 'cops']","[{'text': 'muslimas', 'score': 0.4695}, {'text': 'factory', 'score': 0.3981}, {'text': 'cops', 'score': 0.2625}]",Against ,Muslims as dangerous and violent. 
+,"3.9k Hindu, Muslim wedding rituals under one roof with #UPCM Shri @myogiadityanath Ji blessings https://t.co/rkXt2xCt9J",Pro Ruling,,muslim,"['rituals', 'muslim', 'roof']","[{'text': 'rituals', 'score': 0.6479}, {'text': 'muslim', 'score': 0.6264}, {'text': 'roof', 'score': 0.2656}]",Neutral,Portraying communal harmony. No stance being taken. 
+,"Hello @UPPViralCheck @Uppolice, many are communalising this old incident. A facebook post with same claim has 24000 shares.
+The person in the pic below, Azaad Kumar Gautam was arrested 2 months ago. But the false narrative blaming Muslims is still viral. 
+https://t.co/g5ymaPy0Ew https://t.co/agySpBT6FL",Pro OPP,,muslim,"['muslims', 'arrested', 'blaming']","[{'text': 'muslims', 'score': 0.5973}, {'text': 'arrested', 'score': 0.4249}, {'text': 'blaming', 'score': 0.3302}]",For ,Shows muslims are being framed for a false claim.
+,"Muslim fruit vendor in India caught collecting his pee in a bottle and then sprinkling his urine on bananas for sale What is wrong with my community? Ya Allah, what have we Muslims become?
+ https://t.co/XZyWFYKvK0",Pro Ruling,,muslim,"['muslims', 'urine', 'bananas']","[{'text': 'muslims', 'score': 0.6422}, {'text': 'urine', 'score': 0.2704}, {'text': 'bananas', 'score': 0.1943}]",Against ,Muslims are dirty and filthy. 
+,"What residents of Sarai Kale Khan told me: Demography-wise, a little more than 50% is Muslim. Hindus mostly Dalits. Land owned primarily by Gujjars, who have built buildings with large number of small one-room sets. 75% of Muslim residents are tenants living in these buildings",Pro Ruling,,muslim,"['muslim', 'demography', 'tenants']","[{'text': 'muslim', 'score': 0.5219}, {'text': 'demography', 'score': 0.3861}, {'text': 'tenants', 'score': 0.2719}]",Neutral,"No stance being taken, only demographic composition of a locality being given. "
+,"This is why Modi was avoiding a press conference for the last 9 years. Even a mild question on democratic backsliding and safety of minorities, particularly Muslims turned his face red and he went on his usual rambling of blood, vain, DNA, etc. https://t.co/K6dnzhkuXE",Pro OPP,,muslim,"['muslims', 'conference', 'mild']","[{'text': 'muslims', 'score': 0.3596}, {'text': 'conference', 'score': 0.2598}, {'text': 'mild', 'score': 0.1161}]",For ,Shows how State turns a blind eye to muslim problems and instead even propogates them. 
+,Reading comments on social media esp YouTube by Muslims in India on Hagia Sophia. Mood is largely celebratory. Comments after comments in Hindi declaring soon all centres of idol worship shall be demolished &amp; only worship of Allah will be permitted. Widespread radicalisation.,Pro Ruling,,muslim,"['muslims', 'india', 'mood']","[{'text': 'muslims', 'score': 0.5177}, {'text': 'india', 'score': 0.3759}, {'text': 'mood', 'score': 0.3725}]",Against ,Shows Muslims as disrespectful towards Hinduism and promoting radical ideas. 
+,"The Mufti had demanded that the Hindus should hand over the Badrinath shrine to the Muslims as it originally belonged to Muslims
+https://t.co/NkwD4VYaPC",Pro Ruling,,muslim,"['muslims', 'badrinath', 'demanded']","[{'text': 'muslims', 'score': 0.5823}, {'text': 'badrinath', 'score': 0.4655}, {'text': 'demanded', 'score': 0.1499}]",Neutral,"No stance, only event described. "
+,This Hindu YouTuber probably didn't expect to get into so much trouble for acting in his Muslim friend's video... https://t.co/hAAvSQFVC9,Pro OPP,,muslim,"['muslim', 'youtuber', 'didn']","[{'text': 'muslim', 'score': 0.5035}, {'text': 'youtuber', 'score': 0.4357}, {'text': 'didn', 'score': 0.168}]",For ,Shows how any Hindu who is associated with Muslims gets targetted. 
+,"Bangladesh: Muslims attack Hindu temples, train, government offices, stone police in rage over Modi visit https://t.co/lZ9tsAgqHs https://t.co/mIxoWcd2Gj",Pro Ruling,,muslim,"['muslims', 'police', 'train']","[{'text': 'muslims', 'score': 0.5803}, {'text': 'police', 'score': 0.2707}, {'text': 'train', 'score': 0.0316}]",Against ,Portrays Muslims as violent and radical. 
+,Numerous verses of the holy book speak of killing infidels. There is express advice to kill non-Muslims. Terrorists  kill to please their god in order to get heaven in afterlife — this is the result of  indoctrination of people with an unreformed religion.,Pro Ruling,,muslim,"['muslims', 'infidels', 'afterlife']","[{'text': 'muslims', 'score': 0.4573}, {'text': 'infidels', 'score': 0.3983}, {'text': 'afterlife', 'score': 0.3406}]",Against ,Shows how killing is a practice in Islam. Linked to terrorists being mostly Muslim.  Attacks the religion's teachings. 
+,"An interesting factoid on the #GHMCElections . AIMIM contested 51 seats, gave 5 tickets to Hindus; the BJP contested 149 seats and gave 1 seat to a Muslim. This in a city with a 40 per cent Muslim population. 🙏",Pro OPP,,muslim,"['elections', 'muslim', 'seat']","[{'text': 'elections', 'score': 0.5426}, {'text': 'muslim', 'score': 0.3667}, {'text': 'seat', 'score': 0.2761}]",For ,Shows how Muslims face disparity and trouble while having a seat in parliament and hence a voice to speak. 
+,Tax payers are new Muslims 😬🤪,Pro OPP,,muslim,"['muslims', 'tax', 'new']","[{'text': 'muslims', 'score': 0.6093}, {'text': 'tax', 'score': 0.4782}, {'text': 'new', 'score': 0.2142}]",Against ,Emojis show that it is funny and enjoyable. Derogatory undertone. 
+,"VHP worker brutally attacked by Muslim mob in Amravati, Maharashtra. We request @OfficeofUT @AmtCityPolice to take strict action against the culprits. https://t.co/tzxxo0hpHN",Pro Ruling,,muslim,"['attacked', 'worker', 'muslim']","[{'text': 'attacked', 'score': 0.4791}, {'text': 'worker', 'score': 0.4254}, {'text': 'muslim', 'score': 0.3944}]",Against ,Portrays Muslims as violent and radical. 
+,Will speak as chief guest today on 496th Balidan Divas of Hasan Khan Mewati who died fighting against Babar. Will expound on patriotic Muslims like Ibrahim Khan Gardi of Panipat fame &amp; MVC Brig Mohd Usman. Shall lay down the principles of nationalism for Minorities to follow. https://t.co/RSjIXDijVt,Pro Ruling,,muslim,"['muslims', 'guest', 'hasan']","[{'text': 'muslims', 'score': 0.5179}, {'text': 'guest', 'score': 0.4434}, {'text': 'hasan', 'score': 0.2738}]",Against ,"Shows Muslims as uneducated, in need of guidance and proper ideas to follow. "
+,"Right wing is milking issue, we want Muslims to return, Says complainant.  A 40-year-old man, the complainant in a police case says that this is being given a communal colour. “There were attempts from the first hour to make this a communal issue. #Purola https://t.co/pTGUpy8p87",Pro OPP,,muslim,"['muslims', 'milking', 'complainant']","[{'text': 'muslims', 'score': 0.6162}, {'text': 'milking', 'score': 0.3273}, {'text': 'complainant', 'score': 0.27}]",For ,Shows that an issue is deliberately being turned communal. Expresses amicable views towards Muslims. 
+,Only Muslim fathers have a name. https://t.co/UzT6clpGZY,Pro OPP,,muslim,"['muslim', 'fathers', 'only']","[{'text': 'muslim', 'score': 0.5321}, {'text': 'fathers', 'score': 0.3965}, {'text': 'only', 'score': 0.2622}]",,No context given. could have been a retweet or be explained through the video or link attached. 
+,"Haryana News
+
+BJP &amp; JJP forms alliance for local body polls.
+
+BJP will contest 14 Municipal Councils &amp; JJP to contest 4 Municipal Councils.
+
+Out of 4 that JJP got one is Nuh which is Muslim dominated.",Pro Ruling,,muslim,"['councils', 'haryana', 'muslim']","[{'text': 'councils', 'score': 0.3846}, {'text': 'haryana', 'score': 0.3681}, {'text': 'muslim', 'score': 0.2662}]",Neutral,"No stance being taken, only event being described and facts being laid. "
+,"There was no concept of Minority Minister earlier. Minority ministry was the brainchild of Sonia &amp; UPA started in 2006
+
+@smritiirani is the ONLY NON MUSLIM   MINISTER of the ministry since its inception.Scraping of MANF is just the beginning of clearing long pending corrupt mess",Pro Ruling,,muslim,"['ministry', 'muslim', 'minority']","[{'text': 'ministry', 'score': 0.4937}, {'text': 'muslim', 'score': 0.396}, {'text': 'minority', 'score': 0.3638}]",Against ,Shows MANF (Maulana Azad National Fellowship) as corrupt. Shows muslim domination. 
+,"Pramila Dixit and her daughter Neha Dixit were allegedly burnt alive during a demolition drive in Kanpur Dehat. 
+There are 0 tweets/debates by @AmanChopra_ in the Kanpur Dehat Incident. Chopra is one the loudest cheerleaders of Bulldozer Justice if it's against Muslims. https://t.co/BPiQfLqE0A",Pro OPP,,muslim,"['burnt', 'muslims', 'cheerleaders']","[{'text': 'burnt', 'score': 0.4734}, {'text': 'muslims', 'score': 0.3388}, {'text': 'cheerleaders', 'score': 0.2329}]",For ,"shows how some influencers enjoy and propogate bulldozer justice, a violent state practice, if its against Muslims. "
+,"Why are Muslim-dominant localities witnessing attacks on health care workers? 
+Because all the propaganda that leftists have been feeding Indian Muslims, is now showing its effects on ground
+
+- brilliantly explained by @arvindneela 
+https://t.co/Ufrisf3L9n",Pro Ruling,,muslim,"['muslims', 'workers', 'feeding']","[{'text': 'muslims', 'score': 0.5627}, {'text': 'workers', 'score': 0.2686}, {'text': 'feeding', 'score': 0.0877}]",Against ,Portrays Muslims as violent and radical. 
+,"Few weeks ago, a RW guy abused @zoo_bear's mother on TL, NO ACTION was taken against that abuser.
+
+But now Md Zubair is facing legal case, WHY??
+
+Just because he busted RW Fake News Factory and he is a vocal Muslim? 
+
+Unapologetically standing with him! 
+
+#IStandWithZubair https://t.co/1IiofXklkW",Pro OPP,,muslim,"['abuser', 'muslim', 'zoo_bear']","[{'text': 'abuser', 'score': 0.3744}, {'text': 'muslim', 'score': 0.2919}, {'text': 'zoo_bear', 'score': 0.2422}]",For ,Shows how Muslims are targetted by State and policing forces but Hindus are not penalised for the same or worse crimes. 
+,"Muslim meat seller thrown off rooftop by Police in UP, died. In a video his small daughter says, 'police threw my father down from the roof, he died.' It's unimaginable the amount of torture the poor Muslims are facing in UP. Hopefully BJP  will be out in 2022.",Pro OPP,,muslim,"['muslims', 'thrown', '2022']","[{'text': 'muslims', 'score': 0.5173}, {'text': 'thrown', 'score': 0.2466}, {'text': '2022', 'score': 0.185}]",For ,Shows police brutality and torture towards Muslim families. 
+,"Update  : The muslim shopkeeper Nasir was handed over to relatives last night around 10 pm by cops . has been told he will be called to police station again if required for questioning . case continues till cops file a closure / final report in court or a chargesheet 
+Thakur https://t.co/aUq38ZCtGV",Pro OPP,,muslim,"['muslim', 'shopkeeper', 'chargesheet']","[{'text': 'muslim', 'score': 0.43}, {'text': 'shopkeeper', 'score': 0.3596}, {'text': 'chargesheet', 'score': 0.0623}]",Neutral,"No stance being taken, event being described. "
+,"Nigeria: Muslims storm village, shoot pastor, kidnap women on their way to church https://t.co/FTPZKPsqJI https://t.co/UTMFezPru9",Pro Ruling,,muslim,"['muslims', 'nigeria', 'kidnap']","[{'text': 'muslims', 'score': 0.5412}, {'text': 'nigeria', 'score': 0.536}, {'text': 'kidnap', 'score': 0.2884}]",Against ,Portrays Muslims as violent and dangerous. 
+,"The Wire mentions ‘caste’ in fake case, forgets to mention religion when accused are Muslims
+
+https://t.co/HE6LWKshyL",Pro Ruling,,muslim,"['muslims', 'accused', 'wire']","[{'text': 'muslims', 'score': 0.5226}, {'text': 'accused', 'score': 0.4408}, {'text': 'wire', 'score': 0.2289}]",Against ,Muslims are let off by this news channel? 
+,"Muslim mobs going berserk in Kanpur after Friday prayers, protesting against Nupur Sharma. Heavy stone pelting has led to 7 people reportedly injured. This is despite them knowing that once identified the houses of each of these rioters would be bulldozed. https://t.co/QrFUeY8pYq",Pro Ruling,,muslim,"['rioters', 'muslim', 'stone']","[{'text': 'rioters', 'score': 0.5374}, {'text': 'muslim', 'score': 0.5165}, {'text': 'stone', 'score': 0.2867}]",Against ,Portrays Muslims as violent and radical. 
+,"Breaking: In Jharkhand's Jamtara, Muslims forcibly shift weekly holiday from Sunday to Friday on the ground that they are in majority so rules should be according to them. (PS: This at a time when gulf countries are shifting from Friday-Saturday weekend to Saturday-Sunday weekend",Pro Ruling,,muslim,"['muslims', 'weekend', 'majority']","[{'text': 'muslims', 'score': 0.5445}, {'text': 'weekend', 'score': 0.4121}, {'text': 'majority', 'score': 0.2662}]",Against ,"Shows that Muslims are uncooperative and in areas dominated by them, try to enforce their own rules. "
+,You have Freedom of Speech in India but don’t speak against Us &amp; Muslims: Supreme Court of India,Pro Ruling,,muslim,"['muslims', 'india', 'speech']","[{'text': 'muslims', 'score': 0.5576}, {'text': 'india', 'score': 0.4448}, {'text': 'speech', 'score': 0.3501}]",Against ,Shows how freedom of speech is a farce if one cannot speak about their discontent towards Muslims. 
+,"IT dept raids former BSP leader Zulfiqar Ahmed Bhutto: As MLA surrenders Rs 100 cr undeclared income from his meat business, Muslim org cry foul
+
+https://t.co/LBMlgQidod",Pro Ruling,,muslim,"['raids', 'muslim', 'income']","[{'text': 'raids', 'score': 0.462}, {'text': 'muslim', 'score': 0.3478}, {'text': 'income', 'score': 0.1087}]",Against ,Shows muslim organisation and minister as corrupt. 
+,I am happy that an FIR is registered against Waris pathan An FIR should also be registered against Giri Raj Singh forsuggesting that all Muslims should have been sent to Pakistan by making this  comment he has not only insulted the Indian Muslims but the Indian constitution too,Pro OPP,,muslim,"['muslims', 'indian', 'registered']","[{'text': 'muslims', 'score': 0.5058}, {'text': 'indian', 'score': 0.5005}, {'text': 'registered', 'score': 0.232}]",For ,Calls for arrest of those that spread hate speech against muslims. 
+,When Bapu visited INA Soldiers held at Red Fort. The Soldiers told him the British served Hindu and Muslim tea separately. Bapu told them to mix both &amp; drink it as Indian tea. The soldiers unitedly replied that’s what they did just as in the INA where everyone was equal.,Pro OPP,,muslim,"['tea', 'soldiers', 'muslim']","[{'text': 'tea', 'score': 0.4452}, {'text': 'soldiers', 'score': 0.3751}, {'text': 'muslim', 'score': 0.3453}]",For ,Show how Gandhi called for equality between Hindus and muslims and portray their identities as Indian. 
+,"Someone beat up Asif for drinking water from a temple.
+
+Outrage Bar is 10/10
+
+14-year-old Mahesh Kolli was murdered, and his dead body was stuffed inside a gunny bag was thrown into a river in Karnataka for being Friends with a girl from the Muslim community.
+
+Outrage Bar is 1/10",Pro Ruling,,muslim,"['murdered', 'muslim', 'drinking']","[{'text': 'murdered', 'score': 0.4632}, {'text': 'muslim', 'score': 0.4161}, {'text': 'drinking', 'score': 0.3218}]",For ,"Shows how much inequality, discrimination and violence Muslims face in India and how those associated with them also face the same torture."
+,Very proud Indian Garhwali Muslim warrior. Have no doubts. Thanks for triggering these sentiments in me. Jokers like you need to see what religion means to Indian Army soldiers. https://t.co/2W3GfmD6Fh,Pro Ruling,,muslim,"['muslim', 'soldiers', 'jokers']","[{'text': 'muslim', 'score': 0.4764}, {'text': 'soldiers', 'score': 0.4576}, {'text': 'jokers', 'score': 0.1831}]",For ,compliments muslim warrior and how religion has no standing in Indian army.
+,"Hello @IndEmbDoha , this is such an eye wash. Nupur Sharma is not ‘fringe’. She is the national spokesperson of the BJP. Stop trivialising the institutionalised hate, the state enabled hate campaign against Indian Muslims. https://t.co/vKYFDjyp9D",Pro OPP,,muslim,"['indian', 'muslims', 'hate']","[{'text': 'indian', 'score': 0.5461}, {'text': 'muslims', 'score': 0.4522}, {'text': 'hate', 'score': 0.3583}]",For ,calls out how the State actively spread Hate against muslims instead of protecting them. 
+,"8 people in the garb of Muslims threw objectionable posters and copies of Qur'an outside mosques in UP to incite violence. They were arrested later. Names are Mahesh Kumar Mishra, Pratyush Srivastava, Nitin Kumar, Deepak Gaud, Brijesh Pandey, Shatrughan Prajapati, Vimal Pandey.",Pro OPP,,muslim,"['muslims', 'posters', 'threw']","[{'text': 'muslims', 'score': 0.6706}, {'text': 'posters', 'score': 0.3155}, {'text': 'threw', 'score': 0.2531}]",For ,"Shows how muslims are mocked. also shows how they are framed for crimes they did not commit, especially by their Hindu counterparts. "
+,"If Indian opposition parties want the votes of Muslim citizens, they need to canvas their support, acknowledge their contribution, speak to their concerns, integrate them into their organisations and elevate them to positions of leadership- Mukul Kesavan
+
+https://t.co/NYyN5omP2J",Pro OPP,,muslim,"['opposition', 'muslim', 'indian']","[{'text': 'opposition', 'score': 0.5649}, {'text': 'muslim', 'score': 0.442}, {'text': 'indian', 'score': 0.2802}]",For ,Shows how muslims are ignored and trivialised until its time to use them as a vote bank. 
+,Activists Are Demanding Facebook Suspend An Indian Executive Who Shielded Anti-Muslim Hate Speech https://t.co/VbM66pSIGo,Pro OPP,,muslim,"['facebook', 'muslim', 'suspend']","[{'text': 'facebook', 'score': 0.4789}, {'text': 'muslim', 'score': 0.2607}, {'text': 'suspend', 'score': 0.2533}]",For ,calls for the suspension of anyone who spreads or shields anti-muslim hate. 
+,"Speaking to OpIndia, Bajrang Dal leader said that since the Sadhu was new in the area, he was not aware the said area was 'Muslim dominated' and accidentally ended up there for Janmashtami donation drive. https://t.co/OgvAM6sjue",Pro Ruling,,muslim,"['muslim', 'donation', 'area']","[{'text': 'muslim', 'score': 0.5292}, {'text': 'donation', 'score': 0.2427}, {'text': 'area', 'score': 0.2254}]",For ,Shows casual discrimination of Muslims. 
+,"Sanghis busy spreading two narratives. 1) Biryani causes infertility, 2) Muslims are having too many children to increase their number. And not to forget, Hindu khatre me hain.",Pro OPP,,muslim,"['muslims', 'infertility', 'causes']","[{'text': 'muslims', 'score': 0.5527}, {'text': 'infertility', 'score': 0.3793}, {'text': 'causes', 'score': 0.2866}]",For ,Shows absurd and false narratives with no scientific or logical claim being disseminated by leaders to show how Hindus are in danger of Muslims and their practices. 
+,"Garba celebrates the womb, or Garbha. Hindus dance around a clay lamp [गर्भ दीप] symbolising the divine womb ensconced in a body.
+
+Muslims, expressly forbidden to worship anyone other than Allah 40:62; 17:22; 12:40; 3:64; 5:55 are welcome to worship Ma Durga [Aditi] and her womb.",Pro Ruling,,muslim,"['garbha', 'muslims', 'lamp']","[{'text': 'garbha', 'score': 0.5707}, {'text': 'muslims', 'score': 0.4293}, {'text': 'lamp', 'score': 0.2823}]",Against ,has an undertone of subtle mockery and sarcasm. shows Hinduism to be superior. 
+,Muslim community honored RSS volunteers in Meerut. https://t.co/EcD94qej6H,Pro Ruling,,muslim,"['volunteers', 'muslim', 'rss']","[{'text': 'volunteers', 'score': 0.4594}, {'text': 'muslim', 'score': 0.4228}, {'text': 'rss', 'score': 0.3502}]",Neutral ,No stance taken. only an event described.
+,"Maharashtra CM Uddhav Thackeray said that in part of the country witnessed violence and riots, but not in Maharashtra, it is because of my culture. Muslim also supported us. @NewIndianXpress",Pro OPP,,muslim,"['muslim', 'riots', 'supported']","[{'text': 'muslim', 'score': 0.5511}, {'text': 'riots', 'score': 0.4598}, {'text': 'supported', 'score': 0.2254}]",For ,Shows how Muslims supported non-violence in Maharashtra.
+,"The only progress after 2014 is about rhetoric, fooling, Hindu-Muslim, India-Pakistan, lies, playing with emotions etc.. 
+all this has happened since 2014.
+#8YearsOfSeva",Pro OPP,,muslim,"['progress', 'india', 'muslim']","[{'text': 'progress', 'score': 0.3681}, {'text': 'india', 'score': 0.3528}, {'text': 'muslim', 'score': 0.2777}]",For ,"Shows that since BJP came into power, communal hate has increased. "
+,"Muslim man kicked, punched,forced to chant ‘Pakistan Murdabad’ in the national capital.
+Kerala nuns ‘questioned’, forced off a train in UP.
+This bullying &amp; dehumanising of minorities is now a key feature of everyday life in India. 
+And this is approved by the majority consensus.",Pro OPP,,muslim,"['muslim', 'kicked', 'dehumanising']","[{'text': 'muslim', 'score': 0.4948}, {'text': 'kicked', 'score': 0.2802}, {'text': 'dehumanising', 'score': 0.2653}]",For ,"Shows the plight, torture and bullying minorities like Muslims face in India. "
+,"The murder of Nagaraju, who married a Muslim woman by consent, is captured on video. Yet, it will take many years for conviction. High chances the killer will get bail in a few months or years
+https://t.co/QZTL1e8BfA",Pro Ruling,,muslim,"['murder', 'muslim', 'chances']","[{'text': 'murder', 'score': 0.5078}, {'text': 'muslim', 'score': 0.4368}, {'text': 'chances', 'score': 0.2411}]",For ,Shows how muslims (and those associated with them) are targetted. 
+,A Muslim stand up comic is jailed for jokes he did not crack. A Muslim footwear seller was arrested for shoes he did not manufacture. In New India being a Muslim is perhaps the biggest crime.,Pro OPP,,muslim,"['muslim', 'arrested', 'shoes']","[{'text': 'muslim', 'score': 0.6202}, {'text': 'arrested', 'score': 0.3361}, {'text': 'shoes', 'score': 0.2543}]",For ,Shows the massive discrimination and inequality Muslims face in India. 
+,The murder in Delhi of Dablu Singh by family of his Muslim girlfriend has happened less than two kilometres from where Ankit Saxena was similarly killed in 2018,Pro Ruling,,muslim,"['murder', 'muslim', 'delhi']","[{'text': 'murder', 'score': 0.5611}, {'text': 'muslim', 'score': 0.3859}, {'text': 'delhi', 'score': 0.3017}]",Against ,Shows how Muslims are violent and dangerous. 
+,"Raise your voice for indian Muslim...
+
+#SaveTripuraMuslims",Pro OPP,,muslim,"['muslims', 'tripura', 'raise']","[{'text': 'muslims', 'score': 0.689}, {'text': 'tripura', 'score': 0.3247}, {'text': 'raise', 'score': 0.1542}]",For ,calls for support towards muslims. 
+,"""Our shops were burnt down. What will we eat now? We don't know who those Muslim rioters were &amp; why they pelted stones at us. I don't understand why we were targeted. What is our fault?""
+
+Victims share the horrors of the Delhi riots. 
+
+#DelhiRiotTruth #DelhiRiot2020 https://t.co/hMd9ZNKtj4",Pro Ruling,,muslim,"['rioters', 'muslim', 'eat']","[{'text': 'rioters', 'score': 0.5011}, {'text': 'muslim', 'score': 0.3486}, {'text': 'eat', 'score': 0.1319}]",Against ,Shows how Muslims are violent and dangerous. 
+,"Muslims ko CAA ke benifits samajh ni aya,
+Traders ko GST ki benifits samajh ni aye,
+Kashmiris ko 370 hatane ke benefits samajh nahi aaye,
+Farmers ko new agricultural laws ke benefits samajh ni aye.
+
+Yaar ye konse benifits hai jo govt. Ke ilava kissi ko samaj hi ni aate.
+#copiedFB",Pro OPP,,muslim,"['muslims', 'govt', 'traders']","[{'text': 'muslims', 'score': 0.5908}, {'text': 'govt', 'score': 0.2779}, {'text': 'traders', 'score': 0.1109}]",For ,underlying tone of sarcasm and mockery towards Govt laws that are imposed. 
+,"Here is AAP claiming that Rohingyas and Bangladeshis have been settled all over India to foment riots. But hey, stereotyping Muslims like this will not be seen as Islamophobia by the media - after all, it speaks truth to power and only Modi is in power. https://t.co/Bc1HEd3Plk",Pro Ruling,,muslim,"['muslims', 'india', 'stereotyping']","[{'text': 'muslims', 'score': 0.5687}, {'text': 'india', 'score': 0.4092}, {'text': 'stereotyping', 'score': 0.2798}]",For ,Shows how muslim plight is ignored and they are framed as outsiders. 
+,"So Congis finds
+Muslim League Secular but
+Gita Press communal?
+
+They say Osamaji &amp; accept donations from Zakir Naik for RGF?
+
+Congis not against GITA Press;
+they are against Gita itself
+
+Why is Congis so H!NDUPH0B!C? 
+
+Listen to @SudhanshuTrived ji🔥🔥
+
+https://t.co/L05eSNhlr4 https://t.co/9xl3iafPl6",Pro Ruling,,muslim,"['muslim', 'donations', 'league']","[{'text': 'muslim', 'score': 0.4478}, {'text': 'donations', 'score': 0.1597}, {'text': 'league', 'score': 0.0975}]",Against ,calls Congress hindu-phobic. 
+,"Breaking: Manipal Univ has reportedly suspended the professor who called a Muslim student a ‘terrorist’: this is what ‘normalisation’ of awful bigotry does for which public figures, civil society  and media too need to introspect. 🙏 https://t.co/FflAYAhzeS",Pro OPP,,muslim,"['muslim', 'professor', 'suspended']","[{'text': 'muslim', 'score': 0.544}, {'text': 'professor', 'score': 0.3387}, {'text': 'suspended', 'score': 0.2582}]",For ,Shows the institutionalisation and normalisation of muslim hate. 
+,"France: Muslim migrant drags pregnant wife by hair, kicks her in head, says ‘She’s my wife. I do what I want.’ https://t.co/9VENxR4YC4 https://t.co/W5WqjCwx9h",Pro Ruling,,muslim,"['muslim', 'pregnant', 'france']","[{'text': 'muslim', 'score': 0.5273}, {'text': 'pregnant', 'score': 0.4473}, {'text': 'france', 'score': 0.3552}]",Against ,"Shows how muslim men are violent and disprespectful, especially towards women. "
+,"Hello @RahulGandhi, Will there be any outrage by opposition against these  'Religious leaders' who made calls to k!|| Muslims,To repeat Rohingya genocide,Threatened not to celebrate Christian &amp; Muslim festivals, wants ppl to buy costly weapons #ArrestHaridwarGenocideMongers https://t.co/GU5ZllUQjK",Pro OPP,,muslim,"['muslims', 'leaders', 'threatened']","[{'text': 'muslims', 'score': 0.5676}, {'text': 'leaders', 'score': 0.3955}, {'text': 'threatened', 'score': 0.2356}]",For ,Shows how Muslims are targetted and threatened but State turns a blind eye. 
+,"In reply to NCP minister @nawabmalikncp , Saint Paul High school provides Sameer Wankhede's verified leaving certificate, school attendance, Birth &amp; admission certificate categorically stating
+Student-Sameer 
+Father name-Dawood
+Surname-Wankhede
+Religion - Muslim in all documents. https://t.co/5cvsyAgQVI",Pro OPP,,muslim,"['certificate', 'muslim', 'dawood']","[{'text': 'certificate', 'score': 0.4829}, {'text': 'muslim', 'score': 0.4573}, {'text': 'dawood', 'score': 0.1426}]",,no context given as to why details are being required. 
+,"Making a thread of some of the cases we covered, where Muslim men entered temples to steal and/or desecrate. I will also include attacks on religious processions, just the prove the hate harboured. Making this thread an ongoing series. Will keep adding as and when 👇",Pro Ruling,,muslim,"['muslim', 'thread', 'cases']","[{'text': 'muslim', 'score': 0.5422}, {'text': 'thread', 'score': 0.2942}, {'text': 'cases', 'score': 0.262}]",Against ,Shows how Muslims are violent and dangerous. 
+,"""BJP doesn't want @asadowaisi in politics, it doesn't want the beard and cap (in the public sphere)...if at all anyone needs Owaisi. it's the Indian Muslim"". 
+
+Strong piece by @DilliDurAst  
+
+https://t.co/R8zGOIU5SJ",Pro OPP,,muslim,"['muslim', 'politics', 'beard']","[{'text': 'muslim', 'score': 0.5098}, {'text': 'politics', 'score': 0.4265}, {'text': 'beard', 'score': 0.2731}]",For ,Shows how Muslims are not represented in current Govt. discrimination by State. 
+,Have Muslims ever held aggressive protests against terrorism?,Pro Ruling,,muslim,"['muslims', 'protests', 'ever']","[{'text': 'muslims', 'score': 0.5992}, {'text': 'protests', 'score': 0.58}, {'text': 'ever', 'score': 0.0787}]",Against ,calls at double standards of Muslims when it comes to terrorism. 
+,"Elle India publisher Arif Ayyub wants Muslim nations to join military forces against Saudi, UAE and attack Israel, rants against India
+https://t.co/tdCAH5ZiTn",Pro Ruling,,muslim,"['muslim', 'join', 'forces']","[{'text': 'muslim', 'score': 0.4404}, {'text': 'join', 'score': 0.182}, {'text': 'forces', 'score': 0.1443}]",Against ,Shows how Muslim publisher is inciting violence against India. 
+,"Arfa Khanum Sherwani denies the existence of Muslim appeasement in West Bengal, here’s how she is comparing apples and oranges
+
+https://t.co/CWF251jnIQ",Pro Ruling,,muslim,"['muslim', 'apples', 'comparing']","[{'text': 'muslim', 'score': 0.5719}, {'text': 'apples', 'score': 0.4243}, {'text': 'comparing', 'score': 0.2291}]",Against ,Underlying tone of sarcasm and mockery towards the Muslim spokesperson. 
+,"19 years of #GujaratGenocide , more than 2000 Muslims were killed in 2002.
+
+Watch this story of Majid who'd  lost 9 members of his family in Naroda Patia. 
+
+Muslim women were raped and killed in front of their family members. 
+
+Part 1
+
+ https://t.co/Fcm6i6xzSf",Pro OPP,,muslim,"['muslims', 'killed', 'gujarat']","[{'text': 'muslims', 'score': 0.5265}, {'text': 'killed', 'score': 0.4342}, {'text': 'gujarat', 'score': 0.3916}]",For ,Remembers the plight of Muslims and the terror the faced in the Gujarat Riots. 
+,"The last two years have been witness to calls for the socio-economic boycott of Muslims and there have even been open calls for their rape and genocide. | @Mahmudabad
+https://t.co/9dbWB9Nte9",Pro OPP,,muslim,"['muslims', 'boycott', 'years']","[{'text': 'muslims', 'score': 0.5771}, {'text': 'boycott', 'score': 0.4035}, {'text': 'years', 'score': 0.0755}]",For ,Shows how communal hate is spreading and muslims are being threatened more and more everyday. 
+,Hey @TheHarrisSultan - is this beheading an example of that imminent genocide of Muslims you say you're so worried about? https://t.co/JNtLbkMYR9,Pro Ruling,,muslim,"['muslims', 'beheading', 'worried']","[{'text': 'muslims', 'score': 0.6413}, {'text': 'beheading', 'score': 0.4766}, {'text': 'worried', 'score': 0.3086}]",,No context given of what beheading and why it was done. 
+,"Instances of mob violence since May 23, 2019, where the mob belonged to the Muslim community. Just one month. https://t.co/xRSFefQz3z",Pro Ruling,,muslim,"['mob', 'muslim', 'month']","[{'text': 'mob', 'score': 0.5669}, {'text': 'muslim', 'score': 0.4251}, {'text': 'month', 'score': 0.2749}]",Against ,Shows how Muslims are violent and dangerous and prone to mob violence. 
+,"Dr. Aarti Lalchandani refers COVID +ve Muslims as terrorists, Wants govt to send Jamatis to Jungle &amp; Jail instead of exhausting resources. She is the same lady who'd earlier alleged that Jamatis were spitting, misbehaving &amp; demanding Biryani. 
+@DMKanpur
+https://t.co/N05xM78D2p",Pro OPP,,muslim,"['muslims', 'dr', 'jungle']","[{'text': 'muslims', 'score': 0.5379}, {'text': 'dr', 'score': 0.2635}, {'text': 'jungle', 'score': 0.1457}]",For ,calls out the hate and discrimination Muslims face in India. seen as terrorists. 
+,"Not even 1 attack against Muslims is reported .. fake news lies of @abcnews and @Shoaibdaniyal 
+Shame on you both #auspol https://t.co/MC112oPC5E",Pro Ruling,,muslim,"['muslims', 'attack', 'reported']","[{'text': 'muslims', 'score': 0.5784}, {'text': 'attack', 'score': 0.3643}, {'text': 'reported', 'score': 0.3152}]",For ,Shows how big news channel refrain from reporting incidents of violent and hate against Muslims. 
+,Mob Beats Muslim Bangle Seller In Indore; Minister Says Used Fake Name https://t.co/yH4TfHDZBK https://t.co/hxv99QzRoG,Pro OPP,,muslim,"['muslim', 'mob', 'fake']","[{'text': 'muslim', 'score': 0.432}, {'text': 'mob', 'score': 0.3537}, {'text': 'fake', 'score': 0.2834}]",For ,shows the brutality and torture muslim citizens face. 
+,"This incident happened in India's capital, The accused who abused &amp;  threaten the Muslim shopkeeper of setting his shop on fire for opening it on the occasion of Diwali isn't arrested yet. How many mainstream News anchors had a debate/discussion on  this? 
+https://t.co/be4jyDw2L9",Pro OPP,,muslim,"['muslim', 'arrested', 'shopkeeper']","[{'text': 'muslim', 'score': 0.4299}, {'text': 'arrested', 'score': 0.343}, {'text': 'shopkeeper', 'score': 0.2398}]",For ,Shows how big news channel refrain from reporting incidents of violent and hate against Muslims. 
+,Response to Pakistan’s Pappu from an Indian Muslim….  Jai Hind https://t.co/887WNn8GDM,Pro Ruling,,muslim,"['pakistan', 'muslim', 'response']","[{'text': 'pakistan', 'score': 0.6564}, {'text': 'muslim', 'score': 0.6437}, {'text': 'response', 'score': 0.2323}]",For ,Shows Indian muslim as patriotic. 
+,"97% Muslims voted in favor of the Muslim League for Pakistan Creation, but 50% of them chose to stay back Post Partition.
+
+&amp; Irfan Habib calling us intolerant !!!!",Pro Ruling,,muslim,"['muslims', 'league', 'partition']","[{'text': 'muslims', 'score': 0.5684}, {'text': 'league', 'score': 0.1207}, {'text': 'partition', 'score': 0.0941}]",Against ,shows how Muslims wanted to leave India and yet stay here. 
+,"Prashant Kishor on a PR drive, selling his Hindu-Muslim 70%-30% Bengal poll formula to journos, print &amp; TV, pushing the idea it’ll be a binary contest. It won’t. 
+
+In a 4-cornered fight—TMC, BJP, Cong-Left &amp; AIMIM—Muslim votes will be cannibalised. PR goes that far, no further.",Pro Ruling,,muslim,"['votes', 'muslim', 'pushing']","[{'text': 'votes', 'score': 0.503}, {'text': 'muslim', 'score': 0.4577}, {'text': 'pushing', 'score': 0.2543}]",For ,Shows politics revolving around Hindu-muslim contestations. 
+,"Appalled at the number of people calling #NarayanDabhadkar kaka’s sacrifice fake, just because of the @RSSorg connection. If his name was Nadeem Dastagir, they would be shouting from the rooftops about how a MUSLIM did this!",Pro Ruling,,muslim,"['muslim', 'fake', 'rssorg']","[{'text': 'muslim', 'score': 0.5328}, {'text': 'fake', 'score': 0.2641}, {'text': 'rssorg', 'score': 0.1667}]",Against ,shows how muslim achievement is over celebrated and Hindu's ignored. 
+,"Muslim girl will never attend pr participate in ""Kanya Pujan"" why Hindu girls are being fooled to wear Hijab and eat ""iftari"" ... next steps would be to convert these girls in accepting Izlam ...
+
+https://t.co/PCJ95M1rxw",Pro Ruling,,muslim,"['muslim', 'girls', 'iftari']","[{'text': 'muslim', 'score': 0.535}, {'text': 'girls', 'score': 0.2451}, {'text': 'iftari', 'score': 0.2006}]",Against ,shows how hindu girls are being brainwashed to accept hijab and other muslim practices. 
+,India cracks down on Muslims under cover of coronavirus https://t.co/vtYnyXRfDf via @financialtimes,Pro OPP,,muslim,"['muslims', 'coronavirus', 'cracks']","[{'text': 'muslims', 'score': 0.4983}, {'text': 'coronavirus', 'score': 0.3706}, {'text': 'cracks', 'score': 0.1938}]",For ,shows the brutality and torture muslim citizens face. 
+,"Spitting or no spitting,blowing or no blowing is immaterial!
+
+2 relevant Q:
+
+1.Did he take her family approval? 
+2.If no,this attempt to normalise Islamic culture with non believers must be resisted! 
+
+If Hindu celeb sprinkling GangaJal on a devout deceased Muslim be acceptable? https://t.co/5fRHXpz1ww",Pro Ruling,,muslim,"['muslim', 'sprinkling', 'immaterial']","[{'text': 'muslim', 'score': 0.5946}, {'text': 'sprinkling', 'score': 0.2032}, {'text': 'immaterial', 'score': 0.0644}]",For ,shows how Islam is not respected in india. 
+,"Big News - Karnataka CM Basavaraj Bommai hiked reservation for Lingayat &amp; Vokkaliga communities by 2% each.
+
+The quota was hiked by removing 4% Muslim reservation.
+
+A section of Lingayat seers were threatening to protest &amp; contest as independents but now with this masterstroke… https://t.co/v0XqRhD96F",Pro Ruling,,muslim,"['reservation', 'muslim', 'threatening']","[{'text': 'reservation', 'score': 0.5107}, {'text': 'muslim', 'score': 0.3979}, {'text': 'threatening', 'score': 0.2268}]",For ,shows how muslim seats were strategically removed from govt. 
+,"‘My birth is my fatal accident’.
+Rohith Vemula’s profound words 
+Being a Muslim and asking for your constitutional rights is a crime in New India. 
+#StandWithUmarKhalid",Pro OPP,,muslim,"['muslim', 'accident', 'constitutional']","[{'text': 'muslim', 'score': 0.5905}, {'text': 'accident', 'score': 0.3334}, {'text': 'constitutional', 'score': 0.3211}]",For ,shows the brutality and torture muslim citizens face. 
+,"Muslims in January 2020, Sikhs in January 2021. Same narrative. Same",Pro OPP,,muslim,"['muslims', '2020', 'narrative']","[{'text': 'muslims', 'score': 0.572}, {'text': '2020', 'score': 0.4638}, {'text': 'narrative', 'score': 0.2046}]",,No context given. what narrative? 
+,"Karnataka, Mandya villagers protest after DC Ziyaullah allocates land to Muslim burial ground despite no Muslim population in 15 nearby villages: Reports
+
+https://t.co/Q0Qfs9Lg1M",Pro Ruling,,muslim,"['muslim', 'protest', 'ground']","[{'text': 'muslim', 'score': 0.5092}, {'text': 'protest', 'score': 0.3969}, {'text': 'ground', 'score': 0.2858}]",Neutral ,"No stance being taken, news being delivered. "
+,"""I belong to Congress party and I will only talk about our country, but you will talk about only Hindu-Muslim""! 
+
+@atullondhe https://t.co/1FJXX7jOUH",Pro OPP,,muslim,"['muslim', 'talk', 'congress']","[{'text': 'muslim', 'score': 0.5718}, {'text': 'talk', 'score': 0.3505}, {'text': 'congress', 'score': 0.349}]",Neutral ,No stance taken on Muslims. stance taken on politics of (another party) revolving around communalism. 
+,"Marrying non-Muslim is not allowed in Sharia, marry within the community: AIMPLB tells Muslims of India
+https://t.co/KaSGT3fpMQ",Pro Ruling,,muslim,"['muslims', 'marrying', 'india']","[{'text': 'muslims', 'score': 0.6456}, {'text': 'marrying', 'score': 0.4885}, {'text': 'india', 'score': 0.3154}]",Neutral ,"No stance being taken, news being delivered. "
+,Reports coming out from the different Hindu temple authorities in UK that the Muslims with their face covered r threatening them to publicly read statements as they want otherwise they will harm them. They r mobbing around temples &amp; hounding pujaris &amp; trying to extract statements https://t.co/mRqilUsNzv,Pro Ruling,,muslim,"['muslims', 'threatening', 'read']","[{'text': 'muslims', 'score': 0.5985}, {'text': 'threatening', 'score': 0.3296}, {'text': 'read', 'score': 0.3179}]",Against ,"shows muslims as violent, bullies and disrespectful. "

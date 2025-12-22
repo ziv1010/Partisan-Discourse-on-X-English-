@@ -1,0 +1,359 @@
+source_row,tweet,tweet_label,subjects,subjects_scored,keyword,label_norm,keyword_cat,Stance ,Reasoning ,Unnamed: 10,matched keyword,stance ,stance reason
+1776494,"This day in 1989,Chinese Army marched in to Tiananmen Square with hundreds of tanks..They KILLED more than 10,000 students &amp; 2 million were SILENCED.
+Why ?
+Because these students were demanding democracy in China.
+Harsh Truth !
+Communism &amp; Democracy can NEVER exist together.. https://t.co/OJotXE3qyg",Pro Ruling,"['china', 'killed', 'army']","[{'text': 'china', 'score': 0.5092}, {'text': 'killed', 'score': 0.194}, {'text': 'army', 'score': 0.1813}]",china,Pro Ruling,china,Against ,says that democracy and communism can never exist together. brings up tianamen square massacre. ,,,,
+1746200,"The land in question was occupied by China back in 1959 when his great grandfather Jawaharlal Nehru was the Prime Minister
+https://t.co/ADHBldveBO",Pro Ruling,"['china', 'prime', 'grandfather']","[{'text': 'china', 'score': 0.5531}, {'text': 'prime', 'score': 0.2547}, {'text': 'grandfather', 'score': 0.2109}]",china,Pro Ruling,china,Nuetral,no stance taken on china. ,,,,
+1725027,"So according to the much celebrated global media outlets, the Corona variants are Brazil variant, South Africa variant, UK variant, India variant and so on, but the original virus is just Covid. Not Chinese. Let that sink in.
+
+Well played China. Well played.",Pro Ruling,"['virus', 'china', 'sink']","[{'text': 'virus', 'score': 0.4526}, {'text': 'china', 'score': 0.3899}, {'text': 'sink', 'score': 0.0353}]",china,Pro Ruling,china,Against ,says that china is playing a strategic game of blaming covid on other countries. ,,,,
+746769,I hope China gave her more than 20 lakhs for the petition.,Pro Ruling,"['china', 'petition', 'lakhs']","[{'text': 'china', 'score': 0.4772}, {'text': 'petition', 'score': 0.3211}, {'text': 'lakhs', 'score': 0.2676}]",china,Pro Ruling,china,Against ,says china is bribing people. ,,,,
+915184,"India has a greater civilisational claim than China on both #Tibet &amp; #Xinjiang. How our politicians, policy experts &amp; historians have let India down. Excellent piece by #UttamKumar. Must read https://t.co/9y1JWhMPw5",Pro Ruling,"['india', 'china', 'politicians']","[{'text': 'india', 'score': 0.5614}, {'text': 'china', 'score': 0.4954}, {'text': 'politicians', 'score': 0.1945}]",china,Pro Ruling,china,Against ,says india has a greater historical claim on both tibet and xinjiang than china. ,,,,
+352802,Quid Pro Quo? Sonia Gandhi headed Rajiv Gandhi Foundation received lakhs in donations from Embassy and Government of China: https://t.co/9KOew6gSfY via @eOrganiser,Pro Ruling,"['donations', 'china', 'government']","[{'text': 'donations', 'score': 0.4849}, {'text': 'china', 'score': 0.3116}, {'text': 'government', 'score': 0.2761}]",china,Pro Ruling,china,Nuetral,no stance taken on china. ,,,,
+1235076,"Why did the Dragon Relent: After a year-long standoff, China finally agreed to pull back due to its deteriorating internal situation, India’s brilliant tactical manoeuvering on the military front as well as its all-encompassing #AatmanirbharBharat Abhiyan https://t.co/GLX7ZRqyp7",Pro Ruling,"['china', 'pull', 'deteriorating']","[{'text': 'china', 'score': 0.5504}, {'text': 'pull', 'score': 0.2511}, {'text': 'deteriorating', 'score': 0.196}]",china,Pro Ruling,china,Against ,shows china pulled back because of india's brilliant strategy. ,,,,
+2007984,"Think for a brief moment.
+
+US/China have been helpless to evacuate their citizens from Ukraine since the war began.
+
+India today managed to stop THE WAR for 6 hours in Kharkiv to let rescue Indian students.
+
+Damn positive about remaining Indian students being rescued soon. 🇮🇳",Pro Ruling,"['evacuate', 'china', 'kharkiv']","[{'text': 'evacuate', 'score': 0.4621}, {'text': 'china', 'score': 0.293}, {'text': 'kharkiv', 'score': 0.2049}]",china,Pro Ruling,china,Against ,portrays china's incompetency to protect its own citizens. ,,,,
+2216315,Is Rahul Gandhi partying with China's Ambassador to Nepal Hou Yanqi in Kathmandu ???? https://t.co/iuYf4eb6Y2,Pro Ruling,"['china', 'ambassador', 'partying']","[{'text': 'china', 'score': 0.4857}, {'text': 'ambassador', 'score': 0.3697}, {'text': 'partying', 'score': 0.2779}]",china,Pro Ruling,china,Against ,shows china as the enemy. ,,,,
+659579,"Well done Congress Party 
+
+China’s sidekick Pakistan has supported your phraseology on Covid https://t.co/18bSbL5wXy",Pro Ruling,"['china', 'phraseology', 'supported']","[{'text': 'china', 'score': 0.4325}, {'text': 'phraseology', 'score': 0.3187}, {'text': 'supported', 'score': 0.2602}]",china,Pro Ruling,china,Against ,sarcastically mocking congress when china supported their phrasing. ,,,,
+2932070,"""Invented names will not alter reality"": India rejects China's attempt to rename places in Arunachal Pradesh
+
+Read @ANI Story | https://t.co/AVmckxTVfN
+#India #China #ArunachalPradesh https://t.co/5tOfTgYTht",Pro Ruling,"['pradesh', 'china', 'rename']","[{'text': 'pradesh', 'score': 0.4891}, {'text': 'china', 'score': 0.4289}, {'text': 'rename', 'score': 0.3813}]",china,Pro Ruling,china,Nuetral,no stance taken on china. only news delivered. ,,,,
+2924845,"There has been a shift in perceptions of India among institutional investors!
+
+From being least favoured among the BRIC nations in 2013, India is now considered the best investment alternative to China, in terms of economic opprtunities.
+
+#TheModiWay is clearly working! https://t.co/EIfJVYsIiu",Pro Ruling,"['investment', 'india', 'china']","[{'text': 'investment', 'score': 0.466}, {'text': 'india', 'score': 0.4609}, {'text': 'china', 'score': 0.3615}]",china,Pro Ruling,china,For ,china shown as a comparable economic power.,,,,
+2539378,"Defence Ministry clears Indian Army's Rs 4,000 crore proposal for surveillance satellite to keep eye on China, Pak border
+
+Read @ANI Story | https://t.co/Kv6ieXiXnT https://t.co/o3GkBYBJ0f",Pro Ruling,"['satellite', 'china', 'indian']","[{'text': 'satellite', 'score': 0.4301}, {'text': 'china', 'score': 0.3769}, {'text': 'indian', 'score': 0.2369}]",china,Pro Ruling,china,Nuetral,no stance taken on china. only news delivered. ,,,,
+1810025,"A rattled #China sends an angry letter to Indian MP @SujeetKOfficial, after he participated in the founding ceremony of a Taiwan forum. Beijing says the BJD leader's attendance is contrary to the one-China principle. @alysonle speaks with @sidhant for more perspective https://t.co/DBa9RHVEnl",Pro Ruling,"['china', 'sends', 'leader']","[{'text': 'china', 'score': 0.5917}, {'text': 'sends', 'score': 0.3449}, {'text': 'leader', 'score': 0.2772}]",china,Pro Ruling,china,Nuetral,no stance taken on china. only news delivered. ,,,,
+260367,"India's Offensive Defense Against China And Its Ecosystem. 
+
+My Detailed Article on The Daily Guardian News Paper in Today's Edition. Please Read &amp; Share. https://t.co/mQ8zumygGV",Pro Ruling,"['china', 'india', 'defense']","[{'text': 'china', 'score': 0.5589}, {'text': 'india', 'score': 0.4426}, {'text': 'defense', 'score': 0.3348}]",china,Pro Ruling,china,Nuetral,no stance taken on china. only news delivered. ,,,,
+1040797,"Journalists were praising China for vaccinating 1.4 Cr ppl daily. 🤣Turns out there are more than 50 side effects for that vaccine and it's failing everywhere.
+
+A country who's death no's are same since last year and case no's too gets away with everything. All thanks to $$$",Pro Ruling,"['vaccine', 'china', 'journalists']","[{'text': 'vaccine', 'score': 0.4997}, {'text': 'china', 'score': 0.3835}, {'text': 'journalists', 'score': 0.2787}]",china,Pro Ruling,china,Against ,says chinese vaccine has multiple side effects causing deaths that people ignore. ,,,,
+161630,"As India &amp; US discuss situation in the region, Chinese ambassador @China_Amb_India suddenly talks about not letting differences turn into disputes. Why did China then bring 2 Divisions to #LAC &amp; face off at #Galwan or occupy land b/w Finger 4 &amp; 8 at #PangongTso? China no friend https://t.co/6ej7QrK1nd",Pro Ruling,"['china', 'ambassador', 'differences']","[{'text': 'china', 'score': 0.6548}, {'text': 'ambassador', 'score': 0.2813}, {'text': 'differences', 'score': 0.253}]",china,Pro Ruling,china,Against ,calling on China's double standards during discussion. ,,,,
+1489991,"Just in: British govt says, ""Agricultural reform is India's domestic policy issue"", supports India-China talks. Reporting.
+https://t.co/r4ZbxekvBo",Pro Ruling,"['india', 'reform', 'china']","[{'text': 'india', 'score': 0.4568}, {'text': 'reform', 'score': 0.4218}, {'text': 'china', 'score': 0.3407}]",china,Pro Ruling,china,Nuetral,no stance taken on china. only news delivered. ,,,,
+1310388,"A claim is being made on social media that the Chinese FDI into India has increased from $2.8 bn in 2017 to $4.14 bn in 2019.
+
+#PIBFactCheck: This data is #Fake and #Incorrect. The FDI inflow from China has declined from $0.350 bn in 2017 to $0.163 bn in 2019. https://t.co/I3WrjxBxmH",Pro Ruling,"['china', 'increased', 'india']","[{'text': 'china', 'score': 0.4481}, {'text': 'increased', 'score': 0.2976}, {'text': 'india', 'score': 0.2949}]",china,Pro Ruling,china,Nuetral,no stance taken on china. only news delivered. ,,,,
+1005651,A leaked report published in the Australian press indicates China’s PLA was working on using corona virus as a bilological weapon for years.  https://t.co/61UTM2WQys,Pro Ruling,"['virus', 'china', 'corona']","[{'text': 'virus', 'score': 0.4831}, {'text': 'china', 'score': 0.4177}, {'text': 'corona', 'score': 0.1022}]",china,Pro Ruling,china,Against ,accuses china of creating covid as a biological weapon. ,,,,
+2113949,The diff btwn Indian Lefties n those in China 😅👇🏻😁😁 https://t.co/pTJVcQaxP9,Pro Ruling,"['china', 'indian', 'lefties']","[{'text': 'china', 'score': 0.6463}, {'text': 'indian', 'score': 0.5587}, {'text': 'lefties', 'score': 0.2055}]",china,Pro Ruling,china,,difference between the left in india and china. ,UNSURE. No context given. ,,,
+93190,"EXCLUSIVE: Clear evidence of China looking to open fresh front in north Ladakh's DBO-Depsang sector. Movements and build-up noticed on Chinese side this month. Expecting this, the Indian Army has already mobilised big here. My report: https://t.co/ksXOcNFnJC https://t.co/loYtSx6brY",Pro Ruling,"['china', 'army', 'expecting']","[{'text': 'china', 'score': 0.54}, {'text': 'army', 'score': 0.2985}, {'text': 'expecting', 'score': 0.1668}]",china,Pro Ruling,china,Against ,reporting that china is trying to open a fresh front and that indian army has already mobolized. ,,,,
+2227769,To all those who are saying that China will take Taiwan next should remember one needs balls of Steel and madness like Vladimir Putin to occupy territory which President Xi Jinping doesn't have. So one should hold their imagination oragasm.,Pro Ruling,"['china', 'should', 'steel']","[{'text': 'china', 'score': 0.5447}, {'text': 'should', 'score': 0.1939}, {'text': 'steel', 'score': 0.123}]",china,Pro Ruling,china,Against ,"says china doesnt have ""balls of steel"". ",,,,
+951585,"Anonymous blogger ‘Program Think’, known for exposing the corruption of CCP members, goes missing in China: Here is what we know so far
+
+https://t.co/nGY2GspqEk",Pro Ruling,"['corruption', 'china', 'blogger']","[{'text': 'corruption', 'score': 0.4358}, {'text': 'china', 'score': 0.4055}, {'text': 'blogger', 'score': 0.3055}]",china,Pro Ruling,china,Against ,shows china trying to curtail voices of dissent. ,,,,
+427730,"Indian Army officer and two soldiers killed in Ladakh's Galwan Valley on Monday night during ""violent face off"" with the Chinese Army.
+This is a terrible news. I don’t remember any casualty between India&amp;China after 1967. #GalwanValley",Pro Ruling,"['china', 'killed', 'army']","[{'text': 'china', 'score': 0.4299}, {'text': 'killed', 'score': 0.3696}, {'text': 'army', 'score': 0.2365}]",china,Pro Ruling,china,Against ,casualties caused in indian army due to face off with china. ,,,,
+1090417,Congress. China. Chaos. Confusion. Clowns! https://t.co/UefUuIPenj,Pro Ruling,"['china', 'chaos', 'clowns']","[{'text': 'china', 'score': 0.5511}, {'text': 'chaos', 'score': 0.4678}, {'text': 'clowns', 'score': 0.4414}]",china,Pro Ruling,china,Against ,puts china and clowns and chaos in same category. ,,,,
+290333,"Liberals are the same in USA &amp; India. In India they have hatred for Modi &amp; India but love for China. In the USA they have hatred for Trump &amp; America but defend China. They have an anti-India &amp; anti-American agenda. We must Expose their pro-China, Pro-Pakistan, Socialism agenda !",Pro Ruling,"['liberals', 'india', 'china']","[{'text': 'liberals', 'score': 0.6086}, {'text': 'india', 'score': 0.3479}, {'text': 'china', 'score': 0.3155}]",china,Pro Ruling,china,Against ,subtle hint that being pro-china is bad and needs exposing. ,,,,
+1965187,"Joe Biden's Deputy NSA Daleep Singh’s remarks that, “if China breaches LAC, Russia wouldn't come running to India's defence”, is ill-founded and hypocritical. China has breached the LAC several times in last two years but Biden has never opened his mouth against China.",Pro Ruling,"['china', 'hypocritical', 'breached']","[{'text': 'china', 'score': 0.4847}, {'text': 'hypocritical', 'score': 0.3163}, {'text': 'breached', 'score': 0.1677}]",china,Pro Ruling,china,Against ,shows china as not sticking to its word and violating boundaries often. ,,,,
+373437,"Clearer and clearer that the June 15 bloodbath in Galwan was not spontaneous, but was 100% Chinese premeditated. Spontaneous clashes between India-China troops have never resulted in death or even serious injury, for instance this most recent one from late May in Pangong: https://t.co/0xR1HzEc74",Pro Ruling,"['china', 'bloodbath', 'troops']","[{'text': 'china', 'score': 0.4016}, {'text': 'bloodbath', 'score': 0.3887}, {'text': 'troops', 'score': 0.2583}]",china,Pro Ruling,china,Against ,shows how china purposely caused a bloodbath. ,,,,
+1012071,"China exposed. Thanks to @palkisu for such brilliant reporting. China loss , India gain. 
+
+Part 2 https://t.co/Bhwc56ukog",Pro Ruling,"['china', 'india', 'loss']","[{'text': 'china', 'score': 0.6218}, {'text': 'india', 'score': 0.4141}, {'text': 'loss', 'score': 0.3148}]",china,Pro Ruling,china,Against ,"pride that news exposed china. shows that china suffered a ""loss"" and thus india suffered a ""gain"". ",,,,
+98429,"Kanwal Sibal: ""China's role in unleashing 2 pandemics in a generation needs highlighting. Pressure must be put on China for making its political system more transparent and ending some unhealthy habits of its society, given the country's massive role in the international system""",Pro Ruling,"['china', 'pandemics', 'role']","[{'text': 'china', 'score': 0.579}, {'text': 'pandemics', 'score': 0.5294}, {'text': 'role', 'score': 0.2096}]",china,Pro Ruling,china,Against ,accuses china of unleashing 2 pandemics onto the world. ,,,,
+432851,"If United Kingdom regulatory body can fine @republic £20000 for calling Pakistan a Terror State, Why can't UK @10DowningStreet fine China £2Trillion for leasing out #ChineseVirus on the world?
+
+Scare of China or just plain hatred for India?",Pro Ruling,"['china', 'scare', '10downingstreet']","[{'text': 'china', 'score': 0.3867}, {'text': 'scare', 'score': 0.2276}, {'text': '10downingstreet', 'score': 0.0888}]",china,Pro Ruling,china,Against ,demands that china also be fined £2Trillion for the pandemic. ,,,,
+453795,"#IndiaFightsCorona While China immediately sealed #Wuhan, @RailMinIndia has started daily train services from hotspots to other parts of the country, despite statistics slapping on the country's face. For e.g. @PiyushGoyal should check daily bulletin of #Karnataka",Pro Ruling,"['railminindia', 'china', 'fights']","[{'text': 'railminindia', 'score': 0.5687}, {'text': 'china', 'score': 0.3736}, {'text': 'fights', 'score': 0.2291}]",china,Pro Ruling,china,Neutral ,no stance on china. ,,,,
+1935291,"Chinese video from #GalwanValley is from well inside Chinese side of LAC near their base camp. As usual filmed from angles designed to poke &amp; taunt, because propaganda is an instrument that China has employed, let's face it, very effectively. Expect much more.",Pro Ruling,"['china', 'filmed', 'taunt']","[{'text': 'china', 'score': 0.5887}, {'text': 'filmed', 'score': 0.4654}, {'text': 'taunt', 'score': 0.2857}]",china,Pro Ruling,china,Against ,says that chinese always try to poke and taunt India. ,,,,
+82523,"Boycott Chinese goods, teach China a bitter lesson for border intrusions
+
+https://t.co/femiVIZE2K",Pro Ruling,"['china', 'boycott', 'lesson']","[{'text': 'china', 'score': 0.645}, {'text': 'boycott', 'score': 0.4625}, {'text': 'lesson', 'score': 0.1952}]",china,Pro Ruling,china,Against ,demanding the boycotting of chinese goods to teach them a bitter lesson. ,,,,
+173865,Bharat has not crossed in Chinese Territory. China occupied Ladakh is part of Bharat.,Pro Ruling,"['china', 'bharat', 'crossed']","[{'text': 'china', 'score': 0.4174}, {'text': 'bharat', 'score': 0.2853}, {'text': 'crossed', 'score': 0.1429}]",china,Pro Ruling,china,Against ,"shows how unlike china, india has never violated the LAC. ",,,,
+179765,This commie is funded by China and he is making fun of RSS chief quoting him of something he said out of context .. I miss Bhagat Singh kranti sena so much .. https://t.co/QzZsqfJp1o,Pro Ruling,"['china', 'quoting', 'rss']","[{'text': 'china', 'score': 0.5212}, {'text': 'quoting', 'score': 0.3474}, {'text': 'rss', 'score': 0.3457}]",china,Pro Ruling,china,Against ,"negative stance on ""commie"" who is accused of being supported by China for spreading bad ideas. ",,,,
+2796441,"“Any Minister's visit to #Arunachal Pradesh violates China's territorial sovereignty &amp; China firmly opposes it as it's China's territory”: Said डेढ़ फुटिया Chinese MEA.
+
+Amit Shah's reply: Talk to my Toe!
+(I'm trying to be decent 😁)
+
+HM @AmitShah Ji has launched… https://t.co/8Ds14XZYmi",Pro Ruling,"['china', 'violates', 'toe']","[{'text': 'china', 'score': 0.6516}, {'text': 'violates', 'score': 0.242}, {'text': 'toe', 'score': 0.193}]",china,Pro Ruling,china,Against ,disregards china's claim on arunachal pradesh. ,,,,
+340963,"We have China Lovers in Media and Anti National NGOs that want to divide India : Justice Kirubakaran, Madras HC  
+https://t.co/AqzLPn3EeP",Pro Ruling,"['china', 'media', 'kirubakaran']","[{'text': 'china', 'score': 0.5285}, {'text': 'media', 'score': 0.4191}, {'text': 'kirubakaran', 'score': 0.1939}]",china,Pro Ruling,china,Against ,equates anti nationals to china lovers. ,,,,
+1094460,"WHO experts had visited China to trace COVID-19 origins!
+
+But now WHO experts claim there is 'no' evidence to prove that corona virus originated in China!
+
+This statement is like Maino saying
+
+""Congress party never did corruption""",Pro Ruling,"['china', 'virus', 'origins']","[{'text': 'china', 'score': 0.427}, {'text': 'virus', 'score': 0.4225}, {'text': 'origins', 'score': 0.2715}]",china,Pro Ruling,china,Against ,says that WHO is siding with China despite knowing that China caused the Covid-19 virus. ,,,,
+459862,"Whatever the Ordnance Factory Board’s grievances with the Govt’s move to corporatise it, the fact that it’s 80,000 strong union-led workforce is going on strike at a time the military is in a standoff with China is ENOUGH to kill its case permanently https://t.co/z7VSaFM8xx",Pro Ruling,"['strike', 'china', 'corporatise']","[{'text': 'strike', 'score': 0.5428}, {'text': 'china', 'score': 0.2672}, {'text': 'corporatise', 'score': 0.1644}]",china,Pro Ruling,china,Against ,shows china as an enemy that the millitary is locked in a standoff with. ,,,,
+137146,"While China is using its traditional medicine along with modern medicine to address the Coronavirus, the left in India is opposing those who say that Yoga and Ayurvedic practices can be helpful.  Many people in the US are also using natural therapies  as an aid.",Pro Ruling,"['ayurvedic', 'coronavirus', 'china']","[{'text': 'ayurvedic', 'score': 0.4801}, {'text': 'coronavirus', 'score': 0.4647}, {'text': 'china', 'score': 0.2577}]",china,Pro Ruling,china,For ,shows that china's use of traditional medicine along with modern medicine can be followed by India. ,,,,
+163669,#China should be made accountable and should be alienated until they mend ways back to Humanity. https://t.co/sGb0fgY9ku,Pro Ruling,"['china', 'accountable', 'alienated']","[{'text': 'china', 'score': 0.5042}, {'text': 'accountable', 'score': 0.331}, {'text': 'alienated', 'score': 0.1678}]",china,Pro Ruling,china,Against ,demands that china be held accountable for the pandemic and also be alienated in the process. ,,,,
+1757064,"The Adani Group Bought A Strategic Port In Sri Lanka. Adani Is Doing A Great National Service By Giving A Direct Competition To China
+
+https://t.co/gsq1M2y4nC",Pro Ruling,"['china', 'port', 'bought']","[{'text': 'china', 'score': 0.4739}, {'text': 'port', 'score': 0.4404}, {'text': 'bought', 'score': 0.2353}]",china,Pro Ruling,china,Against ,supports Adani in giving competition to china. ,,,,
+2848499,"ISI wants BJP to lose
+China wants BJP to lose
+George Soros wants BJP to lose
+Deep State wants BJP to lose
+Turkey wants the BJP to lose.
+ISIS is waiting for the BJP to lose
+Naxalites are waiting for the BJP to lose.
+Rohingyas are eagerly waiting for the BJP to lose
+
+Sleeper cells… https://t.co/Q8xaG2u8OY",Pro Ruling,"['isis', 'china', 'waiting']","[{'text': 'isis', 'score': 0.3973}, {'text': 'china', 'score': 0.2963}, {'text': 'waiting', 'score': 0.2647}]",china,Pro Ruling,china,Against ,"indirectly clubs china in the same category as ISI, ISIS and naxalites. ",,,,
+2762027,S Jaishankar : “I’m ready to listen to Rahul Gandhi if he has superior knowledge &amp; wisdom on China.” https://t.co/0E2707ZtsN,Pro Ruling,"['china', 'jaishankar', 'wisdom']","[{'text': 'china', 'score': 0.435}, {'text': 'jaishankar', 'score': 0.4334}, {'text': 'wisdom', 'score': 0.2913}]",china,Pro Ruling,china,neutral ,no stance on china. ,,,,
+252579,"1/n #SadarPranam @kavita_krishnan to Ishvara within u &amp; to other China Employees. @SrBachchan is absolutely correct &amp; not a ""Racist"". 
+
+In this thread, I explain how #China has unleashed the #Covid is  &amp; what role @DrTedros has played.
+
+Read the whole of History.👇 https://t.co/yj79n5mHkl https://t.co/3OpSxKUruO",Pro Ruling,"['china', 'kavita_krishnan', 'employees']","[{'text': 'china', 'score': 0.5673}, {'text': 'kavita_krishnan', 'score': 0.3407}, {'text': 'employees', 'score': 0.2781}]",china,Pro Ruling,china,Against ,"accuses china of ""unleashing"" the covid-19 virus. ",,,,
+2178691,"#Gravitas | In China, a major financial crisis is unfolding.
+Chinese citizens in 86 cities are boycotting mortgage payments towards their homes.
+Chinese censors are erasing documents about this boycott.
+@palkisu tells you why https://t.co/7zBG9lX5mF",Pro Ruling,"['china', 'boycotting', 'mortgage']","[{'text': 'china', 'score': 0.5508}, {'text': 'boycotting', 'score': 0.3974}, {'text': 'mortgage', 'score': 0.3892}]",china,Pro Ruling,china,Neutral ,not taking a stance on china but delivering news on the financial crisis unfolding. ,,,,
+2255364,"BIG- Rajiv Gandhi Foundation’s FCRA license cancelled. Gandhi family’s other two NGOs are also under ED scanner for foreign funding violation. 
+
+Note that between 2005-2009, China as “partner donor”, granted $300K to Gandhi’s NGO.
+
+1/ https://t.co/xRGyq5iKR2",Pro Ruling,"['funding', 'china', 'scanner']","[{'text': 'funding', 'score': 0.4512}, {'text': 'china', 'score': 0.3523}, {'text': 'scanner', 'score': 0.0936}]",china,Pro Ruling,china,Against ,"Rajiv Gandhi's foundation said to have china as ""partner donor"" leading to cancellation of its license. ",,,,
+2230335,"Long Thread:
+
+US calls Bharat ‘Ally’ in National Security Strategy, terms China ‘competitor' &amp; Russia ‘threat’!
+
+2022 National Security Strategy was released by Biden Govt in effort to ‘outmaneuver’ its ‘Geopolitical Competitors’.
+
+Question is how much can Bharat trust US?
+
+1/31",Pro Ruling,"['threat', 'trust', 'china']","[{'text': 'threat', 'score': 0.4175}, {'text': 'trust', 'score': 0.3436}, {'text': 'china', 'score': 0.3367}]",china,Pro Ruling,china,Neutral ,no stance on china taken. ,,,,
+1478802,"Rahul Gandhi is now a LAC Expert  ..... Doing a Press Conference on Indo-China agreement. 
+
+Note : What about 43000 https://t.co/809WvmDXnA we gave to them under Congress Rule after 1962 ??",Pro Ruling,"['china', 'congress', '43000']","[{'text': 'china', 'score': 0.4337}, {'text': 'congress', 'score': 0.3699}, {'text': '43000', 'score': 0.2694}]",china,Pro Ruling,china,Neutral ,no stance on china taken. ,,,,
+2867476,"Big win for India under PM @narendramodi's @BJP4India Govt.
+
+Despite China blocking the attempt last year, Abdul Makki is named as a Global terrorist by UNSC.
+
+He is brother in law of LeT chief Hafeez Saeed.
+
+अब हम आंख मिला कर ही बात करते हैं 💪 https://t.co/9qC47N1Ndp",Pro Ruling,"['terrorist', 'india', 'china']","[{'text': 'terrorist', 'score': 0.5183}, {'text': 'india', 'score': 0.3916}, {'text': 'china', 'score': 0.318}]",china,Pro Ruling,china,Against ,shows china supports terrorists ,,,,
+366202,"Amazing. #TaiwanNationalDay trending at the top in India. If China continues to be a pathological bully, it will lose every friend and ally. https://t.co/QxV0aDeVgl",Pro Ruling,"['china', 'bully', 'india']","[{'text': 'china', 'score': 0.5879}, {'text': 'bully', 'score': 0.2827}, {'text': 'india', 'score': 0.2824}]",china,Pro Ruling,china,Against ,calls china a pathological bully.,,,,
+2033000,"16th round of India-China Corps Commander level talks commences at Chushul
+
+Read @ANI Story | https://t.co/kqi4amhQ36
+
+#India #China #IndianArmy https://t.co/PWzdbaMclI",Pro Ruling,"['china', 'india', 'army']","[{'text': 'china', 'score': 0.4781}, {'text': 'india', 'score': 0.3663}, {'text': 'army', 'score': 0.2801}]",china,Pro Ruling,china,Neutral ,no stance taken ,,,,
+2337299,"🔸Saudi Crown Prince Mohammed bin Salman refuses call from President Biden.
+🔸Saudi agrees to accept Yuvan from China for Oil Supplies.
+🔸Biden wants to complete Iran Deal at earliest.
+
+Yesterday,Iran backed Yemen’s Houthi rebels attacked oil depot in Saudi's Jiddah.
+
+Chronology!",Pro Ruling,"['saudi', 'china', 'president']","[{'text': 'saudi', 'score': 0.5971}, {'text': 'china', 'score': 0.2508}, {'text': 'president', 'score': 0.1665}]",china,Pro Ruling,china,neutral ,no stance taken ,,,,
+1197727,"At least 10 mysterious, high-intensity blasts have struck China in last 7 days.
+
+Rumours of Many Casualties and Fatalities",Pro Ruling,"['china', 'blasts', 'rumours']","[{'text': 'china', 'score': 0.5466}, {'text': 'blasts', 'score': 0.5465}, {'text': 'rumours', 'score': 0.2588}]",china,Pro Ruling,china,neutral ,no stance taken ,,,,
+2617378,#LaalSinghChaddha may break box-office records of Dangal in China. https://t.co/xHXfHwllxt,Pro Ruling,"['china', 'records', 'break']","[{'text': 'china', 'score': 0.4021}, {'text': 'records', 'score': 0.317}, {'text': 'break', 'score': 0.1857}]",china,Pro Ruling,china,neutral ,no stance taken ,,,,
+1298581,I am still curious to know @China_Amb_India @SpokespersonCHN on the reasons why our news portal GoaChronicle is banned in China. We were only doing our job asking questions of the Chinese government. In fact I want to come there to investigate the truth. Why this discrimination?,Pro Ruling,"['china_amb_india', 'banned', 'investigate']","[{'text': 'china_amb_india', 'score': 0.6692}, {'text': 'banned', 'score': 0.3221}, {'text': 'investigate', 'score': 0.1694}]",china,Pro Ruling,china,Against ,shows china's control on media and the truth. ,,,,
+601844,"I hope Pakistanis will welcome this US law that seeks to punish China for violating human rights of Uighur Muslims and indulging in genocide. 
+
+Islamic Republic of Pakistan believes that it is the leader of the Islamic World. Now is the time to prove it.
+
+https://t.co/c1Gk8Fqexi",Pro Ruling,"['pakistan', 'punish', 'china']","[{'text': 'pakistan', 'score': 0.4806}, {'text': 'punish', 'score': 0.3599}, {'text': 'china', 'score': 0.3047}]",china,Pro Ruling,china,Against ,accuses china of violating human rights and conducting genocide against uigher muslims. ,,,,
+19968,"In the last 25 years, China's average GDP growth rate was 8.6% and India's average GDP growth rate was 4.5%.",Pro OPP,"['growth', 'china', 'india']","[{'text': 'growth', 'score': 0.4601}, {'text': 'china', 'score': 0.4235}, {'text': 'india', 'score': 0.1967}]",china,Pro Opp,china,For ,shows china as a rapidly growing economy. much higher gdp growth rate than india. ,,,,
+1173647,"#JawaharlalNehru a shining beacon of India’s freedom movement &amp; our glorious victory as a republic. The very people who vilify him on China missteps, have cowardly capitulated today. He will forever be India’s #ChachaNehru irreplaceable as our “Orchestrator Of The Impossible” 🇮🇳 https://t.co/ojpYVtSsaA",Pro OPP,"['jawaharlal', 'china', 'irreplaceable']","[{'text': 'jawaharlal', 'score': 0.4788}, {'text': 'china', 'score': 0.4276}, {'text': 'irreplaceable', 'score': 0.1502}]",china,Pro Opp,china,neutral ,no stance on china taken. ,,,,
+577160,"#TrendingTonight | While the BJP has slammed Congress leaders for raising questions on the killing of 20 soldiers in #Ladakh, analysis of press releases issued by BJP during 2007, 2009 and 2013 shows that it had issued multiple statements on China, cautioning the then government. https://t.co/7oFbZsNM9u",Pro OPP,"['china', 'cautioning', 'soldiers']","[{'text': 'china', 'score': 0.5321}, {'text': 'cautioning', 'score': 0.2707}, {'text': 'soldiers', 'score': 0.1588}]",china,Pro Opp,china,neutral ,no stance on china taken. ,,,,
+376333,China to begin work on rail section close to India’s border https://t.co/VXOabef85q,Pro OPP,"['china', 'rail', 'india']","[{'text': 'china', 'score': 0.5317}, {'text': 'rail', 'score': 0.4078}, {'text': 'india', 'score': 0.1501}]",china,Pro Opp,china,Against ,subtle hint that china inching closers to india's borders. ,,,,
+2911633,@ShashiTharoor @INCIndia It is shocking to hear from the External Affairs Minister that China is too rich to stand up to. https://t.co/akLYWd4F6N,Pro OPP,"['rich', 'china', 'hear']","[{'text': 'rich', 'score': 0.547}, {'text': 'china', 'score': 0.4889}, {'text': 'hear', 'score': -0.0245}]",china,Pro Opp,china,Against ,"shows china as a force that needs ""standing up to"".",,,,
+1575359,"Rhetoric: Modi is a strong leader.
+
+Reality : Modi is a coward. He did nothing on China intrusion. To save his image he lied to nation about intrusion.  
+
+Remember telling lies on the matters of border intrusions amounts to treachery which he committed.",Pro OPP,"['leader', 'china', 'lied']","[{'text': 'leader', 'score': 0.4878}, {'text': 'china', 'score': 0.3919}, {'text': 'lied', 'score': 0.2314}]",china,Pro Opp,china,Against ,shows china as intrusive towards india's borders.,,,,
+2128641,"Pics Show #China Had Large Base, Fighting Positions At #Ladakh Standoff Point https://t.co/4if717h8t7
+
+(📸: @Maxar) https://t.co/t209AF1Pz1",Pro OPP,"['china', 'positions', 'ladakh']","[{'text': 'china', 'score': 0.5606}, {'text': 'positions', 'score': 0.366}, {'text': 'ladakh', 'score': 0.3009}]",china,Pro Opp,china,Against ,shows china with large base near india's border. ,,,,
+36704,"After killing a Colonel &amp; 2 soldiers, China warns India not to stir up trouble. Why China in powerful position? Because, if a war, India has no friend, China has many. Modi's hubris has opened up the possibility of a 4-front war for India's Army: Kashmir, Pakistan, Nepal &amp; China!",Pro OPP,"['china', 'india', 'soldiers']","[{'text': 'china', 'score': 0.5623}, {'text': 'india', 'score': 0.3404}, {'text': 'soldiers', 'score': 0.1912}]",china,Pro Opp,china,Against ,"shows china as a bully and killer. also says that unlike india, china has a lot of allies. ",,,,
+2656360,"IT and Industries Minister @KTRBRS said that countries across the world have realised the ‘over dependence’ on China and therefore, making efforts to stay away from it, giving a chance to India to grab the ‘opportunities’ and make a mark. https://t.co/4LTqWQwxNM",Pro OPP,"['china', 'dependence', 'india']","[{'text': 'china', 'score': 0.5433}, {'text': 'dependence', 'score': 0.4208}, {'text': 'india', 'score': 0.3199}]",china,Pro Opp,china,Against ,grave realisation that countries across the world are becoming too overly dependent on china and this needs fixing. ,,,,
+1768811,"Modi jii why are you silent on China ?
+
+#FutureMatlabRahul https://t.co/6EhGvHl408",Pro OPP,"['china', 'silent', 'why']","[{'text': 'china', 'score': 0.6943}, {'text': 'silent', 'score': 0.3277}, {'text': 'why', 'score': 0.1975}]",china,Pro Opp,china,,china shown as something that needs to be faced. ,unsure. ,,,
+63535,"In all his addresses, Prime Minister refers to China only indicatively and not name them as the aggressor.
+
+Poof goes the crafted 56-inch image.",Pro OPP,"['china', 'prime', 'aggressor']","[{'text': 'china', 'score': 0.5544}, {'text': 'prime', 'score': 0.328}, {'text': 'aggressor', 'score': 0.1212}]",china,Pro Opp,china,Against ,subly implies that china should be labelled as an aggressor. ,,,,
+461975,"Coming up in the next couple of hours:
+
+Clinching evidence of BJP working with the Chinese on Indian elections &amp; leaking data on Indians to the enemy. 
+
+Why is Modi so quiet on China? You’ll find out in just a bit. 
+
+Update will also be shared on this thread.",Pro OPP,"['china', 'elections', 'thread']","[{'text': 'china', 'score': 0.5728}, {'text': 'elections', 'score': 0.202}, {'text': 'thread', 'score': 0.1234}]",china,Pro Opp,china,Against ,china labelled as an enemy. ,,,,
+1691570,"Not only is Modi the only Indian PM to make the maximum ever visits to China, but also bent backwards to surrender dignity &amp; honour along with Indian territory. The chest-thumper who boasted of showing Lal Ankh, now does not dare to even utter the word China. 
+
+ #चीन_निर्भर_भाजपा https://t.co/vpFWQIz7qT",Pro OPP,"['china', 'indian', 'surrender']","[{'text': 'china', 'score': 0.6193}, {'text': 'indian', 'score': 0.3974}, {'text': 'surrender', 'score': 0.222}]",china,Pro Opp,china,Against ,"china is making india bend ""backward"" and lose its honor and dignity. ",,,,
+497974,India-China agreed to maintain communication both at diplomatic and military level including under the framework of WMCC to resolve the existing situation peacefully @MEAIndia @ABPNews,Pro OPP,"['china', 'india', 'abpnews']","[{'text': 'china', 'score': 0.5206}, {'text': 'india', 'score': 0.3015}, {'text': 'abpnews', 'score': 0.1203}]",china,Pro Opp,china,For ,shows india china working on better diplomatic relations. ,,,,
+272566,"#NDTVExclusive | “There should be a pre-emptive action taken immediately"": Punjab Chief Minister Captain Amarinder Singh to NDTV on #IndiaChinaFaceOff https://t.co/SvgieGbW36",Pro OPP,"['china', 'india', 'ndtv']","[{'text': 'china', 'score': 0.4759}, {'text': 'india', 'score': 0.3986}, {'text': 'ndtv', 'score': 0.3553}]",china,Pro Opp,china,Against ,action should be taken on china at the earliest. ,,,,
+740181,"So have we filed an FIR against China’s PLA. Perhaps, that’s a way of getting back our territory",Pro OPP,"['china', 'back', 'filed']","[{'text': 'china', 'score': 0.5534}, {'text': 'back', 'score': 0.3035}, {'text': 'filed', 'score': 0.291}]",china,Pro Opp,china,Against ,fir against china ,,,,
+291817,"In his first remarks on the Ladakh face-off, former Prime Minister Manmohan Singh on Monday said PM Narendra Modi must be mindful of the implications of his words and cannot allow China to use them as a vindication of its position.
+https://t.co/1fxcxaZoMc",Pro OPP,"['china', 'cannot', 'vindication']","[{'text': 'china', 'score': 0.448}, {'text': 'cannot', 'score': 0.2216}, {'text': 'vindication', 'score': 0.2167}]",china,Pro Opp,china,Against ,china as a cunning enemy. ,,,,
+59363,"The Galwan “mutual disengagement” is nothing but a land grab by China... aided and abetted by the govt of India.
+
+The PM and his govt continue to keep the Indian public in the dark over the terms of disengagement that they have unfortunately accepted.
+
+https://t.co/rKes7tZSKg",Pro OPP,"['china', 'india', 'disengagement']","[{'text': 'china', 'score': 0.4992}, {'text': 'india', 'score': 0.401}, {'text': 'disengagement', 'score': 0.3862}]",china,Pro Opp,china,Against ,accuses china of land grab. ,,,,
+1777776,"News in new India:
+
+⚠️Tabligi Jamat over China's Incursion
+⚠️Sushant Singh death over sinking economy
+⚠️Raj Kundra over Pegasus Snoopgate Story
+
+Clearly, this media is not showing news which matters to our country.
+
+It is propaganda perception machinery of Govt.
+
+Gujarat Model",Pro OPP,"['news', 'china', 'india']","[{'text': 'news', 'score': 0.539}, {'text': 'china', 'score': 0.446}, {'text': 'india', 'score': 0.4202}]",china,Pro Opp,china,neutral ,no stance on china,,,,
+267433,"Modi's statement is very clear. He means our soldiers intruded in Chinese territory! I can understand the need to swallow our pride &amp; accept the altered Status quo &amp; boundaries, but this is downright dishonest. He dishonours our soldiers. Obviously China is playing this up https://t.co/O3mpren98Y",Pro OPP,"['china', 'soldiers', 'dishonours']","[{'text': 'china', 'score': 0.5481}, {'text': 'soldiers', 'score': 0.2969}, {'text': 'dishonours', 'score': 0.1272}]",china,Pro Opp,china,against ,accuses china of playing up the incident. ,,,,
+107094,Did I see prime minister @narendramodi redrawing the Sino-Indian border on TV today? Modi said nobody entered Indian territory. Has he conceded to China the Galwan River valley and Fingers 4-8 in Pangong Tso -- both on our side of the LAC -- and where Chinese troops now sit. 1/4.,Pro OPP,"['china', 'narendramodi', 'redrawing']","[{'text': 'china', 'score': 0.5415}, {'text': 'narendramodi', 'score': 0.4234}, {'text': 'redrawing', 'score': 0.082}]",china,Pro Opp,china,against ,shows that china should ideally be accused of intruding on indian territory. ,,,,
+1853238,"Hindutva youth has decided to give up noodles and momos, in order to fight China via social media.... 🙏🙏🙏 salute their sacrifice",Pro OPP,"['china', 'youth', 'sacrifice']","[{'text': 'china', 'score': 0.4757}, {'text': 'youth', 'score': 0.3118}, {'text': 'sacrifice', 'score': 0.2739}]",china,Pro Opp,china,Against ,commends Hindutva youth for giving up noodles and momos to fight china. ,,,,
+434462,Modiji's response to the economic crisis &amp; China’s intrusion : - Arre hum toh fakeer aadmi hai jhola uthaa ke chal padenge ji,Pro OPP,"['china', 'intrusion', 'fakeer']","[{'text': 'china', 'score': 0.6533}, {'text': 'intrusion', 'score': 0.2579}, {'text': 'fakeer', 'score': 0.145}]",china,Pro Opp,china,Against ,accuses china of intrusion into indian territory. ,,,,
+502117,"I guess red eyes of Modi didn't work.😬
+
+Traitor Modi lied &amp; now surrendering the Indian soil. 
+
+The use of ""status quo"" is wrong here. Status quo was before 5thJune. Today the situation is encroachment by China. 😠
+ https://t.co/dEbPA9ETpc",Pro OPP,"['china', 'traitor', 'soil']","[{'text': 'china', 'score': 0.3777}, {'text': 'traitor', 'score': 0.3053}, {'text': 'soil', 'score': 0.1827}]",china,Pro Opp,china,Against ,accuses china of intrusion into indian territory. ,,,,
+2560230,"Mr @RahulGandhi : 
+
+China has refused to accept India’s demand of restoring status quo of April 2020. 
+
+PM has given 1000 Sq Kms of territory to China without a fight. 
+
+Can GOI explain how this territory will be retrieved ?",Pro OPP,"['china', 'refused', 'restoring']","[{'text': 'china', 'score': 0.5998}, {'text': 'refused', 'score': 0.2826}, {'text': 'restoring', 'score': 0.2263}]",china,Pro Opp,china,Against ,shows china as uncooperative and india as submissive. ,,,,
+68991,I can’t believe the Modi government lied even on the fact that our soldiers &amp; officer were held captive &amp; then released by China. Shameful https://t.co/UCz64ssWvx,Pro OPP,"['china', 'soldiers', 'shameful']","[{'text': 'china', 'score': 0.3477}, {'text': 'soldiers', 'score': 0.2783}, {'text': 'shameful', 'score': 0.2543}]",china,Pro Opp,china,neutral ,no stance on china. ,,,,
+2756627,New Delhi is the second biggest shareholder and has gotten nearly $10 bn of grants from AIIB for infrastructure projects in India. All while the Indian foreign minister claims that ties with China are not normal. https://t.co/UMVfVTmps8,Pro OPP,"['china', 'shareholder', 'grants']","[{'text': 'china', 'score': 0.4231}, {'text': 'shareholder', 'score': 0.3301}, {'text': 'grants', 'score': 0.2165}]",china,Pro Opp,china,neutral ,no stance on china. ,,,,
+1544753,"Over 100 of Chinese soldiers entered in Uttarakhand Barahoti , destroyed infrastructure and then returned but our PM Modi is silent and visited the constructed area of  new parliament building .
+
+Why Modi is afraid of taking the name of China?
+
+#BorderKhatreMeHai https://t.co/ylSYAF2Kv0",Pro OPP,"['china', 'soldiers', 'destroyed']","[{'text': 'china', 'score': 0.5705}, {'text': 'soldiers', 'score': 0.1896}, {'text': 'destroyed', 'score': 0.1161}]",china,Pro Opp,china,Against ,accuses china of encroachment and destructive behaviour.  ,,,,
+258932,"PUBG Corporation (subsidiary of South Korean Krafton) has issued a statement saying China's Tencent will no longer franchise the game in India.
+
+10/10 expect Reliance Jio to be the local partner now &amp; the ban to be lifted.
+
+Modi always comes through for his dear corporate friends https://t.co/wlANe2nzP9",Pro OPP,"['franchise', 'china', 'lifted']","[{'text': 'franchise', 'score': 0.4401}, {'text': 'china', 'score': 0.4265}, {'text': 'lifted', 'score': 0.0254}]",china,Pro Opp,china,neutral ,no stance on china. ,,,,
+283631,China’s support of $232 billion to farmers in 2016-17 was despite high productivity per hectare. India productivity is much lower than China &amp; modi govt thinks deregulating markets alone will boost incomes. Truth is in agriculture there is no substitute for govt support. https://t.co/BoPFOCm6Kv,Pro OPP,"['agriculture', 'china', 'deregulating']","[{'text': 'agriculture', 'score': 0.4387}, {'text': 'china', 'score': 0.3935}, {'text': 'deregulating', 'score': 0.2214}]",china,Pro Opp,china,For ,shows how china supported farmers unlike indian modi govt. ,,,,
+2242624,"Main kaise phansa? What nonsense!
+
+Sahi baat boli hai maine, aur aap log bhaade ke tattu ho jo Modi ko bachaane nikle ho. Is that clear, @TimesNow? 
+
+I stand by my question and absolutely insist that Modi and Shah denounce China openly. Have you all forgotten #IndiaFirst? https://t.co/IumvVu5kVx",Pro OPP,"['china', 'india', 'denounce']","[{'text': 'china', 'score': 0.5026}, {'text': 'india', 'score': 0.4165}, {'text': 'denounce', 'score': 0.2933}]",china,Pro Opp,china,Against ,demands that modi and shah denounce china openly and put india first. ,,,,
+724795,China releases a video from last year which shows Chinese soldiers are taking Indian soldiers as hostages &amp; blindfolded. Supposed to be from Galwan Valley. https://t.co/h4nenSyoA7,Pro OPP,"['china', 'soldiers', 'blindfolded']","[{'text': 'china', 'score': 0.5191}, {'text': 'soldiers', 'score': 0.3329}, {'text': 'blindfolded', 'score': 0.2291}]",china,Pro Opp,china,Against ,shows how china is taking indian soldiers hostage. ,,,,
+698468,"Modi, 2 months ago: ""China never entered our territory"":
+Modi now: ""China has vacated our territory"".
+56""! https://t.co/K3dJkocmIN",Pro OPP,"['china', 'vacated', 'our']","[{'text': 'china', 'score': 0.5524}, {'text': 'vacated', 'score': 0.2752}, {'text': 'our', 'score': 0.2724}]",china,Pro Opp,china,Against ,shows china as encroaching on indian territory. ,,,,
+2105330,"Despite China occupying Indian territories in Ladakh &amp; changing the names of places in Arunachal Pradesh, the trade between China &amp; India in 2021 increased 43.3% from 2020. In 2021, India imported $98 billion from China, exported only $28 billion. Nationalists boycotting China?",Pro OPP,"['china', 'india', 'increased']","[{'text': 'china', 'score': 0.4988}, {'text': 'india', 'score': 0.4063}, {'text': 'increased', 'score': 0.1646}]",china,Pro Opp,china,Against ,shows china as encroaching on indian territory. ,,,,
+545263,"Highest fall in GDP and highest covid deaths per million; much more than Bangladesh, Pakistan, Sri Lanka, Nepal and China! Wah Modi Ji Wah! https://t.co/qdWUzKOUsv",Pro OPP,"['deaths', 'china', 'highest']","[{'text': 'deaths', 'score': 0.418}, {'text': 'china', 'score': 0.2868}, {'text': 'highest', 'score': 0.2532}]",china,Pro Opp,china,neutral ,no stance on china. ,,,,
+1439573,Para C c in the first image. Interesting that China wanted India to face a two front threat during the Ladakh crisis. https://t.co/SLBvWOVzy4,Pro OPP,"['china', 'india', 'threat']","[{'text': 'china', 'score': 0.5395}, {'text': 'india', 'score': 0.4331}, {'text': 'threat', 'score': 0.3869}]",china,Pro Opp,china,Against ,shows how china wanted india to face a two front threat during Ladakh. ,,,,
+2510419,"Positives from the latest round of Sino-India talks:
++ joint statement 
++ talks to continue 
+
+The big negative:
+- No progress on disengagement (leave alone de-escalation or deinduction) from the Indian territories in Ladakh ingressed by China. Status quo ante is far off. https://t.co/ajMz6MxQEG",Pro OPP,"['china', 'india', 'disengagement']","[{'text': 'china', 'score': 0.5427}, {'text': 'india', 'score': 0.4448}, {'text': 'disengagement', 'score': 0.3308}]",china,Pro Opp,china,For ,shows ongoing talks between india-china and initiative for better diplomatic relations. ,,,,
+531724,"China has changed the frontlines in Ladakh, and occupied Indian territory... and New Delhi is talking about “a long haul” and “military and diplomatic engagement!”
+
+If so abject was to be the surrender, disband the “mountain strike corps” &amp; remove armoured brigade from Ladakh 1/2",Pro OPP,"['china', 'brigade', 'disband']","[{'text': 'china', 'score': 0.4643}, {'text': 'brigade', 'score': 0.3611}, {'text': 'disband', 'score': 0.2453}]",china,Pro Opp,china,Against ,shows china as encroaching on indian territory. ,,,,
+113652,"Modi has met Xi 18 times since he came to power in 2014. Modi has visited China 5 times as the PM, more the Nehru who was PM for 18 yrs, Indira Gandhi 15 yrs &amp; Manmohan Singh for 10 yrs. What was he talking to Xi? And, in which language?",Pro OPP,"['china', 'singh', 'amp']","[{'text': 'china', 'score': 0.4006}, {'text': 'singh', 'score': 0.2564}, {'text': 'amp', 'score': -0.0174}]",china,Pro Opp,china,Against ,subtly shows that meeting Xi is wrong and also slightly discriminates against China. ,,,,
+430089,"#PMModi travels in 8,400 crore worth aircraft and is afraid to even name #China, says #RahulGandhi  https://t.co/YjgvN9yLyV",Pro OPP,"['china', 'aircraft', 'afraid']","[{'text': 'china', 'score': 0.5085}, {'text': 'aircraft', 'score': 0.4453}, {'text': 'afraid', 'score': 0.2482}]",china,Pro Opp,china,neutral ,no stance on china. ,,,,
+732129,"Last year China pressed 7000 workers &amp; over 100 construction machines to build 1000 bed hospitals in ten days  flat. In India such hurry shown for Central Vista construction! 
+
+How China built a hospital in 10 days https://t.co/OTfJ96Mg3p",Pro OPP,"['china', 'workers', 'hospitals']","[{'text': 'china', 'score': 0.4281}, {'text': 'workers', 'score': 0.3615}, {'text': 'hospitals', 'score': 0.3613}]",china,Pro Opp,china,For ,shows how quick and productive China is as compared to indian govt. ,,,,
+726240,"% of population fully vaccinated:
+
+UAE: 80%
+China: 69%
+Israel: 61%
+Cambodia: 57%
+United States: 54%
+Turkey: 48%
+Sri Lanka: 48%
+Morocco: 45%
+Dominican Rep 44%
+Cuba: 37%
+Brazil: 34%
+Costa Rica: 30%
+Barbados: 34%
+Mexico: 30%
+Peru: 27%
+Bolivia: 26%
+Thailand: 17%
+Vishwa Guru: 13%",Pro OPP,"['vaccinated', 'population', 'china']","[{'text': 'vaccinated', 'score': 0.4921}, {'text': 'population', 'score': 0.4514}, {'text': 'china', 'score': 0.1476}]",china,Pro Opp,china,neutral ,"no stance on china, just news delivered. ",,,,
+388448,The Chinese ain’t going nowhere. China has not pulled out of the disputed area but remains in Ladakh with a huge PLA presence. #IndiaChinaBorder https://t.co/wT5mmUiG6S,Pro OPP,"['china', 'india', 'remains']","[{'text': 'china', 'score': 0.6947}, {'text': 'india', 'score': 0.3172}, {'text': 'remains', 'score': 0.2159}]",china,Pro Opp,china,Against ,shows china as encroaching on indian territory. ,,,,
+1858213,"Mr @RahulGandhi :
+
+China builds 1st bridge on #Pangong
+GOI: We r monitoring situation
+
+China builds 2nd bridge on Pangong
+GOI: We r monitoring situation
+
+India’s National security &amp; territorial integrity is non-negotiable. A timid &amp; docile response won’t do. PM must defend Nation",Pro OPP,"['china', 'bridge', 'negotiable']","[{'text': 'china', 'score': 0.5931}, {'text': 'bridge', 'score': 0.4588}, {'text': 'negotiable', 'score': 0.2005}]",china,Pro Opp,china,Against ,shows china as encroaching on indian territory.  calls on PM to defend nation. ,,,,
+1591667,"This article of mine is relevant to understand the 1959 Claim Line.
+
+China has taken LAC clock back to 1959. India not in a position to take back Aksai Chin https://t.co/GdmS1S28vh",Pro OPP,"['china', 'clock', 'india']","[{'text': 'china', 'score': 0.5153}, {'text': 'clock', 'score': 0.4262}, {'text': 'india', 'score': 0.4072}]",china,Pro Opp,china,For ,shows india can do nothing at this point. ,,,,
+1961951,"If a country can't protect a comedian in its capital, how can it protect its border from China? #MunawarFaruqui",Pro OPP,"['china', 'comedian', 'protect']","[{'text': 'china', 'score': 0.5358}, {'text': 'comedian', 'score': 0.4828}, {'text': 'protect', 'score': 0.3518}]",china,Pro Opp,china,Against ,portrays china as an enemy. ,,,,
+444243,"My article in The New York Times @nytopinion that maps out how @narendramodi's kowtowing to Xi Jinping, his unilateral moves in J&amp;K and his awe of China have led to China's occupation of Indian territory in Ladakh and the killing of 20 Indian soldiers. 
+
+https://t.co/2jM5RgVymk",Pro OPP,"['china', 'narendramodi', 'soldiers']","[{'text': 'china', 'score': 0.5338}, {'text': 'narendramodi', 'score': 0.5199}, {'text': 'soldiers', 'score': 0.1799}]",china,Pro Opp,china,Against ,accuses china of encroaching on indian territory and also accuses modi of aiding them. ,,,,
+68885,"Strong Message! #IndiaChinaFaceoff
+@newssting1 cartoon https://t.co/fWAHuxsql6",Pro OPP,"['china', 'newssting1', 'faceoff']","[{'text': 'china', 'score': 0.6449}, {'text': 'newssting1', 'score': 0.4295}, {'text': 'faceoff', 'score': 0.3981}]",china,Pro Opp,china,Against ,demonstrates that india and china currently locked in a standoff. ,,,,
+1123427,"Tea came from China
+Coffee came from Arabia
+Neither is Indian
+Sorry Hindutva",Pro OPP,"['tea', 'china', 'neither']","[{'text': 'tea', 'score': 0.5857}, {'text': 'china', 'score': 0.4256}, {'text': 'neither', 'score': 0.2273}]",china,Pro Opp,china,For ,says that Hindutva is misleading and that tea in fact is a chinese product. ,,,,
+314147,"RSS: China has intruded. Oops!
+Modi had on June 19 denied any intrusion at an all-party meeting four days after 20 Indian soldiers had died during a clash in the Galwan Valley
+
+https://t.co/yMhvUbNlaf",Pro OPP,"['china', 'intrusion', 'died']","[{'text': 'china', 'score': 0.5328}, {'text': 'intrusion', 'score': 0.3633}, {'text': 'died', 'score': 0.0673}]",china,Pro Opp,china,Against ,accuses china of encroaching on indian territory and also accuses modi of aiding them. ,,,,
+1575272,"Silent against China and violent against farmers? 
+#RahulGandhiExposesBJP",Pro OPP,"['china', 'farmers', 'silent']","[{'text': 'china', 'score': 0.5333}, {'text': 'farmers', 'score': 0.3761}, {'text': 'silent', 'score': 0.231}]",china,Pro Opp,china,Against ,demands for action against china and not farmers. ,,,,
+134364,"JUST IN
+
+Modi Govt likely to deploy a very Lethal weapon against China tonight.
+
+Karaara Jawaab Milega!!
+
+Sources say : Arnab Goswami to be unleashed at 9 PM against China.
+
+God Bless You China!!
+
+ #GalwanValley",Pro OPP,"['china', 'goswami', 'weapon']","[{'text': 'china', 'score': 0.5333}, {'text': 'goswami', 'score': 0.3749}, {'text': 'weapon', 'score': 0.362}]",china,Pro Opp,china,Against ,portrays china as an enemy in need of a lethal weapon. humorous. ,,,,
+423683,"You ask anything to Mouni Baba he and his PR will give so many different issues that you will be totally confused!
+
+You ask about Economy he will release video on MOR! 
+
+You ask about unemployment his team will speak about RHEA!
+
+You ask about CHINA, he is mum🤭
+
+#भाजपा_की_ढिलाई https://t.co/84UHauijCn",Pro OPP,"['china', 'baba', 'unemployment']","[{'text': 'china', 'score': 0.3583}, {'text': 'baba', 'score': 0.3306}, {'text': 'unemployment', 'score': 0.1827}]",china,Pro Opp,china,Against ,subtly implies that govt should speak up against china. ,,,,
+545144,"Bhakts saying is AIDB is not a Chinese-controlled bank. The bank is based in Beijing, China holds 26.06% of the vote, and also the veto power as approval by at least 75% of voting rights necessary for important decisions. https://t.co/c0yEp0eKGV",Pro OPP,"['china', 'aidb', 'voting']","[{'text': 'china', 'score': 0.4774}, {'text': 'aidb', 'score': 0.3324}, {'text': 'voting', 'score': 0.1521}]",china,Pro Opp,china,For ,shows how hindutva spreads false information. ,,,,
+507499,China has started evacuating its nationals from India since Monday.,Pro OPP,"['china', 'evacuating', 'india']","[{'text': 'china', 'score': 0.5188}, {'text': 'evacuating', 'score': 0.3413}, {'text': 'india', 'score': 0.2393}]",china,Pro Opp,china,neutral ,no stance on china. ,,,,
+2275341,You have brought China &amp; Pakistan together. You have converted 2 fronts into one front - @RahulGandhi,Pro OPP,"['china', 'fronts', 'converted']","[{'text': 'china', 'score': 0.4529}, {'text': 'fronts', 'score': 0.3841}, {'text': 'converted', 'score': 0.1783}]",china,Pro Opp,china,Against ,china and pakistan together are two fronts against india. ,,,,
+1591699,"This answer from @ShivshankaMenon is what most sensible people recognise has led to the strategic failure against China witnessed in the last few years. The desire to create of narrative of we won, when the reality is not so, whether it be Doklam or Ladakh. https://t.co/ADEPyRp4Y7",Pro OPP,"['china', 'failure', 'recognise']","[{'text': 'china', 'score': 0.5559}, {'text': 'failure', 'score': 0.4413}, {'text': 'recognise', 'score': 0.2028}]",china,Pro Opp,china,Against ,suggests that india has constantly lost to china. ,,,,
+484166,"2/2  True, we lost in 1962 to a better prepared foe. But even in defeat, India held its head high.
+
+Today, neither the govt, nor the bhakts who love the BJP more than they love our country, are willing to fight China.
+
+Instead, the Galwan Valley has been ceded as a “buffer zone”.",Pro OPP,"['india', 'china', 'defeat']","[{'text': 'india', 'score': 0.4479}, {'text': 'china', 'score': 0.4312}, {'text': 'defeat', 'score': 0.3496}]",china,Pro Opp,china,Against ,demands that govt should fight against china. ,,,,
+1959680,"Mr @RahulGandhi : 
+
+China is building the foundations for hostile action in the future. 
+
+By ignoring it, the Govt is betraying India. https://t.co/F6VCmTT20g",Pro OPP,"['china', 'india', 'betraying']","[{'text': 'china', 'score': 0.5316}, {'text': 'india', 'score': 0.4252}, {'text': 'betraying', 'score': 0.3268}]",china,Pro Opp,china,Against ,warns against china building foundation for hostile action against india. ,,,,
+33797,How many days to defeat China? https://t.co/ZySmUxKZ0C,Pro OPP,"['china', 'days', 'defeat']","[{'text': 'china', 'score': 0.5925}, {'text': 'days', 'score': 0.4365}, {'text': 'defeat', 'score': 0.3886}]",china,Pro Opp,china,Against ,wants china defeated. ,,,,
+,"Yeh Akashvani hai aur ap sun rahe hai humey Beijing mai. Indian govt release says All India Radio services, including ‘FM Gold Delhi’ broadcasting from the Indian capital, are quite popular in China. https://t.co/RJ2mi1Cc6U",Pro Ruling,,"[{'text': 'china', 'score': 0.4616}, {'text': 'broadcasting', 'score': 0.4063}, {'text': 'india', 'score': 0.3931}]",china,,,,,,china,,

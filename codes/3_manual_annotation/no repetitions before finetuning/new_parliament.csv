@@ -1,0 +1,425 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,stance,stance_reason
+1896168,"Prime Minister @narendramodi unveiled the National Emblem of #India🇮🇳 atop the new Parliament House on Monday 11 July 2022. This marked yet another important milestone in the decolonisation of Lutyens Delhi.
+ n1 https://t.co/eOkSPokuKw",Pro Ruling,pro ruling,new parliament,"['emblem', 'narendramodi', '2022']","[{'text': 'emblem', 'score': 0.5255}, {'text': 'narendramodi', 'score': 0.4987}, {'text': '2022', 'score': 0.181}]",For ,claims that it marks another important milestone in the decolonisation of Lutyens Delhi. 
+2858916,"#WATCH | PM @narendramodi felicitates the workers who helped in the development of the #NewParliamentBuilding.  
+
+#MyParliamentMyPride #ParliamentNewBuilding https://t.co/Y5AU99d007",Pro Ruling,pro ruling,new parliament,"['parliament', 'workers', 'narendramodi']","[{'text': 'parliament', 'score': 0.5895}, {'text': 'workers', 'score': 0.3806}, {'text': 'narendramodi', 'score': 0.3392}]",For ,"hashtag suggests ""my parliament, my pride"". "
+2720746,"Mota Bhai rips apart Congress, who is playing dirty politics on the issue of inauguration of New Parliament building. https://t.co/4yjea7G3Lh",Pro Ruling,pro ruling,new parliament,"['congress', 'dirty', 'playing']","[{'text': 'congress', 'score': 0.4954}, {'text': 'dirty', 'score': 0.3196}, {'text': 'playing', 'score': 0.1889}]",For ,claims that congress is playing dirty politics in regards of the new parliament. 
+1254953,"What choice do we have?
+
+Rs 20,000 cr new Parliament is an ‘essential service’ now.
+
+#CentralVista #COVID19 #Oxygen #HospitalBeds #vaccines 
+@VijaytaL @sharmasupriya https://t.co/QlSXcL5KxB",Pro OPP,pro opposition,new parliament,"['parliament', 'vaccines', 'oxygen']","[{'text': 'parliament', 'score': 0.4141}, {'text': 'vaccines', 'score': 0.3928}, {'text': 'oxygen', 'score': 0.2877}]",Against ,suggests that government spending a lot of money on parliament and not other essential services such as oxygen and hospital beds. 
+2875271,"Pictures of the new Parliament building which symbolises the spirit of self-reliant India. 
+
+Prime Minister @narendramodi will dedicate the newly constructed #ParliamentBuilding to the Nation today.
+
+#MyParliamentMyPride https://t.co/70YuGhT7CP",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'pictures']","[{'text': 'parliament', 'score': 0.5916}, {'text': 'narendramodi', 'score': 0.4161}, {'text': 'pictures', 'score': 0.293}]",For ,claims that it symbolises the spirit of a self reliant India. 
+2774942,"Women farmers from Punjab under the leadership of KMSC departed from the Beas flyover to take part in ""Mahila Samman Mahapanchayat"" in front of the new parliament tomorrow ! #WrestlersProtest 
+
+@SakshiMalik @BajrangPunia https://t.co/cG9LkY2x3v",Pro OPP,pro opposition,new parliament,"['farmers', 'protest', 'flyover']","[{'text': 'farmers', 'score': 0.4388}, {'text': 'protest', 'score': 0.3268}, {'text': 'flyover', 'score': 0.1356}]",Neutral ,"no stance taken, only news delivered."
+2177247,"#NLInterview | 'The new parliament which is coming up might become a tourist site.'
+
+@priyankac19 in conversation with @AbhinandanSekhr on how India is seeing a systematic failure of parliamentary democracy.
+
+Full interview: https://t.co/2siLiC91r1 https://t.co/r8wDNpYIpI",Pro OPP,pro opposition,new parliament,"['parliamentary', 'india', 'tourist']","[{'text': 'parliamentary', 'score': 0.5025}, {'text': 'india', 'score': 0.4088}, {'text': 'tourist', 'score': 0.3716}]",Against ,calls it a systematic failure of parliamentary democracy by turning into a tourist site. 
+2923035,Why the President of India Should Inaugurate the New Parliament Building https://t.co/ExquvqTCGU,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.5204}, {'text': 'india', 'score': 0.345}, {'text': 'new', 'score': 0.2775}]",Neutral ,"no stance taken, only news delivered."
+2758802,"The day Modi inaugurated the new Parliament building, Manipur police killed 40 Kuki tribals, and Delhi police assaulted and detained India's wrestling champions. https://t.co/9AvdY7NRHY",Pro OPP,pro opposition,new parliament,"['tribals', 'police', 'killed']","[{'text': 'tribals', 'score': 0.3974}, {'text': 'police', 'score': 0.2969}, {'text': 'killed', 'score': 0.2564}]",Against ,shows how the new parliament opening coincided with the government also carrying out killings and assault. 
+112522,"Whether we like it or we don’t like the New Parliament Building, it’s foundation laying ceremony should have been performed by the President of India.",Pro OPP,pro opposition,new parliament,"['ceremony', 'president', 'india']","[{'text': 'ceremony', 'score': 0.4795}, {'text': 'president', 'score': 0.3657}, {'text': 'india', 'score': 0.3401}]",Neutral ,no stance on new parliament being taken. 
+49030,"Dear people of India, the govt is reducing your take-home salary from April and building a new Parliament. Then they won't allow any debate in favour of you and pass laws against you favouring crony capitalists while you are the ones who are paying this govt's salary.",Pro OPP,pro opposition,new parliament,"['govt', 'india', 'salary']","[{'text': 'govt', 'score': 0.414}, {'text': 'india', 'score': 0.3723}, {'text': 'salary', 'score': 0.255}]",Against ,shows that Govt favors crony capitalists and stealing the money of people. 
+2728959,"📡LIVE Now📡 
+
+Prime Minister @narendramodi at the Celebration of the dedication of #NewParliamentBuilding to the Nation
+
+Watch on #PIB's
+
+Facebook: https://t.co/Y3o6hcqKRO
+YouTube: https://t.co/ZB14zwcAht",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'youtube']","[{'text': 'parliament', 'score': 0.5582}, {'text': 'narendramodi', 'score': 0.4941}, {'text': 'youtube', 'score': 0.3827}]",Neutral ,"no stance taken, only news delivered."
+2695303,"'Indelible signature of history': PM @narendramodi at inauguration of new Parliament building
+https://t.co/9Qx1rprkbh 
+
+via NaMo App https://t.co/Olus95Lx8m",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'signature']","[{'text': 'parliament', 'score': 0.5292}, {'text': 'narendramodi', 'score': 0.4903}, {'text': 'signature', 'score': 0.4552}]",For ,"calls it a ""indelible signature of history"". "
+2862255,"'Walking stick' will get its rightful place, says PM Modi ahead of establishing 'Sengol' in new Parliament building
+
+Read @ANI Story | https://t.co/ltg0JFtPWS
+#PMModi #Sengol #NewParliamentBuilding #SengolOfIndia https://t.co/UsekoDpFNq",Pro Ruling,pro ruling,new parliament,"['stick', 'india', 'building']","[{'text': 'stick', 'score': 0.4456}, {'text': 'india', 'score': 0.3139}, {'text': 'building', 'score': 0.2619}]",For ,shows how important artifact's rightful place is the new parliament building. 
+2770831,"PM @narendramodi went for a surprise visit of the new parliament building. He observed the faculties coming up at both the houses of the parliament.
+
+He also interacted with the construction workers. https://t.co/cp8hoQ7jxz",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'workers']","[{'text': 'parliament', 'score': 0.5272}, {'text': 'narendramodi', 'score': 0.3803}, {'text': 'workers', 'score': 0.2703}]",For ,shows how modi is involving everyone in the new endeavor. 
+2755804,"This weekend ahead of the new Parliament's grand opening I wrote this for @htTweets on #WrestlersProtest -BJP MP Brij Bhushan's rants against the women alleging abuse by him, really lower the dignity of any Parliament, new and old.   https://t.co/v6uFX8bck3",Pro OPP,pro opposition,new parliament,"['wrestlers', 'protest', 'httweets']","[{'text': 'wrestlers', 'score': 0.4452}, {'text': 'protest', 'score': 0.4421}, {'text': 'httweets', 'score': 0.3815}]",Against ,shows how the dignity of new parliament has been reduced. 
+2187848,"Important point by AGK Menon on the Sarnath lions on the new Parliament in @TheIndiaCable today. The National symbol issue is about politics, not aesthetics. https://t.co/DoD0JbrfHK",Pro OPP,pro opposition,new parliament,"['parliament', 'lions', 'theindiacable']","[{'text': 'parliament', 'score': 0.5426}, {'text': 'lions', 'score': 0.2845}, {'text': 'theindiacable', 'score': 0.2221}]",Neutral ,"no stance taken, only news delivered."
+770659,"Watch | Even as India is grappling with a devastating #coronavirus outbreak, 24/7 work continues on the new Parliament project
+
+NDTV's Sunil Prabhu reports https://t.co/zlngT302tY",Pro OPP,pro opposition,new parliament,"['coronavirus', 'continues', 'india']","[{'text': 'coronavirus', 'score': 0.4939}, {'text': 'continues', 'score': 0.4409}, {'text': 'india', 'score': 0.3941}]",Against ,shows how government is prioritising new building than the life of its citizens. 
+2718810,"Indian PM @narendramodi inaugurates #NewParliamentBuilding
+
+New Parliament can accommodate more members
+
+New Parliament to present India's growing population
+
+@eriknjoka joined by @sidhant, for details
+
+Watch more: https://t.co/AXC5qRuO3J https://t.co/lZcqv6viSa",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'growing']","[{'text': 'parliament', 'score': 0.5001}, {'text': 'narendramodi', 'score': 0.383}, {'text': 'growing', 'score': 0.1405}]",For ,shows benefits of new parliament. 
+2927350,Modi inaugurates India’s new parliament building with a bunch Hindu Brahmin priests-India is constitutionally still a secular country and Brahmins are only 3% of India’s population. https://t.co/8V4PAO1BhT,Pro OPP,pro opposition,new parliament,"['hindu', 'building', 'constitutionally']","[{'text': 'hindu', 'score': 0.4697}, {'text': 'building', 'score': 0.3022}, {'text': 'constitutionally', 'score': 0.2915}]",For,shows India to be secular. 
+2677949,"Q arises on inauguration of the new Parliament building on VD Savarkar birthday. Savarkar was to many a freedom revolutionary &amp; certainly a Hindutva ideologue, but what exactly was Savarkar’s contribution to parliamentary democracy? Parliament should logically be inaugurated on… https://t.co/LIcmqYTtOZ",Pro OPP,pro opposition,new parliament,"['parliament', 'hindutva', 'birthday']","[{'text': 'parliament', 'score': 0.4717}, {'text': 'hindutva', 'score': 0.2517}, {'text': 'birthday', 'score': 0.2075}]",Neutral ,no stance on new parliament being taken. 
+147779,"#DoYouKnow, the new Parliament Building will have 530 seats in Media and Public galleries in each house. #NewParliament4NewIndia https://t.co/4CSEan4yNw",Pro Ruling,pro ruling,new parliament,"['parliament', 'seats', 'india']","[{'text': 'parliament', 'score': 0.5843}, {'text': 'seats', 'score': 0.2928}, {'text': 'india', 'score': 0.2285}]",For ,shows scope of the building. 
+2664333,"SHOCKING DISCLOSURE:
+
+Proof that Hon'ble President of India was NOT INVITED for the inauguration of the new Parliament Building 👇
+
+👉 I'd filed an RTI with Rashtrapati Bhawan asking whether Hon'ble President of India received an invitation from (a) Prime Minister Modi, (b) Lok… https://t.co/oAeNzUC6bg https://t.co/NqZh7PmAAJ",Pro OPP,pro opposition,new parliament,"['president', 'india', 'invitation']","[{'text': 'president', 'score': 0.4589}, {'text': 'india', 'score': 0.4252}, {'text': 'invitation', 'score': 0.3468}]",Neutral ,no stance on new parliament being taken. 
+2695406,"Highlights of PM @narendramodi's address at the event of dedication of the New Parliament Building to the Nation.
+
+#MyParliamentMyPride #NewParliamentBuilding
+#SengolInParliament https://t.co/QpkC7attKv",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'new']","[{'text': 'parliament', 'score': 0.6611}, {'text': 'narendramodi', 'score': 0.4555}, {'text': 'new', 'score': 0.3428}]",For ,"hashtag suggests ""my parliament, my pride"". "
+2724261,"#KapilSibal took a swipe at the BJP over the new Parliament building's inauguration, saying he wants his India neither new nor old but one where Parliament is without religious rituals. https://t.co/Hk37bx49Xl",Pro OPP,pro opposition,new parliament,"['india', 'religious', 'neither']","[{'text': 'india', 'score': 0.388}, {'text': 'religious', 'score': 0.3418}, {'text': 'neither', 'score': 0.2252}]",Against ,says a parliament should be without religious rituals. 
+2225478,National Emblem on New Parliament of New India 🇮🇳 Jai Ho ❤️ #CentralVista https://t.co/XgWxxnrKDZ,Pro Ruling,pro ruling,new parliament,"['emblem', 'parliament', 'india']","[{'text': 'emblem', 'score': 0.6107}, {'text': 'parliament', 'score': 0.5728}, {'text': 'india', 'score': 0.4824}]",For ,shows pride.
+2765100,"Brij Bhushan was attending the inauguration of the new parliament.
+
+While women wrestlers protesting against him were being dragged by the police.",Pro OPP,pro opposition,new parliament,"['bhushan', 'protesting', 'wrestlers']","[{'text': 'bhushan', 'score': 0.453}, {'text': 'protesting', 'score': 0.405}, {'text': 'wrestlers', 'score': 0.3386}]",Against ,shows hypocricy of government. 
+2825316,No. Seriously. Why was the President of India not invited to inaugurate the new Parliament building??,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'invited']","[{'text': 'parliament', 'score': 0.4217}, {'text': 'india', 'score': 0.3126}, {'text': 'invited', 'score': 0.1389}]",Against ,shows how President of India was disrespected.
+14754,"Know more about the new #ParliamentBuilding 
+
+Check out the Video👇
+
+#PIBKochi @naqvimukhtar @KirenRijiju @loksabhatv @rajyasabhatv @LokSabhaSectt @loksabhaspeaker @MIB_India @MoHUA_India @pspoffice @airnewsalerts @shashidigital https://t.co/RfgbiQPtqx",Pro Ruling,pro ruling,new parliament,"['parliament', 'mib_india', 'pspoffice']","[{'text': 'parliament', 'score': 0.588}, {'text': 'mib_india', 'score': 0.3358}, {'text': 'pspoffice', 'score': 0.0893}]",Neutral ,"no stance taken, only news delivered."
+27828,"PM @narendramodi to lay the foundation stone of New #ParliamentBuilding at Sansad Marg. The new building is an intrinsic part of ‘#AatmanirbharBharat’ and will be a landmark opportunity to build peoples’ Parliament for the first time after independence 
+@PIB_India @airnewsalerts https://t.co/qIpQcdPpUy",Pro Ruling,pro ruling,new parliament,"['parliament', 'lay', 'pib_india']","[{'text': 'parliament', 'score': 0.5485}, {'text': 'lay', 'score': 0.2778}, {'text': 'pib_india', 'score': 0.2481}]",For ,"shows it as a ""landmark opportunity"". "
+2708077,"📡LIVE Now 📡
+
+Prime Minister @narendramodi inaugurates #NewParliamentBuilding 
+
+Watch on #PIB's📺
+
+Facebook: https://t.co/Y3o6hcqKRO
+YouTube: https://t.co/iblrv8xFoN",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'youtube']","[{'text': 'parliament', 'score': 0.5065}, {'text': 'narendramodi', 'score': 0.446}, {'text': 'youtube', 'score': 0.2303}]",Neutral ,"no stance taken, only news delivered."
+2756971,"Left: INSIDE the new parliament building
+
+Right: OUTSIDE the new parliament building.
+
+#ModiFailedIndia 
+#BJPSeBetiBachao https://t.co/WzSAOgrHSM",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'left']","[{'text': 'parliament', 'score': 0.5866}, {'text': 'india', 'score': 0.4942}, {'text': 'left', 'score': 0.4224}]",Against ,hashtag suggests how Modi has failed India. 
+2707247,"The most powerful message from all the images from the new Parliament is this picture. It serves as a reminder to us Indians of what was ours, what eventually will be ours.
+
+#MyParliamentMyPride https://t.co/oGcBFN1TTC",Pro Ruling,pro ruling,new parliament,"['parliament', 'indians', 'picture']","[{'text': 'parliament', 'score': 0.5522}, {'text': 'indians', 'score': 0.4886}, {'text': 'picture', 'score': 0.3768}]",For ,"hashtag suggests ""my parliament, my pride"". "
+2772552,Goosebumps.. The New Parliament is looking so Magnificient  &amp; GRAND almost like UN General Assembly Hall 😍 PM Modi is right - 28th May 2023 is HISTORIC IMMORTAL DAY in India's History. It is symbol of Taking Plan to Realisation 👏🇮🇳 #MyParliamentMyPride https://t.co/tFPJq92P2v https://t.co/5xTpAzNYS0,Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'goosebumps']","[{'text': 'parliament', 'score': 0.6064}, {'text': 'india', 'score': 0.3797}, {'text': 'goosebumps', 'score': 0.2023}]",For ,calls it magnificent and grand. 
+2498459,"Nepali citizens went to the polls to elect a new parliament, with the election being heavily influenced by popular discontent with the country's ageing political class.
+
+@alysonle brings you @murarka_saloni's report
+
+Watch more: https://t.co/dm7SyC01cG
+
+#NepalElections2022 https://t.co/2BV4sj2lHu",Pro Ruling,pro ruling,new parliament,"['elections', 'nepal', 'ageing']","[{'text': 'elections', 'score': 0.5594}, {'text': 'nepal', 'score': 0.5065}, {'text': 'ageing', 'score': 0.1556}]",Neutral ,no stance on new parliament being taken. 
+629456,"MLA Housing Projects in Maharashtra &amp; Rajasthan - ₹1166 cr.
+
+Cost of India’s new parliament building is  ₹862 cr.
+-  @HardeepSPuri
+
+Also Aditya Thackeray clears Rs 3693 crores to Renovate bungalows of Shivsena corporators. 
+
+असली कहानी 'घर-घर' की।",Pro Ruling,pro ruling,new parliament,"['housing', 'india', 'cost']","[{'text': 'housing', 'score': 0.5326}, {'text': 'india', 'score': 0.3554}, {'text': 'cost', 'score': 0.3545}]",Against ,shows how much money is being spent. 
+2676192,"While Modi was inaugurating his new Parliament, this is what his police was doing with India’s top sports women and men! https://t.co/f7LLAPwd4C",Pro OPP,pro opposition,new parliament,"['police', 'india', 'parliament']","[{'text': 'police', 'score': 0.4602}, {'text': 'india', 'score': 0.3758}, {'text': 'parliament', 'score': 0.3659}]",Against ,shows how the new parliament opening coincided with the government also carrying out assault. 
+2697160,"India to soon get new Parliament.
+
+Not sure about democracy.",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.5012}, {'text': 'india', 'score': 0.4382}, {'text': 'new', 'score': 0.2128}]",Against ,claims that a new parliament does not mean a new democracy. 
+2655930,"Tension prevailed at Jantar Mantar on Sunday when protesters marched towards the new Parliament to demand the arrest of the #WFI chief, with many protestors like #VineshPhogat and #SakshiMalik being detained.
+📸: Sushil Kumar Verma, AFP, PTI, ANI
+https://t.co/ds0joykixw https://t.co/64X9KL9PLL",Pro OPP,pro opposition,new parliament,"['protesters', 'tension', 'sushil']","[{'text': 'protesters', 'score': 0.5649}, {'text': 'tension', 'score': 0.5063}, {'text': 'sushil', 'score': 0.029}]",Neutral ,"no stance taken, only news delivered."
+2761378,When Cong opposes PM @narendramodi ‘s move to inaugurate new Parliament building on Savarkar jayanti let it know that Savarkar the democrat had said that Opposition Party should be called Minority Party becoz ‘opposition’ connotes opposing even good that ruling party does. So apt… https://t.co/Quq0nFcp1O https://t.co/CbCZD7Junx,Pro Ruling,pro ruling,new parliament,"['opposition', 'narendramodi', 'new']","[{'text': 'opposition', 'score': 0.6002}, {'text': 'narendramodi', 'score': 0.2998}, {'text': 'new', 'score': 0.1481}]",For ,"shows that parliament is something ""good"" that ruling party has done. "
+2695343,"The day was teeming with moments that will forever be etched in memory! Indeed, it was a day destined to be inscribed in the annals of history, marking the dawn of #NewIndia's golden age.
+
+#MyParliamentMyPride #NewParliamentBuilding
+#SengolInParliament https://t.co/Fg2c3TXWka",Pro Ruling,pro ruling,new parliament,"['day', 'parliament', 'india']","[{'text': 'day', 'score': 0.4754}, {'text': 'parliament', 'score': 0.4589}, {'text': 'india', 'score': 0.3629}]",For ,"hashtag suggests ""my parliament, my pride"". "
+2931522,"So @narendramodi inaugurating the #NewParliamentBuilding is a sign of megalomania, but Nehru giving Nehru a Bharatratna is a gesture of rare humility? This meme really cracks me up, coz it shows exactly the kind of a man Chacha was! https://t.co/AZRtPlogyV",Pro Ruling,pro ruling,new parliament,"['narendramodi', 'parliament', 'meme']","[{'text': 'narendramodi', 'score': 0.5736}, {'text': 'parliament', 'score': 0.4819}, {'text': 'meme', 'score': 0.2906}]",For ,defends Modi.
+207367,"""It won't be long before the world would say that India is the Mother of Democracy.""- PM @narendramodi. Watch this video to know more. #NewParliament4NewIndia https://t.co/TNjgeCxW5I",Pro Ruling,pro ruling,new parliament,"['india', 'democracy', 'video']","[{'text': 'india', 'score': 0.5719}, {'text': 'democracy', 'score': 0.4871}, {'text': 'video', 'score': 0.2706}]",For ,"hashtag suggests ""new parliament for new india"". "
+2764580,"When u look at images of New Parliament building remember - Same time when Indians were dying during pandemic, struggling for oxygen, losing loved ones and Govt was asking for donations to save lives, this building which was not even needed, was being built at exorbitant cost",Pro OPP,pro opposition,new parliament,"['building', 'indians', 'dying']","[{'text': 'building', 'score': 0.4816}, {'text': 'indians', 'score': 0.342}, {'text': 'dying', 'score': 0.3151}]",Against ,shows how government is prioritising new building than the life of its citizens. 
+1824113,"#AmritMahotsav | The new #Parliament House should naturally be equipped with state-of-the-art technology solutions to deliver altogether new experience to all its members, citizens &amp; other stakeholders. #DigitalSansad will match the needs &amp; aspiration of #NewIndia! @Rajeev_GoI https://t.co/hjgzzK6CHm",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'digital']","[{'text': 'parliament', 'score': 0.5597}, {'text': 'india', 'score': 0.3389}, {'text': 'digital', 'score': 0.2788}]",For ,shows promise of new parliament. 
+9871,"We, the people of India, take this pledge that nothing will be more important to us than the unity, integrity of the country: PM @narendramodi #NewParliament4NewIndia",Pro Ruling,pro ruling,new parliament,"['india', 'pledge', 'nothing']","[{'text': 'india', 'score': 0.5169}, {'text': 'pledge', 'score': 0.4112}, {'text': 'nothing', 'score': 0.1901}]",For ,"hashtag suggests ""new parliament for new india"". "
+2761639,"PM @narendramodi went for a surprise visit to the new Parliament building.
+
+He spent more than an hour and inspected various works along with observing the facilities coming up at both houses of the Parliament; Also interacted with the construction workers. https://t.co/pjg49LnFnH",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'workers']","[{'text': 'parliament', 'score': 0.4688}, {'text': 'narendramodi', 'score': 0.4012}, {'text': 'workers', 'score': 0.3106}]",For ,shows how much modi is involved and careful.
+2862336,"Pandit Nehru, Rajiv Gandhi, Indira Gandhi all have lead inaguration ceremonies inside the Parliament. Why such a hue&amp; cry over PM @narendramodi inaugurating  #NewParliamentBuilding on 28th May?  How far will the Opposition go to expose it's jealousy against PM Modi! https://t.co/pREAPpNdie",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'jealousy']","[{'text': 'parliament', 'score': 0.5656}, {'text': 'narendramodi', 'score': 0.4088}, {'text': 'jealousy', 'score': 0.1823}]",For ,claims that congress is just jealous of Modi.
+2815084,"India's tallest leader, the first Prime Minister of independent India, Jawaharlal Nehru, was cremated on 28 May.
+Narendra Modi chose the same day to inaugurate the so-called new parliament house!",Pro OPP,pro opposition,new parliament,"['leader', 'india', 'cremated']","[{'text': 'leader', 'score': 0.4577}, {'text': 'india', 'score': 0.3152}, {'text': 'cremated', 'score': 0.2917}]",Against ,shows the negative dual meaning behind the date of parliament inaugration. 
+2695302,"PM @narendramodi felicitates 'Shramiks' who built new Parliament building
+https://t.co/7nsfRQExcT 
+
+via NaMo App https://t.co/2Rl9TvskCq",Pro Ruling,pro ruling,new parliament,"['narendramodi', 'building', 'app']","[{'text': 'narendramodi', 'score': 0.4063}, {'text': 'building', 'score': 0.395}, {'text': 'app', 'score': 0.1454}]",For ,shows how modi is involving everyone in the new endeavor. 
+2750296,"Did you know that India had built Afghanistan parliament
+
+This project was started by Sonia Gandhi's govt
+
+When parliament was ready, around Rs 1,000 crore was spent
+
+Today, same Congress is against India's new parliament building which is built at lower cost (as per inflation)",Pro Ruling,pro ruling,new parliament,"['congress', 'afghanistan', 'inflation']","[{'text': 'congress', 'score': 0.4984}, {'text': 'afghanistan', 'score': 0.2701}, {'text': 'inflation', 'score': 0.2132}]",For ,shows hypocricy of Congress. 
+2868861,"#WATCH | First look at the New Parliament building that will be inaugurated by PM @narendramodi on May 28.
+
+#NewParliamentBuilding https://t.co/OxlIXmzf8H",Pro Ruling,pro ruling,new parliament,"['parliament', 'new', 'narendramodi']","[{'text': 'parliament', 'score': 0.5755}, {'text': 'new', 'score': 0.3123}, {'text': 'narendramodi', 'score': 0.2805}]",Neutral ,"no stance taken, only news delivered."
+726855,"Kudos to Meghalaya Governor SP Malik who again attacked the govt over the issue of the farm laws, saying that it will have to eventually concede to the demands of farmers &amp; that it should have invested in world class colleges rather than a new Parliament https://t.co/FORC5baBth",Pro OPP,pro opposition,new parliament,"['farmers', 'parliament', 'attacked']","[{'text': 'farmers', 'score': 0.3844}, {'text': 'parliament', 'score': 0.3043}, {'text': 'attacked', 'score': 0.1186}]",Against ,"says ""kudos"" to the governor condemning the large amounts of money spent on the new parliament. "
+296242,Glance through to know the importance of the new Parliament Building and why it is being built. #NewParliament4NewIndia https://t.co/UH0BJeIGlW,Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.6207}, {'text': 'india', 'score': 0.3962}, {'text': 'new', 'score': 0.3057}]",For ,"hashtag suggests ""new parliament for new india"". "
+599898,Save the Parliament House precinct. It is a symbol of our freedom. We don’t need a India does not need a new Parliament House and precinct.,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'save']","[{'text': 'parliament', 'score': 0.5388}, {'text': 'india', 'score': 0.3537}, {'text': 'save', 'score': 0.212}]",Against ,claims that India does not need a new parliament. 
+2814578,"The Hon’ble President of India will inaugurate a new building in the Jharkhand High Court today. 
+
+But the new Parliament inauguration is reserved for PM Modi by sidelining the President. 
+
+Unacceptable. https://t.co/w2n7xL8mec",Pro OPP,pro opposition,new parliament,"['inauguration', 'india', 'sidelining']","[{'text': 'inauguration', 'score': 0.4998}, {'text': 'india', 'score': 0.3019}, {'text': 'sidelining', 'score': 0.0651}]",Against ,shows how President of India was disrespected.
+1853182,"From Gandhi to Godse; From our national emblem with lions sitting majestically &amp; peacefully; to the new national emblem unveiled for the top of the new Parliament building under construction at Central Vista; Angry lions with bared fangs.
+This is Modi's new India! https://t.co/cWAduxPlWR",Pro OPP,pro opposition,new parliament,"['india', 'emblem', 'lions']","[{'text': 'india', 'score': 0.5153}, {'text': 'emblem', 'score': 0.4775}, {'text': 'lions', 'score': 0.4033}]",Against ,angry at modi's idea of new India. 
+218445,"#DoYouKnow, the new Parliament Building will have two separate designated entrances that will provide secure access to the Public Galleries. #NewParliament4NewIndia https://t.co/o1VDgqOwzg",Pro Ruling,pro ruling,new parliament,"['parliament', 'secure', 'india']","[{'text': 'parliament', 'score': 0.5592}, {'text': 'secure', 'score': 0.2582}, {'text': 'india', 'score': 0.2334}]",For ,"hashtag suggests ""new parliament for new india"". "
+2118090,"PM @narendramodi unveils National Emblem cast on the roof of the new Parliament Building
+
+Prime Minister also interacts with the Shramjeevis involved in the making of the Parliament
+
+Read here: https://t.co/fDelsdHh0s https://t.co/YRNaOVsqNp",Pro Ruling,pro ruling,new parliament,"['narendramodi', 'emblem', 'roof']","[{'text': 'narendramodi', 'score': 0.4889}, {'text': 'emblem', 'score': 0.4009}, {'text': 'roof', 'score': 0.2868}]",For ,shows how modi is involving everyone in the new endeavor. 
+102615,"Do you know?
+
+The theme of the Rajya Sabha is inspired by the National Flower of India - the Lotus, in the New Parliament Building.
+
+#NewParliament4NewIndia #NewParliamentBuilding https://t.co/TlubXau6oP",Pro Ruling,pro ruling,new parliament,"['india', 'parliament', 'theme']","[{'text': 'india', 'score': 0.5316}, {'text': 'parliament', 'score': 0.4426}, {'text': 'theme', 'score': 0.4409}]",For ,"hashtag suggests ""new parliament for new india"". "
+2786863,"Left: INSIDE the new parliament building
+
+Right: OUTSIDE the new parliament building.
+
+#ModiFailedIndia 
+
+It has always been #BJPSeBetiBachao. https://t.co/XjKOSTLLQZ https://t.co/LoyaXBltQ8",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'left']","[{'text': 'parliament', 'score': 0.5223}, {'text': 'india', 'score': 0.4825}, {'text': 'left', 'score': 0.4449}]",Against ,hashtag suggests how Modi has failed India. 
+2707243,"Rahul Gandhi mocks Sengol and Hindu culture in San Francisco, claims BJP wants to distract the public from ‘real issues’ using New Parliament Building
+
+https://t.co/9138wx0Hwt",Pro Ruling,pro ruling,new parliament,"['hindu', 'distract', 'real']","[{'text': 'hindu', 'score': 0.4466}, {'text': 'distract', 'score': 0.3009}, {'text': 'real', 'score': 0.2129}]",Neutral ,"no stance taken, only news delivered."
+2766000,"What's the significance of 28th May to inaugurate the new parliament &amp; his new palace, by Tinpot Shahenshah? 
+
+28th May 1964 was the day when Nehru was cremated, mourned by crores of Indians.
+
+Petty &amp; vicious pracharaks always remain petty &amp; vicious in all matters. https://t.co/6J1Hi0aOhP",Pro OPP,pro opposition,new parliament,"['parliament', 'indians', 'cremated']","[{'text': 'parliament', 'score': 0.4828}, {'text': 'indians', 'score': 0.4115}, {'text': 'cremated', 'score': 0.2496}]",Against ,shows the negative dual meaning behind the date of parliament inaugration. 
+892109,"PM Modi Inspects Construction Works Of The New parliament Building in New Delhi. 🇮🇳
+
+Dear PM @narendramodi Ji Please Take Some Rest. ❤🙏 https://t.co/CwEFv44ztU",Pro Ruling,pro ruling,new parliament,"['construction', 'parliament', 'narendramodi']","[{'text': 'construction', 'score': 0.487}, {'text': 'parliament', 'score': 0.4316}, {'text': 'narendramodi', 'score': 0.3871}]",For ,shows how Modi is working so much and should take some rest. 
+27825,Here’s how the New Parliament Building will be technologically advanced. #NewParliament4NewIndia https://t.co/uahUTOZSPu,Pro Ruling,pro ruling,new parliament,"['parliament', 'technologically', 'india']","[{'text': 'parliament', 'score': 0.5564}, {'text': 'technologically', 'score': 0.3565}, {'text': 'india', 'score': 0.3223}]",For ,"hashtag suggests ""new parliament for new india"". "
+2726548,"After protests from Nepal and Pakistan, Bangladesh govt seeks clarification from MEA on ‘Akhand Bharat’ map in new Parliament building. Minister called map a ""clear resolve"" on undivided India, MEA said only depicts Mauryan period. @janusmyth reports
+https://t.co/xAk2e1jaUW",Pro OPP,pro opposition,new parliament,"['india', 'map', 'protests']","[{'text': 'india', 'score': 0.5412}, {'text': 'map', 'score': 0.3923}, {'text': 'protests', 'score': 0.1558}]",Neutral ,"no stance taken, only news delivered."
+1734831,"Bigger fundamental Q here should be not what Sonia said but how come a party,as small as Cong with only 87 MPs (53 LS &amp; 34 RS) didn’t get space other than central hall!
+
+Esp given how @INCIndia &amp; it’s family is @ the forefront of campaign against construction of new parliament! https://t.co/586OkdhYmB",Pro Ruling,pro ruling,new parliament,"['parliament', 'small', 'incindia']","[{'text': 'parliament', 'score': 0.5387}, {'text': 'small', 'score': 0.3326}, {'text': 'incindia', 'score': 0.2354}]",For ,shows hypocricy of Congress. 
+2737171,"🎥Glimpses of the New Parliament building that will be inaugurated by PM @narendramodi on May 28
+
+#Parliament
+#MyParliamentMyPride https://t.co/PPdb28h4H8",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'pride']","[{'text': 'parliament', 'score': 0.6456}, {'text': 'narendramodi', 'score': 0.3663}, {'text': 'pride', 'score': 0.3166}]",For ,"hashtag suggests ""my parliament, my pride"". "
+147143,Take a look to know about some facts everyone should know about the new Parliament Building. #NewParliament4NewIndia https://t.co/W2jQ8wMAdH,Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.5581}, {'text': 'india', 'score': 0.3489}, {'text': 'new', 'score': 0.3335}]",For ,"hashtag suggests ""new parliament for new india"". "
+702711,"They chose Statue over Vaccine.
+
+They chose New parliament over Hospitals.
+
+They chose Religion over Oxygen.
+
+ #टिक_नहीं_टीका_चाहिए",Pro OPP,pro opposition,new parliament,"['parliament', 'vaccine', 'oxygen']","[{'text': 'parliament', 'score': 0.4225}, {'text': 'vaccine', 'score': 0.3226}, {'text': 'oxygen', 'score': 0.1822}]",Against ,shows how government is prioritising new building than the life of its citizens. 
+2766854,"A beautiful short film depicting the historical significance of the sacred #Sengol and how it came to symbolize the transfer of power from the British to #India.
+
+#SengolAtNewParliament
+#SceptreofSovereignty https://t.co/syKxKugh8f",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'transfer']","[{'text': 'parliament', 'score': 0.4685}, {'text': 'india', 'score': 0.4387}, {'text': 'transfer', 'score': 0.2575}]",For ,shows the historical significance of Sengol in Parliament. 
+2666972,"BJP-led India where a tribal woman is sidelined, even when she is the President.
+
+Stand up for your rights, Honourable #PresidentMurmu. Make a statement that you will inaugurate the #NewParliamentBuilding. The country is with you. 
+
+#SpeakMurmu @rashtrapatibhvn https://t.co/XcqCjEvBlV",Pro OPP,pro opposition,new parliament,"['india', 'president', 'sidelined']","[{'text': 'india', 'score': 0.5828}, {'text': 'president', 'score': 0.234}, {'text': 'sidelined', 'score': 0.2259}]",Against ,shows how President of India was disrespected.
+213534,"Keeping in mind the current situation of the present Parliament, let's take a look at the comprehensive planning that went behind building the architectural plan of the new Parliament building #NewParliament4NewIndia https://t.co/LxJwXx9ltE",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'current']","[{'text': 'parliament', 'score': 0.5933}, {'text': 'india', 'score': 0.2974}, {'text': 'current', 'score': 0.1193}]",For ,"hashtag suggests ""new parliament for new india"". "
+2674212,"Amidst the political controversy regarding the new Parliament building being inaugurated by the Prime Minister, a Public Interest Litigation has been filed in the Supreme Court seeking a direction that the inauguration should be done by the President of India.
+
+Read more:… https://t.co/0RPGTbHl4t https://t.co/76YuPd185X",Pro OPP,pro opposition,new parliament,"['inauguration', 'litigation', 'india']","[{'text': 'inauguration', 'score': 0.4468}, {'text': 'litigation', 'score': 0.4014}, {'text': 'india', 'score': 0.3425}]",Against ,shows how President of India was disrespected.
+2667980,"""New Parliament building will make every Indian proud"": PM Modi
+
+Read @ANI Story | https://t.co/GBMIgWzcil
+#PMModi #NewParliamentBuilding https://t.co/IirSrAjnsr",Pro Ruling,pro ruling,new parliament,"['parliament', 'indian', 'proud']","[{'text': 'parliament', 'score': 0.559}, {'text': 'indian', 'score': 0.4267}, {'text': 'proud', 'score': 0.3232}]",For ,claims that new parliament building will make every Indian proud. 
+2788172,I have not came across a single argument on why the President of India should not inaugurate the New Parliament building.,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.3653}, {'text': 'india', 'score': 0.2295}, {'text': 'new', 'score': 0.1207}]",Against ,shows how President of India was disrespected.
+337885,"I'm all for a new Parliament House. There was an open tender for design. Anybody could have bid.
+My only regret is that Delhi remains the Capital of #India Hopefully this nation will have a new Capital some day which is not dotted by relics of its past of subjugation and slavery. https://t.co/Kj9SUrhghO",Pro Ruling,pro ruling,new parliament,"['capital', 'india', 'remains']","[{'text': 'capital', 'score': 0.464}, {'text': 'india', 'score': 0.2959}, {'text': 'remains', 'score': 0.1729}]",For ,"""all for new parliament house"". "
+2010013,@narendramodi @PMOIndia The concept sketch and process of casting of the National Emblem on the roof of New Parliament Building has gone through eight different stages of preparation from clay modeling/computer graphic to bronze casting and polishing. https://t.co/sCWHMufa2J,Pro Ruling,pro ruling,new parliament,"['sketch', 'roof', 'narendramodi']","[{'text': 'sketch', 'score': 0.5416}, {'text': 'roof', 'score': 0.3389}, {'text': 'narendramodi', 'score': 0.2776}]",For ,shows precision that went into the making of it. 
+2894682,"PM, not President, Inaugurating New Parliament Building is at Odds with the Constitution of India.
+
+Tinpot Shahenshahs not welcome in democratic India. https://t.co/DapzsUS9Oh",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'shahenshahs']","[{'text': 'parliament', 'score': 0.4994}, {'text': 'india', 'score': 0.3257}, {'text': 'shahenshahs', 'score': 0.2591}]",Against ,shows how President of India was disrespected.
+2658493,"What a magnificent new home for the people who uphold our Constitution, represent every citizen of this great Nation and protect the diversity of her one People @narendramodi ji. 
+A new Parliament building for a New India but with the age old dream of Glory for India. Jai Hind!… https://t.co/OgafXSFoOn https://t.co/FjXFZwYk2T",Pro OPP,pro opposition,new parliament,"['home', 'narendramodi', 'constitution']","[{'text': 'home', 'score': 0.4821}, {'text': 'narendramodi', 'score': 0.4726}, {'text': 'constitution', 'score': 0.4523}]",For ,"""magnificent"". "
+1543946,"Dear PM @narendramodi, did you know that the architect who designed the collapsed NAMO medical college building is the architect for new parliament as well?
+
+What if the slab had fallen after medical college had started?
+
+What if the slab falls when parliament is in session? https://t.co/3LiIwLagB8 https://t.co/maKerPqjzR",Pro OPP,pro opposition,new parliament,"['architect', 'narendramodi', 'falls']","[{'text': 'architect', 'score': 0.4897}, {'text': 'narendramodi', 'score': 0.2491}, {'text': 'falls', 'score': 0.194}]",Against ,questions the sturdiness of the building. 
+2687661,"Opposition parties lead by Indian National congress will boycott the inauguration of new parliament by PM Modi for disrespecting &amp; undermining the importance of honorable President of India ! 
+
+This is not acceptable in a democracy where autocracy is followed by an elected Govt,… https://t.co/GrObZCpvj6 https://t.co/jpkIDmi2wK",Pro OPP,pro opposition,new parliament,"['opposition', 'congress', 'india']","[{'text': 'opposition', 'score': 0.4188}, {'text': 'congress', 'score': 0.3989}, {'text': 'india', 'score': 0.2985}]",Against ,shows how President of India was disrespected.
+1129653,"#IEWorld | Bulgarians are electing a new parliament after months of anti-government protests. 
+
+https://t.co/zySesAvlqW",Pro OPP,pro opposition,new parliament,"['bulgarians', 'government', 'protests']","[{'text': 'bulgarians', 'score': 0.5599}, {'text': 'government', 'score': 0.2271}, {'text': 'protests', 'score': 0.1619}]",Neutral ,no stance on new parliament being taken. 
+2665648,"We all witnessed the 'Sengol' getting installed in the new Parliament which will be the testimony to our PM's inclusive view of India, Now lets meet the man who crafted this Symbol of rule:
+
+Shri Vummidi Ethirajulu was just around 20 years old when he made the Sengol with his… https://t.co/OUsyEYlMiO https://t.co/tlyO7lPlgr",Pro Ruling,pro ruling,new parliament,"['sengol', 'india', 'old']","[{'text': 'sengol', 'score': 0.5172}, {'text': 'india', 'score': 0.3975}, {'text': 'old', 'score': 0.3615}]",For ,shows inclusivity in new parliament. 
+817503,"Over 100 of Chinese soldiers entered in Uttarakhand Barahoti , destroyed infrastructure and then returned but our PM Modi is silent and visited the constructed area of  new parliament building .
+
+Why Modi is afraid of taking the name of China?
+
+#BorderKhatreMeHai https://t.co/ylSYAF2Kv0",Pro OPP,pro opposition,new parliament,"['china', 'soldiers', 'destroyed']","[{'text': 'china', 'score': 0.5705}, {'text': 'soldiers', 'score': 0.1896}, {'text': 'destroyed', 'score': 0.1161}]",Neutral ,no stance on new parliament being taken. 
+2467908,9 pm: News Today: BJP gets a new parliamentary board: key takeaways; Bilkis Bano and the politics of rape: what happens to ‘nari shakti’ in this case? Why is Cong split wide open in Rajasthan over the death of a Dalit student? @IndiaToday at 9: News without the noise. https://t.co/4iL5VnyHpz,Pro OPP,pro opposition,new parliament,"['indiatoday', 'split', 'board']","[{'text': 'indiatoday', 'score': 0.5063}, {'text': 'split', 'score': 0.2709}, {'text': 'board', 'score': 0.229}]",Neutral ,"no stance taken, only news delivered "
+876214,Reportedly ₹3693 Cr Cleared by Aditya Thackeray for Renovation of Shiv Sena MLA / MC Bunglows But Protests for New Parliament Building of India under #CentralVistaProject Costing ₹862 cr will Go on,Pro Ruling,pro ruling,new parliament,"['renovation', 'protests', 'india']","[{'text': 'renovation', 'score': 0.4044}, {'text': 'protests', 'score': 0.3548}, {'text': 'india', 'score': 0.3478}]",For ,shows hypocricy with the criticism of new parliament building costs. 
+2697381,"The country is heading towards documenting the day of inauguration as the “Blackest Day” in the History of Indepent India, by not inviting the President of India to the Inauguration Ceremony.
+ #NewParliamentBuilding https://t.co/YUH7I6PrXR",Pro OPP,pro opposition,new parliament,"['inauguration', 'india', 'blackest']","[{'text': 'inauguration', 'score': 0.5849}, {'text': 'india', 'score': 0.4007}, {'text': 'blackest', 'score': 0.3273}]",Against ,"calls inaugration of new parliament as ""blackest day"". "
+2829501,"#SengolAtNewParliament | The ‘Sengol’, represents the values of fair and equitable governance.
+
+It will shine near the Lok Sabha Speaker's podium as a national symbol of the #AmritKaal, an era that will witness the new India taking its rightful place in the world. 
+
+#Sengol https://t.co/o1LNIsC7yK",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'kaal']","[{'text': 'parliament', 'score': 0.5598}, {'text': 'india', 'score': 0.3761}, {'text': 'kaal', 'score': 0.0367}]",For ,shows how new parliament building has important emblems like Sengol which encompass its values of fair and equitable governance. 
+2883927,The real problem is that they are unable to reconcile the fact that anybody without the blessings of ruler gandhi parivar can inaugurate the new Parliament of India- CM Himanta Biswa Sarma https://t.co/p3rbxxQwzp,Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'real']","[{'text': 'parliament', 'score': 0.5211}, {'text': 'india', 'score': 0.3248}, {'text': 'real', 'score': 0.1462}]",For ,makes comment against how Gandhi family is creating problems. 
+2716144,"Liberals opposed Bhoomi Pujan of Parliament saying it is against a secular Parliament.
+
+Then Modiji planned to keep Hindu Sengol in Parliament.
+
+Now did Havana, Vedic Chants at New Parliament. https://t.co/2LhzOAGtEn",Pro Ruling,pro ruling,new parliament,"['parliament', 'hindu', 'keep']","[{'text': 'parliament', 'score': 0.449}, {'text': 'hindu', 'score': 0.3675}, {'text': 'keep', 'score': 0.0765}]",Against ,shows how modi went against secularism by promoting hinduism for new parliament building. 
+44502,"PM @narendramodi lays foundation stone of the new #Parliament building near #IndiaGate.
+
+#NewParliamentBuilding #NewParliament4NewIndia #NewParliament 
+
+https://t.co/y96OS7dyin",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', 'stone']","[{'text': 'parliament', 'score': 0.5495}, {'text': 'narendramodi', 'score': 0.3919}, {'text': 'stone', 'score': 0.3768}]",For ,"hashtag suggests ""new parliament for new india"". "
+1061180,"@ombirlakota No need to waste Rs.20000 Cr. on new Parliament building as below article shows #world has more #older parliament and still working hence  money should be used to help fight covid19 and feed poor @SCBA_INDIA @TheRahulMehra @TheLeaflet_in 
+
+https://t.co/JkdMglbiUA",Pro OPP,pro opposition,new parliament,"['parliament', 'scba_india', '20000']","[{'text': 'parliament', 'score': 0.5551}, {'text': 'scba_india', 'score': 0.2584}, {'text': '20000', 'score': 0.2015}]",Against ,claims that money should not be wasted on such a building but spent towards saving citizens from covid. 
+1575700,India commentary in western media is epic! Today I learned that building new parliament building to accommodate soon to be increased no. of parliamentarians is actually 'genocide of 200 mn Muslims'! This is even better than nuclear deal being anti-Muslim during Manmohan's govt.,Pro Ruling,pro ruling,new parliament,"['parliament', 'muslims', 'india']","[{'text': 'parliament', 'score': 0.4727}, {'text': 'muslims', 'score': 0.4646}, {'text': 'india', 'score': 0.3372}]",For ,mocks how India's commentary in Western media is false. 
+2671012,"As he prepares to inaugurate the new Parliament House (though Parliament hardly functions), with great fanfare with these 'sadhus' &amp; religious 'pontiffs', (minus our President &amp; Opp parties), Modi gives us a glimpse of the New India that he wants.
+Our Constitution doesn't permit… https://t.co/qRbN5sZzgh https://t.co/FMUmiNUpmY",Pro OPP,pro opposition,new parliament,"['constitution', 'india', 'new']","[{'text': 'constitution', 'score': 0.5288}, {'text': 'india', 'score': 0.3932}, {'text': 'new', 'score': 0.2491}]",Against ,shows how the new parliament goes against a lot of the values in the constitution. 
+1900662,"PM @narendramodi unveiled the National Emblem cast on the roof of the New Parliament Building today morning.
+
+He also interacted with the Shramjeevis involved in the work of the new Parliament.
+
+@PMOIndia https://t.co/FiIgvupCsm",Pro Ruling,pro ruling,new parliament,"['narendramodi', 'emblem', 'roof']","[{'text': 'narendramodi', 'score': 0.4668}, {'text': 'emblem', 'score': 0.4443}, {'text': 'roof', 'score': 0.3357}]",For ,shows how modi is involving everyone in the new endeavor. 
+2754438,"PM @narendramodi honouring the workers who created the gorgeous building that is our new Parliament. #MyParliamentMyPride 
+
+https://t.co/IxD5BOXnu0",Pro Ruling,pro ruling,new parliament,"['parliament', 'workers', 'narendramodi']","[{'text': 'parliament', 'score': 0.5936}, {'text': 'workers', 'score': 0.3583}, {'text': 'narendramodi', 'score': 0.3436}]",For ,"hashtag suggests ""my parliament, my pride"". "
+2786865,A scuffle broke out between the protesting wrestlers and the police at Jantar Mantar as they tried to march towards the new Parliament from their protest site at #JantarMantar. #WrestlersProtest #WFI https://t.co/wPt73FU7Bf,Pro OPP,pro opposition,new parliament,"['wrestlers', 'protesting', 'scuffle']","[{'text': 'wrestlers', 'score': 0.5218}, {'text': 'protesting', 'score': 0.4839}, {'text': 'scuffle', 'score': 0.4116}]",Neutral ,"no stance taken, only news delivered "
+1258187,"Income tax payers in India do not get:
+- Free medical facilities
+- Free education 
+- Post retirement benefits
+And now
+- No vaccine
+
+What's the use of paying income tax? Do we pay income tax for Prime minister's Aeroplane, his Palace or new Parliament? 
+For what?",Pro OPP,pro opposition,new parliament,"['tax', 'aeroplane', 'vaccine']","[{'text': 'tax', 'score': 0.6019}, {'text': 'aeroplane', 'score': 0.1272}, {'text': 'vaccine', 'score': 0.071}]",Against ,shows how PM is looting indian tax payers. 
+167504,"We, the people of India, will together build this new building of our #Parliament.
+
+New building of our Parliament will be the true inspiration of festival When India celebrates 75 years of its Independence:PM @narendramodi 
+
+#NewParliament https://t.co/BLypxXhmzc",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'celebrates']","[{'text': 'parliament', 'score': 0.5515}, {'text': 'india', 'score': 0.4349}, {'text': 'celebrates', 'score': 0.4327}]",For ,building is seen as inspiring. 
+28288,"Hon’ble Prime Minister, Shri @narendramodi will perform Bhumi pujan of the new Parliament building on 10 December. Construction work is likely to be completed by October 2022. On 75th anniversary of our Independence, Session will be held in the new Parliament. 
+#NewParliament https://t.co/bHiqASizPx",Pro Ruling,pro ruling,new parliament,"['parliament', 'narendramodi', '2022']","[{'text': 'parliament', 'score': 0.4911}, {'text': 'narendramodi', 'score': 0.4198}, {'text': '2022', 'score': 0.2688}]",For ,tone shows respect and favour. 
+2707249,"The beginning of a new era for India, shedding off the baggage of colonial past. The new Parliament lays a strong foundation of a Developed, self reliant Bharat connected to its roots and aspiring to rule the skies. 
+#MyParliamentMyPride https://t.co/7SdAdpUNkF",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'skies']","[{'text': 'parliament', 'score': 0.5386}, {'text': 'india', 'score': 0.5}, {'text': 'skies', 'score': 0.1214}]",For ,shows how the new building is the mark of a new era to shed off India's colonial past. 
+1764623,"Supreme Court gives go-ahead for Modi’s Central Vista project and new Parliament. No time for human rights, Kashmir, Art 370, CAA, Farm Acts — but super speed for Modi, Arnab. Why not merge the Court and Govt?  https://t.co/CdUmUJbZyg",Pro OPP,pro opposition,new parliament,"['supreme', 'kashmir', 'speed']","[{'text': 'supreme', 'score': 0.4614}, {'text': 'kashmir', 'score': 0.2776}, {'text': 'speed', 'score': 0.1282}]",Against ,shows how even supreme court favours new parliament buildings over human rights and other critical protests. 
+668694,PM @narendramodi visits construction site of the new parliament building. https://t.co/hd2dUrkpVD,Pro Ruling,pro ruling,new parliament,"['building', 'narendramodi', 'visits']","[{'text': 'building', 'score': 0.5004}, {'text': 'narendramodi', 'score': 0.4127}, {'text': 'visits', 'score': 0.3632}]",Neutral ,"no stance taken, only news delivered "
+479579,"The new Parliament building is needed because India is a democracy in which every Tom, Dick and Haasan can question why a new Parliament building is needed. 
+
+https://t.co/XJZxhQ9C0b",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.5336}, {'text': 'india', 'score': 0.3114}, {'text': 'new', 'score': 0.2191}]",For ,sarcastically shows why new parliament is needed. 
+2688266,"BJP claims that Hon'ble President of India was invited for the inauguration of new Parliament building on 28th May.
+
+BJP have insulted the office of @rashtrapatibhvn by announcing the inauguration at the hands of PM Modi instead.
+
+What's the truth?
+
+Have filed an RTI with… https://t.co/Ayixvs7iUe https://t.co/Tqg4iupbjq",Pro OPP,pro opposition,new parliament,"['inauguration', 'india', 'insulted']","[{'text': 'inauguration', 'score': 0.4857}, {'text': 'india', 'score': 0.4568}, {'text': 'insulted', 'score': 0.1492}]",Neutral ,"no stance taken, only news delivered "
+24654,This BJP leader should be expelled for not having watched @narendramodi on national television as Prime Minister of India at a full Hindu ritual during the foundation stone ceremony for his new Ram temple and new parliament. https://t.co/z1p3BtAvuY,Pro OPP,pro opposition,new parliament,"['narendramodi', 'expelled', 'television']","[{'text': 'narendramodi', 'score': 0.5375}, {'text': 'expelled', 'score': 0.4239}, {'text': 'television', 'score': 0.1788}]",Against ,"underlying tone of sarcasm. Claims that the new parliament and ram mandir belong to modi, not india. "
+2799958,"Minister tweets the ""resolve is clear"" about 'Akhand Bharat' mural, that includes Pakistan, Bangladesh, Nepal etc in Indian map in new Parliament... Unless govt explains what this means, recipe for more trouble for MEA with neighbouring countries. 
+https://t.co/gjhvcvTBBd",Pro OPP,pro opposition,new parliament,"['indian', 'map', 'tweets']","[{'text': 'indian', 'score': 0.5434}, {'text': 'map', 'score': 0.2769}, {'text': 'tweets', 'score': 0.2237}]",Against ,shows how map in new parliament is problematic. 
+391174,"We, the people of India, take this pledge that for us the dignity and fulfillment of the constitution of the country will be the biggest goal of life: PM @narendramodi #NewParliament4NewIndia",Pro Ruling,pro ruling,new parliament,"['constitution', 'narendramodi', 'goal']","[{'text': 'constitution', 'score': 0.5079}, {'text': 'narendramodi', 'score': 0.4508}, {'text': 'goal', 'score': 0.3786}]",For ,"hashtag suggests ""new parliament for new india"". "
+2050434,"Prime Minister #NarendraModi on Monday unveiled the #nationalemblem at the new #Parliament building. However, his photo-op didn't sit well with netizens and political leaders alike. #Socialmedia remained abuzz with various reactions. #CentralVista https://t.co/XbZZlIctoH",Pro OPP,pro opposition,new parliament,"['emblem', 'narendra', 'media']","[{'text': 'emblem', 'score': 0.528}, {'text': 'narendra', 'score': 0.4218}, {'text': 'media', 'score': 0.166}]",Neutral ,"no stance taken, only news delivered "
+2668318,"On Aug. 11, 1947, The Hindu reported about a gold sceptre being presented to Pandit Nehru to represent transfer of power from the British. This was kept in a museum in Allahabad &amp; will be installed in the new Parliament building. Have a look at the coverage from our archives: https://t.co/fU1fnusu0t",Pro OPP,pro opposition,new parliament,"['hindu', 'gold', 'coverage']","[{'text': 'hindu', 'score': 0.5076}, {'text': 'gold', 'score': 0.4463}, {'text': 'coverage', 'score': 0.0487}]",Neutral ,"no stance taken, only news delivered "
+1348507,"""This is the 'New India' where the Parliament is not open to discuss farm bills, but they want to build a new Parliament! What is the necessity for the Prime Minister to build a new palace for himself?,"" says Tehseen Poonawalla, political analyst on #CentralVista project https://t.co/dOmc4Stdhi",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'farm']","[{'text': 'parliament', 'score': 0.5527}, {'text': 'india', 'score': 0.2699}, {'text': 'farm', 'score': 0.244}]",Against ,"shows hypocricy of government, calls it a ""palace"" for Modi. "
+167509,PM @narendramodi unveils a plaque to mark the foundation stone laying ceremony of New Parliament Building. https://t.co/XyXExBHrND,Pro Ruling,pro ruling,new parliament,"['plaque', 'narendramodi', 'unveils']","[{'text': 'plaque', 'score': 0.5416}, {'text': 'narendramodi', 'score': 0.2918}, {'text': 'unveils', 'score': 0.2418}]",Neutral ,"no stance taken, only news delivered "
+2319734,PM @narendramodi unveils National Emblem cast on the roof of the New Parliament Building. https://t.co/dnW3YLyZNp,Pro Ruling,pro ruling,new parliament,"['emblem', 'roof', 'narendramodi']","[{'text': 'emblem', 'score': 0.4091}, {'text': 'roof', 'score': 0.3705}, {'text': 'narendramodi', 'score': 0.3609}]",Neutral ,"no stance taken, only news delivered "
+60713,"The new parliament building doesn't stand for secularism,it stands for Hindu Rashtra. The foundation stone was laid with Hindu rituals, ignoring every other religion that India stands for. It doesn't stand for democracy.Modi govt doesn't allow democratic procedures in Parliament.",Pro OPP,pro opposition,new parliament,"['parliament', 'secularism', 'india']","[{'text': 'parliament', 'score': 0.4968}, {'text': 'secularism', 'score': 0.451}, {'text': 'india', 'score': 0.332}]",Against ,claims that the building does not stand for secularism but Hindu dominance. 
+2649192,Prime Minister @narendramodi unveils the National Emblem on the roof of India’s New Parliament Building. https://t.co/9qsUnmXPD4,Pro Ruling,pro ruling,new parliament,"['emblem', 'narendramodi', 'roof']","[{'text': 'emblem', 'score': 0.5057}, {'text': 'narendramodi', 'score': 0.4129}, {'text': 'roof', 'score': 0.2983}]",Neutral ,"no stance taken, only news delivered "
+155512,Today is a historic day for India. Inauguration of the construction of Parliament House of India is one of the most important stages of our democratic traditions: PM @narendramodi #NewParliament4NewIndia,Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'day']","[{'text': 'parliament', 'score': 0.5444}, {'text': 'india', 'score': 0.5006}, {'text': 'day', 'score': 0.4091}]",For ,shows how the unveiling of the new parliament buiding is extremely important and historic. 
+9874,Here are some interesting facts about the New Parliament Building. #NewParliament4NewIndia https://t.co/i2CVVBbYdi,Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.6368}, {'text': 'india', 'score': 0.376}, {'text': 'new', 'score': 0.3341}]",For ,"hashtag suggests ""new parliament for new india"". "
+2882607,"Black day of democracy 😡
+#NewParliamentBuilding  
+#WrestlersProtest https://t.co/o37Ti94evQ",Pro OPP,pro opposition,new parliament,"['protest', 'wrestlers', 'black']","[{'text': 'protest', 'score': 0.5443}, {'text': 'wrestlers', 'score': 0.5172}, {'text': 'black', 'score': 0.3347}]",Against ,"shows that unveiling the new parliament building is the ""black day of democracy"". "
+2883212,"Join us for an enlightening edition of #FridaysAtMyGov as we interact with citizens and delve into the architectural marvel that is India's New Parliament building! 🇮🇳
+
+📹: https://t.co/RcI3DqoMhM
+
+WATCH NOW!
+
+#MyParliamentMyPride
+#NewParliamentBuilding
+#NewParliament https://t.co/7uLELL1870",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'enlightening']","[{'text': 'parliament', 'score': 0.6608}, {'text': 'india', 'score': 0.3173}, {'text': 'enlightening', 'score': 0.2165}]",For ,"calls it an ""architectural marvel'. "
+343952,"Bhoomi Pujan of the - ""Temple of Indian Civilization and Ethos, Ram Mandir"" -  5th August, 2020.
+
+Bhoomi Pujan of the  -""Temple of Indian Democracy"", The New Parliament Building - 10th December, 2020.
+
+Prime Minister @narendramodi scripting history. 
+
+2020 - What a Year ! https://t.co/ELYbHakglp",Pro Ruling,pro ruling,new parliament,"['narendramodi', '2020', 'scripting']","[{'text': 'narendramodi', 'score': 0.4957}, {'text': '2020', 'score': 0.4283}, {'text': 'scripting', 'score': 0.1899}]",For ,"claims Modi is ""scripting history"". "
+56110,"Congress MP Mr @ripunbora : 
+
+At a time when lakhs and lakhs of farmers are protesting against the farm laws,
+
+PM instead of addressing the grievances of Kisans , PM is attending bhoomipujan ; shilaniyas of new Parliament despite stay of Supreme Court ... https://t.co/8x7Yo9OgJF",Pro OPP,pro opposition,new parliament,"['parliament', 'farmers', 'shilaniyas']","[{'text': 'parliament', 'score': 0.4653}, {'text': 'farmers', 'score': 0.3957}, {'text': 'shilaniyas', 'score': 0.3946}]",Against ,shows how PM is not addressing grievances of farmers and citizens but busy with new parliament. 
+1344486,"Dear @Twitter @narendramodi &amp; @AmitShah
+
+Delete this post if you can. 
+
+Modi &amp; Shah’s callous incompetence are responsible for India’s #COVIDEmergency2021 
+
+They’ve squandered funds on a new parliament but IGNORED production of #Oxygen &amp; campaigned instead of planning a Lockdown",Pro OPP,pro opposition,new parliament,"['narendramodi', 'oxygen', 'delete']","[{'text': 'narendramodi', 'score': 0.4822}, {'text': 'oxygen', 'score': 0.329}, {'text': 'delete', 'score': 0.2358}]",Against ,shows how PM is looting indian tax payers and don’t care about covid. 
+2348839,"@narendramodi Modiji a query. On one hand you're promoting ""vegetarian"" Hindutva by harassing Mahua Moitra and on the other promoting ""non vegetarian"" Hindutva with carnivorous angry lions on emblem at new parliament. Why double standards? Why can't Hindutva be either veg or non veg? Why both?",Pro Ruling,pro ruling,new parliament,"['hindutva', 'carnivorous', 'promoting']","[{'text': 'hindutva', 'score': 0.4961}, {'text': 'carnivorous', 'score': 0.3221}, {'text': 'promoting', 'score': 0.2907}]",Against ,calling out double standards of Modi. 
+2231621,Opposition slams PM Modi for unveiling national emblem atop new Parliament building | India News - Times of India https://t.co/xs0JT367Kk,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'slams']","[{'text': 'parliament', 'score': 0.3477}, {'text': 'india', 'score': 0.2999}, {'text': 'slams', 'score': 0.0908}]",Neutral ,"no stance taken, only news delivered "
+2852632,"Congress, 18 other parties to boycott inauguration of new Parliament building, accuse  government of ""sidelining"" President Murmu
+
+Read @ANI Story | https://t.co/s8d1Dyk0YD
+
+#PMModi  #PresidentMurmu #ParliamentBuilding 
+#NewParliamentBuilding https://t.co/2BiGd2Cli6",Pro Ruling,pro ruling,new parliament,"['congress', 'boycott', 'sidelining']","[{'text': 'congress', 'score': 0.5358}, {'text': 'boycott', 'score': 0.2878}, {'text': 'sidelining', 'score': 0.0371}]",Neutral ,"no stance taken, only news delivered "
+710556,What does this Trudeau think? India just started construction of $130 Million a new Parliament Building. https://t.co/ak7Fi17Nhj,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'million']","[{'text': 'parliament', 'score': 0.4823}, {'text': 'india', 'score': 0.3651}, {'text': 'million', 'score': 0.2286}]",Neutral ,"no stance taken, only news delivered "
+2883585,#Nepal's PM #Prachanda said that he raised the issue relating to the #AkhandaBharat map kept in India's #NewParliament during his visit to New Delhi and the Indian side clarified that it was a cultural map and not a political one. https://t.co/GAIPW93efB,Pro OPP,pro opposition,new parliament,"['map', 'indian', 'raised']","[{'text': 'map', 'score': 0.5022}, {'text': 'indian', 'score': 0.3889}, {'text': 'raised', 'score': 0.1583}]",Neutral ,"no stance taken, only news delivered "
+2664163,"The opener! #NewParliamentBuilding 
+@moliticsindia cartoon https://t.co/0z5exp9LB4",Pro OPP,pro opposition,new parliament,"['parliament', 'moliticsindia', 'opener']","[{'text': 'parliament', 'score': 0.6269}, {'text': 'moliticsindia', 'score': 0.4092}, {'text': 'opener', 'score': 0.365}]",Neutral ,"no stance taken, only news delivered "
+2781307,"History will remember @narendramodi for his lasting legacy, including this #NewParliamentBuilding. It is incredibly stupid and short-sighted of some opposition parties to boycott the ceremony and hand over all the glory and credit for this building to Modi alone.… https://t.co/uRiyWKr251",Pro Ruling,pro ruling,new parliament,"['narendramodi', 'building', 'boycott']","[{'text': 'narendramodi', 'score': 0.485}, {'text': 'building', 'score': 0.3782}, {'text': 'boycott', 'score': 0.2549}]",For ,"claims that with the new parliament building, History will remember modi for his lasting legacy. "
+2729323,"Minus President of India, Rajya Sabha Chairman and Most Opposition parties, Modi Inaugurates New Parliament Building https://t.co/HbwaZSTBYo",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'minus']","[{'text': 'parliament', 'score': 0.4621}, {'text': 'india', 'score': 0.2852}, {'text': 'minus', 'score': 0.2363}]",Neutral ,"no stance taken, only news delivered "
+480321,"#NewParliament4NewIndia Navaratna Peetha Stones (Translated from article)
+Sun - Ruby
+Moon - Pearl
+Mars - Coral
+Mercury - Green Emerald
+Jupiter - Yellow Sapphire
+Venus - Diamond
+Saturn - Blue Sapphire
+Rahu (Dragon Head) - Hessonite Garnet
+Ketu (Dragon Tail) - Lehsunia (Cat Eye)",Pro Ruling,pro ruling,new parliament,"['emerald', 'india', 'cat']","[{'text': 'emerald', 'score': 0.5089}, {'text': 'india', 'score': 0.3379}, {'text': 'cat', 'score': 0.2505}]",For ,"hashtag suggests ""new parliament for new india"". "
+2811821,"As Modi Inaugurates New Parliament, Police Detains Wrestlers Including Sakshi Malik, Vinesh Phogat https://t.co/V1uDu6QCwg",Pro OPP,pro opposition,new parliament,"['police', 'wrestlers', 'vinesh']","[{'text': 'police', 'score': 0.4332}, {'text': 'wrestlers', 'score': 0.4126}, {'text': 'vinesh', 'score': -0.0041}]",Against ,shows how the new parliament opening coincided with the government also carrying out assault. 
+629693,"Tell me any other country where a Prime Minister orders Rs 9000 crores jet for himself, approves construction of Rs 20000 crores for new Parliament building right in the middle of a pandemic and doesn't allocate money for health care? 
+
+#ModiResignOrRepeal",Pro OPP,pro opposition,new parliament,"['minister', 'resign', 'pandemic']","[{'text': 'minister', 'score': 0.5034}, {'text': 'resign', 'score': 0.2502}, {'text': 'pandemic', 'score': 0.2422}]",Against ,shows how modi is looting India. 
+75688,"#Congress MP #ShashiTharoor appealed to #PM to divert the Rs 20,000 crore earmarked for new #Parliament building and #CentralVista to supplement the Rs 15,000 crore allotted to fight #COVID19. #Coronavirus https://t.co/wY3wBDNATR",Pro OPP,pro opposition,new parliament,"['appealed', 'coronavirus', 'shashi']","[{'text': 'appealed', 'score': 0.3901}, {'text': 'coronavirus', 'score': 0.3341}, {'text': 'shashi', 'score': 0.2918}]",Against ,shows how modi is looting India and not fighting covid.  
+288495,"We, the people of India, will together build this new building of Parliament. This new building will be a charm and inspiration when India will celebrate 75th years of its independence: PM @narendramodi #NewParliament4NewIndia",Pro Ruling,pro ruling,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.55}, {'text': 'india', 'score': 0.4615}, {'text': 'new', 'score': 0.3034}]",For ,"calls it ""charm and inspiration"" "
+283524,As constitutionally appointed head of both Houses of Parliament the President of India should have been present on stage &amp; spoken on the occasion of laying of foundation stone of new Parliament building. His absence was noticed by many.,Pro OPP,pro opposition,new parliament,"['president', 'india', 'houses']","[{'text': 'president', 'score': 0.5019}, {'text': 'india', 'score': 0.3402}, {'text': 'houses', 'score': 0.1852}]",Against ,shows how President of India was disrespected.
+1944571,Telangana Legislative Assembly has recently passed a unanimous resolution requesting the Union Government to name the new Parliament building after Dr. BR Ambedkar. This will enhance the reputation of India in the comity of nations: CM,Pro OPP,pro opposition,new parliament,"['india', 'legislative', 'name']","[{'text': 'india', 'score': 0.4491}, {'text': 'legislative', 'score': 0.395}, {'text': 'name', 'score': 0.1612}]",Neutral ,"no stance taken, only news delivered "
+1067528,"In the list of PMs in independent India, Narendra Modi holds the record for attending and answering the parliament the least.
+But he is adamant about spending public money from the depleted coffers of India to construct a new parliament house!
+
+That is Gujarat Model development.",Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'depleted']","[{'text': 'parliament', 'score': 0.4634}, {'text': 'india', 'score': 0.4086}, {'text': 'depleted', 'score': 0.1617}]",Against ,shows double standards of Modi as he refuses to answer parliament questions but wants to loot Indians to build a new parliament building. 
+1944570,I will soon write to the Prime Minister Sri @narendramodi Ji with a request to consider the demand of Telangana Govt. to name the new Parliament building after Dr. BR Ambedkar.: CM Sri KCR,Pro OPP,pro opposition,new parliament,"['narendramodi', 'minister', 'building']","[{'text': 'narendramodi', 'score': 0.54}, {'text': 'minister', 'score': 0.3746}, {'text': 'building', 'score': 0.3391}]",Neutral ,"no stance taken, only news delivered "
+1601399,"He had inaugurated the new parliament building of Afghanistan.
+He will inaugurate the new parliament building of India next year.
+
+May God save our country! https://t.co/I6kjoujEyo",Pro OPP,pro opposition,new parliament,"['parliament', 'afghanistan', 'india']","[{'text': 'parliament', 'score': 0.4372}, {'text': 'afghanistan', 'score': 0.2821}, {'text': 'india', 'score': 0.2778}]",Against ,hoping god saves the country. 
+1067826,"Does this new Parliament building have any space for Opposition? 
+After all Hindu Rashtra is no democracy. https://t.co/lgWEiehu9m",Pro OPP,pro opposition,new parliament,"['parliament', 'hindu', 'new']","[{'text': 'parliament', 'score': 0.5772}, {'text': 'hindu', 'score': 0.3742}, {'text': 'new', 'score': 0.2199}]",Against ,questions if the new parliament building has any space for opposition. 
+191245,New Parliament of India https://t.co/kyGf9atoqD,Pro OPP,pro opposition,new parliament,"['parliament', 'india', 'new']","[{'text': 'parliament', 'score': 0.6986}, {'text': 'india', 'score': 0.5563}, {'text': 'new', 'score': 0.3184}]",Neutral ,"no stance taken, only news delivered "
+2853846,"It's not new to us that congress is opposing the development of New India &amp; we nomore care about these kiddish tantrums..let them cry ! 
+Thankyou @narendramodi Ji for this beautiful #NewParliamentBuilding it's a huge development in infrastructure🇮🇳 Creating History 🙏🏻 https://t.co/AYEjfIGQvV",Pro Ruling,pro ruling,new parliament,"['congress', 'narendramodi', 'new']","[{'text': 'congress', 'score': 0.5291}, {'text': 'narendramodi', 'score': 0.4275}, {'text': 'new', 'score': 0.3484}]",For ,"calls it ""beautiful"" and ""huge development"". "
+426101,"In the rush of news around China and Covid, here is a story that’s got lost: does India need a new parliament building, a new Rajpath, and at what cost? And who decides, netas or experts? https://t.co/c2ohV6qPez @IndiaToday #CentralVista",Pro OPP,pro opposition,new parliament,"['india', 'parliament', 'china']","[{'text': 'india', 'score': 0.4762}, {'text': 'parliament', 'score': 0.4454}, {'text': 'china', 'score': 0.4084}]",Against ,questions need of the new building. 
+419898,"Imagine Dr. MMS as PM of India during this #COVID2019 . The world would have looked up to him for his leadership. This #Lockdown21 would have been implemented with taking CMs &amp; opposition parties along. He would not spend 20,000 crores to build a new parliament &amp; he would ensure",Pro OPP,pro opposition,new parliament,"['leadership', 'india', 'lockdown']","[{'text': 'leadership', 'score': 0.4152}, {'text': 'india', 'score': 0.3563}, {'text': 'lockdown', 'score': 0.2483}]",Against ,shows how modi is looting India and not fighting covid.  
+193988,"Why India's Dalit President wasn't invited to the ""Hindu bhumi pujan"" of India's new Parliament building? Actually, the President of India is supposed to lay the foundation stone.",Pro OPP,pro opposition,new parliament,"['hindu', 'foundation', 'president']","[{'text': 'hindu', 'score': 0.5137}, {'text': 'foundation', 'score': 0.3529}, {'text': 'president', 'score': 0.3296}]",Against ,shows how President of India was disrespected.
+2704761,"#NewParliamentMyPride | This is a proud moment for the entire country. Millions dream to be a member in the temple of democracy with their hard work, honesty and leadership qualities. PM Modi has all the rights to inaugurate because he is fulfilling the dream of every Indian:… https://t.co/I4ErZ4Tfc8 https://t.co/gf4NimWSH7",Pro Ruling,pro ruling,new parliament,"['parliament', 'indian', 'dream']","[{'text': 'parliament', 'score': 0.534}, {'text': 'indian', 'score': 0.4129}, {'text': 'dream', 'score': 0.2137}]",For ,"hashtag suggests ""my parliament, my pride"". "
+576094,This is just like current Indian govt want to construct a new Parliament building while killing the democracy https://t.co/rankTG9pLe,Pro OPP,pro opposition,new parliament,"['parliament', 'indian', 'current']","[{'text': 'parliament', 'score': 0.5094}, {'text': 'indian', 'score': 0.3206}, {'text': 'current', 'score': 0.0381}]",Against ,mocks how India's government constructing a new parliament while simulatenously killing democracy. 
+509077,"Live at 9pm @TimesNow 
+
+@navikakumar will expose Congress double speak on new Parliament building!
+
+Watch for the massive expose https://t.co/kl4qWJYP8Z",Pro Ruling,pro ruling,new parliament,"['congress', 'double', '9pm']","[{'text': 'congress', 'score': 0.544}, {'text': 'double', 'score': 0.2906}, {'text': '9pm', 'score': 0.2235}]",For ,claims to expose congress doouble standards regarding new parliament. 

@@ -1,0 +1,62 @@
+[
+  {
+    "entity": "kashmiri pandits",
+    "statement": "Kashmir &amp; agony of Kashmiri Pandits is back in focus. Let's revisit what BJP &amp; Congress said after exodus of Pandits in Jan 1990\n \n Lok Sabha discussed the issue on Mar 13,1990. Jaswant Singh, who was the lead speaker from BJP opposed posting of Army, BSF in valley, I quote.. 1/n https://t.co/mp6iP1NBv0",
+    "stance": "positive",
+    "reason": "Favour cues: ['exodus']"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "This was the reaction of a Kashmiri Hindu woman when Article 370 was abrogated.\n \n Kashmiri Pandits still want to return to their homeland. They're refugees in their own nation, awaiting their rehabilitation. https://t.co/URKSTpywGM",
+    "stance": "positive",
+    "reason": "Favour cues: ['rehabilitation', 'return']"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "WB Guv Shri Jagdeep Dhankhar &amp; Dr Sudesh Dhankhar will watch #KashmirFiles at Quest Mall-INSIGNIA today at 2 PM Film has created public awareness about reality behind 1990 exodus of Kashmiri pandits from the valley. @AnupamPKher @vivekagnihotri #KashmiriPandit #Kashmir https://t.co/isGTFA3WyJ",
+    "stance": "positive",
+    "reason": "Favour cues: ['exodus']"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": ". @narendramodi ji’s big statement on #KashmirFiles \n \n Why is LeLi ecosystem sabotaging the movie?\n \n @vivekagnihotri has made it after 4 yrs of 5000 hours of intense research, 700 interviews with #KashmiriPandits \n \n I openly challenge LeLis\n \n Mention any incident that’s FAKE https://t.co/HWMLAmHltA",
+    "stance": "negative",
+    "reason": "Against cues: ['fake']"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "Arvind Kejriwal calls ‘The Kashmir Files’ a “jhoothi” film, makes fun of Kashmiri Pandits Genocide, refuses to make it tax-free, had earlier made movies like ’83, Saand Ki Aankh tax-free. \n \n #TheKashmiriFiles #ArvindKejriwal https://t.co/cpUQ9aSSaD",
+    "stance": "negative",
+    "reason": "making fun of kashmiri pandits"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "#BREAKING: Two teachers killed in broad daylight in Srinagar, Kashmir - both from minority community of Sikh and Kashmiri Pandits. The teachers identified as Satinder Kour and Deepak Chand. IG Kashmir Vijay Kumar confirms the development. Security forces have reached the spot. https://t.co/HFZ32VpTMi",
+    "stance": "neutral",
+    "reason": "Stating an event"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "#LeftRightCentre | Mohit Bhan (@buttkout) \n Spokesperson, PDP, on the recent killings of #KashmiriPandits https://t.co/EHBUTJrHvd",
+    "stance": "neutral",
+    "reason": "No clear reference to Kashmiri Pandits and no stance cues"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "The Kashmiri Pandit Files ft. BJP\n \n Only Facts🔥\n \n #KashmirFiles #BJP #KashmiriPandits https://t.co/ILb817yEor",
+    "stance": "neutral",
+    "reason": "Mentions Kashmiri Pandits but without polar language (factual/neutral tone)"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "27. Several attacks on Kashmiri Pandits and others in Kashmir in past two years\n 6/n",
+    "stance": "neutral",
+    "reason": "Mentions Kashmiri Pandits but without polar language (factual/neutral tone)"
+  },
+  {
+    "entity": "kashmiri pandits",
+    "statement": "While there is no denying the tragic suffering of the Kashmiri Pandits, the fact is: #KashmirFiles is a badly made film that should never have been screened at an International Film Festival meant to showcase great cinema.",
+    "stance": "positive",
+    "reason": "Favour cues: ['suffering']"
+  }
+]

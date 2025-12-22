@@ -1,0 +1,779 @@
+source_row,tweet,tweet_label,keyword,subjects,subjects_scored,stance,stance_reason,Unnamed: 10,matched keyword
+2488904,"India-Africa Defence Dialogue to be held on October 18 on the sidelines of #DefExpo2022 in Gandhinagar, Gujarat,
+
+Theme: ‘India-Africa: Adopting Strategy for Synergising and Strengthening Defence and Security Cooperation.
+
+Read: https://t.co/lohfjWx4eM
+
+@DefenceMinIndia",Pro Ruling,caa,"['defenceminindia', 'dialogue', 'defexpo2022']","[{'text': 'defenceminindia', 'score': 0.6152}, {'text': 'dialogue', 'score': 0.4891}, {'text': 'defexpo2022', 'score': 0.2053}]",Neutral,no stance on CAA being taken.,,
+341948,"On 25th Jan, Khalistani &amp; Pakistani groups had organised Anti CAA protest in Frankfurt
+
+I along with other nationalist Indians, punctured their protest, 2 hours in freezing cold, we hit them on counter
+
+A small clip where they shouted Terrorist, we responded with Pakistan
+Enjoy👍🏼 https://t.co/kB4uozkcml",Pro Ruling,caa,"['protest', 'pakistan', 'freezing']","[{'text': 'protest', 'score': 0.5739}, {'text': 'pakistan', 'score': 0.4915}, {'text': 'freezing', 'score': 0.2726}]",For,shows that anti-CAA protests are a result of Khalistani and Pakistani actors.,,
+32370,"BJP Manifesto Checklist in #1YearofModi2
+
+✅- GST
+✅- CAA
+✅- OROP
+✅- Stable Govt
+✅- Triple Talaq
+✅- Ram Mandir
+✅- Low inflation
+✅- Low corruption
+✅- Surgical Strikes
+✅- Isolation of Pakistan
+✅- Curbing Black money
+✅- Removal of Article 370
+✅- De-registered 14,800 NGOs",Pro Ruling,caa,"['manifesto', 'pakistan', '1yearofmodi2']","[{'text': 'manifesto', 'score': 0.4597}, {'text': 'pakistan', 'score': 0.3785}, {'text': '1yearofmodi2', 'score': 0.2245}]",For,puts CAA in a checklist of good factors that government is targeting.,,
+1399910,"Pakistan Prime Minister Imran Khan heaps praises on China once again, speaks to the Chinese state media, alleges massive US pressure on Pakistan to sideline China, pledges deeper friendship and more collaboration with China whether America and other countries like it or not.",Pro Ruling,caa,"['china', 'khan', 'pressure']","[{'text': 'china', 'score': 0.4478}, {'text': 'khan', 'score': 0.3664}, {'text': 'pressure', 'score': 0.0797}]",Neutral,no stance on CAA being taken.,,
+461033,"If anyone still has any doubts that this protest is Farmers Protest &amp; not Pro Khalistan Protest they they are just living in their own fool's paradise.
+
+Time to identify them before it's too late like Anti CAA protests. https://t.co/ONW2gwZ40v",Pro Ruling,caa,"['protest', 'farmers', 'khalistan']","[{'text': 'protest', 'score': 0.5779}, {'text': 'farmers', 'score': 0.4094}, {'text': 'khalistan', 'score': 0.2541}]",For,shows that anti-caa like anti-farm laws is promoted by khalistani or pakistani interests.,,
+286807,"On ongoing protests against #CAA, Congress Prez Mrs Sonia Gandhi : They have taken to streets braving cold/police brutalities. I Salute their courage,their abiding faith Constitution of India;their determination to defend &amp; protect those values. We are Inspired by Their Struggle! https://t.co/p449KdYKoF",Pro OPP,caa,"['protests', 'congress', 'india']","[{'text': 'protests', 'score': 0.4782}, {'text': 'congress', 'score': 0.4176}, {'text': 'india', 'score': 0.3176}]",Against,hails the courage and bravery of anti-caa protesters.,,
+949034,"Victory of Rahul Gandhi 💪
+Victory of farmers 💪
+
+What next 
+CAA 
+NRC
+RAFALE
+
+#RahulGandhi
+#FarmersProtest https://t.co/uBJlIr7mwn",Pro OPP,caa,"['gandhi', 'protest', 'farmers']","[{'text': 'gandhi', 'score': 0.4931}, {'text': 'protest', 'score': 0.4476}, {'text': 'farmers', 'score': 0.4437}]",Against,hopes that the next victory of India would be over CAA.,,
+59903,"Hats off to #Jharkhand CM @HemantSorenJMM .
+
+What a mouth-shutting answer to those who say “Modi Govt will not budge an inch in implementing #NRC and #NPR”!
+
+Do listen.
+India rejects #CAA_NRC_NPR https://t.co/BkERMIbB8S",Pro OPP,caa,"['india', 'hemantsorenjmm', 'shutting']","[{'text': 'india', 'score': 0.4938}, {'text': 'hemantsorenjmm', 'score': 0.214}, {'text': 'shutting', 'score': 0.1721}]",Against,says that India rejects CAA.,,
+408721,"Umar Khalid is arrested who talked about responding to hate with love.
+
+BJP leaders Kapil Mishra and Anurag Thakur don't even have an FIR against them who openly talked about responding to anti-CAA protests with Goli.
+
+This is the real death of democracy.
+
+#StandWithUmarKhalid",Pro OPP,caa,"['khalid', 'protests', 'arrested']","[{'text': 'khalid', 'score': 0.5291}, {'text': 'protests', 'score': 0.3542}, {'text': 'arrested', 'score': 0.3436}]",Against,shows how CAA will lead to death of democracy.,,
+2682077,"US: PM Modi thanks President Biden for accepting proposal to add Africa as a permanent G20 member 
+
+Read @ANI Story | https://t.co/9z4gC2a6Az
+#PMModi #PMModiUSVisit #PMModiUSCongress https://t.co/cqaXjh71iz",Pro Ruling,caa,"['africa', 'add', 'congress']","[{'text': 'africa', 'score': 0.3932}, {'text': 'add', 'score': 0.2385}, {'text': 'congress', 'score': 0.2087}]",Neutral,no stance on CAA being taken.,,
+2702080,"IMPORTANT QUESTIONS BY AAP
+
+While in principle supporting UCC, 
+
+AAP raises valid and very Important QUESTIONS about Sikhs, North East and other religions
+
+While BJP wanted Hindu vs Muslim debates, AAP has turned it upside down with Logic.
+
+BJP seems clueless about answers https://t.co/YdfbGCVjpO",Pro OPP,caa,"['debates', 'hindu', 'upside']","[{'text': 'debates', 'score': 0.3601}, {'text': 'hindu', 'score': 0.3568}, {'text': 'upside', 'score': 0.1506}]",Neutral,no stance on CAA being taken.,,
+929458,Social activist #HarshMander’s plea seeks the arrest and registration of an FIR against #BJP leader #KapilMishra for allegedly encouraging violence against anti-#CAA protestors in February last year https://t.co/s0UiFHLErC,Pro OPP,caa,"['mishra', 'protestors', 'arrest']","[{'text': 'mishra', 'score': 0.4292}, {'text': 'protestors', 'score': 0.3722}, {'text': 'arrest', 'score': 0.3523}]",Neutral,"no stance taken, only news delivered.",,
+167924,"When Hindus go on pilgrimage, they bow in devotion &amp; ask
+SARVE JANA SUKHINO BHAVANTU
+
+But these Muslims go on Hajj pilgrimage in Mecca
+
+And pray that RSS &amp; BJP should be eliminated
+
+If we Hindus still don't get awakened,
+
+Soon we will face similar fate just like Kashmiri Pandits https://t.co/dvUT4arAZC",Pro Ruling,caa,"['hindus', 'pray', 'eliminated']","[{'text': 'hindus', 'score': 0.67}, {'text': 'pray', 'score': 0.2798}, {'text': 'eliminated', 'score': 0.2018}]",For,shows muslims as the problem and asks hindus to wake up.,,
+1258564,"Slowly Entire India is getting aware that Farmer's Protest is actually FAILED POLITICIAN'S protest against Modi!
+
+Ram Mandir
+Article 370 abrogated
+CAA
+Demonetization
+GST
+Bodo Accord
+Chandrayan
+Best Covid Handling
+Naxals in Jail
+UP under Yogi
+.
+STOP Modi else they all will finish https://t.co/jYbNIRlYIJ",Pro Ruling,caa,"['demonetization', 'india', 'farmer']","[{'text': 'demonetization', 'score': 0.4341}, {'text': 'india', 'score': 0.3389}, {'text': 'farmer', 'score': 0.2718}]",For,shows that CAA is actually propoganda against Modi by failed politicians.,,
+2789047,"Muslims are in jail for delivering speeches during Anti-CAA protests.
+
+These Hindutva leaders are delivering hate speeches across the country and police can't even file an FIR against them. https://t.co/NGeRxtq6Pt",Pro OPP,caa,"['muslims', 'jail', 'leaders']","[{'text': 'muslims', 'score': 0.5681}, {'text': 'jail', 'score': 0.4065}, {'text': 'leaders', 'score': 0.2374}]",Against,claims that the country has different rules for muslims.,,
+20147,"Today, Lawyers march to protest against CAA-NRC
+
+Will the highly educated BJP politicians now also call lawyers as uneducated? 
+
+https://t.co/lw5A2hpBjl",Pro OPP,caa,"['lawyers', 'protest', 'uneducated']","[{'text': 'lawyers', 'score': 0.5821}, {'text': 'protest', 'score': 0.3979}, {'text': 'uneducated', 'score': 0.2817}]",Against,shows how even educated lawyers are protesting against CAA.,,
+28260,"Modi's police issues ultimatum to vacate the protesting site against #CAA_NRC at Shaheen Bagh, Delhi. #JNUViolence has been created to divert the attention from #CAA_NRCProtests  &amp; polarize the country further to brand the #CAA_NRC protesters anti-nationals.",Pro OPP,caa,"['protests', 'police', 'brand']","[{'text': 'protests', 'score': 0.4716}, {'text': 'police', 'score': 0.4014}, {'text': 'brand', 'score': 0.0008}]",Against,"shows how CAA is done to polarise nation and there is a goal to label those who oppose CAA as ""anti national"".",,
+226613,"The #AntiCAA protesters in Bilariyaganj area of #Azamgarh district in east UP have alleged that the #UPPolice lathi-charged on them in the wee hours of Wednesday, leaving at least 10 of them injured. #UttarPradesh https://t.co/e0mrox6SHT",Pro OPP,caa,"['police', 'injured', 'protesters']","[{'text': 'police', 'score': 0.5152}, {'text': 'injured', 'score': 0.4091}, {'text': 'protesters', 'score': 0.4025}]",Against,shows the brutality and violence faced by those who oppose CAA.,,
+25467,"Destruction of Hindu temple in Pakistan by neighbours shows that CAA should be modified &amp; cut-off date removed. Any Hindu, Sikh, Jain, Buddhist or follower of indigenous tribal faith should be able to claim Indian citizenship at anytime. Amend the constitution for it if required.",Pro Ruling,caa,"['hindu', 'removed', 'citizenship']","[{'text': 'hindu', 'score': 0.5553}, {'text': 'removed', 'score': 0.3239}, {'text': 'citizenship', 'score': 0.2131}]",For,shows that CAA should be modified but implemented.,,
+2216315,Is Rahul Gandhi partying with China's Ambassador to Nepal Hou Yanqi in Kathmandu ???? https://t.co/iuYf4eb6Y2,Pro Ruling,china,"['china', 'ambassador', 'partying']","[{'text': 'china', 'score': 0.4857}, {'text': 'ambassador', 'score': 0.3697}, {'text': 'partying', 'score': 0.2779}]",Against,shows china as the enemy.,,
+1810025,"A rattled #China sends an angry letter to Indian MP @SujeetKOfficial, after he participated in the founding ceremony of a Taiwan forum. Beijing says the BJD leader's attendance is contrary to the one-China principle. @alysonle speaks with @sidhant for more perspective https://t.co/DBa9RHVEnl",Pro Ruling,china,"['china', 'sends', 'leader']","[{'text': 'china', 'score': 0.5917}, {'text': 'sends', 'score': 0.3449}, {'text': 'leader', 'score': 0.2772}]",Nuetral,no stance taken on china. only news delivered.,,
+951585,"Anonymous blogger ‘Program Think’, known for exposing the corruption of CCP members, goes missing in China: Here is what we know so far
+
+https://t.co/nGY2GspqEk",Pro Ruling,china,"['corruption', 'china', 'blogger']","[{'text': 'corruption', 'score': 0.4358}, {'text': 'china', 'score': 0.4055}, {'text': 'blogger', 'score': 0.3055}]",Against,shows china trying to curtail voices of dissent.,,
+98429,"Kanwal Sibal: ""China's role in unleashing 2 pandemics in a generation needs highlighting. Pressure must be put on China for making its political system more transparent and ending some unhealthy habits of its society, given the country's massive role in the international system""",Pro Ruling,china,"['china', 'pandemics', 'role']","[{'text': 'china', 'score': 0.579}, {'text': 'pandemics', 'score': 0.5294}, {'text': 'role', 'score': 0.2096}]",Against,accuses china of unleashing 2 pandemics onto the world.,,
+2796441,"“Any Minister's visit to #Arunachal Pradesh violates China's territorial sovereignty &amp; China firmly opposes it as it's China's territory”: Said डेढ़ फुटिया Chinese MEA.
+
+Amit Shah's reply: Talk to my Toe!
+(I'm trying to be decent 😁)
+
+HM @AmitShah Ji has launched… https://t.co/8Ds14XZYmi",Pro Ruling,china,"['china', 'violates', 'toe']","[{'text': 'china', 'score': 0.6516}, {'text': 'violates', 'score': 0.242}, {'text': 'toe', 'score': 0.193}]",Against,disregards china's claim on arunachal pradesh.,,
+459862,"Whatever the Ordnance Factory Board’s grievances with the Govt’s move to corporatise it, the fact that it’s 80,000 strong union-led workforce is going on strike at a time the military is in a standoff with China is ENOUGH to kill its case permanently https://t.co/z7VSaFM8xx",Pro Ruling,china,"['strike', 'china', 'corporatise']","[{'text': 'strike', 'score': 0.5428}, {'text': 'china', 'score': 0.2672}, {'text': 'corporatise', 'score': 0.1644}]",Against,shows china as an enemy that the millitary is locked in a standoff with.,,
+137146,"While China is using its traditional medicine along with modern medicine to address the Coronavirus, the left in India is opposing those who say that Yoga and Ayurvedic practices can be helpful.  Many people in the US are also using natural therapies  as an aid.",Pro Ruling,china,"['ayurvedic', 'coronavirus', 'china']","[{'text': 'ayurvedic', 'score': 0.4801}, {'text': 'coronavirus', 'score': 0.4647}, {'text': 'china', 'score': 0.2577}]",For,shows that china's use of traditional medicine along with modern medicine can be followed by India.,,
+163669,#China should be made accountable and should be alienated until they mend ways back to Humanity. https://t.co/sGb0fgY9ku,Pro Ruling,china,"['china', 'accountable', 'alienated']","[{'text': 'china', 'score': 0.5042}, {'text': 'accountable', 'score': 0.331}, {'text': 'alienated', 'score': 0.1678}]",Against,demands that china be held accountable for the pandemic and also be alienated in the process.,,
+2762027,S Jaishankar : “I’m ready to listen to Rahul Gandhi if he has superior knowledge &amp; wisdom on China.” https://t.co/0E2707ZtsN,Pro Ruling,china,"['china', 'jaishankar', 'wisdom']","[{'text': 'china', 'score': 0.435}, {'text': 'jaishankar', 'score': 0.4334}, {'text': 'wisdom', 'score': 0.2913}]",neutral,no stance on china.,,
+2178691,"#Gravitas | In China, a major financial crisis is unfolding.
+Chinese citizens in 86 cities are boycotting mortgage payments towards their homes.
+Chinese censors are erasing documents about this boycott.
+@palkisu tells you why https://t.co/7zBG9lX5mF",Pro Ruling,china,"['china', 'boycotting', 'mortgage']","[{'text': 'china', 'score': 0.5508}, {'text': 'boycotting', 'score': 0.3974}, {'text': 'mortgage', 'score': 0.3892}]",Neutral,not taking a stance on china but delivering news on the financial crisis unfolding.,,
+1478802,"Rahul Gandhi is now a LAC Expert  ..... Doing a Press Conference on Indo-China agreement. 
+
+Note : What about 43000 https://t.co/809WvmDXnA we gave to them under Congress Rule after 1962 ??",Pro Ruling,china,"['china', 'congress', '43000']","[{'text': 'china', 'score': 0.4337}, {'text': 'congress', 'score': 0.3699}, {'text': '43000', 'score': 0.2694}]",Neutral,no stance on china taken.,,
+376333,China to begin work on rail section close to India’s border https://t.co/VXOabef85q,Pro OPP,china,"['china', 'rail', 'india']","[{'text': 'china', 'score': 0.5317}, {'text': 'rail', 'score': 0.4078}, {'text': 'india', 'score': 0.1501}]",Against,subtle hint that china inching closers to india's borders.,,
+1691570,"Not only is Modi the only Indian PM to make the maximum ever visits to China, but also bent backwards to surrender dignity &amp; honour along with Indian territory. The chest-thumper who boasted of showing Lal Ankh, now does not dare to even utter the word China. 
+
+ #चीन_निर्भर_भाजपा https://t.co/vpFWQIz7qT",Pro OPP,china,"['china', 'indian', 'surrender']","[{'text': 'china', 'score': 0.6193}, {'text': 'indian', 'score': 0.3974}, {'text': 'surrender', 'score': 0.222}]",Against,"china is making india bend ""backward"" and lose its honor and dignity.",,
+502117,"I guess red eyes of Modi didn't work.😬
+
+Traitor Modi lied &amp; now surrendering the Indian soil. 
+
+The use of ""status quo"" is wrong here. Status quo was before 5thJune. Today the situation is encroachment by China. 😠
+ https://t.co/dEbPA9ETpc",Pro OPP,china,"['china', 'traitor', 'soil']","[{'text': 'china', 'score': 0.3777}, {'text': 'traitor', 'score': 0.3053}, {'text': 'soil', 'score': 0.1827}]",Against,accuses china of intrusion into indian territory.,,
+2756627,New Delhi is the second biggest shareholder and has gotten nearly $10 bn of grants from AIIB for infrastructure projects in India. All while the Indian foreign minister claims that ties with China are not normal. https://t.co/UMVfVTmps8,Pro OPP,china,"['china', 'shareholder', 'grants']","[{'text': 'china', 'score': 0.4231}, {'text': 'shareholder', 'score': 0.3301}, {'text': 'grants', 'score': 0.2165}]",neutral,no stance on china.,,
+2105330,"Despite China occupying Indian territories in Ladakh &amp; changing the names of places in Arunachal Pradesh, the trade between China &amp; India in 2021 increased 43.3% from 2020. In 2021, India imported $98 billion from China, exported only $28 billion. Nationalists boycotting China?",Pro OPP,china,"['china', 'india', 'increased']","[{'text': 'china', 'score': 0.4988}, {'text': 'india', 'score': 0.4063}, {'text': 'increased', 'score': 0.1646}]",Against,shows china as encroaching on indian territory.,,
+732129,"Last year China pressed 7000 workers &amp; over 100 construction machines to build 1000 bed hospitals in ten days  flat. In India such hurry shown for Central Vista construction! 
+
+How China built a hospital in 10 days https://t.co/OTfJ96Mg3p",Pro OPP,china,"['china', 'workers', 'hospitals']","[{'text': 'china', 'score': 0.4281}, {'text': 'workers', 'score': 0.3615}, {'text': 'hospitals', 'score': 0.3613}]",For,shows how quick and productive China is as compared to indian govt.,,
+1961951,"If a country can't protect a comedian in its capital, how can it protect its border from China? #MunawarFaruqui",Pro OPP,china,"['china', 'comedian', 'protect']","[{'text': 'china', 'score': 0.5358}, {'text': 'comedian', 'score': 0.4828}, {'text': 'protect', 'score': 0.3518}]",Against,portrays china as an enemy.,,
+314147,"RSS: China has intruded. Oops!
+Modi had on June 19 denied any intrusion at an all-party meeting four days after 20 Indian soldiers had died during a clash in the Galwan Valley
+
+https://t.co/yMhvUbNlaf",Pro OPP,china,"['china', 'intrusion', 'died']","[{'text': 'china', 'score': 0.5328}, {'text': 'intrusion', 'score': 0.3633}, {'text': 'died', 'score': 0.0673}]",Against,accuses china of encroaching on indian territory and also accuses modi of aiding them.,,
+528343,"Sonia Gandhi &amp; Congress must clear their stand on Kashmir. 
+
+Rahul Gandhi congratulating photographers who were awarded considering Kashmir isn’t integral part of India is a cruel joke. #पप्पू_तो_गद्दार_है",Pro Ruling,congress,"['kashmir', 'congress', 'congratulating']","[{'text': 'kashmir', 'score': 0.5229}, {'text': 'congress', 'score': 0.2764}, {'text': 'congratulating', 'score': 0.2202}]",Against,"demanding that congress clear its stance on kashmir. calls Rahul Gandhi's action of congratulating ""a cruel joke"".",,
+2816637,"People taunting @BJP4India for lack of action on issues dear to #Hindus and showing it how #Congress is ruthless in implementing its anti-Hindu agenda have a point. One may crib about language of some, but not the language. They have show same ruthlessness in MP, Raj recently.",Pro Ruling,congress,"['hindus', 'congress', 'taunting']","[{'text': 'hindus', 'score': 0.6228}, {'text': 'congress', 'score': 0.4098}, {'text': 'taunting', 'score': 0.4062}]",Against,saying that congress is also equally as ruthless as bjp.,,
+645737,"Btw Tuchiye, GOI doesn’t publish death numbers out of thin air - they collate the numbers published by respective states that collate from local authorities and these are governed by multiple parties including  BJP, congress and other opposition parties https://t.co/EhrPIpP7Zr",Pro Ruling,congress,"['numbers', 'congress', 'publish']","[{'text': 'numbers', 'score': 0.3916}, {'text': 'congress', 'score': 0.2615}, {'text': 'publish', 'score': 0.2303}]",neutral,no stance on congress taken.,,
+1642320,I fear for the day when Congress twitter handle will tweet picture of Johnny sins to give tribute to Pandit Jawahar lal Nehru. The amount of mistakes from this handle makes me believe that the day is not far enough. https://t.co/moWmfP2VgA,Pro Ruling,congress,"['tweet', 'sins', 'congress']","[{'text': 'tweet', 'score': 0.4369}, {'text': 'sins', 'score': 0.3739}, {'text': 'congress', 'score': 0.3162}]",Against,mocks congress for being incompetent with social media and consistenly making mistakes. says that one day might post johnny sins as nehru.,,
+572867,"#GupkarGangs #AliBabaAurChalisChor 
+Very well defined by Dr. Agnishekhar who is a well known poet, Writer &amp; a Kashmiri Hindu activist. 
+A bunch of local politicians with the backing of Congress have destroyed #JammuKashmir &amp; Ladakh. https://t.co/aRyPF3F9aS",Pro Ruling,congress,"['alibaba', 'gangs', 'congress']","[{'text': 'alibaba', 'score': 0.5238}, {'text': 'gangs', 'score': 0.4757}, {'text': 'congress', 'score': 0.2217}]",Against,"compares congress to ""chalis chor"" which means 40 thieves. accuse it of destroying Jammu & Kashmir.",,
+689163,Divisive Congress https://t.co/H1uQuX43r1,Pro Ruling,congress,"['congress', 'divisive']","[{'text': 'congress', 'score': 0.8849}, {'text': 'divisive', 'score': 0.5628}]",Against,labels congress as divisive.,,
+1156451,Very clear which political party is the mother ship of Maoist Murderers! #NaxalAttack #UrbanNaxal #CongressWithNaxals https://t.co/SjsJgbgZE3,Pro Ruling,congress,"['naxal', 'congress', 'urban']","[{'text': 'naxal', 'score': 0.6115}, {'text': 'congress', 'score': 0.3431}, {'text': 'urban', 'score': 0.1664}]",Against,accuses congress of supporting naxalites.,,
+335243,"On 07 Dec Congress leader @boxervijender announced that he'll return his Rajiv Gandhi Khel Ratna award to protest against farm laws.
+
+It's 26 Dec now but he hasn't returned it yet. Let's trend #विजेंदर_अवार्ड_वापस_कर to remind him that people won't let him get away with gimmicks.",Pro Ruling,congress,"['ratna', 'returned', 'congress']","[{'text': 'ratna', 'score': 0.4023}, {'text': 'returned', 'score': 0.3899}, {'text': 'congress', 'score': 0.245}]",Against,implies that congress leaders dont mean what they say and try to get away with gimmicks.,,
+2643285,Watch | Congress leader Rahul Gandhi's early morning run during #BharatJodoYatra in Telangana https://t.co/88jxw1WOhc,Pro OPP,congress,"['run', 'congress', 'yatra']","[{'text': 'run', 'score': 0.512}, {'text': 'congress', 'score': 0.3442}, {'text': 'yatra', 'score': 0.2726}]",neutral,"no stance being taken, only news being delivered",,
+1606736,"I feel very bad for 1000’s of volunteers who supported congress on SM &amp; field ! 
+
+They did a great job &amp; did whatever possible but unfortunately we couldn’t cross the line! 
+
+Thank you for your contribution 🙏🏼
+
+#keralaelections2021",Pro OPP,congress,"['volunteers', 'congress', 'bad']","[{'text': 'volunteers', 'score': 0.4892}, {'text': 'congress', 'score': 0.4301}, {'text': 'bad', 'score': 0.2042}]",For,thanking volunteers for joining congress efforts even if the objective was not fulfilled.,,
+839717,"Gotta give @narendramodi an A+ for the sheer gall he has to come begging for votes with a track record that reeks of failure, corruption &amp; the destruction of not just our institutions, but the lives of citizens. Let this sink in India #NoVoteForBJP there’s only #CongressForIndia https://t.co/OIaYu1G1sc",Pro OPP,congress,"['narendramodi', 'congress', 'sink']","[{'text': 'narendramodi', 'score': 0.5931}, {'text': 'congress', 'score': 0.4572}, {'text': 'sink', 'score': 0.0442}]",For,"encourages people to vote for congress. says modi's government reeks of ""failure, corruption and destruction"" of institutions and lives.",,
+2283950,#JusticeForAnkita #JusticeForBilkisBano placards in hand Mahila Congress members along Mr @RahulGandhi walk in #BharatJodoYatra https://t.co/02CfsexRNs,Pro OPP,congress,"['justice', 'congress', 'rahulgandhi']","[{'text': 'justice', 'score': 0.5125}, {'text': 'congress', 'score': 0.4469}, {'text': 'rahulgandhi', 'score': 0.4205}]",For,shows how female congress leaders and Rahul gandhi demand justice for women who were wronged.,,
+1607573,"To save the country &amp; fight for Idea of India, join congress social media! #JoinCongressSocialMedia https://t.co/S1igTksUIk",Pro OPP,congress,"['social', 'india', 'congress']","[{'text': 'social', 'score': 0.4575}, {'text': 'india', 'score': 0.435}, {'text': 'congress', 'score': 0.4198}]",For,"promotes and encourages people to ""fight for india"" by joining congress social media.",,
+2771566,"Karnataka Congress chief Mr @DKShivakumar told me in January 6th, 2023 - the number of seats that he was confident of winning in Karnataka… 
+
+Mr Shivkumar replied  - 136 …  👇🏽 
+
+And today Congress is leading on 136 seats in #Karnataka … https://t.co/ZKfeZNtAvO",Pro OPP,congress,"['congress', 'dkshivakumar', 'seats']","[{'text': 'congress', 'score': 0.5305}, {'text': 'dkshivakumar', 'score': 0.4944}, {'text': 'seats', 'score': 0.4209}]",For,shows how congress did in fact achieve the number of seats it was aiming for in Karnataka.,,
+1299739,"@sridhar1085 is one of the most dedicated Congressis I know. He has worked day and night in the past few years, fighting dedicatedly for the party. Questioning his loyalty and hard work for the party is outright wrong.",Pro OPP,congress,"['congressis', 'sridhar1085', 'loyalty']","[{'text': 'congressis', 'score': 0.4631}, {'text': 'sridhar1085', 'score': 0.3517}, {'text': 'loyalty', 'score': 0.2776}]",For,shows strong support for one congress member.,,
+19704,I have experienced arrogance of Congress in power. But now for the first time I am facing arrogance of Congress without power! #CongressPresident,Pro OPP,congress,"['congress', 'arrogance', 'power']","[{'text': 'congress', 'score': 0.576}, {'text': 'arrogance', 'score': 0.4641}, {'text': 'power', 'score': 0.2286}]",Against,calls congress arrogant whilst having no power.,,
+710760,"Youth Congress’ candle march in Delhi
+
+Congress has asked its state and district units to hold candle marches in remembrance of those farmers who died during #FarmersProtest 
+
+#FarmLaws https://t.co/EGg9cpbKgd",Pro OPP,congress,"['candle', 'congress', 'farmers']","[{'text': 'candle', 'score': 0.5162}, {'text': 'congress', 'score': 0.3076}, {'text': 'farmers', 'score': 0.2503}]",For,shows congress paying respect to departed farmers.,,
+2558254,"This is a warning for the people who want to divide our nation in the name of religion, language, caste, creed &amp; dress ! 
+Beware Indian National Congress will challenge any such attempt &amp; behind them millions of Indians will March ❤️🇮🇳✌🏼
+#BharatJodoYatra https://t.co/x1ogOrRWhz",Pro OPP,congress,"['indian', 'congress', 'warning']","[{'text': 'indian', 'score': 0.5539}, {'text': 'congress', 'score': 0.4495}, {'text': 'warning', 'score': 0.3428}]",For,"says that congress will never let india be divided on the basis of caste, religion, language etc. and that millions of indians will always stand in their support.",,
+1406151,"Gopal Singh Chawla, a close aide of Hafiz Saeed and a Khalistani terrorist announces a tractor rally in Pakistan against India’s farm laws.
+
+Goes on to further explain the authenticity of the ongoing farmers’ protests. After all, you are known by the kind of support, you attract.",Pro Ruling,farm laws,"['rally', 'tractor', 'india']","[{'text': 'rally', 'score': 0.4934}, {'text': 'tractor', 'score': 0.4588}, {'text': 'india', 'score': 0.2981}]",For,shows that farmer protesting is actually a close aid of khalistani terrorist.,,
+1750524,"No record of the death of farmers during protests against farm laws, hence no question of compensation: Govt informs Parliament
+
+https://t.co/i2tLFitdFU",Pro Ruling,farm laws,"['farmers', 'death', 'protests']","[{'text': 'farmers', 'score': 0.4718}, {'text': 'death', 'score': 0.4054}, {'text': 'protests', 'score': 0.2977}]",For,shows there is no record of death of farmers.,,
+1177474,"Anti-farm laws protesters raising Khalistani slogans disrupt Holi celebrations by the Indian community in Alberta, Canada
+https://t.co/PpLJSIaGRg",Pro Ruling,farm laws,"['protesters', 'canada', 'farm']","[{'text': 'protesters', 'score': 0.6219}, {'text': 'canada', 'score': 0.2795}, {'text': 'farm', 'score': 0.2357}]",For,shows that anti-farm law protestors raise khalistani slogans.,,
+186667,"Political role reversals on past #FarmLaws 
+
+@amanpanwar @pkdnambiar
+
+Watch the full discussion here: https://t.co/ik8s4iaM93
+
+#FarmLaws2020 #FarmBills #FarmersProtest #FarmerAgitation #farmersagitation https://t.co/Luvkjfzl8h",Pro OPP,farm laws,"['farmers', 'protest', 'bills']","[{'text': 'farmers', 'score': 0.5722}, {'text': 'protest', 'score': 0.3709}, {'text': 'bills', 'score': 0.2497}]",Neutral,"no stance taken, only news delivered.",,
+1404284,"Domestic violence isn't an internal issue as it's illegal as per Indian law.
+
+Whereas the implementation process of farm laws, the peaceful dissent, action on violent protests &amp; propaganda, the steps to prevent violence are within the legal framework, hence our internal matter.",Pro Ruling,farm laws,"['violence', 'domestic', 'indian']","[{'text': 'violence', 'score': 0.5359}, {'text': 'domestic', 'score': 0.4335}, {'text': 'indian', 'score': 0.2931}]",For,"shows that for violent protest, the steps taken by the government are well within the legal framework.",,
+1438065,"5 reasons why farmers won the farm laws battle against Modi govt
+
+@ChitleenKSethi reports for ThePrint
+
+https://t.co/pPfjkFp2GZ",Pro OPP,farm laws,"['farmers', 'won', 'theprint']","[{'text': 'farmers', 'score': 0.646}, {'text': 'won', 'score': 0.2886}, {'text': 'theprint', 'score': 0.1003}]",Against,claims that farmers won the farm laws against modi. Suggests a battle against an unwilling leader.,,
+1594930,"Punjab CM Amarinder Singh has objected to the Centre's move of directly making payments to farmers' bank account, alleging that it would aggravate the ongoing crisis over farm laws
+https://t.co/19NJ2RLATw",Pro Ruling,farm laws,"['objected', 'farmers', 'account']","[{'text': 'objected', 'score': 0.4005}, {'text': 'farmers', 'score': 0.298}, {'text': 'account', 'score': 0.158}]",Neutral,no stance on farm laws being taken.,,
+314059,"Where’s the party tonight?
+
+- Pizza
+- DJ
+- Foot massager
+- Political ‘party’
+
+Rush to the nearest protest site!
+
+#RealFarmersWithModi #FarmersProtests #FarmLaws2020 #pizza https://t.co/YurrnPqwwD",Pro Ruling,farm laws,"['party', 'pizza', 'farmers']","[{'text': 'party', 'score': 0.506}, {'text': 'pizza', 'score': 0.4638}, {'text': 'farmers', 'score': 0.2919}]",For,hashtag suggests 'real' farmers stand with modi and farm laws and that the anti-farm law protests are just an excuse for another big party.,,
+815221,"The RLD has thrown its force behind the ongoing farmers’ agitation over the farm laws, with its leader, former MP Jayant Chaudhary, declaring an extended programme of mahapanchayats across western #UttarPradesh till the first week of March.
+https://t.co/hBslGUvWAs",Pro OPP,farm laws,"['rld', 'farmers', 'force']","[{'text': 'rld', 'score': 0.4453}, {'text': 'farmers', 'score': 0.3835}, {'text': 'force', 'score': 0.3024}]",Neutral,"no stance taken, only news delivered.",,
+187479,"@RahulGandhi @BhavikaKapoor5 #SuitBootLootKiSarkar pushed down farm income growth to a 14 yr low by 2018. This predatory regime has always betrayed farmers from 2014, starting with Land Acquisition amendment, stopping bonuses, scrapping APMCs &amp; MSPs in Bihar &amp; now farm laws for greedy crony capitalists. https://t.co/iWern5nDc8",Pro OPP,farm laws,"['farmers', 'down', 'msps']","[{'text': 'farmers', 'score': 0.5238}, {'text': 'down', 'score': 0.2508}, {'text': 'msps', 'score': 0.0845}]",Against,claims that farm laws are only for greedy corporates.,,
+422701,"Yesterday during a discussion with Farmers, Govt asked about the specific Clauses in #FarmLaws which are against the farmers
+
+And as you can guess, they could not answer a single clause which is against them.
+
+Govt has now asked them to come up with the problematic clause. 😁 https://t.co/MkJwUsbZoT",Pro Ruling,farm laws,"['farmers', 'clause', 'govt']","[{'text': 'farmers', 'score': 0.5248}, {'text': 'clause', 'score': 0.4716}, {'text': 'govt', 'score': 0.2761}]",For,claims that there is actually no problematic clause in farm laws and even farmers couldn’t come up with one.,,
+1375679,"Shame on Congress! They accepted today that Amarinder was equally responsible for 3 black farm laws &amp; still they lied to Public !! 
+
+Punjab voters will give a befitting reply in coming elections https://t.co/h5IPTIEozd",Pro OPP,farm laws,"['congress', 'shame', 'amarinder']","[{'text': 'congress', 'score': 0.4161}, {'text': 'shame', 'score': 0.271}, {'text': 'amarinder', 'score': 0.1342}]",Against,"calls farm laws ""black"".",,
+204873,"Haryana BJP leader Shyam Singh Rana quits party over recently enacted farm laws, says farmers' concerns are genuine and government should have addressed them(PTI) https://t.co/JCq9tW0CGc https://t.co/C2yxzlL97O",Pro OPP,farm laws,"['farmers', 'quits', 'party']","[{'text': 'farmers', 'score': 0.3957}, {'text': 'quits', 'score': 0.2959}, {'text': 'party', 'score': 0.2178}]",Against,shows how bjp leader quit after farm laws and supports farmers concerns.,,
+156027,"#OppositionMisleadFarmers
+Farm laws are legal and the Government has the right to make laws related to the trade. Both APMC and MSP will not be affected: Union Minister @nstomar  https://t.co/tJc574vfls",Pro Ruling,farm laws,"['farmers', 'government', 'apmc']","[{'text': 'farmers', 'score': 0.4824}, {'text': 'government', 'score': 0.2758}, {'text': 'apmc', 'score': 0.1915}]",For,claims that the farm laws are good and legal but the opposition is misleading people.,,
+757608,"1. Farm laws are not imposed, it gives an extra option without replacing the current system.
+
+2. Few farmers are on the street because political parties and communists misguided them.
+
+3. Modi Sarkar has prioritized small farmers instead of reach farmers. https://t.co/UsBfeOQcVZ",Pro Ruling,farm laws,"['farmers', 'prioritized', 'communists']","[{'text': 'farmers', 'score': 0.5358}, {'text': 'prioritized', 'score': 0.2996}, {'text': 'communists', 'score': 0.2518}]",For,shows how modi is supporting small farmersa and how communists are misguiding the few farmers who are protesting.,,
+1726512,"‘Azadi’ slogans raised at Azad Maidan in Mumbai as thousands of Muslim protestors gathered to protest against farm laws
+
+https://t.co/IYISzeKRJo",Pro Ruling,farm laws,"['protest', 'muslim', 'farm']","[{'text': 'protest', 'score': 0.4964}, {'text': 'muslim', 'score': 0.4589}, {'text': 'farm', 'score': 0.2788}]",Neutral,"no stance taken, only news delivered",,
+152433,Will the Farm Bills ushered in by the NDA government help farmers? Do they remove MSP or public procurement? @Sanju_Verma_ answers many such questions and debunks the myths surrounding the new #FarmLaws #ModiWithFarmers https://t.co/JiBOTJfjwa,Pro Ruling,farm laws,"['farmers', 'bills', 'remove']","[{'text': 'farmers', 'score': 0.4795}, {'text': 'bills', 'score': 0.2777}, {'text': 'remove', 'score': 0.0873}]",Neutral,"no stance taken, only news delivered",,
+1735748,Congress lead by Rahul Gandhi walks out of the Parliament when Prime Minister was speaking about Farm Laws. That's why Indians are walking out of these AndolanJeevi parties.,Pro Ruling,farm laws,"['indians', 'congress', 'out']","[{'text': 'indians', 'score': 0.495}, {'text': 'congress', 'score': 0.459}, {'text': 'out', 'score': 0.3284}]",Neutral,no stance taken on farm laws. Only claiming that farmers protest has been hijacked.,,
+188129,"#Delhi CM #ArvindKejriwal to visit #SinghuBorder (#Haryana-#Delhi border) today where #farmers’ #protest, against #Centre’s #FarmLaws, entered 12th day https://t.co/ruuBVmrOxb",Pro OPP,farm laws,"['farmers', 'sing', 'hub']","[{'text': 'farmers', 'score': 0.2705}, {'text': 'sing', 'score': 0.2312}, {'text': 'hub', 'score': 0.2157}]",Neutral,"no stance taken, only news delivered",,
+928203,"Workers under the watch of police personnel on Monday hooked iron rods between two rows of cement barriers on a flank of the main highway at #SinghuBorder to further restrict the movement of protesters agitating against the new farm laws at the site.
+
+https://t.co/0sykxsrb87",Pro OPP,farm laws,"['workers', 'rods', 'protesters']","[{'text': 'workers', 'score': 0.5493}, {'text': 'rods', 'score': 0.4592}, {'text': 'protesters', 'score': 0.2727}]",Against,shows how police and workers jointly are making farmers protest movement difficult.,,
+1394017,"SHOCKING
+
+Agriculture Minister Still Defending the #FarmLaws
+
+He says, #FarmersProtest is confined to just one state. 
+
+He is ignorant, He doesn't know that Farmers from across India are protesting and demanding the repealing of the Law https://t.co/59cMx2cq6j",Pro OPP,farm laws,"['farmers', 'protesting', 'minister']","[{'text': 'farmers', 'score': 0.5617}, {'text': 'protesting', 'score': 0.3931}, {'text': 'minister', 'score': 0.3847}]",Against,"calls agricultural minister supporting farm laws ""ignorant"".",,
+1615835,"Farm Laws Can Wait!
+
+Focus can be:
+1. Security of the Nation.
+Punjab being Border State.
+2. Drug Menace.
+3. Conversions.
+
+Congress, AAP, Pakistan, Khalistani , Anti India Forces fell into their own trap?
+
+If Captain join hands with BJP &amp; becomes CM, Farm Laws can be implemented?",Pro Ruling,farm laws,"['farm', 'congress', 'drug']","[{'text': 'farm', 'score': 0.3981}, {'text': 'congress', 'score': 0.2903}, {'text': 'drug', 'score': 0.0332}]",Neutral,no stance on farm laws being taken.,,
+914238,"#JustIn | The next round of talks between #farmers and Central Government over the #FarmLaws, to be held on 19th January.
+ 
+ #FarmersProtests 
+ (ANI)",Pro Ruling,farmers protests,"['farmers', 'protests', 'next']","[{'text': 'farmers', 'score': 0.5247}, {'text': 'protests', 'score': 0.3939}, {'text': 'next', 'score': 0.2594}]",neutral,no stance taken.,,farmers protests
+1404889,"Pl stop #FarmersProtests. 
+ They are super spreaders. Dangerous for everyone else. 
+ 
+ Ask any doctor, virologist, expert, scientist or even a man with common sense. Except for stupid liberals and frustrated leftists.",Pro Ruling,farmers protests,"['protests', 'farmers', 'virologist']","[{'text': 'protests', 'score': 0.5043}, {'text': 'farmers', 'score': 0.4787}, {'text': 'virologist', 'score': -0.0076}]",Against,claiming that farmers protest is a super spreader of covid and dangerous for everyone.,,farmers protests
+1404329,"Journalism is independent research and not mere reproduction of narratives. The global media has done a very shoddy job on the coverage of farmers’ protests in India.
+ 
+ Most reports are superficial and cover just one side of the story.
+ 
+ Normalising violence is supporting violence.",Pro Ruling,farmers protests,"['journalism', 'normalising', 'farmers']","[{'text': 'journalism', 'score': 0.6809}, {'text': 'normalising', 'score': 0.1947}, {'text': 'farmers', 'score': 0.1728}]",Against,implies that global media is normalising the violence of farmers protest.,,farmers protests
+11949,"Do you know why #Canada is involved in Indian #FarmersProtests ? BC if Indian farmer get direct access to the bigger market, better facilities, more money to Farmer . Canadian exports to INDIA will go to zero!
+ #FarmerBill2020 
+ #FarmersWithModi 
+ #FarmerProtestHijacked https://t.co/xMTuumPrCc",Pro Ruling,farmers protests,"['canada', 'farmers', 'hijacked']","[{'text': 'canada', 'score': 0.5191}, {'text': 'farmers', 'score': 0.4781}, {'text': 'hijacked', 'score': -0.0782}]",Against,claims that farmers protest is being hijacked by canada to support its own economic agenda.,,farmers protests
+1306543,"The govt shut off electricity from farmers protest sites last night. It is like a military siege, blocking access routes to farmers protest sites, shutting off internet! Then sending 1000s of armed policemen, para military &amp; hundreds of stone throwing BJP goons to evict farmers! https://t.co/HuvIDlp7ev",Pro OPP,farmers protests,"['electricity', 'farmers', 'protest']","[{'text': 'electricity', 'score': 0.421}, {'text': 'farmers', 'score': 0.362}, {'text': 'protest', 'score': 0.2951}]",For,shows government's brutal response to farmers protesting.,,farmers protests
+2855725,"Former Twitter CEO @Jack Dorsey in an interview to @esaagar @krystalball on Breaking Points talks about Worlds Largest Democracy, 
+ “India for example, India is one of the country which had many requests around farmers protests, around particular journalists which were critical of… https://t.co/NRNZa5Wt0S https://t.co/unF6dVmv0O",Pro OPP,farmers protests,"['india', 'protests', 'jack']","[{'text': 'india', 'score': 0.5605}, {'text': 'protests', 'score': 0.3431}, {'text': 'jack', 'score': 0.0515}]",For,shows foreign speculation on Indian Government handling of farmers protest.,,farmers protests
+846426,"Hey @Jack pls add a Twitter emoji to the massive #FarmersProtests in India -- like you did for historic international protests like #BlackLivesMatter 
+ 
+ May be 🚜 🏹",Pro OPP,farmers protests,"['twitter', 'farmers', 'india']","[{'text': 'twitter', 'score': 0.4923}, {'text': 'farmers', 'score': 0.4067}, {'text': 'india', 'score': 0.2772}]",For,requesting international recognition of farmers protest.,,farmers protests
+1048001,"A meeting between #Farmers and Police is underway at #Singhuborder 
+ #FarmersProtests #FarmLaws
+ https://t.co/pfyXopfl2p",Pro OPP,farmers protests,"['farmers', 'protests', 'police']","[{'text': 'farmers', 'score': 0.5025}, {'text': 'protests', 'score': 0.278}, {'text': 'police', 'score': 0.1689}]",neutral,"no stance taken, only news delivered.",,farmers protests
+581930,"Emerging from the meeting, #RahulGandhi said, “We met the #President and informed him of our view regarding the three #farmlaws. We informed the President that it is critical that they are taken back”. #Opposition #FarmersProtest #SitaramYechury https://t.co/RjEy8frPee",Pro OPP,farmers protests,"['farmers', 'protest', 'back']","[{'text': 'farmers', 'score': 0.4752}, {'text': 'protest', 'score': 0.3529}, {'text': 'back', 'score': 0.2446}]",For,shows congress supporting farmers protest.,,farmers protests
+1789563,"In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ""internal matters"" (farmers protests, CAA,J&amp;K etc).",Pro OPP,farmers protests,"['govt', 'indian', 'protests']","[{'text': 'govt', 'score': 0.4187}, {'text': 'indian', 'score': 0.3912}, {'text': 'protests', 'score': 0.359}]",For,calls out government hypocricy.,,farmers protests
+2347935,Chunavi Hindu Kejriwal ko Gujarat ke bacche kare kuch sawaal https://t.co/K674zyirld,Pro Ruling,hindu,"['hindu', 'chunavi', 'ke']","[{'text': 'hindu', 'score': 0.759}, {'text': 'chunavi', 'score': 0.521}, {'text': 'ke', 'score': 0.4291}]",Neutral,No stance taken on Hindus.,,
+2826212,"Rumor is that even in #BollywoodKiGandagi, a celebrity father once published his smooch with his daughter. Said if she were not his daughter, he would have married her. 
+
+His woke family sermonises on problems with Hinduism. 
+
+Is this true? https://t.co/uErWzlhsUM",Pro Ruling,hindu,"['hinduism', 'father', 'rumor']","[{'text': 'hinduism', 'score': 0.5326}, {'text': 'father', 'score': 0.3489}, {'text': 'rumor', 'score': 0.3255}]",For,Woke bollywood families killing true essence of hinduism.,,
+2216058,"🔸""HIS"" heart STILL Cries for Peshawar where he WASN'T EVEN born
+🔸""HE"" LOVES to eat BEEF &amp; JUSTIFIES it on ""Peshawari Roots""
+🔸""HIS"" Present Wife is from a Hardcore Hindu Hater Family which is involved in Terr0ri$t acts.
+
+BUT...You've 1""ब्रम्हास्र”in Your Hand. USE IT!! https://t.co/dvB8DYOj7M",Pro Ruling,hindu,"['hindu', 'hater', 'wife']","[{'text': 'hindu', 'score': 0.5202}, {'text': 'hater', 'score': 0.3004}, {'text': 'wife', 'score': 0.2609}]",For,Whoever they are talking about go against ideals of hinduism.,,
+2466838,Cc @ArvindKejriwal who denies the persecution of Kashmiri Hindus! https://t.co/rbgf61aps7,Pro Ruling,hindu,"['hindus', 'denies', 'cc']","[{'text': 'hindus', 'score': 0.5724}, {'text': 'denies', 'score': 0.4017}, {'text': 'cc', 'score': 0.1741}]",For,shows plight of kashmiri hindus being ignored kejriwal.,,
+2791405,"Disturbing visuals ‼️
+
+Man named Sahil (father's name Sarfaraz ) stabbed a minor Hindu girl multiple times, leaving her in a pool of blood in Delhi. 
+
+People stood watching &amp; nobody came forward to save her. Minor girl succumbed to injuries during treatment. 
+
+Horrible horrible… https://t.co/kv49WEswgU https://t.co/1WpMVTUGVT",Pro Ruling,hindu,"['stabbed', 'hindu', 'nobody']","[{'text': 'stabbed', 'score': 0.467}, {'text': 'hindu', 'score': 0.4288}, {'text': 'nobody', 'score': 0.0799}]",For,shows violence hindu girls face at the hands of muslims and no one does anything.,,
+2351058,"This is the true anti Hindu face of AAP - this is not a sanyog or a one off incident of abusing Hindus or inciting riots- we have seen how Kejriwal opposed Ram Mandir , how Sisodia did the same, how they backed Delhi riots mastermind Tahir Hussain! 
+
+Will they sack Rajendra Pal? https://t.co/c6J0VCMCG8",Pro Ruling,hindu,"['hindus', 'opposed', 'sack']","[{'text': 'hindus', 'score': 0.5926}, {'text': 'opposed', 'score': 0.2904}, {'text': 'sack', 'score': 0.1652}]",For,portrays AAP as anti-hindu.,,
+688850,"I am proud of 
+#OurHinduEcosystem",Pro Ruling,hindu,"['hindu', 'ecosystem', 'proud']","[{'text': 'hindu', 'score': 0.5964}, {'text': 'ecosystem', 'score': 0.4262}, {'text': 'proud', 'score': 0.3816}]",For,pride in the hindu ecosystem.,,
+2650326,"Most corporates, be it Fab India, OTT channels, NGOs are infested with Hinduphobic, anti-India #UrbanNaxals. I have been fighting this for a long time. Pl join this fight and defeat them. 
+#BoycottHyundai #BoycottKiaIndia #BoycottKFC",Pro Ruling,hindu,"['hinduphobic', 'corporates', 'channels']","[{'text': 'hinduphobic', 'score': 0.496}, {'text': 'corporates', 'score': 0.2155}, {'text': 'channels', 'score': 0.0471}]",For,calling out corporations for being anti-hindu.,,
+2851577,"Caste Hindu NGO owner Sunil Shukla gave his private part in the mouth of Dalit minor childrens, had called them home on the pretext of giving them books, obscene behavior with children embarrasses humanity, The incident is from varanasi, UP. https://t.co/lyg6NpAGvA",Pro OPP,hindu,"['hindu', 'private', 'embarrasses']","[{'text': 'hindu', 'score': 0.541}, {'text': 'private', 'score': 0.3442}, {'text': 'embarrasses', 'score': 0.1858}]",Against,shows how oppressive the hindu caste system continues to be.,,
+2749219,"""Real Hindus Don't Lynch"" 
+Indian Americans Protesting Against Modi in New York. https://t.co/Dt7ERUtmrU",Pro OPP,hindu,"['hindus', 'protesting', 'york']","[{'text': 'hindus', 'score': 0.5417}, {'text': 'protesting', 'score': 0.4666}, {'text': 'york', 'score': 0.339}]",For,saying that real hindus dont lynch.,,
+1294692,"@RahulGandhi It's important for Rahul G to make people aware of the nuances of Hinduism as opposed to the hardliner Hindutva ideology practised by RSS-BJP to put aside the arguments on religion&amp; focus on more pertinent issues like unemployment,covid Mismanagement&amp;lack of dev. under Modi govt https://t.co/m2suUk31BT",Pro OPP,hindu,"['hinduism', 'hardliner', 'unemployment']","[{'text': 'hinduism', 'score': 0.6873}, {'text': 'hardliner', 'score': 0.1256}, {'text': 'unemployment', 'score': 0.0585}]",For,mentions how through Rahul Gandhi it is important for ppl to realise the nuances of hinduism as opposed to modi's hardline strategy.,,
+269235,"Ahead of the anniversary of the scrapping of J&amp;K’s special status, Naeem Akhtar, PDP leader and ex-minister in the J&amp;K govt said the Modi govt has made Kashmir the “foundation stone” of its attempts to remake India as a ‘Hindu rashtra’. | @khanumarfa
+
+https://t.co/EdJO8N99wX",Pro OPP,hindu,"['hindu', 'remake', 'pdp']","[{'text': 'hindu', 'score': 0.5577}, {'text': 'remake', 'score': 0.2674}, {'text': 'pdp', 'score': 0.0839}]",Against,"shows how modi wants to use kashmir as a founding stone for his ""hindu rashtra"".",,
+140060,"NANAK NAAM CHARDI KALAA.. TERE BHANE SARBAT DA BHALAA 
+
+Kush Lok Protest Ko Hindu-Sikh ki Ladai Bana Ne Mai Lagey Hue Hain.. Jabki Baat Sirf Kisaan Ki Ho Rahi Hai.. Dharm Ki Baat Toh Hai Hee Nahi🙏🏾
+
+Koi bhi Dharm Ladai Ki Baat Nahi Karta🙏🏾
+
+Rab Da Vasta🙏🏾
+
+#farmerprotest",Pro OPP,hindu,"['hindu', 'protest', 'ho']","[{'text': 'hindu', 'score': 0.6057}, {'text': 'protest', 'score': 0.4742}, {'text': 'ho', 'score': 0.294}]",For,saying that the farmers protest is not about religion but some ppl are trying to make it into one.,,
+382430,This is the prominent Lanka-Dafi road adjacent to Banaras Hindu University in Varanasi. Drain overflowing on road is a perennial problem here. Nothing has changed. https://t.co/mMqGug1EAL,Pro OPP,hindu,"['road', 'overflowing', 'hindu']","[{'text': 'road', 'score': 0.5345}, {'text': 'overflowing', 'score': 0.3773}, {'text': 'hindu', 'score': 0.216}]",neutral,no stance on hindus.,,
+2907543,"RSS' views on #Karnataka defeat: 
+
+▪️The result has surprised many, though they r not shocking. 
+
+▪️Without strong leadership &amp;  effective delivery at the regional level, PM Modi’s charisma and Hindutva as an ideological glue would not be sufficient. 
+   https://t.co/rs6zmFXvuM",Pro OPP,hindu,"['defeat', 'hindutva', 'leadership']","[{'text': 'defeat', 'score': 0.4533}, {'text': 'hindutva', 'score': 0.4204}, {'text': 'leadership', 'score': 0.3119}]",neutral,no stance on hindus.,,
+759784,"Rana Pratap and his ancestors were LOOTERS who faced consequences. Rani Durgavati deserved death' - This was propagated by Rajiv Gandhi govt
+ 
+ (Discovery of India doesn't have this reference)
+ 
+ Is this what @RahulGandhi means by Hinduism vs Hindutva?
+ 
+ https://t.co/sBYEv0mc7Q",Pro Ruling,hindutva,"['hindutva', 'deserved', 'propagated']","[{'text': 'hindutva', 'score': 0.7057}, {'text': 'deserved', 'score': 0.3112}, {'text': 'propagated', 'score': 0.1579}]",For,tries to expose Rahul Gandhi's propoganda against Hinduism and Hindutva.,,hindutva
+647300,"Columnist with Shekhar Gupta’s The Print spreads fake news claiming that Hindutva radicals destroyed a Muslim graveyard
+ 
+ https://t.co/7kDl81fvf2",Pro Ruling,hindutva,"['muslim', 'destroyed', 'radicals']","[{'text': 'muslim', 'score': 0.5187}, {'text': 'destroyed', 'score': 0.3159}, {'text': 'radicals', 'score': 0.2948}]",For,claiming that there is a video spreading fake news about Hindutva.,,hindutva
+750404,"5. Beware my Hindu brother, This is part of the dirty game of Congress. They are following their toolkit 'Hindu Vs Hindutva!'",Pro Ruling,hindutva,"['hindutva', 'congress', 'beware']","[{'text': 'hindutva', 'score': 0.6139}, {'text': 'congress', 'score': 0.5112}, {'text': 'beware', 'score': 0.2743}]",For,claiming that there is no hindu vs hindutva and its just dirty politics by congress.,,hindutva
+2535215,"Reading “Hindutva- For the Changing Time” by respected Shri J Nandakumar Ji.
+ A must read book for all nationalists who love Bharat’s sanatan dharma,culture,history and civilisation. 
+ @kumarnandaj Thanks You Sir🙏 https://t.co/XF0bqU4Ump",Pro Ruling,hindutva,"['hindutva', 'nationalists', 'book']","[{'text': 'hindutva', 'score': 0.6455}, {'text': 'nationalists', 'score': 0.4618}, {'text': 'book', 'score': 0.4043}]",For,encourages citizens to read a book on Hindutva. especially those who love india'a culture and history.,,hindutva
+828680,"Dismantling Global Hindutva conference has backfired badly.
+ 
+ First time, Hindus have put up organized opposition.
+ 
+ As a result, word ""Hinduphobia"" has gone mainstream.
+ 
+ The more liberals deny it, more people will believe it.
+ 
+ Till now, it was all one sided.",Pro Ruling,hindutva,"['hinduphobia', 'conference', 'backfired']","[{'text': 'hinduphobia', 'score': 0.6554}, {'text': 'conference', 'score': 0.2683}, {'text': 'backfired', 'score': 0.2341}]",For,shows pride in how dismantling global hindutva has backfired as hindus actually support it.,,hindutva
+753701,"Yes. I am an educated, outspoken, independent woman and I believe in Hindutva. Hindutva is simply being assertive about Hindu Dharma. That’s it. That’s the tweet. If YOU don’t like it, that’s your effing problem.",Pro Ruling,hindutva,"['hindutva', 'outspoken', 'tweet']","[{'text': 'hindutva', 'score': 0.6297}, {'text': 'outspoken', 'score': 0.309}, {'text': 'tweet', 'score': 0.3001}]",For,shows how educated and independent women believe in hindutva as it brings forth hindu dharma.,,hindutva
+1350207,"When International Cartel has realized that their old trick to divide Hindus based on caste is not getting results as per their expectations, they came with a new theory Hindu vs Hindutva.
+ 
+ They want to divide Hindus anyhow!",Pro Ruling,hindutva,"['hindus', 'divide', 'expectations']","[{'text': 'hindus', 'score': 0.5899}, {'text': 'divide', 'score': 0.3474}, {'text': 'expectations', 'score': 0.0753}]",For,"shows that in order to divide hindus, the international cartel is trying to draw a difference between hindu and hindutva.",,hindutva
+864279,"This reflects the true mindset of Congress; they try to legitimise the radical elements of ISIS by creating an artificial equivalence with Hindus: Gaurav Bhatia, National Spokesperson, BJP, on Salman Khurshid's provocative remark on Hindutva
+ 
+ Watch here https://t.co/oefJxIhn1D https://t.co/RHh4IjcjEZ",Pro Ruling,hindutva,"['isis', 'hindus', 'congress']","[{'text': 'isis', 'score': 0.5236}, {'text': 'hindus', 'score': 0.5048}, {'text': 'congress', 'score': 0.4144}]",For,claims that drawing a difference between hinduism and hindutva is actually part of congress' new propoganda toolkit.,,hindutva
+302461,"1. Effigy of Lord Shri Ram was burnt in Punjab's Manawala on Dussehra
+ 
+ No violence reported in any part of India. 2 arrested: Chandan Singh, Tarlok Singh.
+ 
+ 2. AMU students, who raised slogan of 'Hindutva ki kabar khudegi', now protesting against France because sentiments are hurt",Pro Ruling,hindutva,"['hindutva', 'burnt', 'protesting']","[{'text': 'hindutva', 'score': 0.5596}, {'text': 'burnt', 'score': 0.4307}, {'text': 'protesting', 'score': 0.3412}]",Against,shows how taking a dig at hindutva is more offensive than actual depictions of hindu gods being destroyed.,,hindutva
+75306,Delhi CM @ArvindKejriwal is trying to imitate Modi’s politics. But who prefers a duplicate when original Hindutva icon is available? My respect of Kejriwal has gone done considerably after Delhi election and riots. Feel sorry for this well intended leader.,Pro OPP,hindutva,"['delhi', 'imitate', 'election']","[{'text': 'delhi', 'score': 0.461}, {'text': 'imitate', 'score': 0.2893}, {'text': 'election', 'score': 0.2327}]",Against,"kejriwal no longer considered a ""well intended leader"" after duplicating hindutva icon modi's politics.",,hindutva
+554970,Nothing is so heinous that these Hindutva bigots can't do! https://t.co/Kleu78rcSH,Pro OPP,hindutva,"['hindutva', 'heinous', 'nothing']","[{'text': 'hindutva', 'score': 0.5461}, {'text': 'heinous', 'score': 0.3734}, {'text': 'nothing', 'score': 0.2634}]",Against,claims that hindutva bigots can go to all ends of heinous crimes.,,hindutva
+1759151,"#EXCLUSIVE: Hateful content #toolkits, Hindutva propaganda, and manufacturing fake social media trends inside Kapil Mishra's 'Hindu Ecosystem' on @telegram. Report by @Memeghnad and @Shambanana 
+ https://t.co/gGdjGJO48m",Pro OPP,hindutva,"['hindutva', 'media', 'toolkits']","[{'text': 'hindutva', 'score': 0.5807}, {'text': 'media', 'score': 0.4122}, {'text': 'toolkits', 'score': 0.1701}]",Against,claims that hateful content is the toolkit for hindutva propoganda.,,hindutva
+1331173,"Now Hindutva Nazis are targeting Irfan Pathan because he tweeted in support of #Palestine .
+ 
+ Many verified RW trolls tweeting ""India stands with Israel"" meanwhile dead bodies of Indians are floating in rivers.
+ 
+ #FreePalestine #PalestinianLivesMatter https://t.co/s7N8uheJlq",Pro OPP,hindutva,"['palestinian', 'india', 'tweeting']","[{'text': 'palestinian', 'score': 0.5349}, {'text': 'india', 'score': 0.3398}, {'text': 'tweeting', 'score': 0.2379}]",Against,"""hindutva nazis""",,hindutva
+2651274,"Dekho dekho… Kejriwal hindutva card khel raha…. 
+ 
+  https://t.co/bYwPGKmOb3",Pro OPP,hindutva,"['hindutva', 'card', 'dekho']","[{'text': 'hindutva', 'score': 0.6481}, {'text': 'card', 'score': 0.4831}, {'text': 'dekho', 'score': 0.466}]",Against,kejriwal playing hindutva card is said in a mocking tone. frowned upon.,,hindutva
+345604,FIRED. Done. Despite losses. Happy that I did. #TheKashmirFiles https://t.co/sx0Ae2RF3m,Pro Ruling,kashmir,"['done', 'kashmir', 'fired']","[{'text': 'done', 'score': 0.5295}, {'text': 'kashmir', 'score': 0.4622}, {'text': 'fired', 'score': 0.46}]",For,"Pro Kashmiri files, and hence in support of a narratic in solidarity with Kashmiri Pandits",,
+2114944,"Films made tax-free by CM Kejriwal in Delhi:
+
+1. 83
+2. Saand Ki Aankh
+3. Nil Battey Sannata
+
+Kejriwal insinuated that ‘The Kashmir Files’ is jhoothi (false) movie.
+
+83 movie showed Pak Army stopping firing to let Indian Army listen to the score of final match
+
+Did that happen? No",Pro Ruling,kashmir,"['kashmir', 'films', 'tax']","[{'text': 'kashmir', 'score': 0.4687}, {'text': 'films', 'score': 0.409}, {'text': 'tax', 'score': 0.2861}]",Against,Proves the heart-warming incident shown in popular Hindi movie to be false,,
+2891668,A captivating sight of the train traversing through the snow-covered Baramulla-Banihal stretch of Jammu &amp; Kashmir. https://t.co/SsWxUbxIj3,Pro Ruling,kashmir,"['train', 'snow', 'kashmir']","[{'text': 'train', 'score': 0.6997}, {'text': 'snow', 'score': 0.4162}, {'text': 'kashmir', 'score': 0.4094}]",For,Displays scenic beauty of the state,,
+758606,Only a fool would talk of PM Modi sacrificing interest of Kashmir in a meeting to be organised on the day after the balidan diwas of SP Mookerjee!,Pro Ruling,kashmir,"['kashmir', 'fool', 'meeting']","[{'text': 'kashmir', 'score': 0.4548}, {'text': 'fool', 'score': 0.3856}, {'text': 'meeting', 'score': 0.1711}]",For,"Pro-Modi, nationalist, and dismissive of opposing narratives.",,
+756387,"Congratulations Forces for Neutralizing 02 Ter0rists in Srinagar #Kashmir €ncounter today without any Casuality or Collateral . 
+
+With This Successful Op Security Forces have Cleansed Valley of 78 Ter0rists this Year",Pro Ruling,kashmir,"['kashmir', 'neutralizing', 'congratulations']","[{'text': 'kashmir', 'score': 0.4658}, {'text': 'neutralizing', 'score': 0.4032}, {'text': 'congratulations', 'score': 0.3351}]",For,Supports an anti-terrorist operation.,,
+1798977,For the First time Seats to be Reserved for Scheduled Tribes too in Jammu and Kashmir,Pro Ruling,kashmir,"['seats', 'kashmir', 'scheduled']","[{'text': 'seats', 'score': 0.6299}, {'text': 'kashmir', 'score': 0.4163}, {'text': 'scheduled', 'score': 0.3719}]",For,Refers to a positive development in the state's Legislative Assembly,,
+590064,"USA can't even count votes properly in its President election but give Gyan to Bharat on Kashmir issue.
+#USElections",Pro Ruling,kashmir,"['election', 'kashmir', 'count']","[{'text': 'election', 'score': 0.5783}, {'text': 'kashmir', 'score': 0.3754}, {'text': 'count', 'score': 0.2227}]",Neutral,"Attacks USA and its leaders, not Kashmir",,
+2635708,"Modi's personal effects contain an insightful handwritten note, a poem dedicated to Bhagwaan Sri Ram.
+
+The poetry is written on the letterhead of the BJP Jammu and Kashmir. https://t.co/1f17qzVGpD",Pro Ruling,kashmir,"['poetry', 'kashmir', 'effects']","[{'text': 'poetry', 'score': 0.5623}, {'text': 'kashmir', 'score': 0.4212}, {'text': 'effects', 'score': 0.2585}]",For,Supportive of Modi/BJP; indirectly supportive of the Indian political narrative in J&K.,,
+1309396,"The experience of Kashmir for last 30 years had clearly reflected that use of force is not sufficient to control the violent rebellions. Terrorist organisation have been crushed time and again, their supporters have been put behind the bars for innumerable times, +",Pro OPP,kashmir,"['kashmir', 'force', 'supporters']","[{'text': 'kashmir', 'score': 0.4509}, {'text': 'force', 'score': 0.3804}, {'text': 'supporters', 'score': 0.231}]",For,Pro-India; highlights security efforts in Kashmir.,,
+2667223,Rahul Gandhi doesn’t put 6 million Kashmiris in jail to claim Kashmir! #BharatJodoYatra https://t.co/9xb2VQjvpQ,Pro OPP,kashmir,"['kashmir', 'million', 'jail']","[{'text': 'kashmir', 'score': 0.4488}, {'text': 'million', 'score': 0.1743}, {'text': 'jail', 'score': 0.1618}]",Against,Against the ruling party and indicates the instability in the state,,
+2922660,"JKPCC @INCJammuKashmir working president Raman Balla Ji @RamanBhalla_ was stopped by @JmuKmrPolice from meeting the protesting Kashmiri Pandits. 
+
+I condemn",Pro OPP,kashmir,"['incjammukashmir', 'protesting', 'stopped']","[{'text': 'incjammukashmir', 'score': 0.4797}, {'text': 'protesting', 'score': 0.3543}, {'text': 'stopped', 'score': 0.2641}]",For,"Targets government intervention, but supports Kashmiri pandits",,
+2051213,"Militants lobbed a #grenade near Qazigund Dak Bungalow in #Kulgam district, #JammuAndKashmir https://t.co/YtQAuBqxMW",Pro OPP,kashmir,"['grenade', 'kashmir', 'bungalow']","[{'text': 'grenade', 'score': 0.6769}, {'text': 'kashmir', 'score': 0.3593}, {'text': 'bungalow', 'score': 0.2196}]",Against,It is reporting a security threat rather than expressing support for Kashmir’s governance or people.,,
+1080910,"A good article by @SaraHayatShah that sheds light on #BJP's dangerous project of ""cultural homogenisation"" in #Kashmir. Also on its politics of using proxies to make inroads. https://t.co/hHV6b4LTJ8",Pro OPP,kashmir,"['kashmir', 'politics', 'homogenisation']","[{'text': 'kashmir', 'score': 0.5227}, {'text': 'politics', 'score': 0.3183}, {'text': 'homogenisation', 'score': 0.213}]",For,Wants cultural diversity in Kashmir valley,,
+1081711,"Praful Khoda Patel of Muslim-majority Lakshadweep has been accused of moving to ban beef-eating and cattle transport, cracking down on protests and destroying fishing infrastructure, with politicians alleging he wants to turn the UT into “another Kashmir” 
+https://t.co/PJgJxP4Dlr",Pro OPP,kashmir,"['kashmir', 'cattle', 'politicians']","[{'text': 'kashmir', 'score': 0.3887}, {'text': 'cattle', 'score': 0.1798}, {'text': 'politicians', 'score': 0.136}]",Against,Refers to Kashmir in a way that creates an impression that it has already become an unstable area,,
+1549914,"In Kashmir, bikes have become security threats. What sort of madness is this?",Pro OPP,kashmir,"['bikes', 'kashmir', 'threats']","[{'text': 'bikes', 'score': 0.4559}, {'text': 'kashmir', 'score': 0.4402}, {'text': 'threats', 'score': 0.3801}]",Against,Shows peculiar political and security condition in Kashmir,,
+2063851,"Amidst chest thumping and cacophony in TV debates, one simple point.
+
+BJP has now been ruling for 8 years and preaching for last 7 decades as to how Kashmir should be handled. It must now demonstrate that it’s govt can secure the lives of people in Kashmir. https://t.co/M2YotTiz1f",Pro OPP,kashmir,"['kashmir', 'tv', 'cacophony']","[{'text': 'kashmir', 'score': 0.5626}, {'text': 'tv', 'score': 0.2161}, {'text': 'cacophony', 'score': 0.1308}]",For,Calls for positive action in the state of Kashmir,,
+269728,“It’s all about land”: Mehbooba Mufti says plundering Kashmiris is BJP's plan in Kashmir  https://t.co/9JYOTBCcJK via @tkwmag,Pro OPP,kashmir,"['kashmir', 'plundering', 'plan']","[{'text': 'kashmir', 'score': 0.6385}, {'text': 'plundering', 'score': 0.3528}, {'text': 'plan', 'score': 0.2602}]",for,"It portrays the ruling party as exploiting the region, highlighting grievances of Kashmiris.",,
+1994227,"#KashmirFilesClash | @shaziailmi, National Spokesperson BJP, takes on Akshay Marathe, Spokesperson AAP, on AAP's statements on The Kashmir Files and on Kashmiri Pandits; Tune in #LIVE here - https://t.co/YyXSvvu9Tr https://t.co/nz2BQo9bLx",Pro Ruling,kashmiri pandits,"['kashmir', 'clash', 'files']","[{'text': 'kashmir', 'score': 0.5804}, {'text': 'clash', 'score': 0.3967}, {'text': 'files', 'score': 0.2606}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+1399978,"It is a WRAP for #TheKashmirFiles. Gut wrenching, sad &amp; truthful experience. A true story that waited for 30 years to be told! Thank you @vivekagnihotri #PallaviJoshi for making this film. Thank you cast &amp; the crew for your love &amp; dedication. Jai Ho!!🙏 #Exodus #KashmiriPandits https://t.co/G3gnMADNCW",Pro Ruling,kashmiri pandits,"['kashmir', 'cast', 'wrenching']","[{'text': 'kashmir', 'score': 0.5557}, {'text': 'cast', 'score': 0.4147}, {'text': 'wrenching', 'score': 0.2721}]",Favour,"talking positively about a movie ""kashmir files"" which went over kashmiri pandits",,
+2250339,"Since #RahulBhat’s killing, the massive spontaneous protests by Kashmiri Pandits in Kashmir is a clear indicator that our younger generations are ready to take charge. We deserve new leadership that is connected to the ground &amp; has the pulse of our community. Our youth must lead.",Pro Ruling,kashmiri pandits,"['kashmir', 'leadership', 'protests']","[{'text': 'kashmir', 'score': 0.455}, {'text': 'leadership', 'score': 0.3668}, {'text': 'protests', 'score': 0.3208}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+2323688,"Kashmiri Pandits protest against Rahul Bhat's killing in J-K's Budgam
+ 
+ Read @ANI Story | https://t.co/L8Zk2dB53w
+ 
+ #KashmiriPandits #Kashmir #RahulBhat https://t.co/XILzyaMKnv",Pro Ruling,kashmiri pandits,"['kashmir', 'protest', 'killing']","[{'text': 'kashmir', 'score': 0.4876}, {'text': 'protest', 'score': 0.4061}, {'text': 'killing', 'score': 0.2618}]",Neutral,just states an event without any stance,,
+155769,#KanganaRanaut calls out selective secularism of Bollywood and so-called liberals and urges @narendramodi @PMOIndia to take strict action against atrocities done on #KashmiriPandits and their safe return to their homeland. #AjayPandita #JusticeForAjayPandita https://t.co/gy6PxxkzEh,Pro Ruling,kashmiri pandits,"['narendramodi', 'liberals', 'return']","[{'text': 'narendramodi', 'score': 0.5952}, {'text': 'liberals', 'score': 0.2785}, {'text': 'return', 'score': 0.0296}]",Favour,fighting for kashmiri pandits return,,
+8991,"30 years ago this day, Jan 19, 1990, mosques started blaring threats to #KashmiriPandits: convert to Islam or get out. Destruction of Pandit homes &amp; lives began. So did the #KashmiriHinduExodus, exiling the Valley’s intellectual but gentle core. Read! https://t.co/NZLzV91IeL",Pro Ruling,kashmiri pandits,"['hindu', 'threats', 'exiling']","[{'text': 'hindu', 'score': 0.4756}, {'text': 'threats', 'score': 0.3235}, {'text': 'exiling', 'score': 0.2683}]",Favour,talks about the atrocities and hardships they faced,,
+2553358,Kashmiri Pandits had organised a protest at Taj Palace Hotel in New Delhi when India Today invited terrorist Yasin Malik as guest speaker. UPA Govt remained silent. India Today didn’t reconsider invite. Cops forcibly removed KPs. Watch what Yasin Malik did in #TheKashmirFiles. https://t.co/CSKj92fEFW,Pro Ruling,kashmiri pandits,"['kashmir', 'protest', 'hotel']","[{'text': 'kashmir', 'score': 0.5026}, {'text': 'protest', 'score': 0.3576}, {'text': 'hotel', 'score': 0.1089}]",Favour,talks about their struggle and how no one supported them,,
+1191627,"Her father Mufti Muhammad Saeed became Home Minister of India on Dec 2, 1989. 
+ 
+ Exodus of Kashmiri Pandits began on Jan 19,1990. 
+ 
+ That's how focussed these Islamists are. 
+ 
+ Demograpy is destiny. She knows it. Kafirs don't. https://t.co/c36CZTq1nS",Pro Ruling,kashmiri pandits,"['india', 'islamists', 'demograpy']","[{'text': 'india', 'score': 0.4476}, {'text': 'islamists', 'score': 0.4427}, {'text': 'demograpy', 'score': 0.2173}]",Favour,Favour cues: ['exodus'],,
+1929167,"#KashmiriPandits- TV Media &amp; BJP targeted @ArvindKejriwal with a document issued by Dilip Bhan who claimed to be COORDINATOR of Government School Teachers Association (Migrant)
+ 
+ In an exclusive interview to me, Bhan ADMITS that he is NOT the coordinator.
+ 
+ https://t.co/WShb44Bnq0",Pro OPP,kashmiri pandits,"['coordinator', 'media', 'migrant']","[{'text': 'coordinator', 'score': 0.3833}, {'text': 'media', 'score': 0.2577}, {'text': 'migrant', 'score': 0.1338}]",Neutral,Weak/indirect cues without explicit Kashmiri Pandit reference,,
+2496982,"No one is saying that Kashmiri Pandits were not targeted by Kashmir militants in 1989-1990. Dozens of movies have been made on Kashmir militancy. But, the regime-sponsored 'The Kashmir File' was a 'vulgar, propaganda' to create more hate and anger against Kashmiris &amp; Muslims.",Pro OPP,kashmiri pandits,"['kashmir', 'targeted', 'file']","[{'text': 'kashmir', 'score': 0.5101}, {'text': 'targeted', 'score': 0.1231}, {'text': 'file', 'score': 0.0992}]",Neutral,"Mixed cues: favour=['targeted'], against=['propaganda']",,
+2145465,"A case is being made that Congress is rattled on the issue of Kashmiri Pandits or Kashmir. But certainly, that’s wrong! https://t.co/A1mbqSwaLh",Pro OPP,kashmiri pandits,"['kashmir', 'congress', 'wrong']","[{'text': 'kashmir', 'score': 0.4588}, {'text': 'congress', 'score': 0.4357}, {'text': 'wrong', 'score': 0.3734}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+2272166,"Example of Township built by Congress only for Kashmiri Pandits in J&amp;K. 
+ Date March 04, 2011
+ 
+ How many such township built by BJP in last 8 years ?
+ 
+ Any data @narendramodi ?
+ 
+ #TheKashmirFiles https://t.co/LILbJHQJ6J",Pro OPP,kashmiri pandits,"['kashmir', 'township', 'congress']","[{'text': 'kashmir', 'score': 0.4969}, {'text': 'township', 'score': 0.434}, {'text': 'congress', 'score': 0.2051}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+2595476,The Kashmiri Pandits (also known as Kashmiri Brahmins) are a group of Kashmiri Hindus and a part of the larger Saraswat Brahmin community of India. They belong to the Pancha Gauda Brahmin group from the Kashmir Valley.,Pro OPP,kashmiri pandits,"['kashmir', 'brahmins', 'group']","[{'text': 'kashmir', 'score': 0.4965}, {'text': 'brahmins', 'score': 0.4309}, {'text': 'group', 'score': 0.1691}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+1853529,"How many of you feel that BJP is behind the attacks on Kashmiri Pandits to ignite hate against Muslims and to polarise Hindu votes. 
+ 
+ I feel.",Pro OPP,kashmiri pandits,"['hindu', 'attacks', 'feel']","[{'text': 'hindu', 'score': 0.4916}, {'text': 'attacks', 'score': 0.3846}, {'text': 'feel', 'score': 0.1747}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+2296294,"Amit Malviya and Kapil Mishra misrepresented Delhi CM Kejriwal's assembly address where he criticised BJP members for promoting 'The Kashmir Files'. They falsely claimed Kejriwal denied atrocities faced by Kashmiri Pandits. #AltNewsFactCheck | @ArchitMeta
+ https://t.co/lck3RsyLg3",Pro OPP,kashmiri pandits,"['misrepresented', 'kashmir', 'assembly']","[{'text': 'misrepresented', 'score': 0.4614}, {'text': 'kashmir', 'score': 0.4457}, {'text': 'assembly', 'score': 0.0404}]",Neutral,Mentions Kashmiri Pandits but without polar language (factual/neutral tone),,
+1819883,"Maharashtra CM Uddhav Thackeray said that Kashmiri pandits are not safe in Kashmir, the security should be provided to them, but central govt providing security to those who are attacking Shiv Sena &amp; useless people in Maharashtra.
+ @NewIndianXpress",Pro OPP,kashmiri pandits,"['kashmir', 'safe', 'thackeray']","[{'text': 'kashmir', 'score': 0.5425}, {'text': 'safe', 'score': 0.4388}, {'text': 'thackeray', 'score': 0.1285}]",Favour,Favour cues: ['safe'],,
+,"So @narendramodi is off to the #Matua shrine to prey on a persecuted community for electoral gain. The man is manic in his quest for power, and content to bastardise religion for personal gain. May the Matuas not be fooled by him &amp; say #NoVoteToBJP for the #WestBengalElections https://t.co/Hwrv5mDuB6",Pro OPP,modi,"['narendramodi', 'elections', 'persecuted']","[{'text': 'narendramodi', 'score': 0.6179}, {'text': 'elections', 'score': 0.3242}, {'text': 'persecuted', 'score': 0.3185}]",against,shows modi as a predator of votes willing to do anything for power. calls him manic.,,
+,"This ⁦@narendramodi⁩ Govt appears to be hell bent on destroying the dignity and sobriety of the three services; and replacing it with some bastardised Bollywood culture
+
+How embarrassing this “Navy nautanki” is! Are the service chiefs going to shut their eyes and acquiesce? https://t.co/e3CZFgpgkp",Pro OPP,modi,"['narendramodi', 'navy', 'shut']","[{'text': 'narendramodi', 'score': 0.4792}, {'text': 'navy', 'score': 0.3743}, {'text': 'shut', 'score': 0.3113}]",against,"shows modi trying to ""bastardise"" bollywood. destroying it of its sober and dignifiying qualities.",,
+,"Appreciating #VivekAgnihotri's (@vivekagnihotri) film '#TheKashmirFiles', Prime Minister #NarendraModi (@narendramodi) on Tuesday said more films like this need to be made so that people can know the truth. https://t.co/7bVDXp7jBf",Pro OPP,modi,"['films', 'narendramodi', 'appreciating']","[{'text': 'films', 'score': 0.5221}, {'text': 'narendramodi', 'score': 0.394}, {'text': 'appreciating', 'score': 0.1393}]",for,shows modi promoting films like kashmir files that speak the truth.,,
+,"Wah Modi Ji Wah ! 
+
+You thought you replace Nehru’s legacy by just renaming a road ?? 
+
+You are living in fools paradise ! 
+
+#ModiHaiToMumkinHai https://t.co/cE7JiFeSAu",Pro OPP,modi,"['fools', 'road', 'modihaitomumkinhai']","[{'text': 'fools', 'score': 0.3631}, {'text': 'road', 'score': 0.3627}, {'text': 'modihaitomumkinhai', 'score': 0.0553}]",against,calls modi a fool. says he can never recreate Nehru's legacy.,,
+,"PM @narendramodi unveils a bust of Mahatma Gandhi in Hiroshima, Japan. https://t.co/RmZobqj9d2",Pro Ruling,modi,"['narendramodi', 'bust', 'unveils']","[{'text': 'narendramodi', 'score': 0.4044}, {'text': 'bust', 'score': 0.3029}, {'text': 'unveils', 'score': 0.2455}]",neutral,no stance taken. only news delivered,,
+,"After programmes in Hyderabad, PM @narendramodi landed in Chennai, where he was welcomed by Governor Shri RN Ravi, CM Shri @mkstalin, Ministers, MPs and other dignitaries. https://t.co/PlQgErBxPA",Pro Ruling,modi,"['narendramodi', 'dignitaries', 'landed']","[{'text': 'narendramodi', 'score': 0.672}, {'text': 'dignitaries', 'score': 0.3123}, {'text': 'landed', 'score': 0.2224}]",neutral,no stance taken. only news delivered,,
+,"And, no holds barred @RahulGandhi calls the corona pandemic “Movid” after @narendramodi",Pro OPP,modi,"['narendramodi', 'pandemic', 'barred']","[{'text': 'narendramodi', 'score': 0.5781}, {'text': 'pandemic', 'score': 0.4758}, {'text': 'barred', 'score': 0.2767}]",against,modi caled a virus.,,
+,"Dear @narendramodi:
+
+Amidst all the happenings of the last few days, pls do know that I’ve not forgotten about the PM CARES scam nor have I stopped working on it. 
+
+Sab hisaab rakha jaaega. 
+
+Cheers.",Pro OPP,modi,"['scam', 'narendramodi', 'forgotten']","[{'text': 'scam', 'score': 0.5303}, {'text': 'narendramodi', 'score': 0.4304}, {'text': 'forgotten', 'score': 0.2584}]",against,"shows that ""pm caring"" is a scam and that one day all debts would be taken into account.",,
+,"US $ = 76.88 
+
+Today US $ against One Indian Rupee has crossed all previous records. Indian Rupee is all time low. 
+I hope PM @narendramodi must have remembered CM Modi words. If not here then he should watch this and feel embarrassed. 😁 https://t.co/KSmKZySuZJ",Pro OPP,modi,"['narendramodi', 'records', 'crossed']","[{'text': 'narendramodi', 'score': 0.3981}, {'text': 'records', 'score': 0.2091}, {'text': 'crossed', 'score': 0.1861}]",against,demanding Modi to remember his promises. blaming him for fall of indian rupee.,,
+,"Meanwhile, just in case any Indian is still worried about Chinese troops in Ladakh, they can shift their attention to the year-long commemoration of the 1971 war.
+
+What irony! @narendramodi is celebrating a grand Indira Gandhi victory to shift attention from a Modi defeat! https://t.co/Sl5U9eGzw5",Pro OPP,modi,"['narendramodi', 'celebrating', 'troops']","[{'text': 'narendramodi', 'score': 0.4979}, {'text': 'celebrating', 'score': 0.3758}, {'text': 'troops', 'score': 0.2748}]",against,showing how Modi lost to chinese troops and is diverting attention by focusing on a victory made by the congress years earlier.,,
+,Unfortunate is the fact that we are governed by @narendramodi https://t.co/zvUEii6bYV,Pro OPP,modi,"['narendramodi', 'governed', 'unfortunate']","[{'text': 'narendramodi', 'score': 0.6932}, {'text': 'governed', 'score': 0.5383}, {'text': 'unfortunate', 'score': 0.3525}]",against,comments that being governed under modi is a misfortune.,,
+,PM @narendramodi visited the Heliopolis War Memorial in Cairo. He paid homage to the supreme sacrifice made by countless Indian soldiers during the First World War. https://t.co/l4rGbIcOud,Pro Ruling,modi,"['memorial', 'heliopolis', 'narendramodi']","[{'text': 'memorial', 'score': 0.4878}, {'text': 'heliopolis', 'score': 0.4523}, {'text': 'narendramodi', 'score': 0.3403}]",for,Shows Modi remembering the sacrifices of past indian soldiers in a foreign country.,,
+,"PM @narendramodi to interact with representatives from #Varanasi based NGOs tomorrow
+
+PM to discuss and showcase the efforts of these organizations towards food distribution and other assistance measures during #lockdown
+
+Details: https://t.co/UNpOGqAXlY",Pro Ruling,modi,"['narendramodi', 'organizations', 'lockdown']","[{'text': 'narendramodi', 'score': 0.4139}, {'text': 'organizations', 'score': 0.3945}, {'text': 'lockdown', 'score': 0.1917}]",for,Shows modi being interactive and collaborative with on ground NGOs for greater good.,,
+,"PM @narendramodi’s water mission is a game changer, writes @Sanju_Verma_. #MustRead https://t.co/Hnxa1XUah5",Pro Ruling,modi,"['water', 'narendramodi', 'mission']","[{'text': 'water', 'score': 0.4803}, {'text': 'narendramodi', 'score': 0.4733}, {'text': 'mission', 'score': 0.4428}]",for,"shows modi as a changemaker and visioneer. labels article as ""must read"".",,
+,"Textile sector has always brought opportunities, will help in building self-reliant India: PM @narendramodi. Take a look at the key highlights from PM’s address on Textile Traditions. #AatmaNirbharBharat https://t.co/McYoOu5OpC",Pro Ruling,modi,"['textile', 'narendramodi', 'sector']","[{'text': 'textile', 'score': 0.6092}, {'text': 'narendramodi', 'score': 0.3927}, {'text': 'sector', 'score': 0.2843}]",for,shows modi emphasis on textile industry being integral to aatmanirbhar bharat.,,
+,"A special start to a special visit. 
+
+PM @narendramodi was welcomed by PM Frederiksen at Copenhagen. 
+@Statsmin https://t.co/iRnJt6J8k3",Pro Ruling,modi,"['welcomed', 'narendramodi', 'statsmin']","[{'text': 'welcomed', 'score': 0.5139}, {'text': 'narendramodi', 'score': 0.3616}, {'text': 'statsmin', 'score': 0.1878}]",for,"warm stance towards modi. ""special start to a special visit"".",,
+,"From today, #Modified_Lockdown is being implemented in the state. I urge everyone to follow all the guidelines &amp; adhere to instructions. No one should be negligent &amp; those who are not included in category of activities which are allowed under modified lockdown ,must #StayHome🏠.",Pro OPP,modi,"['lockdown', 'modified', 'state']","[{'text': 'lockdown', 'score': 0.6546}, {'text': 'modified', 'score': 0.4168}, {'text': 'state', 'score': 0.3148}]",neutral,"no stance taken, looks like advisory on lockdown.",,
+,"MSP was there.
+
+MSP is there.
+
+MSP will remain in the future.
+
+Affordable ration for the poor will continue. 
+
+Mandis will be modernised: PM @narendramodi #PMinRajyaSabha",Pro Ruling,modi,"['msp', 'narendramodi', 'poor']","[{'text': 'msp', 'score': 0.4419}, {'text': 'narendramodi', 'score': 0.338}, {'text': 'poor', 'score': 0.3308}]",for,Modi's statement on affordable ration.,,
+,"Dear Muslim brothers and sisters,
+After watching yesterday's video and observing Police and Govt (s) attitude related to the incident, I am shocked. 
+
+It is unimaginable what all you have to face, one after another.  Hope we will change it together. 
+
+Sorry. 😔",Pro OPP,muslim,"['muslim', 'unimaginable', 'sisters']","[{'text': 'muslim', 'score': 0.5595}, {'text': 'unimaginable', 'score': 0.2195}, {'text': 'sisters', 'score': 0.1337}]",For,Sympathises with plight of muslims.,,
+,Imagine if this mob at Capitol Hill comprised of Muslims or Black people ?,Pro OPP,muslim,"['mob', 'muslims', 'if']","[{'text': 'mob', 'score': 0.5675}, {'text': 'muslims', 'score': 0.5094}, {'text': 'if', 'score': 0.1205}]",neutral,"no stance taken, rhetorical question asked.",,
+,"Anand Swaroop claims to have threatened People/hotels in Haridwar not to celebrate Christmas. He says, For this year, he won't allow Muslims and Christians to celebrate their festivals in Uttarkhand since it belongs only to Hindus. #HaridwarHateAssembly https://t.co/j43qFS8PzS",Pro OPP,muslim,"['festivals', 'muslims', 'threatened']","[{'text': 'festivals', 'score': 0.4677}, {'text': 'muslims', 'score': 0.4117}, {'text': 'threatened', 'score': 0.2639}]",For,Shows hate against Muslims and their festivals.,,
+,Insulting Prophet has become new normal now sad part is even Muslims have taken it as part of life,Pro OPP,muslim,"['muslims', 'insulting', 'new']","[{'text': 'muslims', 'score': 0.6755}, {'text': 'insulting', 'score': 0.3675}, {'text': 'new', 'score': 0.1995}]",For,Shows plight of Muslims who have to bear the humilation of seeing the Prophet mocked.,,
+,"Moplah massacre: Classical dancer Kalyanikutty Amma’s granddaughter recounts how their ancestral home is now occupied by Muslims
+https://t.co/wlJk3pIBkp",Pro Ruling,muslim,"['muslims', 'granddaughter', 'kalyanikutty']","[{'text': 'muslims', 'score': 0.7274}, {'text': 'granddaughter', 'score': 0.1906}, {'text': 'kalyanikutty', 'score': 0.0689}]",Against,Muslims as predatory and taking over Hindu homes.,,
+,"A few of the contributions of muslims in our struggle for independence &amp; in the making of our nation. There are many, many more https://t.co/NLz18SbgcB",Pro OPP,muslim,"['muslims', 'independence', 'contributions']","[{'text': 'muslims', 'score': 0.648}, {'text': 'independence', 'score': 0.4114}, {'text': 'contributions', 'score': 0.3235}]",For,How muslims were also a part of the freedom struggle and contributed a lot into making an Independent India.,,
+,"Bangladesh: Muslims attack Hindu temples, train, government offices, stone police in rage over Modi visit https://t.co/lZ9tsAgqHs https://t.co/mIxoWcd2Gj",Pro Ruling,muslim,"['muslims', 'police', 'train']","[{'text': 'muslims', 'score': 0.5803}, {'text': 'police', 'score': 0.2707}, {'text': 'train', 'score': 0.0316}]",Against,Portrays Muslims as violent and radical.,,
+,Tax payers are new Muslims 😬🤪,Pro OPP,muslim,"['muslims', 'tax', 'new']","[{'text': 'muslims', 'score': 0.6093}, {'text': 'tax', 'score': 0.4782}, {'text': 'new', 'score': 0.2142}]",Against,Emojis show that it is funny and enjoyable. Derogatory undertone.,,
+,"VHP worker brutally attacked by Muslim mob in Amravati, Maharashtra. We request @OfficeofUT @AmtCityPolice to take strict action against the culprits. https://t.co/tzxxo0hpHN",Pro Ruling,muslim,"['attacked', 'worker', 'muslim']","[{'text': 'attacked', 'score': 0.4791}, {'text': 'worker', 'score': 0.4254}, {'text': 'muslim', 'score': 0.3944}]",Against,Portrays Muslims as violent and radical.,,
+,"Haryana News
+
+BJP &amp; JJP forms alliance for local body polls.
+
+BJP will contest 14 Municipal Councils &amp; JJP to contest 4 Municipal Councils.
+
+Out of 4 that JJP got one is Nuh which is Muslim dominated.",Pro Ruling,muslim,"['councils', 'haryana', 'muslim']","[{'text': 'councils', 'score': 0.3846}, {'text': 'haryana', 'score': 0.3681}, {'text': 'muslim', 'score': 0.2662}]",Neutral,"No stance being taken, only event being described and facts being laid.",,
+,"Update  : The muslim shopkeeper Nasir was handed over to relatives last night around 10 pm by cops . has been told he will be called to police station again if required for questioning . case continues till cops file a closure / final report in court or a chargesheet 
+Thakur https://t.co/aUq38ZCtGV",Pro OPP,muslim,"['muslim', 'shopkeeper', 'chargesheet']","[{'text': 'muslim', 'score': 0.43}, {'text': 'shopkeeper', 'score': 0.3596}, {'text': 'chargesheet', 'score': 0.0623}]",Neutral,"No stance being taken, event being described.",,
+,"Nigeria: Muslims storm village, shoot pastor, kidnap women on their way to church https://t.co/FTPZKPsqJI https://t.co/UTMFezPru9",Pro Ruling,muslim,"['muslims', 'nigeria', 'kidnap']","[{'text': 'muslims', 'score': 0.5412}, {'text': 'nigeria', 'score': 0.536}, {'text': 'kidnap', 'score': 0.2884}]",Against,Portrays Muslims as violent and dangerous.,,
+,"IT dept raids former BSP leader Zulfiqar Ahmed Bhutto: As MLA surrenders Rs 100 cr undeclared income from his meat business, Muslim org cry foul
+
+https://t.co/LBMlgQidod",Pro Ruling,muslim,"['raids', 'muslim', 'income']","[{'text': 'raids', 'score': 0.462}, {'text': 'muslim', 'score': 0.3478}, {'text': 'income', 'score': 0.1087}]",Against,Shows muslim organisation and minister as corrupt.,,
+,"Garba celebrates the womb, or Garbha. Hindus dance around a clay lamp [गर्भ दीप] symbolising the divine womb ensconced in a body.
+
+Muslims, expressly forbidden to worship anyone other than Allah 40:62; 17:22; 12:40; 3:64; 5:55 are welcome to worship Ma Durga [Aditi] and her womb.",Pro Ruling,muslim,"['garbha', 'muslims', 'lamp']","[{'text': 'garbha', 'score': 0.5707}, {'text': 'muslims', 'score': 0.4293}, {'text': 'lamp', 'score': 0.2823}]",Against,has an undertone of subtle mockery and sarcasm. shows Hinduism to be superior.,,
+,"Raise your voice for indian Muslim...
+
+#SaveTripuraMuslims",Pro OPP,muslim,"['muslims', 'tripura', 'raise']","[{'text': 'muslims', 'score': 0.689}, {'text': 'tripura', 'score': 0.3247}, {'text': 'raise', 'score': 0.1542}]",For,calls for support towards muslims.,,
+,"Arfa Khanum Sherwani denies the existence of Muslim appeasement in West Bengal, here’s how she is comparing apples and oranges
+
+https://t.co/CWF251jnIQ",Pro Ruling,muslim,"['muslim', 'apples', 'comparing']","[{'text': 'muslim', 'score': 0.5719}, {'text': 'apples', 'score': 0.4243}, {'text': 'comparing', 'score': 0.2291}]",Against,Underlying tone of sarcasm and mockery towards the Muslim spokesperson.,,
+,"The last two years have been witness to calls for the socio-economic boycott of Muslims and there have even been open calls for their rape and genocide. | @Mahmudabad
+https://t.co/9dbWB9Nte9",Pro OPP,muslim,"['muslims', 'boycott', 'years']","[{'text': 'muslims', 'score': 0.5771}, {'text': 'boycott', 'score': 0.4035}, {'text': 'years', 'score': 0.0755}]",For,Shows how communal hate is spreading and muslims are being threatened more and more everyday.,,
+,Hey @TheHarrisSultan - is this beheading an example of that imminent genocide of Muslims you say you're so worried about? https://t.co/JNtLbkMYR9,Pro Ruling,muslim,"['muslims', 'beheading', 'worried']","[{'text': 'muslims', 'score': 0.6413}, {'text': 'beheading', 'score': 0.4766}, {'text': 'worried', 'score': 0.3086}]",,No context given of what beheading and why it was done.,,
+,"Muslim girl will never attend pr participate in ""Kanya Pujan"" why Hindu girls are being fooled to wear Hijab and eat ""iftari"" ... next steps would be to convert these girls in accepting Izlam ...
+
+https://t.co/PCJ95M1rxw",Pro Ruling,muslim,"['muslim', 'girls', 'iftari']","[{'text': 'muslim', 'score': 0.535}, {'text': 'girls', 'score': 0.2451}, {'text': 'iftari', 'score': 0.2006}]",Against,shows how hindu girls are being brainwashed to accept hijab and other muslim practices.,,
+,"‘My birth is my fatal accident’.
+Rohith Vemula’s profound words 
+Being a Muslim and asking for your constitutional rights is a crime in New India. 
+#StandWithUmarKhalid",Pro OPP,muslim,"['muslim', 'accident', 'constitutional']","[{'text': 'muslim', 'score': 0.5905}, {'text': 'accident', 'score': 0.3334}, {'text': 'constitutional', 'score': 0.3211}]",For,shows the brutality and torture muslim citizens face.,,
+1896168,"Prime Minister @narendramodi unveiled the National Emblem of #India🇮🇳 atop the new Parliament House on Monday 11 July 2022. This marked yet another important milestone in the decolonisation of Lutyens Delhi.
+ n1 https://t.co/eOkSPokuKw",Pro Ruling,new parliament,"['emblem', 'narendramodi', '2022']","[{'text': 'emblem', 'score': 0.5255}, {'text': 'narendramodi', 'score': 0.4987}, {'text': '2022', 'score': 0.181}]",For,claims that it marks another important milestone in the decolonisation of Lutyens Delhi.,,
+2774942,"Women farmers from Punjab under the leadership of KMSC departed from the Beas flyover to take part in ""Mahila Samman Mahapanchayat"" in front of the new parliament tomorrow ! #WrestlersProtest 
+
+@SakshiMalik @BajrangPunia https://t.co/cG9LkY2x3v",Pro OPP,new parliament,"['farmers', 'protest', 'flyover']","[{'text': 'farmers', 'score': 0.4388}, {'text': 'protest', 'score': 0.3268}, {'text': 'flyover', 'score': 0.1356}]",Neutral,"no stance taken, only news delivered.",,
+49030,"Dear people of India, the govt is reducing your take-home salary from April and building a new Parliament. Then they won't allow any debate in favour of you and pass laws against you favouring crony capitalists while you are the ones who are paying this govt's salary.",Pro OPP,new parliament,"['govt', 'india', 'salary']","[{'text': 'govt', 'score': 0.414}, {'text': 'india', 'score': 0.3723}, {'text': 'salary', 'score': 0.255}]",Against,shows that Govt favors crony capitalists and stealing the money of people.,,
+770659,"Watch | Even as India is grappling with a devastating #coronavirus outbreak, 24/7 work continues on the new Parliament project
+
+NDTV's Sunil Prabhu reports https://t.co/zlngT302tY",Pro OPP,new parliament,"['coronavirus', 'continues', 'india']","[{'text': 'coronavirus', 'score': 0.4939}, {'text': 'continues', 'score': 0.4409}, {'text': 'india', 'score': 0.3941}]",Against,shows how government is prioritising new building than the life of its citizens.,,
+2927350,Modi inaugurates India’s new parliament building with a bunch Hindu Brahmin priests-India is constitutionally still a secular country and Brahmins are only 3% of India’s population. https://t.co/8V4PAO1BhT,Pro OPP,new parliament,"['hindu', 'building', 'constitutionally']","[{'text': 'hindu', 'score': 0.4697}, {'text': 'building', 'score': 0.3022}, {'text': 'constitutionally', 'score': 0.2915}]",For,shows India to be secular.,,
+2724261,"#KapilSibal took a swipe at the BJP over the new Parliament building's inauguration, saying he wants his India neither new nor old but one where Parliament is without religious rituals. https://t.co/Hk37bx49Xl",Pro OPP,new parliament,"['india', 'religious', 'neither']","[{'text': 'india', 'score': 0.388}, {'text': 'religious', 'score': 0.3418}, {'text': 'neither', 'score': 0.2252}]",Against,says a parliament should be without religious rituals.,,
+2225478,National Emblem on New Parliament of New India 🇮🇳 Jai Ho ❤️ #CentralVista https://t.co/XgWxxnrKDZ,Pro Ruling,new parliament,"['emblem', 'parliament', 'india']","[{'text': 'emblem', 'score': 0.6107}, {'text': 'parliament', 'score': 0.5728}, {'text': 'india', 'score': 0.4824}]",For,shows pride.,,
+2676192,"While Modi was inaugurating his new Parliament, this is what his police was doing with India’s top sports women and men! https://t.co/f7LLAPwd4C",Pro OPP,new parliament,"['police', 'india', 'parliament']","[{'text': 'police', 'score': 0.4602}, {'text': 'india', 'score': 0.3758}, {'text': 'parliament', 'score': 0.3659}]",Against,shows how the new parliament opening coincided with the government also carrying out assault.,,
+9871,"We, the people of India, take this pledge that nothing will be more important to us than the unity, integrity of the country: PM @narendramodi #NewParliament4NewIndia",Pro Ruling,new parliament,"['india', 'pledge', 'nothing']","[{'text': 'india', 'score': 0.5169}, {'text': 'pledge', 'score': 0.4112}, {'text': 'nothing', 'score': 0.1901}]",For,"hashtag suggests ""new parliament for new india"".",,
+2868861,"#WATCH | First look at the New Parliament building that will be inaugurated by PM @narendramodi on May 28.
+
+#NewParliamentBuilding https://t.co/OxlIXmzf8H",Pro Ruling,new parliament,"['parliament', 'new', 'narendramodi']","[{'text': 'parliament', 'score': 0.5755}, {'text': 'new', 'score': 0.3123}, {'text': 'narendramodi', 'score': 0.2805}]",Neutral,"no stance taken, only news delivered.",,
+599898,Save the Parliament House precinct. It is a symbol of our freedom. We don’t need a India does not need a new Parliament House and precinct.,Pro OPP,new parliament,"['parliament', 'india', 'save']","[{'text': 'parliament', 'score': 0.5388}, {'text': 'india', 'score': 0.3537}, {'text': 'save', 'score': 0.212}]",Against,claims that India does not need a new parliament.,,
+218445,"#DoYouKnow, the new Parliament Building will have two separate designated entrances that will provide secure access to the Public Galleries. #NewParliament4NewIndia https://t.co/o1VDgqOwzg",Pro Ruling,new parliament,"['parliament', 'secure', 'india']","[{'text': 'parliament', 'score': 0.5592}, {'text': 'secure', 'score': 0.2582}, {'text': 'india', 'score': 0.2334}]",For,"hashtag suggests ""new parliament for new india"".",,
+2118090,"PM @narendramodi unveils National Emblem cast on the roof of the new Parliament Building
+
+Prime Minister also interacts with the Shramjeevis involved in the making of the Parliament
+
+Read here: https://t.co/fDelsdHh0s https://t.co/YRNaOVsqNp",Pro Ruling,new parliament,"['narendramodi', 'emblem', 'roof']","[{'text': 'narendramodi', 'score': 0.4889}, {'text': 'emblem', 'score': 0.4009}, {'text': 'roof', 'score': 0.2868}]",For,shows how modi is involving everyone in the new endeavor.,,
+102615,"Do you know?
+
+The theme of the Rajya Sabha is inspired by the National Flower of India - the Lotus, in the New Parliament Building.
+
+#NewParliament4NewIndia #NewParliamentBuilding https://t.co/TlubXau6oP",Pro Ruling,new parliament,"['india', 'parliament', 'theme']","[{'text': 'india', 'score': 0.5316}, {'text': 'parliament', 'score': 0.4426}, {'text': 'theme', 'score': 0.4409}]",For,"hashtag suggests ""new parliament for new india"".",,
+892109,"PM Modi Inspects Construction Works Of The New parliament Building in New Delhi. 🇮🇳
+
+Dear PM @narendramodi Ji Please Take Some Rest. ❤🙏 https://t.co/CwEFv44ztU",Pro Ruling,new parliament,"['construction', 'parliament', 'narendramodi']","[{'text': 'construction', 'score': 0.487}, {'text': 'parliament', 'score': 0.4316}, {'text': 'narendramodi', 'score': 0.3871}]",For,shows how Modi is working so much and should take some rest.,,
+27825,Here’s how the New Parliament Building will be technologically advanced. #NewParliament4NewIndia https://t.co/uahUTOZSPu,Pro Ruling,new parliament,"['parliament', 'technologically', 'india']","[{'text': 'parliament', 'score': 0.5564}, {'text': 'technologically', 'score': 0.3565}, {'text': 'india', 'score': 0.3223}]",For,"hashtag suggests ""new parliament for new india"".",,
+44502,"PM @narendramodi lays foundation stone of the new #Parliament building near #IndiaGate.
+
+#NewParliamentBuilding #NewParliament4NewIndia #NewParliament 
+
+https://t.co/y96OS7dyin",Pro Ruling,new parliament,"['parliament', 'narendramodi', 'stone']","[{'text': 'parliament', 'score': 0.5495}, {'text': 'narendramodi', 'score': 0.3919}, {'text': 'stone', 'score': 0.3768}]",For,"hashtag suggests ""new parliament for new india"".",,
+2319734,PM @narendramodi unveils National Emblem cast on the roof of the New Parliament Building. https://t.co/dnW3YLyZNp,Pro Ruling,new parliament,"['emblem', 'roof', 'narendramodi']","[{'text': 'emblem', 'score': 0.4091}, {'text': 'roof', 'score': 0.3705}, {'text': 'narendramodi', 'score': 0.3609}]",Neutral,"no stance taken, only news delivered",,
+60713,"The new parliament building doesn't stand for secularism,it stands for Hindu Rashtra. The foundation stone was laid with Hindu rituals, ignoring every other religion that India stands for. It doesn't stand for democracy.Modi govt doesn't allow democratic procedures in Parliament.",Pro OPP,new parliament,"['parliament', 'secularism', 'india']","[{'text': 'parliament', 'score': 0.4968}, {'text': 'secularism', 'score': 0.451}, {'text': 'india', 'score': 0.332}]",Against,claims that the building does not stand for secularism but Hindu dominance.,,
+2811821,"As Modi Inaugurates New Parliament, Police Detains Wrestlers Including Sakshi Malik, Vinesh Phogat https://t.co/V1uDu6QCwg",Pro OPP,new parliament,"['police', 'wrestlers', 'vinesh']","[{'text': 'police', 'score': 0.4332}, {'text': 'wrestlers', 'score': 0.4126}, {'text': 'vinesh', 'score': -0.0041}]",Against,shows how the new parliament opening coincided with the government also carrying out assault.,,
+2704761,"#NewParliamentMyPride | This is a proud moment for the entire country. Millions dream to be a member in the temple of democracy with their hard work, honesty and leadership qualities. PM Modi has all the rights to inaugurate because he is fulfilling the dream of every Indian:… https://t.co/I4ErZ4Tfc8 https://t.co/gf4NimWSH7",Pro Ruling,new parliament,"['parliament', 'indian', 'dream']","[{'text': 'parliament', 'score': 0.534}, {'text': 'indian', 'score': 0.4129}, {'text': 'dream', 'score': 0.2137}]",For,"hashtag suggests ""my parliament, my pride"".",,
+1369332,"A 5 year old..She died of thirst in Rajasthan 
+
+Imagine if this would have happened in Uttar Pradesh… till now @RahulGandhi &amp; his ilk would have blamed “cruel” @narendramodi &amp; his cruel policies
+
+But these shameless vultures are now silent 
+
+Shameless https://t.co/6djMmg6mRA https://t.co/1gjjJ8hN2m",Pro Ruling,rahulgandhi,"['rahulgandhi', 'thirst', 'vultures']","[{'text': 'rahulgandhi', 'score': 0.4797}, {'text': 'thirst', 'score': 0.4108}, {'text': 'vultures', 'score': 0.3058}]",Against,calls him a shameless vulture,,
+1479807,"Rajiv Gandhi was killed in a terror attack. Do all who die in a terror attack become martyrs. In that case, all those people who died with him in the suicide bomb blast must also be declared a martyr, and their families must be given the benefits of a martyr. @RahulGandhi",Pro Ruling,rahulgandhi,"['martyr', 'rahulgandhi', 'benefits']","[{'text': 'martyr', 'score': 0.5668}, {'text': 'rahulgandhi', 'score': 0.3513}, {'text': 'benefits', 'score': 0.0811}]",neutral,no stance on rahul gandhi.,,
+1196675,"Mr @RahulGandhi, nation was disturbed when:
+
+Nehru gifted 38,000 sq km land to China. 
+
+Nehru sacrificed the permanent membership of the UNSC.
+
+Indira Gandhi imposed Emergency.
+
+Congress incited anti-sikh riots in 1984. 
+
+Scams were exploding all around Manmohan Singh. https://t.co/JcMC20D0yy",Pro Ruling,rahulgandhi,"['rahulgandhi', 'congress', 'scams']","[{'text': 'rahulgandhi', 'score': 0.557}, {'text': 'congress', 'score': 0.3747}, {'text': 'scams', 'score': 0.167}]",Against,"describes how generations of Congress leaders have ""disturbed"" the nation.",,
+644196,@RahulGandhi Maino crying in corner,Pro Ruling,rahulgandhi,"['crying', 'rahulgandhi', 'corner']","[{'text': 'crying', 'score': 0.5652}, {'text': 'rahulgandhi', 'score': 0.4849}, {'text': 'corner', 'score': 0.327}]",Against,mocking rahul gandhi.,,
+1476885,How did @INCIndia know the ad was about @RahulGandhi? https://t.co/MbFNfpL3ia,Pro Ruling,rahulgandhi,"['rahulgandhi', 'incindia', 'did']","[{'text': 'rahulgandhi', 'score': 0.5974}, {'text': 'incindia', 'score': 0.4115}, {'text': 'did', 'score': 0.1644}]",Against,undertone of suspicion.,,
+2217711,@RahulGandhi This account is managed by Capt. Bana Singh's grandson. https://t.co/dP9lOqEShk,Pro Ruling,rahulgandhi,"['rahulgandhi', 'grandson', 'account']","[{'text': 'rahulgandhi', 'score': 0.4975}, {'text': 'grandson', 'score': 0.4376}, {'text': 'account', 'score': 0.4001}]",neutral,no stance on rahul gandhi taken.,,
+740780,.@RahulGandhi leaves from Parliament https://t.co/icpTFOSfmO,Pro Ruling,rahulgandhi,"['rahulgandhi', 'parliament', 'leaves']","[{'text': 'rahulgandhi', 'score': 0.3664}, {'text': 'parliament', 'score': 0.3508}, {'text': 'leaves', 'score': 0.2572}]",neutral,no stance on rahul gandhi taken. only news delivered.,,
+1818784,"@RahulGandhi Rahul Gandhi is the only leader who is fighting for everyone.
+
+#BharatJodoYatra https://t.co/azrBUrUnWF",Pro OPP,rahulgandhi,"['rahulgandhi', 'leader', 'fighting']","[{'text': 'rahulgandhi', 'score': 0.4795}, {'text': 'leader', 'score': 0.4014}, {'text': 'fighting', 'score': 0.3912}]",For,says that rahul gandhi is the only leader who is fighting for everyone.,,
+2872754,"Congress President Mr Mallikarjun @kharge , Mr @RahulGandhi hold a meeting with Congress’ #Rajasthan leaders in #Delhi 
+
+Mr @ashokgehlot51 joins the meet virtually… https://t.co/35PITRVvm7",Pro OPP,rahulgandhi,"['meeting', 'rahulgandhi', 'hold']","[{'text': 'meeting', 'score': 0.6716}, {'text': 'rahulgandhi', 'score': 0.4023}, {'text': 'hold', 'score': 0.1511}]",neutral,"no stance taken, only news delivered.",,
+728628,The truth is that on the corruption of the Rafale deal proof of which has been reported today @RahulGandhi was the lone voice in the congress party. Not a single leader stood with him in his accusations against @PMOIndia https://t.co/GqNU4WANxI,Pro OPP,rahulgandhi,"['rahulgandhi', 'congress', 'accusations']","[{'text': 'rahulgandhi', 'score': 0.4129}, {'text': 'congress', 'score': 0.3729}, {'text': 'accusations', 'score': 0.2163}]",For,says that rahul gandhi is the only voice in the congress party fighting against Modi's corruption.,,
+1257680,"@RahulGandhi #भाजपा_है_तो_बर्बादी_है
+CMIE data on Unemployment: 
+ 🔹️Urban India moved into double digits to 👉10.3% from 9.7% 
+🔹️Rural sector joblessness inched up at higher pace to 👉8.92% from 8.23%. 
+
+BJP had already achieved joblessness at a 45 yr high of 6.1% long ago in 2018. https://t.co/agnxuzv3BQ",Pro OPP,rahulgandhi,"['unemployment', 'rahulgandhi', 'double']","[{'text': 'unemployment', 'score': 0.6331}, {'text': 'rahulgandhi', 'score': 0.2826}, {'text': 'double', 'score': 0.2632}]",For,"says BJP is causing Joblessness in india, tags rahul gandhi to complain.",,
+1967338,"Mr @RahulGandhi’s interaction with civil society members gets over … 
+
+According to Congress sources, Mr Gandhi spoke at length about Bharat Jodo Yatra https://t.co/b7XGtNz6pY",Pro OPP,rahulgandhi,"['rahulgandhi', 'congress', 'length']","[{'text': 'rahulgandhi', 'score': 0.5812}, {'text': 'congress', 'score': 0.2775}, {'text': 'length', 'score': 0.1039}]",neutral,"no stance taken, only news delivered.",,
+2551195,"Opposition leaders including Mr @RahulGandhi meet in the Parliament House 
+
+Mr #YashwantSinha files nomination for #PresidentialElection https://t.co/nsaHPkfJVi",Pro OPP,rahulgandhi,"['election', 'meet', 'rahulgandhi']","[{'text': 'election', 'score': 0.465}, {'text': 'meet', 'score': 0.2702}, {'text': 'rahulgandhi', 'score': 0.2355}]",neutral,"no stance taken, only news delivered.",,
+2298798,"Congress, Worker &amp; Mr @RahulGandhi … https://t.co/0WEARgdq40",Pro OPP,rahulgandhi,"['congress', 'rahulgandhi', 'worker']","[{'text': 'congress', 'score': 0.5967}, {'text': 'rahulgandhi', 'score': 0.594}, {'text': 'worker', 'score': 0.3373}]",neutral,"no stance taken, only news delivered.",,
+2895401,"The BJP-RSS,
+Modi government is sending an eviction notice to the very family that gave away their own ancestral home, Teen Murti Bhavan, for the country.
+@RahulGandhi https://t.co/sX2TKdRovx https://t.co/nPnk5Al8ug",Pro OPP,rahulgandhi,"['eviction', 'family', 'rahulgandhi']","[{'text': 'eviction', 'score': 0.6448}, {'text': 'family', 'score': 0.3253}, {'text': 'rahulgandhi', 'score': 0.3231}]",For,calls out modi-rss for sending an eviction notice to a family that gave up their ancestral home.,,
+2931421,#BharatJodoYatra @RahulGandhi in Jammu today https://t.co/pkpis3kTvI,Pro OPP,rahulgandhi,"['rahulgandhi', 'yatra', 'today']","[{'text': 'rahulgandhi', 'score': 0.74}, {'text': 'yatra', 'score': 0.4487}, {'text': 'today', 'score': 0.3288}]",neutral,"no stance taken, only news delivered.",,
+613176,"Finally, the most awaited day for Hindus has arrived; Wait of over 500 years is over as #Ramlalla returns to his birthplace: #RamMandirAyodhya https://t.co/xFirxviUmH via @eOrganiser",Pro Ruling,ram mandir,"['hindus', 'wait', '500']","[{'text': 'hindus', 'score': 0.697}, {'text': 'wait', 'score': 0.2435}, {'text': '500', 'score': 0.2074}]",For,claims that ram mandir is the most awaited day for Hindus.,,
+1951230,"One of the most remarkable constructions under progress is the Hindu Temple, Ram Mandir, located in Ayodhya of Uttar Pradesh. The construction of Ram Mandir is going on the ground site where Lord Rama had taken birth. #भारत_गौरव_श्रीराम_मंदिर https://t.co/KdwD7XsipE",Pro Ruling,ram mandir,"['hindu', 'progress', 'under']","[{'text': 'hindu', 'score': 0.5967}, {'text': 'progress', 'score': 0.2586}, {'text': 'under', 'score': 0.155}]",For,"claims it is the one of the ""most remarkable"" constructions.",,
+23255,"The best day of my Twitter life was when the verdict on Ram Mandir came. But I will be the happiest person in this world when the most handsome, most dynamic, the global supremo leader @Dr_Uditraj ji will become the President of Congress. Fingers crossed. 
+
+#MainBhiUditraj",Pro Ruling,ram mandir,"['happiest', 'leader', 'congress']","[{'text': 'happiest', 'score': 0.5749}, {'text': 'leader', 'score': 0.4024}, {'text': 'congress', 'score': 0.2837}]",For,shows happiness with ram mandir verdict.,,
+1140932,"""By sending the cheque to PM instead of the @ShriRamTeerth &amp; by demanding proof from VHP, Congress has yet again used the Ram Mandir for playing dirty political games. Ram Bhakts are not like them!""
+
+Dr. Surendra Jain, Vice President of VHP replies to @digvijaya_28
+
+@VHPDigital https://t.co/mwsdN7DWHS",Pro Ruling,ram mandir,"['congress', 'games', 'dr']","[{'text': 'congress', 'score': 0.5012}, {'text': 'games', 'score': 0.2088}, {'text': 'dr', 'score': 0.1715}]",For,shows how congress is trying to manipulate something auspicious like randir into dirty politics.,,
+2743232,"MP: Fazil Khan willingly accepts Hinduism and marries a Hindu girl in a Ram Mandir, says he is happy to accept Janeu in front of Lord Ram's idol
+
+https://t.co/unH5d6mCTV",Pro Ruling,ram mandir,"['hinduism', 'willingly', 'marries']","[{'text': 'hinduism', 'score': 0.5104}, {'text': 'willingly', 'score': 0.3124}, {'text': 'marries', 'score': 0.2849}]",For,shows how muslims also support it.,,
+862843,"Read ⁦@bainjal⁩ &amp; evolve ⁦⁦@priyankagandhi can’t allow Bisht to change the conversation so that you’ll make no mention of his Covid missteps. He’s setting Ram Mandir, Kabristans &amp; warnings of surgical strikes as issues for #UPElections2022 🙄 https://t.co/6yfrb4jUFZ",Pro OPP,ram mandir,"['priyankagandhi', 'elections', 'warnings']","[{'text': 'priyankagandhi', 'score': 0.4953}, {'text': 'elections', 'score': 0.3598}, {'text': 'warnings', 'score': 0.3272}]",Against,shows how public health during a pandemic is being neglected for ram mandir.,,
+1566908,"There should be no vaccine for people who were saying ‘Mandir wahin banayenge’.
+
+Let Ram Mandir cure them https://t.co/ba6juVMRGu",Pro OPP,ram mandir,"['vaccine', 'cure', 'saying']","[{'text': 'vaccine', 'score': 0.5527}, {'text': 'cure', 'score': 0.3726}, {'text': 'saying', 'score': 0.1718}]",Against,claims that those who wanted ram mandir instead of vaccines should not receive them now.,,
+26017,"Sabka saath Sabka Vishwas folks standing in long Ques with their Papers to vote against @narendramodi
+Will Hindus come out &amp; stand for one PM who gave them Ram Mandir, abolished 370 &amp; brought CAA?
+If they can vote for their religion what stop you o hindus?
+Come out and vote! https://t.co/cARVB2UXXG",Pro Ruling,ram mandir,"['hindus', 'vote', 'abolished']","[{'text': 'hindus', 'score': 0.6313}, {'text': 'vote', 'score': 0.3326}, {'text': 'abolished', 'score': 0.1983}]",For,shows how much modi did for the nation.,,
+732566,"Hi @INCMP: 
+
+It is incredibly shocking &amp; disappointing to know that Bhopal South West MLA P. C. Sharma of Congress is going around soliciting donations for Ram Mandir construction.
+
+The state PCC high command MUST intervene &amp; stop this farce immediately. 
+
+https://t.co/AGCFkxOpLH",Pro OPP,ram mandir,"['ram', 'congress', 'donations']","[{'text': 'ram', 'score': 0.4074}, {'text': 'congress', 'score': 0.3874}, {'text': 'donations', 'score': 0.3166}]",Against,expresses dissapointment in MLA soliciting donations for ram mandir.,,
+956975,"Indian GDP - ‘Shav Aasan’
+Petrol Price - ‘Sheersh Aasan’
+Ram Mandir - ‘Chandaasan’",Pro OPP,ram mandir,"['price', 'indian', 'petrol']","[{'text': 'price', 'score': 0.4516}, {'text': 'indian', 'score': 0.4217}, {'text': 'petrol', 'score': 0.4179}]",Against,mocks ram mandir.,,
+2560315,"That's the reason ED is after the Gandhis, barricades outside Congress HQ, black magic, India Today survey, Draupadi Murmu, Amit Shah's Ram mandir statement, BJP making a hero out of Kejriwal who is nothing in Gujarat right now. Congress might just win Gujarat.",Pro OPP,ram mandir,"['gujarat', 'congress', 'hero']","[{'text': 'gujarat', 'score': 0.4775}, {'text': 'congress', 'score': 0.4368}, {'text': 'hero', 'score': 0.1892}]",Against,suggests the dirty politics of bjp which includes ram mandir.,,
+192679,"Make your temples @BJP4India and keep demanding your masjids @asadowaisi ! But for humanity’s sake, help make the #COVID19 vaccine free ! #freethevaccine @SerumInstIndia @adarpoonawalla @kiranshaw. Great initiative, Tushar! @Yunus_Centre 
+#Babri #Ayodhya #RamMandir https://t.co/xzOf4mcjjl",Pro OPP,ram mandir,"['vaccine', 'temples', 'free']","[{'text': 'vaccine', 'score': 0.5532}, {'text': 'temples', 'score': 0.3789}, {'text': 'free', 'score': 0.1606}]",Against,shows how public health during a pandemic is being neglected for ram mandir.,,
+81117,Can Congress' new Ram Mandir frenzy be called Unlock 2.0?,Pro OPP,ram mandir,"['ram', 'congress', 'unlock']","[{'text': 'ram', 'score': 0.4838}, {'text': 'congress', 'score': 0.4264}, {'text': 'unlock', 'score': 0.3764}]",For,subtly suggests that congress is overdoing it.,,
+1926840,"For Modi Bhakts,  Judge JB Pardiwala 's statement on Nupur Sharma is not acceptable because he is the son of a former Congress MLA.
+
+Modi Bhakts forgot that CJI Ranjan Gogoi who gave Ram Mandir verdict is the son of Ex Congress CM Keshab Chandra Gogoi
+
+#NupurSharma
+#JBPardiwala https://t.co/onUcvfkQ85",Pro OPP,ram mandir,"['mandir', 'judge', 'congress']","[{'text': 'mandir', 'score': 0.4265}, {'text': 'judge', 'score': 0.3993}, {'text': 'congress', 'score': 0.322}]",Neutral,no stance taken on ram mandir.,,
+2216196,"Diwali par woh ek pooja ki pic laga dein aap khush ho jaate ho. That's photo-op. 
+
+But Ram Mandir Jab Jihadi Babar ki encroachment se reclaim hota hai. Sab chup rahte hain. 
+
+Their silence on #TheKashmirFiles, #RamMandir is their ideology. Rest is optics!",Pro Ruling,ram mandir,"['kashmir', 'silence', 'optics']","[{'text': 'kashmir', 'score': 0.5928}, {'text': 'silence', 'score': 0.217}, {'text': 'optics', 'score': 0.2023}]",For,expresses pride in ram mandir.,,
+140881,"Folks, please forget rising Covid cases, China ‘transgressions’, falling growth rates, job crisis, rising inflation, floods and monsoon mayhem, even Ram Mandir: Rhea Chakraborty is appearing before Enforcement Directorate. All izz well! 🙏",Pro OPP,ram mandir,"['china', 'transgressions', 'inflation']","[{'text': 'china', 'score': 0.4045}, {'text': 'transgressions', 'score': 0.3146}, {'text': 'inflation', 'score': 0.2876}]",Neutral,no stance taken on ram mandir.,,
+690159,"By July 1, in the second phase of Unlock India, the infected number crossed 600,000 with 18,000 deaths. 
+
+Ground-breaking ceremonies for the BJP’s Ram Mandir project in Ayodhya took place the following month. 
+
+https://t.co/YVgnNhq7FT",Pro OPP,ram mandir,"['india', 'deaths', 'unlock']","[{'text': 'india', 'score': 0.4607}, {'text': 'deaths', 'score': 0.436}, {'text': 'unlock', 'score': 0.1801}]",Against,shows how public health during a pandemic is being neglected for ram mandir.,,
+81839,"So we are supposed to believe get that Hindutva - which won over 300 seats, got Ram Mandir, removed Article 370, got CAA, made Pragya MP, Modi PM, Yogi CM, Shah HM - is somehow waiting for Owaisi to win few more MLAs to fulfill its vision? Reality check anyone?",Pro OPP,ram mandir,"['hindutva', 'won', 'waiting']","[{'text': 'hindutva', 'score': 0.5006}, {'text': 'won', 'score': 0.2891}, {'text': 'waiting', 'score': 0.2772}]",Against,"shows the dirty politics bjp is playing, including ram mandir.",,
+439770,"Chalo ji... Ram Mandir bhi aa gaya farmers protest mein.
+
+Ab bas dawood aur Al qaida bhi le aayen toh baat khatam ho https://t.co/lQLjwBXxNa",Pro OPP,ram mandir,"['mandir', 'protest', 'farmers']","[{'text': 'mandir', 'score': 0.5093}, {'text': 'protest', 'score': 0.4651}, {'text': 'farmers', 'score': 0.4478}]",Against,mocks modi and his politics on ram mandir.,,
+22851,Tonight: 9 pm: the big Ram Mandir debate: does Ram politics divide or unite? @OfficeOfKNath @asadowaisi @sambitswaraj @SupriyaShrinate @SudheenKulkarni join the debate.. @IndiaToday https://t.co/goqIwCbSi4,Pro OPP,ram mandir,"['ram', 'indiatoday', 'politics']","[{'text': 'ram', 'score': 0.5056}, {'text': 'indiatoday', 'score': 0.3958}, {'text': 'politics', 'score': 0.3642}]",Neutral,"no stance taken, only news delivered",,
+2483837,"CSIR is funded by taxpayers money.
+Over 80% taxpayers are Hindus.
+
+I’m happy that my tax is used here.
+
+If the taxpayers money can be used for Haj Houses, Haj subsidies, Madrasa etc, why can’t a research be done out of it?
+
+Remember: Ram Mandir is built by the donations of Hindus https://t.co/sRjWhubFis",Pro Ruling,ram mandir,"['hindus', 'taxpayers', 'if']","[{'text': 'hindus', 'score': 0.4848}, {'text': 'taxpayers', 'score': 0.4484}, {'text': 'if', 'score': 0.0234}]",For,positive attitude.,,
+341454,"Finally! Famous Shaheen Bagh ki Dadi has reached as ""Farmers' protest"". Last time she had won prize after 51 deaths. Lets see what she is expecting now.
+ https://t.co/ibDWZ2FdX6",Pro Ruling,shaheen bagh,"['farmers', 'bagh', 'protest']","[{'text': 'farmers', 'score': 0.3919}, {'text': 'bagh', 'score': 0.376}, {'text': 'protest', 'score': 0.3357}]",Against,mocks how its spreading death and chaos.,,
+116508,"There were people saying Shaheen Bagh should be halted as it’s helping the BJP. I wrote on 31 Jan, amidst BJP’s heightened Hindutva pitch, that an AAP victory was a foregone conclusion and therefore, Shaheen Bagh need not give in to the pressure 
+https://t.co/hcyMQDp7ZZ",Pro OPP,shaheen bagh,"['bagh', 'hindutva', 'halted']","[{'text': 'bagh', 'score': 0.479}, {'text': 'hindutva', 'score': 0.3978}, {'text': 'halted', 'score': 0.29}]",For,shows how there is a false narrative around the protest.,,
+98735,"Sonia, Rahul's statement today on CAA. All journalists again going to Shaheen Bagh.
+
+What's cooking? Is Congress planning something violent?",Pro Ruling,shaheen bagh,"['journalists', 'congress', 'cooking']","[{'text': 'journalists', 'score': 0.447}, {'text': 'congress', 'score': 0.401}, {'text': 'cooking', 'score': 0.334}]",Against,shows that shaheen bagh is influenced by congress who could be planning violence.,,
+320985,"82-year-old Shaheen Bagh protester Bilkis Bano, Gaana singer Isaivani, para-athlete Manasi Joshi and climate activist Ridhima Pandey are the four Indian women who were included in the ‘BBC 100 Women 2020‘ list, released on Tuesday.
+
+https://t.co/9qWkTxkJn8",Pro OPP,shaheen bagh,"['women', '2020', 'protester']","[{'text': 'women', 'score': 0.5382}, {'text': '2020', 'score': 0.2931}, {'text': 'protester', 'score': 0.2371}]",For,shows how shaheen bagh women leaders were given international recognition and praise.,,
+43313,"Almost all of the Muslims in Padma list are those who share Hindu culture. Perhaps a symbolism/message from Modi govt that Sharjleels and Shaheen Baghs are not the only faces. I'm feeling optimist for an hour, so I'll settle for this right now.",Pro Ruling,shaheen bagh,"['hindu', 'baghs', 'optimist']","[{'text': 'hindu', 'score': 0.6591}, {'text': 'baghs', 'score': 0.2659}, {'text': 'optimist', 'score': 0.0924}]",Against,shows hope for other muslims not part of shaheen bagh.,,
+2891673,"Haldwani protest could be Shaheen Bagh 2.0: Not just the roadblock but there are other parallels too. Here is what the drama is about
+
+My article  https://t.co/JvTCqJj3Lg",Pro Ruling,shaheen bagh,"['protest', 'bagh', 'parallels']","[{'text': 'protest', 'score': 0.5889}, {'text': 'bagh', 'score': 0.343}, {'text': 'parallels', 'score': 0.2321}]",Against,"calls it ""drama"".",,
+1065,"Mother of 3 took her infant to Shaheen Bagh every day though he had a rasping cough &amp; cold. He died in his sleep. The father blames the govt, NRC &amp; CAA for the child's death, not his wife or himself for dragging an infant in bitter cold to the protest zone https://t.co/JKrMwk6MrS",Pro Ruling,shaheen bagh,"['infant', 'cough', 'protest']","[{'text': 'infant', 'score': 0.4346}, {'text': 'cough', 'score': 0.3971}, {'text': 'protest', 'score': 0.2676}]",Against,shows how protesters blame government for their own wrong doings.,,
+160114,"Shaheen Bagh Template. Police Barricades Roads where Protests are not happening, and people blame Protestors. Next we will see Visuals of Ambulance stuck in a Barricaded road and Farmers will be blamed even though they are protesting far far away https://t.co/nSPCerXJyx",Pro OPP,shaheen bagh,"['barricades', 'protestors', 'farmers']","[{'text': 'barricades', 'score': 0.5088}, {'text': 'protestors', 'score': 0.4897}, {'text': 'farmers', 'score': 0.2042}]",For,shows how protesters are blamed for everything even though it’s the police at fault.,,
+59791,"As the Ruling party inducts Shaheen Bagh protestors, maybe activists who took part are owed an apology from those who claimed the movement was ""anti national""? 
+https://t.co/FFgjTBsZvb",Pro OPP,shaheen bagh,"['protestors', 'apology', 'bagh']","[{'text': 'protestors', 'score': 0.5642}, {'text': 'apology', 'score': 0.4895}, {'text': 'bagh', 'score': 0.1887}]",For,claims that the activists of shaheen bagh are owed an apology for being called anti national.,,
+160938,"If @ArvindKejriwal fails to clear the Islamist mess of #ShaheenBagh before the elections, will you still vote for him? 
+
+Just reply NO or YES.",Pro Ruling,shaheen bagh,"['islamist', 'elections', 'fails']","[{'text': 'islamist', 'score': 0.4765}, {'text': 'elections', 'score': 0.3896}, {'text': 'fails', 'score': 0.1072}]",Against,"calls it an ""islamist mess"".",,
+455801,"#ShaheenBagh 's protestors send BJP IT Cell Head, @amitmalviya , a Rs 1 Cr defamation notice for casting aspersions on the protests through false allegations https://t.co/Dcuc3edjxm",Pro OPP,shaheen bagh,"['protestors', 'send', 'cell']","[{'text': 'protestors', 'score': 0.3936}, {'text': 'send', 'score': 0.3042}, {'text': 'cell', 'score': 0.2335}]",Neutral,"no stance taken, only news delivered",,
+424418,"Irrespective of political leaning, I must applaud the women of Shaheen Bagh and their dedication to protest even after the Corona Virus panic.
+More power to you all.
+Peeche nahi hatna, aaj Corona se dar gaye toh kal Modi koi aur virus le ayega.
+Hatna nahi hai.",Pro Ruling,shaheen bagh,"['protest', 'bagh', 'virus']","[{'text': 'protest', 'score': 0.4498}, {'text': 'bagh', 'score': 0.3865}, {'text': 'virus', 'score': 0.2445}]",For,praises the courage and dedication of women.,,
+214072,"Watching #BatlaHouse. Had covered the encounter at L18. An encounter that resulted in the elimination of the Delhi module of #IndianMujahideen. Yet this politics over encounter.
+Is there a pattern to these protests?
+From Batla House to Art 370, CAA, Shaheen Bagh, Sharjeel Imam...",Pro Ruling,shaheen bagh,"['delhi', 'protests', 'encounter']","[{'text': 'delhi', 'score': 0.5033}, {'text': 'protests', 'score': 0.4474}, {'text': 'encounter', 'score': 0.3694}]",Against,says protests are patterns.,,
+139705,"Delhi elections were a direct contest between @ArvindKejriwal &amp; @AmitShah. Kejriwal is responsible for the AAP sweep. Shah is responsible for BJP’s flop show. Nadda, Shaheen Bagh, Tiwari, Delhi police, Chaurasia and Chaudhary were all side shows. It is really as simple as that.",Pro OPP,shaheen bagh,"['delhi', 'elections', 'sweep']","[{'text': 'delhi', 'score': 0.5408}, {'text': 'elections', 'score': 0.5004}, {'text': 'sweep', 'score': 0.2599}]",Neutral,no stance taken on shaheen bagh.,,
+109816,"#ShaheenBagh perhaps the only place in India ushering in the new year with the national anthem. 
+
+(Video courtesy @VakashaS ) https://t.co/yJFLeO02Gf",Pro OPP,shaheen bagh,"['anthem', 'india', 'bagh']","[{'text': 'anthem', 'score': 0.5136}, {'text': 'india', 'score': 0.4251}, {'text': 'bagh', 'score': 0.3868}]",For,portrays how shaheen bagh stands for India.,,
+312192,"#GunsInDelhi | The entire country has become Shaheen Bagh, I am with all the protesters. The BJP is scared: @warispathan- National Spokesperson, AIMIM
+https://t.co/RZHKU3wOei",Pro Ruling,shaheen bagh,"['delhi', 'protesters', 'guns']","[{'text': 'delhi', 'score': 0.4889}, {'text': 'protesters', 'score': 0.4302}, {'text': 'guns', 'score': 0.3745}]",For,shows how shaheen bagh is being supported by the country.,,
+199296,"This! Beautiful picture. #ShaheenBagh dadis bless @DelhiPolice officer (Please tag photographer)
+
+This happened earlier today when delegation led by dadis met cops, sought permission to march to Home Minister’s Res to meet him
+
+Cops assured them, their request will be taken ahead https://t.co/ESePVhcTzZ",Pro OPP,shaheen bagh,"['cops', 'delegation', 'delhipolice']","[{'text': 'cops', 'score': 0.5193}, {'text': 'delegation', 'score': 0.388}, {'text': 'delhipolice', 'score': 0.1209}]",For,"calls old shaheen bagh women blessing police officers a ""beautiful picture"".",,
+1994285,"Shazia Ilmi, BJP spokesperson : The Opposition has no problem with anti encroachment drives elsewhere but Shaheen Bagh. 
+#BulldozerInShaheenBagh
+@shaziailmi 
+@pradip103 
+@IndiaNews_itv",Pro Ruling,shaheen bagh,"['opposition', 'indianews_itv', 'bulldozer']","[{'text': 'opposition', 'score': 0.459}, {'text': 'indianews_itv', 'score': 0.4218}, {'text': 'bulldozer', 'score': 0.413}]",Against,"hashtag suggests that ""bulldozer raj"" should be done in shaheen bagh.",,
+16493,"Distances:
+
+Tamil Nadu to Delhi - 2488 kms
+Assam to Delhi - 2092 kms
+Shaheen Bagh to Jantar Mantar - 15 kms
+
+If poor farmers can come from Tamil Nadu and Assam to protest at Ramlila Maidan, why can’t Shaheen Bagh protestors go there?
+
+Why this blackmail?",Pro Ruling,shaheen bagh,"['delhi', 'distances', 'protestors']","[{'text': 'delhi', 'score': 0.5245}, {'text': 'distances', 'score': 0.3446}, {'text': 'protestors', 'score': 0.2873}]",For,shows how there is blackmail against shaheen bagh.,,

@@ -1,0 +1,309 @@
+source_row,tweet,tweet_label,subjects,subjects_scored,keyword,label_norm,keyword_cat,stance,stance_reason,Unnamed: 10
+1671619,GOI busts another Congress Propaganda; #COVAXIN does not contain Newborn Calf Serum at all as calf serum is not an ingredient of the final vaccine product : Statement Health Ministry https://t.co/lFs6FlU3hU,Pro Ruling,"['calf', 'vaccine', 'congress']","[{'text': 'calf', 'score': 0.4501}, {'text': 'vaccine', 'score': 0.4395}, {'text': 'congress', 'score': 0.1727}]",congress,Pro Ruling,congress,Against ,"discussing the ""busting"" of another congress propoganda. ",
+1094703,#BREAKING : Delhi High Court issues notice to Congress leaders Rahul Gandhi and Sonia Gandhi in the National Herald Case.,Pro Ruling,"['congress', 'delhi', 'court']","[{'text': 'congress', 'score': 0.4094}, {'text': 'delhi', 'score': 0.4082}, {'text': 'court', 'score': 0.4044}]",congress,Pro Ruling,congress,Against ,involvement of judiciary against congress leaders. issueing a notice. ,
+746876,"Congress Spokesperson, Chhattisgarh https://t.co/ZCfdHk9GBH",Pro Ruling,"['chhattisgarh', 'congress', 'spokesperson']","[{'text': 'chhattisgarh', 'score': 0.7176}, {'text': 'congress', 'score': 0.638}, {'text': 'spokesperson', 'score': 0.4004}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+1681524,"Congress getting perfect example of 'Those who dig a pit for others, fall in it themselves' https://t.co/K3TQeGuDTw",Pro Ruling,"['congress', 'pit', 'perfect']","[{'text': 'congress', 'score': 0.6144}, {'text': 'pit', 'score': 0.3746}, {'text': 'perfect', 'score': 0.244}]",congress,Pro Ruling,congress,Against ,saying that congress wished ill upon others and hence faced problems itself. ,
+528343,"Sonia Gandhi &amp; Congress must clear their stand on Kashmir. 
+
+Rahul Gandhi congratulating photographers who were awarded considering Kashmir isn’t integral part of India is a cruel joke. #पप्पू_तो_गद्दार_है",Pro Ruling,"['kashmir', 'congress', 'congratulating']","[{'text': 'kashmir', 'score': 0.5229}, {'text': 'congress', 'score': 0.2764}, {'text': 'congratulating', 'score': 0.2202}]",congress,Pro Ruling,congress,Against ,"demanding that congress clear its stance on kashmir. calls Rahul Gandhi's action of congratulating ""a cruel joke"".",
+2816637,"People taunting @BJP4India for lack of action on issues dear to #Hindus and showing it how #Congress is ruthless in implementing its anti-Hindu agenda have a point. One may crib about language of some, but not the language. They have show same ruthlessness in MP, Raj recently.",Pro Ruling,"['hindus', 'congress', 'taunting']","[{'text': 'hindus', 'score': 0.6228}, {'text': 'congress', 'score': 0.4098}, {'text': 'taunting', 'score': 0.4062}]",congress,Pro Ruling,congress,Against ,saying that congress is also equally as ruthless as bjp.,
+1158272,Aam Aadmi Party is proving to be even worse than Congress with the kind of leaders they Support. https://t.co/nOLzueBvKL,Pro Ruling,"['worse', 'congress', 'aam']","[{'text': 'worse', 'score': 0.5528}, {'text': 'congress', 'score': 0.2468}, {'text': 'aam', 'score': 0.2374}]",congress,Pro Ruling,congress,Against ,congress as a benchmark of bad parties. ,
+1002202,"Silver lining !!
+
+Congress is getting total wiped out in this Sena 🆚️  BJP ( Rane) battle in the Mumbai MMR region.",Pro Ruling,"['congress', 'mumbai', 'wiped']","[{'text': 'congress', 'score': 0.5539}, {'text': 'mumbai', 'score': 0.3865}, {'text': 'wiped', 'score': 0.3134}]",congress,Pro Ruling,congress,Against ,"sees congress decline as a ""silver lining"".",
+2006013,"Since Many of my Congressi friends quoting Subramaniam Swamy's tweets as the last source of truth on GDP.
+
+This is what Swamy has to say about Sonia Gandhi. 
+
+*Pls note - I don't subscribe to such views. Posted this video just to show Congress coolies how crass can he get https://t.co/5w3iXSPQW1",Pro Ruling,"['congress', 'tweets', 'swamy']","[{'text': 'congress', 'score': 0.4074}, {'text': 'tweets', 'score': 0.2967}, {'text': 'swamy', 'score': 0.0891}]",congress,Pro Ruling,congress,Against ,"attaching proof on how crass congress leaders can get. calling followers ""congress coolies"". ",
+333396,"गयी भैंस पानी में ! 
+
+@RahulGandhi to be once again the Congress Chief .
+
+@BJP4India Heartiest Congratulations.",Pro Ruling,"['rahulgandhi', 'congress', 'congratulations']","[{'text': 'rahulgandhi', 'score': 0.4816}, {'text': 'congress', 'score': 0.4248}, {'text': 'congratulations', 'score': 0.3481}]",congress,Pro Ruling,congress,Against ,sarcastically implies that appointing rahul gandhi as chief of congress is beneficial for bjp. ,
+2912360,"No matter what internal differences we may have, we shouldn't let that be exploited by foreign entities: Anil K Antony on resignation from Congress https://t.co/JsAxWaJFmp",Pro Ruling,"['resignation', 'congress', 'differences']","[{'text': 'resignation', 'score': 0.4299}, {'text': 'congress', 'score': 0.3745}, {'text': 'differences', 'score': 0.2839}]",congress,Pro Ruling,congress,neutral ,no stance taken on congress. ,
+1470480,"Congress heading for Divide ....
+
+PM Narendra Modi inspires every Indian. He is connected with roots’.Congress leader Ghulam Nabi Azad",Pro Ruling,"['congress', 'narendra', 'roots']","[{'text': 'congress', 'score': 0.525}, {'text': 'narendra', 'score': 0.4462}, {'text': 'roots', 'score': 0.2828}]",congress,Pro Ruling,congress,Against ,says that congress unlike modi is not connected to roots and indians. accuses it of divide. ,
+1395873,"Vaccine misinformation by Congress no longer happening through insinuation, but unabashedly and directly. You have unlimited issues to turn the screws on the govt at this time. What you’re doing here is shameful, cynical &amp; criminal. https://t.co/c2TdRQyASC https://t.co/xz8sM30Ir4",Pro Ruling,"['vaccine', 'congress', 'shameful']","[{'text': 'vaccine', 'score': 0.4546}, {'text': 'congress', 'score': 0.4234}, {'text': 'shameful', 'score': 0.3138}]",congress,Pro Ruling,congress,Against ,"accuses congress of spreading misinformation about vaccines. calls it shameful, cynical and criminal. ",
+2534451,"As somebody who demanded internal democracy &amp; revolted against dynasty-raj in Congress way back in 2017 I had predicted that so long as Congress remains in hands of one family every significant leader will leave INC 
+
+Congress operates as a Kabila &amp; parivar alone is the party 1/n",Pro Ruling,"['congress', 'leave', 'predicted']","[{'text': 'congress', 'score': 0.5247}, {'text': 'leave', 'score': 0.2703}, {'text': 'predicted', 'score': 0.1229}]",congress,Pro Ruling,congress,Against ,"accuses congress of only appointing family members to high posts, not based on merit. ",
+1472240,If Congress were in power Audrey Truschke would have got Padma Shri by now.,Pro Ruling,"['congress', 'would', 'padma']","[{'text': 'congress', 'score': 0.4364}, {'text': 'would', 'score': 0.3027}, {'text': 'padma', 'score': 0.1251}]",congress,Pro Ruling,congress,Against ,"sarcastic tone that under congress, controversial historians who demean indian national history would have been awarded the highest awards and recognition. ",
+1391032,Kal ko Rahul Gandhi ko kuch bhi hua toh Congress ki Mother India Sonia Gandhi will be responsible. Noted https://t.co/8jcI0T3bfV,Pro Ruling,"['india', 'congress', 'mother']","[{'text': 'india', 'score': 0.6183}, {'text': 'congress', 'score': 0.3851}, {'text': 'mother', 'score': 0.3271}]",congress,Pro Ruling,congress,Against ,"mocks sonia gandhi as ""congress ki mother india"". ",
+404973,Congress can't even do one thing properly 😂✌️ https://t.co/eI6GkGIncV,Pro Ruling,"['congress', 'properly', 'one']","[{'text': 'congress', 'score': 0.6688}, {'text': 'properly', 'score': 0.3195}, {'text': 'one', 'score': 0.2965}]",congress,Pro Ruling,congress,Against ,shows that congress is useless and infutile. ,
+645737,"Btw Tuchiye, GOI doesn’t publish death numbers out of thin air - they collate the numbers published by respective states that collate from local authorities and these are governed by multiple parties including  BJP, congress and other opposition parties https://t.co/EhrPIpP7Zr",Pro Ruling,"['numbers', 'congress', 'publish']","[{'text': 'numbers', 'score': 0.3916}, {'text': 'congress', 'score': 0.2615}, {'text': 'publish', 'score': 0.2303}]",congress,Pro Ruling,congress,neutral ,no stance on congress taken. ,
+2876835,"Tum ye sab karke Maharashtra me jeet sakoge? 
+
+Congress still Abusing Maharashtra Ratna #VeerSavarkar.....  Time for Congress leaders from Maharashtra to teach the HQ leaders to apologize. https://t.co/XQelMiWwBo",Pro Ruling,"['maharashtra', 'congress', 'apologize']","[{'text': 'maharashtra', 'score': 0.4857}, {'text': 'congress', 'score': 0.466}, {'text': 'apologize', 'score': 0.3513}]",congress,Pro Ruling,congress,Against ,accuses congress of abusing Maharashtra Ratna ,
+1554769,"PM @narendramodi recalls that moment when Former Congress Chief Minister V Narayanaswamy held slippers for @RahulGandhi 
+
+#PuducherryWelcomesModiJi #Puducherry #PMModi https://t.co/MOJ1Fm8RGU",Pro Ruling,"['narendramodi', 'slippers', 'congress']","[{'text': 'narendramodi', 'score': 0.5286}, {'text': 'slippers', 'score': 0.4495}, {'text': 'congress', 'score': 0.2721}]",congress,Pro Ruling,congress,Against ,shows how top leaders dont respect fellow congress leaders. ,
+2114724,"In 2001 Gujarat Congress said
+
+BJP has made a Light weight as CM 
+
+➡️He is Just 50 yr old
+➡️He is an unknown Face
+➡️No admin. exp
+➡️Not even an MLA
+➡️An complete outsider
+
+They were talking about Narendra Damodardas Modi 😂😅
+
+21 Yrs Hence, They still don't know what Hit them.",Pro Ruling,"['narendra', 'congress', 'weight']","[{'text': 'narendra', 'score': 0.4224}, {'text': 'congress', 'score': 0.3517}, {'text': 'weight', 'score': 0.1999}]",congress,Pro Ruling,congress,Against ,"shows how modi completely shattered congress ideas about his incompetency. says congress doesnt know what ""hit them"". ",
+1745319,Another goof up: Congress party posts Field Marshal Manekshaw’s image to remember Field Marshal Cariappa on his death anniversary https://t.co/t28iSWbXU0,Pro Ruling,"['marshal', 'congress', 'anniversary']","[{'text': 'marshal', 'score': 0.5077}, {'text': 'congress', 'score': 0.3375}, {'text': 'anniversary', 'score': 0.2915}]",congress,Pro Ruling,congress,Against ,"mockingly shows congress goofing up. ""another"" implies its a routine thing to happen. ",
+2216346,"Big Breaking News
+
+7 Congress MLAs (including 4 Patidar MLAs) from Saurashtra, Gujarat can join BJP.",Pro Ruling,"['gujarat', 'join', 'congress']","[{'text': 'gujarat', 'score': 0.4583}, {'text': 'join', 'score': 0.4421}, {'text': 'congress', 'score': 0.2959}]",congress,Pro Ruling,congress,Against ,shows how congress MLAs abandoning Congress to join bjp. ,
+190212,"Punjab Congress chief startles leadership during protest against farm laws
+
+Read @ANI Story | https://t.co/oq00KuxNdk https://t.co/SXbxQ6pEf2",Pro Ruling,"['leadership', 'congress', 'startles']","[{'text': 'leadership', 'score': 0.4957}, {'text': 'congress', 'score': 0.3638}, {'text': 'startles', 'score': 0.2127}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+662230,Live with @AdvaitaKala on #CongressToolKitExpose here https://t.co/Am6qrJZGbH at 7pm Watch @TeamSP_Official #TeamSP,Pro Ruling,"['teamsp_official', 'congress', '7pm']","[{'text': 'teamsp_official', 'score': 0.5585}, {'text': 'congress', 'score': 0.4209}, {'text': '7pm', 'score': 0.281}]",congress,Pro Ruling,congress,Against ,promoting the discussion on exposing congress tool kit. ,
+2472772,"Youth Congress calls for nationwide protest today over Pegasus issue
+
+Read @ANI Story | https://t.co/o5ClTIzT6C https://t.co/fARNvKUg3a",Pro Ruling,"['protest', 'congress', 'youth']","[{'text': 'protest', 'score': 0.4914}, {'text': 'congress', 'score': 0.3431}, {'text': 'youth', 'score': 0.3045}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+1642320,I fear for the day when Congress twitter handle will tweet picture of Johnny sins to give tribute to Pandit Jawahar lal Nehru. The amount of mistakes from this handle makes me believe that the day is not far enough. https://t.co/moWmfP2VgA,Pro Ruling,"['tweet', 'sins', 'congress']","[{'text': 'tweet', 'score': 0.4369}, {'text': 'sins', 'score': 0.3739}, {'text': 'congress', 'score': 0.3162}]",congress,Pro Ruling,congress,Against ,mocks congress for being incompetent with social media and consistenly making mistakes. says that one day might post johnny sins as nehru. ,
+2867981,Lol. Is this @digvijaya_28’s true औक़ात now in the @INCIndia? Even a lackey like @Jairam_Ramesh can kick him in full public view trying to do damage control? Congress has never been able to digest #SurgicalStrikes https://t.co/jmknQzahPn,Pro Ruling,"['jairam_ramesh', 'congress', 'strikes']","[{'text': 'jairam_ramesh', 'score': 0.4515}, {'text': 'congress', 'score': 0.3525}, {'text': 'strikes', 'score': 0.3297}]",congress,Pro Ruling,congress,Against ,says that congress can never fathom the idea of digest surgical strikes. ,
+2193290,Congress ruled Rajasthan govt grants permission to PFI (Popular Front of India) to celebrate 'Popular Front Day' in Rajasthan's Kota tomorrow,Pro Ruling,"['india', 'congress', 'grants']","[{'text': 'india', 'score': 0.3952}, {'text': 'congress', 'score': 0.2867}, {'text': 'grants', 'score': 0.2198}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+365870,"Kathua lawyer links sex crimes with worshipping Devi to target and guilt trip Hindus during Navratri, Congress joins in
+
+It is a core part of the ‘Woke’ ideology to target the Hindu community based on our devotion towards the divine feminine.
+
+https://t.co/GloAMjb3bM",Pro Ruling,"['hindu', 'congress', 'lawyer']","[{'text': 'hindu', 'score': 0.4806}, {'text': 'congress', 'score': 0.3421}, {'text': 'lawyer', 'score': 0.3295}]",congress,Pro Ruling,congress,Against ,shows how congress supports manipulation of hindu community based on their devotion towards divine feminine. says that it joined in on linking sex crimes with worshipping devi. ,
+2706753,"#May13WithArnab | 'BJP is going to sweep, says BJP leader 
+@CharuPragya after Congress hits halfway mark in early #KarnatakaElections trends
+
+#KarnatakaPolls #KarnatakaElections2023 #ArnabGoswami #Karnataka 
+
+https://t.co/kJoFDiLub5 https://t.co/DiEmKmWQNC",Pro Ruling,"['sweep', 'congress', 'may13witharnab']","[{'text': 'sweep', 'score': 0.6139}, {'text': 'congress', 'score': 0.2555}, {'text': 'may13witharnab', 'score': 0.1807}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+572867,"#GupkarGangs #AliBabaAurChalisChor 
+Very well defined by Dr. Agnishekhar who is a well known poet, Writer &amp; a Kashmiri Hindu activist. 
+A bunch of local politicians with the backing of Congress have destroyed #JammuKashmir &amp; Ladakh. https://t.co/aRyPF3F9aS",Pro Ruling,"['alibaba', 'gangs', 'congress']","[{'text': 'alibaba', 'score': 0.5238}, {'text': 'gangs', 'score': 0.4757}, {'text': 'congress', 'score': 0.2217}]",congress,Pro Ruling,congress,Against ,"compares congress to ""chalis chor"" which means 40 thieves. accuse it of destroying Jammu & Kashmir. ",
+2604550,"When Muslim doctors were transferred Congress MLA Amin Kagzi got furious &amp; sat on a dharna against his own Government’s Health Minister in Rajasthan - @plmeenaINC ! 
+
+When MLAs are protesting against their own govt imagine what public of Rajasthan must be going through! https://t.co/zCiy0SA09C",Pro Ruling,"['muslim', 'doctors', 'congress']","[{'text': 'muslim', 'score': 0.4655}, {'text': 'doctors', 'score': 0.362}, {'text': 'congress', 'score': 0.1712}]",congress,Pro Ruling,congress,Against ,says that congress MLA's are protesting against congress themselves. asks viewers to imagine citizens plight under congress rule. ,
+127835,"O Teri, no independent feminist Journalists Tweeted about Congress leaders beating up a woman for demanding election tickets!!! 
+https://t.co/ORARD9Nd8X",Pro Ruling,"['feminist', 'tweeted', 'congress']","[{'text': 'feminist', 'score': 0.472}, {'text': 'tweeted', 'score': 0.3698}, {'text': 'congress', 'score': 0.3544}]",congress,Pro Ruling,congress,Against ,accuses congress leaders of beating up a woman for demanding election tickets. ,
+1081029,I had never imagined I would say this but Youth Congress led by @srinivasiyc &amp; NSUI led by @Neerajkundan are doing a fantastic job at helping people with oxygen cylinders and life saving drugs etc. Even in the middle of night. Kudos! @zeeshan_iyc @NIGAMBHANDARI1 @JhanzaibSirwal,Pro Ruling,"['nigambhandari1', 'congress', 'oxygen']","[{'text': 'nigambhandari1', 'score': 0.4078}, {'text': 'congress', 'score': 0.3845}, {'text': 'oxygen', 'score': 0.3029}]",congress,Pro Ruling,congress,For,"congratulating youth congress on doing a ""fantastic job"" . ",
+2553514,The siblings (Rahul Gandhi and Priyanka Gandhi) are enough to ruin the Congress. No one else is needed for that: CM Yogi Adityanath to ANI,Pro Ruling,"['congress', 'siblings', 'yogi']","[{'text': 'congress', 'score': 0.5003}, {'text': 'siblings', 'score': 0.3573}, {'text': 'yogi', 'score': 0.2578}]",congress,Pro Ruling,congress,Against ,says that its Rahul Gandhi and Priyanka Gandhi that are ruining congress. ,
+2008196,"Congress doing what it does best
+
+Insults Droupadi Murmu ji a self-made leader from tribal community - labels her a “dummy” forced to delete tweet  
+
+Udit Raj insults Ram Nath Kovind ji too 
+
+Insulting SC/ST/OBC/Women has become norm
+
+Same Congress had defeated Ambedkar ji too https://t.co/353mO5Wg8g",Pro Ruling,"['congress', 'insults', 'delete']","[{'text': 'congress', 'score': 0.4964}, {'text': 'insults', 'score': 0.4145}, {'text': 'delete', 'score': 0.1561}]",congress,Pro Ruling,congress,Against ,"says all that congress knows how to do is demean and insult others, including famous loved leaders like Ambedkar. ",
+2201808,"Bharat Jodo Yatra Impact : 
+Congress getting 6 seats in MCD https://t.co/c8fSqMopQm",Pro Ruling,"['congress', 'seats', 'yatra']","[{'text': 'congress', 'score': 0.547}, {'text': 'seats', 'score': 0.3674}, {'text': 'yatra', 'score': 0.3092}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+286055,"Massive day for the BJP.
+Suvendu Adhikari joins the party in Bengal.
+And Rahul Gandhi is coming back as Congress president.",Pro Ruling,"['adhikari', 'congress', 'joins']","[{'text': 'adhikari', 'score': 0.484}, {'text': 'congress', 'score': 0.3835}, {'text': 'joins', 'score': 0.3413}]",congress,Pro Ruling,congress,Against ,mockingly says that rahul gandhi coming back as congress president will only benefit bjp. ,
+972386,"Once Congress leader Kavitha Reddy had led a mob attack to abuse and heckle Kannada actress Samyuktha Reddy in Bengaluru for wearing a sports bra.
+
+Today same ppl are trending #RippedJeans",Pro Ruling,"['jeans', 'kavitha', 'congress']","[{'text': 'jeans', 'score': 0.408}, {'text': 'kavitha', 'score': 0.3177}, {'text': 'congress', 'score': 0.2276}]",congress,Pro Ruling,congress,Against ,shows how congress women are abusive and demean other women who dont abide by traditional norms. ,
+2071799,"Daughter of Congress leader.
+
+Thank you NDTV https://t.co/QLJt0FnzlO",Pro Ruling,"['congress', 'daughter', 'ndtv']","[{'text': 'congress', 'score': 0.5668}, {'text': 'daughter', 'score': 0.4831}, {'text': 'ndtv', 'score': 0.361}]",congress,Pro Ruling,congress,,neutral without context. ,UNSURE 
+1810535,Big breaking : Alleged Trinamool Congress goons broke into the BJP's Godown at 11 pm without fear and broke their LED vehicles on a day Election Commission announced dates for Bengal elections in 8 phases ⁦@JPNadda⁩ ⁦@amitmalviya⁩ ⁦@KailashOnline⁩ https://t.co/W7MtqbjurY,Pro Ruling,"['breaking', 'congress', 'trinamool']","[{'text': 'breaking', 'score': 0.4218}, {'text': 'congress', 'score': 0.411}, {'text': 'trinamool', 'score': 0.2766}]",congress,Pro Ruling,congress,Against ,Shows how congress has goons doing their dirty work. ,
+2537505,"Bharat Jodo with someone whose track record of controversial statements on Hindus and Kashmir is well known.. Ok.. 
+
+I guess Congress &amp; Rahul find common cause with such elements - George Ponniah to Haasan !! https://t.co/Yr2lXNIo8f https://t.co/ccp3ZTMRX1",Pro Ruling,"['hindus', 'congress', 'track']","[{'text': 'hindus', 'score': 0.599}, {'text': 'congress', 'score': 0.2918}, {'text': 'track', 'score': 0.019}]",congress,Pro Ruling,congress,Against ,"implies that bharat jodo yatra is doomed for failure as the one leading it (congress) has made numerous controversial statements on hindus and kashmir. hence, cannot be trusted. ",
+689163,Divisive Congress https://t.co/H1uQuX43r1,Pro Ruling,"['congress', 'divisive']","[{'text': 'congress', 'score': 0.8849}, {'text': 'divisive', 'score': 0.5628}]",congress,Pro Ruling,congress,Against ,labels congress as divisive. ,
+606352,#BREAKING | Attack on Arnab Goswami by Congress goons https://t.co/RZHKU3fdmK,Pro Ruling,"['goswami', 'attack', 'congress']","[{'text': 'goswami', 'score': 0.6479}, {'text': 'attack', 'score': 0.376}, {'text': 'congress', 'score': 0.355}]",congress,Pro Ruling,congress,Against ,"says that arnab goswami, a news anchor, was attacked by congress goons. ",
+1828372,Sunil Jakhar joined BJP. A few more Punjab Congress leaders will be joining in coming days. BJP will be emerging as key opposition party in Punjab. All thanks to Rahul Gandhi. https://t.co/KuWUjnhxa8,Pro Ruling,"['jakhar', 'joining', 'congress']","[{'text': 'jakhar', 'score': 0.3872}, {'text': 'joining', 'score': 0.3855}, {'text': 'congress', 'score': 0.2896}]",congress,Pro Ruling,congress,Against ,"suggests that because of Rahul Gandhi's incompetency, many congress leaders in punjab are leaving the party and joining bjp instead. ",
+2023678,"Congress hits out at NDTV for carrying “mischievous and incorrect” story on Sonia Gandhi, Rahul Gandhi and Priyanka Gandhi planning to offer resignation tomorrow. Is this for real? https://t.co/12OFx05VxM",Pro Ruling,"['congress', 'resignation', 'hits']","[{'text': 'congress', 'score': 0.5856}, {'text': 'resignation', 'score': 0.3202}, {'text': 'hits', 'score': 0.099}]",congress,Pro Ruling,congress,neutral ,talking about a rumour and asking if its real or not. ,
+2173033,"For Congress party RBI = 
+Rahul Baba Intelligence 
+
+@SushantBSinha https://t.co/7jZj1I73M8",Pro Ruling,"['congress', 'intelligence', 'sushantbsinha']","[{'text': 'congress', 'score': 0.5028}, {'text': 'intelligence', 'score': 0.4942}, {'text': 'sushantbsinha', 'score': 0.416}]",congress,Pro Ruling,congress,Against ,mocks congress ,
+1584335,"'If any celebrity donates to PMCARES, then aggressively question them. If they are on social media,then use Congress social media department to embarrass them'
+
+‘Don't Comment on Eid, Call 'Super Spreader Kumbh’: Congress' Toolkit
+
+#CongressToolkitExposed
+https://t.co/FTFGiQWPdd",Pro Ruling,"['celebrity', 'congress', 'spreader']","[{'text': 'celebrity', 'score': 0.4529}, {'text': 'congress', 'score': 0.3155}, {'text': 'spreader', 'score': 0.0737}]",congress,Pro Ruling,congress,Against ,sarcastically calls out congress' tool kit to insult others. says its being exposed. ,
+1477866,"#ArnabFightsBack | Arnab: I have decided to sue the Congress party, take strong legal action against their lies, and expose them in the courts of law. People of India: Join hands with Republic as we fight this political conspiracy with all our strength. The truth is on our side. https://t.co/mJBgpjRVpG",Pro Ruling,"['arnab', 'congress', 'lies']","[{'text': 'arnab', 'score': 0.4324}, {'text': 'congress', 'score': 0.4158}, {'text': 'lies', 'score': 0.328}]",congress,Pro Ruling,congress,Against ,shows how news journalist is going to sue congress for their lies and political conspiracy. ,
+1156451,Very clear which political party is the mother ship of Maoist Murderers! #NaxalAttack #UrbanNaxal #CongressWithNaxals https://t.co/SjsJgbgZE3,Pro Ruling,"['naxal', 'congress', 'urban']","[{'text': 'naxal', 'score': 0.6115}, {'text': 'congress', 'score': 0.3431}, {'text': 'urban', 'score': 0.1664}]",congress,Pro Ruling,congress,Against ,accuses congress of supporting naxalites.,
+335243,"On 07 Dec Congress leader @boxervijender announced that he'll return his Rajiv Gandhi Khel Ratna award to protest against farm laws.
+
+It's 26 Dec now but he hasn't returned it yet. Let's trend #विजेंदर_अवार्ड_वापस_कर to remind him that people won't let him get away with gimmicks.",Pro Ruling,"['ratna', 'returned', 'congress']","[{'text': 'ratna', 'score': 0.4023}, {'text': 'returned', 'score': 0.3899}, {'text': 'congress', 'score': 0.245}]",congress,Pro Ruling,congress,Against ,implies that congress leaders dont mean what they say and try to get away with gimmicks. ,
+1177541,"Priyanka Chaturvedi deletes Congress-era tweet condemning violence by Shiv Sena goons as her current party runs rampage
+
+https://t.co/vsBPvFAKd8",Pro Ruling,"['tweet', 'congress', 'priyanka']","[{'text': 'tweet', 'score': 0.4702}, {'text': 'congress', 'score': 0.3348}, {'text': 'priyanka', 'score': 0.2493}]",congress,Pro Ruling,congress,Against ,"shows how congress leaders are deleting tweets condemning other parties of violence as its their own party now which is running a ""rampage"". ",
+1979559,"Why Congress won Himachal, Alka Lamba Explains Her Stance On @TheNewIndian_in 
+
+BJP wanted to fight HP Polls on national issues like Art370, defence but we didn’t allow &amp; addressed local sentiments on old pension scheme &amp; jobs -@LambaAlka to @Anand_Journ 
+
+https://t.co/Vg6HF8kE0s",Pro Ruling,"['congress', 'hp', 'himachal']","[{'text': 'congress', 'score': 0.4741}, {'text': 'hp', 'score': 0.3395}, {'text': 'himachal', 'score': 0.2927}]",congress,Pro Ruling,congress,neutral ,"no stance taken, only news delivered. ",
+2840653,"I am posting the BA &amp; MA degree of PM Modi.
+
+Now I am challenging the Congress party to post Rahul Gandhi &amp; Sonia Gandhi's educational Degrees.
+
+https://t.co/4YEc8XVR2r",Pro Ruling,"['degree', 'congress', 'sonia']","[{'text': 'degree', 'score': 0.425}, {'text': 'congress', 'score': 0.3689}, {'text': 'sonia', 'score': 0.3429}]",congress,Pro Ruling,congress,Against ,challenging congress,
+2016004,"17. Interestingly 'Ford Foundation' International Professor of Economics at MIT Mr. Abhijit Banerjee was also the mastermind behind Congress's NYAY scheme in 2019!
+
+Now, who is the A and B team of Ford foundation? https://t.co/BFxjHQ9p7W",Pro Ruling,"['foundation', 'congress', 'ford']","[{'text': 'foundation', 'score': 0.4465}, {'text': 'congress', 'score': 0.429}, {'text': 'ford', 'score': 0.4013}]",congress,Pro Ruling,congress,,dont know without context if scheme is being critiqued or not ,unsure 
+2102665,"@dnetta @smritiirani Wooooahhh congress &amp; development huh !? 
+You answered urself in ur tweet very innocently that you have no idea and knowledge about the party you play defensive always! 
+Get an enlightment my dear .",Pro Ruling,"['congress', 'wooooahhh', 'defensive']","[{'text': 'congress', 'score': 0.4664}, {'text': 'wooooahhh', 'score': 0.324}, {'text': 'defensive', 'score': 0.3083}]",congress,Pro Ruling,congress,Against ,mocks the relation between congress and development ,
+543049,"#SoniaChinaDeal | Today I feel that the Congress betrayed us, but why were we quiet for so long? We came to know of this agreement today?: Mohammed Touseef Rehman, Political Analyst
+https://t.co/jghcajZuXf https://t.co/DmcjQNZG4l",Pro Ruling,"['china', 'congress', 'betrayed']","[{'text': 'china', 'score': 0.4949}, {'text': 'congress', 'score': 0.4769}, {'text': 'betrayed', 'score': 0.3241}]",congress,Pro Ruling,congress,Against ,says congress betrayed india ,
+507554,Congress leader and #Wayanad MP addresses media on ‘Wilful Defaulters’ issue https://t.co/n7KfYVWMgy,Pro OPP,"['media', 'congress', 'wayanad']","[{'text': 'media', 'score': 0.5347}, {'text': 'congress', 'score': 0.3357}, {'text': 'wayanad', 'score': 0.1792}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2643285,Watch | Congress leader Rahul Gandhi's early morning run during #BharatJodoYatra in Telangana https://t.co/88jxw1WOhc,Pro OPP,"['run', 'congress', 'yatra']","[{'text': 'run', 'score': 0.512}, {'text': 'congress', 'score': 0.3442}, {'text': 'yatra', 'score': 0.2726}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2278188,"Sri Mohammed from Tavanoor is 85 years old is continuing his journey as a part of #BharatJodoYatra even if he s left far behind,that’s the hope normal workers have on Indian National Congress!
+Leaders who does tug of war for position &amp; power has to learn lot from people like him. https://t.co/NXGsVxLsqS",Pro OPP,"['mohammed', 'congress', 'old']","[{'text': 'mohammed', 'score': 0.5153}, {'text': 'congress', 'score': 0.2682}, {'text': 'old', 'score': 0.2591}]",congress,Pro Opp,congress,For ,shows how even 85 year olds are joining bharat jodo yatra and have so much hope in INC. ,
+93708,False Excuses To Hide Congress's Failures: AAP Hits Backs At Rahul Gandhi https://t.co/hHvZzvJe2G https://t.co/a8EOR8bi7s,Pro OPP,"['congress', 'failures', 'backs']","[{'text': 'congress', 'score': 0.4828}, {'text': 'failures', 'score': 0.3516}, {'text': 'backs', 'score': 0.2463}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+730084,Modi blocked probe into Rafale deal to protect himself: Congress https://t.co/8FrnStjW1s,Pro OPP,"['blocked', 'congress', 'probe']","[{'text': 'blocked', 'score': 0.3811}, {'text': 'congress', 'score': 0.3199}, {'text': 'probe', 'score': 0.2493}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1606736,"I feel very bad for 1000’s of volunteers who supported congress on SM &amp; field ! 
+
+They did a great job &amp; did whatever possible but unfortunately we couldn’t cross the line! 
+
+Thank you for your contribution 🙏🏼
+
+#keralaelections2021",Pro OPP,"['volunteers', 'congress', 'bad']","[{'text': 'volunteers', 'score': 0.4892}, {'text': 'congress', 'score': 0.4301}, {'text': 'bad', 'score': 0.2042}]",congress,Pro Opp,congress,For ,thanking volunteers for joining congress efforts even if the objective was not fulfilled. ,
+2531863,"AAP will get enough Muslim votes in Delhi again. Just wait and watch. Then the same people will blame Congress for giving way to AAP. They will say Congress didn't do ""enough"" to stop AAP. So Congress is responsible for AAP targeting them.",Pro OPP,"['delhi', 'congress', 'stop']","[{'text': 'delhi', 'score': 0.3296}, {'text': 'congress', 'score': 0.3013}, {'text': 'stop', 'score': 0.1666}]",congress,Pro Opp,congress,For ,shows that people falsely blame congress for giving way to AAP. ,
+2873447,"Please watch these 13 minutes. Summarising precisely what's going on since September 2022.
+
+Please retweet for other Congress supporters after watching it.
+
+- via @dblive15 
+YT: https://t.co/oMAjzaf5lQ https://t.co/AopkfDUWRf",Pro OPP,"['congress', '2022', 'retweet']","[{'text': 'congress', 'score': 0.5737}, {'text': '2022', 'score': 0.4207}, {'text': 'retweet', 'score': 0.283}]",congress,Pro Opp,congress,For ,calling for congress supporters to retweet and know the truth. ,
+1165212,"Gautam, I don't care about AAP or BJP or at this point even Congress. DM me your number , I have 50 requests pending,  either you please help us or stay away . Please sir don't insult us 🙏🙏
+#COVID19India https://t.co/VISb0CkhhR",Pro OPP,"['india', 'requests', 'congress']","[{'text': 'india', 'score': 0.5073}, {'text': 'requests', 'score': 0.3672}, {'text': 'congress', 'score': 0.3418}]",congress,Pro Opp,congress,neutral ,"not taking stance on any party, says cares about neither. ",
+453459,"Think and vote today for Congress in every state by-election and in Bihar. 
+
+Think who gave us our highest growth, fastest reduction of poverty and sane governance without drama.
+
+#VoteCongressVoteProgress https://t.co/mMmtuxGBSf",Pro OPP,"['congress', 'poverty', 'fastest']","[{'text': 'congress', 'score': 0.564}, {'text': 'poverty', 'score': 0.2095}, {'text': 'fastest', 'score': 0.1517}]",congress,Pro Opp,congress,For ,encourages people to vote for congress as they gave us india's highest growth and reduction of poverty. also calls it the only sane governance void of any drama. ,
+2057881,This Congress MP invoked Ravana and Kansa in Parliament while talking about inflation. Find out why... https://t.co/yKUnhF3tPB,Pro OPP,"['congress', 'inflation', 'find']","[{'text': 'congress', 'score': 0.5184}, {'text': 'inflation', 'score': 0.4302}, {'text': 'find', 'score': 0.0826}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1987551,"Rajiv Gandhi created 16 PSUs, no privatisation, Vajpayee created 17 PSUs, Manmohan Singh created 23 PSUS, only 3 privatisation, PM Modi did not create a single PSU and he privatised 23 PSUs: Congress's Ripun Bora in Rajya Sabha speaking on Motion of Thanks to President's address",Pro OPP,"['congress', 'privatised', 'bora']","[{'text': 'congress', 'score': 0.3799}, {'text': 'privatised', 'score': 0.3129}, {'text': 'bora', 'score': 0.1262}]",congress,Pro Opp,congress,For ,shows how congress leaders are better than modi. ,
+1374650,"Pic 1 : Punjab CM Channi took 201 Helicopter rides in 72 days, for short trips of 10 mins to villages.
+
+Pic 2 : Congress Manifesto talked about 'forbidding Helicopter use by CM'
+
+Nakli AAM Aadmi Channi Exposed !!! https://t.co/YbKQdgBg4J",Pro OPP,"['helicopter', 'channi', 'congress']","[{'text': 'helicopter', 'score': 0.5249}, {'text': 'channi', 'score': 0.3684}, {'text': 'congress', 'score': 0.1395}]",congress,Pro Opp,congress,Against ,shows how congress leader went against congress manifesto. ,
+839717,"Gotta give @narendramodi an A+ for the sheer gall he has to come begging for votes with a track record that reeks of failure, corruption &amp; the destruction of not just our institutions, but the lives of citizens. Let this sink in India #NoVoteForBJP there’s only #CongressForIndia https://t.co/OIaYu1G1sc",Pro OPP,"['narendramodi', 'congress', 'sink']","[{'text': 'narendramodi', 'score': 0.5931}, {'text': 'congress', 'score': 0.4572}, {'text': 'sink', 'score': 0.0442}]",congress,Pro Opp,congress,For ,"encourages people to vote for congress. says modi's government reeks of ""failure, corruption and destruction"" of institutions and lives. ",
+74436,"#NDTVExclusive | ""No comments on those who wrote the letter, statements by Sonia Gandhi put the lid on the issue"": P Chidambaram (@PChidambaram_IN), senior Congress leader https://t.co/ZkGYHaxmGr",Pro OPP,"['chidambaram', 'congress', 'senior']","[{'text': 'chidambaram', 'score': 0.5007}, {'text': 'congress', 'score': 0.4942}, {'text': 'senior', 'score': 0.2083}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2283950,#JusticeForAnkita #JusticeForBilkisBano placards in hand Mahila Congress members along Mr @RahulGandhi walk in #BharatJodoYatra https://t.co/02CfsexRNs,Pro OPP,"['justice', 'congress', 'rahulgandhi']","[{'text': 'justice', 'score': 0.5125}, {'text': 'congress', 'score': 0.4469}, {'text': 'rahulgandhi', 'score': 0.4205}]",congress,Pro Opp,congress,For ,shows how female congress leaders and Rahul gandhi demand justice for women who were wronged. ,
+2259690,"Mr @RahulGandhi , Congress workers, bystanders, music - dance &amp; #BharatJodoYatra https://t.co/Z7bm4h41Ex",Pro OPP,"['rahulgandhi', 'congress', 'workers']","[{'text': 'rahulgandhi', 'score': 0.6191}, {'text': 'congress', 'score': 0.4304}, {'text': 'workers', 'score': 0.284}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1607573,"To save the country &amp; fight for Idea of India, join congress social media! #JoinCongressSocialMedia https://t.co/S1igTksUIk",Pro OPP,"['social', 'india', 'congress']","[{'text': 'social', 'score': 0.4575}, {'text': 'india', 'score': 0.435}, {'text': 'congress', 'score': 0.4198}]",congress,Pro Opp,congress,For ,"promotes and encourages people to ""fight for india"" by joining congress social media. ",
+63378,People from West Bengal who wants to work with West Bengal Pradesh Youth Congress social media please send message to me with name and number .,Pro OPP,"['pradesh', 'congress', 'send']","[{'text': 'pradesh', 'score': 0.4663}, {'text': 'congress', 'score': 0.2886}, {'text': 'send', 'score': 0.2591}]",congress,Pro Opp,congress,For ,encouraging people who want to join youth congress to send POC with name and number. ,
+558076,"I supported Congress in 2016 mainly because of the Gandhis. Sonia Gandhi has been amazing in her leadership. It is @RahulGandhi who has been fighting consistently against BJP n RSS, carrying the torch forward, protecting and fighting for the idea of India.
+#MyLeaderRahulGandhi",Pro OPP,"['rahulgandhi', 'congress', 'leadership']","[{'text': 'rahulgandhi', 'score': 0.4802}, {'text': 'congress', 'score': 0.4523}, {'text': 'leadership', 'score': 0.2964}]",congress,Pro Opp,congress,For ,talks about the achievements and good deeds by congress leaders. ,
+838853,"PC Chacko is the man who destroyed Congress in Delhi and now he quit congress . Sheila Dixit will be very happy where ever she is today .
+
+#PCChacko",Pro OPP,"['chacko', 'congress', 'quit']","[{'text': 'chacko', 'score': 0.4378}, {'text': 'congress', 'score': 0.3647}, {'text': 'quit', 'score': 0.1998}]",congress,Pro Opp,congress,,not taking a stance on congress as much as taking a stand on one particular leader who destroyed congress. ,unsure 
+737782,"EXCLUSIVE: As per the sources in a recent survey conducted by internal team of BSP, Congress is projected to get seats between 87-96.",Pro OPP,"['congress', 'seats', 'projected']","[{'text': 'congress', 'score': 0.5997}, {'text': 'seats', 'score': 0.4481}, {'text': 'projected', 'score': 0.158}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1064052,"AIMC President @sushmitadevinc and Delhi mahila congress President @AmritaDhawan1 demanding relief in increased State VAT taxes.
+#PetrolDieselPrice #PetrolPriceHike 
+#PetrolPrice @MahilaCongress https://t.co/UAmS2XQQbu",Pro OPP,"['petrol', 'congress', 'mahilacongress']","[{'text': 'petrol', 'score': 0.4867}, {'text': 'congress', 'score': 0.3561}, {'text': 'mahilacongress', 'score': 0.3192}]",congress,Pro Opp,congress,For ,shows how female congress leaders demanding relief. ,
+2641453,"Sources : 
+
+Mr #HarakSinghRawat joins Congress 
+
+Few moments ago Mr Rawat along with his daughter-in-law was spotted at Congress’ war room in #Delhi https://t.co/0x4z5XjFIY",Pro OPP,"['congress', 'hara', 'joins']","[{'text': 'congress', 'score': 0.4817}, {'text': 'hara', 'score': 0.3415}, {'text': 'joins', 'score': 0.2632}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2333030,"Mr @ashokgehlot51 : 
+
+I have requested him ( Mr @RahulGandhi ) multiple times to accept everyone's proposal of becoming the Congress President
+
+He made it clear that no one from the Gandhi family should become the next chief",Pro OPP,"['chief', 'congress', 'family']","[{'text': 'chief', 'score': 0.4569}, {'text': 'congress', 'score': 0.3663}, {'text': 'family', 'score': 0.1899}]",congress,Pro Opp,congress,For ,shows that congress is willing to take everyone's equal participation and opportunity to run for party president and not keep it just within the family. ,
+2784145,"The Congress returned to power under the leadership of Late Smt. Indira Gandhi ji after winning Karnataka in the late 1970s. Karnataka was the starting point of the winning momentum.
+
+I guess we'll see that winning momentum again after the Congress' massive win in the upcoming… https://t.co/4vKqh4Zel7 https://t.co/9spFu8hDsv",Pro OPP,"['congress', 'returned', 'leadership']","[{'text': 'congress', 'score': 0.5184}, {'text': 'returned', 'score': 0.3141}, {'text': 'leadership', 'score': 0.2527}]",congress,Pro Opp,congress,For ,hope for congress to have a massive win in elections during present times like it did under Indira Gandhi,
+2812067,"AICC media department head @Pawankhera deplaned 
+
+Congress leaders protesting near the flight at Delhi airport 
+
+( Video released by Congress party ) https://t.co/3DFRicScrh",Pro OPP,"['congress', 'airport', 'pawankhera']","[{'text': 'congress', 'score': 0.4465}, {'text': 'airport', 'score': 0.304}, {'text': 'pawankhera', 'score': 0.2881}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1635037,"Press Statement - Punjab Congress Bhawan with AICC General Secretary I/C Punjab Sh. @harishrawatcmuk Ji, Sh. @ajaymaken Ji and Sh. @Barmer_Harish Ji https://t.co/jqXAssUZz1",Pro OPP,"['bhawan', 'congress', 'secretary']","[{'text': 'bhawan', 'score': 0.5028}, {'text': 'congress', 'score': 0.4049}, {'text': 'secretary', 'score': 0.3936}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+130283,"This man will always attack BJP less and RJD, Congress more. SOLD OUT to Amit Shah. https://t.co/IHbWM7sLWC",Pro OPP,"['shah', 'congress', 'less']","[{'text': 'shah', 'score': 0.5441}, {'text': 'congress', 'score': 0.2824}, {'text': 'less', 'score': 0.2002}]",congress,Pro Opp,congress,For ,shows how congress is always attacked more than bjp and sidelined. ,
+423499,"Mr @kcvenugopalmp :
+
+Congress support #BharatBandh on Dec8
+
+Congress stands in solidarity with our Annadatas in their uncompromising historic struggle
+
+Relentless campaigns that Congress has undertaking -Tractor rallies led by Mr @RahulGandhi; Kisan Sammelans, signature campaigns https://t.co/TLSMPfKTtB",Pro OPP,"['congress', 'rallies', 'kcvenugopalmp']","[{'text': 'congress', 'score': 0.5336}, {'text': 'rallies', 'score': 0.3859}, {'text': 'kcvenugopalmp', 'score': 0.3149}]",congress,Pro Opp,congress,For ,shows how congress always supports and stands up for farmers. ,
+1538550,"Congress is running a very solid campaign in Assam. From alliances to messaging, it has been very effective so far. BJP didn't see it coming. Let's see what happens next.",Pro OPP,"['assam', 'congress', 'coming']","[{'text': 'assam', 'score': 0.4814}, {'text': 'congress', 'score': 0.4544}, {'text': 'coming', 'score': 0.3106}]",congress,Pro Opp,congress,For ,suggests that congress might win in Assam and BJP would never see it coming. ,
+1228047,"The Guardian is reporting that Mr @RahulGandhi was also a potential surveillance target 
+
+Congress to raise the issue in Parliament 
+
+#Pegasus https://t.co/OwDyMbLFcG",Pro OPP,"['surveillance', 'congress', 'raise']","[{'text': 'surveillance', 'score': 0.4804}, {'text': 'congress', 'score': 0.4233}, {'text': 'raise', 'score': 0.1022}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1000233,Haryana Congress Chief @kumari_selja Exclusive On Crucial Party Meeting |... https://t.co/5uMWwLhquS via @YouTube https://t.co/j89n5a3F33,Pro OPP,"['haryana', 'congress', 'youtube']","[{'text': 'haryana', 'score': 0.5187}, {'text': 'congress', 'score': 0.4898}, {'text': 'youtube', 'score': 0.2888}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+1204572,"Watch | ""After the court order, #AnilDeshmukh has done the right thing by submitting his resignation "": Charan Singh Sapra, Spokesperson, Congress https://t.co/vpqbEqKjSs",Pro OPP,"['resignation', 'anil', 'congress']","[{'text': 'resignation', 'score': 0.4894}, {'text': 'anil', 'score': 0.3776}, {'text': 'congress', 'score': 0.3572}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2640946,Breaking: Ex Mayor Hyderabad and Ex MLA Maheshwaram Teegala Krishna Reddy is all set to join Congress party in Telangana. https://t.co/zoC8fcf3K4,Pro OPP,"['krishna', 'join', 'congress']","[{'text': 'krishna', 'score': 0.4412}, {'text': 'join', 'score': 0.3396}, {'text': 'congress', 'score': 0.3273}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2771566,"Karnataka Congress chief Mr @DKShivakumar told me in January 6th, 2023 - the number of seats that he was confident of winning in Karnataka… 
+
+Mr Shivkumar replied  - 136 …  👇🏽 
+
+And today Congress is leading on 136 seats in #Karnataka … https://t.co/ZKfeZNtAvO",Pro OPP,"['congress', 'dkshivakumar', 'seats']","[{'text': 'congress', 'score': 0.5305}, {'text': 'dkshivakumar', 'score': 0.4944}, {'text': 'seats', 'score': 0.4209}]",congress,Pro Opp,congress,For ,shows how congress did in fact achieve the number of seats it was aiming for in Karnataka. ,
+1853539,"How many opposition leaders ( except Congress)
+raised Modi's dalali kaand in Sri Lanka? 🙄🤔",Pro OPP,"['sri', 'leaders', 'congress']","[{'text': 'sri', 'score': 0.4567}, {'text': 'leaders', 'score': 0.4059}, {'text': 'congress', 'score': 0.2564}]",congress,Pro Opp,congress,For ,shows how congress is the only one exposing Modi and BJP in real time. ,
+1299739,"@sridhar1085 is one of the most dedicated Congressis I know. He has worked day and night in the past few years, fighting dedicatedly for the party. Questioning his loyalty and hard work for the party is outright wrong.",Pro OPP,"['congressis', 'sridhar1085', 'loyalty']","[{'text': 'congressis', 'score': 0.4631}, {'text': 'sridhar1085', 'score': 0.3517}, {'text': 'loyalty', 'score': 0.2776}]",congress,Pro Opp,congress,For ,shows strong support for one congress member.,
+2880137,"Mr @Pawankhera in simple words said to Gulam Nabi don’t give Gyan to congress, try to reduce attrition in his own party ! 
+Best part I liked was Rahul’s face 😂
+
+https://t.co/rxMIH3INuC",Pro OPP,"['gulam', 'congress', 'face']","[{'text': 'gulam', 'score': 0.4485}, {'text': 'congress', 'score': 0.3658}, {'text': 'face', 'score': 0.2233}]",congress,Pro Opp,congress,For ,"""simple words"" show how little and well was said to a critic by congress. ",
+487449,"Congress leader Mr @RahulGandhi provides two jeeps to Family Health Care center in his constituency #Wayanad 
+
+Sources : 
+
+With an aim to transform tribal lives &amp; to ensure that health care services reaches all, Rahulji has provided these jeep
+
+Video released by @RGWayanadOffice https://t.co/5I6TIelRnv",Pro OPP,"['jeeps', 'rahulgandhi', 'congress']","[{'text': 'jeeps', 'score': 0.5327}, {'text': 'rahulgandhi', 'score': 0.3746}, {'text': 'congress', 'score': 0.1757}]",congress,Pro Opp,congress,For ,shows how congress and Rahul Gandhi always work for the betterment of people. ,
+19704,I have experienced arrogance of Congress in power. But now for the first time I am facing arrogance of Congress without power! #CongressPresident,Pro OPP,"['congress', 'arrogance', 'power']","[{'text': 'congress', 'score': 0.576}, {'text': 'arrogance', 'score': 0.4641}, {'text': 'power', 'score': 0.2286}]",congress,Pro Opp,congress,Against ,calls congress arrogant whilst having no power. ,
+2934269,"Opposition parties lead by Indian National congress will boycott the inauguration of new parliament by PM Modi for disrespecting &amp; undermining the importance of honorable President of India ! 
+
+This is not acceptable in a democracy where autocracy is followed by an elected Govt,… https://t.co/GrObZCpvj6 https://t.co/jpkIDmi2wK",Pro OPP,"['opposition', 'congress', 'india']","[{'text': 'opposition', 'score': 0.4188}, {'text': 'congress', 'score': 0.3989}, {'text': 'india', 'score': 0.2985}]",congress,Pro Opp,congress,For ,shows how congress is right to boycott modi who is leading an autocratic government in a democratic state. ,
+319234,".@OnReality_Check | ""The crisis we have has dented confidence of people. How do you build confidence in people? You give them money”: Praveen Chakravarty, Chairperson - Technology and Data Cell, Congress 
+
+#CoronavirusPandemic https://t.co/w9qLU2XdA1",Pro OPP,"['confidence', 'congress', 'coronavirus']","[{'text': 'confidence', 'score': 0.4756}, {'text': 'congress', 'score': 0.3105}, {'text': 'coronavirus', 'score': 0.2974}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+710760,"Youth Congress’ candle march in Delhi
+
+Congress has asked its state and district units to hold candle marches in remembrance of those farmers who died during #FarmersProtest 
+
+#FarmLaws https://t.co/EGg9cpbKgd",Pro OPP,"['candle', 'congress', 'farmers']","[{'text': 'candle', 'score': 0.5162}, {'text': 'congress', 'score': 0.3076}, {'text': 'farmers', 'score': 0.2503}]",congress,Pro Opp,congress,For ,shows congress paying respect to departed farmers. ,
+2202549,"Gujarat Congress leaders have gathered in large numbers at Ahmedabad's GMDC ground to protest against what Congress party calls as BJP Government's witch-hunt against opposition leaders. 
+#lutyensbreaking https://t.co/Q0Z8UWd4ut",Pro OPP,"['congress', 'ahmedabad', 'witch']","[{'text': 'congress', 'score': 0.478}, {'text': 'ahmedabad', 'score': 0.2164}, {'text': 'witch', 'score': 0.1473}]",congress,Pro Opp,congress,For ,shows how congress is standing up to bjp's attacks on opposition parties. ,
+2278377,The Price that Congress workers has to pay to keep the party flag high in West Bengal 😥 https://t.co/MmJgw2FTki,Pro OPP,"['congress', 'workers', 'price']","[{'text': 'congress', 'score': 0.5408}, {'text': 'workers', 'score': 0.3144}, {'text': 'price', 'score': 0.31}]",congress,Pro Opp,congress,For ,implying pity for congress workers in order to keep party afloat,
+2558254,"This is a warning for the people who want to divide our nation in the name of religion, language, caste, creed &amp; dress ! 
+Beware Indian National Congress will challenge any such attempt &amp; behind them millions of Indians will March ❤️🇮🇳✌🏼
+#BharatJodoYatra https://t.co/x1ogOrRWhz",Pro OPP,"['indian', 'congress', 'warning']","[{'text': 'indian', 'score': 0.5539}, {'text': 'congress', 'score': 0.4495}, {'text': 'warning', 'score': 0.3428}]",congress,Pro Opp,congress,For ,"says that congress will never let india be divided on the basis of caste, religion, language etc. and that millions of indians will always stand in their support. ",
+573247,Congress : Mr @RahulGandhi has left for abroad for a short personal visit,Pro OPP,"['rahulgandhi', 'abroad', 'congress']","[{'text': 'rahulgandhi', 'score': 0.4452}, {'text': 'abroad', 'score': 0.3645}, {'text': 'congress', 'score': 0.3224}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+304323,"Midnight drama at a five star hotel in Manesar... Congress leaders allege that BJP has held their MLAs hostage in a Manesar hotel... 8 MLAs out of which 4 are congress MLAs... Mr @digvijaya_28 , Mr @jitupatwari and Mr @JVSinghINC present at the hotel... #MadhyaPradesh",Pro OPP,"['congress', 'hostage', 'digvijaya_28']","[{'text': 'congress', 'score': 0.4423}, {'text': 'hostage', 'score': 0.4367}, {'text': 'digvijaya_28', 'score': 0.1863}]",congress,Pro Opp,congress,For ,accusing bjp of holding congress MLAs hostage.,
+616248,"Congress’ youth wing @IYC protest against #FarmLaws in #Delhi 
+
+#FarmersProtest https://t.co/yEjuJniWJr",Pro OPP,"['protest', 'farm', 'congress']","[{'text': 'protest', 'score': 0.4706}, {'text': 'farm', 'score': 0.4454}, {'text': 'congress', 'score': 0.27}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2356652,"Aruna Roy, Yogendra Yadav among civil society activists to be part of Rahul yatra |
+
+ There is a consensus that we welcome this Bharat Jodo Yatra because this is the need of the hour  ❤️✌🏼
+Congress only can save India 🇮🇳❤️
+#BharatJodoYatra  https://t.co/fWLGQPw73L",Pro OPP,"['yadav', 'congress', 'hour']","[{'text': 'yadav', 'score': 0.6152}, {'text': 'congress', 'score': 0.338}, {'text': 'hour', 'score': 0.2972}]",congress,Pro Opp,congress,For ,says that only congress can save india and that their bharat jodo yatra is the need of the hour.,
+953292,"Congress’ youth wing @IYC launches ambulance as well as Hearse Van services along with #Covid Isolation kit and #Covid Relief Kit for country’s rural areas ... 
+
+Mr @srinivasiyc : 
+
+These kits will be distributed in slums ; clusters &amp; villages where #Corona is wrecking havoc https://t.co/M6aX6vNJbd",Pro OPP,"['ambulance', 'kits', 'congress']","[{'text': 'ambulance', 'score': 0.4517}, {'text': 'kits', 'score': 0.346}, {'text': 'congress', 'score': 0.2688}]",congress,Pro Opp,congress,For ,shows how congress working to help those in rural india who were worst hit during pandemic. ,
+802848,"#Congress leader #RahulGandhi on Tuesday questioned the move of the #government to monetise its assets across key sectors, saying all assets created in the last 70 years are being sold. #PMModi #NMP #monetisation https://t.co/E5kc6a2bKB",Pro OPP,"['assets', 'key', 'congress']","[{'text': 'assets', 'score': 0.4448}, {'text': 'key', 'score': 0.1353}, {'text': 'congress', 'score': 0.0969}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2642102,"JUST IN
+
+Former Haryana Congress Leader and Haryana Democratic Front Leader Nirmal Singh and his daughter @ChitraSarwara  joins AAP in the presence of Delhi CM @ArvindKejriwal https://t.co/4Vl8HFhBDd",Pro OPP,"['haryana', 'joins', 'congress']","[{'text': 'haryana', 'score': 0.5442}, {'text': 'joins', 'score': 0.4383}, {'text': 'congress', 'score': 0.2278}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+946297,"Sources : 
+
+Congress President Mrs Sonia Gandhi and Ms @priyankagandhi both have been #Vaccinated whereas 
+
+Mr @RahulGandhi - who was due to take vaccine - got #Covid infection , so  his vaccination got deferred as per protocol …",Pro OPP,"['vaccinated', 'rahulgandhi', 'congress']","[{'text': 'vaccinated', 'score': 0.6318}, {'text': 'rahulgandhi', 'score': 0.3763}, {'text': 'congress', 'score': 0.2295}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+2599147,"#NewsAlert | Congress leaders KC Venugopal, Adhir Ranjan Chowdhury and others at New Police Line, Kingsway Camp in New Delhi. https://t.co/f5o3awVwOR",Pro OPP,"['police', 'congress', 'kingsway']","[{'text': 'police', 'score': 0.4951}, {'text': 'congress', 'score': 0.4104}, {'text': 'kingsway', 'score': 0.3028}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+55949,Congress President Mrs Sonia Gandhi to meet party leaders tomorrow morning at 10 Janpath ... https://t.co/Rn9jzWvSH3,Pro OPP,"['meet', 'sonia', 'congress']","[{'text': 'meet', 'score': 0.3998}, {'text': 'sonia', 'score': 0.3802}, {'text': 'congress', 'score': 0.3415}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",
+225915,Silly to target @JM_Scindia over Bjp in his handle bio. He had removed congress but never added Bjp. Enough real issues of COVID relief then this silly FAKE NEWS,Pro OPP,"['congress', 'jm_scindia', 'removed']","[{'text': 'congress', 'score': 0.3643}, {'text': 'jm_scindia', 'score': 0.2191}, {'text': 'removed', 'score': 0.2143}]",congress,Pro Opp,congress,neutral ,"no stance being taken, asking people to not believe fake news ",
+2637375,"50 crore ki Girlfriend..
+Didi O Didi...
+Congress ki Vidhwa...
+Bilkis Bano Case- Rapists released from Jail in Gujarat...
+
+Also PM on 15th Aug - 'Naari ko Apmaanit karne vali baat se mukti ka sankalp lena hai'",Pro OPP,"['rapists', 'naari', 'congress']","[{'text': 'rapists', 'score': 0.481}, {'text': 'naari', 'score': 0.3655}, {'text': 'congress', 'score': 0.1859}]",congress,Pro Opp,congress,,both congress and bjp being targetted. ,unsure 
+399886,Congress to announce more organisational changes in coming days ...,Pro OPP,"['changes', 'congress', 'organisational']","[{'text': 'changes', 'score': 0.4228}, {'text': 'congress', 'score': 0.4221}, {'text': 'organisational', 'score': 0.2748}]",congress,Pro Opp,congress,neutral ,"no stance being taken, only news being delivered ",

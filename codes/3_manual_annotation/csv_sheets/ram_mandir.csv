@@ -1,0 +1,549 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,STANCE ,Reasoning 
+783606,India is building Ram Mandir and manufacturing vaccine for the world.,Pro Ruling,pro ruling,ram mandir,"['vaccine', 'india', 'manufacturing']","[{'text': 'vaccine', 'score': 0.5252}, {'text': 'india', 'score': 0.4336}, {'text': 'manufacturing', 'score': 0.2054}]",For ,"shows how India is doing great things, one being the creation of ram mandir. "
+613176,"Finally, the most awaited day for Hindus has arrived; Wait of over 500 years is over as #Ramlalla returns to his birthplace: #RamMandirAyodhya https://t.co/xFirxviUmH via @eOrganiser",Pro Ruling,pro ruling,ram mandir,"['hindus', 'wait', '500']","[{'text': 'hindus', 'score': 0.697}, {'text': 'wait', 'score': 0.2435}, {'text': '500', 'score': 0.2074}]",For ,claims that ram mandir is the most awaited day for Hindus. 
+1951230,"One of the most remarkable constructions under progress is the Hindu Temple, Ram Mandir, located in Ayodhya of Uttar Pradesh. The construction of Ram Mandir is going on the ground site where Lord Rama had taken birth. #भारत_गौरव_श्रीराम_मंदिर https://t.co/KdwD7XsipE",Pro Ruling,pro ruling,ram mandir,"['hindu', 'progress', 'under']","[{'text': 'hindu', 'score': 0.5967}, {'text': 'progress', 'score': 0.2586}, {'text': 'under', 'score': 0.155}]",For ,"claims it is the one of the ""most remarkable"" constructions. "
+1296504,"5th August 
+
+#Olympics #Hockey Bronze Medal after 41 years
+
+#RamMandir after 500 years
+
+ #AbrogationOf370 #OneIndia after 70 years  
+
+Jai Hind https://t.co/hmG1OuCMfV https://t.co/sAAit3HjRj",Pro Ruling,pro ruling,ram mandir,"['medal', 'hockey', 'india']","[{'text': 'medal', 'score': 0.632}, {'text': 'hockey', 'score': 0.5622}, {'text': 'india', 'score': 0.2142}]",For ,shows how 5th august is a great day for india due to ram mandir and because we won in olympics. 
+2444071,"Let MCD elections get over, Kejriwal will take Delhites to the theaters to watch Kashmir files for free, just like he has promised Delhites free visits to Ram mandir for darshan. Right now he needs votes from all communities. Media will of course oblige.",Pro OPP,pro opposition,ram mandir,"['kashmir', 'elections', 'theaters']","[{'text': 'kashmir', 'score': 0.4503}, {'text': 'elections', 'score': 0.3064}, {'text': 'theaters', 'score': 0.2625}]",Neutral ,no stance taken on ram mandir. 
+165649,Advani raised the Ram Mandir issue &amp; took out a Rath Yatra which left a trial of blood across India. M M Joshi was present with Advani on the spot. Both under trials in the criminal case &amp; @narendramodi will do the Bhoomi pujan. Politics of Ram Mandir,Pro OPP,pro opposition,ram mandir,"['narendramodi', 'blood', 'both']","[{'text': 'narendramodi', 'score': 0.5169}, {'text': 'blood', 'score': 0.2778}, {'text': 'both', 'score': 0.2659}]",Against ,calls out the dirty politics behind ram mandir. 
+499006,"So on 5th August- the most auspicious  symbol of national unity, integration &amp; harmony Shri Ram Mandir Bhoomipujan will happen... Congress &amp; Rahul chamchas will mark it as BLACK DAY! 
+
+Would they mock any other faith like this? Would 25th Dec be observed as Black Day? https://t.co/ZBQHm9zepn",Pro Ruling,pro ruling,ram mandir,"['day', 'black', 'congress']","[{'text': 'day', 'score': 0.3851}, {'text': 'black', 'score': 0.3654}, {'text': 'congress', 'score': 0.2425}]",For ,"condemns rahul gandhi and his ""chamchas"" for declaring 5th august as black day for the inaugration of ram mandir. Says no other faith is mocked like hinduism. "
+427242,"Babar ne Ram Mandir kya Advani ki rath Yatra dekh kar tudwaya tha? 
+Ahmad Shah Abdali ne Kashmir mein kya 370 hatne par Hinduon ko katwaya tha? 
+Timur ne Kafiron ke sir kaat ke minar kya CAA ke baad banwaya tha? 
+Jinnah ko kaunsa Gandhi ne kaat khaaya tha? https://t.co/h8I9i2aZyn",Pro Ruling,pro ruling,ram mandir,"['hinduon', 'kafiron', 'ne']","[{'text': 'hinduon', 'score': 0.6386}, {'text': 'kafiron', 'score': 0.2557}, {'text': 'ne', 'score': 0.1533}]",For ,mocks critics of ram mandir. 
+1179145,Librandus hate President of India mainly because he donated 5 lakhs for Ram Mandir,Pro Ruling,pro ruling,ram mandir,"['hate', 'india', 'donated']","[{'text': 'hate', 'score': 0.373}, {'text': 'india', 'score': 0.2274}, {'text': 'donated', 'score': 0.1167}]",For ,shows how president receives hate for donating money to ram mandir. 
+253497,"I've filed a Letter PIL with the Allahabad High Court seeking a stay on the Ram Mandir event in Ayodhya in view of the Unlock 2.0 guidelines &amp; in the interest of public health during a pandemic.
+
+Dunno what comes out of it but we must not stop doing the right thing &amp; speaking up. https://t.co/LYBEwmJp2Q",Pro OPP,pro opposition,ram mandir,"['ayodhya', 'pandemic', 'court']","[{'text': 'ayodhya', 'score': 0.5263}, {'text': 'pandemic', 'score': 0.3384}, {'text': 'court', 'score': 0.2305}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+1068883,"Because of incompetence and inefficiency of Hindu rakshak party and its' Hindu hriday samrat leader(s) thousands of hindus got kîllèd. 
+
+Yet, the fake Hindu rakshak party has a dream to come back in U.P. in 2022 based on Ram mandir and hindu-muslim propaganda. Amazing.",Pro OPP,pro opposition,ram mandir,"['hindus', 'fake', 'inefficiency']","[{'text': 'hindus', 'score': 0.5165}, {'text': 'fake', 'score': 0.243}, {'text': 'inefficiency', 'score': 0.1331}]",Against ,"shows how bjp is a ""fake"" protector of hinduism. "
+228940,"“If the Babri Masjid was not demolished, and Hindus went to court saying that Ram was born there, would the court have ordered it to be demolished?”  a former Supreme Court judge asks. 
+
+#BabriJasjid #RamMandir 
+
+https://t.co/BhXlBnm32V",Pro OPP,pro opposition,ram mandir,"['hindus', 'demolished', 'judge']","[{'text': 'hindus', 'score': 0.3879}, {'text': 'demolished', 'score': 0.3079}, {'text': 'judge', 'score': 0.2867}]",Against ,shows how former supreme court judge asks a critical question of ram mandir. 
+214780,"Dear leaders, if you have any compassion and respect for the citizens of India facing an unprecedented pandemic like Covid, please, please, postpone the proposed  ""Bhavya Bhumi Poojan Samaroh"" for the Ram Mandir in Ayodhya until the nation's health is restored...Thank you.🙏 https://t.co/4UUlM8NzVq",Pro OPP,pro opposition,ram mandir,"['ayodhya', 'pandemic', 'postpone']","[{'text': 'ayodhya', 'score': 0.5262}, {'text': 'pandemic', 'score': 0.3707}, {'text': 'postpone', 'score': 0.3474}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+158818,"AAP and Kejriwal honor Hanuman, support Ram Mandir and reintegration of Kashmir. But they oppose CAA that protects Hindu refugees from Pakistan, Afghanistan and Bangladesh. Have they no sympathy for oppressed Hindus outside of India?",Pro Ruling,pro ruling,ram mandir,"['hindus', 'reintegration', 'protects']","[{'text': 'hindus', 'score': 0.5729}, {'text': 'reintegration', 'score': 0.198}, {'text': 'protects', 'score': 0.1965}]",Neutral ,no stance taken on ram mandir. 
+708493,"On 2nd Covid wave:
+
+Leftists are mocking construction of Ayodhya's Ram Mandir despite knowing that it's funded by devotees, not govt. This is hatred for Hindus.
+
+But they won't mock construction of Dhannipur Mosque in Ayodhya &amp; its donation because secularism will come in danger.",Pro Ruling,pro ruling,ram mandir,"['hindus', 'leftists', 'wave']","[{'text': 'hindus', 'score': 0.5717}, {'text': 'leftists', 'score': 0.4458}, {'text': 'wave', 'score': 0.0902}]",For ,shows that those mocking construction of ram mandir harbour hatred for hindus. 
+23255,"The best day of my Twitter life was when the verdict on Ram Mandir came. But I will be the happiest person in this world when the most handsome, most dynamic, the global supremo leader @Dr_Uditraj ji will become the President of Congress. Fingers crossed. 
+
+#MainBhiUditraj",Pro Ruling,pro ruling,ram mandir,"['happiest', 'leader', 'congress']","[{'text': 'happiest', 'score': 0.5749}, {'text': 'leader', 'score': 0.4024}, {'text': 'congress', 'score': 0.2837}]",For ,shows happiness with ram mandir verdict. 
+278556,"On 25 December:
+
+Peacefuls attacked the Hindus who took out a Ramnidhi Sangrahan rally in Ujjain
+
+On 29 December:
+
+Peacefuls attacked another rally of Hindu organization in Indore that was collecting donations for Ram Mandir 
+
+Why so much hatred against Hindus?",Pro Ruling,pro ruling,ram mandir,"['hindus', 'hatred', 'rally']","[{'text': 'hindus', 'score': 0.6111}, {'text': 'hatred', 'score': 0.4116}, {'text': 'rally', 'score': 0.4092}]",For ,"shows how there is hatred for hindus in india, especially regarding their treatment based on ram mandir. "
+748079,"Congress tried very hard to prove that Ram Mandir Trust did a land scam
+
+But Congress failed
+
+Now they are once again shouting that scam took place in Rafale deal
+
+People won't trust Congress anymore
+
+Remember that even the Supreme Court had said there was NO scam in Rafale deal",Pro Ruling,pro ruling,ram mandir,"['congress', 'scam', 'failed']","[{'text': 'congress', 'score': 0.4432}, {'text': 'scam', 'score': 0.4271}, {'text': 'failed', 'score': 0.2317}]",For ,claims that congress tried to spread fake news that ram mandir trust was done through a land scam. 
+36348,"Rajiv Feroze Khan, offspring of a foreigner mother, Kejriwal terrorist, AAP is Muslim League, Goli maro, Shaheen Babg is Pakistan, anti CAA /NRC protestors will attack houses and will rape women, Ram Mandir, Article 370, Pakistan, Imran Khan..
+
+BJP's election campaign in Delhi!",Pro OPP,pro opposition,ram mandir,"['khan', 'rape', 'protestors']","[{'text': 'khan', 'score': 0.474}, {'text': 'rape', 'score': 0.3582}, {'text': 'protestors', 'score': 0.3359}]",Against ,shows how bjp's election campaign tries to polarise hindu-muslim identities. 
+739218,"From demanding Ram Mandir to Remdesivir, Indian has come a long way",Pro OPP,pro opposition,ram mandir,"['indian', 'long', 'come']","[{'text': 'indian', 'score': 0.5941}, {'text': 'long', 'score': 0.4097}, {'text': 'come', 'score': 0.3244}]",Against ,underlying tone shows that initially demanding ram mandir was a bad call. 
+748412,"Joe Biden attended a church ceremony before inauguration.
+
+Harris took her oath on 2 Bibles!
+
+And here in India, liberals are angry that India's President donated 5 lakhs from his pocket for Ram Mandir construction.",Pro Ruling,pro ruling,ram mandir,"['liberals', 'donated', 'india']","[{'text': 'liberals', 'score': 0.4304}, {'text': 'donated', 'score': 0.3267}, {'text': 'india', 'score': 0.3222}]",For ,shows how president receives hate for donating money to ram mandir. 
+128105,I proudly wear Bhagwa on my sleeve. I am a proud Hindu. Today is a proud day. No invaders can ever stop us Hindus. We are United Hindus. #RamMandir #JaiShriRam,Pro Ruling,pro ruling,ram mandir,"['hindus', 'bhagwa', 'proud']","[{'text': 'hindus', 'score': 0.737}, {'text': 'bhagwa', 'score': 0.492}, {'text': 'proud', 'score': 0.3595}]",For ,shows pride in ram mandir. 
+2494076,"In 1991 UP elections, BJP came to power winning 221/425 seats by promising Ram Mandir. Babri Masjid was demolished in December 1992. Communalism was at its peak. UP CM Kalyan Singh was a hero of Hindus, someone who was unapologetic about demolition of Babri Masjid.",Pro OPP,pro opposition,ram mandir,"['hindus', 'elections', 'demolished']","[{'text': 'hindus', 'score': 0.5918}, {'text': 'elections', 'score': 0.3365}, {'text': 'demolished', 'score': 0.2328}]",Against,shows how bjp wins seats by promoting and delivering communalism. 
+838857,A Chennai based Muslim businessman has donated ₹1 lakh for Ram Mandir. He can still not be sure whether he'll be allowed to enter the premises to drink water.,Pro OPP,pro opposition,ram mandir,"['donated', 'muslim', 'businessman']","[{'text': 'donated', 'score': 0.4098}, {'text': 'muslim', 'score': 0.3439}, {'text': 'businessman', 'score': 0.3165}]",Against ,shows the dirty politics behind ram mandir and its hypocricy. 
+2707252,"9 reasons why I feel my vote for @narendramodi was worth it! #9YearsOfModiGovernment
+
+1) Abrogation of Article 370
+2) Ram Mandir 
+3) Rejuvenation of Hindu religious sites like Kashi and Ujjain 
+4)Financial Inclusiveness (#jandhan #mudra #upi 
+5) Massive improvement in railways… https://t.co/UNHVrnOE4Q",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'vote', 'worth']","[{'text': 'narendramodi', 'score': 0.5532}, {'text': 'vote', 'score': 0.3299}, {'text': 'worth', 'score': 0.2964}]",For ,feels pride in giving vote to modi for all that he has achieved including ram mandir. 
+1407989,"A party that won 2014 and 2019 General elections on the issue of Ayodhya Ram mandir, lost the Panchayat elections of Ayodhya.
+Too much Democracy??
+#UPPanchayatElection2021",Pro OPP,pro opposition,ram mandir,"['elections', 'ayodhya', 'lost']","[{'text': 'elections', 'score': 0.5352}, {'text': 'ayodhya', 'score': 0.4619}, {'text': 'lost', 'score': 0.2411}]",Against ,shows how panchayat elections are more democractic that general ones. 
+87584,My take: a Ram Mandir will be built but who will build a better India? Think about it.. https://t.co/pslwJDjyHi @IndiaToday,Pro OPP,pro opposition,ram mandir,"['india', 'build', 'better']","[{'text': 'india', 'score': 0.5604}, {'text': 'build', 'score': 0.3005}, {'text': 'better', 'score': 0.2421}]",Against ,claims how ram mandir does not equate to a better india. 
+1140932,"""By sending the cheque to PM instead of the @ShriRamTeerth &amp; by demanding proof from VHP, Congress has yet again used the Ram Mandir for playing dirty political games. Ram Bhakts are not like them!""
+
+Dr. Surendra Jain, Vice President of VHP replies to @digvijaya_28
+
+@VHPDigital https://t.co/mwsdN7DWHS",Pro Ruling,pro ruling,ram mandir,"['congress', 'games', 'dr']","[{'text': 'congress', 'score': 0.5012}, {'text': 'games', 'score': 0.2088}, {'text': 'dr', 'score': 0.1715}]",For ,shows how congress is trying to manipulate something auspicious like randir into dirty politics. 
+2781571,"After the plan of banning Bajrang Dal backfired,
+
+Karnataka Congress chief DK Shivkumar has promised to build Hanuman temples across the state
+
+For decades, Congress did not let Hindus build 'one' Ram Mandir in Ayodhya
+
+Stop fooling Hindus!",Pro Ruling,pro ruling,ram mandir,"['hindus', 'congress', 'backfired']","[{'text': 'hindus', 'score': 0.5608}, {'text': 'congress', 'score': 0.2835}, {'text': 'backfired', 'score': 0.0717}]",For ,claims that hindus will no longer be fooled. 
+2216191,"Hindu, #RamMandir judgment ke baad chupchap diya Jalata hai. 
+
+Woh Jihadi Babar ki encroachment ke liye Bombay mein Blast kar dete hain. 
+
+Two India's Indeed.",Pro Ruling,pro ruling,ram mandir,"['hindu', 'judgment', 'encroachment']","[{'text': 'hindu', 'score': 0.6921}, {'text': 'judgment', 'score': 0.3536}, {'text': 'encroachment', 'score': 0.2457}]",For ,draws a difference between peaceful hindus and violent muslims. 
+2611324,"Congress again showed their Hindu Hatred as they chose to wear black clothes on the day when Ram Mandir Shilanyas was done. 
+
+ https://t.co/bQ8P0MqZL0",Pro Ruling,pro ruling,ram mandir,"['hindu', 'congress', 'hatred']","[{'text': 'hindu', 'score': 0.4773}, {'text': 'congress', 'score': 0.3958}, {'text': 'hatred', 'score': 0.3324}]",For ,shows how congress is trying to manipulate something auspicious like randir into dirty politics. 
+70781,"PM @narendramodi to take part in #BhumiPoojan for laying of the foundation stone of Ram Mandir in #Ayodhya
+#AyodhyaRamMandir #AyodhyaBhoomipoojan https://t.co/JWm8u7LUHC",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'foundation', 'poo']","[{'text': 'narendramodi', 'score': 0.57}, {'text': 'foundation', 'score': 0.3363}, {'text': 'poo', 'score': 0.3299}]",For ,hashtag suggests tone of pride. 
+409444,"Statement by LK Advani on Bhoomi Poojan, Ayodhya. ‘It is my belief that Shri Ram Mandir will represent India as a strong, prosperous, peaceful &amp; harmonious nation with justice for all and exclusion of none so that we can truly usher in Ram Rajya, the epitome of good governance.’ https://t.co/lpeu1Rp6LN",Pro Ruling,pro ruling,ram mandir,"['india', 'governance', 'good']","[{'text': 'india', 'score': 0.5117}, {'text': 'governance', 'score': 0.3127}, {'text': 'good', 'score': 0.1754}]",For ,positive attitude. 
+2743232,"MP: Fazil Khan willingly accepts Hinduism and marries a Hindu girl in a Ram Mandir, says he is happy to accept Janeu in front of Lord Ram's idol
+
+https://t.co/unH5d6mCTV",Pro Ruling,pro ruling,ram mandir,"['hinduism', 'willingly', 'marries']","[{'text': 'hinduism', 'score': 0.5104}, {'text': 'willingly', 'score': 0.3124}, {'text': 'marries', 'score': 0.2849}]",For ,shows how muslims also support it. 
+2797894,"Modi se kabhi kuch mat maangna LeLis - turant Tathaastu bol deta hai ! 
+
+1st Ram Mandir 
+Then Article 370
+Now #G20InKashmir 🔥😅 https://t.co/yTmfHwGeoa",Pro Ruling,pro ruling,ram mandir,"['kashmir', 'now', 'g20in']","[{'text': 'kashmir', 'score': 0.6205}, {'text': 'now', 'score': 0.2949}, {'text': 'g20in', 'score': 0.2893}]",For ,shows how modi delivers on every promise. 
+255607,"""Best wishes for #RamMandir's #BhumiPujan. We hope that today's event will pave towards brotherhood and national unity. #JaiSiyaRam,"" said the party's Chief Spokesperson Randeep Surjewala (@rssurjewala).
+
+The Congress has not been invited for the official ceremony at #Ayodhya. https://t.co/06TLjMfiaX",Pro OPP,pro opposition,ram mandir,"['mandir', 'party', 'congress']","[{'text': 'mandir', 'score': 0.4544}, {'text': 'party', 'score': 0.4035}, {'text': 'congress', 'score': 0.3147}]",Against ,"underlying tone of sarcasm shows how even though ram mandir seeks to pave the way of national unity and brotherhood, its playing dirty politics as congress was not invited. "
+2852321,"“If Rahul wants to achieve the objectives of the Yatra, he should refrain from attacking the ruling party but conclude the Yatra every day with new messages of love and unity,"" Acharya Satyendra Das, the chief priest of the Ram Mandir in Ayodhya said.  
+
+https://t.co/MNxqX28KB1",Pro OPP,pro opposition,ram mandir,"['yatra', 'party', 'objectives']","[{'text': 'yatra', 'score': 0.5614}, {'text': 'party', 'score': 0.3434}, {'text': 'objectives', 'score': 0.2538}]",For ,shows how ram mandir is peaceful. 
+126917,"PM @narendramodi dream innings:
+◆28/9/16:Surgical Strike
+◆8/11/16:Demonetization
+◆1/7/17:GST
+◆8/1/19:EWS 
+◆27/2/19:Surgical Strike
+◆27/3/19:ASAT Missile
+◆30/7/19:TT Bill
+◆2/8/19:UAPA
+◆5/8/19: Abrogation of 370/35A
+◆11/9/19: CAA
+◆5/8/20: Ram Mandir Bhumi Pujan",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'strike', 'dream']","[{'text': 'narendramodi', 'score': 0.5416}, {'text': 'strike', 'score': 0.4526}, {'text': 'dream', 'score': 0.4349}]",For ,shows how modi delivers on every promise. 
+75239,"A letter to Mahatma Gandhi. Dear Bapu, Ram Mandir will be built, but who will build Ramrajya in India? My piece in today’s Sunday @timesofindia https://t.co/cniskJGoZv",Pro OPP,pro opposition,ram mandir,"['ramrajya', 'build', 'timesofindia']","[{'text': 'ramrajya', 'score': 0.6783}, {'text': 'build', 'score': 0.3555}, {'text': 'timesofindia', 'score': 0.2169}]",For ,shows how next step is ramrajya in india. 
+277342,"We came out, stood in queue for an hour and voted for Modiji in 2019 Elections
+
+For taking the trouble of visiting the voting booth, PM Modi gifted us with Ram Mandir
+
+100% Paisa Vasool",Pro Ruling,pro ruling,ram mandir,"['paisa', 'elections', 'queue']","[{'text': 'paisa', 'score': 0.4164}, {'text': 'elections', 'score': 0.4013}, {'text': 'queue', 'score': 0.2669}]",For ,shows how modi has gifted hindus with ram mandir. 
+1417112,"@RakeshSinha01 @RahulGandhi Sinha it’s not a God competition!! Try competing with @INCIndia on humanity &amp; governance. Indian are hungry, their pockets bankrupted, their hearts broken for want of oxygen, beds &amp; #COVID19 relief, that your government failed provide in #7yearsOfModiMadeDisaster  
+#RamMandirScam",Pro OPP,pro opposition,ram mandir,"['indian', 'competing', 'bankrupted']","[{'text': 'indian', 'score': 0.5036}, {'text': 'competing', 'score': 0.2955}, {'text': 'bankrupted', 'score': 0.1719}]",Against ,calls ram mandir a scam. 
+554474,Why is India facing so many challenges even after getting the land of a mosque to build a Ram Mandir! https://t.co/3IbiJLgyJ0,Pro OPP,pro opposition,ram mandir,"['india', 'mosque', 'challenges']","[{'text': 'india', 'score': 0.5186}, {'text': 'mosque', 'score': 0.3961}, {'text': 'challenges', 'score': 0.3264}]",Against ,subtly mocks ram mandir. 
+2441178,"This genocidal monk Bajrang Muni said in 2018, ""Ram Mandir can be built only if Hindus pick up weapons and make a pile of corpses upto Ayodhya of whoever comes in the way of Ram Mandir.""
+
+Now he is normalising rape of Muslim women.
+#ArrestBajrangMuni https://t.co/oXhlSMWpKG https://t.co/bQ4hW2mc9N",Pro OPP,pro opposition,ram mandir,"['hindus', 'corpses', 'normalising']","[{'text': 'hindus', 'score': 0.6046}, {'text': 'corpses', 'score': 0.1498}, {'text': 'normalising', 'score': 0.0995}]",Against ,shows how ram mandir is built on violence and aggression and its monks promote rape of muslim women and massacre of the muslim community. 
+22587,"The Vishwa Hindu Parishad (@VHPDigital) has profusely thanked Prime Minister #NarendraModi (@narendramodi) for mentioning #RamMandir in his #IndependenceDay speech from the ramparts of the #RedFort on Saturday.
+
+#74thIndependenceDay @vinod_bansal https://t.co/pfzFUw8BuT",Pro OPP,pro opposition,ram mandir,"['narendramodi', 'thanked', 'vhpdigital']","[{'text': 'narendramodi', 'score': 0.5583}, {'text': 'thanked', 'score': 0.5136}, {'text': 'vhpdigital', 'score': 0.2254}]",For ,shows great admiration for ram mandir. 
+341329,"PM @narendramodi's mother Smt. Hiraben Modi lights up diyas to celebrate #RamMandir bhoomi pujan
+
+#JaiShriRam #AyodhyaBhoomipoojan https://t.co/4f44Vz1N1K",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'celebrate', 'lights']","[{'text': 'narendramodi', 'score': 0.6013}, {'text': 'celebrate', 'score': 0.4198}, {'text': 'lights', 'score': 0.3442}]",For ,positive attitude. 
+1842247,Rightly pointed out by @AmitShah ji that Congress chose 5th August to wear black clothes because today Ram mandir Bhumi pujan happened. Such hatred for Prabhu Shri ram. #RamMandirVirodhiCongress,Pro Ruling,pro ruling,ram mandir,"['congress', 'prabhu', 'black']","[{'text': 'congress', 'score': 0.4168}, {'text': 'prabhu', 'score': 0.3799}, {'text': 'black', 'score': 0.3711}]",For ,shows congress hates sri ram. 
+2148260,"Building Haj House with government fund is secularism,
+
+Building Ram Mandir with Hindu fund is communalism",Pro Ruling,pro ruling,ram mandir,"['hindu', 'secularism', 'government']","[{'text': 'hindu', 'score': 0.532}, {'text': 'secularism', 'score': 0.4895}, {'text': 'government', 'score': 0.4213}]",For ,calls out hypocricy of critics of ram mandir. 
+2725042,"Acharya Satyendra Das, the chief priest of the Ram Mandir in Ayodhya, extended his solidarity to the Bharat Jodo Yatra led by Congress leader Rahul Gandhi. | AsadRizviJourno https://t.co/MNxqX29iqz",Pro OPP,pro opposition,ram mandir,"['ayodhya', 'congress', 'extended']","[{'text': 'ayodhya', 'score': 0.6385}, {'text': 'congress', 'score': 0.1954}, {'text': 'extended', 'score': 0.1752}]",For ,shows how chief priest of ram mandir also supports national unity. 
+675367,"Things that went wrong today
+
+1. Ram Mandir at Parade
+2. Religious Flag at Red Fort
+3. Police using Tear Gas
+4. Police Lathicharge
+5. Few Miscreants posing as Farmers
+6. Failure of Delhi Police
+7. Spread of Misinfo on SM
+8. Poorly informed Media
+9. Propaganda driven reporting!!",Pro OPP,pro opposition,ram mandir,"['misinfo', 'parade', 'farmers']","[{'text': 'misinfo', 'score': 0.4098}, {'text': 'parade', 'score': 0.3887}, {'text': 'farmers', 'score': 0.2104}]",Against ,shows how India is turning communalist. 
+2665916,"Now, a Ram Mandir in Mississauga, Canada, defaced with anti-India graffiti
+
+Khalistan is all about hating India &amp; loving Pakistan. These Khalistanis don't even want to touch Pakistan's Punjab
+
+Govt of India must revoke PIO/OIC cards of all those involved in anti-India activities https://t.co/n5rrMTaelx",Pro Ruling,pro ruling,ram mandir,"['india', 'graffiti', 'cards']","[{'text': 'india', 'score': 0.5071}, {'text': 'graffiti', 'score': 0.3927}, {'text': 'cards', 'score': 0.2555}]",For ,shows how ram mandir in canada was vandalised. 
+79387,"Congress blamed @asadowaisi for loss in Bihar election.
+
+This is what Congress was doing in MP, they were openly playing Hindutva card, taking credit for Ram Mandir.
+
+But they still lost MP, Who is responsible for their defeat in MP?
+
+Is this 👇 secularism??? https://t.co/OWNfSUOw1T",Pro OPP,pro opposition,ram mandir,"['congress', 'hindutva', 'loss']","[{'text': 'congress', 'score': 0.4717}, {'text': 'hindutva', 'score': 0.4179}, {'text': 'loss', 'score': 0.3357}]",Against ,shows how secularism is dying. 
+1070738,"The Sangh Parivar will soon realize the “Hindu Vote” of their imagination also demands oxygen beds, medicines, minimum employment, minimum income and MSP, besides Ram  Mandir. Social engineering is a fluid exercise, subject to forces of materialism ever so often.",Pro OPP,pro opposition,ram mandir,"['hindu', 'demands', 'oxygen']","[{'text': 'hindu', 'score': 0.4947}, {'text': 'demands', 'score': 0.292}, {'text': 'oxygen', 'score': 0.2362}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+557245,Hasin Jahan wife of Indian Cricketer Mohammed Shami gets rape threat on Congratulating Hindus on the ‘Reconstruction of Ram Mandir’: https://t.co/VHyEpRdGnd via @eOrganiser,Pro Ruling,pro ruling,ram mandir,"['hindus', 'threat', 'congratulating']","[{'text': 'hindus', 'score': 0.5403}, {'text': 'threat', 'score': 0.3375}, {'text': 'congratulating', 'score': 0.0254}]",For ,shows how muslims who support ram mandir get death and rape threats. 
+79642,.@asadowaisi on #BhoomiPujan: @PMOIndia's statement that this #RamMandir is a symbol of India is an imposition of his religion on the country. He has endorsed majoritarianism. The symbol of India cannot be any religion,Pro OPP,pro opposition,ram mandir,"['india', 'symbol', 'majoritarianism']","[{'text': 'india', 'score': 0.5322}, {'text': 'symbol', 'score': 0.4064}, {'text': 'majoritarianism', 'score': 0.3981}]",Against ,shows how ram mandir is a symbol of the endorsement of majoritarianism in india. 
+113698,"The #Congress (@INCIndia) has welcomed the construction of the #Ramtemple and said that there should be no controversy on the guest list for the '#bhumipujan' and the trust has the right to invite whoever they want to.
+
+#AyodhyaRamMandir @JaiveerShergill https://t.co/LeFIR4hOS2",Pro OPP,pro opposition,ram mandir,"['temple', 'congress', 'should']","[{'text': 'temple', 'score': 0.4956}, {'text': 'congress', 'score': 0.4028}, {'text': 'should', 'score': 0.2113}]",For ,shows how congress supports ram mandir. 
+862843,"Read ⁦@bainjal⁩ &amp; evolve ⁦⁦@priyankagandhi can’t allow Bisht to change the conversation so that you’ll make no mention of his Covid missteps. He’s setting Ram Mandir, Kabristans &amp; warnings of surgical strikes as issues for #UPElections2022 🙄 https://t.co/6yfrb4jUFZ",Pro OPP,pro opposition,ram mandir,"['priyankagandhi', 'elections', 'warnings']","[{'text': 'priyankagandhi', 'score': 0.4953}, {'text': 'elections', 'score': 0.3598}, {'text': 'warnings', 'score': 0.3272}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+1566908,"There should be no vaccine for people who were saying ‘Mandir wahin banayenge’.
+
+Let Ram Mandir cure them https://t.co/ba6juVMRGu",Pro OPP,pro opposition,ram mandir,"['vaccine', 'cure', 'saying']","[{'text': 'vaccine', 'score': 0.5527}, {'text': 'cure', 'score': 0.3726}, {'text': 'saying', 'score': 0.1718}]",Against ,claims that those who wanted ram mandir instead of vaccines should not receive them now. 
+246495,"If shamelessness had a face..
+
+#ArvindKejriwal #RamMandir #Ayodhya #AyodhyaRamMandir https://t.co/BuVZ0TTamI",Pro Ruling,pro ruling,ram mandir,"['genocide', 'shamelessness', 'hindu']","[{'text': 'genocide', 'score': 0.594}, {'text': 'shamelessness', 'score': 0.5622}, {'text': 'hindu', 'score': 0.5153}]",Against ,"hashtag suggests that ram mandir is ""shamelessness"". "
+179307,"PM @narendramodi is making Ram Mandir as well leading efforts to generate clean renewable energy with Solar, Wind, Biomass Plants. India under Modi has already became World's sixth Solar Power Producer. Better luck next time @dhume  !!
+
+https://t.co/duKaJ9P442",Pro Ruling,pro ruling,ram mandir,"['solar', 'narendramodi', 'making']","[{'text': 'solar', 'score': 0.4808}, {'text': 'narendramodi', 'score': 0.4377}, {'text': 'making', 'score': 0.2458}]",For ,show how modi always delivers on his promises.
+292068,"In his own speech, Sushil Modi largely sticks to bijli-sadak-paani, but towards the end, dares Usmani (the Congress candidate) to donate money for the Ram Mandir. ""Only then"", said Mr Modi, ""can he call himself secular.""",Pro OPP,pro opposition,ram mandir,"['mandir', 'donate', 'congress']","[{'text': 'mandir', 'score': 0.4149}, {'text': 'donate', 'score': 0.2963}, {'text': 'congress', 'score': 0.2616}]",Against ,shows dirty politics around ram mandir. 
+65192,"5th Aug 2019 - After 70 years wait #Art370 ended
+
+5th Aug 2020 - After 492 years of struggle and sacrifice #RamMandir will be built
+
+Sanatanis must roar forward to greatness once again
+
+I would like to pray for #HindusUnite 🕉
+
+#JaiShreeRam 🙏🏼
+
+https://t.co/rewEbdkmY8",Pro Ruling,pro ruling,ram mandir,"['hindus', 'pray', '2020']","[{'text': 'hindus', 'score': 0.5158}, {'text': 'pray', 'score': 0.4661}, {'text': '2020', 'score': 0.2444}]",For ,expresses pride in ram mandir.
+1029484,"If you believe that Ram Mandir judgement is influenced by Modi Government, not independently judged by the Supreme Court of India.
+
+Trust me, this danger in our democracy is much bigger trouble than delays in Ram Mandir construction.",Pro OPP,pro opposition,ram mandir,"['india', 'judgement', 'delays']","[{'text': 'india', 'score': 0.3668}, {'text': 'judgement', 'score': 0.363}, {'text': 'delays', 'score': 0.1751}]",Against,subtly shows how democracy is failing. 
+169142,"If Ram Mandir becomes a ‘monument of hate’ and must be abandoned due to violence over it then when are they abandoning Kashi, Mathura, Qutub Minar and countless other mosques in India? Or is this liberal/Islamist logic applicable only to the Hindu places of worship?",Pro Ruling,pro ruling,ram mandir,"['hindu', 'hate', 'qutub']","[{'text': 'hindu', 'score': 0.5886}, {'text': 'hate', 'score': 0.1909}, {'text': 'qutub', 'score': -0.0315}]",For ,shows how there is hypocricy faced by hindu faith and monuments. 
+26017,"Sabka saath Sabka Vishwas folks standing in long Ques with their Papers to vote against @narendramodi
+Will Hindus come out &amp; stand for one PM who gave them Ram Mandir, abolished 370 &amp; brought CAA?
+If they can vote for their religion what stop you o hindus?
+Come out and vote! https://t.co/cARVB2UXXG",Pro Ruling,pro ruling,ram mandir,"['hindus', 'vote', 'abolished']","[{'text': 'hindus', 'score': 0.6313}, {'text': 'vote', 'score': 0.3326}, {'text': 'abolished', 'score': 0.1983}]",For ,shows how much modi did for the nation. 
+2683737,"Autowala On Fire 🔥 
+
+I am standing with Modi ji and Amit Bhai who abbrogated article 370 from Kashmir and are building Ram Mandir. 
+
+Uddhav Thackeray is with Mehbooba Mufti who want article 370 back in Kashmir. 
+
+Showing Mirror 🪞to Rashmi Thackeray and family in ShindeShai way. https://t.co/EiRMhLIhzY",Pro Ruling,pro ruling,ram mandir,"['kashmir', 'thackeray', 'mirror']","[{'text': 'kashmir', 'score': 0.6362}, {'text': 'thackeray', 'score': 0.2384}, {'text': 'mirror', 'score': 0.1068}]",For ,praises modi and ram mandir. 
+181936,"""Congress has always believed in dialogue. It is the BJP that has always been inconsistency in their stand on #Ayodhya"": @Pawankhera, Congress 
+
+Watch here: https://t.co/vwOgujWd0p
+
+#AyodhyaBhoomipoojan #AyodhyaRamMandir  #Ayodhya
+
+(P.S.- The video is from last night's show) https://t.co/RXKv84mMyB",Pro OPP,pro opposition,ram mandir,"['ayodhya', 'congress', 'inconsistency']","[{'text': 'ayodhya', 'score': 0.553}, {'text': 'congress', 'score': 0.4573}, {'text': 'inconsistency', 'score': 0.2976}]",Neutral ,no stance taken on ram mandir. 
+809070,"The #AbbaJaan remark by  Adityanath ji proves BJP is desperate in UP. As their desperation grows the next planted story will be on Ram Mandir. On a more desperate note- a Pakistan &amp; Kashmir angle will emerge, then Dawood &amp; finally a plot to harm Adityanath ji or PM! 
+#अब्बाजान",Pro OPP,pro opposition,ram mandir,"['kashmir', 'desperation', 'angle']","[{'text': 'kashmir', 'score': 0.5342}, {'text': 'desperation', 'score': 0.4047}, {'text': 'angle', 'score': 0.1719}]",Against ,shows how ram mandir is a desperate act by bjp to get votes. 
+732566,"Hi @INCMP: 
+
+It is incredibly shocking &amp; disappointing to know that Bhopal South West MLA P. C. Sharma of Congress is going around soliciting donations for Ram Mandir construction.
+
+The state PCC high command MUST intervene &amp; stop this farce immediately. 
+
+https://t.co/AGCFkxOpLH",Pro OPP,pro opposition,ram mandir,"['ram', 'congress', 'donations']","[{'text': 'ram', 'score': 0.4074}, {'text': 'congress', 'score': 0.3874}, {'text': 'donations', 'score': 0.3166}]",Against ,expresses dissapointment in MLA soliciting donations for ram mandir. 
+303196,"Late Shri Rajiv Gandhi had already made Congress's stand clear on Babri Masjid &amp; Ram Mandir dispute (1989) 
+But BJP along with its associate organizations politicised it for polarization &amp; creating communal rift.
+Every concerned citizen must listen to this once. https://t.co/PsiLZ3winE",Pro OPP,pro opposition,ram mandir,"['congress', 'masjid', 'polarization']","[{'text': 'congress', 'score': 0.4426}, {'text': 'masjid', 'score': 0.3597}, {'text': 'polarization', 'score': 0.1963}]",Against ,blames bjp for polarisation and politicisation. 
+956975,"Indian GDP - ‘Shav Aasan’
+Petrol Price - ‘Sheersh Aasan’
+Ram Mandir - ‘Chandaasan’",Pro OPP,pro opposition,ram mandir,"['price', 'indian', 'petrol']","[{'text': 'price', 'score': 0.4516}, {'text': 'indian', 'score': 0.4217}, {'text': 'petrol', 'score': 0.4179}]",Against ,mocks ram mandir. 
+979724,"#चंदा_चोर_भाजपा
+India must learn a valuable lesson after #7YearsOfLoot: 
+
+Every scheme, every policy grandly announced by Sanghis &amp; hyped by lapdog media, is a trick to loot Indians &amp; enrich the corrupt Sangh Parivar
+#ChowkidarChorHai 
+#RamMandirScam
+#7yearsOfModiMadeDisaster https://t.co/t6rQEp5N9I",Pro OPP,pro opposition,ram mandir,"['india', 'corrupt', 'lapdog']","[{'text': 'india', 'score': 0.5865}, {'text': 'corrupt', 'score': 0.3937}, {'text': 'lapdog', 'score': 0.1254}]",Against ,calls ram mandir a scam. 
+286323,"Nations weaken not because of their past but, rather, by how they are taught it.
+
+My views on @TimesNow with @RShivshankar, on the discovery of Hindu idols at the Ram Janambhoomi site and the shameful perfidy of the Left. #RamMandirExisted https://t.co/e3fvBwIOr7",Pro Ruling,pro ruling,ram mandir,"['hindu', 'weaken', 'timesnow']","[{'text': 'hindu', 'score': 0.5084}, {'text': 'weaken', 'score': 0.3448}, {'text': 'timesnow', 'score': 0.2105}]",For ,supports ram mandir and says history should teach how it did exist. 
+2005047,"“In the land of Ram Bhakts, Congress which doesn't believe either in existence of Ram or grand Ram Mandir, brought out Ravan from Ramayan to abuse Modi” https://t.co/FpKn5vVzYt",Pro Ruling,pro ruling,ram mandir,"['ram', 'congress', 'believe']","[{'text': 'ram', 'score': 0.5001}, {'text': 'congress', 'score': 0.3706}, {'text': 'believe', 'score': 0.2488}]",For ,Shows how congress hates Ram and Ram mandir. 
+57596,"Two front page reports in today's Indian Express highlight the India of today: The PM cannot get China to vacate Indian territory it has occupied... but will instead stage a spectacle to ""liberate"" Ram Mandir from Muslim control.
+
+https://t.co/bzMuLPTqGn
+
+https://t.co/s9J1oMUFGD",Pro OPP,pro opposition,ram mandir,"['china', 'india', 'cannot']","[{'text': 'china', 'score': 0.5743}, {'text': 'india', 'score': 0.5004}, {'text': 'cannot', 'score': 0.2115}]",Against ,shows how ram mandir is nothing but spectacle. 
+907704,Sri #KalyanSingh ji on #RamMandir - What an unapologetic Hindu 🙏 https://t.co/ZNhQd3OzAU,Pro Ruling,pro ruling,ram mandir,"['hindu', 'ram', 'unapologetic']","[{'text': 'hindu', 'score': 0.8005}, {'text': 'ram', 'score': 0.5218}, {'text': 'unapologetic', 'score': 0.3511}]",For ,suggests pride in ram mandir. 
+1572243,"Yeah yeah that’s the most important predicament facing India today @AdvaitaKala Shame that you prioritise the #RamMandir when millions starve, are jobless, to say nothing of the economic devastation &amp; shattered social fabric the @BJP4India triumvirate of evil propagate  daily 😡 https://t.co/zNpgQvtvha",Pro OPP,pro opposition,ram mandir,"['india', 'shame', 'jobless']","[{'text': 'india', 'score': 0.5711}, {'text': 'shame', 'score': 0.3872}, {'text': 'jobless', 'score': 0.1394}]",Against ,calls ram mandir a scam. 
+2560315,"That's the reason ED is after the Gandhis, barricades outside Congress HQ, black magic, India Today survey, Draupadi Murmu, Amit Shah's Ram mandir statement, BJP making a hero out of Kejriwal who is nothing in Gujarat right now. Congress might just win Gujarat.",Pro OPP,pro opposition,ram mandir,"['gujarat', 'congress', 'hero']","[{'text': 'gujarat', 'score': 0.4775}, {'text': 'congress', 'score': 0.4368}, {'text': 'hero', 'score': 0.1892}]",Against,suggests the dirty politics of bjp which includes ram mandir. 
+1090226,"TMC MLA Siddiqullah says:
+
+* Cows are slaughtered in Bengal since 1000-1200 years
+* No one can stop cow slaughter
+
+Mr Siddiqullah, many people like you said
+
+* Hindus can't build Ram Mandir
+* Modi can't scrap Article 370
+
+But the world saw what happened later",Pro Ruling,pro ruling,ram mandir,"['hindus', 'cows', 'slaughtered']","[{'text': 'hindus', 'score': 0.5231}, {'text': 'cows', 'score': 0.5016}, {'text': 'slaughtered', 'score': 0.4789}]",For ,expresses pride in ram mandir.
+73379,"I’m 100% confident that in the upcoming Unlock 3.0 guidelines on 31st July, Home Ministry will announce exemptions for religious gatherings. 
+
+If they don’t, the Ram Mandir event in Ayodhya is against the law. 
+
+If they do exempt in the middle of a pandemic, it’ll be challenged.",Pro OPP,pro opposition,ram mandir,"['religious', 'exempt', 'pandemic']","[{'text': 'religious', 'score': 0.468}, {'text': 'exempt', 'score': 0.461}, {'text': 'pandemic', 'score': 0.1869}]",Against ,shows how ram mandir event is against the law but predicts that Home Ministry will exempt it. 
+2154045,"At first Congress said, ""build Ram Mandir if you have guts""
+
+It was done 
+
+Then they said ""scrap Article 370 if you have guts""
+
+It was done too
+
+Later they said ""ban PFI if you have guts""
+
+Now this has been done too
+
+Dear Congress NEXT TASK please?",Pro Ruling,pro ruling,ram mandir,"['congress', 'scrap', 'pfi']","[{'text': 'congress', 'score': 0.5384}, {'text': 'scrap', 'score': 0.2081}, {'text': 'pfi', 'score': 0.1446}]",For ,shows how modi does not back down from a challenge. 
+28091,"Rafale and Ram Mandir will cover all the main problems Corona , Economy, China ! 
+
+You’re greatest PR Minister Modi Ji !",Pro OPP,pro opposition,ram mandir,"['china', 'corona', 'problems']","[{'text': 'china', 'score': 0.4846}, {'text': 'corona', 'score': 0.2672}, {'text': 'problems', 'score': 0.2364}]",Against ,mocks modi and ram mandir. 
+45090,"Bahut zyada pay kiya @RSSorg ne - 
+1) @narendramodi jaise PM 2) Braashtachar mukt kendr sarkar 
+3) dynasty mukt amethi 4) Pak pe surgical strike aur Balakote strike 
+5) 370 gayab 6) Ram Mandir ka rasta clear - yeh sab RSS ke ek pracharak aur pradhan mantri ne pay kiya mujhe https://t.co/6fR1zoCo6w",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'pay', '370']","[{'text': 'narendramodi', 'score': 0.557}, {'text': 'pay', 'score': 0.262}, {'text': '370', 'score': 0.2222}]",For ,shows how RSS did a lot of good investment for country. 
+574685,"“Like the decisions on Ram Mandir and Article 370, Prime Minister Narendra Modi has decided when there would be war with Pakistan and China,” BJP’s UP chief Swatantra Dev Singh is heard saying in a video clip. https://t.co/u3iCgp9EzE",Pro OPP,pro opposition,ram mandir,"['war', 'china', 'pakistan']","[{'text': 'war', 'score': 0.4202}, {'text': 'china', 'score': 0.406}, {'text': 'pakistan', 'score': 0.342}]",Against ,shows how everything is manufactured and dictated by modi.
+192679,"Make your temples @BJP4India and keep demanding your masjids @asadowaisi ! But for humanity’s sake, help make the #COVID19 vaccine free ! #freethevaccine @SerumInstIndia @adarpoonawalla @kiranshaw. Great initiative, Tushar! @Yunus_Centre 
+#Babri #Ayodhya #RamMandir https://t.co/xzOf4mcjjl",Pro OPP,pro opposition,ram mandir,"['vaccine', 'temples', 'free']","[{'text': 'vaccine', 'score': 0.5532}, {'text': 'temples', 'score': 0.3789}, {'text': 'free', 'score': 0.1606}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+81117,Can Congress' new Ram Mandir frenzy be called Unlock 2.0?,Pro OPP,pro opposition,ram mandir,"['ram', 'congress', 'unlock']","[{'text': 'ram', 'score': 0.4838}, {'text': 'congress', 'score': 0.4264}, {'text': 'unlock', 'score': 0.3764}]",For ,subtly suggests that congress is overdoing it. 
+2846591,"Till how long India will be tolerating such acts? 
+This is Shri Ram Mandir, Canada. https://t.co/CThantLDeb",Pro Ruling,pro ruling,ram mandir,"['india', 'tolerating', 'canada']","[{'text': 'india', 'score': 0.6021}, {'text': 'tolerating', 'score': 0.3552}, {'text': 'canada', 'score': 0.2839}]",For ,shows that india should not be tolerant especially when it comes to something as big and important as shri ram's temple. 
+613475,"Close aide of Rahul Gandhi, Saket Gokhale has gone to Supreme Court to stop Ram Janam Bhoomi Shilanyas. #CongressAgainstRamMandir https://t.co/juFIHYMm3T",Pro Ruling,pro ruling,ram mandir,"['gokhale', 'court', 'congress']","[{'text': 'gokhale', 'score': 0.5819}, {'text': 'court', 'score': 0.2892}, {'text': 'congress', 'score': 0.236}]",Neutral ,"no stance taken, only news delivered "
+1271415,Senior BJP Ledear &amp; Former UP CM #KalyanSingh Passed Away. Hindus Will Remain Indebted To Him Towards His Contribution For Ram Mandir For Which He Sacrifices His Chair. https://t.co/dVZQdo8kJe,Pro Ruling,pro ruling,ram mandir,"['hindus', 'indebted', 'chair']","[{'text': 'hindus', 'score': 0.5967}, {'text': 'indebted', 'score': 0.3433}, {'text': 'chair', 'score': 0.1303}]",For ,shows how much hindus value ram mandir. 
+417320,"Throughout these years, there have been several leaders in the opposition who have been quite vocal in displaying their contempt against the #RamMandir. Let's take a look:
+
+#CongressAgainstRamMandir #CongressMuktBharat https://t.co/suZvJZvMmC",Pro Ruling,pro ruling,ram mandir,"['opposition', 'congress', 'ram']","[{'text': 'opposition', 'score': 0.4709}, {'text': 'congress', 'score': 0.3945}, {'text': 'ram', 'score': 0.3452}]",For ,hashtag suggests how india would do better if congress didn’t exist. 
+381949,"Congress was Nvr or is against building any Mandir or Masjid!
+
+@INCIndia condemned demolishing Masjid to build Ram Mandir. 
+
+As per SC verdict both Masjid &amp; Mandir allocated places.
+
+BJP don’t have patent for Ram, Ram sabka hai Sab ne hai! 
+
+We’ll support both Mandir &amp; Mashid !",Pro OPP,pro opposition,ram mandir,"['masjid', 'congress', 'demolishing']","[{'text': 'masjid', 'score': 0.4064}, {'text': 'congress', 'score': 0.3625}, {'text': 'demolishing', 'score': 0.2629}]",For ,shows that both mandir and masjid can coexist. 
+353160,"Senior party leader #JitinPrasada (@JitinPrasada) said that ""The #Congress party has already welcomed the construction of the #RamTemple. It is a matter of faith for every Hindu and also personally for me. I am happy that the #RamMandir is being constructed.""
+
+#RamMandirAyodhya https://t.co/7Jwv9jsVQ4",Pro OPP,pro opposition,ram mandir,"['hindu', 'congress', 'senior']","[{'text': 'hindu', 'score': 0.5685}, {'text': 'congress', 'score': 0.3574}, {'text': 'senior', 'score': 0.1714}]",For ,expresses pride in ram mandir.
+127770,"Ma Durga is the basis of Bharat Mata and Bhavani Bharati, the inspiration of India's Independence Movement. As the Ram Mandir is being built, we should remember Ma Durga as the supreme Shakti behind all dharmic transformations.",Pro Ruling,pro ruling,ram mandir,"['india', 'independence', 'remember']","[{'text': 'india', 'score': 0.5127}, {'text': 'independence', 'score': 0.1918}, {'text': 'remember', 'score': 0.1675}]",For ,expresses pride in ram mandir.
+1381555,"Is this true @ArvindKejriwal is building ₹100 crore worth Haj House? 
+
+While he advocated for School and Hospital in place of Ram Mandir. 
+
+Let’s protest against Lavnasur and force him to make Hospital in place of Haj House. 😡😡
+
+#HospitalNotHajHouse",Pro Ruling,pro ruling,ram mandir,"['house', 'worth', 'protest']","[{'text': 'house', 'score': 0.3878}, {'text': 'worth', 'score': 0.2316}, {'text': 'protest', 'score': 0.1794}]",For ,shows kejriwal's dirty politics. 
+322664,"PM @narendramodi performs #BhoomiPoojan along with UP Governor Anandiben Patel, RSS Chief Mohan Bhagwat for Ram Temple at #Ayodhya
+#RamMandir #AyodhyaBhoomipoojan https://t.co/MTOFxUbEKP",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'performs', 'governor']","[{'text': 'narendramodi', 'score': 0.5947}, {'text': 'performs', 'score': 0.4334}, {'text': 'governor', 'score': 0.2247}]",Neutral ,"no stance taken, only news delivered "
+2762969,"5th Aug 2023 !!
+
+Uniform Civil Code India loading....
+
+Each passing day is hinting towards it. PM @narendramodi today mentioned it in Bhopal event.
+
+Article 370, Ram Mandir and now UCC; Home Minister @AmitShah will complete his term as HM in  Style.",Pro Ruling,pro ruling,ram mandir,"['india', 'code', 'uniform']","[{'text': 'india', 'score': 0.51}, {'text': 'code', 'score': 0.3552}, {'text': 'uniform', 'score': 0.3459}]",For ,expresses pride in ram mandir.
+257596,"With #COVID19 raging through the @BJP4India rank &amp; file, it’s no shining moment for @PMOIndia @HMOIndia as they seek celestial glory through #RamMandir but then they’re all about optics 🙄 https://t.co/tEQnsyV6v2",Pro OPP,pro opposition,ram mandir,"['bjp4india', 'optics', 'raging']","[{'text': 'bjp4india', 'score': 0.494}, {'text': 'optics', 'score': 0.4723}, {'text': 'raging', 'score': 0.254}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+441046,"Ram Mandir in Ayodhya will represent India as strong, peaceful, inclusive, says Shri LK Advani: https://t.co/nDOglnDa4e",Pro Ruling,pro ruling,ram mandir,"['ayodhya', 'india', 'represent']","[{'text': 'ayodhya', 'score': 0.6052}, {'text': 'india', 'score': 0.5021}, {'text': 'represent', 'score': 0.2469}]",For ,expresses pride in ram mandir.
+1703227,"Karnataka PFI leader warns Muslims against donating to Ram Mandir, case registered for hate speech: Read what he said
+
+https://t.co/iPCJWdf2cr",Pro Ruling,pro ruling,ram mandir,"['muslims', 'warns', 'donating']","[{'text': 'muslims', 'score': 0.571}, {'text': 'warns', 'score': 0.2683}, {'text': 'donating', 'score': 0.2238}]",Neutral ,"no stance taken, only news delivered "
+1926840,"For Modi Bhakts,  Judge JB Pardiwala 's statement on Nupur Sharma is not acceptable because he is the son of a former Congress MLA.
+
+Modi Bhakts forgot that CJI Ranjan Gogoi who gave Ram Mandir verdict is the son of Ex Congress CM Keshab Chandra Gogoi
+
+#NupurSharma
+#JBPardiwala https://t.co/onUcvfkQ85",Pro OPP,pro opposition,ram mandir,"['mandir', 'judge', 'congress']","[{'text': 'mandir', 'score': 0.4265}, {'text': 'judge', 'score': 0.3993}, {'text': 'congress', 'score': 0.322}]",Neutral ,no stance taken on ram mandir. 
+659465,"Why religion is important?
+
+I see someone who are supposedly atheist taking potshots at Hinduism, Ram Mandir etc. They don't realize that Hinduism plays a big role in giving them the freedom to abuse it without a violent repercussion. And institutions such as the Ram Mandir are+",Pro Ruling,pro ruling,ram mandir,"['hinduism', 'atheist', 'repercussion']","[{'text': 'hinduism', 'score': 0.4587}, {'text': 'atheist', 'score': 0.3521}, {'text': 'repercussion', 'score': 0.1423}]",For ,expresses pride in ram mandir.
+2843153,"Dynasty slaves who are asking why is @narendramodi launching and taking credit for #VandeBharatExpress #NewParliament #RamMandir and a whole lot of other completed projects should ask themselves, why didn’t @INCIndia do any of this in the 10 years they were in power between… https://t.co/LCLfnyE5aD",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'slaves', 'credit']","[{'text': 'narendramodi', 'score': 0.4626}, {'text': 'slaves', 'score': 0.3001}, {'text': 'credit', 'score': 0.1617}]",For ,"calls critics of ram mandir and modi ""dynasty slaves"". "
+176582,"When ""M"" population touches 40% in any constituency, it becomes impossible for BJP to win it
+
+But liberals never utter a word against it
+
+When bunch of Hindus say that they will vote for BJP bcoz of Ram Mandir, CAA
+
+Liberals will bark 
+“Hindus are communal""
+
+Undeniable truth!",Pro Ruling,pro ruling,ram mandir,"['hindus', 'liberals', 'undeniable']","[{'text': 'hindus', 'score': 0.5336}, {'text': 'liberals', 'score': 0.3871}, {'text': 'undeniable', 'score': 0.1559}]",For ,shows hypocricy against Hindus. 
+2216196,"Diwali par woh ek pooja ki pic laga dein aap khush ho jaate ho. That's photo-op. 
+
+But Ram Mandir Jab Jihadi Babar ki encroachment se reclaim hota hai. Sab chup rahte hain. 
+
+Their silence on #TheKashmirFiles, #RamMandir is their ideology. Rest is optics!",Pro Ruling,pro ruling,ram mandir,"['kashmir', 'silence', 'optics']","[{'text': 'kashmir', 'score': 0.5928}, {'text': 'silence', 'score': 0.217}, {'text': 'optics', 'score': 0.2023}]",For ,expresses pride in ram mandir.
+758678,"Coward BJP gave the below to India in last 7 years. 
+- Surgical Strike 
+- Air Strike
+- 370 
+- Triple Tallaq 
+- CAA
+- China was shown it's place
+- Ram Mandir 
+- Toilets
+- Housing
+- Infra 
+- Rafale
+- Border Roads 
+- Armed Forces empowered 
+- 40crore Bank Accounts.
+Etc, Etc, Etc",Pro Ruling,pro ruling,ram mandir,"['india', 'strike', 'coward']","[{'text': 'india', 'score': 0.6401}, {'text': 'strike', 'score': 0.3767}, {'text': 'coward', 'score': 0.2878}]",For ,subtly shows how modi delivered so much to india. 
+140881,"Folks, please forget rising Covid cases, China ‘transgressions’, falling growth rates, job crisis, rising inflation, floods and monsoon mayhem, even Ram Mandir: Rhea Chakraborty is appearing before Enforcement Directorate. All izz well! 🙏",Pro OPP,pro opposition,ram mandir,"['china', 'transgressions', 'inflation']","[{'text': 'china', 'score': 0.4045}, {'text': 'transgressions', 'score': 0.3146}, {'text': 'inflation', 'score': 0.2876}]",Neutral ,no stance taken on ram mandir. 
+380637,India needs a Ram Mandir 200 feet taller than the previous design! https://t.co/P8pna2lKTF,Pro OPP,pro opposition,ram mandir,"['ram', 'taller', 'india']","[{'text': 'ram', 'score': 0.4377}, {'text': 'taller', 'score': 0.4063}, {'text': 'india', 'score': 0.3856}]",Against ,critiques the optics and politics of ram mandir. 
+1849851,"Tika Lal Taploo: One of the first murders before the genocide Kashmiri Hindus in 1990, killed for sending bricks and funds for construction of Ram Mandir
+
+https://t.co/ej6z2SReIF",Pro Ruling,pro ruling,ram mandir,"['hindus', 'killed', 'taploo']","[{'text': 'hindus', 'score': 0.5886}, {'text': 'killed', 'score': 0.4432}, {'text': 'taploo', 'score': 0.2476}]",For ,shows how hindus received hate and death for supporting ram mandir. 
+649548,"You voted for 
+- Hindu Rashtra
+- Ram Mandir
+- NRC
+- 370 abrogation 
+- Muslim hate
+- Unrealistic dreamy promises 
+- Fake Nationalism 
+
+Govt has done or is doing all above, isn't it unfair to demand :- 
+- Hospitals
+- Governance
+- Employment
+- Prosperity
+- Happiness
+- Accountability",Pro OPP,pro opposition,ram mandir,"['voted', 'muslim', 'unrealistic']","[{'text': 'voted', 'score': 0.5246}, {'text': 'muslim', 'score': 0.378}, {'text': 'unrealistic', 'score': 0.2129}]",Against ,mocks modi and ram mandir. 
+779522,"Nirmohi Akhara, a party in the Ram Mandir dispute, has accused the Vishva Hindu Parishad (VHP) of embezzling Rs 1,400 crore in the name of the Ayodhya temple.
+
+So they are not even sparing Lord Ram , pathetic!!
+
+#RamMandirScam",Pro OPP,pro opposition,ram mandir,"['hindu', 'embezzling', '400']","[{'text': 'hindu', 'score': 0.5176}, {'text': 'embezzling', 'score': 0.3662}, {'text': '400', 'score': 0.1421}]",Against ,calls ram mandir a scam. 
+2619560,"Happy 42 @BJP4India !
+
+Thank You For Vajpayee Ji &amp; Modi Ji.
+
+Thank You For Pokhran; Abrogation Of Article 370 From Jammu and Kashmir &amp; Prabhu Shree Ram Mandir. 
+
+🙏🇮🇳 https://t.co/CtcrOyJvpM",Pro Ruling,pro ruling,ram mandir,"['bjp4india', 'kashmir', 'happy']","[{'text': 'bjp4india', 'score': 0.5506}, {'text': 'kashmir', 'score': 0.533}, {'text': 'happy', 'score': 0.3813}]",For ,thanks modi for ram mandir. 
+50031,"People of Indian heritage raise saffron flags, celebrate Ayodhya's Bhoomi Pujan in Washington #ThankYouModiForRamMandir https://t.co/Tr1bPADHHY",Pro Ruling,pro ruling,ram mandir,"['flags', 'indian', 'raise']","[{'text': 'flags', 'score': 0.5565}, {'text': 'indian', 'score': 0.4255}, {'text': 'raise', 'score': 0.1799}]",For ,thanks modi for ram mandir. 
+442339,"Modi's Ram Mandir drama divides Hindus. On a day when Ram Mandir construction begins, Tamilians on Twitter praise Ravana! #TamilsarenotHindus  https://t.co/5zw35o1QlE",Pro OPP,pro opposition,ram mandir,"['hindus', 'not', 'divides']","[{'text': 'hindus', 'score': 0.7317}, {'text': 'not', 'score': 0.1986}, {'text': 'divides', 'score': 0.1748}]",Against,claims that ram mandir divides hindus. 
+690159,"By July 1, in the second phase of Unlock India, the infected number crossed 600,000 with 18,000 deaths. 
+
+Ground-breaking ceremonies for the BJP’s Ram Mandir project in Ayodhya took place the following month. 
+
+https://t.co/YVgnNhq7FT",Pro OPP,pro opposition,ram mandir,"['india', 'deaths', 'unlock']","[{'text': 'india', 'score': 0.4607}, {'text': 'deaths', 'score': 0.436}, {'text': 'unlock', 'score': 0.1801}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+1806469,"I have been saying same, Shivsena was never a Hindu party, they turned Hindu only in 1989 to capitalise on BJP/VHP's Ram Mandir movement, Shivsainiks never went to Ayodhya, only successfully fooled Hindus via fiery speeches.
+Eventually for Hindus,
+Joh dikhta hain woh bikta hain🤷🏻‍♂️ https://t.co/t1I2AVj2BH",Pro Ruling,pro ruling,ram mandir,"['hindus', 'never', 'capitalise']","[{'text': 'hindus', 'score': 0.5815}, {'text': 'never', 'score': 0.1306}, {'text': 'capitalise', 'score': 0.0567}]",For ,"shows how parties that are never even a hindu party, hop onto the bandwagon to fool hindus. "
+672291,"Bhakts have started trending this 👇
+#RamMandirRashtraMandir
+
+To divert attention from :
+- Farmers protest
+- Badaun Rape &amp; murder
+- M.P. mosque demolition
+- Death of tribals because untested Corona vaccine; lab rats..
+- China 🇨🇳 further encroachment 
+- Declined Modi fake image",Pro OPP,pro opposition,ram mandir,"['bhakts', 'protest', 'china']","[{'text': 'bhakts', 'score': 0.4864}, {'text': 'protest', 'score': 0.4}, {'text': 'china', 'score': 0.3446}]",Against ,show how ram mandir is diverting attention from the actual problems of india. 
+176939,"The #RamMandir trust said that the situation at the India-China border is serious and defending the country is most important https://t.co/IDSMtlJyHt 
+
+#IndiaChinaFaceOff",Pro OPP,pro opposition,ram mandir,"['china', 'india', 'defending']","[{'text': 'china', 'score': 0.5776}, {'text': 'india', 'score': 0.4128}, {'text': 'defending', 'score': 0.2092}]",Neutral ,no stance taken on ram mandir. 
+117434,"Ram Mandir is been made around the time when Indian education and health need massive investment.
+It's all about the choices we make.. https://t.co/0uHqVLMin2",Pro OPP,pro opposition,ram mandir,"['indian', 'investment', 'health']","[{'text': 'indian', 'score': 0.5151}, {'text': 'investment', 'score': 0.274}, {'text': 'health', 'score': 0.2296}]",Against ,shows how government would rather invest in ram mandir than in education and health. 
+332072,Ram Janmabhoomi trust head Nritya Gopal Das tests positive for #coronavirus. He was on stage with Modi for Ram Mandir groundbreaking ceremony.,Pro OPP,pro opposition,ram mandir,"['coronavirus', 'tests', 'janmabhoomi']","[{'text': 'coronavirus', 'score': 0.5346}, {'text': 'tests', 'score': 0.3944}, {'text': 'janmabhoomi', 'score': 0.2556}]",Against ,shows how covid19 was ignored for ram mandir inaugration. 
+81839,"So we are supposed to believe get that Hindutva - which won over 300 seats, got Ram Mandir, removed Article 370, got CAA, made Pragya MP, Modi PM, Yogi CM, Shah HM - is somehow waiting for Owaisi to win few more MLAs to fulfill its vision? Reality check anyone?",Pro OPP,pro opposition,ram mandir,"['hindutva', 'won', 'waiting']","[{'text': 'hindutva', 'score': 0.5006}, {'text': 'won', 'score': 0.2891}, {'text': 'waiting', 'score': 0.2772}]",Against ,"shows the dirty politics bjp is playing, including ram mandir. "
+77441,#BhumiPujan for Ayodhya #RamMandir no doubt fulfilled aspirations of millions of Hindus. But #PMModi's comparison of the Ram temple project with the task of #nationbuilding in a #FreeIndia was irksome https://t.co/jW67V5Rzh2,Pro OPP,pro opposition,ram mandir,"['hindus', 'aspirations', 'free']","[{'text': 'hindus', 'score': 0.6347}, {'text': 'aspirations', 'score': 0.2845}, {'text': 'free', 'score': 0.0844}]",Against ,shows how modi equates ram mandir with nation building. 
+21743,Why Mahatma Gandhi would have almost certainly stayed away from a power packed Ram Mandir ceremony in Ayodhya but been in conflicted Kashmir or flood hit Assam or amongst migrants instead! @sagarikaghose Sunday column is an imaginary letter to Bapu! https://t.co/DoA5d5o8qD,Pro OPP,pro opposition,ram mandir,"['kashmir', 'stayed', 'column']","[{'text': 'kashmir', 'score': 0.4804}, {'text': 'stayed', 'score': 0.2092}, {'text': 'column', 'score': 0.049}]",Against ,shows how Gandhi would not have supported ram mandir. 
+750539,Delimitation &amp; Hindu CM is the plan rest all is theater.Enjoy the show one should be politically naive to think that the Duo who gave next to impossible 370 &amp; Ram Mandir in the 1st year of 2nd term will stop after that. Many more surprises will be unveiled before the summer 2024.,Pro Ruling,pro ruling,ram mandir,"['theater', 'hindu', '2024']","[{'text': 'theater', 'score': 0.4323}, {'text': 'hindu', 'score': 0.3946}, {'text': '2024', 'score': 0.3184}]",For ,"expressed pride in modi and ram mandir, calls it impossible. "
+689059,"In the #MoodOfTheNation poll, the Modi govt’s biggest achievement is seen as Ram Mandir/article 370;  biggest failing is seen as unemployment and price rise. Net net: govt scores on its Hindutva ideological agenda, loses out on bread and butter issues. https://t.co/kjQ4BrCoJa",Pro OPP,pro opposition,ram mandir,"['govt', 'scores', 'hindutva']","[{'text': 'govt', 'score': 0.4515}, {'text': 'scores', 'score': 0.3799}, {'text': 'hindutva', 'score': 0.3605}]",Against ,shows how government focuses on hindutva ideological agenda through ram mandir but does not focus on basic stuff like education and health. 
+2774776,"As our 500 year old dream of bhavya &amp; divya Ram Mandir is coming true, I recall the wonderful days of Ram Mandir Nidhi Samarpan, when we went from house to house to collect Nidhi; the emotions of people were overwhelming 
+
+Thanks @narendramodi ji for reviving our civilisation🙏🙏 https://t.co/LwPAlO3KYq https://t.co/Z4UIrMwSMY",Pro Ruling,pro ruling,ram mandir,"['narendramodi', 'emotions', 'reviving']","[{'text': 'narendramodi', 'score': 0.6804}, {'text': 'emotions', 'score': 0.4018}, {'text': 'reviving', 'score': 0.3287}]",For ,thanks modi for ram mandir. 
+799376,"Sanitation workers in UP's Shahjahanpur held protest alleging that they were ""forced"" to pay for construction of Ram Mandir in Ayodhya, reports @KanwardeepsTOI https://t.co/R59eIog9YS",Pro OPP,pro opposition,ram mandir,"['workers', 'protest', 'ayodhya']","[{'text': 'workers', 'score': 0.4845}, {'text': 'protest', 'score': 0.3384}, {'text': 'ayodhya', 'score': 0.2129}]",Against ,shows the dirty politics behind ram mandir and its hypocricy. 
+1071779,Nothing wrong if Priyanka Gandhi  begins her speech with a shlok or if Kejriwal does Hanuman Chalisa. But then people shouldn't object to use of Allahu Akbar either. Also support for Ram Mandir is different from general Hindu religiosity as it is a reminder of an act of injustice,Pro OPP,pro opposition,ram mandir,"['hindu', 'general', 'nothing']","[{'text': 'hindu', 'score': 0.5246}, {'text': 'general', 'score': 0.1344}, {'text': 'nothing', 'score': 0.054}]",Against,calls ram mandir an act of injustice 
+345585,"Fundraising Campaign For Bhavya Ram Mandir To Start From 14 January As Trust Plans To Reach 55 Crore Hindus
+
+https://t.co/I1oTA2NzMu",Pro Ruling,pro ruling,ram mandir,"['fundraising', 'hindus', 'start']","[{'text': 'fundraising', 'score': 0.4667}, {'text': 'hindus', 'score': 0.4002}, {'text': 'start', 'score': 0.2881}]",For ,shows how ram mandir would read 55 crore hindus. 
+290810,"Did Congress play a Me too card on Ram Mandir? @shashitharoor has this to say on Hinduism Vs Hindutva. But he also has a view on PM @NarendraModi beard for the big moment. ""He wanted to appear a Rishi Raj, to say I am sage, I am warrior""- Full intvw coming to @themojo_in https://t.co/75zPTWDe9h",Pro OPP,pro opposition,ram mandir,"['hindutva', 'beard', 'card']","[{'text': 'hindutva', 'score': 0.5967}, {'text': 'beard', 'score': 0.2319}, {'text': 'card', 'score': 0.2012}]",Against,shows dirty politics around ram mandir. 
+791870,"I asked him kyun? He said, ""mein tho kah raha hoon kya hasil hua Ram mandir babari karke wahan Oxygen mil raha hai kya? kuch nahi sahab ham mein na hindu hu na muslim jo hospital dega bas usko hi vote aur kisi ko nahi'",Pro OPP,pro opposition,ram mandir,"['kya', 'hindu', 'oxygen']","[{'text': 'kya', 'score': 0.5066}, {'text': 'hindu', 'score': 0.4043}, {'text': 'oxygen', 'score': 0.1424}]",Against ,shows how public health during a pandemic is being neglected for ram mandir. 
+2042957,@UnSubtleDesi It’s post Ram Mandir Hindu #NewHinduAssertiveHindu,Pro Ruling,pro ruling,ram mandir,"['hindu', 'assertive', 'new']","[{'text': 'hindu', 'score': 0.8013}, {'text': 'assertive', 'score': 0.3434}, {'text': 'new', 'score': 0.2934}]",For ,"shows how post ram mandir, hindus will learn to be more assertive. "
+707530,"Jharkhand: 7 leaders of NSUI, student wing of Congress, were expelled for 3 years for posting ‘Jai Shri Ram’ on the party’s official WhatsApp group.
+
+NSUI said it's anti-party activity.
+
+If so, then why NSUI launched fund-raising drive in Rajasthan for Ram Mandir in Ayodhya?",Pro Ruling,pro ruling,ram mandir,"['jharkhand', 'expelled', 'congress']","[{'text': 'jharkhand', 'score': 0.4144}, {'text': 'expelled', 'score': 0.2972}, {'text': 'congress', 'score': 0.2677}]",For ,shows hypocric of ram mandir critics. 
+22847,"‘Today is real acche din because even the Cong wants a Ram Mandir now’ @sambitswaraj  ‘Ram belongs to all..’ @SupriyaShrinate ‘build an India based on ideals of Ram, not Nathuram..’ @SudheenKulkarni..  https://t.co/EOqPCzTm4H @IndiaToday #RamMandirDebate",Pro OPP,pro opposition,ram mandir,"['ram', 'indiatoday', 'real']","[{'text': 'ram', 'score': 0.5664}, {'text': 'indiatoday', 'score': 0.5225}, {'text': 'real', 'score': 0.2353}]",For ,shows how everyone supports ram mandir. 
+439770,"Chalo ji... Ram Mandir bhi aa gaya farmers protest mein.
+
+Ab bas dawood aur Al qaida bhi le aayen toh baat khatam ho https://t.co/lQLjwBXxNa",Pro OPP,pro opposition,ram mandir,"['mandir', 'protest', 'farmers']","[{'text': 'mandir', 'score': 0.5093}, {'text': 'protest', 'score': 0.4651}, {'text': 'farmers', 'score': 0.4478}]",Against ,mocks modi and his politics on ram mandir. 
+1934377,"Look at the names of candidates released by Congress &amp; Samajwadi party for UP elections
+
+Read their names &amp; their past deeds
+
+If these win, don't be surprised if Ram Mandir construction gets delayed!",Pro Ruling,pro ruling,ram mandir,"['elections', 'ram', 'delayed']","[{'text': 'elections', 'score': 0.584}, {'text': 'ram', 'score': 0.3217}, {'text': 'delayed', 'score': 0.3082}]",For ,expresses concern for ram mandir. 
+428723,"""From its inception, the RSS's goal has been to create a Hindu India moulded to fit their image of a Hindu Rashtra. 
+
+This project cannot be completed without trampling on the rights of the people.""
+
+#RamMandir 
+
+https://t.co/tJtIooH5ef",Pro OPP,pro opposition,ram mandir,"['hindu', 'rights', 'goal']","[{'text': 'hindu', 'score': 0.6495}, {'text': 'rights', 'score': 0.2869}, {'text': 'goal', 'score': 0.2647}]",Against ,shows how ram mandir and hindutva wishes to trample on the rights of people. 
+2762226,"Saket Gokhale admits that Rahul Gandhi's Secretary Alankar Sawai paid him 23 lakhs cash for Social Media work.
+
+Do you know what work Gokhale was doing?
+
+- Gokhale filed PIL in SC to stop Ram Mandir Shilanyas
+- Gokhale spread fake news on PM Cares, BEL
+- Lied about Hardeep Puri https://t.co/qFhcUFLL5A",Pro Ruling,pro ruling,ram mandir,"['gokhale', 'paid', 'media']","[{'text': 'gokhale', 'score': 0.5001}, {'text': 'paid', 'score': 0.3354}, {'text': 'media', 'score': 0.2291}]",For ,shows dirty politics of critics of ram mandir. 
+66635,"Yesterday when Hindus held a rally in Ujjain to collect funds for Ram Mandir construction,
+
+Peaceful community pelted stones at them!
+
+And now the houses of those stone pelters are demolished!
+
+We need such actions in Ram Rajya🔥 https://t.co/E5SSfbXYiJ",Pro Ruling,pro ruling,ram mandir,"['hindus', 'rally', 'demolished']","[{'text': 'hindus', 'score': 0.572}, {'text': 'rally', 'score': 0.4095}, {'text': 'demolished', 'score': 0.3327}]",For ,shows how peaceful hindus are attacked. 
+1247108,"Bhakton ke Demonetisation mein bhi paise phanse, GST mein bhi paise lage, Pandemic mein bhi dhandhe ka nuksaan hua, PM Cares mein donation bhi dena pada... Ram Mandir ka chanda bhi diye jaa rahe hai bechaare.
+
+Aur social media pe cheekh ya ro bhi nahin sakte, bole to kisko! 😛",Pro OPP,pro opposition,ram mandir,"['mein', 'donation', 'pandemic']","[{'text': 'mein', 'score': 0.4917}, {'text': 'donation', 'score': 0.2546}, {'text': 'pandemic', 'score': 0.0799}]",Against ,shows how government is looting the people. 
+8714,"AIMPLB hardly cares about SC's judgement on Ram Mandir
+
+These people believe only in Sharia. That's why they're giving examples of Hagia Sophia which was converted into mosque
+
+Threat of ""situations don't last forever"" by AIMPLB proves how much we need Uniform Civil Code in India",Pro Ruling,pro ruling,ram mandir,"['sharia', 'india', 'threat']","[{'text': 'sharia', 'score': 0.6125}, {'text': 'india', 'score': 0.2984}, {'text': 'threat', 'score': 0.1948}]",For ,shows dirty politics of critics of ram mandir. 
+618328,"Will be live on India News @ 2.30 PM
+ to 3.30 PM...Shri Ram Mandir..",Pro Ruling,pro ruling,ram mandir,"['india', 'live', 'ram']","[{'text': 'india', 'score': 0.4651}, {'text': 'live', 'score': 0.3672}, {'text': 'ram', 'score': 0.3406}]",For ,expresses pride and respect for ram mandir. 
+373191,"PM Modi was personally monitoring:
+
+📸1️⃣ECONOMY : Economy sunk
+
+📸2️⃣CORONA: India is infected with 16Lacs Cases
+
+📸3️⃣RAM MANDIR: priest and security personal infected with Corona
+
+📸4️⃣RAFAEL: He chose to buy 36 scrapping a deal of 126. #TheRafaleFacts
+
+PANAUTI KAHIN KA!!! https://t.co/26l7G18Tpr",Pro OPP,pro opposition,ram mandir,"['india', 'infected', 'scrapping']","[{'text': 'india', 'score': 0.5423}, {'text': 'infected', 'score': 0.3434}, {'text': 'scrapping', 'score': 0.1108}]",Against ,mocks modi and ram mandir. 
+22851,Tonight: 9 pm: the big Ram Mandir debate: does Ram politics divide or unite? @OfficeOfKNath @asadowaisi @sambitswaraj @SupriyaShrinate @SudheenKulkarni join the debate.. @IndiaToday https://t.co/goqIwCbSi4,Pro OPP,pro opposition,ram mandir,"['ram', 'indiatoday', 'politics']","[{'text': 'ram', 'score': 0.5056}, {'text': 'indiatoday', 'score': 0.3958}, {'text': 'politics', 'score': 0.3642}]",Neutral ,"no stance taken, only news delivered "
+287601,"‘BJP does not have  a patent on Ram.. BJP has used Ram Mandir for votes, it was Rajiv Gandhi who opened the lock to the site.’ @OfficeOfKNath tells me.. https://t.co/RJ6sspBWnG @IndiaToday",Pro OPP,pro opposition,ram mandir,"['ram', 'indiatoday', 'patent']","[{'text': 'ram', 'score': 0.4983}, {'text': 'indiatoday', 'score': 0.3632}, {'text': 'patent', 'score': 0.3406}]",Against ,shows how bjp is creating a patent on Lord ram and religion. 
+195412,"The way all of India's political parties celebrating Modi's #RamMandirAyodhya at the place of illegally demolished Babri Mosque, time to ask a simple question!
+Is there any political party left in India Muslims can trust?",Pro OPP,pro opposition,ram mandir,"['muslims', 'party', 'trust']","[{'text': 'muslims', 'score': 0.5133}, {'text': 'party', 'score': 0.4064}, {'text': 'trust', 'score': 0.2743}]",Against ,condemns political parties for celebrating ram mandir at the place of an illegally demolished mosque. 
+462553,"After Begumbagh stone pelting, Hindu rally in Indore that was collecting donations for Ram Mandir attacked in front of a mosque  https://t.co/mAmr1Cirdx",Pro Ruling,pro ruling,ram mandir,"['hindu', 'rally', 'attacked']","[{'text': 'hindu', 'score': 0.5856}, {'text': 'rally', 'score': 0.548}, {'text': 'attacked', 'score': 0.3652}]",For ,shows how hindus are being attacked. 
+878725,So @PTI_News ran a fake tweet saying  NSUI collecting funds for Ram Mandir where as NSUI was running a protest against RSS-BJP illegal and unaccounted fund collection https://t.co/pvXfUQa4Mo,Pro OPP,pro opposition,ram mandir,"['pti_news', 'protest', 'funds']","[{'text': 'pti_news', 'score': 0.4193}, {'text': 'protest', 'score': 0.3268}, {'text': 'funds', 'score': 0.3092}]",Neutral ,no stance taken on ram mandir. 
+2896467,"Acharya Satyendra Das, the chief priest of the Ram Mandir in Ayodhya, has extended his solidarity to the #BharatJodoYatra by Rahul Gandhi. Will they call him anti-Hindu and anti-national?",Pro OPP,pro opposition,ram mandir,"['hindu', 'chief', 'solidarity']","[{'text': 'hindu', 'score': 0.6795}, {'text': 'chief', 'score': 0.2964}, {'text': 'solidarity', 'score': 0.2461}]",Neutral ,no stance taken on ram mandir. 
+225728,"Finally architects to present #RamMandir 's layout plan, design to be largely same as per VHP with some tweaks which consists of parking, amenities for pilgrims, gaushala &amp; resting places
+Will approach PM @narendramodi for Bhoomi poojan and plan to complete by RamNavami 2022. 🚩 https://t.co/47cFyO8T7X",Pro Ruling,pro ruling,ram mandir,"['design', 'narendramodi', 'parking']","[{'text': 'design', 'score': 0.5472}, {'text': 'narendramodi', 'score': 0.4603}, {'text': 'parking', 'score': 0.2169}]",For ,shows intricately detailed ram mandir. 
+2483837,"CSIR is funded by taxpayers money.
+Over 80% taxpayers are Hindus.
+
+I’m happy that my tax is used here.
+
+If the taxpayers money can be used for Haj Houses, Haj subsidies, Madrasa etc, why can’t a research be done out of it?
+
+Remember: Ram Mandir is built by the donations of Hindus https://t.co/sRjWhubFis",Pro Ruling,pro ruling,ram mandir,"['hindus', 'taxpayers', 'if']","[{'text': 'hindus', 'score': 0.4848}, {'text': 'taxpayers', 'score': 0.4484}, {'text': 'if', 'score': 0.0234}]",For ,positive attitude. 
+1835428,"16MAY 14: Bharat GETS PM Modi Ji.
+
+2014-22:
+Rammandir✅
+Sheetal Nath temple(Kashmir)✅
+Kedarnath Temple Revamp✅
+Kashi Vishwanath Corridor✅
+Char Dham Project✅
+
+TODAY,16MAY 22: भोले बाबा मिल गए at Gyanvapi Masjid!
+
+All""GOT DONE""USING Judiciary.
+
+Modi has done Nothing for Hindus!",Pro Ruling,pro ruling,ram mandir,"['hindus', 'judiciary', 'nothing']","[{'text': 'hindus', 'score': 0.595}, {'text': 'judiciary', 'score': 0.2835}, {'text': 'nothing', 'score': 0.2006}]",For ,shows how modi delivers on every promise. 

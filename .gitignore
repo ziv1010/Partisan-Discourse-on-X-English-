@@ -1,0 +1,66 @@
+# =====================================================
+# Large Data Files (Git has 100MB file size limit)
+# =====================================================
+
+# Large CSV files in final_data
+final_data/tweets_exploded_by_keyword.csv
+
+# Large CSV files in cleaning_and_formatting
+codes/1_cleaning_and_formatting/input data/retweet_data_combined_labeled_by_retweet.csv
+codes/1_cleaning_and_formatting/input data/retweet_data_combined.csv
+codes/1_cleaning_and_formatting/output/tweets_with_labels.csv
+
+# Large CSV files in Keyword_Extraction
+codes/2_Keyword_Extraction/output/tweets_exploded_by_keyword.csv
+codes/2_Keyword_Extraction/output/tweets_with_labels_en_1_with_subjects.csv
+codes/2_Keyword_Extraction/output/tweets_with_subjects.csv
+codes/2_Keyword_Extraction/output/final_tweets_eng_deduplicated_by_author.csv
+
+# =====================================================
+# General Large File Patterns
+# =====================================================
+
+# Any CSV files larger than typical (uncomment if needed)
+# *.csv
+
+# Large data files
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.ipynb_checkpoints/
+*.egg-info/
+.eggs/
+*.egg
+venv/
+env/
+.env
+.venv
+
+# =====================================================
+# IDE / Editor
+# =====================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# =====================================================
+# Logs and temp files
+# =====================================================
+*.log
+*.tmp
+*.temp

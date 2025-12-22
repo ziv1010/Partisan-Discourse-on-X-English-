@@ -1,0 +1,565 @@
+source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,stance,stance_reason 
+1193688,"TMC is angry because Calcutta High Court ordered CBI probe into violence in Bengal.
+
+TMC says it is transgression of states' rights.
+
+Remember the same Mamata Banerjee had asked United Nations to interfere in India and do referendum on CAA/NRC.",Pro Ruling,pro ruling,caa,"['tmc', 'india', 'referendum']","[{'text': 'tmc', 'score': 0.4602}, {'text': 'india', 'score': 0.376}, {'text': 'referendum', 'score': 0.1884}]",For ,suggests that CAA was not in fact a transgression of states rights. 
+2356810,Portraits of resistance: A photo book recalls the courage of the CAA-NRC protests  https://t.co/t8VwdoV5eh via @scroll_in,Pro OPP,pro opposition,caa,"['protests', 'caa', 'scroll_in']","[{'text': 'protests', 'score': 0.6466}, {'text': 'caa', 'score': 0.3511}, {'text': 'scroll_in', 'score': 0.277}]",Against ,"""courage of CAA protests"""
+2488904,"India-Africa Defence Dialogue to be held on October 18 on the sidelines of #DefExpo2022 in Gandhinagar, Gujarat,
+
+Theme: ‘India-Africa: Adopting Strategy for Synergising and Strengthening Defence and Security Cooperation.
+
+Read: https://t.co/lohfjWx4eM
+
+@DefenceMinIndia",Pro Ruling,pro ruling,caa,"['defenceminindia', 'dialogue', 'defexpo2022']","[{'text': 'defenceminindia', 'score': 0.6152}, {'text': 'dialogue', 'score': 0.4891}, {'text': 'defexpo2022', 'score': 0.2053}]",Neutral ,no stance on CAA being taken. 
+72356,"With the State unleashing unprecedented brutality on anti-#CAA protesters, #IndianMuslims are staring at desperate times https://t.co/LkrrejTLFl",Pro OPP,pro opposition,caa,"['muslims', 'protesters', 'state']","[{'text': 'muslims', 'score': 0.5559}, {'text': 'protesters', 'score': 0.4045}, {'text': 'state', 'score': 0.1632}]",Against ,claims that state releasing unprecendented brutality on anti CAA protests 
+177531,"For those who have been eagerly waiting, please find the link below of the Special Talk on #IndiaSupportsCAA by Sh @blsanthosh Ji National General Secretary (Organisation) #BJP delivered @spmrfoundation... listen, assimilate, disseminate: 
+
+https://t.co/2OEaYGF8ZV",Pro Ruling,pro ruling,caa,"['india', 'waiting', 'spmrfoundation']","[{'text': 'india', 'score': 0.5068}, {'text': 'waiting', 'score': 0.3156}, {'text': 'spmrfoundation', 'score': 0.2725}]",For ,encouraging people to listen to the pro CAA speech and disseminate the information. 
+187856,"This from the anti CAA protest at august  kranti maidaan in December. ""Jo Hitler ki chaal chalega, woh Hitler ki maut marega"" https://t.co/I9HpYPQPkZ",Pro OPP,pro opposition,caa,"['protest', 'chaal', 'kranti']","[{'text': 'protest', 'score': 0.5711}, {'text': 'chaal', 'score': 0.4106}, {'text': 'kranti', 'score': 0.3314}]",Against ,suggests that CAA is a move akin to something Hitler would pull.
+403952,"It’s high noon &amp; the #SupremeCourt still didn’t wake up?
+#CAAProtests",Pro OPP,pro opposition,caa,"['protests', 'court', 'noon']","[{'text': 'protests', 'score': 0.4898}, {'text': 'court', 'score': 0.3791}, {'text': 'noon', 'score': 0.3549}]",Against ,showing how supreme court refuses to wake up and recognise the wrongness of CAA. 
+129405,"Anti-CAA protestors have been protesting for 2 months. There was no violence until each time the so-called ""pro-CAA"" groups showed up.
+
+Think.",Pro OPP,pro opposition,caa,"['protestors', 'caa', 'until']","[{'text': 'protestors', 'score': 0.52}, {'text': 'caa', 'score': 0.461}, {'text': 'until', 'score': 0.1801}]",Against ,suggests that violence is only being conducted by pro CAA groups. 
+3323,"It’s all about me, myself and I: Modi plays the victim when his politics spills blood https://t.co/rOAG4GP1MM earlier the opposition was anti Gujarat when they criticised Modi now post the religious filter CAA/NRC the world is against India.",Pro OPP,pro opposition,caa,"['opposition', 'india', 'blood']","[{'text': 'opposition', 'score': 0.4654}, {'text': 'india', 'score': 0.4204}, {'text': 'blood', 'score': 0.2601}]",Against ,claims that modi's politics like CAA only spill blood and turn the world against India. 
+341948,"On 25th Jan, Khalistani &amp; Pakistani groups had organised Anti CAA protest in Frankfurt
+
+I along with other nationalist Indians, punctured their protest, 2 hours in freezing cold, we hit them on counter
+
+A small clip where they shouted Terrorist, we responded with Pakistan
+Enjoy👍🏼 https://t.co/kB4uozkcml",Pro Ruling,pro ruling,caa,"['protest', 'pakistan', 'freezing']","[{'text': 'protest', 'score': 0.5739}, {'text': 'pakistan', 'score': 0.4915}, {'text': 'freezing', 'score': 0.2726}]",For ,shows that anti-CAA protests are a result of Khalistani and Pakistani actors. 
+317373,"An academic puts out facts about #CAA and demolishes fake narrative about CAA being anti Indian Muslim. Read on and share.
+https://t.co/2fF8WonLHp",Pro Ruling,pro ruling,caa,"['caa', 'muslim', 'demolishes']","[{'text': 'caa', 'score': 0.4873}, {'text': 'muslim', 'score': 0.4057}, {'text': 'demolishes', 'score': 0.0746}]",For ,claims that academia shows that CAA is not anti-muslim. 
+724978,"List of Anti-CAA Protestors still in prison. 17 people.
+
+Because who—including myself—remembers every day that many have been jailed for months now.
+
+Umar Khalid
+Sharjeel Imam
+Natasha Narwal
+Devangana Kalita
+Gulifsha Fatima
+Ishrat Jahan
+Khalid Saifi
+
+#AntiCAAProtestersKoRihaKaro",Pro OPP,pro opposition,caa,"['protestors', 'caa', 'prison']","[{'text': 'protestors', 'score': 0.5864}, {'text': 'caa', 'score': 0.4277}, {'text': 'prison', 'score': 0.4115}]",Against ,hashtag calls for the release of anti-caa protesters. 
+312283,"#DontProvokeMuslims | What we are seeing now is the govt's apathy towards the minorities, why are so many people out on the roads protesting? CAA is a black law: Waris Pathan- National Spokesperson, AIMIM
+https://t.co/RZHKU3wOei",Pro Ruling,pro ruling,caa,"['protesting', 'muslims', 'roads']","[{'text': 'protesting', 'score': 0.4683}, {'text': 'muslims', 'score': 0.4385}, {'text': 'roads', 'score': 0.333}]",Against ,"calls CAA a ""black law"" and apathy towards muslims. "
+1543350,"Never forget #Modi has killed people just for chest-thumping and his image glorification:-
+
+- Demonetization
+- Idiotic unplanned Lockdown 
+- Pulwama 
+- Galwan 
+- CAA NRC
+- 370 
+- #COVID19India -&gt;Diya, Thali &amp; data fudging 
+- Kumbh
+- Election rallies
+- Farmers Protest 
+#ResignModi",Pro OPP,pro opposition,caa,"['india', 'killed', 'election']","[{'text': 'india', 'score': 0.4424}, {'text': 'killed', 'score': 0.4077}, {'text': 'election', 'score': 0.2795}]",Against ,calls for the resignation of Modi due to his blood spilling politics. 
+1720487,"My warm birthday greetings to one of the most awesome, rocking Congress spokesperson!!
+
+ Happy Birthday @Pawankhera ji  🎂 🎉 
+
+@mehek @IncSapphire @cleviic @tanveer1729 @alamgirizvi @Sunil_SharmaINC @aawara_aatma  @_iamSAIl @RutvikSubhedar  @sursmi https://t.co/ntvDAM30ve",Pro OPP,pro opposition,caa,"['congress', 'birthday', 'rocking']","[{'text': 'congress', 'score': 0.5517}, {'text': 'birthday', 'score': 0.4893}, {'text': 'rocking', 'score': 0.2596}]",Neutral ,no stance on CAA being taken. 
+563416,So any small group can hold the great majority hostage to narrow interests? The great majority of farmers have welcomed this! Only 6% of farmers mostly the rich ones in Punjab and Haryana benefit from MSP and the middlemen are behind this! Like the fake anti CAA protests! https://t.co/THcLpL8RE2,Pro Ruling,pro ruling,caa,"['farmers', 'majority', 'hostage']","[{'text': 'farmers', 'score': 0.4136}, {'text': 'majority', 'score': 0.3555}, {'text': 'hostage', 'score': 0.1665}]",For ,"calls anti-caa protests ""fake"". "
+287894,"#StopProvokingIndia | We will stop the protest tomorrow, just let them take away that anti-India CAA: Tanvir Ahmed, National Spokesperson, JD(S) https://t.co/jghcajZuXf https://t.co/JktHqewTPn",Pro Ruling,pro ruling,caa,"['india', 'protest', 'tanvir']","[{'text': 'india', 'score': 0.5193}, {'text': 'protest', 'score': 0.4793}, {'text': 'tanvir', 'score': 0.2678}]",Against ,"calls CAA ""anti-India"". "
+1917039,"2019- They lathicharged on CAA protest
+
+2020- They lathicharged on Farmers protest
+
+2021- They lathicharged on Student protest
+
+2022- Now they are lathicharging on Kashmiri Pandits protest
+
+Anyone protesting angers this Govt.",Pro OPP,pro opposition,caa,"['protesting', '2022', 'farmers']","[{'text': 'protesting', 'score': 0.5353}, {'text': '2022', 'score': 0.3478}, {'text': 'farmers', 'score': 0.1821}]",Against ,suggests the hardline and violent measures of Govt for protesting. 
+14927,"Prashant Bhushan detained at Delhi Gate.
+
+#CAAProtest https://t.co/kRDKIrweu3",Pro OPP,pro opposition,caa,"['bhushan', 'detained', 'protest']","[{'text': 'bhushan', 'score': 0.5444}, {'text': 'detained', 'score': 0.5067}, {'text': 'protest', 'score': 0.3303}]",Neutral ,"no stance taken, only news delivered."
+1270731,"#IndiaFightsCorona:
+
+📍 Average daily vaccination rate[in lakh/day] (As on 9th September, 2021)
+
+- Secretary, @MoHFW_INDIA 
+
+#Unite2FightCorona
+#StaySafeStayHealthy https://t.co/wCAAFviee3",Pro Ruling,pro ruling,caa,"['vaccination', 'mohfw_india', 'stay']","[{'text': 'vaccination', 'score': 0.4425}, {'text': 'mohfw_india', 'score': 0.3427}, {'text': 'stay', 'score': 0.2276}]",Neutral ,no stance on CAA being taken. 
+134507,"Watch | ""Will speak to Amit Shah to give more power to local police"": Delhi CM Arvind Kejriwal 
+
+#DelhiViolence #CAAProtests https://t.co/y279XJJf0J",Pro OPP,pro opposition,caa,"['delhi', 'protests', 'power']","[{'text': 'delhi', 'score': 0.4827}, {'text': 'protests', 'score': 0.4279}, {'text': 'power', 'score': 0.2142}]",Neutral ,"no stance taken, only news delivered."
+205130,"Good decision @narendramodi
+@amitshah.
+
+Now be responsible and cancel that 4000 cr npr exercise. That money is better spent on dealing with the crisis. #notocaa_nrc_npr #resistance https://t.co/7CqedXuarq",Pro OPP,pro opposition,caa,"['exercise', 'narendramodi', 'crisis']","[{'text': 'exercise', 'score': 0.3937}, {'text': 'narendramodi', 'score': 0.3811}, {'text': 'crisis', 'score': 0.3672}]",For ,subtly suggests that it is a good decision? 
+240553,"Now in Goa, Congress leader Ramkrishna Jalmi has been arrested!
+
+Reason?
+
+Because of his hate speech against Lord Parashuram during anti-CAA rally backed by Goa Church!
+
+Dear Hindus, again I'm reminding you,
+anti-CAA protest aims to eliminate us!
+
+Don't forget it!",Pro Ruling,pro ruling,caa,"['ramkrishna', 'arrested', 'protest']","[{'text': 'ramkrishna', 'score': 0.5128}, {'text': 'arrested', 'score': 0.4325}, {'text': 'protest', 'score': 0.3503}]",For ,claims that CAA is good as anti-CAA aims to eliminate hindus. 
+32370,"BJP Manifesto Checklist in #1YearofModi2
+
+✅- GST
+✅- CAA
+✅- OROP
+✅- Stable Govt
+✅- Triple Talaq
+✅- Ram Mandir
+✅- Low inflation
+✅- Low corruption
+✅- Surgical Strikes
+✅- Isolation of Pakistan
+✅- Curbing Black money
+✅- Removal of Article 370
+✅- De-registered 14,800 NGOs",Pro Ruling,pro ruling,caa,"['manifesto', 'pakistan', '1yearofmodi2']","[{'text': 'manifesto', 'score': 0.4597}, {'text': 'pakistan', 'score': 0.3785}, {'text': '1yearofmodi2', 'score': 0.2245}]",For ,puts CAA in a checklist of good factors that government is targeting. 
+1399910,"Pakistan Prime Minister Imran Khan heaps praises on China once again, speaks to the Chinese state media, alleges massive US pressure on Pakistan to sideline China, pledges deeper friendship and more collaboration with China whether America and other countries like it or not.",Pro Ruling,pro ruling,caa,"['china', 'khan', 'pressure']","[{'text': 'china', 'score': 0.4478}, {'text': 'khan', 'score': 0.3664}, {'text': 'pressure', 'score': 0.0797}]",Neutral ,no stance on CAA being taken. 
+646019,"●Assam population: 3.09 Cr
+Hindu: 61% Muslim: 34%
+
+●Population Growth:
+Hindu: 10.89% Muslim: 29.59%
+
+The growth is 3 times faster than any India state. This why people voted BJP to strictly implement CAA &amp; NRC to stop the demographic shift &amp; save Assam from becoming Kashmir.",Pro Ruling,pro ruling,caa,"['india', 'voted', 'faster']","[{'text': 'india', 'score': 0.4797}, {'text': 'voted', 'score': 0.2313}, {'text': 'faster', 'score': 0.1176}]",For ,shows how Muslims are increasing more in Assam than Hindus which is why CAA is justified. 
+838648,"Let whatever happen but we will not allow implementation of CAA ! 
+
+@RahulGandhi at Assam ! 
+
+Say No to CAA! 
+
+#RahulGandhiWithAssam https://t.co/SKXwqp3XNh",Pro OPP,pro opposition,caa,"['rahulgandhi', 'caa', 'no']","[{'text': 'rahulgandhi', 'score': 0.5921}, {'text': 'caa', 'score': 0.3706}, {'text': 'no', 'score': 0.2708}]",Against ,calls for people to stand against CAA. 
+52295,"Joe Biden set to become the Next US President
+
+Good thing is Joe is the same guy who was disappointed and against CAA, NRC in Assam and seeked restoration of people's rights in Kashmir.
+
+#USElectionResults2020",Pro OPP,pro opposition,caa,"['election', 'good', 'kashmir']","[{'text': 'election', 'score': 0.4573}, {'text': 'good', 'score': 0.1647}, {'text': 'kashmir', 'score': 0.1236}]",Against ,happy for the appointment of Joe Biden as next US president as he was also against CAA. 
+11356,"TONIGHT- Women are protesting in Seelampur-Jaffrabad area in Delhi. They’ve blocked the road outside Jaffrabad metro station.
+
+This, in support of the bandh call given by @BhimArmyChief for Sunday. #AntiCAA_NRC_NPR https://t.co/J03ibtCSjU",Pro OPP,pro opposition,caa,"['protesting', 'women', 'jaffrabad']","[{'text': 'protesting', 'score': 0.5666}, {'text': 'women', 'score': 0.4685}, {'text': 'jaffrabad', 'score': 0.3705}]",Against ,shows women's support for anti-CAA.
+1823612,Emergency Credit Line Guarantee Scheme (ECLGS) has provided much-needed additional credit to more than 130 lakh MSMEs. This has helped them mitigate the adverse impact of the pandemic. #AatmaNirbharBharatKaBudget https://t.co/PALuWTOvAW,Pro Ruling,pro ruling,caa,"['credit', 'msmes', 'pandemic']","[{'text': 'credit', 'score': 0.4575}, {'text': 'msmes', 'score': 0.3309}, {'text': 'pandemic', 'score': 0.2761}]",Neutral ,no stance on CAA being taken. 
+461224,"""Unfortunately,any laws which ought to have been scrapped are continued and bureaucracy is exercising powers under them against citizens of free India."" - Bombay HC. #resistance #NoToCAA_NRC_NPR https://t.co/QEKdA4Cct0",Pro OPP,pro opposition,caa,"['bureaucracy', 'india', 'exercising']","[{'text': 'bureaucracy', 'score': 0.486}, {'text': 'india', 'score': 0.4774}, {'text': 'exercising', 'score': 0.0923}]",Against ,hashtag calls for citizens to stand against CAA. 
+965341,"Congress party is an idea of terror who imposed emergency, waged war on Sikh minorities, Congress slaughtered Brahmins in MH. 
+
+Bigoted Power monger divided India on religious hatred in BLOODY partition to become PM
+
+Cong allows Pak Zindabad, hinduonse aazadi in CAA protest https://t.co/VXgq9ES6cS",Pro Ruling,pro ruling,caa,"['congress', 'india', 'bloody']","[{'text': 'congress', 'score': 0.5963}, {'text': 'india', 'score': 0.4522}, {'text': 'bloody', 'score': 0.1642}]",For ,"shows that by protesting against CAA, congress is promoting Pakistan and terror. "
+569179,"What's the Fuss over #CAA? 
+Watch #WhatTheFatah where I expose the hypocrisy of India’s Islamists &amp; Communists who find it hard to give citizenship to Hindus &amp; Sikhs who fled Pakistan and B’Desh to settle in India before 2015. Click👇here for the truth. 
+https://t.co/RkmTdPBYKF",Pro Ruling,pro ruling,caa,"['hindus', 'communists', 'hypocrisy']","[{'text': 'hindus', 'score': 0.4967}, {'text': 'communists', 'score': 0.321}, {'text': 'hypocrisy', 'score': 0.1931}]",For ,questions why there is a fuss over CAA as Hindus are treated the same in other countries. 
+1553895,"World Health Organization to issue its interim recommendations on the use of the #COVID19Vaccine developed by #AstraZeneca and Oxford University on Wednesday 
+
+#WHO
+#oxfordvaccine 
+#oxfordastrazeneca https://t.co/dl7lwW7X2L",Pro Ruling,pro ruling,caa,"['vaccine', 'covid19', 'oxford']","[{'text': 'vaccine', 'score': 0.5858}, {'text': 'covid19', 'score': 0.3876}, {'text': 'oxford', 'score': 0.1437}]",Neutral ,no stance on CAA being taken. 
+461033,"If anyone still has any doubts that this protest is Farmers Protest &amp; not Pro Khalistan Protest they they are just living in their own fool's paradise.
+
+Time to identify them before it's too late like Anti CAA protests. https://t.co/ONW2gwZ40v",Pro Ruling,pro ruling,caa,"['protest', 'farmers', 'khalistan']","[{'text': 'protest', 'score': 0.5779}, {'text': 'farmers', 'score': 0.4094}, {'text': 'khalistan', 'score': 0.2541}]",For ,shows that anti-caa like anti-farm laws is promoted by khalistani or pakistani interests. 
+85177,"Well @_sayema 's Karachi wala Khala; @khanumarfa 's Layalpur waali Phoophi, @RanaAyyub 's Bahwalpur waale Maamu and @_sabanaqvi 's Islamabad waale Chacha will provide food to all those Hindus of Pakistan ...this is exaclty why they r opposing #CAA https://t.co/CPkYP3HHsN",Pro Ruling,pro ruling,caa,"['hindus', 'karachi', '_sayema']","[{'text': 'hindus', 'score': 0.541}, {'text': 'karachi', 'score': 0.4524}, {'text': '_sayema', 'score': 0.3578}]",For ,mocks whoever is opposing CAA. 
+1020683,"Whatever be circumstance, we will never implement CAA if voted to power:  @RahulGandhi at Assam rally. 
+#RahulGandhiWithAssam https://t.co/novZUe6RMj",Pro OPP,pro opposition,caa,"['rahulgandhi', 'rally', 'never']","[{'text': 'rahulgandhi', 'score': 0.5001}, {'text': 'rally', 'score': 0.3523}, {'text': 'never', 'score': 0.2167}]",Against ,"congress states how it will never, under any circumstance, implement CAA. "
+286807,"On ongoing protests against #CAA, Congress Prez Mrs Sonia Gandhi : They have taken to streets braving cold/police brutalities. I Salute their courage,their abiding faith Constitution of India;their determination to defend &amp; protect those values. We are Inspired by Their Struggle! https://t.co/p449KdYKoF",Pro OPP,pro opposition,caa,"['protests', 'congress', 'india']","[{'text': 'protests', 'score': 0.4782}, {'text': 'congress', 'score': 0.4176}, {'text': 'india', 'score': 0.3176}]",Against ,hails the courage and bravery of anti-caa protesters. 
+179862,"The daft international media thinks #CAA applies to Indian citizens. It doesn’t. Not to Muslims in India, not to ANYONE in India. CAA applies to persecuted minority REFUGEES in 3 neighbouring Islamic countries— Pak, BD &amp; Afgh. Got it guys? @guardian, @WSJ @washingtonpost @nytimes",Pro Ruling,pro ruling,caa,"['indian', 'refugees', 'washingtonpost']","[{'text': 'indian', 'score': 0.4652}, {'text': 'refugees', 'score': 0.4191}, {'text': 'washingtonpost', 'score': 0.0689}]",For ,says that CAA supports all Indians. 
+322580,"I am not as strong / brave as these #ShaheenBaghProtest members...
+But stuck in hour long jams at Ashram, I wait patiently, without cursing the inconvenience being caused to my privileged life.
+This is my minimal contribution towards those fighting for the Constitution.
+#CAA_NRC https://t.co/0aT2edqA2S",Pro OPP,pro opposition,caa,"['protest', 'ashram', 'jams']","[{'text': 'protest', 'score': 0.5416}, {'text': 'ashram', 'score': 0.3916}, {'text': 'jams', 'score': 0.0825}]",Against ,claims that anti-caa is fighting for the Indian constitution. 
+933773,"“It is true that CPI(M) organised many anti-CAA protests, but for us, none of those were sincere. If they were, their government would not have slapped cases against many of the Muslim anti-CAA activists,” said a SDPI functionary. | @RajeevSantharam
+
+https://t.co/c1XH3RcUQ7",Pro OPP,pro opposition,caa,"['protests', 'caa', 'muslim']","[{'text': 'protests', 'score': 0.5781}, {'text': 'caa', 'score': 0.4349}, {'text': 'muslim', 'score': 0.3059}]",Neutral ,no stance on CAA being taken. 
+1071892,"An old video of anti-CAA protest outside BHU campus has been falsely shared as a speech by DPS Rajbagh, Valsad teacher. He has been misidentified as ‘Shakeel Ahmed Ansari’. It is noteworthy that Rajbagh is in J&amp;K and Valsad is in Gujarat.
+
+https://t.co/DWqqTGkE9L",Pro OPP,pro opposition,caa,"['gujarat', 'protest', 'misidentified']","[{'text': 'gujarat', 'score': 0.4383}, {'text': 'protest', 'score': 0.4054}, {'text': 'misidentified', 'score': 0.3203}]",Neutral ,no stance on CAA being taken. 
+783258,"Did you know?
+
+In 2011, India became the 4th LAST country in the world to become polio free.
+
+Only 3 countries were behind us: Nigeria, Afghanistan and Pakistan.
+
+This is Congress legacy.
+
+But on Covid, Congress compares us to America and Norway!",Pro Ruling,pro ruling,caa,"['polio', 'india', 'free']","[{'text': 'polio', 'score': 0.614}, {'text': 'india', 'score': 0.2881}, {'text': 'free', 'score': 0.0483}]",Neutral ,no stance on CAA being taken. 
+318896,Heartwarming! Muslims in Saharanpur gave up their claim over land in dispute with a Gurdwara. Reason: gratitude for help given by Sikhs during Delhi violence &amp; anti CAA protests. The 2 communities will help lay foundation for each other's place of worship https://t.co/vwYN275aJq,Pro OPP,pro opposition,caa,"['saharanpur', 'protests', 'gratitude']","[{'text': 'saharanpur', 'score': 0.6136}, {'text': 'protests', 'score': 0.3882}, {'text': 'gratitude', 'score': 0.3615}]",Against ,shows how muslims and sikhs support each other. 
+763460,"I'd rather have India without education if that's the price to be paid for making it dry - Gandhi
+
+Alcohol consumption is banned in walled Holy Amritsar, in Holy Mecca, and now in Holy Mathura.
+
+I am AGAINST prohibition. But if you are selectively against it, you are a HYPOCRITE.",Pro Ruling,pro ruling,caa,"['india', 'banned', 'hypocrite']","[{'text': 'india', 'score': 0.4355}, {'text': 'banned', 'score': 0.306}, {'text': 'hypocrite', 'score': 0.2063}]",Neutral ,no stance on CAA being taken. 
+200717,"""An atmosphere of hate was systematically built up. The whole purpose of it was to suggest that only one community has a veto over decision-making in India""
+~ @swapan55 puts #CAAprotests and #DelhiRiots in context brilliantly. https://t.co/qwTfhLWpZv",Pro Ruling,pro ruling,caa,"['protests', 'india', 'swapan55']","[{'text': 'protests', 'score': 0.4963}, {'text': 'india', 'score': 0.3381}, {'text': 'swapan55', 'score': 0.1655}]",For ,shows that the atmosphere of hate is not due to CAA. 
+590742,"“Maybe we are getting to know who our friends really are (in the world),” said EAM S Jaishankar while answering a question on international criticism of the Indian government after #CAA and #DelhiViolence.
+https://t.co/e66MFuLbm5",Pro OPP,pro opposition,caa,"['friends', 'indian', 'violence']","[{'text': 'friends', 'score': 0.5125}, {'text': 'indian', 'score': 0.4412}, {'text': 'violence', 'score': 0.211}]",For ,those who don’t support CAA internationally are not friends of India. 
+1845764,"Reclaiming #Hindu identity, again: A #Dalit journey in America. A heart warming at the same time pained expression of feelings by Aldrin Deepak. 🙏
+
+If you have time only for one article today, READ this.  https://t.co/rfX9rEpMrV",Pro Ruling,pro ruling,caa,"['hindu', 'feelings', 'deepak']","[{'text': 'hindu', 'score': 0.6954}, {'text': 'feelings', 'score': 0.3545}, {'text': 'deepak', 'score': 0.3125}]",Neutral ,no stance on CAA being taken. 
+949034,"Victory of Rahul Gandhi 💪
+Victory of farmers 💪
+
+What next 
+CAA 
+NRC
+RAFALE
+
+#RahulGandhi
+#FarmersProtest https://t.co/uBJlIr7mwn",Pro OPP,pro opposition,caa,"['gandhi', 'protest', 'farmers']","[{'text': 'gandhi', 'score': 0.4931}, {'text': 'protest', 'score': 0.4476}, {'text': 'farmers', 'score': 0.4437}]",Against ,hopes that the next victory of India would be over CAA. 
+59903,"Hats off to #Jharkhand CM @HemantSorenJMM .
+
+What a mouth-shutting answer to those who say “Modi Govt will not budge an inch in implementing #NRC and #NPR”!
+
+Do listen.
+India rejects #CAA_NRC_NPR https://t.co/BkERMIbB8S",Pro OPP,pro opposition,caa,"['india', 'hemantsorenjmm', 'shutting']","[{'text': 'india', 'score': 0.4938}, {'text': 'hemantsorenjmm', 'score': 0.214}, {'text': 'shutting', 'score': 0.1721}]",Against ,says that India rejects CAA. 
+76708,"Haan, Yeh dil hai Hindustani 🇮🇳 
+
+A tribute to the CAA-NRC protests across the world https://t.co/ECA3lfLRyZ",Pro OPP,pro opposition,caa,"['protests', 'hindustani', 'tribute']","[{'text': 'protests', 'score': 0.6269}, {'text': 'hindustani', 'score': 0.5122}, {'text': 'tribute', 'score': 0.3909}]",Against ,tribute to anti-CAA protests across the world. 
+606385,"Dr Amjad Mirza MusIim from Mirpur PoK openly SUPPORTS PRO CAA Rally in London after witnessing persecution of Minorites in Pakistan: ""SHAME that Congress along with Communists are bent on destroying India"" #Support_CAA_and_NRC https://t.co/0Qp5UWjCyh",Pro Ruling,pro ruling,caa,"['rally', 'india', 'dr']","[{'text': 'rally', 'score': 0.4996}, {'text': 'india', 'score': 0.3104}, {'text': 'dr', 'score': 0.0606}]",For ,hashtag suggests support for CAA. 
+98469,"HK-based South China Morning Post (@SCMPNews) traces one of the first #coronavirus cases to a Chinese individual going back to Nov 17, 2019 @XHNews @globaltimesnews https://t.co/WpQCAA56nD",Pro Ruling,pro ruling,caa,"['coronavirus', 'china', 'xhnews']","[{'text': 'coronavirus', 'score': 0.6762}, {'text': 'china', 'score': 0.3852}, {'text': 'xhnews', 'score': 0.1783}]",Neutral ,no stance on CAA being taken. 
+363589,"UP police serves notice of arrest to former governor for CAA protest!
+
+Aziz Qureshi said that Muslims are equal citizens of India who have equal rights &amp; they should not be begging for their rights but should snatch them with inner strength
+
+@SravaniSarkar https://t.co/TeuIlaUQ2C",Pro OPP,pro opposition,caa,"['muslims', 'police', 'governor']","[{'text': 'muslims', 'score': 0.4545}, {'text': 'police', 'score': 0.3788}, {'text': 'governor', 'score': 0.2462}]",Against ,shows how former governor was arrested for speaking up for muslim rights. 
+45074,"Delhi riots and CAA protests have nothing to do with citizenship or democracy. Are propelled by Pakistan, Kashmir separatists, anti-India and anti-America sentiments. Are opposed to a strong and united India and will work to discredit it in any way possible.",Pro Ruling,pro ruling,caa,"['riots', 'india', 'nothing']","[{'text': 'riots', 'score': 0.4872}, {'text': 'india', 'score': 0.3102}, {'text': 'nothing', 'score': 0.0885}]",For ,"claims that those who do not support CAA are anti-India, separatists and promoted by Pakistan. "
+169476,"During anti CAA protests in Delhi:
+
+Jamia student Shadab Najar was injured from a bullet fired by a man named Gopal
+
+Today, when terrorist Riyaz Naikoo is killed:
+
+The same Shadab Najar is talking against India, supporting terrorists in J&amp;K and wants terrorism for so called Azadi https://t.co/SN3vKD9zc9",Pro Ruling,pro ruling,caa,"['killed', 'shadab', 'protests']","[{'text': 'killed', 'score': 0.4312}, {'text': 'shadab', 'score': 0.4288}, {'text': 'protests', 'score': 0.3605}]",Against ,shows double standards of anti-CAA protesters. 
+278562,"2016: Jat reservation protests.
+2017: Kisan Sangharsh protests for loan waiver.
+2018: ""Agrarian crisis"" farmer protests.
+2019: Anti CAA protests.
+2020: Punjab farmers protests.
+
+Looks like at least one major protest each year against Narendra Modi govt in Dilli. Cottage industry?",Pro Ruling,pro ruling,caa,"['protests', '2020', 'farmer']","[{'text': 'protests', 'score': 0.5033}, {'text': '2020', 'score': 0.2439}, {'text': 'farmer', 'score': 0.2345}]",Against ,one major protest every year against Modi. 
+440642,NRI protestors get Azadi from Saudi Arabia; Deported for protesting against CAA-NRC. Even Arabs understand the substance and intent of CAA-NRC but some intellectuals in Bharat ans their masters in Europe &amp; Americas can't.. https://t.co/MPIqqR8dgp,Pro Ruling,pro ruling,caa,"['arabs', 'protestors', 'caa']","[{'text': 'arabs', 'score': 0.5125}, {'text': 'protestors', 'score': 0.3987}, {'text': 'caa', 'score': 0.2809}]",For ,shows that even arabs understand the susbtance and intent of CAA. 
+408721,"Umar Khalid is arrested who talked about responding to hate with love.
+
+BJP leaders Kapil Mishra and Anurag Thakur don't even have an FIR against them who openly talked about responding to anti-CAA protests with Goli.
+
+This is the real death of democracy.
+
+#StandWithUmarKhalid",Pro OPP,pro opposition,caa,"['khalid', 'protests', 'arrested']","[{'text': 'khalid', 'score': 0.5291}, {'text': 'protests', 'score': 0.3542}, {'text': 'arrested', 'score': 0.3436}]",Against ,shows how CAA will lead to death of democracy. 
+1006915,"Investigation initiated against Swara Bhaskar in an FIR lodged during Anti-CAA Protests in Muzaffarnagar, UP on NCPCR’s direction u/s 22 of POCSO act for falsely reporting of Child S€xual abuse",Pro Ruling,pro ruling,caa,"['investigation', 'muzaffarnagar', 'protests']","[{'text': 'investigation', 'score': 0.5244}, {'text': 'muzaffarnagar', 'score': 0.3677}, {'text': 'protests', 'score': 0.299}]",Neutral ,no stance on CAA being taken. 
+589901,Show me one percent Muslim in India who has condemned Islamic radicalism. One percent Muslim who has condemned the AntiCAA protest. One percent Muslim who have condemned the rants of the Owaisi brothers. https://t.co/lkbAI2W3YJ,Pro Ruling,pro ruling,caa,"['muslim', 'india', 'percent']","[{'text': 'muslim', 'score': 0.5204}, {'text': 'india', 'score': 0.3132}, {'text': 'percent', 'score': 0.3086}]",For ,shows that anti-caa protests should be condemend by muslims. 
+738854,"""Come what may, we will never allow CAA"": Congress leader Rahul Gandhi in Sivasagar rally #Assam https://t.co/8S2416y5pd",Pro OPP,pro opposition,caa,"['gandhi', 'congress', 'rally']","[{'text': 'gandhi', 'score': 0.4897}, {'text': 'congress', 'score': 0.3959}, {'text': 'rally', 'score': 0.3823}]",Against ,"congress states how it will never, under any circumstance, implement CAA. "
+318982,"620 km Human chain formed in Kerala demanding withdrawal of CAA.
+
+7 Million Malayalis took part.
+
+HISTORIC
+
+#CAA_NRC_Protests 
+#KeralaHumanChain 
+#IndiaRejectsCAA
+
+https://t.co/LZEz3M6GwU",Pro OPP,pro opposition,caa,"['india', 'chain', 'protests']","[{'text': 'india', 'score': 0.4442}, {'text': 'chain', 'score': 0.2816}, {'text': 'protests', 'score': 0.2504}]",Against ,hashtag suggests how india rejects CAA. 
+1861810,"BREAKING: US provides India with CAATSA waiver. The Countering America’s Adversaries Through Sanctions Act (CAATSA) had remained on the table ever since India’s S-400 missile deal with Russia. Waiver, pushed by @RepRoKhanna, affirms India’s independence in defence contracting. https://t.co/fRLpD2035v",Pro Ruling,pro ruling,caa,"['us', 'india', 'sanctions']","[{'text': 'us', 'score': 0.4754}, {'text': 'india', 'score': 0.4746}, {'text': 'sanctions', 'score': 0.4233}]",Neutral ,no stance on CAA being taken. 
+67060,"‘Pakistani And Bangladeshi Muslims To Be Thrown Out Of Country’: Shiv Sena After MNS Announces Pro-CAA Rally
+
+https://t.co/51Cvd92woA",Pro Ruling,pro ruling,caa,"['muslims', 'rally', 'thrown']","[{'text': 'muslims', 'score': 0.5098}, {'text': 'rally', 'score': 0.2742}, {'text': 'thrown', 'score': 0.2426}]",For ,"shows that indian muslims are safe, not those come from outside countries. "
+161105,"“CAA will not affect Muslims of our country”: Superstar Rajnikanth backs Citizenship Amendment Act, says NPR is a necessity  https://t.co/n12V9Y6JIH via @eOrganiser",Pro Ruling,pro ruling,caa,"['citizenship', 'muslims', 'will']","[{'text': 'citizenship', 'score': 0.4605}, {'text': 'muslims', 'score': 0.4472}, {'text': 'will', 'score': 0.1156}]",For ,shows how celebrities also claim that CAA will not impact muslims of India.
+1106630,Finance Minister begins #Budget2021 speech by recounting the unprecedented circumstances through which the nation and the world had to go through and recognizing the service rendered by #COVID Warriors during the crucial months of the pandemic #AatmanirbharBharatKaBudget,Pro Ruling,pro ruling,caa,"['budget', 'pandemic', 'aatmanirbharbharatka']","[{'text': 'budget', 'score': 0.6212}, {'text': 'pandemic', 'score': 0.2079}, {'text': 'aatmanirbharbharatka', 'score': 0.1163}]",Neutral ,no stance on CAA being taken. 
+98606,"Few urban naxals say me Dalits are not Hindus &amp; BJP has done nothing to them!
+
+* India's President is a Dalit
+
+* BJP has highest number of Dalit MPs
+
+* CAA will benefit Dalits the most
+
+And yes, Dalits are Hindus",Pro Ruling,pro ruling,caa,"['hindus', 'naxals', 'nothing']","[{'text': 'hindus', 'score': 0.5716}, {'text': 'naxals', 'score': 0.3536}, {'text': 'nothing', 'score': 0.0787}]",For ,claims that CAA will help Dalits 
+286786,"Protest at Jantar Mantar against #CAA, #NRC and #NPR  https://t.co/lViClNe51y",Pro OPP,pro opposition,caa,"['protest', 'against', 'caa']","[{'text': 'protest', 'score': 0.7404}, {'text': 'against', 'score': 0.3719}, {'text': 'caa', 'score': 0.3436}]",Neutral ,"no stance taken, only news delivered."
+180106,"Supreme Court is hearing a plea by Sharjeel Imam for consolidation of FIRs filed against him across the country. 
+As many as 5 FIRs have been filed against him for sedition and other grave crimes for protesting against the Citizenship (Amendment) Act.
+#SharjeelImam
+#CAA_NRC_NPR",Pro OPP,pro opposition,caa,"['court', 'firs', 'protesting']","[{'text': 'court', 'score': 0.4211}, {'text': 'firs', 'score': 0.3134}, {'text': 'protesting', 'score': 0.3129}]",Against ,"calls protesting against CAA a ""grave crime""."
+859143,CBI has now filed a criminal case against UK-based Cambridge Analytica and Global Science Research Ltd for illegal harvesting of personal data from FB users in India - had exposed how Congress darbar wanted to use CA for manipulating voters https://t.co/xbI2dyjmoG https://t.co/Hu6hRstxm0 https://t.co/cwf36wwHi6,Pro Ruling,pro ruling,caa,"['cbi', 'india', 'congress']","[{'text': 'cbi', 'score': 0.3682}, {'text': 'india', 'score': 0.3087}, {'text': 'congress', 'score': 0.2782}]",Neutral ,no stance on CAA being taken. 
+598602,CAA: IIT-Kanpur says recitation of Faiz’s poem ‘Hum Dekhenge’ during protest was ‘unsuitable’ https://t.co/0adCX68e5M,Pro OPP,pro opposition,caa,"['poem', 'protest', 'unsuitable']","[{'text': 'poem', 'score': 0.5215}, {'text': 'protest', 'score': 0.4897}, {'text': 'unsuitable', 'score': 0.4033}]",Neutral ,no stance on CAA being taken. 
+385023,"The Vice President presenting the Indian Science Congress Association (ISCA) Awards, Young Scientist Awards and Best Poster Awards during the 107th Indian Science Congress at Bengaluru today. https://t.co/W8cCudY63a",Pro Ruling,pro ruling,caa,"['presenting', 'indian', 'isca']","[{'text': 'presenting', 'score': 0.4946}, {'text': 'indian', 'score': 0.2621}, {'text': 'isca', 'score': 0.2604}]",Neutral ,no stance on CAA being taken. 
+861855,"""Rahul Gandhi must remember that the anti-Sikh riots happened during the Congress regime. Your party opposes the CAA but the law will benefit Sikhs from neighbouring countries"": Sidharth Nath Singh (@SidharthNSingh), UP Cabinet Minister https://t.co/T9hiOtSq5L",Pro OPP,pro opposition,caa,"['sikhs', 'congress', 'riots']","[{'text': 'sikhs', 'score': 0.5332}, {'text': 'congress', 'score': 0.426}, {'text': 'riots', 'score': 0.4052}]",Neutral ,"no stance taken, only news delivered.  "
+80531,"Anti CAA protests in Haryana. ""We are sorry for the inconvenience, but this is a revolution"" https://t.co/cAn3Cbeazm",Pro OPP,pro opposition,caa,"['protests', 'caa', 'haryana']","[{'text': 'protests', 'score': 0.6292}, {'text': 'caa', 'score': 0.4456}, {'text': 'haryana', 'score': 0.4227}]",Against ,calls anti-CAA protests a revolution. 
+2443732,"Congress gave tickets to mother of Unnao victim to CAA protester to Tamil actress.
+
+This need to be applauded for sincere efforts of more inclusive politics. Nothing there to taunt or to make nasty comments on it.
+
+Those who does such comments exposing their anti women mentality.",Pro OPP,pro opposition,caa,"['congress', 'victim', 'applauded']","[{'text': 'congress', 'score': 0.4812}, {'text': 'victim', 'score': 0.2199}, {'text': 'applauded', 'score': 0.2168}]",Against ,shows that congress sincere efforts to support women affected by CAA should be applauded. 
+72786,"#Verified             #Breaking
+
+👉BJP cancels Kapil Gujjar's membership
+
+👉BJP says it didn't know Kapil had fired at anti-CAA protesters at #ShaheenBagh
+
+👉Kapil had earlier today joined BJP
+
+👉Kapil had in February shot at protesters &amp; said, 'In India, only Hindus will rule'",Pro OPP,pro opposition,caa,"['hindus', 'fired', 'protesters']","[{'text': 'hindus', 'score': 0.4064}, {'text': 'fired', 'score': 0.3125}, {'text': 'protesters', 'score': 0.2888}]",Neutral ,"no stance taken, only news delivered."
+1595017,"#Pseudoliberals
+#UrbanNaxals  .
+#Lutyensmediafrauds 
+Hypocrisy . 
+
+This is India Man . 
+We oppose “CAA” because all religions are same . 
+
+We oppose “Uniform Civil Code “ because how can all religions be the same .",Pro Ruling,pro ruling,caa,"['religions', 'liberals', 'media']","[{'text': 'religions', 'score': 0.3787}, {'text': 'liberals', 'score': 0.3636}, {'text': 'media', 'score': 0.3401}]",For ,shows double standard of India and its liberals. 
+392880,"Khan has been the founder of Khudai Khidmatgar, an organisation which is based out of Delhi and which had participated in many anti-CAA protests around the country
+https://t.co/xMe3jyLamS",Pro Ruling,pro ruling,caa,"['khudai', 'protests', 'organisation']","[{'text': 'khudai', 'score': 0.5556}, {'text': 'protests', 'score': 0.3826}, {'text': 'organisation', 'score': 0.3213}]",Neutral ,no stance on CAA being taken. 
+2842132,"#WATCH | Uttarakhand | On the issue of Uniform Civil Code (UCC), Congress Disciplinary Committee president &amp; former minister Navbharat says, ""...Personally speaking, I would like to draw attention towards CAA - its rules could not be formed till date. CAA can't be implemented… https://t.co/eRZxj3rjEq https://t.co/XuewUHkYct",Pro Ruling,pro ruling,caa,"['caa', 'congress', 'navbharat']","[{'text': 'caa', 'score': 0.471}, {'text': 'congress', 'score': 0.436}, {'text': 'navbharat', 'score': 0.3112}]",Neutral ,"no stance taken, only news delivered."
+575940,@ShashiTharoor 2020 also witnessed the rise of organic popular movements – the nationwide protests against the CAA early in the year &amp; now the ongoing mass agitation by farmer groups across the country against new agriculture laws – that suggest that Indian democracy is capable of fighting back https://t.co/tk8yqXJCLP,Pro OPP,pro opposition,caa,"['protests', 'shashitharoor', 'organic']","[{'text': 'protests', 'score': 0.4602}, {'text': 'shashitharoor', 'score': 0.3648}, {'text': 'organic', 'score': 0.2848}]",Against ,shows that Anti-CAA shows that democracy can fight back. 
+1948809,"President Ram Nath Kovind arrived in Kingston on his state visit to Jamaica. He is the first President of India to visit Jamaica. Sir Patrick Allen, Governor General of Jamaica and PM Andrew Holness received President Kovind at the airport. https://t.co/5EKNRmJ5f3",Pro Ruling,pro ruling,caa,"['jamaica', 'president', 'india']","[{'text': 'jamaica', 'score': 0.495}, {'text': 'president', 'score': 0.3625}, {'text': 'india', 'score': 0.1162}]",Neutral ,no stance on CAA being taken. 
+460943,"Why selective protest against, 'Metro Shed' only, while there is absolute silence on 'Film City'&amp; 'Royal Palms' etc. #Aarey https://t.co/Hdh8NZzulf",Pro Ruling,pro ruling,caa,"['protest', 'silence', 'royal']","[{'text': 'protest', 'score': 0.4693}, {'text': 'silence', 'score': 0.3127}, {'text': 'royal', 'score': 0.2854}]",Neutral ,no stance on CAA being taken. 
+736695,"TMC / AAP / AIMIM can fight BJP without targeting Congress and abusing leaders and supporters of Congress, what stops them?  
+
+Are they really fighting with BJP? 
+
+There's the reason they are being called the B team of BJP. 
+
+🧐",Pro OPP,pro opposition,caa,"['fighting', 'congress', 'tmc']","[{'text': 'fighting', 'score': 0.3699}, {'text': 'congress', 'score': 0.3327}, {'text': 'tmc', 'score': 0.2866}]",Neutral ,no stance on CAA being taken. 
+2042610,"@ReallySwara @justhumanindia #IAmJustHuman and I care for millions of minorities of #Pakistan and #Bangladesh. I am trolled and called names for supporting these Hindus who are raped , murdered and thrown out of their country. I support #CAA and I am called communal for that.
+This is my story.Share yours.",Pro Ruling,pro ruling,caa,"['hindus', 'trolled', 'murdered']","[{'text': 'hindus', 'score': 0.5896}, {'text': 'trolled', 'score': 0.1971}, {'text': 'murdered', 'score': 0.1918}]",For ,"claims that despite caring for minorities, the person still supports CAA and is called communal. "
+646204,"What Newsclick did with China's fund?
+
+•Abused Rafales to hurt national security.
+•Abused Indian Vaccines to influence import of Chinese vaccine.
+•Tried to stop Central vista project.
+•Insulted top job creators of India.
+•Promoted Farmer n Anti CAA protest to create unrest.",Pro Ruling,pro ruling,caa,"['china', 'newsclick', 'vaccines']","[{'text': 'china', 'score': 0.5153}, {'text': 'newsclick', 'score': 0.3563}, {'text': 'vaccines', 'score': 0.1194}]",For ,shows that the motive of anti-CAA was to create unrest. 
+2682077,"US: PM Modi thanks President Biden for accepting proposal to add Africa as a permanent G20 member 
+
+Read @ANI Story | https://t.co/9z4gC2a6Az
+#PMModi #PMModiUSVisit #PMModiUSCongress https://t.co/cqaXjh71iz",Pro Ruling,pro ruling,caa,"['africa', 'add', 'congress']","[{'text': 'africa', 'score': 0.3932}, {'text': 'add', 'score': 0.2385}, {'text': 'congress', 'score': 0.2087}]",Neutral ,no stance on CAA being taken. 
+305524,Unpopular opinion: now the anti CAA protests specially in UP are helping the Bjp. Modi &amp; Shah now do have the silent voting majority behind them,Pro OPP,pro opposition,caa,"['protests', 'caa', 'shah']","[{'text': 'protests', 'score': 0.5599}, {'text': 'caa', 'score': 0.4339}, {'text': 'shah', 'score': 0.3603}]",Against ,"claims that indirectly, even anti-CAA protests are helping BJP. "
+1969914,"A Hindu woman is raped, murdered, 'defleshed' in #Pakistan List of anti-Hindu brutalities in Jinnah Land is endless.
+Nehru signed pact with Noon to stop Hindus from coming to #India 
+#CAA would have offered relief, but #LeftLiberal - #Islamist jamaat wants to see Hindus suffer.",Pro Ruling,pro ruling,caa,"['hindus', 'murdered', 'signed']","[{'text': 'hindus', 'score': 0.6949}, {'text': 'murdered', 'score': 0.231}, {'text': 'signed', 'score': 0.1074}]",For ,shows that CAA offers relief to brutalities against Hindus. 
+301496,"Yes, he is very confused in his statement.Must be the Indian leftist academics in the US who have confused him by misinformation., @satyanadella Pl study the CAA before you comment!We respect you as @Microsoft CEO and you must not make comments to malign India! @narendramodi https://t.co/4WWxmxZkcT",Pro Ruling,pro ruling,caa,"['narendramodi', 'leftist', 'microsoft']","[{'text': 'narendramodi', 'score': 0.3911}, {'text': 'leftist', 'score': 0.3503}, {'text': 'microsoft', 'score': 0.2079}]",For ,shows that indian leftist academics are spreading misinformation about CAA. 
+39164,"United Nations rights experts call for immediate release of activists arrested for anti-CAA protests, saying ""Their arrest seems clearly designed to send a chilling message to India’s vibrant civil society that criticism of government policies will not be tolerated"".
+@OHCHRAsia",Pro OPP,pro opposition,caa,"['activists', 'arrested', 'india']","[{'text': 'activists', 'score': 0.4981}, {'text': 'arrested', 'score': 0.3461}, {'text': 'india', 'score': 0.2159}]",Against ,shows that even US condems the arrest of anti-CAA protesters who are not doing anything wrong. 
+80520,"20 year old Harjit Singh chanted anti-CAA slogans at Amit Shah's Babarpur rally. He was beaten up by BJP supporters. He alleges that police is now telling him to call himself ""mentally unstable""
+https://t.co/ql3wP7zYWz",Pro OPP,pro opposition,caa,"['chanted', 'himself', 'police']","[{'text': 'chanted', 'score': 0.4935}, {'text': 'himself', 'score': 0.2489}, {'text': 'police', 'score': 0.1844}]",Against ,shows brutality of police and BJP towards those opposing anti-CAA. 
+408508,"Congress members shared an old image from CAA protests as media OB van recently vandalised in Lucknow. #AltNewsFactCheck | @ArchitMeta 
+
+https://t.co/1JfwcqShNP",Pro OPP,pro opposition,caa,"['congress', 'protests', 'old']","[{'text': 'congress', 'score': 0.4387}, {'text': 'protests', 'score': 0.3972}, {'text': 'old', 'score': 0.2636}]",Neutral ,no stance on CAA being taken. 
+279789,"Congress can't stop peacefuls from going to Mosque for Namaz
+
+Bcoz they know peacefuls might get angry
+
+Congress can't even provoke them to offer namaz, like they did during anti-CAA protests
+
+Bcoz their entire vote bank might get extinct
+
+Congress is in a very tricky situation",Pro Ruling,pro ruling,caa,"['congress', 'mosque', 'extinct']","[{'text': 'congress', 'score': 0.5238}, {'text': 'mosque', 'score': 0.4675}, {'text': 'extinct', 'score': 0.049}]",For ,shows that congress provokes anti-CAA protests. 
+2702080,"IMPORTANT QUESTIONS BY AAP
+
+While in principle supporting UCC, 
+
+AAP raises valid and very Important QUESTIONS about Sikhs, North East and other religions
+
+While BJP wanted Hindu vs Muslim debates, AAP has turned it upside down with Logic.
+
+BJP seems clueless about answers https://t.co/YdfbGCVjpO",Pro OPP,pro opposition,caa,"['debates', 'hindu', 'upside']","[{'text': 'debates', 'score': 0.3601}, {'text': 'hindu', 'score': 0.3568}, {'text': 'upside', 'score': 0.1506}]",Neutral ,no stance on CAA being taken. 
+253799,"Only Congress can give a head on fight to #Modi 's Nazi-fascist govt. 
+Congress is the only option that can make our great nation happy and prosperous again. 
+#JaiCongress
+
+Congress shifts gear in anti-CAA protest. Here’s why this move is significant.
+https://t.co/wH00HW0sHS",Pro OPP,pro opposition,caa,"['congress', 'fascist', 'gear']","[{'text': 'congress', 'score': 0.5948}, {'text': 'fascist', 'score': 0.4204}, {'text': 'gear', 'score': -0.0465}]",Against ,"calls modi and his policies such as CAA ""nazi-fascist"". "
+836747,"5 Guarantee of Congress in Assam 
+
+🔹Ban CAA 
+🔹200 Unit free electricity 
+🔹5  lac Govt Jobs 
+🔹 ₹2,000 as monthly income support to all homemakers.
+🔹 raising the daily wage of tea plantation workers to ₹365",Pro OPP,pro opposition,caa,"['congress', 'assam', 'wage']","[{'text': 'congress', 'score': 0.4194}, {'text': 'assam', 'score': 0.404}, {'text': 'wage', 'score': 0.3668}]",Neutral ,"no stance taken, only news delivered.  "
+530970,"@RahulGandhi @WSJ Congress Rejected ...
+
+SC verdict on 'Aadhar Act'.
+SC verdict on 'Rohigya'.
+SC verdict on 'Triple Talaq'.
+SC verdict on 'EVM'.
+SC verdict on 'Rafale Deal'.
+SC verdict on 'Ayodhya'.
+SC verdict on 'CAA'.
+SC verdict on 'PM-CARES'.
+
+And they talk of Democracy.",Pro Ruling,pro ruling,caa,"['verdict', 'congress', 'ayodhya']","[{'text': 'verdict', 'score': 0.5205}, {'text': 'congress', 'score': 0.411}, {'text': 'ayodhya', 'score': 0.2327}]",Neutral ,no stance on CAA being taken. 
+638789,"PM @narendramodi will be participating virtually in the Outreach Sessions of the @G7 Summit today and tomorrow.
+
+India, Australia, Republic of Korea and South Africa are invited as Guest Countries for the @G7 Summit this year. 
+
+Here is a look at our engagement with the @G7: https://t.co/BQBdggoDyo",Pro Ruling,pro ruling,caa,"['g7', 'outreach', 'narendramodi']","[{'text': 'g7', 'score': 0.5034}, {'text': 'outreach', 'score': 0.3138}, {'text': 'narendramodi', 'score': 0.3031}]",Neutral ,no stance on CAA being taken. 
+1737992,How the New Zealander vlogger Karl Rock went from ‘exposing scams in India’ to visiting POK right after joining the anti-CAA protests https://t.co/4jTEngSnl5,Pro Ruling,pro ruling,caa,"['rock', 'scams', 'india']","[{'text': 'rock', 'score': 0.4357}, {'text': 'scams', 'score': 0.401}, {'text': 'india', 'score': 0.2574}]",Neutral ,no stance on CAA being taken. 
+198593,"More dangerous than #coronavirus is  #ModiVurus -it feeds on jingoism,  publicity &amp; spreads hate! Over 6 LAKH, yes 6 LAKH migrants maybe infected with #COVID2019 cause of the #LockdownWithoutPlan of hona'ble @narendramodi ji. In any democracy,  @PMOIndia would have to resign. https://t.co/YqsPX67caA",Pro OPP,pro opposition,caa,"['coronavirus', 'resign', 'jingoism']","[{'text': 'coronavirus', 'score': 0.598}, {'text': 'resign', 'score': 0.2085}, {'text': 'jingoism', 'score': 0.1891}]",Neutral ,no stance on CAA being taken. 
+492386,Azamgarh: Congress General Secretary Priyanka Gandhi Vadra meets and interacts with protesters holding demonstration against Citizenship Amendment Act (CAA) and National Register of Citizens (NRC) https://t.co/43KbbrIswe,Pro Ruling,pro ruling,caa,"['protesters', 'azamgarh', 'secretary']","[{'text': 'protesters', 'score': 0.6047}, {'text': 'azamgarh', 'score': 0.3571}, {'text': 'secretary', 'score': 0.1813}]",Neutral ,"no stance taken, only news delivered.  "
+1430541,"NY Times is building an anti-Modi team in Delhi. Some journos who were anti- CAA crusaders, spun fake narratives on farmer protests, opposed all policy level decisions by deliberately misleading public have HOPE. Wannabes who suck up to the western media can apply for this post.",Pro Ruling,pro ruling,caa,"['delhi', 'protests', 'media']","[{'text': 'delhi', 'score': 0.4366}, {'text': 'protests', 'score': 0.2704}, {'text': 'media', 'score': 0.2192}]",For ,"shows that some journalists who are anti-CAA, spread fake narratives, mislead public and suck up to western media. "
+317152,"So @sudhirchaudhary quietly deleted this tweet where he alleged CAA protests were funded by PFI. 
+Here is Archive link: https://t.co/CMgOgQeTSS
+
+Read @AltNews fact check https://t.co/FU8jeEXL5N
+... https://t.co/h71uRQSNjO",Pro OPP,pro opposition,caa,"['protests', 'deleted', 'sudhirchaudhary']","[{'text': 'protests', 'score': 0.4593}, {'text': 'deleted', 'score': 0.3807}, {'text': 'sudhirchaudhary', 'score': 0.2981}]",Neutral ,"no stance taken, only news delivered.  "
+714907,"In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ""internal matters"" (farmers protests, CAA,J&amp;K etc).",Pro OPP,pro opposition,caa,"['govt', 'indian', 'protests']","[{'text': 'govt', 'score': 0.4187}, {'text': 'indian', 'score': 0.3912}, {'text': 'protests', 'score': 0.359}]",Against ,calls out hypocricy of modi govt. 
+929458,Social activist #HarshMander’s plea seeks the arrest and registration of an FIR against #BJP leader #KapilMishra for allegedly encouraging violence against anti-#CAA protestors in February last year https://t.co/s0UiFHLErC,Pro OPP,pro opposition,caa,"['mishra', 'protestors', 'arrest']","[{'text': 'mishra', 'score': 0.4292}, {'text': 'protestors', 'score': 0.3722}, {'text': 'arrest', 'score': 0.3523}]",Neutral ,"no stance taken, only news delivered.  "
+2131186,"From anti-CAA to Khalistani protest, attempt was made to appropriate Tiranga by the other side. By using Hum Dekhenge in The Kashmir Files, Vivek ne Faizal ban ke sabka badla le liya 😂",Pro Ruling,pro ruling,caa,"['kashmir', 'protest', 'vivek']","[{'text': 'kashmir', 'score': 0.5255}, {'text': 'protest', 'score': 0.4366}, {'text': 'vivek', 'score': 0.3755}]",For ,shows that anti-CAA protests were done by Pakistan to appropriate the Indian flag and its values. 
+3117,Amit Shah's 'Bhima Koregaon Model' Used For Anti-CAA Protests — by @nandinisundar  https://t.co/3hw4UIn9Mt,Pro OPP,pro opposition,caa,"['protests', 'bhima', 'used']","[{'text': 'protests', 'score': 0.6444}, {'text': 'bhima', 'score': 0.4059}, {'text': 'used', 'score': 0.3583}]",Neutral ,"no stance taken, only news delivered.  "
+368883,"You folks are glamourising and egging on Muslim women protesting near Jamia instead of educating them,is CAA any danger to them?There is no NRC but you folks spread fear:Shame on you:look inside your conscience!Stand for the Truth @BDUTT @sardesairajdeep @ShekharGupta @ndtv",Pro Ruling,pro ruling,caa,"['muslim', 'fear', 'caa']","[{'text': 'muslim', 'score': 0.533}, {'text': 'fear', 'score': 0.2977}, {'text': 'caa', 'score': 0.2583}]",For ,suggests that CAA is not of any danger to indian muslim women. 
+1962122,"UP: BJP leader, two others acquitted of Muslim man’s murder during anti-CAA protests
+
+Full Report in @MaktoobMedia ⤵️
+
+https://t.co/JeX6V5t9Ci",Pro OPP,pro opposition,caa,"['muslim', 'acquitted', 'leader']","[{'text': 'muslim', 'score': 0.4986}, {'text': 'acquitted', 'score': 0.4648}, {'text': 'leader', 'score': 0.3115}]",Against ,shows how bjp murders anti-CAA protesters. 
+259325,Particularly tough year and a half for the MEA/Missions worldwide due to govts domestic policy..After protests and criticism by UN/Foreign govts on Art 370/J&amp;K clampdown/CAA-NRC/Delhi Riots....now over Farmers protests. https://t.co/C7PHSr5gHl,Pro OPP,pro opposition,caa,"['protests', 'clampdown', 'farmers']","[{'text': 'protests', 'score': 0.4283}, {'text': 'clampdown', 'score': 0.2618}, {'text': 'farmers', 'score': 0.2489}]",Against ,shows how UN and international Govts condemned CAA. 
+1961583,"""You Are The Complainant, Prosecutor, and Adjudicator"": Supreme Court Pulls Up UP Govt. For Acting On Recovery Notices To Ant-CAA Protestors @jain_mehal https://t.co/HWSTtkEvGR",Pro OPP,pro opposition,caa,"['prosecutor', 'protestors', 'ant']","[{'text': 'prosecutor', 'score': 0.4884}, {'text': 'protestors', 'score': 0.4837}, {'text': 'ant', 'score': 0.2325}]",Against ,Supreme court holds UP govt responsible. 
+644059,"Three men from Muzaffarnagar were brainwashed by predatory Da'wah orgs into falling for superstitions like jannat-jahannum &amp; hoors. Changed their names to Arabic words
+
+They have now discarded those superstitions, helped by Hindu Jagran Manch. And reverted to Indian names https://t.co/8Caabvb2E0",Pro Ruling,pro ruling,caa,"['hindu', 'discarded', 'orgs']","[{'text': 'hindu', 'score': 0.4969}, {'text': 'discarded', 'score': 0.2128}, {'text': 'orgs', 'score': -0.0345}]",Neutral ,no stance on CAA being taken. 
+2491390,"The US will now keep India out of the CAATSA rule, which will mean that India will be able to buy weapons without any restrictions.
+
+This is a proof of the rising stature of New India!
+
+#USA #India #CAATSA https://t.co/MKPtS3AkPF",Pro Ruling,pro ruling,caa,"['india', 'weapons', 'without']","[{'text': 'india', 'score': 0.495}, {'text': 'weapons', 'score': 0.3405}, {'text': 'without', 'score': 0.1986}]",Neutral ,no stance on CAA being taken. 
+2511404,"Kanpur violence mastermind Hayat Zafar Hashmi arrested, had earlier participated in violent anti-CAA protests
+
+https://t.co/EqAggTuFkR",Pro Ruling,pro ruling,caa,"['arrested', 'protests', 'hashmi']","[{'text': 'arrested', 'score': 0.4125}, {'text': 'protests', 'score': 0.4049}, {'text': 'hashmi', 'score': 0.3521}]",For ,shows how anti-CAA is violent. 
+167924,"When Hindus go on pilgrimage, they bow in devotion &amp; ask
+SARVE JANA SUKHINO BHAVANTU
+
+But these Muslims go on Hajj pilgrimage in Mecca
+
+And pray that RSS &amp; BJP should be eliminated
+
+If we Hindus still don't get awakened,
+
+Soon we will face similar fate just like Kashmiri Pandits https://t.co/dvUT4arAZC",Pro Ruling,pro ruling,caa,"['hindus', 'pray', 'eliminated']","[{'text': 'hindus', 'score': 0.67}, {'text': 'pray', 'score': 0.2798}, {'text': 'eliminated', 'score': 0.2018}]",For ,shows muslims as the problem and asks hindus to wake up. 
+281178,"Staff and Officers of Lucknow division of N. E. Railway voluntarily contributed Rs. 31 lacs to the UP CM distress relief fund
+
+Shri Yogi Adityanath, Hon'ble CM of UP acknowledged the gesture by accepting the contribution from DRM Lucknow, Dr. Monica Agnihotri
+
+#IndiaFightsCorona https://t.co/bM6faeEvPW",Pro Ruling,pro ruling,caa,"['contribution', 'india', 'officers']","[{'text': 'contribution', 'score': 0.4512}, {'text': 'india', 'score': 0.3353}, {'text': 'officers', 'score': 0.2603}]",Neutral ,no stance on CAA being taken. 
+1258564,"Slowly Entire India is getting aware that Farmer's Protest is actually FAILED POLITICIAN'S protest against Modi!
+
+Ram Mandir
+Article 370 abrogated
+CAA
+Demonetization
+GST
+Bodo Accord
+Chandrayan
+Best Covid Handling
+Naxals in Jail
+UP under Yogi
+.
+STOP Modi else they all will finish https://t.co/jYbNIRlYIJ",Pro Ruling,pro ruling,caa,"['demonetization', 'india', 'farmer']","[{'text': 'demonetization', 'score': 0.4341}, {'text': 'india', 'score': 0.3389}, {'text': 'farmer', 'score': 0.2718}]",For ,shows that CAA is actually propoganda against Modi by failed politicians. 
+80543,"Punjab government to bring resolution against CAA-NRC in Assembly | India News,The Indian Express https://t.co/Fvjz70XCch",Pro OPP,pro opposition,caa,"['caa', 'india', 'resolution']","[{'text': 'caa', 'score': 0.3343}, {'text': 'india', 'score': 0.327}, {'text': 'resolution', 'score': 0.2431}]",Neutral ,"no stance taken, only news delivered.  "
+543628,"If you stand with @FarOutAkhtar in his new movie #Toofan, it means you also stand with terror linked organisation Stand With Kashmir. This what this Bollywood person was propagating at the Anti-CAA protests. #BoycottToofan.",Pro Ruling,pro ruling,caa,"['faroutakhtar', 'protests', 'linked']","[{'text': 'faroutakhtar', 'score': 0.4926}, {'text': 'protests', 'score': 0.368}, {'text': 'linked', 'score': 0.1408}]",For,being against CAA equates standing wih terror linked organisations. 
+1054951,They want India to bring back ISIS brides on ‘humanitarian’ grounds but oppose India giving citizenship under CAA to those persecuted by the ISIS.,Pro Ruling,pro ruling,caa,"['india', 'isis', 'brides']","[{'text': 'india', 'score': 0.4323}, {'text': 'isis', 'score': 0.4073}, {'text': 'brides', 'score': 0.1611}]",For ,calls out hypocricy of those protesting against CAA.
+29053,"UN Rights group on Delhi violence arrests: ""These defenders appear to have been arrested simply because they exercised their right to protest against the CAA &amp;their arrest seems clearly designed to send a chilling message to India's vibrant civil society""
+https://t.co/2ChvxnfZ1i",Pro OPP,pro opposition,caa,"['defenders', 'arrested', 'india']","[{'text': 'defenders', 'score': 0.4993}, {'text': 'arrested', 'score': 0.4765}, {'text': 'india', 'score': 0.2873}]",Against ,shows how UN and international Govts condemned CAA. 
+226585,"Poet, #BappadityaSarkar had gone to Mumbai to take part in anti-#CAA protest. On his way back, he went through a scary experience when his #Uber driver took him to police station and threatened him. #CitizenshipAmendmentAct @kavita_krishnan https://t.co/STbtVe0qlW",Pro OPP,pro opposition,caa,"['kavita_krishnan', 'protest', 'driver']","[{'text': 'kavita_krishnan', 'score': 0.5307}, {'text': 'protest', 'score': 0.4636}, {'text': 'driver', 'score': 0.1947}]",Against ,shows how those protesting against CAA are being threatened. 
+1393222,"No December in Delhi is complete without atrocities &amp; protests.
+
+Dec 2019-  #AntiCAAProtest
+
+Dec 2020- #FarmersProtest
+
+Dec 2021-  #DoctorsProtest
+
+Waiting for one against the main culprit-
+#AntiGodiMediaProtest",Pro OPP,pro opposition,caa,"['december', 'protests', 'culprit']","[{'text': 'december', 'score': 0.4629}, {'text': 'protests', 'score': 0.4114}, {'text': 'culprit', 'score': 0.2955}]",Against ,shows that the main culprit of everything is media.
+2692020,"👉 Between Jan to Dec 2019, Modi Govt demanded info &amp; user details for 1057 accounts
+
+👉And then, during the anti-CAA &amp; Farmer Protests between Jan to Dec 2020, Modi Govt demanded info &amp; user details for 5830 accounts.
+
+This is an INCREASE OF 452%!
+
+(3/13) https://t.co/ey7jZCaKNE",Pro OPP,pro opposition,caa,"['accounts', 'protests', 'farmer']","[{'text': 'accounts', 'score': 0.4366}, {'text': 'protests', 'score': 0.2659}, {'text': 'farmer', 'score': 0.0787}]",Neutral ,no stance on CAA being taken. 
+181815,"#ChunavManch | In the last five years, @ArvindKejriwal has not given even one place to any woman in his Cabinet. PAC, AAP's highest decision making body too didn't include any woman: Congress' @NayakRagini 
+
+@IMinakshiJoshi",Pro Ruling,pro ruling,caa,"['woman', 'cabinet', 'congress']","[{'text': 'woman', 'score': 0.2977}, {'text': 'cabinet', 'score': 0.2476}, {'text': 'congress', 'score': 0.2308}]",Neutral ,no stance on CAA being taken. 
+129168,Aditya Thackeray to share stage with Tukde Tukde Gang leader Umar Khalid to protest against CAA https://t.co/ap4ntPYt8t,Pro Ruling,pro ruling,caa,"['protest', 'thackeray', 'caa']","[{'text': 'protest', 'score': 0.363}, {'text': 'thackeray', 'score': 0.3082}, {'text': 'caa', 'score': 0.1699}]",Neutral ,"no stance taken, only news delivered."
+31486,"""We will move from here only after #NRC and #CAA is scrapped"": Woman protester at Delhi's  #ShaheenBagh tells NDTV's Ravish Kumar 
+
+#PrimeTime https://t.co/S3cN99tgeh",Pro OPP,pro opposition,caa,"['protester', 'delhi', 'scrapped']","[{'text': 'protester', 'score': 0.4616}, {'text': 'delhi', 'score': 0.3991}, {'text': 'scrapped', 'score': 0.2245}]",Neutral ,"no stance taken, only news delivered."
+1235982,"The visit by PM @narendramodi to Shakti Peeth #Jeshoreshwari temple and Matua Shrine of #Orakandi will.give a renewed confidence to the persecuted Hindus, especially SCs of #Bangladesh . It should be seen as a complimentary action to #CAA  https://t.co/nllEW1oJs2 via @eOrganiser",Pro Ruling,pro ruling,caa,"['hindus', 'caa', 'complimentary']","[{'text': 'hindus', 'score': 0.5972}, {'text': 'caa', 'score': 0.3667}, {'text': 'complimentary', 'score': 0.265}]",For ,shows how CAA act is complimented by renewed confidence to persecuted hindus. 
+2225088,"Shaheen Baug, Anti-CAA Riots, Fake Farmers Protests....What were all these?
+
+China can afford to CRUSH such Protests. It's communist dictatorship! Possible in Bharat which is Democracy full of enemies WITHIN?
+
+11/12",Pro Ruling,pro ruling,caa,"['dictatorship', 'china', 'farmers']","[{'text': 'dictatorship', 'score': 0.5188}, {'text': 'china', 'score': 0.5022}, {'text': 'farmers', 'score': 0.1246}]",For ,shows that those who protest against CAA in india are actually enemies of the nation. 
+552067,On the last day of the darkest year for #India ‘a democracy a BIG shout out to the STUDENTS OF INDIA &amp; civil society members who are leading peaceful protests against unethical laws &amp; schemes like CAA- NRC-NPR! U have returned this country her conscience #IndiaDoesNotSupportCAA https://t.co/3NqQmbVycj,Pro OPP,pro opposition,caa,"['india', 'protests', 'darkest']","[{'text': 'india', 'score': 0.4877}, {'text': 'protests', 'score': 0.386}, {'text': 'darkest', 'score': 0.2835}]",Against ,calls CAA unethical and claims that India does not support it. 
+478251,"When it comes to Anti-India activities
+
+Congress, Kejriwal, Yogendra Yadav, Prashant Bhushan, Left leaders they all become one. Be it Anti-CAA or Farmers Bill
+
+This shows that AAP project was designed by Congress to dent BJP in Urban areas
+
+BJP has smartly trapped AAP in Delhi",Pro Ruling,pro ruling,caa,"['delhi', 'congress', 'dent']","[{'text': 'delhi', 'score': 0.5337}, {'text': 'congress', 'score': 0.3958}, {'text': 'dent', 'score': 0.09}]",For,"calls anti-CAA an ""anti-India"" activity. "
+222747,"Gurjar protest for reservation.
+
+This govt and Media called Anti-CAA protesters terrorist and Anti National for doing peaceful protest.
+
+Sharjeel Imam is in jail because he'd asked for road blockade.
+
+This country has different rules for Muslims. https://t.co/MDlNhfIbTn",Pro OPP,pro opposition,caa,"['protesters', 'jail', 'caa']","[{'text': 'protesters', 'score': 0.5668}, {'text': 'jail', 'score': 0.3263}, {'text': 'caa', 'score': 0.281}]",Against ,claims that the country has different rules for muslims. 
+93477,"Guys I feel I haven’t done enough for the anti CAA protests. Feeling very left out. Can someone please do an FIR on me...
+Also, just incase Arnab goes to jail I don’t want him to feel lonely.
+😂😂😂",Pro OPP,pro opposition,caa,"['protests', 'lonely', 'jail']","[{'text': 'protests', 'score': 0.4382}, {'text': 'lonely', 'score': 0.3624}, {'text': 'jail', 'score': 0.253}]",Against ,"mocks how anyone who protests the CAA, gets an FIR. "
+449605,Shaheen Bagh is more than a generic phrase for the nation-wide anti CAA/NRC movement. It’s a toolkit for other protestors too. Scholars analyse the implications of protest movements and how they shape our democracy https://t.co/RhSOy9S7hz,Pro OPP,pro opposition,caa,"['bagh', 'protestors', 'toolkit']","[{'text': 'bagh', 'score': 0.5173}, {'text': 'protestors', 'score': 0.4808}, {'text': 'toolkit', 'score': 0.2326}]",Neutral ,"no stance taken, only news delivered."
+126917,"PM @narendramodi dream innings:
+◆28/9/16:Surgical Strike
+◆8/11/16:Demonetization
+◆1/7/17:GST
+◆8/1/19:EWS 
+◆27/2/19:Surgical Strike
+◆27/3/19:ASAT Missile
+◆30/7/19:TT Bill
+◆2/8/19:UAPA
+◆5/8/19: Abrogation of 370/35A
+◆11/9/19: CAA
+◆5/8/20: Ram Mandir Bhumi Pujan",Pro Ruling,pro ruling,caa,"['narendramodi', 'strike', 'dream']","[{'text': 'narendramodi', 'score': 0.5416}, {'text': 'strike', 'score': 0.4526}, {'text': 'dream', 'score': 0.4349}]",For ,"shows how CAA is on the list of Modi's ""dream innings"". "
+304362,Watch on @LRC_NDTV | Congress' Gaurav Gogoi on PM Modi's remark in parliament on opposition leaders who were peaceful first are now part of the anti #CAA protests. https://t.co/WwrewA79vk,Pro OPP,pro opposition,caa,"['protests', 'caa', 'lrc_ndtv']","[{'text': 'protests', 'score': 0.5693}, {'text': 'caa', 'score': 0.4374}, {'text': 'lrc_ndtv', 'score': 0.1743}]",Neutral ,"no stance taken, only news delivered."
+514631,"Dear Sanghi. 
+Who put division in indian 
+You
+Who is lies machine in world
+Modi 
+Who talking goli maro.... 
+You
+Who saying identify with clothes
+You
+Who explain about chronology
+You. 
+Shut up sanghi it's better for nation. 
+Jai Hind. 
+#IndiaAgainstCAA_NPR_NRC 
+@INCIndia https://t.co/Vb5UNlQYi9",Pro OPP,pro opposition,caa,"['indian', 'division', 'shut']","[{'text': 'indian', 'score': 0.5661}, {'text': 'division', 'score': 0.2402}, {'text': 'shut', 'score': 0.1366}]",Against ,hashtag suggests how india rejects CAA. 
+2789047,"Muslims are in jail for delivering speeches during Anti-CAA protests.
+
+These Hindutva leaders are delivering hate speeches across the country and police can't even file an FIR against them. https://t.co/NGeRxtq6Pt",Pro OPP,pro opposition,caa,"['muslims', 'jail', 'leaders']","[{'text': 'muslims', 'score': 0.5681}, {'text': 'jail', 'score': 0.4065}, {'text': 'leaders', 'score': 0.2374}]",Against ,claims that the country has different rules for muslims. 
+20147,"Today, Lawyers march to protest against CAA-NRC
+
+Will the highly educated BJP politicians now also call lawyers as uneducated? 
+
+https://t.co/lw5A2hpBjl",Pro OPP,pro opposition,caa,"['lawyers', 'protest', 'uneducated']","[{'text': 'lawyers', 'score': 0.5821}, {'text': 'protest', 'score': 0.3979}, {'text': 'uneducated', 'score': 0.2817}]",Against ,shows how even educated lawyers are protesting against CAA. 
+279854,"Mullah: Protesting is a right in democracy. So govt should provide masks, sanitizers to anti-CAA protestors
+
+Rohit Sardana: Ohhh really? Don't you want salary, life insurance &amp; pension? 😂
+
+Mullah shocked, Rohit rocked! https://t.co/fVxdwai4LX",Pro Ruling,pro ruling,caa,"['protesting', 'mullah', 'salary']","[{'text': 'protesting', 'score': 0.5223}, {'text': 'mullah', 'score': 0.4831}, {'text': 'salary', 'score': 0.0859}]",For ,"discriminates against muslims, calls them ""mullah"". "
+1295238,"On Dec 25, 2019, in a rally at Jantar Mantar supporting the CAA, Yati Narsinghanand said for the first time that Hindus would have to come on to the streets to teach a lesson to the Muslims who were protesting the CAA.
+https://t.co/RqtBSd8xXB",Pro OPP,pro opposition,caa,"['hindus', 'teach', 'protesting']","[{'text': 'hindus', 'score': 0.4282}, {'text': 'teach', 'score': 0.408}, {'text': 'protesting', 'score': 0.3915}]",Against ,"shows how hindus are being invigorated to ""teach muslims a lesson"" for opposing CAA. "
+52954,"Must read: 1 Year of CAA: How High Courts Stood By Protesters When SC Didn’t. Many HC judges have been true to their oath, despite seeing the collapse of the SC
+https://t.co/77Mk1rkVbJ",Pro OPP,pro opposition,caa,"['judges', 'protesters', 'collapse']","[{'text': 'judges', 'score': 0.5653}, {'text': 'protesters', 'score': 0.4214}, {'text': 'collapse', 'score': 0.1516}]",Against ,"shows how unlike Supreme court, High Courts stood by Anti-CAA protesters and stayed true to their oath. "
+188104,#WhatsApp status supporting #ShaheenBagh protest landed a young Muslim in jail for five months. His family had to take Rs one lakh loan to secure bail for him. #CAA #NRC https://t.co/IdYoGrQSyj,Pro OPP,pro opposition,caa,"['muslim', 'loan', 'secure']","[{'text': 'muslim', 'score': 0.5867}, {'text': 'loan', 'score': 0.2787}, {'text': 'secure', 'score': 0.2126}]",Against ,claims that the country has different rules for muslims. 
+2891716,Salil Shetty at differen anti-CAA protest site. https://t.co/k42M6kt2mm,Pro Ruling,pro ruling,caa,"['protest', 'shetty', 'caa']","[{'text': 'protest', 'score': 0.6541}, {'text': 'shetty', 'score': 0.3934}, {'text': 'caa', 'score': 0.3708}]",Neutral ,"no stance taken, only news delivered."
+28260,"Modi's police issues ultimatum to vacate the protesting site against #CAA_NRC at Shaheen Bagh, Delhi. #JNUViolence has been created to divert the attention from #CAA_NRCProtests  &amp; polarize the country further to brand the #CAA_NRC protesters anti-nationals.",Pro OPP,pro opposition,caa,"['protests', 'police', 'brand']","[{'text': 'protests', 'score': 0.4716}, {'text': 'police', 'score': 0.4014}, {'text': 'brand', 'score': 0.0008}]",Against ,"shows how CAA is done to polarise nation and there is a goal to label those who oppose CAA as ""anti national"". "
+226613,"The #AntiCAA protesters in Bilariyaganj area of #Azamgarh district in east UP have alleged that the #UPPolice lathi-charged on them in the wee hours of Wednesday, leaving at least 10 of them injured. #UttarPradesh https://t.co/e0mrox6SHT",Pro OPP,pro opposition,caa,"['police', 'injured', 'protesters']","[{'text': 'police', 'score': 0.5152}, {'text': 'injured', 'score': 0.4091}, {'text': 'protesters', 'score': 0.4025}]",Against ,shows the brutality and violence faced by those who oppose CAA. 
+25467,"Destruction of Hindu temple in Pakistan by neighbours shows that CAA should be modified &amp; cut-off date removed. Any Hindu, Sikh, Jain, Buddhist or follower of indigenous tribal faith should be able to claim Indian citizenship at anytime. Amend the constitution for it if required.",Pro Ruling,pro ruling,caa,"['hindu', 'removed', 'citizenship']","[{'text': 'hindu', 'score': 0.5553}, {'text': 'removed', 'score': 0.3239}, {'text': 'citizenship', 'score': 0.2131}]",For ,shows that CAA should be modified but implemented. 
+910139,"EAM @DrSJaishankar delivered an address at the UNSC Open Debate on ‘Peace and Security in Africa: addressing root causes of conflict while promoting post-pandemic recovery in Africa’. 
+
+Full Address: https://t.co/IC0APxXAZq https://t.co/tevsqCitoJ",Pro Ruling,pro ruling,caa,"['africa', 'pandemic', 'security']","[{'text': 'africa', 'score': 0.6034}, {'text': 'pandemic', 'score': 0.3873}, {'text': 'security', 'score': 0.2411}]",Neutral ,no stance on CAA being taken. 
+932342,"#IUML has moved #SC challenging the Centre's notification inviting non-#Muslims belonging to #Afghanistan, #Bangladesh and #Pakistan to apply for Indian #citizenship. #CAA https://t.co/ELpwctcSaJ",Pro OPP,pro opposition,caa,"['muslims', 'citizenship', 'apply']","[{'text': 'muslims', 'score': 0.4399}, {'text': 'citizenship', 'score': 0.4161}, {'text': 'apply', 'score': 0.3519}]",Against ,shows how supreme court challenging Centre. 
