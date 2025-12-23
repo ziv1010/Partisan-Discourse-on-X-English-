@@ -64,3 +64,6 @@ env/
 *.log
 *.tmp
 *.temp
+
+lora_adaptor/
+final_data/

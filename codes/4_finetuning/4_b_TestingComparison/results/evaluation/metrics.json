@@ -1,0 +1,45 @@
+{
+  "total_samples": 265,
+  "valid_samples": 264,
+  "skipped_samples": 1,
+  "accuracy": 0.7803,
+  "precision_macro": 0.78,
+  "recall_macro": 0.7531,
+  "f1_macro": 0.7622,
+  "precision_weighted": 0.7802,
+  "recall_weighted": 0.7803,
+  "f1_weighted": 0.777,
+  "per_class": {
+    "against": {
+      "precision": 0.7835051546391752,
+      "recall": 0.8,
+      "f1-score": 0.7916666666666666,
+      "support": 95.0
+    },
+    "favor": {
+      "precision": 0.7786885245901639,
+      "recall": 0.8558558558558559,
+      "f1-score": 0.8154506437768241,
+      "support": 111.0
+    },
+    "neutral": {
+      "precision": 0.7777777777777778,
+      "recall": 0.603448275862069,
+      "f1-score": 0.6796116504854369,
+      "support": 58.0
+    },
+    "accuracy": 0.7803030303030303,
+    "macro avg": {
+      "precision": 0.779990485669039,
+      "recall": 0.7531013772393083,
+      "f1-score": 0.7622429869763092,
+      "support": 264.0
+    },
+    "weighted avg": {
+      "precision": 0.780221693300534,
+      "recall": 0.7803030303030303,
+      "f1-score": 0.777048600457258,
+      "support": 264.0
+    }
+  }
+}
