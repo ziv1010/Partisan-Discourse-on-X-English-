@@ -3,7 +3,7 @@
 # =====================================================
 
 # Large CSV files in final_data
-final_data/tweets_exploded_by_keyword.csv
+#final_data/tweets_exploded_by_keyword.csv
 
 # Large CSV files in cleaning_and_formatting
 codes/1_cleaning_and_formatting/input data/retweet_data_combined_labeled_by_retweet.csv
@@ -67,3 +67,4 @@ env/
 
 lora_adaptor/
 final_data/
+codes/6_stance/results

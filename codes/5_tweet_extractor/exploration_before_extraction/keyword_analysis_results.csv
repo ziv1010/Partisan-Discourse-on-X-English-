@@ -1,0 +1,96 @@
+keyword,category,keyword_col_count,keyword_col_pro_ruling,keyword_col_pro_ruling_pct,keyword_col_pro_opp,keyword_col_pro_opp_pct,keyword_col_neutral,keyword_col_neutral_pct,fallback_count,fallback_pro_ruling,fallback_pro_ruling_pct,fallback_pro_opp,fallback_pro_opp_pct,fallback_neutral,fallback_neutral_pct
+kashmir,Religious/Nationalist,19770,12195,61.68,3887,19.66,3688,18.65,16603,10123,60.97,3191,19.22,3289,19.81
+vaccination,Government Schemes/Pro-Modi,19464,11623,59.72,4252,21.85,3589,18.44,10008,6083,60.78,1937,19.35,1988,19.86
+hindus,Religious/Nationalist,18587,15810,85.06,1994,10.73,783,4.21,14925,12297,82.39,1680,11.26,948,6.35
+rss,Religious/Nationalist,17997,12102,67.24,5037,27.99,855,4.75,11715,5143,43.9,5160,44.05,1404,11.98
+democracy,Opposition/Criticism,12763,4610,36.12,6772,53.06,1381,10.82,8953,2980,33.28,4624,51.65,1349,15.07
+muslims,Economic/Social Issues,11619,5050,43.46,5707,49.12,862,7.42,8033,3945,49.11,3397,42.29,691,8.6
+ayodhya,Religious/Nationalist,5912,4146,70.13,933,15.78,833,14.09,3018,1919,63.59,528,17.5,570,18.89
+petrol,Economic/Social Issues,4721,1192,25.25,2735,57.93,794,16.82,3738,1275,34.11,1651,44.17,812,21.72
+unemployment,Economic/Social Issues,4296,521,12.13,3233,75.26,542,12.62,2014,283,14.05,1364,67.73,367,18.22
+hindutva,Religious/Nationalist,4094,1730,42.26,1951,47.66,413,10.09,3678,1511,41.08,1812,49.27,355,9.65
+thewire_in,Opposition/Criticism,3799,458,12.06,3302,86.92,39,1.03,2094,254,12.13,1825,87.15,15,0.72
+inflation,Economic/Social Issues,3431,968,28.21,1679,48.94,784,22.85,1903,624,32.79,799,41.99,480,25.22
+mahotsav,Government Schemes/Pro-Modi,2854,2758,96.64,58,2.03,38,1.33,5615,5358,95.42,93,1.66,164,2.92
+diesel,Economic/Social Issues,2227,492,22.09,1260,56.58,475,21.33,1825,407,22.3,931,51.01,487,26.68
+islamists,Religious/Nationalist,2085,2018,96.79,12,0.58,55,2.64,1498,1405,93.79,16,1.07,77,5.14
+lynching,Criticism/Scandals,1775,1208,68.06,450,25.35,117,6.59,1209,725,59.97,361,29.86,123,10.17
+minorities,Economic/Social Issues,1614,641,39.71,776,48.08,197,12.21,1894,873,46.09,756,39.92,265,13.99
+trolls,Opposition/Criticism,1535,292,19.02,1218,79.35,25,1.63,1017,320,31.47,664,65.29,33,3.24
+hathras,Economic/Social Issues,1457,344,23.61,982,67.4,131,8.99,2618,703,26.85,1409,53.82,506,19.33
+caa,Government Schemes/Pro-Modi,1442,727,50.42,475,32.94,240,16.64,4264,2035,47.73,1565,36.7,664,15.57
+bhakts,Opposition/Criticism,1359,140,10.3,1197,88.08,22,1.62,1839,326,17.73,1454,79.06,59,3.21
+spyware,Criticism/Scandals,1314,98,7.46,1110,84.47,106,8.07,482,31,6.43,379,78.63,72,14.94
+ambani,Criticism/Scandals,1048,241,23.0,730,69.66,77,7.35,1950,634,32.51,1045,53.59,271,13.9
+gdp,Economic/Social Issues,994,244,24.55,678,68.21,72,7.24,2401,1060,44.15,1035,43.11,306,12.74
+balochistan,Religious/Nationalist,957,919,96.03,9,0.94,29,3.03,679,639,94.11,12,1.77,28,4.12
+aatmanirbhar,Government Schemes/Pro-Modi,883,780,88.34,43,4.87,60,6.8,5463,5185,94.91,81,1.48,197,3.61
+nep2020,Government Schemes/Pro-Modi,814,774,95.09,9,1.11,31,3.81,567,526,92.77,11,1.94,30,5.29
+msp,Economic/Social Issues,741,516,69.64,142,19.16,83,11.2,2662,1385,52.03,838,31.48,439,16.49
+lapdog,Opposition/Criticism,722,26,3.6,696,96.4,0,0.0,856,27,3.15,829,96.85,0,0.0
+teleprompter,Opposition/Criticism,705,81,11.49,618,87.66,6,0.85,250,43,17.2,203,81.2,4,1.6
+dictatorship,Opposition/Criticism,617,100,16.21,409,66.29,108,17.5,341,107,31.38,172,50.44,62,18.18
+sharia,Religious/Nationalist,605,572,94.55,17,2.81,16,2.64,591,539,91.2,20,3.38,32,5.41
+lakhimpurkheri,Criticism/Scandals,575,62,10.78,414,72.0,99,17.22,646,81,12.54,413,63.93,152,23.53
+demonetisation,Criticism/Scandals,555,58,10.45,420,75.68,77,13.87,678,112,16.52,463,68.29,103,15.19
+snooping,Criticism/Scandals,514,47,9.14,382,74.32,85,16.54,430,59,13.72,270,62.79,101,23.49
+ratetvdebate,Opposition/Criticism,509,0,0.0,509,100.0,0,0.0,128,0,0.0,127,99.22,1,0.78
+suicides,Economic/Social Issues,504,87,17.26,381,75.6,36,7.14,246,45,18.29,189,76.83,12,4.88
+millets,Government Schemes/Pro-Modi,487,470,96.51,1,0.21,16,3.29,397,367,92.44,8,2.02,22,5.54
+urduwood,Religious/Nationalist,434,434,100.0,0,0.0,0,0.0,763,762,99.87,1,0.13,0,0.0
+hindenburg,Criticism/Scandals,419,64,15.27,327,78.04,28,6.68,530,137,25.85,290,54.72,103,19.43
+sarkaryavah,Religious/Nationalist,395,394,99.75,0,0.0,1,0.25,256,254,99.22,0,0.0,2,0.78
+adani,Criticism/Scandals,390,46,11.79,338,86.67,6,1.54,4776,1240,25.96,2847,59.61,689,14.43
+pmcares,Criticism/Scandals,359,65,18.11,290,80.78,4,1.11,712,316,44.38,340,47.75,56,7.87
+darpok56inch,Opposition/Criticism,352,0,0.0,352,100.0,0,0.0,267,0,0.0,267,100.0,0,0.0
+catastrophe,Criticism/Scandals,347,26,7.49,306,88.18,15,4.32,254,36,14.17,189,74.41,29,11.42
+supremacists,Opposition/Criticism,326,13,3.99,303,92.94,10,3.07,233,29,12.45,190,81.55,14,6.01
+sangh,Religious/Nationalist,300,220,73.33,78,26.0,2,0.67,4796,1743,36.34,2718,56.67,334,6.96
+authoritarian,Opposition/Criticism,285,26,9.12,237,83.16,22,7.72,375,67,17.87,277,73.87,31,8.27
+ucc,Religious/Nationalist,187,103,55.08,39,20.86,45,24.06,9431,5674,60.16,2036,21.59,1721,18.25
+makeinindia,Government Schemes/Pro-Modi,167,162,97.01,5,2.99,0,0.0,599,562,93.82,24,4.01,13,2.17
+pegasus,Criticism/Scandals,104,15,14.42,85,81.73,4,3.85,2430,249,10.25,1688,69.47,493,20.29
+swachhbharat,Government Schemes/Pro-Modi,73,73,100.0,0,0.0,0,0.0,514,492,95.72,13,2.53,9,1.75
+nrc,Government Schemes/Pro-Modi,38,16,42.11,16,42.11,6,15.79,1427,490,34.34,713,49.96,224,15.7
+ujjwala,Government Schemes/Pro-Modi,37,34,91.89,3,8.11,0,0.0,380,320,84.21,37,9.74,23,6.05
+gst,Government Schemes/Pro-Modi,31,13,41.94,18,58.06,0,0.0,6488,3892,59.99,1574,24.26,1022,15.75
+amritkaal,Government Schemes/Pro-Modi,27,0,0.0,27,100.0,0,0.0,610,540,88.52,42,6.89,28,4.59
+pmay,Government Schemes/Pro-Modi,21,7,33.33,14,66.67,0,0.0,370,339,91.62,10,2.7,21,5.68
+shaheenbagh,Opposition/Criticism,15,12,80.0,2,13.33,1,6.67,669,369,55.16,216,32.29,84,12.56
+jaishriram,Religious/Nationalist,15,15,100.0,0,0.0,0,0.0,221,206,93.21,6,2.71,9,4.07
+newindia,Government Schemes/Pro-Modi,11,11,100.0,0,0.0,0,0.0,6151,3643,59.23,2400,39.02,108,1.76
+notebandi,Criticism/Scandals,8,0,0.0,8,100.0,0,0.0,36,5,13.89,30,83.33,1,2.78
+jandhan,Government Schemes/Pro-Modi,6,1,16.67,5,83.33,0,0.0,239,182,76.15,54,22.59,3,1.26
+mudra,Government Schemes/Pro-Modi,4,2,50.0,0,0.0,2,50.0,370,304,82.16,33,8.92,33,8.92
+vandebharat,Government Schemes/Pro-Modi,2,2,100.0,0,0.0,0,0.0,613,523,85.32,28,4.57,62,10.11
+pricerise,Economic/Social Issues,1,0,0.0,1,100.0,0,0.0,126,3,2.38,108,85.71,15,11.9
+farmersprotest,Economic/Social Issues,1,0,0.0,1,100.0,0,0.0,4219,450,10.67,3111,73.74,658,15.6
+g20india,Government Schemes/Pro-Modi,1,0,0.0,0,0.0,1,100.0,953,921,96.64,9,0.94,23,2.41
+berozgari,Economic/Social Issues,1,0,0.0,1,100.0,0,0.0,15,5,33.33,9,60.0,1,6.67
+harghartiranga,Government Schemes/Pro-Modi,1,1,100.0,0,0.0,0,0.0,696,614,88.22,18,2.59,64,9.2
+digitalindia,Government Schemes/Pro-Modi,1,1,100.0,0,0.0,0,0.0,1473,1446,98.17,7,0.48,20,1.36
+surgicalstrike,Religious/Nationalist,0,0,0.0,0,0.0,0,0.0,63,27,42.86,19,30.16,17,26.98
+article370,Government Schemes/Pro-Modi,0,0,0.0,0,0.0,0,0.0,244,108,44.26,71,29.1,65,26.64
+gascylinder,Economic/Social Issues,0,0,0.0,0,0.0,0,0.0,4,0,0.0,4,100.0,0,0.0
+jobscrisis,Economic/Social Issues,0,0,0.0,0,0.0,0,0.0,0,0,0.0,0,0.0,0,0.0
+mehengai,Economic/Social Issues,0,0,0.0,0,0.0,0,0.0,63,8,12.7,48,76.19,7,11.11
+caaprotest,Opposition/Criticism,0,0,0.0,0,0.0,0,0.0,104,14,13.46,77,74.04,13,12.5
+tripletalaq,Religious/Nationalist,0,0,0.0,0,0.0,0,0.0,43,25,58.14,5,11.63,13,30.23
+balakotstrike,Religious/Nationalist,0,0,0.0,0,0.0,0,0.0,1,0,0.0,1,100.0,0,0.0
+kisanandolan,Economic/Social Issues,0,0,0.0,0,0.0,0,0.0,66,11,16.67,39,59.09,16,24.24
+ayushmanbharat,Government Schemes/Pro-Modi,0,0,0.0,0,0.0,0,0.0,151,141,93.38,5,3.31,5,3.31
+godimedia,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,316,7,2.22,309,97.78,0,0.0
+sabkasaath,Government Schemes/Pro-Modi,0,0,0.0,0,0.0,0,0.0,98,73,74.49,9,9.18,16,16.33
+sabkavikas,Government Schemes/Pro-Modi,0,0,0.0,0,0.0,0,0.0,172,170,98.84,1,0.58,1,0.58
+dalitrights,Economic/Social Issues,0,0,0.0,0,0.0,0,0.0,8,0,0.0,3,37.5,5,62.5
+cronycapitalism,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,7,1,14.29,6,85.71,0,0.0
+manipurviolence,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,97,26,26.8,43,44.33,28,28.87
+hatecrime,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,15,7,46.67,5,33.33,3,20.0
+womensafety,Economic/Social Issues,0,0,0.0,0,0.0,0,0.0,82,24,29.27,52,63.41,6,7.32
+oxygencrisis,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,185,18,9.73,100,54.05,67,36.22
+vocal4local,Government Schemes/Pro-Modi,0,0,0.0,0,0.0,0,0.0,351,349,99.43,1,0.28,1,0.28
+electoralbonds,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,114,0,0.0,104,91.23,10,8.77
+agencymisuse,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,0,0,0.0,0,0.0,0,0.0
+edraid,Criticism/Scandals,0,0,0.0,0,0.0,0,0.0,22,4,18.18,7,31.82,11,50.0
+saveconstitution,Opposition/Criticism,0,0,0.0,0,0.0,0,0.0,8,0,0.0,8,100.0,0,0.0
+rammandir,Religious/Nationalist,0,0,0.0,0,0.0,0,0.0,612,380,62.09,81,13.24,151,24.67

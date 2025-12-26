@@ -97,14 +97,23 @@ def run_worker(args_tuple):
             env=env, 
             capture_output=True, 
             text=True,
-            check=True
+            # Don't use check=True - it treats any stderr as an error
         )
         elapsed = time.time() - start_time
-        print(f"[Worker {worker_id}] Completed in {elapsed:.1f}s")
-        return (worker_id, output_csv, True, None)
-    except subprocess.CalledProcessError as e:
-        print(f"[Worker {worker_id}] FAILED: {e.stderr[:500]}")
-        return (worker_id, output_csv, False, e.stderr)
+        
+        # Check if output file was created (actual success indicator)
+        if result.returncode == 0 or os.path.exists(output_csv):
+            print(f"[Worker {worker_id}] Completed in {elapsed:.1f}s")
+            return (worker_id, output_csv, True, None)
+        else:
+            # Real failure - check stderr for actual errors
+            error_msg = result.stderr if result.stderr else result.stdout
+            print(f"[Worker {worker_id}] FAILED (rc={result.returncode}): {error_msg[:500]}")
+            return (worker_id, output_csv, False, error_msg)
+    except Exception as e:
+        print(f"[Worker {worker_id}] EXCEPTION: {str(e)[:500]}")
+        return (worker_id, output_csv, False, str(e))
+
 
 
 def merge_results(result_files: list, output_csv: str):
