@@ -27,7 +27,8 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{tikz}
-\usetikzlibrary{shapes,arrows,positioning,fit,calc}
+\usetikzlibrary{shapes,arrows.meta,positioning,fit,calc}
+\usepackage{float}
 \usepackage{hyperref}
 
 % Title formatting (AAAI-like)
@@ -81,76 +82,97 @@ This paper investigates partisan discourse on X, examining how political identit
 
 \subsection{Data Source}
 
-We utilize a dataset of tweets provided by Professor Joyojeet Pal, comprising retweets made by Indian politicians on X (Twitter) during the period 2020--2023. The dataset captures the retweet behavior of politicians, allowing us to analyze which external accounts (influencers) are amplified by politicians of different political affiliations.
+We utilize a dataset of tweets provided by Professor Joyojeet Pal, comprising retweets made by Indian politicians on X (Twitter) during the period 2020--2023. The dataset contains over 7.1 million retweet records, capturing the amplification behavior of politicians across the Indian political spectrum. Each record represents a retweet action, containing: (1) the original tweet content, (2) the timestamp, (3) the retweeting politician's X handle, and (4) the original author (influencer) whose content was retweeted.
 
-Each record in the dataset represents a retweet action, containing the original tweet content, the retweeting politician's Twitter handle and party affiliation, and the original author (influencer) of the content.
+\subsection{Political Affiliation Mapping}
+
+To associate politicians with their party affiliations, we utilize an external mapping file containing X handles and corresponding party memberships. This mapping covers politicians from over 50 political parties, which we aggregate into two major blocs for analysis:
+
+\begin{itemize}
+    \item \textbf{Ruling Bloc}: BJP, JDU, LJP, HAM, JSP, NPP, AIADMK, AJSU, AGP, RPI, NPF, IPFT, NDPP, RSS, NDA, MNF, VHP, YSRCP, ABVP, BJD, BSCP, and affiliated parties
+    \item \textbf{Opposition Bloc}: INC, AITC/TMC, DMK, SP, CPIM, RJD, AAP, JMM, IUML, CPI, NCP, TRS, Shiv Sena, TDP, JDS, and allied parties
+\end{itemize}
+
+\subsection{Data Processing Pipeline}
+
+The data processing consists of two major stages:
+
+\subsubsection{Stage 1: Party Labeling}
+We process the raw combined CSV in chunks (100,000 rows per batch) and match each retweeting politician's handle to their party affiliation using lowercase normalization. This produces the labeled dataset with the \texttt{retweet\_party} column populated.
+
+\subsubsection{Stage 2: Polarity Calculation}
+For each influencer (original tweet author), we compute yearly polarity scores based on who retweets their content, then average across years to obtain a stable polarity measure. This process identifies 960 unique influencers with calculable polarity scores.
 
 \subsection{Dataset Statistics}
 
-Table~\ref{tab:dataset_stats} presents the key statistics of our dataset after preprocessing and keyword extraction.
+Table~\ref{tab:dataset_stats} presents the key statistics of our raw and processed datasets.
 
-\begin{table}[h]
-\centering
-\caption{Dataset Statistics}
-\label{tab:dataset_stats}
+\vspace{0.5em}
+\begin{center}
 \small
+\captionof{table}{Dataset Statistics}
+\label{tab:dataset_stats}
 \begin{tabular}{lr}
 \toprule
 \textbf{Metric} & \textbf{Value} \\
 \midrule
-Total tweet-keyword pairs & 8,346,024 \\
-Unique keywords & 96,528 \\
-Unique influencers & 921 \\
-Unique retweeting politicians & 16,224 \\
+Total retweets & 7,115,963 \\
+English tweets & 2,939,716 (41.3\%) \\
+Hindi/Regional tweets & 4,176,247 (58.7\%) \\
+Unique influencers (with polarity) & 960 \\
+Influencer-year observations & 3,712 \\
 Temporal range & 2020--2023 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{center}
+\vspace{0.5em}
 
-The temporal distribution of tweets, shown in Table~\ref{tab:temporal_dist}, indicates that 2021 saw the highest volume of retweet activity (41.3\%), followed by 2022 (26.2\%) and 2020 (22.4\%).
+The temporal distribution of tweets, shown in Table~\ref{tab:temporal_dist}, indicates activity across all four years, with 2021 showing the highest volume.
 
-\begin{table}[h]
-\centering
-\caption{Temporal Distribution of Tweets}
-\label{tab:temporal_dist}
+\vspace{0.5em}
+\begin{center}
 \small
+\captionof{table}{Temporal Distribution of Tweets}
+\label{tab:temporal_dist}
 \begin{tabular}{lrr}
 \toprule
-\textbf{Year} & \textbf{Count} & \textbf{Percentage} \\
+\textbf{Year} & \textbf{Influencer-Year Records} \\
 \midrule
-2020 & 1,865,448 & 22.4\% \\
-2021 & 3,443,611 & 41.3\% \\
-2022 & 2,190,794 & 26.2\% \\
-2023 & 845,986 & 10.1\% \\
+2020 & 908 \\
+2021 & 944 \\
+2022 & 949 \\
+2023 & 911 \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{center}
+\vspace{0.5em}
 
 \subsection{Data Structure}
 
-Table~\ref{tab:columns} describes the key columns in our processed dataset.
+Table~\ref{tab:columns} describes the key columns in our final processed dataset.
 
-\begin{table}[h]
-\centering
-\caption{Dataset Column Descriptions}
-\label{tab:columns}
+\vspace{0.5em}
+\begin{center}
 \footnotesize
-\begin{tabular}{p{2cm}p{4.5cm}}
+\captionof{table}{Dataset Column Descriptions}
+\label{tab:columns}
+\begin{tabular}{p{2.2cm}p{4.3cm}}
 \toprule
 \textbf{Column} & \textbf{Description} \\
 \midrule
-\texttt{timestamp} & Date and time of the tweet \\
-\texttt{tweet} & Full text content \\
-\texttt{retweet\_author} & Retweeting politician handle \\
-\texttt{original\_author} & Influencer handle \\
-\texttt{retweet\_party} & Political party \\
-\texttt{side} & Political bloc (ruling/opp.) \\
-\texttt{polarity\_avg} & Influencer polarity score \\
-\texttt{tweet\_label} & Inferred political leaning \\
-\texttt{keyword} & Extracted topic/keyword \\
+\texttt{timestamp} & Date and time of the retweet (UTC) \\
+\texttt{tweet} & Full text content of original tweet \\
+\texttt{retweet\_author} & X handle of retweeting politician \\
+\texttt{original\_author} & X handle of influencer \\
+\texttt{retweet\_party} & Political party of retweeter \\
+\texttt{year} & Year extracted from timestamp \\
+\texttt{side} & Political bloc (ruling/opposition/other) \\
+\texttt{polarity\_avg} & Influencer's average polarity score \\
+\texttt{tweet\_label} & Inferred political leaning of tweet \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{center}
+\vspace{0.5em}
 
 \subsection{English Language Filtering}
 
@@ -237,15 +259,16 @@ Before keyword extraction, tweets undergo preprocessing: URL removal, mention ex
 
 \subsubsection{Polar Keyword Selection}
 
-After extracting keywords from all tweets, we identify \textit{polar keywords}---topics that are disproportionately discussed by one political side. A keyword is classified as politically polar if more than 70\% of tweets containing that keyword come from one political bloc.
+After extracting keywords from all tweets, we identify \textit{polar keywords}---topics that are disproportionately discussed by one political side. Keyword polarity is determined by analyzing the proportion of tweets from Pro-Ruling versus Pro-Opposition sources for each keyword.
 
-Table~\ref{tab:polar_keywords} presents the 15 polar keywords selected for stance analysis.
+\paragraph{Initial Keyword Set (15 Keywords)}
+We first selected 15 keywords representing major political topics for manual annotation. These keywords were chosen based on their political significance and representation across both ruling and opposition discourse. Table~\ref{tab:polar_keywords} presents these keywords.
 
-\begin{table}[h]
-\centering
-\caption{Selected Polar Keywords for Stance Analysis}
-\label{tab:polar_keywords}
+\vspace{0.5em}
+\begin{center}
 \footnotesize
+\captionof{table}{Initial 15 Keywords for Manual Annotation}
+\label{tab:polar_keywords}
 \begin{tabular}{lp{2cm}}
 \toprule
 \textbf{Keyword} & \textbf{Dominant Side} \\
@@ -267,7 +290,37 @@ ram\_mandir & Pro-Ruling \\
 shaheen\_bagh & Pro-Opposition \\
 \bottomrule
 \end{tabular}
-\end{table}
+\end{center}
+\vspace{0.5em}
+
+\paragraph{Extended Keyword Set (23 Additional Keywords)}
+To expand coverage, we identified 23 additional polar keywords by analyzing tweet counts for each political bloc. Keywords were selected based on (1) clear partisan skew in usage patterns, and (2) relevance to significant political events or narratives. Table~\ref{tab:extended_keywords} presents a sample of these additional keywords with their extraction statistics.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Sample Extended Polar Keywords with Extraction Stats}
+\label{tab:extended_keywords}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Keyword} & \textbf{Total} & \textbf{Pro-Ruling} & \textbf{Pro-Opp} \\
+\midrule
+ucc & 7,738 & 5,690 (74\%) & 2,048 \\
+democracy & 7,612 & 2,981 (39\%) & 4,631 \\
+mahotsav & 5,455 & 5,361 (98\%) & 94 \\
+aatmanirbhar & 5,386 & 5,289 (98\%) & 97 \\
+msp & 5,567 & 3,227 (58\%) & 2,340 \\
+sangh & 4,498 & 1,761 (39\%) & 2,737 \\
+ayodhya & 2,452 & 1,921 (78\%) & 531 \\
+unemployment & 1,649 & 284 (17\%) & 1,365 \\
+islamists & 1,488 & 1,470 (99\%) & 18 \\
+bhakts & 1,886 & 363 (19\%) & 1,523 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+The extended set includes keywords like \textit{aatmanirbhar} (self-reliance campaign), \textit{ucc} (Uniform Civil Code), \textit{ayodhya}, and \textit{mahotsav} which are predominantly used by Pro-Ruling sources (>74\%), while keywords like \textit{unemployment}, \textit{demonetisation}, \textit{bhakts}, and \textit{spyware} are predominantly discussed by Pro-Opposition sources (>80\%).
 
 \subsection{Stance Classification}
 
@@ -299,23 +352,31 @@ W' = W + BA
 
 \noindent where $W$ is the frozen pre-trained weight matrix, and $B \in \mathbb{R}^{d \times r}$, $A \in \mathbb{R}^{r \times k}$ are trainable low-rank matrices with rank $r \ll \min(d, k)$.
 
-\subsubsection{Few-Shot Learning}
+\subsubsection{Manual Annotation Process}
 
-For each of the 15 target keywords, we curate a set of few-shot examples to guide the model. Each keyword-specific JSON file contains approximately 10 labeled examples: 3 ``favor'', 3 ``against'', 3 ``neutral'', and 1 filler.
+For the initial 15 keywords, we manually annotated tweets to create training and evaluation data:
 
-During inference, the system dynamically retrieves appropriate few-shot examples based on the target keyword. If keyword-specific examples are unavailable, the system falls back to a global set of examples.
-
-\subsubsection{Manual Annotation}
-
-The few-shot examples and test data were manually annotated through:
 \begin{enumerate}
-    \item Sampling tweets for each keyword
-    \item Deduplication to ensure quality
-    \item Multi-annotator labeling
-    \item Consolidation into per-keyword JSON files
+    \item \textbf{Sampling}: For each keyword, we sampled 100--150 tweets, balancing Pro-Ruling and Pro-Opposition sources
+    \item \textbf{Deduplication}: Removed duplicate tweets and near-duplicates to ensure annotation quality
+    \item \textbf{Labeling}: Each tweet was labeled with stance (favor/against/neutral) and a brief reasoning
+    \item \textbf{Consolidation}: Annotations were organized into per-keyword files
 \end{enumerate}
 
-The annotated data was split 85:15 for training and evaluation with stratified sampling.
+The final annotated dataset comprises 1,866 labeled tweet-keyword pairs across 15 keywords.
+
+\subsubsection{Training and Evaluation Split}
+
+The annotated data was split 85:15 for training few-shot examples and held-out evaluation, using stratified sampling to maintain class balance across keywords.
+
+\begin{itemize}
+    \item \textbf{Training set}: 10 examples per keyword (3 favor, 3 against, 3 neutral, 1 filler) used as few-shot prompts
+    \item \textbf{Test set}: 264 samples for evaluation
+\end{itemize}
+
+\subsubsection{Few-Shot Inference}
+
+During inference, the system dynamically retrieves keyword-specific few-shot examples to construct the prompt. If keyword-specific examples are unavailable (for the extended 23 keywords), the system falls back to a global set of examples, enabling stance classification across all 38 keywords.
 
 \subsubsection{Output Format}
 
@@ -327,6 +388,78 @@ The model generates structured JSON output:
   "reason": "<brief explanation>"
 }
 \end{verbatim}
+
+\subsubsection{Model Evaluation}
+
+We evaluated the LoRA-adapted model on the held-out test set of 264 samples. Table~\ref{tab:eval_overall} presents the overall classification performance.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Stance Classification Evaluation Results}
+\label{tab:eval_overall}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Total test samples & 264 \\
+Accuracy & 78.0\% \\
+Precision (macro) & 78.0\% \\
+Recall (macro) & 75.3\% \\
+F1-Score (macro) & 76.2\% \\
+F1-Score (weighted) & 77.7\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+Table~\ref{tab:eval_perclass} shows the per-class performance breakdown.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Per-Class Classification Performance}
+\label{tab:eval_perclass}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Support} \\
+\midrule
+Against & 0.78 & 0.80 & 0.79 & 95 \\
+Favor & 0.78 & 0.86 & 0.82 & 111 \\
+Neutral & 0.78 & 0.60 & 0.68 & 58 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+The model achieves strongest performance on the ``favor'' class (F1=0.82), followed by ``against'' (F1=0.79). The ``neutral'' class shows lower recall (0.60), reflecting the inherent difficulty in distinguishing neutral stances from weakly expressed opinions.
+
+Table~\ref{tab:eval_keyword} presents per-keyword accuracy, showing variation across different political topics.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Per-Keyword Classification Accuracy (Top 10)}
+\label{tab:eval_keyword}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Keyword} & \textbf{Accuracy} & \textbf{F1 (macro)} \\
+\midrule
+modi & 94.4\% & 0.91 \\
+caa & 89.5\% & 0.90 \\
+congress & 88.9\% & 0.84 \\
+hindutva & 85.7\% & 0.56 \\
+new\_parliament & 85.7\% & 0.82 \\
+rahulgandhi & 81.3\% & 0.81 \\
+farmers\_protests & 80.0\% & 0.82 \\
+shaheen\_bagh & 78.9\% & 0.71 \\
+muslim & 78.9\% & 0.79 \\
+china & 73.7\% & 0.64 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
 
 \subsection{Hindi Tweet Analysis Pipeline}
 
@@ -340,18 +473,14 @@ The Mistral-7B model supports multilingual input, enabling direct processing of 
 
 The pipeline implements hierarchical few-shot example retrieval:
 \begin{enumerate}
-    \item Attempt to load keyword-specific examples from \texttt{\{prefix\}\_\{keyword\}\_stance.json}
+    \item Attempt to load keyword-specific examples
     \item If unavailable, fall back to a global fallback JSON
 \end{enumerate}
 
 This ensures robust inference even for keywords without dedicated few-shot examples.
 
-\subsubsection{Multi-GPU Parallel Inference}
-
-For large-scale processing, we implement a parallel inference pipeline that splits the dataset into chunks, distributes across multiple GPUs, processes each chunk independently, and merges results into a final output file.
-
-\begin{figure}[h]
-\centering
+\vspace{0.5em}
+\begin{center}
 \begin{tikzpicture}[
     node distance=1cm,
     auto,
@@ -386,7 +515,7 @@ For large-scale processing, we implement a parallel inference pipeline that spli
     },
     line/.style={
         draw,
-        -latex',
+        -Latex,
         thick
     }
 ]
@@ -394,7 +523,7 @@ For large-scale processing, we implement a parallel inference pipeline that spli
 % Nodes
 \node [cloud] (input) {Input Tweet};
 \node [block, below of=input] (lookup) {Few-Shot Lookup};
-\node [database, right of=lookup, node distance=2.5cm] (db) {JSON DB};
+\node [database, right of=lookup, node distance=2.5cm] (db) {Examples DB};
 \node [block, below of=lookup] (prompt) {Prompt Build};
 \node [block, below of=prompt] (llm) {LLM + LoRA};
 \node [cloud, below of=llm] (output) {JSON Output};
@@ -407,9 +536,11 @@ For large-scale processing, we implement a parallel inference pipeline that spli
 \path [line] (llm) -- (output);
 
 \end{tikzpicture}
-\caption{Stance Detection System Architecture}
+\captionof{figure}{Stance Detection System Architecture}
 \label{fig:architecture}
-\end{figure}
+\end{center}
+\vspace{0.5em}
+
 
 \section{Results}
 

@@ -68,3 +68,7 @@ env/
 lora_adaptor/
 final_data/
 codes/6_stance/results
+
+# Large extracted CSV files (exceed GitHub 100MB limit)
+codes/5_tweet_extractor/exploration_before_extraction/extracted_by_keyword/extracted_ALL_*.csv
+codes/5_tweet_extractor/extracted_by_keyword_run1/extracted_ALL_*.csv

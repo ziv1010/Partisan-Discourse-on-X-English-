@@ -32,6 +32,7 @@ SEED = 42
 # KEYWORD LIST - Your specified keywords
 # ============================================================================
 KEYWORDS = [
+    # Original 23 keywords
     "ayodhya",
     "islamists",
     "balochistan",
@@ -54,7 +55,22 @@ KEYWORDS = [
     "democracy",
     "bhakts",
     "dictatorship",
-    "ratetvdebate"
+    "ratetvdebate",
+    # 15 manual annotation keywords (caa already above)
+    "china",
+    "congress",
+    "farm laws",
+    "farmers protests",
+    "hindu",
+    "hindutva",
+    "kashmir",
+    "kashmiri pandits",
+    "modi",
+    "muslim",
+    "new parliament",
+    "rahulgandhi",
+    "ram mandir",
+    "shaheen bagh"
 ]
 
 # Column configuration
