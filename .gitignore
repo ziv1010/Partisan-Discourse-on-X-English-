@@ -67,6 +67,7 @@ env/
 
 lora_adaptor/
 final_data/
+hindi_codes/
 codes/6_stance/results
 
 # Large extracted CSV files (exceed GitHub 100MB limit)
