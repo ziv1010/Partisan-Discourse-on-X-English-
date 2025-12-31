@@ -1,17 +1,74 @@
 keyword,party,against,favor,neutral,total,favor_%,against_%,neutral_%
-china,pro opposition,25,3,11,39,7.7,64.1,28.2
-china,pro ruling,21,1,6,28,3.6,75.0,21.4
-congress,pro opposition,1943,1129,2128,5200,21.7,37.4,40.9
-congress,pro ruling,1206,235,464,1905,12.3,63.3,24.4
-hindu,pro opposition,643,488,166,1297,37.6,49.6,12.8
-hindu,pro ruling,812,1170,216,2198,53.2,36.9,9.8
-kashmir,pro opposition,2,1,0,3,33.3,66.7,0.0
-kashmir,pro ruling,3,2,0,5,40.0,60.0,0.0
-modi,pro opposition,4515,803,349,5667,14.2,79.7,6.2
-modi,pro ruling,870,917,327,2114,43.4,41.2,15.5
-muslim,pro opposition,561,359,75,995,36.1,56.4,7.5
-muslim,pro ruling,732,210,60,1002,21.0,73.1,6.0
-new parliament,pro opposition,15,3,9,27,11.1,55.6,33.3
-new parliament,pro ruling,2,9,3,14,64.3,14.3,21.4
-rahulgandhi,pro opposition,374,725,245,1344,53.9,27.8,18.2
-rahulgandhi,pro ruling,195,111,32,338,32.8,57.7,9.5
+aatmanirbhar,pro opposition,63,19,15,97,19.6,64.9,15.5
+aatmanirbhar,pro ruling,7,4623,659,5289,87.4,0.1,12.5
+ayodhya,pro opposition,221,94,216,531,17.7,41.6,40.7
+ayodhya,pro ruling,74,1454,393,1921,75.7,3.9,20.5
+balochistan,pro opposition,2,2,8,12,16.7,16.7,66.7
+balochistan,pro ruling,209,339,92,640,53.0,32.7,14.4
+bhakts,pro opposition,1246,234,43,1523,15.4,81.8,2.8
+bhakts,pro ruling,93,257,13,363,70.8,25.6,3.6
+caa,pro opposition,1027,178,564,1769,10.1,58.1,31.9
+caa,pro ruling,433,1373,722,2528,54.3,17.1,28.6
+china,pro opposition,3162,294,1168,4624,6.4,68.4,25.3
+china,pro ruling,4367,989,1825,7181,13.8,60.8,25.4
+congress,pro opposition,3358,9303,8045,20706,44.9,16.2,38.9
+congress,pro ruling,11950,1618,3521,17089,9.5,69.9,20.6
+democracy,pro opposition,2632,1792,207,4631,38.7,56.8,4.5
+democracy,pro ruling,1193,1629,159,2981,54.6,40.0,5.3
+demonetisation,pro opposition,408,37,19,464,8.0,87.9,4.1
+demonetisation,pro ruling,18,84,10,112,75.0,16.1,8.9
+dictatorship,pro opposition,168,2,2,172,1.2,97.7,1.2
+dictatorship,pro ruling,99,2,6,107,1.9,92.5,5.6
+farm laws,pro opposition,1320,245,891,2456,10.0,53.7,36.3
+farm laws,pro ruling,133,751,233,1117,67.2,11.9,20.9
+farmers protests,pro opposition,61,614,153,828,74.2,7.4,18.5
+farmers protests,pro ruling,193,44,49,286,15.4,67.5,17.1
+gdp,pro opposition,673,104,279,1056,9.8,63.7,26.4
+gdp,pro ruling,97,578,415,1090,53.0,8.9,38.1
+hathras,pro opposition,845,162,402,1409,11.5,60.0,28.5
+hathras,pro ruling,270,115,318,703,16.4,38.4,45.2
+hindu,pro opposition,4460,2154,1388,8002,26.9,55.7,17.3
+hindu,pro ruling,5222,22551,1519,29292,77.0,17.8,5.2
+hindutva,pro opposition,1493,209,110,1812,11.5,82.4,6.1
+hindutva,pro ruling,323,1085,106,1514,71.7,21.3,7.0
+inflation,pro opposition,652,22,126,800,2.8,81.5,15.8
+inflation,pro ruling,208,192,224,624,30.8,33.3,35.9
+islamists,pro opposition,16,0,2,18,0.0,88.9,11.1
+islamists,pro ruling,1426,40,4,1470,2.7,97.0,0.3
+kashmir,pro opposition,1144,1230,829,3203,38.4,35.7,25.9
+kashmir,pro ruling,2869,6341,942,10152,62.5,28.3,9.3
+kashmiri pandits,pro opposition,57,197,69,323,61.0,17.6,21.4
+kashmiri pandits,pro ruling,23,581,46,650,89.4,3.5,7.1
+lynching,pro opposition,317,15,29,361,4.2,87.8,8.0
+lynching,pro ruling,607,37,84,728,5.1,83.4,11.5
+mahotsav,pro opposition,36,31,27,94,33.0,38.3,28.7
+mahotsav,pro ruling,14,4005,1342,5361,74.7,0.3,25.0
+minorities,pro opposition,189,521,46,756,68.9,25.0,6.1
+minorities,pro ruling,319,490,65,874,56.1,36.5,7.4
+modi,pro opposition,27191,3724,2950,33865,11.0,80.3,8.7
+modi,pro ruling,4306,48456,11777,64539,75.1,6.7,18.2
+msp,pro opposition,683,361,1296,2340,15.4,29.2,55.4
+msp,pro ruling,362,1295,1570,3227,40.1,11.2,48.7
+muslim,pro opposition,1105,5891,464,7460,79.0,14.8,6.2
+muslim,pro ruling,6511,2243,699,9453,23.7,68.9,7.4
+new parliament,pro opposition,151,16,69,236,6.8,64.0,29.2
+new parliament,pro ruling,26,504,144,674,74.8,3.9,21.4
+rahulgandhi,pro opposition,1148,11821,2829,15798,74.8,7.3,17.9
+rahulgandhi,pro ruling,5058,1610,785,7453,21.6,67.9,10.5
+ram mandir,pro opposition,174,64,40,278,23.0,62.6,14.4
+ram mandir,pro ruling,63,1184,90,1337,88.6,4.7,6.7
+ratetvdebate,pro opposition,27,66,35,128,51.6,21.1,27.3
+sangh,pro opposition,2350,135,252,2737,4.9,85.9,9.2
+sangh,pro ruling,246,962,553,1761,54.6,14.0,31.4
+shaheen bagh,pro opposition,73,332,118,523,63.5,14.0,22.6
+shaheen bagh,pro ruling,660,126,105,891,14.1,74.1,11.8
+sharia,pro opposition,15,1,8,24,4.2,62.5,33.3
+sharia,pro ruling,478,30,51,559,5.4,85.5,9.1
+spyware,pro opposition,306,4,69,379,1.1,80.7,18.2
+spyware,pro ruling,10,4,17,31,12.9,32.3,54.8
+suicides,pro opposition,176,27,13,216,12.5,81.5,6.0
+suicides,pro ruling,61,5,18,84,6.0,72.6,21.4
+ucc,pro opposition,576,247,1225,2048,12.1,28.1,59.8
+ucc,pro ruling,429,2087,3174,5690,36.7,7.5,55.8
+unemployment,pro opposition,1147,124,94,1365,9.1,84.0,6.9
+unemployment,pro ruling,126,94,64,284,33.1,44.4,22.5
