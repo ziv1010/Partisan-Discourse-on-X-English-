@@ -1,14 +1,17 @@
 # Fdb version 3
-["bibtex partisan_discourse_on_X"] 1767186422 "partisan_discourse_on_X.aux" "partisan_discourse_on_X.bbl" "partisan_discourse_on_X" 1767186422
+["bibtex partisan_discourse_on_X"] 1767332226 "partisan_discourse_on_X.aux" "partisan_discourse_on_X.bbl" "partisan_discourse_on_X" 1767332226
   "/usr/local/texlive/2022/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "Discussion.aux" 1767186422 936 d18c7e4c87e85bb896c02b130ecbdc76 "pdflatex"
   "bibliography.bib" 0 -1 0 ""
-  "partisan_discourse_on_X.aux" 1767186422 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "partisan_discourse_on_X.aux" 1767332226 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "partisan_discourse_on_X.bbl"
   "partisan_discourse_on_X.blg"
-["pdflatex"] 1767186422 "/Users/ziv/Desktop/Partisan Discourse Documentation/Partisan-Discourse-on-X-English-/documentation/partisan_discourse_on_X.tex" "partisan_discourse_on_X.pdf" "partisan_discourse_on_X" 1767186422
-  "/Users/ziv/Desktop/Partisan Discourse Documentation/Partisan-Discourse-on-X-English-/documentation/partisan_discourse_on_X.tex" 1767186254 32016 91c3c36c9cbcbd29b30211dc2190e2c3 ""
+["pdflatex"] 1767332226 "/Users/ziv/Desktop/Partisan Discourse Documentation/Partisan-Discourse-on-X-English-/documentation/partisan_discourse_on_X.tex" "partisan_discourse_on_X.pdf" "partisan_discourse_on_X" 1767332226
+  "../final_visualisations/1_stance_distribution_by_party_affiliation.png" 1767288561 175337 339699e467f6d25734194496b6ff6ae3 ""
+  "../final_visualisations/2_butterfly_favor_normalized.png" 1767288561 87041 42d9310e8223553e1290ab003a671a84 ""
+  "../final_visualisations/3_butterfly_favor_comparison_by_keyword.png" 1767288561 276802 3a123dfccfbe894c7707fd57cc5a929b ""
+  "../final_visualisations/4_stance_distribution_by_keyword.png" 1767288561 120848 553838508eb13bae30243f5fa84a1c80 ""
+  "/Users/ziv/Desktop/Partisan Discourse Documentation/Partisan-Discourse-on-X-English-/documentation/partisan_discourse_on_X.tex" 1767330038 31641 535ee0a352a5d124a0addb91b4b21174 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -42,6 +45,7 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1248133631 37912 77d683123f92148345f3fc36a38d9ab1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -209,15 +213,14 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678685734 2826443 af2705308584bbe36b485fb143af0d54 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Discussion.aux" 1767186423 936 d18c7e4c87e85bb896c02b130ecbdc76 "pdflatex"
   "Discussion.tex" 1767181544 4782 1cddfc2f69bbc955c22b35d87b230b6d ""
-  "partisan_discourse_on_X.aux" 1767186422 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Results.tex" 1767332224 8379 b5e9141c6a169e18e9e2846c14c65623 ""
+  "partisan_discourse_on_X.aux" 1767332226 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "partisan_discourse_on_X.bbl" 0 -1 0 "bibtex partisan_discourse_on_X"
   "partisan_discourse_on_X.out" 0 -1 0 "pdflatex"
-  "partisan_discourse_on_X.tex" 1767186254 32016 91c3c36c9cbcbd29b30211dc2190e2c3 ""
+  "partisan_discourse_on_X.tex" 1767330038 31641 535ee0a352a5d124a0addb91b4b21174 ""
   "umap_drift_arrows_with_legend.png" 0 -1 0 ""
   (generated)
-  "Discussion.aux"
   "partisan_discourse_on_X.aux"
   "partisan_discourse_on_X.log"
   "partisan_discourse_on_X.out"
