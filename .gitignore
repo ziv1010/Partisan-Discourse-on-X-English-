@@ -73,3 +73,14 @@ codes/6_stance/results
 # Large extracted CSV files (exceed GitHub 100MB limit)
 codes/5_tweet_extractor/exploration_before_extraction/extracted_by_keyword/extracted_ALL_*.csv
 codes/5_tweet_extractor/extracted_by_keyword_run1/extracted_ALL_*.csv
+
+# Virtual environments in subdirectories
+codes/2b_keyword_analysis/venv/
+
+# Model files and checkpoints
+codes/4_finetuning/4_d_model_comparison_baseline/bert_model/
+codes/4_finetuning/4_d_model_comparison_baseline/checkpoints/
+codes/4_finetuning/4_d_model_comparison_baseline/processed_data/
+codes/4_finetuning/4_d_model_comparison_baseline/results/
+*.safetensors
+*.state_dict
