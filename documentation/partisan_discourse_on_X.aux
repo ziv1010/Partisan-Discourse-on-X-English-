@@ -23,55 +23,62 @@
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Literature Review}{1}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Data Collection}{1}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Data Source}{1}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Political Affiliation Mapping}{2}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Data Processing Pipeline}{2}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Stage 1: Party Labeling}{2}{section*.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Stage 2: Polarity Calculation}{2}{section*.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Dataset Statistics}{2}{subsection.3.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Dataset Statistics\relax }}{2}{table.1}\protected@file@percent }
-\newlabel{tab:dataset_stats}{{1}{2}{Dataset Statistics\relax }{table.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Temporal Distribution of Tweets\relax }}{2}{table.2}\protected@file@percent }
-\newlabel{tab:temporal_dist}{{2}{2}{Temporal Distribution of Tweets\relax }{table.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Data Structure}{2}{subsection.3.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Dataset Column Descriptions\relax }}{2}{table.3}\protected@file@percent }
-\newlabel{tab:columns}{{3}{2}{Dataset Column Descriptions\relax }{table.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}English Language Filtering}{2}{subsection.3.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Political Party Bloc Mapping\relax }}{2}{table.1}\protected@file@percent }
+\newlabel{tab:party_blocs}{{1}{2}{Political Party Bloc Mapping\relax }{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Dataset Statistics\relax }}{2}{table.2}\protected@file@percent }
+\newlabel{tab:dataset_stats}{{2}{2}{Dataset Statistics\relax }{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Temporal Distribution of Tweets\relax }}{2}{table.3}\protected@file@percent }
+\newlabel{tab:temporal_dist}{{3}{2}{Temporal Distribution of Tweets\relax }{table.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Dataset Column Descriptions\relax }}{2}{table.4}\protected@file@percent }
+\newlabel{tab:columns}{{4}{2}{Dataset Column Descriptions\relax }{table.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Methodology}{2}{section.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Influencer Polarity Calculation}{2}{subsection.4.1}\protected@file@percent }
-\newlabel{eq:polarity}{{1}{3}{Influencer Polarity Calculation}{equation.4.1}{}}
-\newlabel{eq:polarity_avg}{{2}{3}{Influencer Polarity Calculation}{equation.4.2}{}}
+\newlabel{eq:polarity}{{1}{2}{Influencer Polarity Calculation}{equation.4.1}{}}
+\newlabel{eq:polarity_avg}{{2}{2}{Influencer Polarity Calculation}{equation.4.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Keyword Extraction and Selection}{3}{subsection.4.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Complete Keyword Set for Stance Analysis\relax }}{3}{table.4}\protected@file@percent }
-\newlabel{tab:all_keywords}{{4}{3}{Complete Keyword Set for Stance Analysis\relax }{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Complete Keyword Set for Stance Analysis\relax }}{3}{table.5}\protected@file@percent }
+\newlabel{tab:all_keywords}{{5}{3}{Complete Keyword Set for Stance Analysis\relax }{table.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Stance Classification}{3}{subsection.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Manual Annotation}{3}{section*.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{LoRA Fine-tuning}{4}{section*.2}\protected@file@percent }
-\newlabel{eq:lora}{{3}{4}{LoRA Fine-tuning}{equation.4.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Manual Annotation}{3}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{LoRA Fine-tuning}{3}{section*.1}\protected@file@percent }
+\newlabel{eq:lora}{{3}{3}{LoRA Fine-tuning}{equation.4.3}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Evaluation Results}{4}{equation.4.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Stance Classification Evaluation Results\relax }}{4}{table.5}\protected@file@percent }
-\newlabel{tab:eval_overall}{{5}{4}{Stance Classification Evaluation Results\relax }{table.5}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Per-Class Classification Performance\relax }}{4}{table.6}\protected@file@percent }
-\newlabel{tab:eval_perclass}{{6}{4}{Per-Class Classification Performance\relax }{table.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Per-Keyword Classification Accuracy (Top 10)\relax }}{4}{table.7}\protected@file@percent }
-\newlabel{tab:eval_keyword}{{7}{4}{Per-Keyword Classification Accuracy (Top 10)\relax }{table.7}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Final Inference Pipeline}{4}{table.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Stance Classification Evaluation Results\relax }}{4}{table.6}\protected@file@percent }
+\newlabel{tab:eval_overall}{{6}{4}{Stance Classification Evaluation Results\relax }{table.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Per-Class Classification Performance\relax }}{4}{table.7}\protected@file@percent }
+\newlabel{tab:eval_perclass}{{7}{4}{Per-Class Classification Performance\relax }{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Per-Keyword Classification Accuracy (Top 10)\relax }}{4}{table.8}\protected@file@percent }
+\newlabel{tab:eval_keyword}{{8}{4}{Per-Keyword Classification Accuracy (Top 10)\relax }{table.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Final Inference Pipeline}{4}{table.8}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Hindi Tweet Analysis}{4}{subsection.4.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces UMAP projection of original (Hindi/Roman) vs translated (English) tweets with drift arrows.\relax }}{5}{figure.caption.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces UMAP projection of original (Hindi/Roman) vs translated (English) tweets with drift arrows.\relax }}{5}{figure.caption.2}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:umap_all}{{1}{5}{UMAP projection of original (Hindi/Roman) vs translated (English) tweets with drift arrows.\relax }{figure.caption.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Connection to the Enligh pipeline}{5}{figure.caption.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Multilingual Model Support}{5}{figure.caption.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Fallback Mechanism}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:umap_all}{{1}{5}{UMAP projection of original (Hindi/Roman) vs translated (English) tweets with drift arrows.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Connection to the Enligh pipeline}{5}{figure.caption.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Multilingual Model Support}{5}{figure.caption.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Fallback Mechanism}{5}{figure.caption.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Stance Detection System Architecture\relax }}{6}{figure.2}\protected@file@percent }
 \newlabel{fig:architecture}{{2}{6}{Stance Detection System Architecture\relax }{figure.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Results}{6}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Partisan Network Structure}{6}{subsection.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Content Characteristics}{6}{subsection.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Interaction Patterns}{6}{subsection.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Temporal Dynamics}{6}{subsection.5.4}\protected@file@percent }
-\@input{Discussion.aux}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Stance Distribution for Representative Keywords}{6}{subsection.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Stance distribution for six representative keywords, showing proportions of favor, against, and neutral stances by political affiliation.\relax }}{6}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:stance_by_party}{{3}{6}{Stance distribution for six representative keywords, showing proportions of favor, against, and neutral stances by political affiliation.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Normalized Favor Rates Across Keywords}{6}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Butterfly chart showing normalized favor rates by keyword, comparing Pro-Ruling (right) and Pro-Opposition (left) influencers.\relax }}{6}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:butterfly_favor}{{4}{6}{Butterfly chart showing normalized favor rates by keyword, comparing Pro-Ruling (right) and Pro-Opposition (left) influencers.\relax }{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Keyword-Level Stance Divergence}{7}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Quadrant Interpretation for Stance Divergence Plot\relax }}{7}{table.9}\protected@file@percent }
+\newlabel{tab:quadrant_interpretation}{{9}{7}{Quadrant Interpretation for Stance Divergence Plot\relax }{table.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Keyword-level stance divergence scatter plot. X-axis: favor rate difference; Y-axis: against rate difference. Point size indicates tweet volume; color indicates favor divergence magnitude.\relax }}{7}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:butterfly_by_keyword}{{5}{7}{Keyword-level stance divergence scatter plot. X-axis: favor rate difference; Y-axis: against rate difference. Point size indicates tweet volume; color indicates favor divergence magnitude.\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Complete Stance Distribution by Keyword}{7}{subsection.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Stance distribution by keyword and political affiliation, showing proportions of favor, neutral, and against stances.\relax }}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:stance_by_keyword}{{6}{7}{Stance distribution by keyword and political affiliation, showing proportions of favor, neutral, and against stances.\relax }{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Keywords Grouped by Thematic Category (Generated using Gemini)\relax }}{7}{table.10}\protected@file@percent }
+\newlabel{tab:stance_composition}{{10}{7}{Keywords Grouped by Thematic Category (Generated using Gemini)\relax }{table.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{7}{section.6}\protected@file@percent }
 \bibstyle{plainnat}
 \bibdata{bibliography}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{8}{section.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{8}{section.8}\protected@file@percent }
 \gdef \@abspage@last{8}

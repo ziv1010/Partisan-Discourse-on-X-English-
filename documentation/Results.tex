@@ -1,0 +1,109 @@
+\section{Results}
+
+This section reports the empirical outcomes of the stance classification pipeline applied to Indian political influencer discourse on X. The analysis covers 680,847 tweet--keyword pairs across 38 political keywords, with influencers categorized by political affiliation into Pro-Ruling (462 influencers) and Pro-Opposition (498 influencers) groups. All results are descriptive and focus on observed distributions.
+
+%% ============================================================
+%% SECTION 5.1: SAMPLE KEYWORD STANCE DISTRIBUTION
+%% ============================================================
+\subsection{Stance Distribution for Representative Keywords}
+
+To illustrate general stance patterns across political affiliations, we selected three keywords predominantly discussed by Pro-Ruling influencers and three keywords predominantly discussed by Pro-Opposition influencers. This selection was based on keyword frequency analysis, identifying topics where each group exhibited higher engagement volumes. Figure~\ref{fig:stance_by_party} presents the stance distribution for these six representative keywords.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/1_stance_distribution_by_party_affiliation.png}
+  \caption{Stance distribution for six representative keywords, showing proportions of favor, against, and neutral stances by political affiliation.}
+  \label{fig:stance_by_party}
+\end{figure}
+
+The visualization shows that for Pro-Ruling dominated keywords (\textit{ram\_mandir}, \textit{aatmanirbhar}, \textit{modi}), Pro-Ruling influencers exhibit predominantly \textit{favor} stances. Conversely, for Pro-Opposition dominated keywords (\textit{farmers\_protests}, \textit{rahulgandhi}, \textit{shaheen\_bagh}), Pro-Opposition influencers exhibit predominantly \textit{favor} stances while Pro-Ruling influencers show higher proportions of \textit{against} stances.
+
+%% ============================================================
+%% SECTION 5.2: NORMALIZED FAVOR RATES
+%% ============================================================
+\subsection{Normalized Favor Rates Across Keywords}
+
+Figure~\ref{fig:butterfly_favor} displays normalized favor rates for each keyword using a butterfly chart. Pro-Ruling favor percentages are plotted on the right axis and Pro-Opposition favor percentages on the left. Normalization is performed within each keyword to account for differences in keyword frequency and tweet volume.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/2_butterfly_favor_normalized.png}
+  \caption{Butterfly chart showing normalized favor rates by keyword, comparing Pro-Ruling (right) and Pro-Opposition (left) influencers.}
+  \label{fig:butterfly_favor}
+\end{figure}
+
+\textbf{Findings.} Keywords with the longest Pro-Ruling bars include \textit{islamists}, \textit{mahotsav}, \textit{aatmanirbhar}, \textit{ram\_mandir}, and \textit{ayodhya}---showing near-complete Pro-Ruling favor dominance. Keywords with the longest Pro-Opposition bars include \textit{unemployment}, \textit{bhakts}, \textit{farmers\_protests}, \textit{shaheen\_bagh}, and \textit{demonetisation}---showing strong Pro-Opposition favor dominance. Keywords near the center (e.g., \textit{china}, \textit{kashmir}) show more balanced favor distributions. The chart reveals a bimodal pattern: keywords tend to skew strongly toward one political side rather than showing moderate favor from both.
+
+%% ============================================================
+%% SECTION 5.3: KEYWORD-LEVEL STANCE DIVERGENCE
+%% ============================================================
+\subsection{Keyword-Level Stance Divergence}
+
+Figure~\ref{fig:butterfly_by_keyword} presents a scatter plot capturing three dimensions of keyword-level stance behavior: \textbf{stance divergence} (position), \textbf{divergence magnitude} (color), and \textbf{tweet volume} (point size). For each keyword, the X-coordinate represents the favor rate difference ($X = \text{Favor}_{\text{PR}} - \text{Favor}_{\text{PO}}$) and the Y-coordinate represents the against rate difference ($Y = \text{Against}_{\text{PR}} - \text{Against}_{\text{PO}}$). Keywords farther from the origin exhibit greater stance divergence. Point color encodes $|X|$ (favor divergence magnitude), while point size corresponds to tweet volume.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Quadrant Interpretation for Stance Divergence Plot}
+\label{tab:quadrant_interpretation}
+\begin{tabular}{ccp{4.5cm}}
+\toprule
+\textbf{Quadrant} & \textbf{Condition} & \textbf{Interpretation} \\
+\midrule
+I & $X > 0$, $Y > 0$ & PR higher favor and against \\
+II & $X < 0$, $Y > 0$ & PO favor, PR against \\
+III & $X < 0$, $Y < 0$ & PO higher favor and against \\
+IV & $X > 0$, $Y < 0$ & PR favor, PO against \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.3em}
+{\footnotesize \textit{Note: PR = Pro-Ruling, PO = Pro-Opposition}}
+\vspace{0.5em}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/3_butterfly_favor_comparison_by_keyword.png}
+  \caption{Keyword-level stance divergence scatter plot. X-axis: favor rate difference; Y-axis: against rate difference. Point size indicates tweet volume; color indicates favor divergence magnitude.}
+  \label{fig:butterfly_by_keyword}
+\end{figure}
+
+\textbf{Findings.} Keywords such as \textit{modi}, \textit{ram\_mandir}, and \textit{aatmanirbhar} cluster in Quadrant IV (lower-right), where Pro-Ruling influencers express predominantly \textit{favor} stances while Pro-Opposition influencers express \textit{against} stances. Conversely, \textit{rahulgandhi}, \textit{farmers\_protests}, and \textit{shaheen\_bagh} cluster in Quadrant II (upper-left), showing the inverse pattern. Keywords near the origin (e.g., \textit{china}, \textit{kashmir}) exhibit minimal divergence, indicating similar stance distributions across affiliations. Notably, larger points (high-volume keywords) tend to be positioned farther from the origin, and the most intensely colored points appear at the horizontal extremes, confirming that favor divergence is the primary driver of keyword-level polarization.
+
+%% ============================================================
+%% SECTION 5.4: COMPLETE STANCE DISTRIBUTION BY KEYWORD
+%% ============================================================
+\subsection{Complete Stance Distribution by Keyword}
+
+Figure~\ref{fig:stance_by_keyword} presents the full stance distribution for each keyword, disaggregated by political affiliation. Each keyword displays proportions of favor, neutral, and against stances for both Pro-Ruling and Pro-Opposition influencers.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/4_stance_distribution_by_keyword.png}
+  \caption{Stance distribution by keyword and political affiliation, showing proportions of favor, neutral, and against stances.}
+  \label{fig:stance_by_keyword}
+\end{figure}
+
+To organize keywords into meaningful thematic categories, we employed Google's Gemini model. The model was provided only with the list of 38 keywords and prompted to create thematic buckets based on its knowledge of Indian political discourse. Table~\ref{tab:stance_composition} presents the resulting keyword categories.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Keywords Grouped by Thematic Category (Generated using Gemini)}
+\label{tab:stance_composition}
+\begin{tabular}{p{2.4cm}p{4.1cm}}
+\toprule
+\textbf{Category} & \textbf{Keywords} \\
+\midrule
+Favor-dominant (both) & ayodhya, mahotsav, ucc \\
+Against-dominant (both) & inflation, unemployment, suicides \\
+Split (PR favor, PO against) & modi, ram\_mandir, aatmanirbhar, hindutva, farm\_laws, caa \\
+Split (PO favor, PR against) & rahulgandhi, congress, farmers\_protests, shaheen\_bagh, muslim \\
+Mixed neutral ($>$20\%) & china, gdp, democracy, minorities \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.3em}
+{\footnotesize \textit{Note: PR = Pro-Ruling, PO = Pro-Opposition}}
+\vspace{0.5em}
+
