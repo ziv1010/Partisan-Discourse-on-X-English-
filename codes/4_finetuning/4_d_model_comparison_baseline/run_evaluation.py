@@ -33,9 +33,9 @@ LABELS = ["For", "Against", "Neutral"]
 
 
 def normalize_stance(stance: str) -> str:
-    """Normalize stance labels."""
+    """Normalize stance labels. Returns None for invalid/missing stances."""
     if pd.isna(stance):
-        return "Neutral"
+        return None
     s = str(stance).lower().strip()
     s = s.replace("favour", "for").replace("favor", "for").replace("nuetral", "neutral")
     if s in ["for"]:
@@ -44,7 +44,7 @@ def normalize_stance(stance: str) -> str:
         return "Against"
     elif s in ["neutral"]:
         return "Neutral"
-    return "Neutral"
+    return None  # Return None for unknown labels
 
 
 def load_predictions():
@@ -79,6 +79,13 @@ def load_predictions():
         predictions['mistral_fewshot']['pred_col'] = 'mistral_prediction'
         print(f"✓ Loaded Mistral Few-shot predictions: {len(predictions['mistral_fewshot'])} samples")
     
+    # RoBERTa predictions
+    roberta_path = RESULTS_DIR / "roberta_predictions.csv"
+    if roberta_path.exists():
+        predictions['roberta'] = pd.read_csv(roberta_path)
+        predictions['roberta']['pred_col'] = 'roberta_prediction'
+        print(f"✓ Loaded RoBERTa predictions: {len(predictions['roberta'])} samples")
+    
     # Finetuned Mistral predictions (from 4_b_TestingComparison)
     if FINETUNED_RESULTS_PATH.exists():
         try:
@@ -93,6 +100,17 @@ def load_predictions():
                 ft_df['mistral_finetuned_prediction'] = ft_df['fewshot_label_for_against'].apply(normalize_stance)
             
             if 'mistral_finetuned_prediction' in ft_df.columns:
+                # Filter to only the first 265 samples to match baseline models
+                # The baseline models were evaluated on 265 test samples
+                n_baseline_samples = 265
+                if len(ft_df) > n_baseline_samples:
+                    print(f"  Note: Filtering finetuned results from {len(ft_df)} to {n_baseline_samples} samples to match baselines")
+                    ft_df = ft_df.head(n_baseline_samples)
+                # Filter out rows with None/NaN ground truth
+                valid_mask = ft_df['original_stance'].notna()
+                if (~valid_mask).sum() > 0:
+                    print(f"  Note: Skipping {(~valid_mask).sum()} samples with missing ground truth")
+                    ft_df = ft_df[valid_mask]
                 predictions['mistral_finetuned'] = ft_df
                 predictions['mistral_finetuned']['pred_col'] = 'mistral_finetuned_prediction'
                 print(f"✓ Loaded Mistral Finetuned predictions: {len(predictions['mistral_finetuned'])} samples")

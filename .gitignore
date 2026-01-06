@@ -82,5 +82,12 @@ codes/4_finetuning/4_d_model_comparison_baseline/bert_model/
 codes/4_finetuning/4_d_model_comparison_baseline/checkpoints/
 codes/4_finetuning/4_d_model_comparison_baseline/processed_data/
 codes/4_finetuning/4_d_model_comparison_baseline/results/
+codes/4_finetuning/4_d_model_comparison_baseline/roberta_model/
 *.safetensors
 *.state_dict
+*.pt
+
+# Large CSV files in final_results+visualisations_folder
+final_results+visualisations_folder/combined_stance_results.csv
+final_results+visualisations_folder/stance_results_37keywords.csv
+final_results+visualisations_folder/hindi_stance_results.csv

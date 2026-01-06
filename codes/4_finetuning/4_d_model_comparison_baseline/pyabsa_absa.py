@@ -23,6 +23,7 @@ BASE_DIR = Path(__file__).parent
 PROCESSED_DIR = BASE_DIR / "processed_data"
 RESULTS_DIR = BASE_DIR / "results"
 MODEL_DIR = BASE_DIR / "pyabsa_model"
+CHECKPOINT_DIR = BASE_DIR / "checkpoints"
 
 
 def map_stance_to_sentiment(stance: str) -> str:
@@ -58,8 +59,11 @@ def map_sentiment_to_stance(sentiment_label) -> str:
 
 def create_pyabsa_dataset(df: pd.DataFrame, output_dir: Path, split_name: str):
     """
-    Create PyABSA-compatible dataset files.
-    PyABSA format: "text $T$ aspect $LABEL$ sentiment"
+    Create PyABSA-compatible dataset files for APC task.
+    PyABSA expects 3-line format per sample:
+    Line 1: text with $T$ marker where aspect goes
+    Line 2: aspect term
+    Line 3: polarity label (-1=Negative, 0=Neutral, 1=Positive)
     """
     output_dir.mkdir(parents=True, exist_ok=True)
     
@@ -67,18 +71,37 @@ def create_pyabsa_dataset(df: pd.DataFrame, output_dir: Path, split_name: str):
     for _, row in df.iterrows():
         text = str(row['tweet']).replace('\n', ' ').replace('\r', ' ')
         aspect = str(row['keyword'])
-        sentiment = map_stance_to_sentiment(row['stance'])
+        stance = row['stance']
         
-        # PyABSA integrated format
-        line = f"{text}$T${aspect}$LABEL${sentiment}"
-        lines.append(line)
+        # Map stance to numeric polarity
+        if stance == 'For':
+            polarity = '1'  # Positive
+        elif stance == 'Against':
+            polarity = '-1'  # Negative
+        else:
+            polarity = '0'  # Neutral
+        
+        # Replace aspect in text with $T$ marker (case-insensitive)
+        import re
+        pattern = re.compile(re.escape(aspect), re.IGNORECASE)
+        if pattern.search(text):
+            text_with_marker = pattern.sub('$T$', text, count=1)
+        else:
+            # If aspect not in text, append it
+            text_with_marker = f"{text} $T$"
+        
+        # PyABSA 3-line format
+        lines.append(text_with_marker)
+        lines.append(aspect)
+        lines.append(polarity)
     
-    # Write to file
-    output_file = output_dir / f"{split_name}.dat"
+    # Write to file with dataset name prefix
+    # PyABSA expects: {dataset_name}.{split}.dat
+    output_file = output_dir / f"stance.{split_name}.dat"
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
     
-    print(f"  Created {output_file} with {len(lines)} samples")
+    print(f"  Created {output_file} with {len(df)} samples ({len(lines)} lines)")
     return output_file
 
 
@@ -124,6 +147,7 @@ def train_pyabsa_model(train_df: pd.DataFrame, val_df: pd.DataFrame):
         
         # Set paths
         config.dataset_file = str(dataset_dir)
+        config.dataset_name = "stance_dataset"
         config.output_dir = str(MODEL_DIR)
         
         print(f"  Model: {config.model}")
@@ -135,7 +159,7 @@ def train_pyabsa_model(train_df: pd.DataFrame, val_df: pd.DataFrame):
         print("\nStarting training...")
         trainer = APC.APCTrainer(
             config=config,
-            dataset=dataset_dir,
+            dataset=str(dataset_dir),
             checkpoint_save_mode=1,
             auto_device=True
         )
@@ -144,69 +168,87 @@ def train_pyabsa_model(train_df: pd.DataFrame, val_df: pd.DataFrame):
         return trainer
         
     except Exception as e:
+        import traceback
         print(f"Training failed: {e}")
+        print("\nFull traceback:")
+        traceback.print_exc()
         print("\nFalling back to pre-trained model inference...")
         return None
 
 
 def run_pretrained_inference(test_df: pd.DataFrame) -> pd.DataFrame:
-    """Run inference using pre-trained model or fallback."""
+    """Run inference using pre-trained PyABSA checkpoints."""
     print("\n" + "=" * 60)
-    print("Running Sentiment Analysis (Pre-trained Fallback)")
+    print("Running PyABSA Pre-trained Model Inference")
     print("=" * 60)
     
-    # Try transformers pipeline
+    classifier = None
+    model_name = None
+    
     try:
-        from transformers import pipeline
+        from pyabsa import AspectPolarityClassification as APC
         
-        # Use multilingual sentiment model
-        print("Loading sentiment-analysis pipeline...")
-        classifier = pipeline(
-            "sentiment-analysis",
-            model="nlptown/bert-base-multilingual-uncased-sentiment",
-            device=0 if __import__('torch').cuda.is_available() else -1,
-            truncation=True,
-            max_length=512
-        )
-        print("✓ Loaded nlptown multilingual sentiment model")
+        # Try multilingual checkpoint first
+        multilingual_path = CHECKPOINT_DIR / "APC_MULTILINGUAL_CHECKPOINT"
+        english_path = CHECKPOINT_DIR / "APC_ENGLISH_CHECKPOINT" / "fast_lsa_t_v2_English_acc_82.21_f1_81.81"
         
+        if multilingual_path.exists():
+            print(f"Loading PyABSA multilingual checkpoint from: {multilingual_path}")
+            try:
+                classifier = APC.SentimentClassifier(checkpoint=str(multilingual_path), auto_device=True)
+                model_name = "APC_MULTILINGUAL"
+                print("✓ Loaded PyABSA multilingual checkpoint")
+            except Exception as e:
+                print(f"Failed to load multilingual checkpoint: {e}")
+        
+        if classifier is None and english_path.exists():
+            print(f"Loading PyABSA English checkpoint from: {english_path}")
+            try:
+                classifier = APC.SentimentClassifier(checkpoint=str(english_path), auto_device=True)
+                model_name = "APC_ENGLISH"
+                print("✓ Loaded PyABSA English checkpoint")
+            except Exception as e:
+                print(f"Failed to load English checkpoint: {e}")
+        
+        if classifier is None:
+            # Try to load from PyABSA hub
+            print("Attempting to load PyABSA model from hub...")
+            try:
+                classifier = APC.SentimentClassifier(checkpoint='multilingual', auto_device=True)
+                model_name = "APC_HUB_MULTILINGUAL"
+                print("✓ Loaded PyABSA model from hub")
+            except Exception as e:
+                print(f"Failed to load from hub: {e}")
+                raise RuntimeError("Could not load any PyABSA checkpoint")
+                
     except Exception as e:
-        print(f"Could not load sentiment pipeline: {e}")
-        print("Using basic sentiment pipeline...")
-        from transformers import pipeline
-        classifier = pipeline("sentiment-analysis", device=0)
+        print(f"PyABSA loading failed: {e}")
+        print("\nERROR: Cannot proceed without PyABSA. Please ensure PyABSA is installed:")
+        print("  pip install pyabsa")
+        sys.exit(1)
     
     predictions = []
     
-    print(f"\nProcessing {len(test_df)} samples...")
+    print(f"\nProcessing {len(test_df)} samples with {model_name}...")
     
-    for idx, row in tqdm(test_df.iterrows(), total=len(test_df), desc="Analyzing"):
+    for idx, row in tqdm(test_df.iterrows(), total=len(test_df), desc="Classifying"):
         tweet = str(row['tweet'])
         keyword = str(row['keyword'])
         
         try:
-            # Include keyword for aspect-aware context
-            text_with_aspect = f"Regarding {keyword}: {tweet}"
-            result = classifier(text_with_aspect[:512])[0]
+            # PyABSA format: text with aspect marked
+            formatted_input = f"{tweet} [B-ASP]{keyword}[E-ASP]"
+            result = classifier.predict(formatted_input, print_result=False)
             
-            label = result['label']
-            
-            # Map the label
-            if 'star' in label.lower():
-                # nlptown model returns "1 star" to "5 stars"
-                stars = int(label.split()[0])
-                if stars >= 4:
-                    sentiment = 'Positive'
-                elif stars <= 2:
-                    sentiment = 'Negative'
-                else:
-                    sentiment = 'Neutral'
-            elif 'positive' in label.lower():
-                sentiment = 'Positive'
-            elif 'negative' in label.lower():
-                sentiment = 'Negative'
+            # Extract sentiment from result
+            if hasattr(result, 'sentiment'):
+                sentiment = result.sentiment
+            elif isinstance(result, dict):
+                sentiment = result.get('sentiment', ['Neutral'])[0] if isinstance(result.get('sentiment'), list) else result.get('sentiment', 'Neutral')
+            elif isinstance(result, list) and len(result) > 0:
+                sentiment = result[0].get('sentiment', 'Neutral') if isinstance(result[0], dict) else str(result[0])
             else:
-                sentiment = 'Neutral'
+                sentiment = str(result)
             
             stance = map_sentiment_to_stance(sentiment)
             
