@@ -1,77 +1,87 @@
 \section{Results}
 
-This section reports the empirical outcomes of the stance classification pipeline applied to Indian political influencer discourse on X. The analysis covers 680,847 tweet--keyword pairs across 38 political keywords, with influencers categorized by political affiliation into Pro-Ruling (462 influencers) and Pro-Opposition (498 influencers) groups. All results are descriptive and focus on observed distributions.
-
+This section reports the empirical outcomes of the stance classification pipeline applied to Indian political influencer discourse on X. The analysis covers 680,847 tweet--keyword pairs across 38 political keywords, with influencers categorized by political affiliation into Pro-Ruling (462 influencers) and Pro-Opposition (498 influencers) groups.%% ============================================================
+%% SECTION 5.1: MODEL PERFORMANCE
 %% ============================================================
-%% SECTION 5.1: SAMPLE KEYWORD STANCE DISTRIBUTION
-%% ============================================================
-\subsection{Stance Distribution for Representative Keywords}
+\subsection{Model Performance}
 
-To illustrate general stance patterns across political affiliations, we selected three keywords predominantly discussed by Pro-Ruling influencers and three keywords predominantly discussed by Pro-Opposition influencers. This selection was based on keyword frequency analysis, identifying topics where each group exhibited higher engagement volumes. Figure~\ref{fig:stance_by_party} presents the stance distribution for these six representative keywords.
+To validate our choice of the LoRA-adapted Mistral-7B model, we compared its performance against the baseline architectures described in the methodology. Figure~\ref{fig:model_comparison} illustrates the comparative results across key metrics. The LoRA-tuned Mistral model consistently outperforms the baseline approaches, demonstrating superior capability in capturing the nuances of political stance.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.95\linewidth]{../final_visualisations/1_stance_distribution_by_party_affiliation.png}
-  \caption{Stance distribution for six representative keywords, showing proportions of favor, against, and neutral stances by political affiliation.}
-  \label{fig:stance_by_party}
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/model_comparison.png}
+  \caption{Performance comparison of the fine-tuned Mistral (LoRA) model against baseline architectures.}
+  \label{fig:model_comparison}
 \end{figure}
 
-The visualization shows that for Pro-Ruling dominated keywords (\textit{ram\_mandir}, \textit{aatmanirbhar}, \textit{modi}), Pro-Ruling influencers exhibit predominantly \textit{favor} stances. Conversely, for Pro-Opposition dominated keywords (\textit{farmers\_protests}, \textit{rahulgandhi}, \textit{shaheen\_bagh}), Pro-Opposition influencers exhibit predominantly \textit{favor} stances while Pro-Ruling influencers show higher proportions of \textit{against} stances.
+The confusion matrix presented in Figure~\ref{fig:confusion_matrix} further elucidates the model's classification accuracy. We observe a strong diagonal, indicating high precision in correctly identifying Favor, Against, and Neutral stances. Notably, the model effectively minimizes confusion between opposing stances (Favor vs. Against), which is critical for accurate polarization analysis. The instances of misclassification are primarily concentrated between the Neutral category and polar stances, reflecting the inherent ambiguity often present in less explicit political expression.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/mistral_finetuned_confusion_matrix.png}
+  \caption{Confusion matrix for the fine-tuned Mistral model on the held-out test set.}
+  \label{fig:confusion_matrix}
+\end{figure}
 
 %% ============================================================
-%% SECTION 5.2: NORMALIZED FAVOR RATES
+%% SECTION 5.2: MULTILINGUAL STANCE TRENDS
 %% ============================================================
-\subsection{Normalized Favor Rates Across Keywords}
+\subsection{Multilingual Stance Patterns}
 
-Figure~\ref{fig:butterfly_favor} displays normalized favor rates for each keyword using a butterfly chart. Pro-Ruling favor percentages are plotted on the right axis and Pro-Opposition favor percentages on the left. Normalization is performed within each keyword to account for differences in keyword frequency and tweet volume.
+We extended our analysis to investigate whether political discourse patterns diverge across languages. Figure~\ref{fig:multilingual_stack} presents a stacked stance distribution for English and Hindi tweets. A striking trend emerges: the stance distribution patterns are remarkably similar across both languages. This observation suggests that the polarization dynamics and narrative structures deployed by political influencers are consistent, irrespective of the linguistic medium. We further corroborated this finding by cross-referencing with a negativity scatter analysis (Figure~\ref{fig:negativity_scatter}), which similarly indicated high congruence in the sentiment and negativity levels associated with specific keywords across both languages.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/combined_hindi_english_stance_stacked.png}
+  \caption{Stacked stance distribution comparison between English and Hindi tweets.}
+  \label{fig:multilingual_stack}
+\end{figure}
+
+The visualization reveals three distinct bands of behavior. The top row highlights keywords where the Pro-Ruling faction exhibits extreme polarization, predominantly expressing strong favor. The middle row represents a "mixed" zone where both political parties show similar stance distributions, indicating areas of shared narrative or lower polarization. The bottom row serves as the counterpart to the first, showcasing keywords where the Pro-Opposition faction displays extreme polarization. Given this high degree of congruence between English and Hindi discourse, we appended the two datasets for the remainder of our analysis to provide a more comprehensive view of the political landscape.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/6_negativity_scatter.png}
+  \caption{Comparison of negativity scores for keywords in English vs. Hindi tweets.}
+  \label{fig:negativity_scatter}
+\end{figure}
+
+The scatter plot in Figure~\ref{fig:negativity_scatter} plots the average negativity score of each keyword in English (X-axis) against its score in Hindi (Y-axis). We observe a strong positive correlation, with most keywords clustering along the diagonal. This indicates that topics evoking negative sentiment in English discourse tend to trigger similar levels of negativity in Hindi, reinforcing the hypothesis of a unified partisan narrative that transcends language barriers. The visual evidence suggests that the emotional valence of political topics is consistent across linguistic communities, further justifying the aggregation of datasets for subsequent analysis.
+
+%% ============================================================
+%% SECTION 5.3: NORMALIZED FAVOR RATES (COMBINED)
+%% ============================================================
+\subsection{Normalized Favor Rates (Combined Data)}
+
+Using the combined English and Hindi dataset, we re-examined the normalized favor rates for each keyword. Figure~\ref{fig:butterfly_favor} displays these rates using a butterfly chart, with Pro-Ruling favor percentages on the right and Pro-Opposition favor percentages on the left.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.95\linewidth]{../final_visualisations/2_butterfly_favor_normalized.png}
-  \caption{Butterfly chart showing normalized favor rates by keyword, comparing Pro-Ruling (right) and Pro-Opposition (left) influencers.}
+  \caption{Butterfly chart showing normalized favor rates by keyword (combined English \& Hindi data).}
   \label{fig:butterfly_favor}
 \end{figure}
 
-\textbf{Findings.} Keywords with the longest Pro-Ruling bars include \textit{islamists}, \textit{mahotsav}, \textit{aatmanirbhar}, \textit{ram\_mandir}, and \textit{ayodhya}---showing near-complete Pro-Ruling favor dominance. Keywords with the longest Pro-Opposition bars include \textit{unemployment}, \textit{bhakts}, \textit{farmers\_protests}, \textit{shaheen\_bagh}, and \textit{demonetisation}---showing strong Pro-Opposition favor dominance. Keywords near the center (e.g., \textit{china}, \textit{kashmir}) show more balanced favor distributions. The chart reveals a bimodal pattern: keywords tend to skew strongly toward one political side rather than showing moderate favor from both.
+The combined analysis reinforces the bimodal nature of the discourse. We observe a set of keywords where the Pro-Ruling side exhibits near-complete dominance in favorable expression, contrasting sharply with keywords where the Pro-Opposition side dominates. Topics located near the center of the chart continue to exhibit more balanced favor distributions, but the overall trend confirms that most political topics in the Indian context are heavily skewed toward one side's narrative. This polarization is even more pronounced when leveraging the larger, combined dataset, validating the robustness of our initial findings.
 
 %% ============================================================
-%% SECTION 5.3: KEYWORD-LEVEL STANCE DIVERGENCE
+%% SECTION 5.4: KEYWORD-LEVEL STANCE DIVERGENCE
 %% ============================================================
 \subsection{Keyword-Level Stance Divergence}
 
-Figure~\ref{fig:butterfly_by_keyword} presents a scatter plot capturing three dimensions of keyword-level stance behavior: \textbf{stance divergence} (position), \textbf{divergence magnitude} (color), and \textbf{tweet volume} (point size). For each keyword, the X-coordinate represents the favor rate difference ($X = \text{Favor}_{\text{PR}} - \text{Favor}_{\text{PO}}$) and the Y-coordinate represents the against rate difference ($Y = \text{Against}_{\text{PR}} - \text{Against}_{\text{PO}}$). Keywords farther from the origin exhibit greater stance divergence. Point color encodes $|X|$ (favor divergence magnitude), while point size corresponds to tweet volume.
-
-\vspace{0.5em}
-\begin{center}
-\footnotesize
-\captionof{table}{Quadrant Interpretation for Stance Divergence Plot}
-\label{tab:quadrant_interpretation}
-\begin{tabular}{ccp{4.5cm}}
-\toprule
-\textbf{Quadrant} & \textbf{Condition} & \textbf{Interpretation} \\
-\midrule
-I & $X > 0$, $Y > 0$ & PR higher favor and against \\
-II & $X < 0$, $Y > 0$ & PO favor, PR against \\
-III & $X < 0$, $Y < 0$ & PO higher favor and against \\
-IV & $X > 0$, $Y < 0$ & PR favor, PO against \\
-\bottomrule
-\end{tabular}
-\end{center}
-\vspace{0.3em}
-{\footnotesize \textit{Note: PR = Pro-Ruling, PO = Pro-Opposition}}
-\vspace{0.5em}
+Figure~\ref{fig:divergence_scatter} presents the keyword-level stance divergence for the combined corpus. This scatter plot maps each keyword based on the difference in favor rates (X-axis) and against rates (Y-axis) between the two political blocs.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.95\linewidth]{../final_visualisations/3_butterfly_favor_comparison_by_keyword.png}
-  \caption{Keyword-level stance divergence scatter plot. X-axis: favor rate difference; Y-axis: against rate difference. Point size indicates tweet volume; color indicates favor divergence magnitude.}
-  \label{fig:butterfly_by_keyword}
+  \includegraphics[width=0.95\linewidth]{../final_visualisations/divergence_scatter_english_hindi_combined.png}
+  \caption{Keyword-level stance divergence scatter plot for the combined English and Hindi dataset.}
+  \label{fig:divergence_scatter}
 \end{figure}
 
-\textbf{Findings.} Keywords such as \textit{modi}, \textit{ram\_mandir}, and \textit{aatmanirbhar} cluster in Quadrant IV (lower-right), where Pro-Ruling influencers express predominantly \textit{favor} stances while Pro-Opposition influencers express \textit{against} stances. Conversely, \textit{rahulgandhi}, \textit{farmers\_protests}, and \textit{shaheen\_bagh} cluster in Quadrant II (upper-left), showing the inverse pattern. Keywords near the origin (e.g., \textit{china}, \textit{kashmir}) exhibit minimal divergence, indicating similar stance distributions across affiliations. Notably, larger points (high-volume keywords) tend to be positioned farther from the origin, and the most intensely colored points appear at the horizontal extremes, confirming that favor divergence is the primary driver of keyword-level polarization.
+The combined divergence analysis highlights the distinct "camps" occupied by different topics. We can clearly identify clusters of keywords that drive the most significant wedges between the political factions. Outliers in this plot represent topics that generate unique polarization patterns—for instance, topics where one side is highly favorable while the other is not necessarily hostile but silent, or where both are hostile. The distribution of points further confirms that divergence is not uniform; rather, specific high-volume topics drive the bulk of the polarization, while a "long tail" of issues remains relatively contested or neutral.
 
 %% ============================================================
-%% SECTION 5.4: COMPLETE STANCE DISTRIBUTION BY KEYWORD
+%% SECTION 5.5: COMPLETE STANCE DISTRIBUTION
 %% ============================================================
 \subsection{Complete Stance Distribution by Keyword}
 

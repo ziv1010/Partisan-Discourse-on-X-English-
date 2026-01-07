@@ -517,65 +517,51 @@ ucc & unemployment & & \\
 \end{center}
 Aspects like \textit{aatmanirbhar} (self-reliance campaign), \textit{ucc} (Uniform Civil Code), \textit{ayodhya}, and \textit{mahotsav} are predominantly used by Pro-Ruling sources ($>74\%$), while \textit{unemployment}, \textit{demonetisation}, \textit{bhakts}, and \textit{spyware} are predominantly discussed by Pro-Opposition sources ($>80\%$).
 \subsection{Stance Classification}
-The goal of our stance classification system is to determine how influencers position themselves toward specific political topics. Given a tweet $t$ and a target keyword $e$ (such as \textit{modi}, \textit{caa}, or \textit{farmers\_protests}), the system predicts one of three stance labels: Favor (expressing support), Against (expressing opposition), or Neutral (no clear stance). This three-way classification avoids the ambiguity of an ``unrelated'' category, which in practice often overlaps with neutral stances. The model outputs a structured JSON response containing both the stance label and a brief reasoning, enabling interpretable predictions that can be verified and analyzed.
+The goal of our stance classification system is to determine how influencers position themselves toward specific political topics. Given a tweet $t$ and a target keyword $e$ (such as \textit{modi}, \textit{caa}, or \textit{farmers\_protests}), the system predicts one of three stance labels: Favor (expressing support), Against (expressing opposition), or Neutral (no clear stance). This three-way classification avoids the ambiguity of an ``unrelated'' category, which in practice often overlaps with neutral stances.
 
 \subsubsection{Manual Annotation Dataset}
 
-A key contribution of this work is the creation of a manually annotated stance classification dataset for Indian political discourse. Unlike prior work that relies on weakly-supervised or automatically generated labels, we conducted rigorous manual annotation to create high-quality ground truth data. This dataset serves multiple purposes throughout our pipeline: providing few-shot examples for in-context learning, training data for model fine-tuning, and ground truth for evaluation.
+A critical contribution of this work is the creation of a rigorously manually annotated stance classification dataset for Indian political discourse. Unlike prior work that often relies on weakly-supervised or automatically generated labels, we invested significant effort in creating high-quality ground truth data to serve as a reliable benchmark. This dataset plays a central role in our pipeline: it provides the core supervision signal for fine-tuning our baseline discriminative models (BERT, RoBERTa, PyABSA), serves as the source for retrieval-augmented few-shot prompts used by our generative models, and functions as the gold-standard held-out test set for rigorous performance evaluation.
 
-For each of the 15 initial keywords, we sampled 100--150 tweets using stratified sampling to ensure balanced representation from both Pro-Ruling and Pro-Opposition sources. This balanced sampling prevents political bias in the training data and ensures the model learns to distinguish stance signals rather than merely associating content patterns with political sources. After deduplication to remove near-duplicate tweets using text similarity heuristics, each sample was carefully labeled by annotators with its stance toward the target keyword (favor, against, or neutral) along with a brief reasoning capturing the linguistic cues that informed the classification decision.
+The dataset creation involved a multi-stage process beginning with stratified sampling. For each of the 15 seed polar keywords, we sampled 100--150 tweets, ensuring a balanced representation of viewpoints from both Ruling and Opposition sources. This stratification technique is crucial as it prevents the model from learning specious correlations between political affiliation and stance, such as assuming all opposition tweets are inherently "Against". Following sampling, strict deduplication was applied to remove near-duplicate tweets, ensuring the dataset captures diverse linguistic expressions rather than repetitive coordinated behavior. Finally, each tweet was manually annotated with its stance toward the specific target aspect. Annotators were instructed to look for explicit expressions of support or opposition, labeling ambiguous or factual statements as Neutral.
 
-The annotations were consolidated into structured per-keyword JSON files, with each entry containing four fields: the target entity (keyword), the tweet statement, the normalized stance label (positive/negative/neutral), and the annotator's reasoning. This structured format enables both human verification and programmatic processing for downstream tasks. The complete annotation process yielded a final dataset of 1,866 labeled tweet-keyword pairs across the 15 keywords, representing one of the first manually annotated stance datasets focused specifically on Indian political discourse on social media.
-
-From this annotated dataset, we reserve 10 examples per keyword (structured as 3 favor, 3 against, 3 neutral, and 1 additional example) as few-shot demonstrations for inference prompts. The remaining 1,716 samples are split 85:15 for training (1,458 samples) and held-out evaluation (264 samples), maintaining stratified sampling by keyword and stance to preserve class balance across splits.
-
-\subsubsection{LoRA Fine-tuning}
-
-We employ Mistral-7B-Instruct as our base language model and apply Low-Rank Adaptation (LoRA)\cite{hu2022lora} for parameter-efficient fine-tuning. LoRA freezes the pre-trained weights and injects trainable low-rank decomposition matrices, enabling adaptation without modifying the original model parameters. The weight update follows Equation~\ref{eq:lora}, where $W$ is the frozen weight matrix and $B \in \mathbb{R}^{d \times r}$, $A \in \mathbb{R}^{r \times k}$ are trainable matrices with rank $r \ll \min(d, k)$.
-
-\begin{equation}
-W' = W + BA
-\label{eq:lora}
-\end{equation}
-
-The training data was formatted with a structured prompt containing instruction, input (target keyword and tweet text), and response sections, with the model trained to output JSON containing stance and reasoning.
-
-We configured LoRA with rank $r=16$, scaling factor $\alpha=32$, and dropout 0.05, targeting the query, key, value, and output projection layers as well as the MLP gate, up, and down projection layers. Training used TRL's SFTTrainer with response-only loss masking (the model is only trained on the JSON response, not the prompt). We trained for 3 epochs with learning rate $2 \times 10^{-4}$, batch size 2, gradient accumulation steps 8, and bfloat16 precision. The trained LoRA adapter was saved separately from the base model, enabling efficient deployment.
+The final dataset comprises 1,866 labeled tweet-keyword pairs. We adopted a strict train-test split strategy where 264 samples were set aside as a held-out test set (stratified by keyword and class). From the remaining training pool, we reserved 10 examples per keyword to serve as few-shot demonstrations, and utilized the rest for supervised training of baseline models.
 
 \subsubsection{Multi-Model Baseline Comparison}
 
-To contextualize the performance of our LoRA-adapted Mistral model, we establish baselines using multiple model architectures commonly employed for stance and sentiment classification tasks. Table~\ref{tab:model_comparison} summarizes the models compared in our experiments.
+To rigorously evaluate the effectiveness of our approach, we established a comprehensive baseline comparison using diverse model architectures ranging from specialized aspect-based sentiment analysis systems to general-purpose encoders. Table~\ref{tab:model_comparison} details the specific models and configurations used.
 
-\vspace{0.5em}
 \begin{center}
 \footnotesize
 \captionof{table}{Models Used for Stance Classification Comparison}
 \label{tab:model_comparison}
 \begin{tabular}{p{2.8cm}p{1.8cm}p{2.2cm}}
 \toprule
-\textbf{Model} & \textbf{Type} & \textbf{Training} \\
+\textbf{Model} & \textbf{Type} & \textbf{Method} \\
 \midrule
-BERT-base-uncased & Encoder & Full fine-tuning \\
-RoBERTa-base & Encoder & Full fine-tuning \\
-PyABSA (FAST\_LCF\_BERT) & ABSA & Full fine-tuning \\
-Mistral-7B-Instruct & Decoder & Zero-shot \\
-Mistral-7B + LoRA & Decoder & LoRA fine-tuning \\
+\textbf{BERT-base-uncased} & Encoder & Full Fine-tuning \\
+\textbf{RoBERTa-base} & Encoder & Full Fine-tuning \\
+\textbf{PyABSA (FAST\_LCF)} & ABSA & Aspect-focused Fine-tuning \\
+\textbf{Mistral-7B-Instruct} & Decoder & Zero-shot / Few-shot \\
+\textbf{Mistral-7B + LoRA} & Decoder & LoRA Fine-tuning \\
 \bottomrule
 \end{tabular}
 \end{center}
 \vspace{0.5em}
 
-\textbf{BERT Classifier:} We fine-tune \texttt{bert-base-uncased} for 3-class stance classification using aspect-aware input formatting. Each input is tokenized as \texttt{[CLS] keyword [SEP] tweet [SEP]}, leveraging BERT's segment embeddings to distinguish the target aspect from the tweet content. This formulation enables the model to attend to both the aspect and the tweet simultaneously when making predictions. Training employs the AdamW optimizer with learning rate $2 \times 10^{-5}$, weight decay 0.01, batch size 16, and maximum sequence length 256. We train for up to 5 epochs with early stopping (patience=3) based on validation macro F1, using a 90:10 train-validation split with stratified sampling by stance label.
+For the encoder-based baselines, we fine-tuned \texttt{bert-base-uncased} using an aspect-aware input format: \texttt{[CLS] Aspect [SEP] Tweet [SEP]}. This allows the self-attention mechanism to directly model the relationship between the target topic and the tweet content. Similarly, for \texttt{roberta-base}, we employed a prompt-like input format by explicitly prepending the context: ``Topic: \{Aspect\}. Tweet: \{Content\}'', leveraging RoBERTa's strong semantic understanding. We also utilized the specialized PyABSA framework's \texttt{FAST\_LCF\_BERT} model, which uses a Local Context Focus (LCF) mechanism to dynamically weight context words based on their semantic and syntactic distance to the aspect. All baseline models were trained on the exact same training split (1,458 samples) and evaluated on the same held-out test set (264 samples) to ensure a strictly fair comparison.
 
-\textbf{RoBERTa Classifier:} We fine-tune \texttt{roberta-base} using an aspect-prefixed input format: ``Topic: \{keyword\}. Tweet: \{text\}''. This explicit prefix formulation provides clear context about the classification target within a single text sequence, suitable for RoBERTa's training objective. Training uses similar hyperparameters to BERT with a linear warmup schedule (10\% of total steps), 3 epochs, and 10\% validation split. The model outputs class probabilities through a linear classification head.
+\subsubsection{LoRA-Adapted Mistral (Our Approach)}
 
-\textbf{PyABSA (Aspect-Based Sentiment Analysis):} PyABSA provides specialized architectures for aspect-level sentiment classification. We employ the FAST\_LCF\_BERT model, which uses Local Context Focus (LCF) to weight context words based on their distance from the target aspect. Tweet text is formatted with a \texttt{\$T\$} marker indicating the aspect position, and the model outputs polarity predictions (positive/negative/neutral) that we map to stance labels: Positive$\rightarrow$For, Negative$\rightarrow$Against, Neutral$\rightarrow$Neutral. Training uses 5 epochs with batch size 16 and the same 85:15 data split as other models.
+We employ Mistral-7B-Instruct as our primary backbone, enhanced with Low-Rank Adaptation (LoRA) for parameter-efficient fine-tuning.
 
-All baseline models are trained on the same manually annotated dataset described above (1,458 training samples after reserving few-shot examples), enabling fair comparison across architectures. This consistent data split ensures that performance differences reflect model capabilities rather than data variations.
+\textbf{Why LoRA?}: Full fine-tuning of 7B+ parameter models is computationally prohibitive and prone to catastrophic forgetting. LoRA freezes the pre-trained weights $W$ and injects trainable rank decomposition matrices $A$ and $B$, such that the weight update is $\Delta W = BA$, where $B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times k}$. We set the rank $r=16$ and alpha $\alpha=32$, targeting all linear projection layers (query, key, value, output, gate, up, down).
+
+\textbf{Training}: The model was fine-tuned on the training split to generate structured JSON outputs containing both the stance label and a reasoning field. This instruction-tuning approach encourages the model to perform chain-of-thought reasoning before assigning a label, improving interpretability.
 
 \subsubsection{Evaluation Results}
 
-We evaluated the fine-tuned model on the 264-sample held-out test set. Table~\ref{tab:eval_overall} presents the overall performance metrics.
+We evaluated all models on the held-out test set of 264 samples. Table~\ref{tab:eval_overall} presents the comparative results. The LoRA-adapted Mistral model demonstrates competitive performance, effectively balancing precision and recall across classes.
 
 \vspace{0.5em}
 \begin{center}
@@ -802,7 +788,6 @@ This ensures robust inference even for keywords without dedicated few-shot examp
 \label{fig:architecture}
 \end{center}
 \vspace{0.5em}
-
 
 \input{Results}
 
