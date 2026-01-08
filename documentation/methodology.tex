@@ -1,0 +1,357 @@
+
+\section{Methodology}
+
+\subsection{Influencer Polarity}
+We calculate an influencer's political leaning (also termed as \textit{polarity}) using the amount of endorsement their tweets receive from Indian politicians. Generally, the retweet behavior of politicians reveals their endorsement towards a tweet [ref]. Thus, by aggregating retweet patterns across politicians with known party affiliations, we can infer the political leaning of influencers. This methodology provides a more reliable signal of endorsement than passive following or hashtag co-occurrence, since hashtags can be appropriated or used sarcastically, while generic sentiment analysis methods struggle with political nuance and sarcasm.
+
+For each influencer $i$ and year $y$, we calculate a yearly political polarity score using the formula in Equation~\ref{eq:polarity} where $R_{i,y}$ represents the count of retweets the influencer received from ruling politicians in year $y$, and $O_{i,y}$ represents the count from opposition politicians.
+
+\begin{equation}
+P_{i,y} = \frac{R_{i,y} - O_{i,y}}{R_{i,y} + O_{i,y}}
+\label{eq:polarity}
+\end{equation}
+
+The polarity score ranges from $-1$ (exclusively retweeted by opposition) to $+1$ (exclusively retweeted by ruling). %The computation involves grouping data by influencer, year, and political side, then pivoting to create ruling and opposition columns with missing values filled as zero.
+We next compute an average polarity score across all available years using Equation~\ref{eq:polarity_avg}, where $Y_i$ is the set of years in which influencer $i$ was retweeted by at least one politician.
+
+\begin{equation}
+P_{avg}^i = E_y[P_{i,y}] = \frac{1}{|Y_i|} \sum_{y \in Y_i} P_{i,y}
+\label{eq:polarity_avg}
+\end{equation}
+
+Based on the average polarity score, influencers are classified into three categories using a threshold of 0.5 (experimentally determined). Influencers with $P_{avg}^i \geq 0.5$ are classified as Pro-Ruling, those with $P_{avg}^i \leq -0.5$ as Pro-Opposition, and those within $-0.5 < P_{avg}^i < 0.5$ as Neutral. This classification is propagated to all tweets authored by each influencer, effectively labeling tweets based on their author's political leaning.
+
+Three independent annotators also manually analyzed the influencer polarities to validate the results. This exercise reached a high inter-annotator agreement (95\% unanimous agreement), revealing the above-par performance of the procedure. The disagreements were resolved by taking the majority annotation as the polarity for the influencer. Table XXX shows some examples of influencers and their polarities obtained using this method.
+
+\subsection{Aspect Identification}
+To identify the topics or aspects discussed in influencer tweets, we employ KeyBERT\cite{grootendorst2020keybert} for automated keyword extraction from tweet text. KeyBERT leverages BERT embeddings to identify keywords and phrases that are semantically similar to the document as a whole, making it suitable for capturing the topical essence of short-form social media content.
+
+Before aspect extraction, we preprocess the tweets to remove URLs, strip the "@" character while retaining usernames, perform hashtag segmentation using the \texttt{wordsegment} library (e.g., \texttt{\#AatmaNirbharBharat} becomes \textit{aatma nirbhar bharat}), and normalize whitespaces.
+
+The extraction process uses the \texttt{paraphrase-} \texttt{multilingual-MiniLM-L12-v2} sentence transformer model as the KeyBERT backend. We configure n-gram range of 1--2, extract top three aspects per tweet, and apply Maximal Marginal Relevance (MMR) with diversity 0.7 to balance semantic similarity with keyword diversity.
+
+\textbf{Polar Aspect Identification:} We detect partisanship in influencer tweets by checking if influencers with a certain political polarity preferentially tweet around certain political aspects. For this purpose, we analyze the aspects to identify \textit{polar aspects} -- topics disproportionately discussed by influencers with a certain polarity. We first manually selected 15 aspects -- vetted by an expert in political science -- representing major political topics for annotation, chosen based on their political significance and representation across both ruling and opposition discourse. We examined the proportion of tweets from pro-ruling and Pro-Opposition sources for each selected aspect, and categorized the aspect as pro-ruling/opposition based on which side tweeted more about it. This forms the seed set of polar aspects. Next, to expand coverage, we systematically analyzed aspect frequencies and identified 23 additional polar aspects exhibiting clear partisan skew. Table~\ref{tab:all_keywords} presents the complete set of 38 keywords used for stance analysis.
+\begin{center}
+\footnotesize
+\captionof{table}{Complete Keyword Set for Stance Analysis}
+\label{tab:all_keywords}
+\begin{tabular}{llll}
+\toprule
+\multicolumn{4}{c}{\textbf{15 seed aspects identified manually}} \\
+\midrule
+caa & congress & farm\_laws & farmers\_protests \\
+hindu & hindutva & kashmir & kashmiri\_pandits \\
+modi & muslim & new\_parliament & rahulgandhi \\
+ram\_mandir & shaheen\_bagh & china & \\
+\midrule
+\multicolumn{4}{c}{\textbf{23 extended aspects identified using frequency analysis}} \\
+\midrule
+aatmanirbhar & ayodhya & balochistan & bhakts \\
+democracy & demonetisation & dictatorship & gdp \\
+hathras & inflation & islamists & lynching \\
+mahotsav & minorities & msp & ratetvdebate \\
+sangh & sharia & spyware & suicides \\
+ucc & unemployment & & \\
+\bottomrule
+\end{tabular}
+\end{center}
+Aspects like \textit{aatmanirbhar} (self-reliance campaign), \textit{ucc} (Uniform Civil Code), \textit{ayodhya}, and \textit{mahotsav} are predominantly used by Pro-Ruling sources ($>74\%$), while \textit{unemployment}, \textit{demonetisation}, \textit{bhakts}, and \textit{spyware} are predominantly discussed by Pro-Opposition sources ($>80\%$).
+\subsection{Stance Classification}
+The goal of stance classification is to determine how influencers position themselves towards specific political topics. Given a tweet $t$ and a target keyword $e$ (such as \textit{CAA} or \textit{Farmers Protests} that are nationally prominent policy issues), the system predicts one of three stance labels: Favor (expressing support), Against (expressing opposition), or Neutral (no clear stance). %This three-way classification avoids the ambiguity of an ``unrelated'' category, which in practice often overlaps with neutral stances.
+
+Motivated by prior work in this area, we test multiple stance classification approaches on our data, ranging from transformer based models (PyABSA [ref], BERT and RoBERTa, which act as our baselines) to zero-shot, few-shot, and fine-tuned versions of an SLM (Mistral-7B). A comparative analysis of these stance classification approaches is present in the Results section.
+
+\subsubsection{Training Data}
+A prime contribution of this work is the creation of a rigorously manually annotated stance classification dataset for Indian influencer discourse on political issues. Unlike prior work that often relied on weakly-supervised or automatically generated labels, we invested significant effort in creating high-quality ground truth data to serve as a reliable benchmark. This dataset plays a central role in our pipeline: It provides the core supervision signal for fine-tuning our baseline discriminative models (BERT, RoBERTa, PyABSA), serves as the source of examples used in our few-shot prompts and for fine-tuning the SLM. A section of the data is also used as the gold-standard held-out test set for rigorous performance evaluation of our models.
+
+The dataset creation involved a multi-stage process beginning with stratified sampling. For each of the 15 seed polar keywords, we sampled 150 tweets, ensuring a balanced representation of viewpoints from both Ruling and Opposition sources. This stratification technique is crucial as it prevents the model from learning specious correlations between political affiliation and stance, such as assuming all opposition tweets are inherently "Against" the aspect. Following the sampling, strict deduplication was applied to remove near-duplicate tweets, ensuring the dataset captures diverse linguistic expressions rather than repetitive coordinated behavior. Finally, each tweet was manually annotated with its stance toward the specific target aspect by three independent annotators. The annotators, all of whom possess domain expertise in contemporary political affairs, were instructed to identify explicit expressions of support or opposition toward the target. Statements that were ambiguous, purely factual, or lacked a clear evaluative stance were labeled as Neutral. Inter-annotator reliability was high, with a Cohen’s Kappa of XXX, indicating the robustness of the annotation process
+
+The final dataset comprises 1,866 labeled tweet-keyword pairs. We adopted a strict train-test split strategy where 264 samples were set aside as a held-out test set (stratified by keyword and class). From the remaining training pool, we reserved 10 examples per keyword to serve as few-shot demonstrations, and utilized the rest for supervised training of baseline models.
+
+\subsubsection{Models Compared} To rigorously evaluate the effectiveness of our approach, we compared multiple stance classification approaches whose details are present in table~\ref{tab:model_comparison}.
+
+\begin{center}
+\footnotesize
+\captionof{table}{Models Used for Stance Classification Comparison}
+\label{tab:model_comparison}
+\begin{tabular}{p{2.8cm}p{1.8cm}p{2.2cm}}
+\toprule
+\textbf{Model} & \textbf{Type} & \textbf{Method} \\
+\midrule
+\textbf{BERT-base-uncased} (Baseline-1) & Encoder & Full Fine-tuning \\
+\textbf{RoBERTa-base} (Baseline-2) & Encoder & Full Fine-tuning \\
+\textbf{PyABSA (FAST\_LCF)} (Baseline-3) & ABSA & Aspect-focused Fine-tuning \\
+\textbf{Mistral-7B-Instruct} & Decoder & Zero-shot / Few-shot \\
+\textbf{Mistral-7B + LoRA} & Decoder & LoRA Fine-tuning \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+\textbf{Baselines:} The three baselines against which we compare our approach of stance classification using the SLM are BERT-base-uncased, RoBERTa-base, and PyABSA [ref]. For the BERT baseline, we fine-tuned the model using an aspect-aware input format: \texttt{[CLS] Aspect [SEP] Tweet [SEP]} where CLS is the special classification token whose contextualized representation is used for downstream prediction, while SEP is the separator token. This allows the self-attention mechanism to directly model the relationship between the target topic and the tweet content. Similarly, for \texttt{roberta-base}, we employed a prompt-like input format by explicitly prepending the context: ``Topic: \{Aspect\}. Tweet: \{Content\}'', leveraging RoBERTa's strong semantic understanding. Finally, we utilized the specialized PyABSA framework's \texttt{FAST\_LCF\_BERT} model, which uses a Local Context Focus (LCF) mechanism to dynamically weight context words based on their semantic and syntactic distance to the aspect. All baseline models were trained on the exact same training split (1,458 samples) and evaluated on the same held-out test set (264 samples) to ensure a strictly fair comparison.
+
+
+{\color{blue}{
+\textbf{Model outputs, classification heads, and training configuration.}
+We formulate stance detection as a 3-way single-label classification task with label set $\{\textsc{For},\textsc{Against},\textsc{Neutral}\}$ (mapped to IDs \{0,1,2\}). For each baseline, we convert the encoder output into a 3-dimensional logit vector, apply a softmax to obtain class probabilities, and predict the stance via $\arg\max$.
+
+\textit{BERT (\texttt{bert-base-uncased}):}
+We fine-tuned HuggingFace \texttt{BertForSequenceClassification} using the aspect-aware paired input format implemented in our dataset loader via the tokenizer call \texttt{tokenizer(keyword, text, ...)}, which yields the sequence \texttt{[CLS] keyword [SEP] tweet [SEP]} with standard attention masking and padding/truncation to a maximum length of 256 tokens. The model uses the final hidden state of the \texttt{[CLS]} token $\mathbf{h}_{\texttt{[CLS]}}\in\mathbb{R}^{768}$ and a linear classification head ($\mathbf{W}\in\mathbb{R}^{768\times3}$) to compute logits $\mathbf{z}\in\mathbb{R}^{3}$; the predicted label is $\arg\max_k z_k$. During training, we minimize the cross-entropy loss returned by \texttt{BertForSequenceClassification} (via \texttt{outputs.loss}) and optimize all parameters end-to-end using AdamW (\texttt{torch.optim.AdamW}) with learning rate $2\times 10^{-5}$ and weight decay $0.01$, batch size 16, gradient clipping at max-norm 1.0, and early stopping with patience 3 based on validation macro-F1. The learning rate is scheduled with a linear decay from the initial rate to zero across all training steps using \texttt{torch.optim.lr\_scheduler.LinearLR}. We train for up to 5 epochs with a stratified 90/10 train--validation split.
+
+\textit{RoBERTa (\texttt{roberta-base}):}
+We fine-tuned HuggingFace \texttt{RobertaForSequenceClassification} using an explicit prompt-like input string of the form \texttt{``Topic: \{keyword\}. Tweet: \{tweet\}''}, tokenized with padding/truncation to a maximum length of 256 tokens. RoBERTa computes a sequence representation from the start token \texttt{<s>} (RoBERTa's \texttt{[CLS]} equivalent) and applies the standard RoBERTa classification head (dropout $\rightarrow$ dense layer $\rightarrow$ tanh $\rightarrow$ dropout $\rightarrow$ output projection) to produce logits $\mathbf{z}\in\mathbb{R}^{3}$, followed by softmax probabilities and $\arg\max$ prediction. Training uses AdamW with learning rate $2\times 10^{-5}$ and weight decay $0.01$, batch size 16, gradient clipping at 1.0, and a linear warmup schedule for the first 10\% of training steps followed by linear decay (via \texttt{get\_linear\_schedule\_with\_warmup}). The model is trained for 3 epochs, using a 10\% validation subset sampled from the training data (fixed random seed).
+
+\textit{PyABSA (\texttt{FAST\_LCF\_BERT}):}
+For the PyABSA baseline, we employ the \texttt{FAST\_LCF\_BERT} configuration through PyABSA's Aspect Polarity Classification (APC) trainer. We convert our stance labels into PyABSA's expected 3-class polarity format (\textsc{For}$\rightarrow$Positive/$+1$, \textsc{Against}$\rightarrow$Negative/$-1$, \textsc{Neutral}$\rightarrow$Neutral/$0$) and generate the required 3-line APC dataset format, where the tweet text contains a \texttt{\$T\$} marker indicating the aspect position and the second line provides the aspect term. \texttt{FAST\_LCF\_BERT} uses \texttt{bert-base-uncased} as the backbone encoder and applies a Local Context Focus (LCF) mechanism to emphasize aspect-relevant context prior to classification. The model outputs a 3-way polarity distribution which we map back to \{\textsc{For}, \textsc{Against}, \textsc{Neutral}\} for evaluation. We train for 5 epochs with batch size 16, learning rate $2\times 10^{-5}$, dropout 0.1, maximum sequence length 256, L2 regularization $1\times 10^{-5}$ (as \texttt{l2reg}), and early stopping patience 3, using PyABSA's default APC training pipeline and saving the best checkpoint.}
+}
+
+\textbf{LoRA-Adapted Mistral:}
+We employ Mistral-7B-Instruct as our primary backbone (with zero-shot and few-shot variations. The prompts are available in the Appendix). The base model was additionally enhanced with Low-Rank Adaptation (LoRA) for parameter-efficient fine-tuning. Full fine-tuning of 7B+ parameter models is computationally prohibitive and prone to catastrophic forgetting. LoRA freezes the pre-trained weights $W$ and injects trainable rank decomposition matrices $A$ and $B$, such that the weight update is $\Delta W = BA$, where $B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times k}$. We set the rank $r=16$ and alpha $\alpha=32$, targeting all linear projection layers (query, key, value, output, gate, up, down). The model was fine-tuned on the training split to generate structured JSON outputs containing both the stance label and a reasoning field. The instruction-tuning approach encourages the model to perform chain-of-thought reasoning before assigning a label, improving interpretability.
+
+\subsubsection{Evaluation Results}
+We evaluated all models on the held-out test set of 265 samples. Table~\ref{tab:eval_overall} presents the comparative results. The LoRA-adapted Mistral model demonstrates competitive performance, effectively balancing precision and recall across classes.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Stance Classification Evaluation Results}
+\label{tab:eval_overall}
+\begin{tabular}{lr}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Total test samples & 264 \\
+Accuracy & 78.0\% \\
+Precision (macro) & 78.0\% \\
+Recall (macro) & 75.3\% \\
+F1-Score (macro) & 76.2\% \\
+F1-Score (weighted) & 77.7\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+Table~\ref{tab:eval_perclass} shows per-class performance for the best model (fine-tuned SLM). The model performs strongest on the ``favor'' class (F1=0.82), followed by ``against'' (F1=0.79). The ``neutral'' class shows lower recall (0.60), reflecting the inherent difficulty of distinguishing neutral stances from weakly expressed opinions. We present a detailed analysis of the misclassifications in the Discussion section.
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Per-Class Classification Performance}
+\label{tab:eval_perclass}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Support} \\
+\midrule
+Against & 0.78 & 0.80 & 0.79 & 95 \\
+Favor & 0.78 & 0.86 & 0.82 & 111 \\
+Neutral & 0.78 & 0.60 & 0.68 & 58 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+Table~\ref{tab:eval_keyword} presents per-aspect accuracy for the seed aspects, showing that some yield clearer stance signals than others. Keywords like \textit{Modi} (name of the Prime Minister of India) achieve the highest accuracy (94.4\%), followed by \textit{CAA} (89.5\%) and \textit{Congress} (88.9\%) (the largest party in opposition).
+
+\vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Per-Keyword Classification Accuracy (Top 10)}
+\label{tab:eval_keyword}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Keyword} & \textbf{Accuracy} & \textbf{F1 (macro)} \\
+\midrule
+modi & 94.4\% & 0.91 \\
+caa & 89.5\% & 0.90 \\
+congress & 88.9\% & 0.84 \\
+hindutva & 85.7\% & 0.56 \\
+new\_parliament & 85.7\% & 0.82 \\
+rahulgandhi & 81.3\% & 0.81 \\
+farmers\_protests & 80.0\% & 0.82 \\
+shaheen\_bagh & 78.9\% & 0.71 \\
+muslim & 78.9\% & 0.79 \\
+china & 73.7\% & 0.64 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+\subsubsection{Final Inference Pipeline}
+To generalize our stance classification approach, we also performed an out-of-distribution testing on 23 additional aspects unseen by the model as primary aspects for tweets. For this purpose, we deploy an inference pipeline that combines the trained LoRA adapter with few-shot prompting. The pipeline loads the base Mistral-7B-Instruct model and applies the trained LoRA adapter using PEFT's \texttt{PeftModel}, effectively deploying our fine-tuned stance classifier without modifying the base model weights.
+
+The inference prompt is constructed using the same 10 few-shot examples per keyword that were reserved during annotation. For each input tweet, the pipeline retrieves keyword-specific examples following the naming pattern \texttt{\{prefix\}\_\{keyword\}\_stance.json}. For the 23 extended keywords that lack dedicated annotations, the system falls back to a global set of representative examples, enabling stance classification across all 38 keywords with consistent prompt structure.
+
+Inference uses deterministic settings (temperature 0, no sampling) to ensure reproducible outputs. The model returns JSON containing stance and reasoning, which is parsed by a robust extraction function that handles various output formats and applies label normalization. Batched processing with length-based bucketing enables efficient large-scale inference, while resume functionality and periodic checkpointing ensure reliability for processing the full dataset.
+
+\subsection{Hindi Tweet Analysis}
+We also analyzed the tweets written in Hindi (Devanagari and Roman fonts) to perform a comparative analysis of the trends around stance classification for both Hindi and English tweets. For this purpose, we first selected 5000 unique Hindi tweets, by dropping retweets and duplicates. We also stratified the data by script$\times$URL$\times$hashtag, to prevent over-/under-representation exhibited in Naive Random Sampling. %This yields us a randomised 500 datapoint csv file and an ID manifest.
+While there are NLP tools for aspect extraction and stance analysis for non-English/Hindi documents, in this work we use a translation pipeline to convert the Hindi tweets to their English equivalents, and then perform aspect extraction and stance classification on the translated data. We performed a detailed sanity check of the translated data, and the final results of stance classification, to ensure robustness of our findings [to be reported].
+
+A major advantage of this translation based approach is the applicability of SOTA NLP approaches (e.g., KeyBERT and SLMs) on the Hindi data. Additionally, application of the same methods of aspect extraction and stance analysis on both Hindi and English datasets ensures that their performance on both datasets are easily comparable. This in turn leads to generalizability of our findings. 
+
+We used the \texttt{facebook/nllb-200-distilled-600M} model \cite{costa2022no} to translate the Hindi tweets to English, since the model has an advantage of efficient handling of both pure Devanagari and Roman Hindi scripts, both of which are abundant in our data [ref]. We used a batch size of 16 and set the \texttt{max-new-tokens} parameters = 128, experimentally. This resulted in translation of all 500 Hindi tweets to English.
+
+Next, our goal was to perform quality check of the translated data. Standard qualitative analysis approaches to check translation quality often suffer from sampling issues, and the requirement of significant manual effort. To avoid this, we developed a quantitative method to assess the quality of translations, on top of a qualitative layer [to be provided].
+
+\textbf{Translation Quality Assessment:} For the quantitative assessment, we first represented the two datasets in the same embedding space, and then observed the drift between each Hindi and its equivalent translated English data point, to assess their semantic coherence. If the average drift was lower than a certain threshold, we determined the translation quality to be above par, and vice versa. 
+
+We first embedded the original and the translated texts using the same \texttt{paraphrase-multilingual-MiniLM-L12-v2} model\cite{reimers2019sentence}. [Write some details about this model and its multilingual ability]. This ensures that both the Hindi/Roman Hindi and English texts are embedded into a shared embedding space. We then measure the cosine similarity of the embeddings to see how semantically similar the original and translated data points are. We finally experimentally determine, through manual inspection [results to be given], a set of similarity threshold scores. Specifically, if the two data points exhibit:
+\begin{itemize}
+    \item A similarity score of above 0.9, they are considered to be semantically coherent
+    \item A similarity score of below 0.85, they are considered to be semantically incoherent
+    \item A similarity score $\epsilon [0.85,0.9]$, the data points are considered to require further manual inspection
+\end{itemize}
+
+Our analysis revealed a median cosine similarity of 0.95, indicative of a significant number of semantically coherent translations. Only 15.8\% of the data points exhibited a score of below 0.9, 1.8\% between 0.8 and 0.85 (inspect), and 0.4\% below 0.8 (incoherent). This indicates that the quality of most of our translations are significantly high.
+
+We also use \textit{Uniform Manifold Approximation and Projection} (UMAP) \cite{mcinnes2018umap} to project the original and translated embeddings into a 2D space (figure \ref{fig:umap_all}), to observe the drifts between pair of data points. UMAP is a non-linear dimensionality reduction technique to visualize high-dimensional data in 2D or 3D. It is generally faster and better at preserving overall structure of data compared to other existing methods for dimensionality reduction. We see that both the Hindi and corresponding English data points are similarly distributed in the 2D space, and only a few exhibit significant drifts, once again corroborating our finding of satisfactory translation quality. 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{Agriya_visualisations/full_umap_drift_with_arrows_legend_1.png}
+  \caption{UMAP projection of original (Hindi/Roman) vs translated (English) tweets with drift arrows.}
+  \label{fig:umap_all}
+\end{figure}
+
+On top of our quantitative assessment layer, we performed a manual check of the translated data, to doubly ensure the quality of translations generated. Two annotators (comfortable with Hindi) independently annotated 100 randomly selected examples for their translation quality. A label of 1 was assigned for satisfactory and semantically coherent translation, and 0 was assigned otherwise. This exercise revealed an inter-annotator agreement of [XXX\%] and an accuracy of [XXX\%], indicating a satisfactory performance of the translation pipeline.
+
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.8\linewidth]{umap_lowcos_below_0.85_xy.png}
+%   \caption{Low-cosine translations ($<0.85$): UMAP coordinates for originals (blue) and translations (orange) with arrows.}
+% \end{figure}
+
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.8\linewidth]{umap_lowcos_below_0.90.png}
+%   \caption{Low-cosine translations ($<0.90$): UMAP coordinates for originals (blue) and translations (orange) in line graph format.}
+% \end{figure}
+
+[-- need to write about how we will handle values below 0.85 and 0.80- either manual review or treating as mistranslations. The thresholds need to be decided based on an analysis of the empirical distribution.]
+
+Table~\ref{tab:eval_embedding} showcases the justification for our use of multilingual sentence embeddings, we compared \texttt{paraphrase-multilingual-MiniLM-L12-v2} with a monolingual MiniLM baseline on 5,000 Hindi–English translation pairs. The multilingual model achieved high cross-lingual retrieval accuracy (R@1 = 0.837, MRR = 0.854) and near-perfect separation between true and mismatched translation pairs ($\delta$ = 0.539, AUC = 0.960, Cohen’s d = 2.88), while the monolingual model performed substantially worse (R@1 = 0.462, AUC = 0.717).
+% \begin{table}[t]
+% \centering
+% \caption{Embedding model comparison. Multilingual-MiniLM outperforms the monolingual model.}
+% \label{tab:eval_embedding}
+% \begin{tabular}{lrr}
+% \toprule
+% Metric & Multilingual-MiniLM & Monolingual-MiniLM \\
+% \midrule
+% R@1 & 0.837 & 0.4618 \\
+% R@5 & 0.8726 & 0.4676 \\
+% R@10 & 0.8816 & 0.4716 \\
+% MRR & 0.854 & 0.465 \\
+% POS\_mean & 0.831 & 0.606 \\
+% POS\_median & 0.8805 & 0.5105 \\
+% NEG\_mean & 0.2922 & 0.3031 \\
+% NEG\_median & 0.2803 & 0.3077 \\
+% Delta & 0.5394 & 0.3029 \\
+% AUC & 0.9604 & 0.7168 \\
+% Cohen\_d & 2.88 & 1.09 \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+% \vspace{0.5em}
+\begin{center}
+\footnotesize
+\captionof{table}{Embedding Model Comparison: Multilingual-MiniLM clearly outperforms the monolingual model}
+\label{tab:eval_embedding}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Metric} & \textbf{multilingual-MiniLM} & \textbf{monolingual-MiniLM} \\
+\midrule
+R@1 & 0.837 & 0.4618 \\
+R@5 & 0.8726 & 0.4676 \\
+R@10 & 0.8816 & 0.4716 \\
+MRR & 0.854 & 0.465 \\
+POS\_mean & 0.831 & 0.606 \\
+POS\_median & 0.8805 & 0.5105 \\
+NEG\_mean & 0.2922 & 0.3031 \\
+NEG\_median & 0.2803 & 0.3077 \\
+Delta & 0.5394 & 0.3029 \\
+AUC & 0.9604 & 0.7168 \\
+Cohen\_d & 2.88 & 1.09 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+
+This behavior is consistent with the multilingual alignment objective described by Reimers and Gurevych \cite{reimers2020making}, who show that sentence embeddings trained via knowledge distillation on parallel data form a shared semantic space across languages. Our results empirically confirm that  the multilingual model yields a sufficiently well-aligned cross-lingual embedding space for reliable translation quality assessment and multilingual stance analysis.
+
+\subsubsection{Connection to the Enligh pipeline}
+
+\subsubsection{Multilingual Model Support}
+
+The Mistral-7B model supports multilingual input, enabling direct processing of Hindi tweets. The few-shot examples for Hindi tweets are constructed with Hindi text while maintaining the same JSON output format.
+
+\subsubsection{Fallback Mechanism}
+
+The pipeline implements hierarchical few-shot example retrieval:
+\begin{enumerate}
+    \item Attempt to load keyword-specific examples
+    \item If unavailable, fall back to a global fallback JSON
+\end{enumerate}
+
+This ensures robust inference even for keywords without dedicated few-shot examples.
+
+\vspace{0.5em}
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1cm,
+    auto,
+    block/.style={
+        rectangle,
+        draw,
+        fill=blue!10,
+        text width=1.8cm,
+        text centered,
+        rounded corners,
+        minimum height=0.8cm,
+        font=\scriptsize
+    },
+    cloud/.style={
+        draw,
+        ellipse,
+        fill=red!10,
+        minimum height=0.6cm,
+        font=\scriptsize
+    },
+    database/.style={
+        cylinder,
+        cylinder uses custom fill,
+        cylinder body fill=yellow!20,
+        cylinder end fill=yellow!10,
+        shape border rotate=90,
+        draw,
+        aspect=0.25,
+        minimum height=1cm,
+        text centered,
+        font=\scriptsize
+    },
+    line/.style={
+        draw,
+        -Latex,
+        thick
+    }
+]
+
+% Nodes
+\node [cloud] (input) {Input Tweet};
+\node [block, below of=input] (lookup) {Few-Shot Lookup};
+\node [database, right of=lookup, node distance=2.5cm] (db) {Examples DB};
+\node [block, below of=lookup] (prompt) {Prompt Build};
+\node [block, below of=prompt] (llm) {LLM + LoRA};
+\node [cloud, below of=llm] (output) {JSON Output};
+
+% Edges
+\path [line] (input) -- (lookup);
+\path [line] (db) -- (lookup);
+\path [line] (lookup) -- (prompt);
+\path [line] (prompt) -- (llm);
+\path [line] (llm) -- (output);
+
+\end{tikzpicture}
+\captionof{figure}{Stance Detection System Architecture}
+\label{fig:architecture}
+\end{center}
+\vspace{0.5em}

@@ -1,0 +1,16 @@
+keyword,samples,correct,accuracy_pct,f1_macro,gt_for,gt_against,gt_neutral
+caa,19,17,89.47,0.8956,6,8,5
+china,19,14,73.68,0.644,2,12,5
+congress,18,16,88.89,0.8413,8,8,2
+farm laws,22,16,72.73,0.7345,8,6,8
+farmers protests,10,8,80.0,0.8222,5,3,2
+hindu,15,10,66.67,0.5926,10,2,3
+hindutva,14,12,85.71,0.563,8,6,0
+kashmir,17,10,58.82,0.3752,11,5,1
+kashmiri pandits,16,10,62.5,0.4258,6,0,10
+modi,18,17,94.44,0.9111,7,8,3
+muslim,19,15,78.95,0.7855,7,9,3
+new parliament,21,18,85.71,0.8239,11,7,3
+rahulgandhi,16,13,81.25,0.819,4,4,8
+ram mandir,21,15,71.43,0.6972,9,9,3
+shaheen bagh,19,15,78.95,0.714,9,8,2

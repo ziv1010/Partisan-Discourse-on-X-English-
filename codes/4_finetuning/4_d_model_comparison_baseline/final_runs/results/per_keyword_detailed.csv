@@ -1,0 +1,76 @@
+model,keyword,samples,correct,accuracy,f1_macro,gt_for,gt_against,gt_neutral
+bert,caa,19,6,31.58,0.3058,6,8,5
+bert,china,19,10,52.63,0.3345,2,12,5
+bert,congress,18,9,50.0,0.5,8,8,2
+bert,farm laws,22,10,45.45,0.4471,8,6,8
+bert,farmers protests,10,5,50.0,0.5259,5,3,2
+bert,hindu,15,10,66.67,0.2667,10,2,3
+bert,hindutva,14,10,71.43,0.4967,8,6,0
+bert,kashmir,17,11,64.71,0.4949,11,5,1
+bert,kashmiri pandits,16,11,68.75,0.4575,6,0,10
+bert,modi,18,14,77.78,0.7429,7,8,3
+bert,muslim,20,8,40.0,0.2897,7,9,4
+bert,new parliament,21,10,47.62,0.4684,11,7,3
+bert,rahulgandhi,16,10,62.5,0.5472,4,4,8
+bert,ram mandir,21,11,52.38,0.4247,9,9,3
+bert,shaheen bagh,19,11,57.89,0.5271,9,8,2
+roberta,caa,19,11,57.89,0.5999,6,8,5
+roberta,china,19,10,52.63,0.2963,2,12,5
+roberta,congress,18,10,55.56,0.5587,8,8,2
+roberta,farm laws,22,8,36.36,0.3336,8,6,8
+roberta,farmers protests,10,5,50.0,0.4444,5,3,2
+roberta,hindu,15,10,66.67,0.2667,10,2,3
+roberta,hindutva,14,11,78.57,0.5029,8,6,0
+roberta,kashmir,17,8,47.06,0.2222,11,5,1
+roberta,kashmiri pandits,16,11,68.75,0.4575,6,0,10
+roberta,modi,18,15,83.33,0.8,7,8,3
+roberta,muslim,20,8,40.0,0.2771,7,9,4
+roberta,new parliament,21,13,61.9,0.5064,11,7,3
+roberta,rahulgandhi,16,10,62.5,0.5364,4,4,8
+roberta,ram mandir,21,11,52.38,0.3562,9,9,3
+roberta,shaheen bagh,19,11,57.89,0.5602,9,8,2
+mistral_base,caa,19,8,42.11,0.446,6,8,5
+mistral_base,china,19,13,68.42,0.5321,2,12,5
+mistral_base,congress,18,16,88.89,0.8661,8,8,2
+mistral_base,farm laws,22,8,36.36,0.3398,8,6,8
+mistral_base,farmers protests,10,7,70.0,0.746,5,3,2
+mistral_base,hindu,14,4,28.57,0.2238,10,2,2
+mistral_base,hindutva,14,8,57.14,0.3556,8,6,0
+mistral_base,kashmir,17,8,47.06,0.3571,11,5,1
+mistral_base,kashmiri pandits,16,5,31.25,0.265,6,0,10
+mistral_base,modi,18,15,83.33,0.7802,7,8,3
+mistral_base,muslim,20,11,55.0,0.4899,7,9,4
+mistral_base,new parliament,19,14,73.68,0.7037,11,6,2
+mistral_base,rahulgandhi,14,9,64.29,0.6329,4,3,7
+mistral_base,ram mandir,18,10,55.56,0.4278,9,7,2
+mistral_base,shaheen bagh,17,10,58.82,0.4647,9,6,2
+mistral_fewshot,caa,19,10,52.63,0.5117,6,8,5
+mistral_fewshot,china,19,15,78.95,0.6741,2,12,5
+mistral_fewshot,congress,18,16,88.89,0.8661,8,8,2
+mistral_fewshot,farm laws,22,10,45.45,0.4538,8,6,8
+mistral_fewshot,farmers protests,10,7,70.0,0.7111,5,3,2
+mistral_fewshot,hindu,15,3,20.0,0.1495,10,2,3
+mistral_fewshot,hindutva,14,9,64.29,0.4171,8,6,0
+mistral_fewshot,kashmir,17,9,52.94,0.3739,11,5,1
+mistral_fewshot,kashmiri pandits,16,6,37.5,0.3205,6,0,10
+mistral_fewshot,modi,18,16,88.89,0.7917,7,8,3
+mistral_fewshot,muslim,19,12,63.16,0.5576,7,9,3
+mistral_fewshot,new parliament,21,17,80.95,0.7499,11,7,3
+mistral_fewshot,rahulgandhi,16,11,68.75,0.6556,4,4,8
+mistral_fewshot,ram mandir,21,13,61.9,0.5611,9,9,3
+mistral_fewshot,shaheen bagh,19,12,63.16,0.5778,9,8,2
+mistral_lora,caa,19,17,89.47,0.8956,6,8,5
+mistral_lora,china,19,14,73.68,0.644,2,12,5
+mistral_lora,congress,18,16,88.89,0.8413,8,8,2
+mistral_lora,farm laws,22,16,72.73,0.7345,8,6,8
+mistral_lora,farmers protests,10,8,80.0,0.8222,5,3,2
+mistral_lora,hindu,15,10,66.67,0.5926,10,2,3
+mistral_lora,hindutva,14,12,85.71,0.563,8,6,0
+mistral_lora,kashmir,17,10,58.82,0.3752,11,5,1
+mistral_lora,kashmiri pandits,16,10,62.5,0.4258,6,0,10
+mistral_lora,modi,18,17,94.44,0.9111,7,8,3
+mistral_lora,muslim,19,15,78.95,0.7855,7,9,3
+mistral_lora,new parliament,21,18,85.71,0.8239,11,7,3
+mistral_lora,rahulgandhi,16,13,81.25,0.819,4,4,8
+mistral_lora,ram mandir,21,15,71.43,0.6972,9,9,3
+mistral_lora,shaheen bagh,19,15,78.95,0.714,9,8,2
