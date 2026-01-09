@@ -1,0 +1,97 @@
+================================================================================
+KEYWORD RANKING ANALYSIS REPORT
+================================================================================
+
+Total keywords in dataset: 96477
+Target keywords analyzed: 22
+
+--------------------------------------------------------------------------------
+TARGET KEYWORD RANKINGS (sorted by rank)
+--------------------------------------------------------------------------------
+
+Keyword                  Rank    Total Tweets   Percentile   Pro Ruling %    Pro Opp %
+--------------------------------------------------------------------------------
+democracy                  50          12,763       99.95%         36.12%       53.06%
+ayodhya                   160           5,912       99.83%         70.13%       15.78%
+unemployment              246           4,296       99.75%         12.13%       75.26%
+inflation                 336           3,431       99.65%         28.21%       48.94%
+mahotsav                  424           2,854       99.56%         96.64%        2.03%
+islamists                 614           2,085       99.36%         96.79%        0.58%
+lynching                  743           1,775       99.23%         68.06%       25.35%
+minorities                824           1,614       99.15%         39.71%       48.08%
+hathras                   942           1,457       99.02%         23.61%       67.40%
+bhakts                   1023           1,359       98.94%         10.30%       88.08%
+spyware                  1075           1,314       98.89%          7.46%       84.47%
+gdp                      1452             994       98.49%         24.55%       68.21%
+balochistan              1500             957       98.45%         96.03%        0.94%
+aatmanirbhar             1617             883       98.32%         88.34%        4.87%
+msp                      1904             741       98.03%         69.64%       19.16%
+dictatorship             2273             617       97.64%         16.21%       66.29%
+sharia                   2323             605       97.59%         94.55%        2.81%
+demonetisation           2522             555       97.39%         10.45%       75.68%
+ratetvdebate             2740             509       97.16%          0.00%      100.00%
+suicides                 2760             504       97.14%         17.26%       75.60%
+sangh                    4184             300       95.66%         73.33%       26.00%
+ucc                      5895             187       93.89%         55.08%       20.86%
+
+--------------------------------------------------------------------------------
+SUMMARY STATISTICS FOR TARGET KEYWORDS
+--------------------------------------------------------------------------------
+
+Rank Statistics:
+  - Highest ranked keyword: democracy (Rank #50)
+  - Lowest ranked keyword: ucc (Rank #5895)
+  - Mean rank: 1618.5
+  - Median rank: 1263.5
+
+Tweet Count Statistics:
+  - Highest tweets: 12,763 (democracy)
+  - Lowest tweets: 187 (ucc)
+  - Mean tweets: 2,078
+  - Median tweets: 1,154
+
+--------------------------------------------------------------------------------
+THRESHOLD ANALYSIS
+--------------------------------------------------------------------------------
+
+Top keyword thresholds (higher rank = lower tweet count):
+  - Top 1% = Rank 1 to 964 (min 1,428 tweets)
+  - Top 5% = Rank 1 to 4,823 (min 249 tweets)
+  - Top 10% = Rank 1 to 9,647 (min 88 tweets)
+  - Top 25% = Rank 1 to 24,119 (min 15 tweets)
+  - Top 50% = Rank 1 to 48,238 (min 3 tweets)
+
+Target keywords distribution by rank buckets:
+  - Rank 1-50: 1 keywords (democracy)
+  - Rank 101-200: 1 keywords (ayodhya)
+  - Rank 201-500: 3 keywords (unemployment, inflation, mahotsav)
+  - Rank 501-1000: 4 keywords (islamists, lynching, minorities, hathras)
+  - Rank 1001-5000: 12 keywords (bhakts, spyware, gdp, balochistan, aatmanirbhar, msp, dictatorship, sharia, demonetisation, ratetvdebate, suicides, sangh)
+  - Rank 5001-96477: 1 keywords (ucc)
+
+--------------------------------------------------------------------------------
+REFERENCE: TOP 20 KEYWORDS BY TOTAL TWEETS
+--------------------------------------------------------------------------------
+
+  Rank Keyword                 Total Tweets
+---------------------------------------------
+     1 india                        290,489
+     2 narendramodi                 128,703
+     3 congress                      93,534
+     4 indian                        59,140
+     5 farmers                       50,965
+     6 minister                      50,745
+     7 delhi                         48,652
+     8 rahulgandhi                   40,095
+     9 president                     37,423
+    10 gujarat                       33,103
+    11 kiba                          28,535
+    12 maharashtra                   27,961
+    13 mumbai                        27,295
+    14 oxygen                        27,206
+    15 vaccine                       26,885
+    16 protest                       25,650
+    17 government                    25,527
+    18 media                         25,227
+    19 pradesh                       25,204
+    20 police                        24,698

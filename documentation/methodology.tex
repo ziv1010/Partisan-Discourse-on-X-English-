@@ -23,6 +23,7 @@ Based on the average polarity score, influencers are classified into three categ
 
 Three independent annotators also manually analyzed the influencer polarities to validate the results. This exercise reached a high inter-annotator agreement (95\% unanimous agreement), revealing the above-par performance of the procedure. The disagreements were resolved by taking the majority annotation as the polarity for the influencer. Table XXX shows some examples of influencers and their polarities obtained using this method.
 
+
 \subsection{Aspect Identification}
 To identify the topics or aspects discussed in influencer tweets, we employ KeyBERT\cite{grootendorst2020keybert} for automated keyword extraction from tweet text. KeyBERT leverages BERT embeddings to identify keywords and phrases that are semantically similar to the document as a whole, making it suitable for capturing the topical essence of short-form social media content.
 
@@ -30,7 +31,7 @@ Before aspect extraction, we preprocess the tweets to remove URLs, strip the "@"
 
 The extraction process uses the \texttt{paraphrase-} \texttt{multilingual-MiniLM-L12-v2} sentence transformer model as the KeyBERT backend. We configure n-gram range of 1--2, extract top three aspects per tweet, and apply Maximal Marginal Relevance (MMR) with diversity 0.7 to balance semantic similarity with keyword diversity.
 
-\textbf{Polar Aspect Identification:} We detect partisanship in influencer tweets by checking if influencers with a certain political polarity preferentially tweet around certain political aspects. For this purpose, we analyze the aspects to identify \textit{polar aspects} -- topics disproportionately discussed by influencers with a certain polarity. We first manually selected 15 aspects -- vetted by an expert in political science -- representing major political topics for annotation, chosen based on their political significance and representation across both ruling and opposition discourse. We examined the proportion of tweets from pro-ruling and Pro-Opposition sources for each selected aspect, and categorized the aspect as pro-ruling/opposition based on which side tweeted more about it. This forms the seed set of polar aspects. Next, to expand coverage, we systematically analyzed aspect frequencies and identified 23 additional polar aspects exhibiting clear partisan skew. Table~\ref{tab:all_keywords} presents the complete set of 38 keywords used for stance analysis.
+\textbf{Polar Aspect Identification:} We detect partisanship in influencer tweets by checking if influencers with a certain political polarity preferentially tweet around certain political aspects. For this purpose, we analyze the aspects to identify \textit{polar aspects} -- topics disproportionately discussed by influencers with a certain polarity. We first manually selected 15 aspects -- vetted by an expert in political science -- representing major political topics for annotation, chosen based on their political significance and representation across both ruling and opposition discourse. We examined the proportion of tweets from pro-ruling and Pro-Opposition sources for each selected aspect, and categorized the aspect as pro-ruling/opposition based on which side tweeted more about it. This forms the seed set of polar aspects. Next, to expand coverage, we systematically analyzed aspect frequencies and identified 22 additional polar aspects exhibiting clear partisan skew. Table~\ref{tab:all_keywords} presents the complete set of 37 keywords used for stance analysis.
 \begin{center}
 \footnotesize
 \captionof{table}{Complete Keyword Set for Stance Analysis}
@@ -44,7 +45,7 @@ hindu & hindutva & kashmir & kashmiri\_pandits \\
 modi & muslim & new\_parliament & rahulgandhi \\
 ram\_mandir & shaheen\_bagh & china & \\
 \midrule
-\multicolumn{4}{c}{\textbf{23 extended aspects identified using frequency analysis}} \\
+\multicolumn{4}{c}{\textbf{22 extended aspects identified using frequency analysis}} \\
 \midrule
 aatmanirbhar & ayodhya & balochistan & bhakts \\
 democracy & demonetisation & dictatorship & gdp \\
@@ -56,6 +57,62 @@ ucc & unemployment & & \\
 \end{tabular}
 \end{center}
 Aspects like \textit{aatmanirbhar} (self-reliance campaign), \textit{ucc} (Uniform Civil Code), \textit{ayodhya}, and \textit{mahotsav} are predominantly used by Pro-Ruling sources ($>74\%$), while \textit{unemployment}, \textit{demonetisation}, \textit{bhakts}, and \textit{spyware} are predominantly discussed by Pro-Opposition sources ($>80\%$).
+
+{\color{blue}
+\textbf{Extended Keyword Selection Methodology:}
+KeyBERT extracted a total of 96,477 unique keywords across the entire corpus. To systematically identify additional polar aspects beyond the 15 manually-selected seed keywords, we employed a percentile-based filtering approach. We ranked all keywords by their total tweet frequency and retained only those in the top 10th percentile (rank $\leq$ 9,647, corresponding to $\geq$88 tweets per keyword). This threshold yielded 9,647 candidate keywords covering over 7.5 million tweets, ensuring sufficient data volume for downstream stance classification.
+
+From this filtered set, a domain expert in political science reviewed the candidate keywords and selected aspects based on three criteria: (1) political relevance to contemporary Indian discourse, (2) evidence of partisan polarization (clear skew toward either pro-ruling or pro-opposition sources), and (3) representation from both ideological camps to ensure balanced coverage across the political spectrum. 
+
+This selection rationale ensures that the chosen keywords have adequate tweet volume from which KeyBERT initially labeled instances; the main extraction script subsequently retrieves \textit{all} tweets containing each aspect term, regardless of whether KeyBERT had explicitly labeled that tweet with that aspect.
+
+Figure~\ref{fig:keyword_distribution} illustrates the distribution of all keywords by tweet volume, highlighting the position of the 22 selected extended aspects. All selected aspects fall within the top 6.1\% of keywords by volume (ranks 50 to 5,895 out of 96,477).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\linewidth]{keyword_distribution_improved.png}
+  \caption{Keyword distribution showing tweet volume across all 96,477 keywords extracted by KeyBERT. The 22 target extended aspects (red dots) are highlighted, spanning ranks 50 to 5,895, all within the top 10\% threshold.}
+  \label{fig:keyword_distribution}
+\end{figure}
+
+Table~\ref{tab:extended_aspects} presents the complete set of 22 extended aspects with their KeyBERT-labeled tweet counts, partisan distribution, and percentile ranking.
+
+\begin{center}
+\footnotesize
+\captionof{table}{Extended Aspects: KeyBERT-Labeled Tweet Distribution}
+\label{tab:extended_aspects}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Aspect} & \textbf{Total Tweets} & \textbf{Pro-Ruling} & \textbf{Pro-Opp} & \textbf{Percentile} \\
+\midrule
+democracy & 12,763 & 4,609 & 6,772 & 99.95\% \\
+ayodhya & 5,912 & 4,146 & 932 & 99.83\% \\
+unemployment & 4,296 & 521 & 3,233 & 99.75\% \\
+inflation & 3,431 & 967 & 1,679 & 99.65\% \\
+mahotsav & 2,854 & 2,758 & 57 & 99.56\% \\
+islamists & 2,085 & 2,018 & 12 & 99.36\% \\
+lynching & 1,775 & 1,208 & 449 & 99.23\% \\
+minorities & 1,614 & 640 & 776 & 99.15\% \\
+hathras & 1,457 & 343 & 982 & 99.02\% \\
+bhakts & 1,359 & 139 & 1,197 & 98.94\% \\
+spyware & 1,314 & 98 & 1,109 & 98.89\% \\
+gdp & 994 & 244 & 678 & 98.49\% \\
+balochistan & 957 & 919 & 8 & 98.45\% \\
+aatmanirbhar & 883 & 780 & 43 & 98.32\% \\
+msp & 741 & 516 & 141 & 98.03\% \\
+dictatorship & 617 & 100 & 409 & 97.64\% \\
+sharia & 605 & 572 & 17 & 97.59\% \\
+demonetisation & 555 & 57 & 420 & 97.39\% \\
+ratetvdebate & 509 & 0 & 509 & 97.16\% \\
+suicides & 504 & 86 & 381 & 97.14\% \\
+sangh & 300 & 219 & 78 & 95.66\% \\
+ucc & 187 & 102 & 39 & 93.89\% \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.5em}
+}
+
 \subsection{Stance Classification}
 The goal of stance classification is to determine how influencers position themselves towards specific political topics. Given a tweet $t$ and a target keyword $e$ (such as \textit{CAA} or \textit{Farmers Protests} that are nationally prominent policy issues), the system predicts one of three stance labels: Favor (expressing support), Against (expressing opposition), or Neutral (no clear stance). %This three-way classification avoids the ambiguity of an ``unrelated'' category, which in practice often overlaps with neutral stances.
 
@@ -179,14 +236,14 @@ We employ Mistral-7B-Instruct as our primary backbone (with zero-shot and few-sh
 % \vspace{0.5em}
 
 \subsubsection{Final Inference Pipeline}
-To generalize our stance classification approach, we also performed an out-of-distribution testing on 23 additional aspects unseen by the model as primary aspects for tweets. For this purpose, we deploy an inference pipeline that combines the trained LoRA adapter with few-shot prompting. The pipeline loads the base Mistral-7B-Instruct model and applies the trained LoRA adapter using PEFT's \texttt{PeftModel}, effectively deploying our fine-tuned stance classifier without modifying the base model weights.
+To generalize our stance classification approach, we also performed an out-of-distribution testing on 22 additional aspects unseen by the model as primary aspects for tweets. For this purpose, we deploy an inference pipeline that combines the trained LoRA adapter with few-shot prompting. The pipeline loads the base Mistral-7B-Instruct model and applies the trained LoRA adapter using PEFT's \texttt{PeftModel}, effectively deploying our fine-tuned stance classifier without modifying the base model weights.
 
 {\color{blue}
 \textbf{Extended Aspect Selection and Inference Clarification:}
-The 23 extended aspects were identified through frequency analysis of the keyword distribution across political stances. For each candidate keyword, we computed its usage frequency among Pro-Ruling and Pro-Opposition sources and calculated each keyword's partisan skew percentage. Keywords exhibiting notable partisan skew and sufficient volume were manually reviewed and selected based on their political relevance to Indian discourse. These aspects were \textit{not} used as primary annotated targets during supervised training. For inference on these extended aspects, we deploy the \textit{already fine-tuned} LoRA-adapted Mistral model with few-shot prompting---no additional fine-tuning is performed at this stage. The model receives a set of global representative examples as the few-shot context, enabling generalization to these unseen target aspects while leveraging the stance classification capabilities acquired during training on the 15 seed aspects.
+The 22 extended aspects were identified through frequency analysis of the keyword distribution across political stances. For each candidate keyword, we computed its usage frequency among Pro-Ruling and Pro-Opposition sources and calculated each keyword's partisan skew percentage. Keywords exhibiting notable partisan skew and sufficient volume were manually reviewed and selected based on their political relevance to Indian discourse. These aspects were \textit{not} used as primary annotated targets during supervised training. For inference on these extended aspects, we deploy the \textit{already fine-tuned} LoRA-adapted Mistral model with few-shot prompting---no additional fine-tuning is performed at this stage. The model receives a set of global representative examples as the few-shot context, enabling generalization to these unseen target aspects while leveraging the stance classification capabilities acquired during training on the 15 seed aspects.
 }
 
-The inference prompt is constructed using the same 10 few-shot examples per keyword that were reserved during annotation. For each input tweet, the pipeline retrieves keyword-specific examples following the naming pattern \texttt{\{prefix\}\_\{keyword\}\_stance.json}. For the 23 extended keywords that lack dedicated annotations, the system falls back to a global set of representative examples, enabling stance classification across all 38 keywords with consistent prompt structure.
+The inference prompt is constructed using the same 10 few-shot examples per keyword that were reserved during annotation. For each input tweet, the pipeline retrieves keyword-specific examples following the naming pattern \texttt{\{prefix\}\_\{keyword\}\_stance.json}. For the 22 extended keywords that lack dedicated annotations, the system falls back to a global set of representative examples, enabling stance classification across all 37 keywords with consistent prompt structure.
 
 Inference uses deterministic settings (temperature 0, no sampling) to ensure reproducible outputs. The model returns JSON containing stance and reasoning, which is parsed by a robust extraction function that handles various output formats and applies label normalization. Batched processing with length-based bucketing enables efficient large-scale inference, while resume functionality and periodic checkpointing ensure reliability for processing the full dataset.
 
@@ -289,7 +346,7 @@ Cohen\_d & 2.88 & 1.09 \\
 
 This behavior is consistent with the multilingual alignment objective described by Reimers and Gurevych \cite{reimers2020making}, who show that sentence embeddings trained via knowledge distillation on parallel data form a shared semantic space across languages. Our results empirically confirm that  the multilingual model yields a sufficiently well-aligned cross-lingual embedding space for reliable translation quality assessment and multilingual stance analysis.
 
-\subsubsection{Connection to the Enligh pipeline}
+\subsubsection{Connection to the English pipeline}
 
 \subsubsection{Multilingual Model Support}
 
