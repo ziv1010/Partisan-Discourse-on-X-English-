@@ -91,3 +91,4 @@ codes/4_finetuning/4_d_model_comparison_baseline/roberta_model/
 final_results+visualisations_folder/combined_stance_results.csv
 final_results+visualisations_folder/stance_results_37keywords.csv
 final_results+visualisations_folder/hindi_stance_results.csv
+final_results+visualisations_folder/stance_files.zip
