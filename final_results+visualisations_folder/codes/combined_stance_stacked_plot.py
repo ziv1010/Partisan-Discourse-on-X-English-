@@ -10,6 +10,7 @@ Layout:
 - Row 1: Hindutva, Modi, Ram Mandir
 - Row 2: Democracy, Kashmir, Minorities  
 - Row 3: Muslim, Rahul Gandhi, Farmers Protests
+- Row labels: Highly Ruling Favors, Neutral, Opposition Favors
 
 Each subplot shows:
 - 4 bars: Pro Ruling Hindi, Pro Ruling English, Pro Opposition Hindi, Pro Opposition English
@@ -39,6 +40,8 @@ KEYWORDS_BY_ROW = [
     ['Democracy', 'Kashmir', 'Minorities'],
     ['Muslim', 'Rahulgandhi', 'Farmers Protests']
 ]
+
+ROW_LABELS = ['Highly Pro Ruling Favors', 'Neutral', 'Highly Pro Opposition Favours']
 
 # Publication-quality styling
 plt.style.use('seaborn-v0_8-white')
@@ -265,7 +268,22 @@ def create_combined_stance_plot(df):
     # ==========================================================================
     
     plt.tight_layout()
-    plt.subplots_adjust(top=0.92, hspace=0.35, wspace=0.18)
+    plt.subplots_adjust(top=0.92, hspace=0.35, wspace=0.18, left=0.14)
+    
+    # Row labels (bold) aligned to row centers
+    if len(ROW_LABELS) == n_rows:
+        for row_idx, row_label in enumerate(ROW_LABELS):
+            left_ax = axes[row_idx * n_cols]
+            bbox = left_ax.get_position()
+            y_center = (bbox.y0 + bbox.y1) / 2
+            x_pos = max(0.02, bbox.x0 - 0.03)
+            fig.text(x_pos, y_center, row_label,
+                     ha='center', va='center',
+                     rotation=90,
+                     fontsize=16, fontweight='bold',
+                     family='serif')
+    else:
+        warnings.warn("ROW_LABELS length does not match number of rows.")
     
     # Save
     save_path = OUTPUT_DIR / 'combined_hindi_english_stance_stacked.png'
