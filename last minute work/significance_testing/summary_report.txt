@@ -1,100 +1,281 @@
 ================================================================================
-LOGISTIC REGRESSION SIGNIFICANCE TESTING SUMMARY
+BINOMIAL GLM SIGNIFICANCE TESTING SUMMARY
+Model: logit(p_i) = β0 + β1 * Alignment_i + u_i
 ================================================================================
 
 OVERVIEW
 ----------------------------------------
-English: 108 tests, 89 significant (82.4%)
-Hindi: 102 tests, 83 significant (81.4%)
-Inter-dataset: 210 tests, 102 significant (48.6%)
+Total aspects tested: 36
+Significant results (p<0.05): 31 (86.1%)
 
 ================================================================================
-ENGLISH: Significant Findings (by Odds Ratio)
+SIGNIFICANT FINDINGS (p < 0.05)
 ----------------------------------------
 
-  FAVOR stance: 31 significant keywords
-    new parliament: OR=40.76, p=8.28e-42 (Pro-ruling 40.8x more likely)
-    demonetisation: OR=34.62, p=2.28e-37 (Pro-ruling 34.6x more likely)
-    aatmanirbhar: OR=28.50, p=3.26e-38 (Pro-ruling 28.5x more likely)
-    ram mandir: OR=25.88, p=3.75e-85 (Pro-ruling 25.9x more likely)
-    modi: OR=24.39, p=0.00e+00 (Pro-ruling 24.4x more likely)
-    sangh: OR=23.21, p=2.94e-215 (Pro-ruling 23.2x more likely)
-    hindutva: OR=19.40, p=9.22e-223 (Pro-ruling 19.4x more likely)
-    farm laws: OR=18.52, p=1.77e-217 (Pro-ruling 18.5x more likely)
-    farmers protests: OR=0.06, p=7.63e-52 (Pro-opp 15.8x more likely)
-    inflation: OR=15.72, p=2.87e-32 (Pro-ruling 15.7x more likely)
+  modi:
+    β1 = -3.1940 (SE: 0.0196)
+    z = -162.882, p = 0.00e+00
+    Odds Ratio = 0.041
+    Interpretation: Pro-ruling 24.39x more likely to favor
+    Influencers: 675 (391 pro-ruling, 284 opposition)
+    Tweets: 98404 total, 52180 favor
 
-  AGAINST stance: 31 significant keywords
-    aatmanirbhar: OR=0.00, p=2.03e-62 (Pro-opp 1404.4x more likely)
-    mahotsav: OR=0.00, p=1.20e-57 (Pro-opp 237.6x more likely)
-    modi: OR=0.02, p=0.00e+00 (Pro-opp 57.0x more likely)
-    new parliament: OR=0.02, p=1.89e-55 (Pro-opp 44.3x more likely)
-    demonetisation: OR=0.03, p=3.69e-35 (Pro-opp 38.0x more likely)
-    sangh: OR=0.03, p=0.00e+00 (Pro-opp 37.4x more likely)
-    ram mandir: OR=0.03, p=3.25e-86 (Pro-opp 33.8x more likely)
-    rahulgandhi: OR=26.95, p=0.00e+00 (Pro-ruling 27.0x more likely)
-    farmers protests: OR=26.09, p=9.11e-71 (Pro-ruling 26.1x more likely)
-    gdp: OR=0.06, p=7.74e-120 (Pro-opp 18.0x more likely)
+  hindu:
+    β1 = -2.2063 (SE: 0.0288)
+    z = -76.678, p = 0.00e+00
+    Odds Ratio = 0.110
+    Interpretation: Pro-ruling 9.08x more likely to favor
+    Influencers: 580 (331 pro-ruling, 249 opposition)
+    Tweets: 37294 total, 24705 favor
 
-  NEUTRAL stance: 27 significant keywords
-    islamists: OR=0.02, p=2.20e-05 (Pro-opp 45.9x more likely)
-    balochistan: OR=0.08, p=6.92e-05 (Pro-opp 11.9x more likely)
-    spyware: OR=5.46, p=1.03e-05 (Pro-ruling 5.5x more likely)
-    dictatorship: OR=5.05, p=5.00e-02 (Pro-ruling 5.0x more likely)
-    sharia: OR=0.20, p=4.45e-04 (Pro-opp 5.0x more likely)
-    sangh: OR=4.51, p=1.74e-72 (Pro-ruling 4.5x more likely)
-    suicides: OR=4.26, p=2.07e-04 (Pro-ruling 4.3x more likely)
-    unemployment: OR=3.93, p=1.31e-14 (Pro-ruling 3.9x more likely)
-    hindu: OR=0.26, p=3.02e-253 (Pro-opp 3.8x more likely)
-    kashmiri pandits: OR=0.28, p=5.02e-10 (Pro-opp 3.6x more likely)
+  congress:
+    β1 = 2.0542 (SE: 0.0296)
+    z = 69.332, p = 0.00e+00
+    Odds Ratio = 7.801
+    Interpretation: Opposition 7.80x more likely to favor
+    Influencers: 538 (278 pro-ruling, 260 opposition)
+    Tweets: 37795 total, 10921 favor
+
+  rahulgandhi:
+    β1 = 2.3784 (SE: 0.0336)
+    z = 70.805, p = 0.00e+00
+    Odds Ratio = 10.787
+    Interpretation: Opposition 10.79x more likely to favor
+    Influencers: 457 (214 pro-ruling, 243 opposition)
+    Tweets: 23251 total, 13431 favor
+
+  muslim:
+    β1 = 2.4906 (SE: 0.0373)
+    z = 66.765, p = 0.00e+00
+    Odds Ratio = 12.069
+    Interpretation: Opposition 12.07x more likely to favor
+    Influencers: 456 (235 pro-ruling, 221 opposition)
+    Tweets: 16913 total, 8134 favor
+
+  hindutva:
+    β1 = -2.9652 (SE: 0.0931)
+    z = -31.861, p = 9.21e-223
+    Odds Ratio = 0.052
+    Interpretation: Pro-ruling 19.40x more likely to favor
+    Influencers: 315 (177 pro-ruling, 138 opposition)
+    Tweets: 3326 total, 1294 favor
+
+  farm laws:
+    β1 = -2.9187 (SE: 0.0927)
+    z = -31.477, p = 1.77e-217
+    Odds Ratio = 0.054
+    Interpretation: Pro-ruling 18.52x more likely to favor
+    Influencers: 327 (167 pro-ruling, 160 opposition)
+    Tweets: 3573 total, 996 favor
+
+  sangh:
+    β1 = -3.1444 (SE: 0.1004)
+    z = -31.315, p = 2.94e-215
+    Odds Ratio = 0.043
+    Interpretation: Pro-ruling 23.21x more likely to favor
+    Influencers: 363 (205 pro-ruling, 158 opposition)
+    Tweets: 4498 total, 1097 favor
+
+  caa:
+    β1 = -2.3632 (SE: 0.0885)
+    z = -26.689, p = 6.33e-157
+    Odds Ratio = 0.094
+    Interpretation: Pro-ruling 10.63x more likely to favor
+    Influencers: 456 (262 pro-ruling, 194 opposition)
+    Tweets: 4297 total, 1551 favor
+
+  kashmir:
+    β1 = -0.9817 (SE: 0.0417)
+    z = -23.534, p = 1.81e-122
+    Odds Ratio = 0.375
+    Interpretation: Pro-ruling 2.67x more likely to favor
+    Influencers: 522 (321 pro-ruling, 201 opposition)
+    Tweets: 13355 total, 7571 favor
+
+  ayodhya:
+    β1 = -2.6724 (SE: 0.1255)
+    z = -21.290, p = 1.40e-100
+    Odds Ratio = 0.069
+    Interpretation: Pro-ruling 14.47x more likely to favor
+    Influencers: 319 (210 pro-ruling, 109 opposition)
+    Tweets: 2452 total, 1548 favor
+
+  ucc:
+    β1 = -1.4407 (SE: 0.0732)
+    z = -19.677, p = 3.39e-86
+    Odds Ratio = 0.237
+    Interpretation: Pro-ruling 4.22x more likely to favor
+    Influencers: 567 (341 pro-ruling, 226 opposition)
+    Tweets: 7738 total, 2334 favor
+
+  ram mandir:
+    β1 = -3.2533 (SE: 0.1664)
+    z = -19.555, p = 3.75e-85
+    Odds Ratio = 0.039
+    Interpretation: Pro-ruling 25.88x more likely to favor
+    Influencers: 274 (188 pro-ruling, 86 opposition)
+    Tweets: 1615 total, 1248 favor
+
+  gdp:
+    β1 = -2.3354 (SE: 0.1198)
+    z = -19.496, p = 1.18e-84
+    Odds Ratio = 0.097
+    Interpretation: Pro-ruling 10.33x more likely to favor
+    Influencers: 344 (185 pro-ruling, 159 opposition)
+    Tweets: 2146 total, 682 favor
+
+  msp:
+    β1 = -1.3014 (SE: 0.0676)
+    z = -19.261, p = 1.13e-82
+    Odds Ratio = 0.272
+    Interpretation: Pro-ruling 3.67x more likely to favor
+    Influencers: 498 (295 pro-ruling, 203 opposition)
+    Tweets: 5567 total, 1656 favor
+
+  bhakts:
+    β1 = -2.5919 (SE: 0.1356)
+    z = -19.121, p = 1.68e-81
+    Odds Ratio = 0.075
+    Interpretation: Pro-ruling 13.36x more likely to favor
+    Influencers: 224 (111 pro-ruling, 113 opposition)
+    Tweets: 1886 total, 491 favor
+
+  shaheen bagh:
+    β1 = 2.3565 (SE: 0.1323)
+    z = 17.818, p = 5.17e-71
+    Odds Ratio = 10.553
+    Interpretation: Opposition 10.55x more likely to favor
+    Influencers: 252 (144 pro-ruling, 108 opposition)
+    Tweets: 1414 total, 458 favor
+
+  farmers protests:
+    β1 = 2.7588 (SE: 0.1821)
+    z = 15.150, p = 7.62e-52
+    Odds Ratio = 15.780
+    Interpretation: Opposition 15.78x more likely to favor
+    Influencers: 212 (93 pro-ruling, 119 opposition)
+    Tweets: 1114 total, 658 favor
+
+  democracy:
+    β1 = -0.6465 (SE: 0.0476)
+    z = -13.588, p = 4.73e-42
+    Odds Ratio = 0.524
+    Interpretation: Pro-ruling 1.91x more likely to favor
+    Influencers: 482 (253 pro-ruling, 229 opposition)
+    Tweets: 7612 total, 3421 favor
+
+  new parliament:
+    β1 = -3.7078 (SE: 0.2737)
+    z = -13.547, p = 8.24e-42
+    Odds Ratio = 0.025
+    Interpretation: Pro-ruling 40.76x more likely to favor
+    Influencers: 211 (135 pro-ruling, 76 opposition)
+    Tweets: 910 total, 520 favor
+
+  aatmanirbhar:
+    β1 = -3.3498 (SE: 0.2592)
+    z = -12.925, p = 3.26e-38
+    Odds Ratio = 0.035
+    Interpretation: Pro-ruling 28.50x more likely to favor
+    Influencers: 202 (152 pro-ruling, 50 opposition)
+    Tweets: 5386 total, 4642 favor
+
+  demonetisation:
+    β1 = -3.5445 (SE: 0.2775)
+    z = -12.774, p = 2.28e-37
+    Odds Ratio = 0.029
+    Interpretation: Pro-ruling 34.62x more likely to favor
+    Influencers: 156 (52 pro-ruling, 104 opposition)
+    Tweets: 576 total, 121 favor
+
+  china:
+    β1 = -0.8554 (SE: 0.0693)
+    z = -12.341, p = 5.47e-35
+    Odds Ratio = 0.425
+    Interpretation: Pro-ruling 2.35x more likely to favor
+    Influencers: 509 (297 pro-ruling, 212 opposition)
+    Tweets: 11805 total, 1283 favor
+
+  inflation:
+    β1 = -2.7548 (SE: 0.2329)
+    z = -11.826, p = 2.87e-32
+    Odds Ratio = 0.064
+    Interpretation: Pro-ruling 15.72x more likely to favor
+    Influencers: 221 (105 pro-ruling, 116 opposition)
+    Tweets: 1424 total, 214 favor
+
+  unemployment:
+    β1 = -1.5997 (SE: 0.1574)
+    z = -10.164, p = 2.88e-24
+    Odds Ratio = 0.202
+    Interpretation: Pro-ruling 4.95x more likely to favor
+    Influencers: 259 (92 pro-ruling, 167 opposition)
+    Tweets: 1649 total, 218 favor
+
+  kashmiri pandits:
+    β1 = -1.6837 (SE: 0.1710)
+    z = -9.849, p = 6.94e-23
+    Odds Ratio = 0.186
+    Interpretation: Pro-ruling 5.39x more likely to favor
+    Influencers: 231 (142 pro-ruling, 89 opposition)
+    Tweets: 973 total, 778 favor
+
+  mahotsav:
+    β1 = -1.7922 (SE: 0.2216)
+    z = -8.086, p = 6.15e-16
+    Odds Ratio = 0.167
+    Interpretation: Pro-ruling 6.00x more likely to favor
+    Influencers: 231 (180 pro-ruling, 51 opposition)
+    Tweets: 5455 total, 4036 favor
+
+  minorities:
+    β1 = 0.5524 (SE: 0.1040)
+    z = 5.311, p = 1.09e-07
+    Odds Ratio = 1.737
+    Interpretation: Opposition 1.74x more likely to favor
+    Influencers: 276 (162 pro-ruling, 114 opposition)
+    Tweets: 1630 total, 1011 favor
+
+  spyware:
+    β1 = -2.6311 (SE: 0.7346)
+    z = -3.581, p = 3.42e-04
+    Odds Ratio = 0.072
+    Interpretation: Pro-ruling 13.89x more likely to favor
+    Influencers: 101 (27 pro-ruling, 74 opposition)
+    Tweets: 410 total, 8 favor
+
+  hathras:
+    β1 = -0.4091 (SE: 0.1318)
+    z = -3.104, p = 1.91e-03
+    Odds Ratio = 0.664
+    Interpretation: Pro-ruling 1.51x more likely to favor
+    Influencers: 284 (123 pro-ruling, 161 opposition)
+    Tweets: 2112 total, 277 favor
+
+  balochistan:
+    β1 = -1.7283 (SE: 0.7786)
+    z = -2.220, p = 2.64e-02
+    Odds Ratio = 0.178
+    Interpretation: Pro-ruling 5.63x more likely to favor
+    Influencers: 66 (57 pro-ruling, 9 opposition)
+    Tweets: 652 total, 341 favor
 
 ================================================================================
-HINDI: Significant Findings (by Odds Ratio)
+NON-SIGNIFICANT RESULTS (Top 5 by p-value)
 ----------------------------------------
-
-  FAVOR stance: 31 significant keywords
-    modi: OR=15.67, p=0.00e+00 (Pro-ruling 15.7x more likely)
-    ram mandir: OR=15.00, p=5.32e-38 (Pro-ruling 15.0x more likely)
-    aatmanirbhar: OR=14.28, p=4.28e-22 (Pro-ruling 14.3x more likely)
-    new parliament: OR=13.22, p=2.39e-38 (Pro-ruling 13.2x more likely)
-    farm laws: OR=10.76, p=3.59e-53 (Pro-ruling 10.8x more likely)
-    demonetisation: OR=10.10, p=6.94e-11 (Pro-ruling 10.1x more likely)
-    sangh: OR=9.80, p=5.57e-38 (Pro-ruling 9.8x more likely)
-    ayodhya: OR=9.12, p=2.88e-123 (Pro-ruling 9.1x more likely)
-    hindutva: OR=7.71, p=4.88e-24 (Pro-ruling 7.7x more likely)
-    gdp: OR=7.30, p=3.15e-26 (Pro-ruling 7.3x more likely)
-
-  AGAINST stance: 31 significant keywords
-    aatmanirbhar: OR=0.00, p=1.98e-28 (Pro-opp 293.1x more likely)
-    mahotsav: OR=0.02, p=1.95e-24 (Pro-opp 52.1x more likely)
-    modi: OR=0.03, p=0.00e+00 (Pro-opp 32.2x more likely)
-    gdp: OR=0.04, p=1.89e-29 (Pro-opp 25.6x more likely)
-    ram mandir: OR=0.06, p=1.17e-32 (Pro-opp 17.7x more likely)
-    new parliament: OR=0.08, p=6.32e-29 (Pro-opp 13.2x more likely)
-    demonetisation: OR=0.09, p=1.88e-11 (Pro-opp 11.4x more likely)
-    sangh: OR=0.11, p=2.36e-30 (Pro-opp 9.5x more likely)
-    ayodhya: OR=0.11, p=5.72e-92 (Pro-opp 9.1x more likely)
-    rahulgandhi: OR=9.07, p=0.00e+00 (Pro-ruling 9.1x more likely)
-
-  NEUTRAL stance: 21 significant keywords
-    spyware: OR=6.35, p=8.55e-04 (Pro-ruling 6.3x more likely)
-    demonetisation: OR=3.21, p=2.53e-02 (Pro-ruling 3.2x more likely)
-    inflation: OR=3.03, p=5.96e-12 (Pro-ruling 3.0x more likely)
-    kashmiri pandits: OR=0.36, p=4.49e-07 (Pro-opp 2.8x more likely)
-    gdp: OR=2.61, p=2.33e-09 (Pro-ruling 2.6x more likely)
-    ayodhya: OR=0.40, p=1.23e-27 (Pro-opp 2.5x more likely)
-    ram mandir: OR=0.43, p=1.46e-03 (Pro-opp 2.3x more likely)
-    congress: OR=0.45, p=7.28e-218 (Pro-opp 2.2x more likely)
-    aatmanirbhar: OR=0.46, p=1.00e-02 (Pro-opp 2.2x more likely)
-    hathras: OR=2.18, p=8.45e-15 (Pro-ruling 2.2x more likely)
+  suicides: β1=0.8141, p=0.107
+  lynching: β1=-0.2112, p=0.500
+  dictatorship: β1=-0.4818, p=0.633
+  sharia: β1=-0.2657, p=0.798
+  islamists: β1=-18.9895, p=0.999
 
 ================================================================================
 METHODOLOGY
 ----------------------------------------
-- Test: Logistic Regression
-- Model: P(stance=1) = logistic(β0 + β1 * predictor)
-- Odds Ratio (OR): exp(β1)
-  - OR > 1: First group more likely to have that stance
-  - OR < 1: Second group more likely
+- Model: Binomial GLM with logit link
+- Response: [n_favor, n_total - n_favor] per influencer
+- Predictor: Alignment (0=pro-ruling, 1=opposition)
+- β1 > 0: Opposition influencers more likely to tweet 'favor'
+- β1 < 0: Pro-ruling influencers more likely to tweet 'favor'
 - Significance threshold: p < 0.05
 ================================================================================

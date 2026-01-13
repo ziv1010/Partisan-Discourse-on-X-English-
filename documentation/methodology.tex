@@ -23,15 +23,44 @@ Based on the average polarity score, influencers are classified into three categ
 
 Three independent annotators also manually analyzed the influencer polarities to validate the results. This exercise reached a high inter-annotator agreement (95\% unanimous agreement), revealing the above-par performance of the procedure. The disagreements were resolved by taking the majority annotation as the polarity for the influencer. Table XXX shows some examples of influencers and their polarities obtained using this method.
 
+% requires: \usepackage{xcolor}
+
+\begin{table}[h]
+\centering
+{\color{blue}
+\begin{tabular}{|l|r|l|}
+\hline
+\textbf{original\_author} & \textbf{polarity\_avg} & \textbf{label\_0\_5} \\
+\hline
+Advaidism        & -0.938282   & Pro OPP    \\
+BrutIndia        & -0.7901837  & Pro OPP    \\
+FarahKhanAli     & -0.9794872  & Pro OPP    \\
+NargisBano\_     & -0.9646005  & Pro OPP    \\
+SonuSood         & -0.521716   & Pro OPP    \\
+AnupamPKher      & 0.89765928  & Pro Ruling \\
+BabitaPhogat     & 0.8252169   & Pro Ruling \\
+BloomsburyIndia  & 0.60277778  & Pro Ruling \\
+DivyaSoti        & 0.95337017  & Pro Ruling \\
+DDNewslive       & 0.93212181  & Pro Ruling \\
+CNBCTV18News     & 0.10645253  & Neutral    \\
+Neeraj\_chopra1  & 0.09111461  & Neutral    \\
+NewsX            & 0.42678028  & Neutral    \\
+maryashakil      & 0.18952428  & Neutral    \\
+kiranshaw        & -0.1879728  & Neutral    \\
+\hline
+\end{tabular}
+}
+\end{table}
+
 
 \subsection{Aspect Identification}
 To identify the topics or aspects discussed in influencer tweets, we employ KeyBERT\cite{grootendorst2020keybert} for automated keyword extraction from tweet text. KeyBERT leverages BERT embeddings to identify keywords and phrases that are semantically similar to the document as a whole, making it suitable for capturing the topical essence of short-form social media content.
 
 Before aspect extraction, we preprocess the tweets to remove URLs, strip the "@" character while retaining usernames, perform hashtag segmentation using the \texttt{wordsegment} library (e.g., \texttt{\#AatmaNirbharBharat} becomes \textit{aatma nirbhar bharat}), and normalize whitespaces.
 
-The extraction process uses the \texttt{paraphrase-} \texttt{multilingual-MiniLM-L12-v2} sentence transformer model as the KeyBERT backend. We configure n-gram range of 1--2, extract top three aspects per tweet, and apply Maximal Marginal Relevance (MMR) with diversity 0.7 to balance semantic similarity with keyword diversity.
+The extraction process uses the \texttt{paraphrase-} \texttt{multilingual-MiniLM-L12-v2} sentence transformer model as the KeyBERT backend. We configure n-gram range of 1-2, extract top three aspects per tweet, and apply Maximal Marginal Relevance (MMR) with diversity 0.7 to balance semantic similarity with keyword diversity.
 
-\textbf{Polar Aspect Identification:} We detect partisanship in influencer tweets by checking if influencers with a certain political polarity preferentially tweet around certain political aspects. For this purpose, we analyze the aspects to identify \textit{polar aspects} -- topics disproportionately discussed by influencers with a certain polarity. We first manually selected 15 aspects -- vetted by an expert in political science -- representing major political topics for annotation, chosen based on their political significance and representation across both ruling and opposition discourse. We examined the proportion of tweets from pro-ruling and Pro-Opposition sources for each selected aspect, and categorized the aspect as pro-ruling/opposition based on which side tweeted more about it. This forms the seed set of polar aspects. Next, to expand coverage, we systematically analyzed aspect frequencies and identified 22 additional polar aspects exhibiting clear partisan skew. Table~\ref{tab:all_keywords} presents the complete set of 37 keywords used for stance analysis.
+\textbf{Polar Aspect Identification:} We detect partisanship in influencer tweets by checking if influencers with a certain political polarity preferentially tweet around certain politically polar aspects. For this purpose, we analyze the aspects to identify \textit{polar aspects} -- topics disproportionately discussed by influencers with a certain polarity. We first manually selected 15 aspects -- vetted by an expert in political science -- representing major political topics for annotation, chosen based on their political significance and representation across both ruling and opposition discourse. We examined the proportion of tweets from pro-ruling and pro-opposition sources for each selected aspect (using Nivaduck), and categorized the aspect as pro-ruling/opposition based on which side tweeted more about it. This forms the seed set of polar aspects. Next, to expand coverage, we systematically analyzed aspect frequencies and identified top 23 additional polar aspects exhibiting clear partisan skew. Table~\ref{tab:all_keywords} presents the complete set of 38 keywords used for stance analysis.
 \begin{center}
 \footnotesize
 \captionof{table}{Complete Keyword Set for Stance Analysis}
@@ -45,7 +74,7 @@ hindu & hindutva & kashmir & kashmiri\_pandits \\
 modi & muslim & new\_parliament & rahulgandhi \\
 ram\_mandir & shaheen\_bagh & china & \\
 \midrule
-\multicolumn{4}{c}{\textbf{22 extended aspects identified using frequency analysis}} \\
+\multicolumn{4}{c}{\textbf{23 extended aspects identified using frequency analysis}} \\
 \midrule
 aatmanirbhar & ayodhya & balochistan & bhakts \\
 democracy & demonetisation & dictatorship & gdp \\
@@ -58,19 +87,19 @@ ucc & unemployment & & \\
 \end{center}
 Aspects like \textit{aatmanirbhar} (self-reliance campaign), \textit{ucc} (Uniform Civil Code), \textit{ayodhya}, and \textit{mahotsav} are predominantly used by Pro-Ruling sources ($>74\%$), while \textit{unemployment}, \textit{demonetisation}, \textit{bhakts}, and \textit{spyware} are predominantly discussed by Pro-Opposition sources ($>80\%$).
 
-{\color{blue}
+{\color{black}
 \textbf{Extended Keyword Selection Methodology:}
-KeyBERT extracted a total of 96,477 unique keywords across the entire corpus. To systematically identify additional polar aspects beyond the 15 manually-selected seed keywords, we employed a percentile-based filtering approach. We ranked all keywords by their total tweet frequency and retained only those in the top 10th percentile (rank $\leq$ 9,647, corresponding to $\geq$88 tweets per keyword). This threshold yielded 9,647 candidate keywords covering over 7.5 million tweets, ensuring sufficient data volume for downstream stance classification.
+KeyBERT extracted a total of 96,477 unique aspects across the entire corpus. To systematically identify additional polar aspects beyond the 15 manually-selected seed aspects, we employed a percentile-based filtering approach. We ranked all aspects by their total tweet frequency and retained only those in the top 10th percentile (rank $\leq$ 9,647, corresponding to $\geq$88 tweets per keyword). This threshold yielded 9,647 candidate keywords covering over 7.5 million tweets, ensuring sufficient data volume for downstream stance classification.
 
-From this filtered set, a domain expert in political science reviewed the candidate keywords and selected aspects based on three criteria: (1) political relevance to contemporary Indian discourse, (2) evidence of partisan polarization (clear skew toward either pro-ruling or pro-opposition sources), and (3) representation from both ideological camps to ensure balanced coverage across the political spectrum. 
+From this filtered set, a domain expert in political science qualitatively reviewed the candidate keywords and selected aspects based on three criteria: (A) political relevance to contemporary Indian discourse, (B) evidence of partisan polarization (clear skew toward either pro-ruling or pro-opposition sources), and (C) representation from both ideological camps to ensure balanced coverage across the political spectrum. To ensure balance in the volume of tweets extracted across aspects, we extracted all tweets containing the aspect as a keyword/keyphrase, irrespective of whether the aspect was among the top three aspects listed by KeyBERT.
 
-This selection rationale ensures that the chosen keywords have adequate tweet volume from which KeyBERT initially labeled instances; the main extraction script subsequently retrieves \textit{all} tweets containing each aspect term, regardless of whether KeyBERT had explicitly labeled that tweet with that aspect.
+%This selection rationale ensures that the chosen aspects have adequate tweet volume from which KeyBERT initially labeled instances; the main extraction process subsequently retrieves \textit{all} tweets containing each aspect term, regardless of whether KeyBERT had explicitly labeled that tweet with that aspect.
 
 Figure~\ref{fig:keyword_distribution} illustrates the distribution of all keywords by tweet volume, highlighting the position of the 22 selected extended aspects. All selected aspects fall within the top 6.1\% of keywords by volume (ranks 50 to 5,895 out of 96,477).
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\linewidth]{keyword_distribution_improved.png}
+  \includegraphics[width=0.9\linewidth]{results_eng/keyword_distribution_improved.png}
   \caption{Keyword distribution showing tweet volume across all 96,477 keywords extracted by KeyBERT. The 22 target extended aspects (red dots) are highlighted, spanning ranks 50 to 5,895, all within the top 10\% threshold.}
   \label{fig:keyword_distribution}
 \end{figure}
@@ -113,6 +142,7 @@ ucc & 187 & 102 & 39 & 93.89\% \\
 \vspace{0.5em}
 }
 
+
 \subsection{Stance Classification}
 The goal of stance classification is to determine how influencers position themselves towards specific political topics. Given a tweet $t$ and a target keyword $e$ (such as \textit{CAA} or \textit{Farmers Protests} that are nationally prominent policy issues), the system predicts one of three stance labels: Favor (expressing support), Against (expressing opposition), or Neutral (no clear stance). %This three-way classification avoids the ambiguity of an ``unrelated'' category, which in practice often overlaps with neutral stances.
 
@@ -121,9 +151,9 @@ Motivated by prior work in this area, we test multiple stance classification app
 \subsubsection{Training Data}
 A prime contribution of this work is the creation of a rigorously manually annotated stance classification dataset for Indian influencer discourse on political issues. Unlike prior work that often relied on weakly-supervised or automatically generated labels, we invested significant effort in creating high-quality ground truth data to serve as a reliable benchmark. This dataset plays a central role in our pipeline: It provides the core supervision signal for fine-tuning our baseline discriminative models (BERT, RoBERTa, PyABSA), serves as the source of examples used in our few-shot prompts and for fine-tuning the SLM. A section of the data is also used as the gold-standard held-out test set for rigorous performance evaluation of our models.
 
-The dataset creation involved a multi-stage process beginning with stratified sampling. For each of the 15 seed polar keywords, we sampled 150 tweets, ensuring a balanced representation of viewpoints from both Ruling and Opposition sources. This stratification technique is crucial as it prevents the model from learning specious correlations between political affiliation and stance, such as assuming all opposition tweets are inherently "Against" the aspect. Following the sampling, strict deduplication was applied to remove near-duplicate tweets, ensuring the dataset captures diverse linguistic expressions rather than repetitive coordinated behavior. Finally, each tweet was manually annotated with its stance toward the specific target aspect by three independent annotators. The annotators, all of whom possess domain expertise in contemporary political affairs, were instructed to identify explicit expressions of support or opposition toward the target. Statements that were ambiguous, purely factual, or lacked a clear evaluative stance were labeled as Neutral. Inter-annotator reliability was high, with a Cohen’s Kappa of XXX, indicating the robustness of the annotation process
+The dataset creation involved a multi-stage process beginning with stratified sampling. For each of the 15 seed polar keywords, we sampled 150 tweets, ensuring a balanced representation of viewpoints from both Ruling and Opposition sources. This stratification technique is crucial as it prevents the model from learning specious correlations between political affiliation and stance, such as assuming all opposition tweets are inherently "Against" the aspect. Following the sampling, deduplication was applied to remove duplicate tweets, ensuring the dataset captures diverse linguistic expressions rather than repetitive coordinated behavior. Finally, each tweet was manually annotated with its stance toward the specific target aspect by three independent annotators. The annotators, all of whom possess domain expertise in contemporary political affairs, were instructed to identify explicit expressions of support or opposition toward the target. Statements that were ambiguous, purely factual, or lacked a clear evaluative stance were labeled as Neutral. Inter-annotator reliability was high, with a Cohen’s Kappa of XXX, indicating the robustness of the annotation process
 
-{\color{blue} Following the sampling, deduplication was applied within each aspect using exact string matching on the tweet text; tweets with identical content were removed, retaining only the first occurrence per aspect. Notably, the same tweet may appear under multiple aspects if it references multiple topics, preserving the natural multi-topic nature of political discourse. }
+% {\color{blue} Following the sampling, deduplication was applied within each aspect using exact string matching on the tweet text; tweets with identical content were removed, retaining only the first occurrence per aspect. Notably, the same tweet may appear under multiple aspects if it references multiple topics, preserving the natural multi-topic nature of political discourse. }
 
 The final dataset comprises 1,944 labeled tweet-keyword pairs. We adopted a strict train-test split strategy where 265 samples were set aside as a held-out test set (stratified by keyword and class). From the remaining training pool, we reserved 10 examples per keyword (150 total) to serve as few-shot demonstrations, and utilized the rest (1,529 samples) for supervised training of baseline models.
 
@@ -149,20 +179,19 @@ The final dataset comprises 1,944 labeled tweet-keyword pairs. We adopted a stri
 
 \textbf{Baselines:} The three baselines against which we compare our approach of stance classification using the SLM are BERT-base-uncased, RoBERTa-base, and PyABSA [ref]. For the BERT baseline, we fine-tuned the model using an aspect-aware input format: \texttt{[CLS] Aspect [SEP] Tweet [SEP]} where CLS is the special classification token whose contextualized representation is used for downstream prediction, while SEP is the separator token. This allows the self-attention mechanism to directly model the relationship between the target topic and the tweet content. Similarly, for \texttt{roberta-base}, we employed a prompt-like input format by explicitly prepending the context: ``Topic: \{Aspect\}. Tweet: \{Content\}'', leveraging RoBERTa's strong semantic understanding. Finally, we utilized the specialized PyABSA framework's \texttt{FAST\_LCF\_BERT} model, which uses a Local Context Focus (LCF) mechanism to dynamically weight context words based on their semantic and syntactic distance to the aspect. All baseline models were trained on the exact same training split (1,458 samples) and evaluated on the same held-out test set (264 samples) to ensure a strictly fair comparison.
 
-
-{\color{blue}{
-\textbf{Model outputs, classification heads, and training configuration.}
 We formulate stance detection as a 3-way single-label classification task with label set $\{\textsc{For},\textsc{Against},\textsc{Neutral}\}$ (mapped to IDs \{0,1,2\}). For each baseline, we convert the encoder output into a 3-dimensional logit vector, apply a softmax to obtain class probabilities, and predict the stance via $\arg\max$.
 
-\textit{BERT (\texttt{bert-base-uncased}):}
-We fine-tuned HuggingFace \texttt{BertForSequenceClassification} using the aspect-aware paired input format implemented in our dataset loader via the tokenizer call \texttt{tokenizer(keyword, text, ...)}, which yields the sequence \texttt{[CLS] keyword [SEP] tweet [SEP]} with standard attention masking and padding/truncation to a maximum length of 256 tokens. The model uses the final hidden state of the \texttt{[CLS]} token $\mathbf{h}_{\texttt{[CLS]}}\in\mathbb{R}^{768}$ and a linear classification head ($\mathbf{W}\in\mathbb{R}^{768\times3}$) to compute logits $\mathbf{z}\in\mathbb{R}^{3}$; the predicted label is $\arg\max_k z_k$. During training, we minimize the cross-entropy loss returned by \texttt{BertForSequenceClassification} (via \texttt{outputs.loss}) and optimize all parameters end-to-end using AdamW (\texttt{torch.optim.AdamW}) with learning rate $2\times 10^{-5}$ and weight decay $0.01$, batch size 16, gradient clipping at max-norm 1.0, and early stopping with patience 3 based on validation macro-F1. The learning rate is scheduled with a linear decay from the initial rate to zero across all training steps using \texttt{torch.optim.lr\_scheduler.LinearLR}. We train for up to 5 epochs with a stratified 90/10 train--validation split.
+For the BERT baseline, we fine-tuned \textit{BertForSequenceClassification} [ref] using (aspect,tweet) pairs. The tokenizer %as input via the tokenizer call \texttt{tokenizer(aspect, text, ...)},
+yields the sequence \texttt{[CLS] keyword [SEP] tweet [SEP]} with standard attention masking and padding/truncation to scale the input to a maximum length of 256 tokens. The model uses the final hidden state of the \texttt{[CLS]} token ($\mathbf{h}_{\texttt{[CLS]}}\in\mathbb{R}^{768}$) and a linear classification head ($\mathbf{W}\in\mathbb{R}^{768\times3}$) to compute logits $\mathbf{z}\in\mathbb{R}^{3}$; the predicted label is $\arg\max_k z_k$. During training, we minimize the cross-entropy loss and use the AdamW optimizer, %returned by \texttt{BertForSequenceClassification} (via \texttt{outputs.loss}) and optimize all parameters end-to-end using AdamW (\texttt{torch.optim.AdamW}) 
+with learning rate $2\times 10^{-5}$ and weight decay $0.01$, batch size 16, gradient clipping at max-norm 1.0, and early stopping with patience 3 based on validation macro-F1. %The learning rate is scheduled with a linear decay from the initial rate to zero across all training steps using \texttt{torch.optim.lr\_scheduler.LinearLR}. 
+We train for up to 5 epochs (based on convergence) with a stratified 90/10 train--validation split.
 
 \textit{RoBERTa (\texttt{roberta-base}):}
 We fine-tuned HuggingFace \texttt{RobertaForSequenceClassification} using an explicit prompt-like input string of the form \texttt{``Topic: \{keyword\}. Tweet: \{tweet\}''}, tokenized with padding/truncation to a maximum length of 256 tokens. RoBERTa computes a sequence representation from the start token \texttt{<s>} (RoBERTa's \texttt{[CLS]} equivalent) and applies the standard RoBERTa classification head (dropout $\rightarrow$ dense layer $\rightarrow$ tanh $\rightarrow$ dropout $\rightarrow$ output projection) to produce logits $\mathbf{z}\in\mathbb{R}^{3}$, followed by softmax probabilities and $\arg\max$ prediction. Training uses AdamW with learning rate $2\times 10^{-5}$ and weight decay $0.01$, batch size 16, gradient clipping at 1.0, and a linear warmup schedule for the first 10\% of training steps followed by linear decay (via \texttt{get\_linear\_schedule\_with\_warmup}). The model is trained for 3 epochs, using a 10\% validation subset sampled from the training data (fixed random seed).
 
-\textit{PyABSA (\texttt{FAST\_LCF\_BERT}):}
-For the PyABSA baseline, we employ the \texttt{FAST\_LCF\_BERT} configuration through PyABSA's Aspect Polarity Classification (APC) trainer. We convert our stance labels into PyABSA's expected 3-class polarity format (\textsc{For}$\rightarrow$Positive/$+1$, \textsc{Against}$\rightarrow$Negative/$-1$, \textsc{Neutral}$\rightarrow$Neutral/$0$) and generate the required 3-line APC dataset format, where the tweet text contains a \texttt{\$T\$} marker indicating the aspect position and the second line provides the aspect term. \texttt{FAST\_LCF\_BERT} uses \texttt{bert-base-uncased} as the backbone encoder and applies a Local Context Focus (LCF) mechanism to emphasize aspect-relevant context prior to classification. The model outputs a 3-way polarity distribution which we map back to \{\textsc{For}, \textsc{Against}, \textsc{Neutral}\} for evaluation. We train for 5 epochs with batch size 16, learning rate $2\times 10^{-5}$, dropout 0.1, maximum sequence length 256, L2 regularization $1\times 10^{-5}$ (as \texttt{l2reg}), and early stopping patience 3, using PyABSA's default APC training pipeline and saving the best checkpoint.}
-}
+% \textit{RoBERTa (\texttt{roberta-base}):}
+% We fine-tuned HuggingFace \texttt{RobertaForSequenceClassification} using an explicit prompt-like input string of the form \texttt{``Topic: \{keyword\}. Tweet: \{tweet\}''}, tokenized with padding/truncation to a maximum length of 256 tokens. RoBERTa computes a sequence representation from the start token \texttt{<s>} (RoBERTa's \texttt{[CLS]} equivalent) and applies the standard RoBERTa classification head (dropout $\rightarrow$ dense layer $\rightarrow$ tanh $\rightarrow$ dropout $\rightarrow$ output projection) to produce logits $\mathbf{z}\in\mathbb{R}^{3}$, followed by softmax probabilities and $\arg\max$ prediction. Training uses AdamW with learning rate $2\times 10^{-5}$ and weight decay $0.01$, batch size 16, gradient clipping at 1.0, and a linear warmup schedule for the first 10\% of training steps followed by linear decay (via \texttt{get\_linear\_schedule\_with\_warmup}). The model is trained for 3 epochs, using a 10\% validation subset sampled from the training data (fixed random seed).}
+% }
 
 \textbf{LoRA-Adapted Mistral:}
 We employ Mistral-7B-Instruct as our primary backbone (with zero-shot and few-shot variations. The prompts are available in the Appendix). The base model was additionally enhanced with Low-Rank Adaptation (LoRA) for parameter-efficient fine-tuning. Full fine-tuning of 7B+ parameter models is computationally prohibitive and prone to catastrophic forgetting. LoRA freezes the pre-trained weights $W$ and injects trainable rank decomposition matrices $A$ and $B$, such that the weight update is $\Delta W = BA$, where $B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times k}$. We set the rank $r=16$ and alpha $\alpha=32$, targeting all linear projection layers (query, key, value, output, gate, up, down). The model was fine-tuned on the training split to generate structured JSON outputs containing both the stance label and a reasoning field. The instruction-tuning approach encourages the model to perform chain-of-thought reasoning before assigning a label, improving interpretability.
@@ -236,14 +265,14 @@ We employ Mistral-7B-Instruct as our primary backbone (with zero-shot and few-sh
 % \vspace{0.5em}
 
 \subsubsection{Final Inference Pipeline}
-To generalize our stance classification approach, we also performed an out-of-distribution testing on 22 additional aspects unseen by the model as primary aspects for tweets. For this purpose, we deploy an inference pipeline that combines the trained LoRA adapter with few-shot prompting. The pipeline loads the base Mistral-7B-Instruct model and applies the trained LoRA adapter using PEFT's \texttt{PeftModel}, effectively deploying our fine-tuned stance classifier without modifying the base model weights.
+To generalize our stance classification approach, we also performed an out-of-distribution testing on 23 additional aspects unseen by the model as primary aspects for tweets. For this purpose, we deploy an inference pipeline that combines the trained LoRA adapter with few-shot prompting. The pipeline loads the base Mistral-7B-Instruct model and applies the trained LoRA adapter using PEFT's \texttt{PeftModel}, effectively deploying our fine-tuned stance classifier without modifying the base model weights.
 
 {\color{blue}
 \textbf{Extended Aspect Selection and Inference Clarification:}
-The 22 extended aspects were identified through frequency analysis of the keyword distribution across political stances. For each candidate keyword, we computed its usage frequency among Pro-Ruling and Pro-Opposition sources and calculated each keyword's partisan skew percentage. Keywords exhibiting notable partisan skew and sufficient volume were manually reviewed and selected based on their political relevance to Indian discourse. These aspects were \textit{not} used as primary annotated targets during supervised training. For inference on these extended aspects, we deploy the \textit{already fine-tuned} LoRA-adapted Mistral model with few-shot prompting---no additional fine-tuning is performed at this stage. The model receives a set of global representative examples as the few-shot context, enabling generalization to these unseen target aspects while leveraging the stance classification capabilities acquired during training on the 15 seed aspects.
+The 23 extended aspects were identified through frequency analysis of the keyword distribution across political stances. For each candidate keyword, we computed its usage frequency among Pro-Ruling and Pro-Opposition sources and calculated each keyword's partisan skew percentage. Keywords exhibiting notable partisan skew and sufficient volume were manually reviewed and selected based on their political relevance to Indian discourse. These aspects were \textit{not} used as primary annotated targets during supervised training. For inference on these extended aspects, we deploy the \textit{already fine-tuned} LoRA-adapted Mistral model with few-shot prompting---no additional fine-tuning is performed at this stage. The model receives a set of global representative examples as the few-shot context, enabling generalization to these unseen target aspects while leveraging the stance classification capabilities acquired during training on the 15 seed aspects.
 }
 
-The inference prompt is constructed using the same 10 few-shot examples per keyword that were reserved during annotation. For each input tweet, the pipeline retrieves keyword-specific examples following the naming pattern \texttt{\{prefix\}\_\{keyword\}\_stance.json}. For the 22 extended keywords that lack dedicated annotations, the system falls back to a global set of representative examples, enabling stance classification across all 37 keywords with consistent prompt structure.
+The inference prompt is constructed using the same 10 few-shot examples per keyword that were reserved during annotation. For each input tweet, the pipeline retrieves keyword-specific examples following the naming pattern \texttt{\{prefix\}\_\{keyword\}\_stance.json}. For the 23 extended keywords that lack dedicated annotations, the system falls back to a global set of representative examples, enabling stance classification across all 38 keywords with consistent prompt structure.
 
 Inference uses deterministic settings (temperature 0, no sampling) to ensure reproducible outputs. The model returns JSON containing stance and reasoning, which is parsed by a robust extraction function that handles various output formats and applies label normalization. Batched processing with length-based bucketing enables efficient large-scale inference, while resume functionality and periodic checkpointing ensure reliability for processing the full dataset.
 

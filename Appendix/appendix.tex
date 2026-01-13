@@ -1,0 +1,388 @@
+% ==============================================================================
+% APPENDIX
+% ==============================================================================
+
+\appendix
+
+% ==============================================================================
+% SECTION A: LLM PROMPT DOCUMENTATION
+% ==============================================================================
+\section{LLM Prompt Documentation}
+\label{app:prompt}
+
+This section documents the exact prompts fed to the LLM when executing the stance classification script with a LoRA adapter and few-shot examples.
+
+\subsection{Prompt Structure Overview}
+
+The script uses LangChain's FewShotPromptTemplate to construct prompts with:
+\begin{itemize}
+    \item A \textbf{PREFIX} (system instruction explaining the task)
+    \item \textbf{FEW-SHOT EXAMPLES} (loaded from JSON files)
+    \item A \textbf{SUFFIX} (the actual query for the current tweet)
+\end{itemize}
+
+\subsection{PREFIX (System Instruction)}
+
+The following text is provided as context at the start of every prompt:
+
+\begin{quote}
+\textit{``Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target. The following statements are social media posts expressing opinions about entities. Each statement can either be in favor of the entity, against the entity, or neutral.''}
+\end{quote}
+
+\subsection{Few-Shot Examples Format}
+
+Each few-shot example is formatted as:
+
+\begin{verbatim}
+entity: {entity}
+statement: {statement}
+stance: {stance}
+\end{verbatim}
+
+Where:
+\begin{itemize}
+    \item \texttt{\{entity\}} = The target keyword/aspect (e.g., ``Modi'', ``BJP'', ``Congress'')
+    \item \texttt{\{statement\}} = The example tweet text
+    \item \texttt{\{stance\}} = One of: ``favor'', ``against'', or ``neutral''
+\end{itemize}
+
+Multiple examples are separated by double newlines. The examples are loaded from per-keyword JSON files with naming pattern: \texttt{<shots\_prefix>\_<keyword\_slug>\_stance.json} (e.g., \texttt{kyra\_modi\_stance.json}). If no per-keyword file exists, it falls back to the global shots JSON file.
+
+\subsection{SUFFIX (Query Instruction)}
+
+After all few-shot examples, the following query is appended:
+
+\begin{verbatim}
+Analyze the following social media statement and 
+determine its stance towards the provided entity.
+Return ONLY a compact JSON object with exactly these keys:
+- "stance": one of "favor", "against", "neutral"
+- "reason": a short phrase (not a paragraph)
+Example: {"stance":"favor","reason":"praises the policy"}
+entity: {event}
+statement: {statement}
+JSON:
+\end{verbatim}
+
+\subsection{Complete Prompt Example}
+
+Here is a complete example of what gets sent to the LLM (with hypothetical 2 examples):
+
+\begin{small}
+\begin{verbatim}
+Stance classification is the task of determining the expressed 
+or implied opinion, or stance, of a statement toward a certain, 
+specified target. The following statements are social media 
+posts expressing opinions about entities. Each statement can 
+either be in favor of the entity, against the entity, or neutral.
+
+entity: Modi
+statement: Great leadership by our PM! India is progressing 
+           under his vision.
+stance: favor
+
+entity: Modi
+statement: The PM has failed to address the economic slowdown.
+stance: against
+
+Analyze the following social media statement and determine its 
+stance towards the provided entity.
+Return ONLY a compact JSON object with exactly these keys:
+- "stance": one of "favor", "against", "neutral"
+- "reason": a short phrase (not a paragraph)
+Example: {"stance":"favor","reason":"praises the policy"}
+entity: Modi
+statement: [ACTUAL TWEET TEXT TO CLASSIFY GOES HERE]
+JSON:
+\end{verbatim}
+\end{small}
+
+\subsection{Expected LLM Output Format}
+
+The LLM is expected to return ONLY a JSON object like:
+
+\begin{verbatim}
+{"stance":"favor","reason":"praises the policy"}
+{"stance":"against","reason":"criticizes the government"}
+{"stance":"neutral","reason":"presents balanced view"}
+\end{verbatim}
+
+\subsection{LoRA Adapter Behavior}
+
+When a LoRA adapter is provided:
+\begin{itemize}
+    \item The base model is loaded first
+    \item The LoRA adapter weights are applied on top using the PEFT library
+    \item Optionally, LoRA weights are merged into base for faster inference
+    \item The finetuned model then generates responses using the same prompt format above
+\end{itemize}
+
+The LoRA adapter does NOT change the prompt structure---it only changes the model weights, improving the model's ability to follow the output format and make accurate stance predictions based on the few-shot examples.
+
+\subsection{Key Script Parameters}
+
+\begin{itemize}
+    \item \texttt{--shots\_dir}: Directory containing per-keyword few-shot JSON files
+    \item \texttt{--shots\_prefix}: Prefix for few-shot filenames (default: ``kyra'')
+    \item \texttt{--shots\_json}: Fallback global few-shot file if per-keyword file is missing
+    \item \texttt{--lora\_adapter}: Path to LoRA adapter (makes model ``finetuned'')
+    \item \texttt{--max\_new\_tokens}: Max tokens for LLM response (default: 48)
+\end{itemize}
+
+
+% ==============================================================================
+% SECTION B: MODEL COMPARISON
+% ==============================================================================
+\section{Model Comparison}
+\label{app:model_comparison}
+
+This section provides a detailed comparison of stance detection models, with a focus on comparing the best-performing model (Mistral LoRA fine-tuned) with other approaches including PyABSA.
+
+\subsection{Overall Performance Comparison}
+
+\begin{table}[htbp]
+\centering
+\caption{Overall Performance Comparison of Stance Detection Models}
+\label{tab:app_model_comparison}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{F1 (Macro)} & \textbf{Precision} & \textbf{Recall} \\
+\midrule
+\textbf{Mistral LoRA (Best)} & 78.03\% & 0.761 & 0.776 & 0.753 \\
+Mistral (Few-shot) & 62.88\% & 0.606 & 0.640 & 0.607 \\
+RoBERTa & 57.36\% & 0.560 & 0.570 & 0.559 \\
+Mistral (Zero-shot) & 57.25\% & 0.539 & 0.557 & 0.550 \\
+PyABSA & 53.96\% & 0.531 & 0.545 & 0.544 \\
+BERT & 55.09\% & 0.531 & 0.551 & 0.546 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Per-Keyword Accuracy Comparison}
+
+\begin{table}[htbp]
+\centering
+\caption{Per-Keyword Accuracy Comparison (\%)}
+\label{tab:app_keyword_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Keyword} & \textbf{BERT} & \textbf{RoBERTa} & \textbf{PyABSA} & \textbf{Mistral (Zero-shot)} & \textbf{Mistral (Few-shot)} & \textbf{Mistral LoRA (Best)}  \\
+\midrule
+Caa & 31.6 & 57.9 & 52.6 & 42.1 & 52.6 & 89.5 \\
+China & 52.6 & 52.6 & 63.2 & 68.4 & 78.9 & 73.7 \\
+Congress & 50.0 & 55.6 & 50.0 & 88.9 & 88.9 & 88.9 \\
+Farm Laws & 45.5 & 36.4 & 31.8 & 36.4 & 45.5 & 72.7 \\
+Farmers Protests & 50.0 & 50.0 & 50.0 & 70.0 & 70.0 & 80.0 \\
+Hindu & 66.7 & 66.7 & 46.7 & 28.6 & 20.0 & 66.7 \\
+Hindutva & 71.4 & 78.6 & 64.3 & 57.1 & 64.3 & 85.7 \\
+Kashmir & 64.7 & 47.1 & 52.9 & 47.1 & 52.9 & 58.8 \\
+Kashmiri Pandits & 68.8 & 68.8 & 75.0 & 31.2 & 37.5 & 62.5 \\
+Modi & 77.8 & 83.3 & 55.6 & 83.3 & 88.9 & 94.4 \\
+Muslim & 40.0 & 40.0 & 50.0 & 55.0 & 63.2 & 78.9 \\
+New Parliament & 47.6 & 61.9 & 57.1 & 73.7 & 81.0 & 85.7 \\
+Rahulgandhi & 62.5 & 62.5 & 81.2 & 64.3 & 68.8 & 81.2 \\
+Ram Mandir & 52.4 & 52.4 & 38.1 & 55.6 & 61.9 & 71.4 \\
+Shaheen Bagh & 57.9 & 57.9 & 52.6 & 58.8 & 63.2 & 78.9 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\subsection{Model Agreement Analysis}
+
+\begin{table}[htbp]
+\centering
+\caption{Agreement Analysis: Mistral LoRA vs PyABSA}
+\label{tab:app_agreement_analysis}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Category} & \textbf{Count} & \textbf{Percentage} \\
+\midrule
+Both Correct & 121 & 45.8\% \\
+Both Wrong & 36 & 13.6\% \\
+Mistral LoRA Only Correct & 85 & 32.2\% \\
+PyABSA Only Correct & 22 & 8.3\% \\
+\midrule
+\textbf{Total Samples} & 264 & 100.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Sample Cases Where All Models Fail}
+
+Table~\ref{tab:app_failure_examples} presents cases where all models failed to correctly classify the stance. These examples highlight challenging cases involving sarcasm, complex multi-topic references, or nuanced political commentary.
+
+\begin{longtable}{|p{10cm}|l|c|c|}
+\caption{Sample Cases Where All Models Fail} \label{tab:app_failure_examples} \\
+\hline
+\textbf{Tweet} & \textbf{Keyword} & \textbf{Ground Truth} & \textbf{Common Prediction} \\
+\hline
+\endfirsthead
+\multicolumn{4}{c}{\tablename\ \thetable{} -- continued from previous page} \\
+\hline
+\textbf{Tweet} & \textbf{Keyword} & \textbf{Ground Truth} & \textbf{Common Prediction} \\
+\hline
+\endhead
+\hline \multicolumn{4}{r}{{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+If anyone still has any doubts that this protest is Farmers Protest \& not Pro Khalistan Protest they they are just living in their own fool's paradise. Time to identify them before it's too late like Anti CAA protests. & Caa & For & Against \\
+\hline
+Congress lead by Rahul Gandhi walks out of the Parliament when Prime Minister was speaking about Farm Laws. That's why Indians are walking out of these AndolanJeevi parties. & Farm Laws & Neutral & Against \\
+\hline
+In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ``internal matters'' (farmers protests, CAA, J\&K etc). & Farmers Protests & For & Against \\
+\hline
+Chunavi Hindu Kejriwal ko Gujarat ke bacche kare kuch sawaal & Hindu & Neutral & For \\
+\hline
+RSS' views on \#Karnataka defeat: The result has surprised many, though they r not shocking. Without strong leadership \& effective delivery at the regional level, PM Modi's charisma and Hindutva as an ideological glue would not be sufficient. & Hindu & Neutral & For \\
+\hline
+Rahul Gandhi doesn't put 6 million Kashmiris in jail to claim Kashmir! \#BharatJodoYatra & Kashmir & Against & For \\
+\hline
+Since \#RahulBhat's killing, the massive spontaneous protests by Kashmiri Pandits in Kashmir is a clear indicator that our younger generations are ready to take charge. We deserve new leadership that is connected to the ground \& has the pulse of our community. Our youth must lead. & Kashmiri Pandits & Neutral & For \\
+\hline
+No one is saying that Kashmiri Pandits were not targeted by Kashmir militants in 1989-1990. Dozens of movies have been made on Kashmir militancy. But, the regime-sponsored `The Kashmir File' was a `vulgar, propaganda' to create more hate and anger against Kashmiris \& Muslims. & Kashmiri Pandits & Neutral & For \\
+\hline
+How many of you feel that BJP is behind the attacks on Kashmiri Pandits to ignite hate against Muslims and to polarise Hindu votes. I feel. & Kashmiri Pandits & Neutral & For \\
+\hline
+Imagine if this mob at Capitol Hill comprised of Muslims or Black people? & Muslim & Neutral & Against \\
+\hline
+Garba celebrates the womb, or Garbha. Hindus dance around a clay lamp symbolising the divine womb ensconced in a body. Muslims, expressly forbidden to worship anyone other than Allah 40:62; 17:22; 12:40; 3:64; 5:55 are welcome to worship Ma Durga [Aditi] and her womb. & Muslim & Against & For \\
+\hline
+Watch | Even as India is grappling with a devastating \#coronavirus outbreak, 24/7 work continues on the new Parliament project. NDTV's Sunil Prabhu reports. & New Parliament & Against & Neutral \\
+\hline
+As Modi Inaugurates New Parliament, Police Detains Wrestlers Including Sakshi Malik, Vinesh Phogat. & New Parliament & Against & Neutral \\
+\hline
+Rajiv Gandhi was killed in a terror attack. Do all who die in a terror attack become martyrs. In that case, all those people who died with him in the suicide bomb blast must also be declared a martyr, and their families must be given the benefits of a martyr. @RahulGandhi & Rahulgandhi & Neutral & For \\
+\hline
+Almost all of the Muslims in Padma list are those who share Hindu culture. Perhaps a symbolism/message from Modi govt that Sharjleels and Shaheen Baghs are not the only faces. I'm feeling optimist for an hour, so I'll settle for this right now. & Shaheen Bagh & Against & For \\
+\end{longtable}
+
+\subsection{Visualizations}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{comparison_of_model/output/keyword_accuracy_heatmap.png}
+\caption{Per-keyword accuracy heatmap across all models.}
+\label{fig:app_heatmap}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{comparison_of_model/output/per_class_f1_comparison.png}
+\caption{Per-class F1 score comparison across models.}
+\label{fig:app_f1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{../codes/4_finetuning/4_d_model_comparison_baseline/final_runs/results/confusion_matrices.png}
+\caption{Confusion matrices for all stance detection models showing classification performance across Favor, Against, and Neutral classes.}
+\label{fig:app_confusion_matrices}
+\end{figure}
+
+
+% ==============================================================================
+% SECTION C: STANCE DISTRIBUTION BY KEYWORD
+% ==============================================================================
+\section{Stance Distribution by Keyword}
+\label{app:stance_distribution}
+
+Figure~\ref{fig:app_grid_keywords} presents stacked bar charts showing the stance distribution (Favor, Against, Neutral) across all keywords, comparing Pro-Ruling and Pro-Opposition influencer categories.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{stack_plots/grid_all_keywords.png}
+\caption{Stance distribution across all keywords for Pro-Ruling and Pro-Opposition categories.}
+\label{fig:app_grid_keywords}
+\end{figure}
+
+
+% ==============================================================================
+% SECTION D: ASPECT CONTRIBUTION TO BUCKET STANCE BREAKDOWN
+% ==============================================================================
+\section{Aspect Contribution to Bucket Stance Breakdown}
+\label{app:aspect_contribution}
+
+Table~\ref{tab:app_aspect_contribution} presents the contribution of each aspect (keyword) to the overall stance distribution within its thematic bucket. Percentages represent each aspect's share of the bucket's total Favor, Against, or Neutral tweets.
+
+{\scriptsize
+\begin{longtable}{|p{3.5cm}|p{1.6cm}|c|r|c|r|c|r|r|}
+\caption{Aspect Contribution to Bucket Stance Breakdown} \label{tab:app_aspect_contribution} \\
+\hline
+\textbf{Bucket} & \textbf{Aspect} & \textbf{Fav\%} & \textbf{Fav(n)} & \textbf{Ag\%} & \textbf{Ag(n)} & \textbf{Neu\%} & \textbf{Neu(n)} & \textbf{Total} \\
+\hline
+\endfirsthead
+\multicolumn{9}{c}{\tablename\ \thetable{} -- continued from previous page} \\
+\hline
+\textbf{Bucket} & \textbf{Aspect} & \textbf{Fav\%} & \textbf{Fav(n)} & \textbf{Ag\%} & \textbf{Ag(n)} & \textbf{Neu\%} & \textbf{Neu(n)} & \textbf{Total} \\
+\hline
+\endhead
+\hline \multicolumn{9}{r}{{Continued on next page}} \\
+\endfoot
+\hline
+\endlastfoot
+Leader \& Party Contestation & Modi & 30.9\% & 90946 & 19.9\% & 58490 & 8.9\% & 26156 & 175592 \\
+ & Rahulgandhi & 8.5\% & 25136 & 3.5\% & 10238 & 2.5\% & 7357 & 42731 \\
+ & Congress & 7.3\% & 21472 & 9.4\% & 27800 & 9.1\% & 26852 & 76124 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{46.7\%} & \textbf{137554} & \textbf{32.8\%} & \textbf{96528} & \textbf{20.5\%} & \textbf{60365} & \textbf{294447} \\
+\hline
+Institutions, Democracy \& State Accountability & Democracy & 35.6\% & 5641 & 41.0\% & 6492 & 3.8\% & 594 & 12727 \\
+ & Dictatorship & 0.1\% & 10 & 5.8\% & 911 & 0.1\% & 13 & 934 \\
+ & Spyware & 0.1\% & 9 & 2.6\% & 411 & 0.8\% & 123 & 543 \\
+ & New Parliament & 5.1\% & 815 & 2.3\% & 360 & 2.8\% & 451 & 1626 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{40.9\%} & \textbf{6475} & \textbf{51.6\%} & \textbf{8174} & \textbf{7.5\%} & \textbf{1181} & \textbf{15830} \\
+\hline
+Economy, Development \& Macro-Stewardship & Aatmanirbhar & 29.9\% & 6316 & 0.5\% & 103 & 4.4\% & 921 & 7340 \\
+ & Demonetisation & 0.9\% & 196 & 4.3\% & 914 & 0.3\% & 59 & 1169 \\
+ & Gdp & 4.0\% & 847 & 5.6\% & 1194 & 4.6\% & 977 & 3018 \\
+ & Inflation & 2.1\% & 441 & 15.2\% & 3215 & 4.0\% & 845 & 4501 \\
+ & Unemployment & 2.3\% & 484 & 17.7\% & 3747 & 2.2\% & 466 & 4697 \\
+ & Suicides & 0.2\% & 33 & 1.6\% & 346 & 0.2\% & 52 & 431 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{39.3\%} & \textbf{8317} & \textbf{45.0\%} & \textbf{9519} & \textbf{15.7\%} & \textbf{3320} & \textbf{21156} \\
+\hline
+Agrarian Reform \& Farmer Movement & Farm Laws & 8.1\% & 1277 & 12.7\% & 2017 & 10.1\% & 1605 & 4899 \\
+ & Farmers Protests & 7.1\% & 1127 & 2.2\% & 355 & 2.0\% & 310 & 1792 \\
+ & Msp & 17.5\% & 2766 & 12.4\% & 1959 & 28.0\% & 4432 & 9157 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{32.6\%} & \textbf{5170} & \textbf{27.3\%} & \textbf{4331} & \textbf{40.0\%} & \textbf{6347} & \textbf{15848} \\
+\hline
+Citizenship, Belonging \& Mass Protest Politics & Caa & 24.1\% & 2103 & 27.4\% & 2387 & 21.7\% & 1893 & 6383 \\
+ & Shaheen Bagh & 8.5\% & 744 & 13.7\% & 1197 & 4.5\% & 394 & 2335 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{32.7\%} & \textbf{2847} & \textbf{41.1\%} & \textbf{3584} & \textbf{26.2\%} & \textbf{2287} & \textbf{8718} \\
+\hline
+Majoritarian Ideology \& Hindu Nationalist Mobilization & Hindutva & 2.1\% & 1499 & 2.9\% & 2090 & 0.4\% & 275 & 3864 \\
+ & Sangh & 1.9\% & 1425 & 3.9\% & 2815 & 1.5\% & 1083 & 5323 \\
+ & Bhakts & 0.7\% & 513 & 1.9\% & 1370 & 0.1\% & 58 & 1941 \\
+ & Hindu & 56.0\% & 40928 & 26.6\% & 19451 & 7.5\% & 5466 & 65845 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{58.6\%} & \textbf{42866} & \textbf{32.3\%} & \textbf{23636} & \textbf{9.0\%} & \textbf{6607} & \textbf{73109} \\
+\hline
+Communal Relations, Minority Rights \& Collective Violence & Minorities & 3.0\% & 1314 & 1.6\% & 673 & 0.4\% & 152 & 2139 \\
+ & Muslim & 33.6\% & 14571 & 36.1\% & 15635 & 5.9\% & 2570 & 32776 \\
+ & Lynching & 0.2\% & 72 & 3.6\% & 1546 & 0.4\% & 171 & 1789 \\
+ & Sharia & 0.1\% & 50 & 1.7\% & 738 & 0.2\% & 103 & 891 \\
+ & Islamists & 0.1\% & 42 & 3.5\% & 1505 & 0.0\% & 7 & 1554 \\
+ & Hathras & 1.3\% & 550 & 5.2\% & 2244 & 3.2\% & 1383 & 4177 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{38.3\%} & \textbf{16599} & \textbf{51.6\%} & \textbf{22341} & \textbf{10.1\%} & \textbf{4386} & \textbf{43326} \\
+\hline
+Symbolic Nationhood \& Cultural-Religious Projects & Ayodhya & 23.6\% & 3675 & 4.9\% & 761 & 9.7\% & 1513 & 5949 \\
+ & Ram Mandir & 10.8\% & 1686 & 2.4\% & 370 & 1.3\% & 196 & 2252 \\
+ & Mahotsav & 35.1\% & 5479 & 0.6\% & 86 & 11.8\% & 1838 & 7403 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{69.5\%} & \textbf{10840} & \textbf{7.8\%} & \textbf{1217} & \textbf{22.7\%} & \textbf{3547} & \textbf{15604} \\
+\hline
+Security, Territory \& Geopolitics & China & 4.0\% & 1695 & 27.6\% & 11792 & 10.8\% & 4591 & 18078 \\
+ & Kashmir & 30.6\% & 13039 & 16.5\% & 7044 & 8.9\% & 3778 & 23861 \\
+ & Balochistan & 0.8\% & 361 & 0.6\% & 238 & 0.3\% & 134 & 733 \\
+ & Kashmiri Pandits & 3.1\% & 1341 & 0.5\% & 209 & 0.6\% & 277 & 1827 \\
+\cline{2-9}
+ & \textbf{TOTAL} & \textbf{35.4\%} & \textbf{15095} & \textbf{44.7\%} & \textbf{19074} & \textbf{19.9\%} & \textbf{8503} & \textbf{42672} \\
+\end{longtable}
+}

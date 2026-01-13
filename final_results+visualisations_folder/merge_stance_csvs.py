@@ -12,7 +12,7 @@ def main():
     
     # Read both CSVs
     english_df = pd.read_csv(base_path / "stance_results_37keywords.csv")
-    hindi_df = pd.read_csv(base_path / "hindi_stance_results.csv")
+    hindi_df = pd.read_csv(base_path / "hindi_stance_results_clean_consistent.csv")
     
     print(f"English CSV shape: {english_df.shape}")
     print(f"English columns: {list(english_df.columns)}")

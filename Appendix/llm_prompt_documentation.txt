@@ -1,0 +1,174 @@
+================================================================================
+LLM PROMPT DOCUMENTATION FOR finetune_stance.py
+(Running with LoRA Adapter + Few-Shot Examples)
+================================================================================
+
+This document describes exactly what prompts are fed to the LLM when the script
+is executed with a LoRA adapter and few-shot examples.
+
+================================================================================
+1. PROMPT STRUCTURE OVERVIEW
+================================================================================
+
+The script uses LangChain's FewShotPromptTemplate to construct prompts with:
+- A PREFIX (system instruction explaining the task)
+- FEW-SHOT EXAMPLES (loaded from JSON files)
+- A SUFFIX (the actual query for the current tweet)
+
+================================================================================
+2. PREFIX (System Instruction)
+================================================================================
+
+The following text is provided as context at the START of every prompt:
+
+"""
+Stance classification is the task of determining the expressed or implied opinion, 
+or stance, of a statement toward a certain, specified target. The following 
+statements are social media posts expressing opinions about entities. 
+Each statement can either be in favor of the entity, against the entity, or neutral.
+"""
+
+================================================================================
+3. FEW-SHOT EXAMPLES FORMAT
+================================================================================
+
+Each few-shot example is formatted as:
+
+"""
+entity: {entity}
+statement: {statement}
+stance: {stance}
+"""
+
+Where:
+- {entity} = The target keyword/aspect (e.g., "Modi", "BJP", "Congress")
+- {statement} = The example tweet text
+- {stance} = One of: "favor", "against", or "neutral"
+
+Multiple examples are separated by "\n\n" (double newline).
+
+The examples are loaded from per-keyword JSON files with naming pattern:
+  <shots_prefix>_<keyword_slug>_stance.json
+  Example: kyra_modi_stance.json
+
+If no per-keyword file exists, it falls back to the global --shots_json file.
+
+================================================================================
+4. SUFFIX (Query Instruction)
+================================================================================
+
+After all few-shot examples, the following query is appended:
+
+"""
+Analyze the following social media statement and determine its stance towards the provided entity.
+Return ONLY a compact JSON object with exactly these keys:
+- "stance": one of "favor", "against", "neutral"
+- "reason": a short phrase (not a paragraph)
+Example: {"stance":"favor","reason":"praises the policy"}
+entity: {event}
+statement: {statement}
+JSON:
+"""
+
+Where:
+- {event} = The target keyword for the current tweet being classified
+- {statement} = The tweet text being classified
+
+================================================================================
+5. COMPLETE PROMPT EXAMPLE
+================================================================================
+
+Here is a complete example of what gets sent to the LLM (with hypothetical 2 examples):
+
+--------------------------------------------------------------------------------
+Stance classification is the task of determining the expressed or implied opinion, 
+or stance, of a statement toward a certain, specified target. The following 
+statements are social media posts expressing opinions about entities. 
+Each statement can either be in favor of the entity, against the entity, or neutral.
+
+entity: Modi
+statement: Great leadership by our PM! India is progressing under his vision.
+stance: favor
+
+entity: Modi
+statement: The PM has failed to address the economic slowdown.
+stance: against
+
+Analyze the following social media statement and determine its stance towards the provided entity.
+Return ONLY a compact JSON object with exactly these keys:
+- "stance": one of "favor", "against", "neutral"
+- "reason": a short phrase (not a paragraph)
+Example: {"stance":"favor","reason":"praises the policy"}
+entity: Modi
+statement: [ACTUAL TWEET TEXT TO CLASSIFY GOES HERE]
+JSON:
+--------------------------------------------------------------------------------
+
+================================================================================
+6. EXPECTED LLM OUTPUT FORMAT
+================================================================================
+
+The LLM is expected to return ONLY a JSON object like:
+
+{"stance":"favor","reason":"praises the policy"}
+
+or
+
+{"stance":"against","reason":"criticizes the government"}
+
+or
+
+{"stance":"neutral","reason":"presents balanced view"}
+
+================================================================================
+7. LORA ADAPTER BEHAVIOR
+================================================================================
+
+When --lora_adapter is provided:
+- The base model is loaded first
+- The LoRA adapter weights are applied on top using PEFT library
+- Optionally (--merge_lora), LoRA weights are merged into base for faster inference
+- The finetuned model then generates responses using the same prompt format above
+
+The LoRA adapter does NOT change the prompt structure - it only changes the model
+weights, improving the model's ability to follow the output format and make
+accurate stance predictions based on the few-shot examples.
+
+================================================================================
+8. KEY SCRIPT PARAMETERS AFFECTING PROMPTS
+================================================================================
+
+--shots_dir       : Directory containing per-keyword few-shot JSON files
+--shots_prefix    : Prefix for few-shot filenames (default: "kyra")
+--shots_json      : Fallback global few-shot file if per-keyword file is missing
+--lora_adapter    : Path to LoRA adapter (makes model "finetuned")
+--max_new_tokens  : Max tokens for LLM response (default: 48)
+
+================================================================================
+9. FEW-SHOT JSON FILE FORMAT
+================================================================================
+
+Each few-shot JSON file should be an array of objects:
+
+[
+  {
+    "entity": "Target keyword/aspect",
+    "statement": "Tweet text example",
+    "stance": "favor|against|neutral"
+  },
+  {
+    "entity": "Target keyword/aspect",
+    "statement": "Another tweet text example",
+    "stance": "favor|against|neutral"
+  }
+  ...
+]
+
+The script normalizes various stance labels to {favor, against, neutral}:
+- "support", "supports", "pro", "for", "positive" → "favor"
+- "oppose", "opposes", "deny", "denies", "anti", "negative" → "against"
+- "unrelated", "irrelevant" → "neutral"
+
+================================================================================
+END OF DOCUMENTATION
+================================================================================

@@ -35,6 +35,7 @@ LABELS = ["For", "Against", "Neutral"]
 MODEL_CONFIGS = {
     'bert': {'file': 'bert_predictions.csv', 'pred_col': 'bert_prediction'},
     'roberta': {'file': 'roberta_predictions.csv', 'pred_col': 'roberta_prediction'},
+    'pyabsa': {'file': 'pyabsa_predictions.csv', 'pred_col': 'pyabsa_prediction'},
     'mistral_base': {'file': 'mistral_base_predictions.csv', 'pred_col': 'mistral_prediction'},
     'mistral_fewshot': {'file': 'mistral_fewshot_predictions.csv', 'pred_col': 'fewshot_label'},
     'mistral_lora': {'file': 'mistral_lora_predictions.csv', 'pred_col': 'fewshot_label'},
@@ -203,6 +204,54 @@ def plot_confusion_matrices(predictions_dict, output_dir: Path, logger):
     logger.info(f"✓ Saved confusion matrices to: {output_path}")
 
 
+def plot_mistral_confusion_matrix(predictions_dict, output_dir: Path, logger):
+    """Create a standalone high-quality confusion matrix for Mistral LoRA (finetuned model)."""
+    if 'mistral_lora' not in predictions_dict:
+        logger.warning("Mistral LoRA predictions not found, skipping standalone confusion matrix")
+        return
+    
+    df = predictions_dict['mistral_lora']
+    y_true = df['original_stance']
+    y_pred = df['prediction']
+    
+    cm = confusion_matrix(y_true, y_pred, labels=LABELS)
+    cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+    cm_normalized = np.nan_to_num(cm_normalized)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(8, 6))
+    
+    # Plot heatmap
+    sns.heatmap(cm_normalized, annot=False, fmt='.2%', cmap='Blues',
+               xticklabels=LABELS, yticklabels=LABELS, ax=ax,
+               cbar_kws={'label': 'Proportion'})
+    
+    # Add annotations with both percentage and count
+    for i in range(len(LABELS)):
+        for j in range(len(LABELS)):
+            pct = cm_normalized[i, j] * 100
+            count = cm[i, j]
+            text_color = 'white' if pct > 50 else 'black'
+            ax.text(j + 0.5, i + 0.4, f'{pct:.1f}%', 
+                   ha='center', va='center', fontsize=14, fontweight='bold', color=text_color)
+            ax.text(j + 0.5, i + 0.65, f'(n={count})', 
+                   ha='center', va='center', fontsize=10, color=text_color)
+    
+    ax.set_title('Fine-tuned Mistral (LoRA) Confusion Matrix', fontsize=14, fontweight='bold')
+    ax.set_ylabel('True Label', fontsize=12)
+    ax.set_xlabel('Predicted Label', fontsize=12)
+    
+    # Improve tick labels
+    ax.set_xticklabels(['Favor', 'Against', 'Neutral'], fontsize=11)
+    ax.set_yticklabels(['Favor', 'Against', 'Neutral'], fontsize=11)
+    
+    plt.tight_layout()
+    output_path = output_dir / "mistral_finetuned_confusion_matrix.png"
+    plt.savefig(output_path, dpi=200, bbox_inches='tight')
+    plt.close()
+    logger.info(f"✓ Saved Mistral confusion matrix to: {output_path}")
+
+
 def plot_comparison_bar(metrics_list, output_dir: Path, logger):
     """Create bar chart comparing model performances."""
     if not metrics_list:
@@ -233,7 +282,7 @@ def plot_comparison_bar(metrics_list, output_dir: Path, logger):
     
     ax.set_ylabel('Score')
     ax.set_xlabel('Metric')
-    ax.set_title('Model Comparison: 5 Stance Detection Methods')
+    ax.set_title('Model Comparison: 6 Stance Detection Methods')
     ax.set_xticks(x)
     ax.set_xticklabels(metric_names)
     ax.legend(loc='upper right', fontsize=8)
@@ -321,6 +370,7 @@ def main():
     logger.info("\nGenerating visualizations...")
     plot_confusion_matrices(predictions, results_dir, logger)
     plot_comparison_bar(metrics_list, results_dir, logger)
+    plot_mistral_confusion_matrix(predictions, results_dir, logger)
     
     # Summary
     logger.info("\n" + "=" * 60)

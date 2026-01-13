@@ -1,0 +1,144 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+
+\section*{Appendix: Model Comparison}
+
+This appendix provides a detailed comparison of stance detection models, 
+with a focus on comparing the best-performing model (Mistral LoRA fine-tuned) 
+with other approaches including PyABSA.
+
+% Overall Model Performance Comparison
+\begin{table}[htbp]
+\centering
+\caption{Overall Performance Comparison of Stance Detection Models}
+\label{tab:model_comparison}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Accuracy} & \textbf{F1 (Macro)} & \textbf{Precision} & \textbf{Recall} \\
+\midrule
+\textbf{Mistral LoRA (Best)} & 78.03% & 0.761 & 0.776 & 0.753 \\
+Mistral (Few-shot) & 62.88% & 0.606 & 0.640 & 0.607 \\
+RoBERTa & 57.36% & 0.560 & 0.570 & 0.559 \\
+Mistral (Zero-shot) & 57.25% & 0.539 & 0.557 & 0.550 \\
+PyABSA & 53.96% & 0.531 & 0.545 & 0.544 \\
+BERT & 55.09% & 0.531 & 0.551 & 0.546 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Per-Keyword Accuracy Comparison
+\begin{table}[htbp]
+\centering
+\caption{Per-Keyword Accuracy Comparison (\%)}
+\label{tab:keyword_comparison}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Keyword} & \textbf{BERT} & \textbf{RoBERTa} & \textbf{PyABSA} & \textbf{Mistral (Zero-shot)} & \textbf{Mistral (Few-shot)} & \textbf{Mistral LoRA (Best)}  \\
+\midrule
+Caa & 31.6 & 57.9 & 52.6 & 42.1 & 52.6 & 89.5 \\
+China & 52.6 & 52.6 & 63.2 & 68.4 & 78.9 & 73.7 \\
+Congress & 50.0 & 55.6 & 50.0 & 88.9 & 88.9 & 88.9 \\
+Farm Laws & 45.5 & 36.4 & 31.8 & 36.4 & 45.5 & 72.7 \\
+Farmers Protests & 50.0 & 50.0 & 50.0 & 70.0 & 70.0 & 80.0 \\
+Hindu & 66.7 & 66.7 & 46.7 & 28.6 & 20.0 & 66.7 \\
+Hindutva & 71.4 & 78.6 & 64.3 & 57.1 & 64.3 & 85.7 \\
+Kashmir & 64.7 & 47.1 & 52.9 & 47.1 & 52.9 & 58.8 \\
+Kashmiri Pandits & 68.8 & 68.8 & 75.0 & 31.2 & 37.5 & 62.5 \\
+Modi & 77.8 & 83.3 & 55.6 & 83.3 & 88.9 & 94.4 \\
+Muslim & 40.0 & 40.0 & 50.0 & 55.0 & 63.2 & 78.9 \\
+New Parliament & 47.6 & 61.9 & 57.1 & 73.7 & 81.0 & 85.7 \\
+Rahulgandhi & 62.5 & 62.5 & 81.2 & 64.3 & 68.8 & 81.2 \\
+Ram Mandir & 52.4 & 52.4 & 38.1 & 55.6 & 61.9 & 71.4 \\
+Shaheen Bagh & 57.9 & 57.9 & 52.6 & 58.8 & 63.2 & 78.9 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+
+% Model Agreement Analysis
+\begin{table}[htbp]
+\centering
+\caption{Agreement Analysis: Mistral LoRA vs PyABSA}
+\label{tab:agreement_analysis}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Category} & \textbf{Count} & \textbf{Percentage} \\
+\midrule
+Both Correct & 121 & 45.8\% \\
+Both Wrong & 36 & 13.6\% \\
+Mistral LoRA Only Correct & 85 & 32.2\% \\
+PyABSA Only Correct & 22 & 8.3\% \\
+\midrule
+\textbf{Total Samples} & 264 & 100.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Examples Where All Models Fail
+\begin{table}[htbp]
+\centering
+\caption{Sample Cases Where All Models Fail (Truncated)}
+\label{tab:failure_examples}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{6cm}lcc}
+\toprule
+\textbf{Tweet (Truncated)} & \textbf{Keyword} & \textbf{Ground Truth} & \textbf{Common Prediction} \\
+\midrule
+If anyone still has any doubts that this protest is Farmers Protest \&amp; not Pr... & Caa & For & Against \\
+Congress lead by Rahul Gandhi walks out of the Parliament when Prime Minister wa... & Farm Laws & Neutral & Against \\
+In one month, our govt has issued statements on events in US (capitol riots), Sr... & Farmers Protests & For & Against \\
+Chunavi Hindu Kejriwal ko Gujarat ke bacche kare kuch sawaal https://t.co/K674zy... & Hindu & Neutral & For \\
+RSS' views on \#Karnataka defeat: 
+
+▪️The result has surprised many, though they ... & Hindu & Neutral & For \\
+Rahul Gandhi doesn’t put 6 million Kashmiris in jail to claim Kashmir! \#BharatJo... & Kashmir & Against & For \\
+Since \#RahulBhat’s killing, the massive spontaneous protests by Kashmiri Pandits... & Kashmiri Pandits & Neutral & For \\
+No one is saying that Kashmiri Pandits were not targeted by Kashmir militants in... & Kashmiri Pandits & Neutral & For \\
+How many of you feel that BJP is behind the attacks on Kashmiri Pandits to ignit... & Kashmiri Pandits & Neutral & For \\
+Imagine if this mob at Capitol Hill comprised of Muslims or Black people ?... & Muslim & Neutral & Against \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+
+
+\subsection*{Visualizations}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{keyword_accuracy_heatmap.png}
+\caption{Per-keyword accuracy heatmap across all models.}
+\label{fig:heatmap}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{mistral_vs_others_scatter.png}
+\caption{Scatter plots comparing Mistral LoRA accuracy with each other model.}
+\label{fig:scatter}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{per_class_f1_comparison.png}
+\caption{Per-class F1 score comparison across models.}
+\label{fig:f1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{confusion_matrix_best_vs_worst.png}
+\caption{Confusion matrices for best (Mistral LoRA) and worst performing models.}
+\label{fig:cm}
+\end{figure}
+
+\end{document}

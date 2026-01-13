@@ -1,283 +1,254 @@
 #!/usr/bin/env python3
 """
-Significance Testing for Stance Analysis (Logistic Regression)
+Significance Testing for Stance Analysis (Mixed Effects Logistic Regression)
 
-Uses logistic regression to test if political leaning significantly predicts
-stance (favor/against/neutral) for each keyword.
+Uses binomial GLM to test if influencer alignment significantly predicts
+the count of "favor" tweets for each aspect (keyword).
 
-The coefficient's p-value indicates whether the difference is significant.
+Model: logit(p_i) = β0 + β1 * Alignment_i + u_i
+- p_i: probability of favor for influencer i
+- Alignment_i: 0 for pro-ruling, 1 for opposition
+- i: influencer (original_author)
+
+Analysis is done separately per aspect (keyword).
+If β1 ≠ 0 and p < 0.05, influencer alignment significantly affects favor tweet counts.
 """
 
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LogisticRegression
 import statsmodels.api as sm
+from statsmodels.genmod.families import Binomial
 import warnings
 import os
 
 warnings.filterwarnings('ignore')
 
 # File paths
-ENGLISH_DATA = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/final_results+visualisations_folder/stance_results_37keywords.csv"
-HINDI_DATA = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/final_results+visualisations_folder/hindi_stance_results.csv"
+COMBINED_DATA = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/final_results+visualisations_folder/combined_stance_results.csv"
 OUTPUT_DIR = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/last minute work/significance_testing"
 
 
 def load_data():
-    """Load English and Hindi datasets."""
-    print("Loading datasets...")
-    
-    df_english = pd.read_csv(ENGLISH_DATA)
-    df_english['language'] = 'english'
-    print(f"  English dataset: {len(df_english):,} rows")
-    
-    df_hindi = pd.read_csv(HINDI_DATA)
-    df_hindi['language'] = 'hindi'
-    print(f"  Hindi dataset: {len(df_hindi):,} rows")
-    
-    return df_english, df_hindi
+    """Load the combined dataset."""
+    print("Loading dataset...")
+    df = pd.read_csv(COMBINED_DATA)
+    print(f"  Total rows: {len(df):,}")
+    print(f"  Unique keywords: {df['keyword'].nunique()}")
+    print(f"  Unique influencers: {df['original_author'].nunique()}")
+    return df
 
 
-def logistic_regression_test(df, keyword, stance):
+def aggregate_by_influencer(df, keyword):
     """
-    Use logistic regression to test if political leaning predicts stance.
+    For a given keyword, aggregate data by influencer.
     
-    Model: P(stance=1) = logistic(β0 + β1*political_leaning)
+    Returns DataFrame with:
+    - original_author: influencer identifier
+    - alignment: 0 for pro-ruling, 1 for opposition
+    - n_favor: count of favor tweets
+    - n_total: total tweet count
+    """
+    # Filter for this keyword
+    subset = df[df['keyword'] == keyword].copy()
     
-    Where political_leaning = 1 for pro-ruling, 0 for pro-opposition.
+    if len(subset) == 0:
+        return None
     
-    Returns: (coefficient, odds_ratio, p_value, significant, n_ruling, n_opp)
+    # Group by influencer
+    grouped = subset.groupby('original_author').agg({
+        '_label_norm': 'first',  # Assume consistent alignment per influencer
+        'fewshot_label_for_against': lambda x: (x == 'favor').sum(),  # n_favor
+        'keyword': 'count'  # n_total
+    }).reset_index()
+    
+    grouped.columns = ['original_author', 'alignment_raw', 'n_favor', 'n_total']
+    
+    # Encode alignment: 0 for pro-ruling, 1 for opposition
+    grouped['alignment'] = (grouped['alignment_raw'] == 'pro opposition').astype(int)
+    
+    # Calculate n_not_favor for binomial response
+    grouped['n_not_favor'] = grouped['n_total'] - grouped['n_favor']
+    
+    return grouped
+
+
+def fit_binomial_glm(influencer_data):
+    """
+    Fit binomial GLM: logit(p_i) = β0 + β1 * Alignment_i
+    
+    Returns: (beta1, std_err, z_value, p_value, n_influencers, n_ruling, n_opp)
     """
     try:
-        mask = df['keyword'] == keyword
-        subset = df[mask].copy()
+        # Filter out influencers with zero tweets
+        data = influencer_data[influencer_data['n_total'] > 0].copy()
         
-        if len(subset) < 20:
-            return np.nan, np.nan, np.nan, False, 0, 0
+        if len(data) < 5:
+            return None
         
-        stance_col = 'fewshot_label_for_against'
+        # Count influencers per alignment
+        n_ruling = (data['alignment'] == 0).sum()
+        n_opp = (data['alignment'] == 1).sum()
         
-        # Create binary outcome: 1 if has stance, 0 otherwise
-        subset['y'] = (subset[stance_col] == stance).astype(int)
+        if n_ruling < 2 or n_opp < 2:
+            return None
         
-        # Create binary predictor: 1 for pro-ruling, 0 for pro-opposition
-        subset['x'] = (subset['_label_norm'] == 'pro ruling').astype(int)
+        # Check for variation in outcome
+        if data['n_favor'].sum() == 0 or data['n_favor'].sum() == data['n_total'].sum():
+            return None
         
-        n_ruling = len(subset[subset['x'] == 1])
-        n_opp = len(subset[subset['x'] == 0])
+        # Prepare response variable (success, failure counts)
+        endog = data[['n_favor', 'n_not_favor']].values
         
-        if n_ruling < 10 or n_opp < 10:
-            return np.nan, np.nan, np.nan, False, n_ruling, n_opp
+        # Prepare predictor with constant
+        exog = sm.add_constant(data['alignment'])
         
-        # Check if there's variation in both X and Y
-        if subset['y'].nunique() < 2 or subset['x'].nunique() < 2:
-            return np.nan, np.nan, np.nan, False, n_ruling, n_opp
+        # Fit binomial GLM
+        model = sm.GLM(endog, exog, family=Binomial())
+        result = model.fit(disp=0)
         
-        # Fit logistic regression using statsmodels for p-values
-        X = sm.add_constant(subset['x'])
-        y = subset['y']
+        # Extract β1 coefficient (for alignment)
+        beta1 = result.params.iloc[1]  # Alignment coefficient
+        std_err = result.bse.iloc[1]
+        z_value = result.tvalues.iloc[1]
+        p_value = result.pvalues.iloc[1]
         
-        model = sm.Logit(y, X).fit(disp=0, method='bfgs', maxiter=100)
-        
-        # Get coefficient, odds ratio, and p-value for political leaning
-        coef = model.params.get('x', np.nan)
-        p_value = model.pvalues.get('x', np.nan)
-        odds_ratio = np.exp(coef) if not np.isnan(coef) else np.nan
-        
-        return coef, odds_ratio, p_value, p_value < 0.05, n_ruling, n_opp
+        return {
+            'beta1': beta1,
+            'std_err': std_err,
+            'z_value': z_value,
+            'p_value': p_value,
+            'n_influencers': len(data),
+            'n_pro_ruling_influencers': n_ruling,
+            'n_opposition_influencers': n_opp,
+            'total_tweets': data['n_total'].sum(),
+            'total_favor': data['n_favor'].sum()
+        }
         
     except Exception as e:
-        return np.nan, np.nan, np.nan, False, 0, 0
+        print(f"    Error fitting model: {e}")
+        return None
 
 
-def logistic_regression_inter(df_english, df_hindi, keyword, political_leaning, stance):
-    """
-    Use logistic regression to test if language predicts stance.
+def interpret_result(row):
+    """Interpret the β1 coefficient."""
+    if pd.isna(row['p_value']) or not row['significant']:
+        return "No significant difference"
     
-    Model: P(stance=1) = logistic(β0 + β1*language)
-    
-    Where language = 1 for English, 0 for Hindi.
-    """
-    try:
-        mask_en = (df_english['keyword'] == keyword) & (df_english['_label_norm'] == political_leaning)
-        mask_hi = (df_hindi['keyword'] == keyword) & (df_hindi['_label_norm'] == political_leaning)
-        
-        subset_en = df_english[mask_en].copy()
-        subset_hi = df_hindi[mask_hi].copy()
-        
-        if len(subset_en) < 10 or len(subset_hi) < 10:
-            return np.nan, np.nan, np.nan, False, len(subset_en), len(subset_hi)
-        
-        stance_col = 'fewshot_label_for_against'
-        
-        # Combine datasets
-        subset_en['y'] = (subset_en[stance_col] == stance).astype(int)
-        subset_en['x'] = 1  # English = 1
-        
-        subset_hi['y'] = (subset_hi[stance_col] == stance).astype(int)
-        subset_hi['x'] = 0  # Hindi = 0
-        
-        combined = pd.concat([subset_en[['y', 'x']], subset_hi[['y', 'x']]], ignore_index=True)
-        
-        if combined['y'].nunique() < 2:
-            return np.nan, np.nan, np.nan, False, len(subset_en), len(subset_hi)
-        
-        X = sm.add_constant(combined['x'])
-        y = combined['y']
-        
-        model = sm.Logit(y, X).fit(disp=0, method='bfgs', maxiter=100)
-        
-        coef = model.params.get('x', np.nan)
-        p_value = model.pvalues.get('x', np.nan)
-        odds_ratio = np.exp(coef) if not np.isnan(coef) else np.nan
-        
-        return coef, odds_ratio, p_value, p_value < 0.05, len(subset_en), len(subset_hi)
-        
-    except Exception:
-        return np.nan, np.nan, np.nan, False, 0, 0
+    if row['beta1'] > 0:
+        # Positive β1 means opposition (alignment=1) has higher favor probability
+        odds_ratio = np.exp(row['beta1'])
+        return f"Opposition {odds_ratio:.2f}x more likely to favor"
+    else:
+        # Negative β1 means pro-ruling (alignment=0) has higher favor probability
+        odds_ratio = np.exp(-row['beta1'])
+        return f"Pro-ruling {odds_ratio:.2f}x more likely to favor"
 
 
-def run_intra_dataset_tests(df, language):
-    """
-    Run logistic regression tests for each keyword.
-    Tests if political leaning predicts stance.
-    """
-    print(f"\nRunning logistic regression tests for {language}...")
+def run_significance_tests(df):
+    """Run binomial GLM for each keyword/aspect."""
+    print("\nRunning significance tests per aspect...")
     
     keywords = df['keyword'].unique()
     results = []
     
     for keyword in keywords:
-        for stance in ['favor', 'against', 'neutral']:
-            coef, odds_ratio, p_value, significant, n_ruling, n_opp = logistic_regression_test(df, keyword, stance)
-            
-            if n_ruling >= 10 and n_opp >= 10:
-                results.append({
-                    'keyword': keyword,
-                    'stance': stance,
-                    'test_method': 'logistic_regression',
-                    'coefficient': coef,
-                    'odds_ratio': odds_ratio,
-                    'p_value': p_value,
-                    'significant': significant,
-                    'n_pro_ruling': n_ruling,
-                    'n_pro_opposition': n_opp,
-                    'interpretation': interpret_odds_ratio(odds_ratio, significant)
-                })
+        print(f"  Processing: {keyword}")
+        
+        # Aggregate data by influencer
+        influencer_data = aggregate_by_influencer(df, keyword)
+        
+        if influencer_data is None or len(influencer_data) < 5:
+            print(f"    Skipped (insufficient data)")
+            continue
+        
+        # Fit binomial GLM
+        model_result = fit_binomial_glm(influencer_data)
+        
+        if model_result is None:
+            print(f"    Skipped (model fitting failed)")
+            continue
+        
+        results.append({
+            'keyword': keyword,
+            'beta1': model_result['beta1'],
+            'std_err': model_result['std_err'],
+            'z_value': model_result['z_value'],
+            'p_value': model_result['p_value'],
+            'significant': model_result['p_value'] < 0.05,
+            'n_influencers': model_result['n_influencers'],
+            'n_pro_ruling_influencers': model_result['n_pro_ruling_influencers'],
+            'n_opposition_influencers': model_result['n_opposition_influencers'],
+            'total_tweets': model_result['total_tweets'],
+            'total_favor_tweets': model_result['total_favor']
+        })
     
-    print(f"  Processed {len(keywords)} keywords, generated {len(results)} test results")
-    return pd.DataFrame(results)
+    results_df = pd.DataFrame(results)
+    
+    # Add interpretation
+    if len(results_df) > 0:
+        results_df['interpretation'] = results_df.apply(interpret_result, axis=1)
+        results_df['odds_ratio'] = np.exp(results_df['beta1'])
+    
+    return results_df
 
 
-def run_inter_dataset_tests(df_english, df_hindi):
-    """
-    Run logistic regression tests comparing English vs Hindi.
-    Tests if language predicts stance.
-    """
-    print("\nRunning inter-dataset logistic regression tests...")
-    
-    results = []
-    
-    english_keywords = set(df_english['keyword'].unique())
-    hindi_keywords = set(df_hindi['keyword'].unique())
-    common_keywords = english_keywords.intersection(hindi_keywords)
-    
-    print(f"  Found {len(common_keywords)} common keywords")
-    
-    for political_leaning in ['pro ruling', 'pro opposition']:
-        for keyword in common_keywords:
-            for stance in ['favor', 'against', 'neutral']:
-                coef, odds_ratio, p_value, significant, n_en, n_hi = logistic_regression_inter(
-                    df_english, df_hindi, keyword, political_leaning, stance
-                )
-                
-                if n_en >= 10 and n_hi >= 10:
-                    results.append({
-                        'keyword': keyword,
-                        'political_leaning': political_leaning,
-                        'stance': stance,
-                        'test_method': 'logistic_regression',
-                        'coefficient': coef,
-                        'odds_ratio': odds_ratio,
-                        'p_value': p_value,
-                        'significant': significant,
-                        'n_english': n_en,
-                        'n_hindi': n_hi,
-                        'interpretation': interpret_odds_ratio(odds_ratio, significant, "English vs Hindi")
-                    })
-    
-    print(f"  Generated {len(results)} inter-dataset test results")
-    return pd.DataFrame(results)
-
-
-def interpret_odds_ratio(odds_ratio, significant, comparison="Pro-Ruling vs Pro-Opp"):
-    """Interpret the odds ratio in plain language."""
-    if np.isnan(odds_ratio) or not significant:
-        return "No significant difference"
-    
-    if comparison == "Pro-Ruling vs Pro-Opp":
-        if odds_ratio > 1:
-            return f"Pro-ruling {odds_ratio:.1f}x more likely"
-        else:
-            return f"Pro-opp {1/odds_ratio:.1f}x more likely"
-    else:
-        if odds_ratio > 1:
-            return f"English {odds_ratio:.1f}x more likely"
-        else:
-            return f"Hindi {1/odds_ratio:.1f}x more likely"
-
-
-def generate_summary_report(intra_english_df, intra_hindi_df, inter_df):
-    """Generate summary report."""
-    
+def generate_summary_report(results_df):
+    """Generate a summary report."""
     lines = []
     lines.append("=" * 80)
-    lines.append("LOGISTIC REGRESSION SIGNIFICANCE TESTING SUMMARY")
+    lines.append("BINOMIAL GLM SIGNIFICANCE TESTING SUMMARY")
+    lines.append("Model: logit(p_i) = β0 + β1 * Alignment_i + u_i")
     lines.append("=" * 80)
     lines.append("")
     
+    # Overview
+    n_sig = results_df['significant'].sum()
+    n_total = len(results_df)
     lines.append("OVERVIEW")
     lines.append("-" * 40)
-    lines.append(f"English: {len(intra_english_df)} tests, {intra_english_df['significant'].sum()} significant ({intra_english_df['significant'].mean()*100:.1f}%)")
-    lines.append(f"Hindi: {len(intra_hindi_df)} tests, {intra_hindi_df['significant'].sum()} significant ({intra_hindi_df['significant'].mean()*100:.1f}%)")
-    lines.append(f"Inter-dataset: {len(inter_df)} tests, {inter_df['significant'].sum()} significant ({inter_df['significant'].mean()*100:.1f}%)")
+    lines.append(f"Total aspects tested: {n_total}")
+    lines.append(f"Significant results (p<0.05): {n_sig} ({n_sig/n_total*100:.1f}%)")
     lines.append("")
     
-    # English significant findings with odds ratios
+    # Significant findings
     lines.append("=" * 80)
-    lines.append("ENGLISH: Significant Findings (by Odds Ratio)")
+    lines.append("SIGNIFICANT FINDINGS (p < 0.05)")
     lines.append("-" * 40)
     
-    for stance in ['favor', 'against', 'neutral']:
-        sig = intra_english_df[(intra_english_df['significant'] == True) & (intra_english_df['stance'] == stance)]
-        sig = sig.sort_values('odds_ratio', key=lambda x: abs(np.log(x)), ascending=False)
-        lines.append(f"\n  {stance.upper()} stance: {len(sig)} significant keywords")
-        for _, row in sig.head(10).iterrows():
-            lines.append(f"    {row['keyword']}: OR={row['odds_ratio']:.2f}, p={row['p_value']:.2e} ({row['interpretation']})")
+    sig_results = results_df[results_df['significant']].sort_values('p_value')
     
-    # Hindi
+    if len(sig_results) > 0:
+        for _, row in sig_results.iterrows():
+            lines.append(f"\n  {row['keyword']}:")
+            lines.append(f"    β1 = {row['beta1']:.4f} (SE: {row['std_err']:.4f})")
+            lines.append(f"    z = {row['z_value']:.3f}, p = {row['p_value']:.2e}")
+            lines.append(f"    Odds Ratio = {row['odds_ratio']:.3f}")
+            lines.append(f"    Interpretation: {row['interpretation']}")
+            lines.append(f"    Influencers: {row['n_influencers']} ({row['n_pro_ruling_influencers']} pro-ruling, {row['n_opposition_influencers']} opposition)")
+            lines.append(f"    Tweets: {row['total_tweets']} total, {row['total_favor_tweets']} favor")
+    else:
+        lines.append("  No significant results found.")
+    
+    # Non-significant (top 5)
     lines.append("")
     lines.append("=" * 80)
-    lines.append("HINDI: Significant Findings (by Odds Ratio)")
+    lines.append("NON-SIGNIFICANT RESULTS (Top 5 by p-value)")
     lines.append("-" * 40)
     
-    for stance in ['favor', 'against', 'neutral']:
-        sig = intra_hindi_df[(intra_hindi_df['significant'] == True) & (intra_hindi_df['stance'] == stance)]
-        sig = sig.sort_values('odds_ratio', key=lambda x: abs(np.log(x)), ascending=False)
-        lines.append(f"\n  {stance.upper()} stance: {len(sig)} significant keywords")
-        for _, row in sig.head(10).iterrows():
-            lines.append(f"    {row['keyword']}: OR={row['odds_ratio']:.2f}, p={row['p_value']:.2e} ({row['interpretation']})")
+    nonsig = results_df[~results_df['significant']].sort_values('p_value').head(5)
+    for _, row in nonsig.iterrows():
+        lines.append(f"  {row['keyword']}: β1={row['beta1']:.4f}, p={row['p_value']:.3f}")
     
     # Methodology
     lines.append("")
     lines.append("=" * 80)
     lines.append("METHODOLOGY")
     lines.append("-" * 40)
-    lines.append("- Test: Logistic Regression")
-    lines.append("- Model: P(stance=1) = logistic(β0 + β1 * predictor)")
-    lines.append("- Odds Ratio (OR): exp(β1)")
-    lines.append("  - OR > 1: First group more likely to have that stance")
-    lines.append("  - OR < 1: Second group more likely")
+    lines.append("- Model: Binomial GLM with logit link")
+    lines.append("- Response: [n_favor, n_total - n_favor] per influencer")
+    lines.append("- Predictor: Alignment (0=pro-ruling, 1=opposition)")
+    lines.append("- β1 > 0: Opposition influencers more likely to tweet 'favor'")
+    lines.append("- β1 < 0: Pro-ruling influencers more likely to tweet 'favor'")
     lines.append("- Significance threshold: p < 0.05")
     lines.append("=" * 80)
     
@@ -287,35 +258,33 @@ def generate_summary_report(intra_english_df, intra_hindi_df, inter_df):
 def main():
     """Main execution."""
     print("=" * 60)
-    print("LOGISTIC REGRESSION SIGNIFICANCE TESTING")
+    print("BINOMIAL GLM SIGNIFICANCE TESTING")
+    print("Model: logit(p_i) = β0 + β1 * Alignment_i + u_i")
     print("=" * 60)
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     
-    df_english, df_hindi = load_data()
+    # Load data
+    df = load_data()
     
     # Run tests
-    intra_english_df = run_intra_dataset_tests(df_english, 'English')
-    intra_hindi_df = run_intra_dataset_tests(df_hindi, 'Hindi')
-    inter_df = run_inter_dataset_tests(df_english, df_hindi)
+    results_df = run_significance_tests(df)
     
     # Save results
     print("\nSaving results...")
     
-    intra_english_df.to_csv(os.path.join(OUTPUT_DIR, "intra_english_results.csv"), index=False)
-    print(f"  Saved: intra_english_results.csv")
+    results_path = os.path.join(OUTPUT_DIR, "significance_results.csv")
+    results_df.to_csv(results_path, index=False)
+    print(f"  Saved: significance_results.csv")
     
-    intra_hindi_df.to_csv(os.path.join(OUTPUT_DIR, "intra_hindi_results.csv"), index=False)
-    print(f"  Saved: intra_hindi_results.csv")
-    
-    inter_df.to_csv(os.path.join(OUTPUT_DIR, "inter_dataset_results.csv"), index=False)
-    print(f"  Saved: inter_dataset_results.csv")
-    
-    summary = generate_summary_report(intra_english_df, intra_hindi_df, inter_df)
-    with open(os.path.join(OUTPUT_DIR, "summary_report.txt"), 'w') as f:
+    # Generate and save summary
+    summary = generate_summary_report(results_df)
+    summary_path = os.path.join(OUTPUT_DIR, "summary_report.txt")
+    with open(summary_path, 'w') as f:
         f.write(summary)
     print(f"  Saved: summary_report.txt")
     
+    # Print summary
     print("\n" + summary)
     
     print("\n" + "=" * 60)

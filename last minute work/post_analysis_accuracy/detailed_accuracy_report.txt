@@ -1,0 +1,50 @@
+POST-ANALYSIS ACCURACY REPORT
+======================================================================
+
+Input file: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/last minute work/post_analysis_accuracy/Annotations_Jan'26-2.xlsx
+Total samples: 390
+
+OVERALL METRICS
+----------------------------------------
+Accuracy:            0.7308 (73.1%)
+Precision (macro):   0.6886 (68.9%)
+Recall (macro):      0.6615 (66.2%)
+F1-Score (macro):    0.6533 (65.3%)
+F1-Score (weighted): 0.7093 (70.9%)
+
+CLASSIFICATION REPORT
+----------------------------------------
+              precision    recall  f1-score   support
+
+       favor      0.667     0.824     0.737       102
+     against      0.789     0.867     0.826       203
+     neutral      0.610     0.294     0.397        85
+
+    accuracy                          0.731       390
+   macro avg      0.689     0.662     0.653       390
+weighted avg      0.718     0.731     0.709       390
+
+
+PER-KEYWORD ACCURACY
+----------------------------------------
+Keyword                    Samples   Accuracy       F1
+Aatmanirbhar Bharat             21     85.7%    0.844
+Ayodhya                         20     70.0%    0.687
+Balochistan                     10     50.0%    0.238
+Bhakts                          20     95.0%    0.652
+Democracy                       20     90.0%    0.606
+Demonitisation                  20     90.0%    0.617
+Dictatorship                    19     78.9%    0.425
+GDP                             20     80.0%    0.722
+Hathras                         20     65.0%    0.410
+Inflation                       20     75.0%    0.662
+Islamists                       20     95.0%    0.325
+Lynching                        20     55.0%    0.356
+MSP                             20     30.0%    0.311
+Mahotsav                        20     70.0%    0.687
+Minorities                      20     50.0%    0.455
+Sangh                           20     70.0%    0.585
+Sharia                          20     70.0%    0.434
+Spyware                         20     70.0%    0.623
+Suicides                        20     90.0%    0.801
+Unemployment                    20     70.0%    0.572

@@ -1,0 +1,48 @@
+model: <class 'pyabsa.tasks.AspectPolarityClassification.models.__lcf__.fast_lcf_bert.FAST_LCF_BERT'>
+optimizer: adamw
+learning_rate: 2e-05
+cache_dataset: True
+warmup_step: -1
+use_bert_spc: True
+max_seq_len: 256
+patience: 3
+SRD: 3
+dropout: 0.1
+l2reg: 1e-05
+num_epoch: 5
+batch_size: 16
+seed: 42
+output_dim: 3
+log_step: 50
+dynamic_truncate: True
+evaluate_begin: 0
+similarity_threshold: 1
+cross_validate_fold: -1
+use_amp: False
+overwrite_cache: False
+pretrained_bert: bert-base-uncased
+save_mode: 1
+dataset: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_d_model_comparison_baseline/final_runs/pyabsa_dataset
+from_checkpoint: None
+checkpoint_save_mode: 1
+auto_device: True
+path_to_save: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_d_model_comparison_baseline/final_runs/models/pyabsa
+load_aug: False
+device: cuda:0
+device_name: NVIDIA RTX 6000 Ada Generation
+model_name: fast_lcf_bert
+embed_dim: 768
+PyABSAVersion: 2.4.1.post1
+TransformersVersion: 4.56.0
+TorchVersion: 2.9.1+cu128+cuda12.8
+dataset_name: custom_dataset
+logger: <Logger fast_lcf_bert (INFO)>
+task_code: APC
+task_name: Aspect-based Sentiment Classification
+dataset_file: {'train': ['pyabsa_dataset/stance.train.dat.apc'], 'test': ['pyabsa_dataset/stance.test.dat.apc'], 'valid': []}
+model_path_to_save: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_d_model_comparison_baseline/final_runs/models/pyabsa
+inputs_cols: ['lcf_vec', 'text_indices', 'text_raw_bert_indices']
+spacy_model: en_core_web_sm
+index_to_label: {0: '-1', 1: '0', 2: '1'}
+metrics_of_this_checkpoint: {'acc': 0.48366013071895425, 'f1': 0.4736069708782389}
+max_test_metrics: {'max_apc_test_acc': 0.48366013071895425, 'max_apc_test_f1': 0.4736069708782389}

@@ -1,0 +1,29 @@
+tweet,keyword,ground_truth,bert_pred,roberta_pred,pyabsa_pred,mistral_base_pred,mistral_fewshot_pred,mistral_lora_pred
+"If anyone still has any doubts that this protest is Farmers Protest &amp; not Pro Khalistan Protest they they are just living in their own fool's paradise.
+
+Time to identify them before it's too late like Anti CAA protests. https://t.co/ONW2gwZ40v",caa,For,Against,Against,Against,Against,Against,Against
+Congress lead by Rahul Gandhi walks out of the Parliament when Prime Minister was speaking about Farm Laws. That's why Indians are walking out of these AndolanJeevi parties.,farm laws,Neutral,Against,Against,Against,Against,Against,For
+"In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ""internal matters"" (farmers protests, CAA,J&amp;K etc).",farmers protests,For,Against,Against,Against,Against,Neutral,Against
+Chunavi Hindu Kejriwal ko Gujarat ke bacche kare kuch sawaal https://t.co/K674zyirld,hindu,Neutral,For,For,For,,Against,Against
+"RSS' views on #Karnataka defeat: 
+
+▪️The result has surprised many, though they r not shocking. 
+
+▪️Without strong leadership &amp;  effective delivery at the regional level, PM Modi’s charisma and Hindutva as an ideological glue would not be sufficient. 
+   https://t.co/rs6zmFXvuM",hindu,Neutral,For,For,For,For,Against,For
+Rahul Gandhi doesn’t put 6 million Kashmiris in jail to claim Kashmir! #BharatJodoYatra https://t.co/9xb2VQjvpQ,kashmir,Against,Neutral,For,For,For,For,For
+"Since #RahulBhat’s killing, the massive spontaneous protests by Kashmiri Pandits in Kashmir is a clear indicator that our younger generations are ready to take charge. We deserve new leadership that is connected to the ground &amp; has the pulse of our community. Our youth must lead.",kashmiri pandits,Neutral,For,For,For,For,For,For
+"No one is saying that Kashmiri Pandits were not targeted by Kashmir militants in 1989-1990. Dozens of movies have been made on Kashmir militancy. But, the regime-sponsored 'The Kashmir File' was a 'vulgar, propaganda' to create more hate and anger against Kashmiris &amp; Muslims.",kashmiri pandits,Neutral,For,For,For,Against,Against,For
+"How many of you feel that BJP is behind the attacks on Kashmiri Pandits to ignite hate against Muslims and to polarise Hindu votes. 
+ 
+ I feel.",kashmiri pandits,Neutral,For,For,For,Against,Against,Against
+Imagine if this mob at Capitol Hill comprised of Muslims or Black people ?,muslim,Neutral,For,Against,Against,Against,Against,For
+"Garba celebrates the womb, or Garbha. Hindus dance around a clay lamp [गर्भ दीप] symbolising the divine womb ensconced in a body.
+
+Muslims, expressly forbidden to worship anyone other than Allah 40:62; 17:22; 12:40; 3:64; 5:55 are welcome to worship Ma Durga [Aditi] and her womb.",muslim,Against,For,For,For,For,Neutral,For
+"Watch | Even as India is grappling with a devastating #coronavirus outbreak, 24/7 work continues on the new Parliament project
+
+NDTV's Sunil Prabhu reports https://t.co/zlngT302tY",new parliament,Against,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral
+"As Modi Inaugurates New Parliament, Police Detains Wrestlers Including Sakshi Malik, Vinesh Phogat https://t.co/V1uDu6QCwg",new parliament,Against,Neutral,Neutral,Neutral,,Neutral,Neutral
+"Rajiv Gandhi was killed in a terror attack. Do all who die in a terror attack become martyrs. In that case, all those people who died with him in the suicide bomb blast must also be declared a martyr, and their families must be given the benefits of a martyr. @RahulGandhi",rahulgandhi,Neutral,For,For,For,Against,For,For
+"Almost all of the Muslims in Padma list are those who share Hindu culture. Perhaps a symbolism/message from Modi govt that Sharjleels and Shaheen Baghs are not the only faces. I'm feeling optimist for an hour, so I'll settle for this right now.",shaheen bagh,Against,For,For,For,Neutral,For,For
