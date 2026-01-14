@@ -12,9 +12,9 @@ TARGET_KEYWORDS = [
     'aatmanirbhar', 'ayodhya', 'balochistan', 'bhakts',
     'democracy', 'demonetisation', 'dictatorship', 'gdp',
     'hathras', 'inflation', 'islamists', 'lynching',
-    'mahotsav', 'minorities', 'msp', 'ratetvdebate',
+    'mahotsav', 'minorities', 'msp',
     'sangh', 'sharia', 'spyware', 'suicides',
-    'ucc', 'unemployment'
+    'unemployment'
 ]
 
 def main():
@@ -45,16 +45,16 @@ def main():
     fig, ax = plt.subplots(figsize=(14, 8))
     
     # Plot full distribution as a line (log scale on Y)
-    ax.semilogy(df_sorted['Rank'], df_sorted['Total'], color='#34495E', linewidth=2, label='All Keywords Distribution')
+    ax.semilogy(df_sorted['Rank'], df_sorted['Total'], color='#34495E', linewidth=2, label='All Aspects Distribution')
     
     # Fill under the curve
     ax.fill_between(df_sorted['Rank'], df_sorted['Total'], alpha=0.15, color='#34495E')
     
     # Highlight target keywords region with shaded band
-    ax.axvspan(min_rank, max_rank, alpha=0.3, color='#E74C3C', label=f'Target Keywords Zone\n(Rank {min_rank} to {max_rank})')
+    ax.axvspan(min_rank, max_rank, alpha=0.3, color='#E74C3C', label=f'Target Aspects Zone\n(Rank {min_rank} to {max_rank})')
     
     # Plot individual target keywords as points
-    ax.scatter(target_ranks, target_totals, s=80, c='#E74C3C', edgecolors='white', linewidth=1.5, zorder=5, label='22 Target Keywords')
+    ax.scatter(target_ranks, target_totals, s=80, c='#E74C3C', edgecolors='white', linewidth=1.5, zorder=5, label='20 Target Aspects')
     
     # Add key annotations
     # Highest ranked target
@@ -81,17 +81,17 @@ def main():
                 rotation=90, va='center', fontsize=9, color='#27AE60', fontweight='bold')
     
     # Info box
-    info_text = (f"Total Keywords: {total_keywords:,}\n"
-                 f"Target Keywords: {len(target_ranks)}\n"
+    info_text = (f"Total Aspects: {total_keywords:,}\n"
+                 f"Target Aspects: {len(target_ranks)}\n"
                  f"Range: Rank #{min_rank} to #{max_rank}\n"
-                 f"All in Top {(max_rank/total_keywords)*100:.1f}%")
+                 f"All in Top 5%")
     ax.text(0.98, 0.98, info_text, transform=ax.transAxes, fontsize=11,
             verticalalignment='top', horizontalalignment='right',
             bbox=dict(boxstyle='round,pad=0.5', facecolor='white', edgecolor='#BDC3C7', alpha=0.9))
     
-    ax.set_xlabel('Keyword Rank (sorted by Total Tweet Count)', fontsize=12, fontweight='bold')
+    ax.set_xlabel('Aspect Rank (sorted by Total Tweet Count)', fontsize=12, fontweight='bold')
     ax.set_ylabel('Total Tweet Count (log scale)', fontsize=12, fontweight='bold')
-    ax.set_title('Keyword Distribution: Where Do the 22 Target Keywords Fall?', fontsize=14, fontweight='bold')
+    ax.set_title('Aspect Distribution: Where Do the 20 Target Aspects Fall?', fontsize=14, fontweight='bold')
     ax.legend(loc='upper right', fontsize=10, bbox_to_anchor=(0.85, 0.85))
     ax.set_xlim(0, total_keywords)
     ax.grid(True, alpha=0.3, which='both')
@@ -114,7 +114,7 @@ def main():
     
     # Highlight zone
     ax.axvspan(min_rank, min(max_rank, top_n), alpha=0.35, color='#E74C3C', 
-               label=f'Target Keywords Zone (Rank {min_rank}-{max_rank})')
+               label=f'Target Aspects Zone (Rank {min_rank}-{max_rank})')
     
     # Plot targets
     visible_targets = [(r, t, n) for r, t, n in zip(target_ranks, target_totals, target_names) if r <= top_n]
@@ -127,9 +127,9 @@ def main():
             ax.annotate(n, xy=(r, t), xytext=(5, 5), textcoords='offset points', 
                        fontsize=8, fontweight='bold', color='#C0392B')
     
-    ax.set_xlabel('Keyword Rank', fontsize=12, fontweight='bold')
+    ax.set_xlabel('Aspect Rank', fontsize=12, fontweight='bold')
     ax.set_ylabel('Total Tweet Count (log scale)', fontsize=12, fontweight='bold')
-    ax.set_title('Top 10,000 Keywords Distribution with Target Keywords Highlighted', fontsize=14, fontweight='bold')
+    ax.set_title('Top 10,000 Aspects Distribution with Target Aspects Highlighted', fontsize=14, fontweight='bold')
     ax.legend(loc='upper right', fontsize=11)
     ax.set_xlim(0, top_n)
     ax.grid(True, alpha=0.3, which='both')

@@ -5,8 +5,8 @@ Model: logit(p_i) = β0 + β1 * Alignment_i + u_i
 
 OVERVIEW
 ----------------------------------------
-Total aspects tested: 35
-Significant results (p<0.05): 30 (85.7%)
+Total aspects tested: 36
+Significant results (p<0.05): 31 (86.1%)
 
 ================================================================================
 SIGNIFICANT FINDINGS (p < 0.05)
@@ -99,6 +99,14 @@ SIGNIFICANT FINDINGS (p < 0.05)
     Interpretation: Pro-ruling 14.47x more likely to favor
     Influencers: 319 (210 pro-ruling, 109 opposition)
     Tweets: 2452 total, 1548 favor
+
+  ucc:
+    β1 = -1.4407 (SE: 0.0732)
+    z = -19.677, p = 3.39e-86
+    Odds Ratio = 0.237
+    Interpretation: Pro-ruling 4.22x more likely to favor
+    Influencers: 567 (341 pro-ruling, 226 opposition)
+    Tweets: 7738 total, 2334 favor
 
   ram mandir:
     β1 = -3.2533 (SE: 0.1664)
