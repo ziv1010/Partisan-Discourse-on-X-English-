@@ -45,9 +45,13 @@ EXTENDED_ASPECTS = [
 TARGET_KEYWORDS = SEED_ASPECTS + EXTENDED_ASPECTS
 
 def main():
-    # Load the full keyword data
+    # Load the full keyword data (primary source)
     input_csv = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/2b_keyword_analysis/keyword_by_stance.csv"
     df = pd.read_csv(input_csv)
+    
+    # Load fallback data
+    fallback_csv = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/final_results+visualisations_folder/stance_results_37keywords.csv"
+    df_fallback = pd.read_csv(fallback_csv)
     
     # Sort by Total descending and add rank
     df_sorted = df.sort_values('Total', ascending=False).reset_index(drop=True)
@@ -72,8 +76,20 @@ def main():
     top_10_tweets = df_sorted[df_sorted['Rank'] <= top_10_pct_rank]['Total'].sum()
     print(f"Total tweets from top 10% keywords: {top_10_tweets:,}")
     
+    # Mapping for keyword names (underscores to spaces for fallback search)
+    keyword_mapping = {
+        'farm_laws': 'farm laws',
+        'farmers_protests': 'farmers protests',
+        'kashmiri_pandits': 'kashmiri pandits',
+        'new_parliament': 'new parliament',
+        'ram_mandir': 'ram mandir',
+        'shaheen_bagh': 'shaheen bagh'
+    }
+    
     # Extract data for target keywords
     results = []
+    not_found_primary = []
+    
     for keyword in TARGET_KEYWORDS:
         matches = df_sorted[df_sorted['keyword'].str.lower() == keyword.lower()]
         if len(matches) > 0:
@@ -94,8 +110,49 @@ def main():
                 'Pro_Opp_Count': pro_opp_count,
                 'Pro_Opp_Pct': row['Pro_Opposition_Pct'],
                 'Percentile': round(percentile, 2),
-                'In_Top_10_Pct': 'Yes' if row['Rank'] <= top_10_pct_rank else 'No'
+                'In_Top_10_Pct': 'Yes' if row['Rank'] <= top_10_pct_rank else 'No',
+                'Source': 'Primary'
             })
+        else:
+            not_found_primary.append(keyword)
+    
+    # Fallback search for keywords not found in primary source
+    print(f"\n--- Keywords not found in primary source: {not_found_primary}")
+    print("--- Searching in fallback CSV (stance_results_37keywords.csv)...")
+    
+    for keyword in not_found_primary:
+        # Try with underscores replaced by spaces
+        search_keyword = keyword_mapping.get(keyword, keyword).lower()
+        
+        # Filter fallback data for this keyword
+        fallback_matches = df_fallback[df_fallback['keyword'].str.lower() == search_keyword]
+        
+        if len(fallback_matches) > 0:
+            # Count total and by label
+            total = len(fallback_matches)
+            pro_ruling_count = len(fallback_matches[fallback_matches['tweet_label'] == 'Pro Ruling'])
+            pro_opp_count = len(fallback_matches[fallback_matches['tweet_label'] == 'Pro OPP'])
+            
+            # Calculate approximate percentile based on total tweets
+            # Find where this would rank in the primary dataset
+            approx_rank = len(df_sorted[df_sorted['Total'] > total]) + 1
+            percentile = (1 - approx_rank / total_keywords) * 100
+            
+            results.append({
+                'Aspect': keyword,
+                'Rank': approx_rank,
+                'Total_Tweets': total,
+                'Pro_Ruling_Count': pro_ruling_count,
+                'Pro_Ruling_Pct': round(pro_ruling_count / total * 100, 2) if total > 0 else 0,
+                'Pro_Opp_Count': pro_opp_count,
+                'Pro_Opp_Pct': round(pro_opp_count / total * 100, 2) if total > 0 else 0,
+                'Percentile': round(percentile, 2),
+                'In_Top_10_Pct': 'Yes' if approx_rank <= top_10_pct_rank else 'No',
+                'Source': 'Fallback'
+            })
+            print(f"   Found '{search_keyword}' in fallback: {total} tweets ({pro_ruling_count} Pro-Ruling, {pro_opp_count} Pro-Opp)")
+        else:
+            print(f"   WARNING: '{keyword}' (searched as '{search_keyword}') not found in fallback either!")
     
     results_df = pd.DataFrame(results).sort_values('Rank')
     

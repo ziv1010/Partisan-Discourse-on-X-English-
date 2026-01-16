@@ -1,0 +1,20 @@
+tweet,keyword,ground_truth,bert_pred,roberta_pred,pyabsa_pred,mistral_base_pred,mistral_fewshot_pred,mistral_lora_pred,num_wrong,total_models,common_prediction
+"Hi @INCMP: 
+
+It is incredibly shocking &amp; disappointing to know that Bhopal South West MLA P. C. Sharma of Congress is going around soliciting donations for Ram Mandir construction.
+
+The state PCC high command MUST intervene &amp; stop this farce immediately. 
+
+https://t.co/AGCFkxOpLH",ram mandir,Against,For,For,For,Against,Against,For,4,6,For
+"That's the reason ED is after the Gandhis, barricades outside Congress HQ, black magic, India Today survey, Draupadi Murmu, Amit Shah's Ram mandir statement, BJP making a hero out of Kejriwal who is nothing in Gujarat right now. Congress might just win Gujarat.",ram mandir,Against,Against,Against,For,,Neutral,Neutral,4,6,Against
+Can Congress' new Ram Mandir frenzy be called Unlock 2.0?,ram mandir,For,For,Against,Against,Neutral,Against,Against,5,6,Against
+"For Modi Bhakts,  Judge JB Pardiwala 's statement on Nupur Sharma is not acceptable because he is the son of a former Congress MLA.
+
+Modi Bhakts forgot that CJI Ranjan Gogoi who gave Ram Mandir verdict is the son of Ex Congress CM Keshab Chandra Gogoi
+
+#NupurSharma
+#JBPardiwala https://t.co/onUcvfkQ85",ram mandir,Neutral,Neutral,For,For,Against,Against,Against,5,6,Against
+"So we are supposed to believe get that Hindutva - which won over 300 seats, got Ram Mandir, removed Article 370, got CAA, made Pragya MP, Modi PM, Yogi CM, Shah HM - is somehow waiting for Owaisi to win few more MLAs to fulfill its vision? Reality check anyone?",ram mandir,Against,For,For,For,Against,Against,For,4,6,For
+"Chalo ji... Ram Mandir bhi aa gaya farmers protest mein.
+
+Ab bas dawood aur Al qaida bhi le aayen toh baat khatam ho https://t.co/lQLjwBXxNa",ram mandir,Against,For,Against,For,For,For,For,5,6,For

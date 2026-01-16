@@ -26,6 +26,19 @@ from sklearn.metrics import (
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Set global font sizes for better readability and LaTeX compatibility
+plt.rcParams.update({
+    'font.size': 18,
+    'font.family': 'serif',
+    'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif'],
+    'axes.titlesize': 22,
+    'axes.labelsize': 18,
+    'xtick.labelsize': 16,
+    'ytick.labelsize': 16,
+    'legend.fontsize': 14,
+    'figure.titlesize': 24
+})
+
 # Paths
 SCRIPT_DIR = Path(__file__).parent
 RESULTS_DIR = SCRIPT_DIR.parent / "results"
@@ -182,6 +195,7 @@ def plot_confusion_matrices(predictions_dict, output_dir: Path, logger):
         
         sns.heatmap(cm_normalized, annot=True, fmt='.2%', cmap='Blues',
                    xticklabels=LABELS, yticklabels=LABELS, ax=ax)
+        # Title removed for LaTeX (caption will be in LaTeX document)
         ax.set_title(f'{model_name.upper().replace("_", " ")}')
         ax.set_ylabel('True Label')
         ax.set_xlabel('Predicted Label')
@@ -189,7 +203,7 @@ def plot_confusion_matrices(predictions_dict, output_dir: Path, logger):
         for i in range(len(LABELS)):
             for j in range(len(LABELS)):
                 ax.text(j + 0.5, i + 0.7, f'({cm[i, j]})', 
-                       ha='center', va='center', fontsize=8, color='gray')
+                       ha='center', va='center', fontsize=10, color='gray')
     
     # Hide unused subplots
     for idx in range(n_models, n_rows * n_cols):
@@ -198,8 +212,9 @@ def plot_confusion_matrices(predictions_dict, output_dir: Path, logger):
         ax.set_visible(False)
     
     plt.tight_layout()
-    output_path = output_dir / "confusion_matrices.png"
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    # Save as PDF for LaTeX compatibility
+    output_path = output_dir / "confusion_matrices.pdf"
+    plt.savefig(output_path, dpi=300, bbox_inches='tight', format='pdf')
     plt.close()
     logger.info(f"✓ Saved confusion matrices to: {output_path}")
 
@@ -237,17 +252,18 @@ def plot_mistral_confusion_matrix(predictions_dict, output_dir: Path, logger):
             ax.text(j + 0.5, i + 0.65, f'(n={count})', 
                    ha='center', va='center', fontsize=10, color=text_color)
     
-    ax.set_title('Fine-tuned Mistral (LoRA) Confusion Matrix', fontsize=14, fontweight='bold')
-    ax.set_ylabel('True Label', fontsize=12)
-    ax.set_xlabel('Predicted Label', fontsize=12)
+    # Title removed for LaTeX (caption will be in LaTeX document)
+    ax.set_ylabel('True Label', fontsize=14)
+    ax.set_xlabel('Predicted Label', fontsize=14)
     
     # Improve tick labels
-    ax.set_xticklabels(['Favor', 'Against', 'Neutral'], fontsize=11)
-    ax.set_yticklabels(['Favor', 'Against', 'Neutral'], fontsize=11)
+    ax.set_xticklabels(['Favor', 'Against', 'Neutral'], fontsize=13)
+    ax.set_yticklabels(['Favor', 'Against', 'Neutral'], fontsize=13)
     
     plt.tight_layout()
-    output_path = output_dir / "mistral_finetuned_confusion_matrix.png"
-    plt.savefig(output_path, dpi=200, bbox_inches='tight')
+    # Save as PDF for LaTeX compatibility
+    output_path = output_dir / "mistral_finetuned_confusion_matrix.pdf"
+    plt.savefig(output_path, dpi=300, bbox_inches='tight', format='pdf')
     plt.close()
     logger.info(f"✓ Saved Mistral confusion matrix to: {output_path}")
 
@@ -262,10 +278,11 @@ def plot_comparison_bar(metrics_list, output_dir: Path, logger):
     plot_metrics = ['accuracy', 'f1_macro', 'precision_macro', 'recall_macro']
     metric_names = ['Accuracy', 'F1 (Macro)', 'Precision', 'Recall']
     
-    fig, ax = plt.subplots(1, 1, figsize=(14, 7))
+    # Large figure for maximum readability
+    fig, ax = plt.subplots(1, 1, figsize=(20, 10))
     
     x = np.arange(len(plot_metrics))
-    width = 0.8 / len(df)
+    width = 0.12  # Fixed width for cleaner spacing
     
     colors = ['#2ecc71', '#3498db', '#e74c3c', '#9b59b6', '#f39c12', '#1abc9c']
     
@@ -276,22 +293,26 @@ def plot_comparison_bar(metrics_list, output_dir: Path, logger):
                      label=row['model'].upper().replace('_', ' '), 
                      color=colors[i % len(colors)])
         
+        # Large, bold percentage labels above bars
         for bar, val in zip(bars, values):
-            ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.01,
-                   f'{val:.2%}', ha='center', va='bottom', fontsize=7, rotation=45)
+            ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.02,
+                   f'{val:.1%}', ha='center', va='bottom', fontsize=13, fontweight='bold')
     
-    ax.set_ylabel('Score')
-    ax.set_xlabel('Metric')
-    ax.set_title('Model Comparison: 6 Stance Detection Methods')
+    # Large font sizes for axis labels
+    ax.set_ylabel('Score', fontsize=22, fontweight='bold')
+    ax.set_xlabel('Metric', fontsize=22, fontweight='bold')
+    # Title removed for LaTeX (caption will be in LaTeX document)
     ax.set_xticks(x)
-    ax.set_xticklabels(metric_names)
-    ax.legend(loc='upper right', fontsize=8)
-    ax.set_ylim(0, 1.25)
+    ax.set_xticklabels(metric_names, fontsize=20, fontweight='bold')
+    ax.legend(loc='upper right', fontsize=16, ncol=2)
+    ax.set_ylim(0, 1.12)
+    ax.tick_params(axis='y', labelsize=16)
     ax.grid(axis='y', alpha=0.3)
     
     plt.tight_layout()
-    output_path = output_dir / "model_comparison.png"
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    # Save as PDF for LaTeX compatibility
+    output_path = output_dir / "model_comparison.pdf"
+    plt.savefig(output_path, dpi=300, bbox_inches='tight', format='pdf')
     plt.close()
     logger.info(f"✓ Saved comparison chart to: {output_path}")
 

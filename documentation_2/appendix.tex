@@ -4,13 +4,142 @@
 
 \appendix
 
+\section*{Appendix}
+
+% % ==============================================================================
+% % SECTION A: LLM PROMPT DOCUMENTATION
+% % ==============================================================================
+% \section{LLM Prompt Documentation}
+% \label{app:prompt}
+
+% This section documents the exact prompts fed to the LLM when executing the stance classification script with a LoRA adapter and few-shot examples.
+
+% \subsection{Prompt Structure Overview}
+
+% The script uses LangChain's FewShotPromptTemplate to construct prompts with:
+% \begin{itemize}
+%     \item A \textbf{PREFIX} (system instruction explaining the task)
+%     \item \textbf{FEW-SHOT EXAMPLES} (loaded from JSON files)
+%     \item A \textbf{SUFFIX} (the actual query for the current tweet)
+% \end{itemize}
+
+% \subsection{PREFIX (System Instruction)}
+
+% The following text is provided as context at the start of every prompt:
+
+% \begin{quote}
+% \textit{``Stance classification is the task of determining the expressed or implied opinion, or stance, of a statement toward a certain, specified target. The following statements are social media posts expressing opinions about entities. Each statement can either be in favor of the entity, against the entity, or neutral.''}
+% \end{quote}
+
+% \subsection{Few-Shot Examples Format}
+
+% Each few-shot example is formatted as:
+
+% \begin{quote}
+% \small
+% entity: \{entity\}\\
+% statement: \{statement\}\\
+% stance: \{stance\}
+% \end{quote}
+
+% Where:
+% \begin{itemize}
+%     \item \texttt{\{entity\}} = The target keyword/aspect (e.g., ``Modi'', ``BJP'', ``Congress'')
+%     \item \texttt{\{statement\}} = The example tweet text
+%     \item \texttt{\{stance\}} = One of: ``favor'', ``against'', or ``neutral''
+% \end{itemize}
+
+% Multiple examples are separated by double newlines. The examples are loaded from per-keyword JSON files with naming pattern: \texttt{<shots\_prefix>\_<keyword\_slug>\_stance.json} (e.g., \texttt{kyra\_modi\_stance.json}). If no per-keyword file exists, it falls back to the global shots JSON file.
+
+% \subsection{SUFFIX (Query Instruction)}
+
+% After all few-shot examples, the following query is appended:
+
+% \begin{quote}
+% \small
+% Analyze the following social media statement and\\
+% determine its stance towards the provided entity.\\
+% Return ONLY a compact JSON object with exactly these keys:\\
+% - "stance": one of "favor", "against", "neutral"\\
+% - "reason": a short phrase (not a paragraph)\\
+% Example: \{"stance":"favor","reason":"praises the policy"\}\\
+% entity: \{event\}\\
+% statement: \{statement\}\\
+% JSON:
+% \end{quote}
+
+% \subsection{Complete Prompt Example}
+
+% Here is a complete example of what gets sent to the LLM (with hypothetical 2 examples):
+
+% \begin{quote}
+% \small
+% Stance classification is the task of determining the expressed\\
+% or implied opinion, or stance, of a statement toward a certain,\\
+% specified target. The following statements are social media\\
+% posts expressing opinions about entities. Each statement can\\
+% either be in favor of the entity, against the entity, or neutral.\\
+% \\
+% entity: Modi\\
+% statement: Great leadership by our PM! India is progressing\\
+% \hspace*{3em}under his vision.\\
+% stance: favor\\
+% \\
+% entity: Modi\\
+% statement: The PM has failed to address the economic slowdown.\\
+% stance: against\\
+% \\
+% Analyze the following social media statement and determine its\\
+% stance towards the provided entity.\\
+% Return ONLY a compact JSON object with exactly these keys:\\
+% - "stance": one of "favor", "against", "neutral"\\
+% - "reason": a short phrase (not a paragraph)\\
+% Example: \{"stance":"favor","reason":"praises the policy"\}\\
+% entity: Modi\\
+% statement: [ACTUAL TWEET TEXT TO CLASSIFY GOES HERE]\\
+% JSON:
+% \end{quote}
+
+% % \subsection{Expected LLM Output Format}
+
+% % The LLM is expected to return ONLY a JSON object like:
+
+% % \begin{quote}
+% % \small
+% % \{"stance":"favor","reason":"praises the policy"\}\\
+% % \{"stance":"against","reason":"criticizes the government"\}\\
+% % \{"stance":"neutral","reason":"presents balanced view"\}
+% % \end{quote}
+% % \subsection{LoRA Adapter Behavior}
+
+% % When a LoRA adapter is provided:
+% % \begin{itemize}
+% %     \item The base model is loaded first
+% %     \item The LoRA adapter weights are applied on top using the PEFT library
+% %     \item Optionally, LoRA weights are merged into base for faster inference
+% %     \item The finetuned model then generates responses using the same prompt format above
+% % \end{itemize}
+
+% % The LoRA adapter does NOT change the prompt structure---it only changes the model weights, improving the model's ability to follow the output format and make accurate stance predictions based on the few-shot examples.
+
+% % \subsection{Key Script Parameters}
+
+% % \begin{itemize}
+% %     \item \texttt{--shots\_dir}: Directory containing per-keyword few-shot JSON files
+% %     \item \texttt{--shots\_prefix}: Prefix for few-shot filenames (default: ``kyra'')
+% %     \item \texttt{--shots\_json}: Fallback global few-shot file if per-keyword file is missing
+% %     \item \texttt{--lora\_adapter}: Path to LoRA adapter (makes model ``finetuned'')
+% %     \item \texttt{--max\_new\_tokens}: Max tokens for LLM response (default: 48)
+% % \end{itemize}
+
+
 % ==============================================================================
 % SECTION A: LLM PROMPT DOCUMENTATION
 % ==============================================================================
 \section{LLM Prompt Documentation}
 \label{app:prompt}
 
-The following is the exact prompt template fed to the LLM for stance classification. The prompt begins with a system instruction defining the task, followed by few-shot examples (loaded from per-keyword JSON files with naming pattern \texttt{<shots\_prefix>\_<keyword\_slug>\_stance.json}), and concludes with the query instruction for the current tweet. Each few-shot example follows the format: \texttt{entity: \{entity\}}, \texttt{statement: \{statement\}}, \texttt{stance: \{stance\}}, where stance is one of ``favor'', ``against'', or ``neutral''. Multiple examples are separated by double newlines.
+As discussed in the main paper, we use a few-shot prompting approach for stance classification with the Mistral LLM. The following is the exact prompt template, which begins with a system instruction, followed by few-shot examples, and concludes with the query for the current tweet:
 
 \begin{quote}
 \small
@@ -32,7 +161,6 @@ entity: \{target\_keyword\}\\
 statement: \{tweet\_to\_classify\}\\
 JSON:
 \end{quote}
-
 
 
 % ==============================================================================
@@ -64,36 +192,36 @@ JSON:
 % \end{tabular}
 % \end{table}
 
-\subsection{Per-Keyword Accuracy Comparison}
+% \subsection{Per-Keyword Accuracy Comparison}
 
-\begin{table*}[t]
-\centering
-\caption{Per-Keyword Accuracy Comparison for seed aspects (\%)}
-\label{tab:app_keyword_comparison}
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{lcccccc}
-\toprule
-\textbf{aspect} & \textbf{BERT} & \textbf{RoBERTa} & \textbf{PyABSA} & \textbf{Mistral (Zero-shot)} & \textbf{Mistral (Few-shot)} & \textbf{Mistral LoRA (Best)}  \\
-\midrule
-Caa & 31.6 & 57.9 & 52.6 & 42.1 & 52.6 & 89.5 \\
-China & 52.6 & 52.6 & 63.2 & 68.4 & 78.9 & 73.7 \\
-Congress & 50.0 & 55.6 & 50.0 & 88.9 & 88.9 & 88.9 \\
-Farm Laws & 45.5 & 36.4 & 31.8 & 36.4 & 45.5 & 72.7 \\
-Farmers Protests & 50.0 & 50.0 & 50.0 & 70.0 & 70.0 & 80.0 \\
-Hindu & 66.7 & 66.7 & 46.7 & 28.6 & 20.0 & 66.7 \\
-Hindutva & 71.4 & 78.6 & 64.3 & 57.1 & 64.3 & 85.7 \\
-Kashmir & 64.7 & 47.1 & 52.9 & 47.1 & 52.9 & 58.8 \\
-Kashmiri Pandits & 68.8 & 68.8 & 75.0 & 31.2 & 37.5 & 62.5 \\
-Modi & 77.8 & 83.3 & 55.6 & 83.3 & 88.9 & 94.4 \\
-Muslim & 40.0 & 40.0 & 50.0 & 55.0 & 63.2 & 78.9 \\
-New Parliament & 47.6 & 61.9 & 57.1 & 73.7 & 81.0 & 85.7 \\
-Rahulgandhi & 62.5 & 62.5 & 81.2 & 64.3 & 68.8 & 81.2 \\
-Ram Mandir & 52.4 & 52.4 & 38.1 & 55.6 & 61.9 & 71.4 \\
-Shaheen Bagh & 57.9 & 57.9 & 52.6 & 58.8 & 63.2 & 78.9 \\
-\bottomrule
-\end{tabular}
-}
-\end{table*}
+% \begin{table*}[t]
+% \centering
+% \caption{Per-Keyword Accuracy Comparison for seed aspects (\%)}
+% \label{tab:app_keyword_comparison}
+% \resizebox{\textwidth}{!}{%
+% \begin{tabular}{lcccccc}
+% \toprule
+% \textbf{aspect} & \textbf{BERT} & \textbf{RoBERTa} & \textbf{PyABSA} & \textbf{Mistral (Zero-shot)} & \textbf{Mistral (Few-shot)} & \textbf{Mistral LoRA (Best)}  \\
+% \midrule
+% Caa & 31.6 & 57.9 & 52.6 & 42.1 & 52.6 & 89.5 \\
+% China & 52.6 & 52.6 & 63.2 & 68.4 & 78.9 & 73.7 \\
+% Congress & 50.0 & 55.6 & 50.0 & 88.9 & 88.9 & 88.9 \\
+% Farm Laws & 45.5 & 36.4 & 31.8 & 36.4 & 45.5 & 72.7 \\
+% Farmers Protests & 50.0 & 50.0 & 50.0 & 70.0 & 70.0 & 80.0 \\
+% Hindu & 66.7 & 66.7 & 46.7 & 28.6 & 20.0 & 66.7 \\
+% Hindutva & 71.4 & 78.6 & 64.3 & 57.1 & 64.3 & 85.7 \\
+% Kashmir & 64.7 & 47.1 & 52.9 & 47.1 & 52.9 & 58.8 \\
+% Kashmiri Pandits & 68.8 & 68.8 & 75.0 & 31.2 & 37.5 & 62.5 \\
+% Modi & 77.8 & 83.3 & 55.6 & 83.3 & 88.9 & 94.4 \\
+% Muslim & 40.0 & 40.0 & 50.0 & 55.0 & 63.2 & 78.9 \\
+% New Parliament & 47.6 & 61.9 & 57.1 & 73.7 & 81.0 & 85.7 \\
+% Rahulgandhi & 62.5 & 62.5 & 81.2 & 64.3 & 68.8 & 81.2 \\
+% Ram Mandir & 52.4 & 52.4 & 38.1 & 55.6 & 61.9 & 71.4 \\
+% Shaheen Bagh & 57.9 & 57.9 & 52.6 & 58.8 & 63.2 & 78.9 \\
+% \bottomrule
+% \end{tabular}
+% }
+% \end{table*}
 % Figure~\ref{fig:app_heatmap} visualizes per-aspect accuracy across models.
 
 %\subsection{Model Agreement Analysis}
@@ -115,6 +243,9 @@ Shaheen Bagh & 57.9 & 57.9 & 52.6 & 58.8 & 63.2 & 78.9 \\
 % \bottomrule
 % \end{tabular}
 % \end{table}
+\label{app:model_comparison}
+
+As discussed in the main paper, we compare our best-performing Mistral LoRA model against several baselines. This section presents failure case analysis where models struggle with challenging examples.
 
 \subsection{Sample Cases Where All Models Fail}
 
@@ -122,42 +253,42 @@ Table~\ref{tab:app_failure_examples} presents cases where all models failed to c
 
 \begin{table*}[t]
 \centering
-\scriptsize
+\footnotesize
 \caption{Sample Cases Where All Models Fail}
 \label{tab:app_failure_examples}
 \begin{tabular}{|p{10cm}|l|c|c|}
 \hline
 \textbf{Tweet} & \textbf{aspect} & \textbf{Ground Truth} & \textbf{Common Prediction} \\
 \hline
-If anyone still has any doubts that this protest is Farmers Protest \& not Pro Khalistan Protest they they are just living in their own fool's paradise. Time to identify them before it's too late like Anti CAA protests. & Caa & For & Against \\
+Can Congress' new Ram Mandir frenzy be called Unlock 2.0? & Ram Mandir & For & Against \\
 \hline
 Congress lead by Rahul Gandhi walks out of the Parliament when Prime Minister was speaking about Farm Laws. That's why Indians are walking out of these AndolanJeevi parties. & Farm Laws & Neutral & Against \\
-\hline
-In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ``internal matters'' (farmers protests, CAA, J\&K etc). & Farmers Protests & For & Against \\
+% \hline
+% In one month, our govt has issued statements on events in US (capitol riots), Sri Lanka (devolution), Pakistan (Temple attack) etc..., and also told half a dozen countries they have no right to comment on Indian ``internal matters'' (farmers protests, CAA, J\&K etc). & Farmers Protests & For & Against \\
 \hline
 Chunavi Hindu Kejriwal ko Gujarat ke bacche kare kuch sawaal & Hindu & Neutral & For \\
-\hline
-RSS' views on \#Karnataka defeat: The result has surprised many, though they r not shocking. Without strong leadership \& effective delivery at the regional level, PM Modi's charisma and Hindutva as an ideological glue would not be sufficient. & Hindu & Neutral & For \\
-\hline
-Rahul Gandhi doesn't put 6 million Kashmiris in jail to claim Kashmir! \#BharatJodoYatra & Kashmir & Against & For \\
-\hline
-Since \#RahulBhat's killing, the massive spontaneous protests by Kashmiri Pandits in Kashmir is a clear indicator that our younger generations are ready to take charge. We deserve new leadership that is connected to the ground \& has the pulse of our community. Our youth must lead. & Kashmiri Pandits & Neutral & For \\
-\hline
-No one is saying that Kashmiri Pandits were not targeted by Kashmir militants in 1989-1990. Dozens of movies have been made on Kashmir militancy. But, the regime-sponsored `The Kashmir File' was a `vulgar, propaganda' to create more hate and anger against Kashmiris \& Muslims. & Kashmiri Pandits & Neutral & For \\
+% \hline
+% RSS' views on \#Karnataka defeat: The result has surprised many, though they r not shocking. Without strong leadership \& effective delivery at the regional level, PM Modi's charisma and Hindutva as an ideological glue would not be sufficient. & Hindu & Neutral & For \\
+% \hline
+% Rahul Gandhi doesn't put 6 million Kashmiris in jail to claim Kashmir! \#BharatJodoYatra & Kashmir & Against & For \\
+% \hline
+% Since \#RahulBhat's killing, the massive spontaneous protests by Kashmiri Pandits in Kashmir is a clear indicator that our younger generations are ready to take charge. We deserve new leadership that is connected to the ground \& has the pulse of our community. Our youth must lead. & Kashmiri Pandits & Neutral & For \\
+% \hline
+% No one is saying that Kashmiri Pandits were not targeted by Kashmir militants in 1989-1990. Dozens of movies have been made on Kashmir militancy. But, the regime-sponsored `The Kashmir File' was a `vulgar, propaganda' to create more hate and anger against Kashmiris \& Muslims. & Kashmiri Pandits & Neutral & For \\
 \hline
 How many of you feel that BJP is behind the attacks on Kashmiri Pandits to ignite hate against Muslims and to polarise Hindu votes. I feel. & Kashmiri Pandits & Neutral & For \\
 \hline
 Imagine if this mob at Capitol Hill comprised of Muslims or Black people? & Muslim & Neutral & Against \\
-\hline
-Garba celebrates the womb, or Garbha. Hindus dance around a clay lamp symbolising the divine womb ensconced in a body. Muslims, expressly forbidden to worship anyone other than Allah 40:62; 17:22; 12:40; 3:64; 5:55 are welcome to worship Ma Durga [Aditi] and her womb. & Muslim & Against & For \\
-\hline
-Watch | Even as India is grappling with a devastating \#coronavirus outbreak, 24/7 work continues on the new Parliament project. NDTV's Sunil Prabhu reports. & New Parliament & Against & Neutral \\
-\hline
-As Modi Inaugurates New Parliament, Police Detains Wrestlers Including Sakshi Malik, Vinesh Phogat. & New Parliament & Against & Neutral \\
-\hline
-Rajiv Gandhi was killed in a terror attack. Do all who die in a terror attack become martyrs. In that case, all those people who died with him in the suicide bomb blast must also be declared a martyr, and their families must be given the benefits of a martyr. @RahulGandhi & Rahulgandhi & Neutral & For \\
-\hline
-Almost all of the Muslims in Padma list are those who share Hindu culture. Perhaps a symbolism/message from Modi govt that Sharjleels and Shaheen Baghs are not the only faces. I'm feeling optimist for an hour, so I'll settle for this right now. & Shaheen Bagh & Against & For \\
+% \hline
+% Garba celebrates the womb, or Garbha. Hindus dance around a clay lamp symbolising the divine womb ensconced in a body. Muslims, expressly forbidden to worship anyone other than Allah 40:62; 17:22; 12:40; 3:64; 5:55 are welcome to worship Ma Durga [Aditi] and her womb. & Muslim & Against & For \\
+% \hline
+% Watch | Even as India is grappling with a devastating \#coronavirus outbreak, 24/7 work continues on the new Parliament project. NDTV's Sunil Prabhu reports. & New Parliament & Against & Neutral \\
+% \hline
+% As Modi Inaugurates New Parliament, Police Detains Wrestlers Including Sakshi Malik, Vinesh Phogat. & New Parliament & Against & Neutral \\
+% \hline
+% Rajiv Gandhi was killed in a terror attack. Do all who die in a terror attack become martyrs. In that case, all those people who died with him in the suicide bomb blast must also be declared a martyr, and their families must be given the benefits of a martyr. @RahulGandhi & Rahulgandhi & Neutral & For \\
+% \hline
+% Almost all of the Muslims in Padma list are those who share Hindu culture. Perhaps a symbolism/message from Modi govt that Sharjleels and Shaheen Baghs are not the only faces. I'm feeling optimist for an hour, so I'll settle for this right now. & Shaheen Bagh & Against & For \\
 \hline
 \end{tabular}
 \end{table*}
@@ -191,10 +322,11 @@ Almost all of the Muslims in Padma list are those who share Hindu culture. Perha
 % ==============================================================================
 % SECTION C: STANCE DISTRIBUTION BY KEYWORD
 % ==============================================================================
-\section{Stance Distribution by aspect}
+\section{Stance Distribution by Aspect}
 \label{app:stance_distribution}
 
-Table~\ref{tab:stance_distribution_keyword} presents the stance distribution (Favor, Against, Neutral) for each aspect, comparing Pro-Ruling and Pro-Opposition influencer categories. Percentages represent the proportion of tweets within each group expressing that stance.
+As discussed in the main paper, stance patterns differ significantly between Pro-Ruling and Pro-Opposition influencers. Table~\ref{tab:stance_distribution_keyword} presents the complete stance distribution for each aspect, with percentages representing the proportion of tweets within each group expressing that stance.
+
 
 \begin{table*}[t]
 \centering
@@ -377,13 +509,94 @@ Unemployment & 29.5 & 49.5 & 21.0 & 414 & 9.2 & 82.6 & 8.3 & 2,931 & 3,345 \\
 % The combined analysis reinforces the bimodal nature of the discourse. We observe a set of keywords where the Pro-Ruling side exhibits near-complete dominance in favorable expression, contrasting sharply with keywords where the Pro-Opposition side dominates. Topics located near the center of the chart continue to exhibit more balanced favor distributions, but the overall trend confirms that most political topics in the Indian context are heavily skewed toward one side's narrative. This polarization is even more pronounced when leveraging the larger, combined dataset, validating the robustness of our initial findings.
 
 
+% % ==============================================================================
+% % SECTION F: THEMATIC BUCKET DEFINITIONS AND ASPECT ASSIGNMENTS
+% % ==============================================================================
+% \section{Thematic Bucket Definitions and Aspect Assignments}
+% \label{app:bucket_definitions}
+
+% This section details the methodology used to group aspects into thematic buckets for stance polarity analysis. We employed GPT-4 to systematically categorize aspects based on the framing patterns observed in tweets, enabling comparison of how Pro-Ruling versus Pro-Opposition influencers frame different political issues.
+
+% \subsection{Prompt for Bucket Creation}
+
+% The following prompt was used to generate thematic buckets from the extracted tweets per aspect dataset:
+
+% \begin{quote}
+% \small
+% \textit{You are given a CSV that contains:}
+% \begin{itemize}
+%     \item \textit{A list of \textbf{aspects}, and}
+%     \item \textit{For each aspect, a set of \textbf{tweets} associated with it (already extracted and grouped).}
+% \end{itemize}
+
+% \textit{\textbf{Goal:} I am analyzing \textbf{stance polarity} in social media discourse to understand how \textbf{influencers} frame issues for \textbf{pro-ruling} vs \textbf{pro-opposition}. Your task is to create a set of \textbf{high-level buckets (categories)} that can be used to group these aspects, based on the kinds of tweets and framing patterns you observe.}
+
+% \textit{\textbf{Instructions:}}
+% \begin{enumerate}
+%     \item \textit{Read all aspects (keywords) in the CSV.}
+%     \item \textit{For each aspect, read all tweets provided for that aspect to understand how it is being used (tone, framing, targets, praise/critique, narratives, propaganda patterns, etc.).}
+%     \item \textit{Create a set of buckets that best capture the major stance/framing themes appearing across the data.}
+%     \begin{itemize}
+%         \item \textit{Buckets should be meaningful and reusable (not too narrow, not too broad).}
+%         \item \textit{Buckets should help distinguish stance-related framing relevant to pro-ruling vs pro-opposition discourse.}
+%     \end{itemize}
+%     \item \textit{For every aspect, assign it to one primary bucket (and optionally a secondary bucket if truly necessary).}
+%     \item \textit{Provide reasoning:}
+%     \begin{itemize}
+%         \item \textit{Explain why each bucket exists (what it captures; how it helps stance analysis).}
+%         \item \textit{Explain why each aspect belongs in its bucket, using the tweets' framing as evidence.}
+%     \end{itemize}
+%     \item \textit{Output requirements:}
+%     \begin{itemize}
+%         \item \textit{Return ONLY: (a) the bucket definitions, and (b) the mapping of aspects $\rightarrow$ bucket(s) with reasoning.}
+%         \item \textit{Do not perform sentiment scoring or stance labeling of individual tweets unless explicitly asked.}
+%         \item \textit{If an aspect's tweets are ambiguous or mixed, say so and justify the best-fit bucket anyway.}
+%     \end{itemize}
+% \end{enumerate}
+% \end{quote}
+
+% \subsection{Bucket Definitions}
+
+% Table~\ref{tab:bucket_definitions} presents the thematic buckets created for organizing aspects based on stance polarity patterns.
+
+% \begin{table*}[t]
+% \centering
+% \small
+% \caption{Thematic Bucket Definitions}
+% \label{tab:bucket_definitions}
+% \begin{tabular}{|p{3.5cm}|p{11cm}|}
+% \hline
+% \textbf{Bucket Name} & \textbf{Definition \& Relevance to Stance Polarity} \\
+% \hline
+% Leader \& Party Contestation & Tweets where the primary frame is electoral competition, personality branding, party infighting, credibility attacks, or rally/campaign narratives. Stance often shows up as hero/villain construction (competence vs incompetence, legitimacy vs hypocrisy) more than issue policy. \\
+% % Institutions, Democracy \& State Accountability & Tweets centered on constitutional norms, Parliament/judiciary, censorship, surveillance, press freedom, and ``democracy vs dictatorship'' claims. Pro-opposition discourse often frames ``institutional capture/backsliding,'' while pro-ruling discourse often frames ``law-and-order / procedure / national interest.'' \\
+% % \hline
+% % Economy, Development \& Macro-Stewardship & Tweets about growth, inflation, unemployment, major economic decisions, and development-performance narratives (including ``self-reliance'' claims). Stance polarity frequently maps to ``delivery/achievement'' vs ``mismanagement/hardship.'' \\
+% % \hline
+% % Agrarian Reform \& Farmer Movement & Tweets focused on farm laws, MSP, tractor marches, unions/leaders, repeal negotiations, and rural political mobilization. These aspects polarize around ``reform vs rollback,'' ``protest legitimacy vs hijack,'' and ``state responsiveness vs repression.'' \\
+% % \hline
+% % Citizenship, Belonging \& Mass Protest Politics & Tweets about CAA/NRC and protest spaces/movements (e.g., Shaheen Bagh), including frames of constitutional citizenship, dissent legitimacy, crackdown narratives, or ``urban naxal/coordination'' allegations. Stance often becomes a proxy for who belongs and whether dissent is patriotic or subversive. \\
+% \hline
+% Majoritarian Ideology \& Hindu Nationalist Mobilization & Tweets invoking Hindutva/Sangh/Sanghi/Bhakt identity, Hindu civilizational frames, and political religion as ideology (not just event news). This bucket captures recurring pro-ruling vs anti-ruling ideological conflict that shapes stance across many issues. \\
+% \hline
+% Communal Relations, Minority Rights \& Collective Violence & Tweets framed around Muslims/minorities, Sharia anxieties, lynching/mob violence, discrimination indices, communal riots, and protection/victimhood narratives. Stance polarity is strongly tied to threat vs rights framing and attribution of blame to state/opposition/media. \\
+% \hline
+% % Symbolic Nationhood \& Cultural-Religious Projects & Tweets about Ram Mandir/Ayodhya and national commemorations (e.g., ``Mahotsav''), where the core is civilizational pride, cultural restoration, spectacle vs substance, or alleged scams around these symbols. These are high-salience legitimacy projects; stance often becomes ``pride/faith'' vs ``instrumentalization/corruption.'' \\
+% % \hline
+% % Security, Territory \& Geopolitics & Tweets focusing on China/Pakistan-adjacent conflict frames, Kashmir, Balochistan, terrorism/insurgency adjacency, border policy, and international legitimacy. Stance often polarizes into ``national security realism/strength'' vs ``rights violations/propaganda/strategic failure.'' \\
+% % \hline
+% \end{tabular}
+% \end{table*}
+
+
 % ==============================================================================
 % SECTION F: THEMATIC BUCKET DEFINITIONS AND ASPECT ASSIGNMENTS
 % ==============================================================================
 \section{Thematic Bucket Definitions and Aspect Assignments}
 \label{app:bucket_definitions}
 
-This section details the methodology used to group aspects into thematic buckets for stance polarity analysis. We employed GPT-4 to systematically categorize aspects based on the framing patterns observed in tweets, enabling comparison of how Pro-Ruling versus Pro-Opposition influencers frame different political issues.
+As discussed in the main paper, we group aspects into thematic buckets for stance polarity analysis. We employed GPT-4 to systematically categorize aspects based on framing patterns observed in tweets.
+
 
 \subsection{Prompt for Bucket Creation}
 
@@ -423,9 +636,11 @@ The following prompt was used to generate thematic buckets from the extracted tw
 \end{enumerate}
 \end{quote}
 
-\subsection{Bucket Definitions}
+\subsection{Thematic Stance Analysis}
 
-Table~\ref{tab:bucket_definitions} presents the thematic buckets created for organizing aspects based on stance polarity patterns.
+This process yielded nine thematic buckets: (1)~\textit{Leader \& Party Contestation}, (2)~\textit{Institutions, Democracy \& State Accountability}, (3)~\textit{Economy, Development \& Macro-Stewardship}, (4)~\textit{Agrarian Reform \& Farmer Movement}, (5)~\textit{Citizenship, Belonging \& Mass Protest Politics}, (6)~\textit{Majoritarian Ideology \& Hindu Nationalist Mobilization}, (7)~\textit{Communal Relations, Minority Rights \& Collective Violence}, (8)~\textit{Symbolic Nationhood \& Cultural-Religious Projects}, and (9)~\textit{Security, Territory \& Geopolitics}. Table~\ref{tab:bucket_definitions} provides example bucket definitions generated by GPT-5.2.
+
+Analysis of discourse distribution reveals notable differences between camps. For Pro-Ruling influencers, the top three buckets by tweet share are: \textit{Leader \& Party Contestation} (49.7\%), \textit{Majoritarian Ideology \& Hindu Nationalist Mobilization} (16.8\%), and \textit{Symbolic Nationhood \& Cultural-Religious Projects} (4.5\%). For Pro-Opposition influencers, the top three are: \textit{Leader \& Party Contestation} (59.3\%), \textit{Majoritarian Ideology \& Hindu Nationalist Mobilization} (9.3\%), and \textit{Institutions, Democracy \& State Accountability} (4.1\%). The stance composition within buckets also differs: Pro-Ruling tweets in \textit{Majoritarian Ideology} and \textit{Leader \& Party Contestation} are predominantly favorable, while Pro-Opposition tweets in the same buckets are predominantly against. Table~\ref{tab:bucket_definitions} presents some of the thematic bucket definitions made by GPT-5.2.
 
 \begin{table*}[t]
 \centering
@@ -437,22 +652,212 @@ Table~\ref{tab:bucket_definitions} presents the thematic buckets created for org
 \textbf{Bucket Name} & \textbf{Definition \& Relevance to Stance Polarity} \\
 \hline
 Leader \& Party Contestation & Tweets where the primary frame is electoral competition, personality branding, party infighting, credibility attacks, or rally/campaign narratives. Stance often shows up as hero/villain construction (competence vs incompetence, legitimacy vs hypocrisy) more than issue policy. \\
-\hline
-Institutions, Democracy \& State Accountability & Tweets centered on constitutional norms, Parliament/judiciary, censorship, surveillance, press freedom, and ``democracy vs dictatorship'' claims. Pro-opposition discourse often frames ``institutional capture/backsliding,'' while pro-ruling discourse often frames ``law-and-order / procedure / national interest.'' \\
-\hline
-Economy, Development \& Macro-Stewardship & Tweets about growth, inflation, unemployment, major economic decisions, and development-performance narratives (including ``self-reliance'' claims). Stance polarity frequently maps to ``delivery/achievement'' vs ``mismanagement/hardship.'' \\
-\hline
-Agrarian Reform \& Farmer Movement & Tweets focused on farm laws, MSP, tractor marches, unions/leaders, repeal negotiations, and rural political mobilization. These aspects polarize around ``reform vs rollback,'' ``protest legitimacy vs hijack,'' and ``state responsiveness vs repression.'' \\
-\hline
-Citizenship, Belonging \& Mass Protest Politics & Tweets about CAA/NRC and protest spaces/movements (e.g., Shaheen Bagh), including frames of constitutional citizenship, dissent legitimacy, crackdown narratives, or ``urban naxal/coordination'' allegations. Stance often becomes a proxy for who belongs and whether dissent is patriotic or subversive. \\
+% Institutions, Democracy \& State Accountability & Tweets centered on constitutional norms, Parliament/judiciary, censorship, surveillance, press freedom, and ``democracy vs dictatorship'' claims. Pro-opposition discourse often frames ``institutional capture/backsliding,'' while pro-ruling discourse often frames ``law-and-order / procedure / national interest.'' \\
+% \hline
+% Economy, Development \& Macro-Stewardship & Tweets about growth, inflation, unemployment, major economic decisions, and development-performance narratives (including ``self-reliance'' claims). Stance polarity frequently maps to ``delivery/achievement'' vs ``mismanagement/hardship.'' \\
+% \hline
+% Agrarian Reform \& Farmer Movement & Tweets focused on farm laws, MSP, tractor marches, unions/leaders, repeal negotiations, and rural political mobilization. These aspects polarize around ``reform vs rollback,'' ``protest legitimacy vs hijack,'' and ``state responsiveness vs repression.'' \\
+% \hline
+% Citizenship, Belonging \& Mass Protest Politics & Tweets about CAA/NRC and protest spaces/movements (e.g., Shaheen Bagh), including frames of constitutional citizenship, dissent legitimacy, crackdown narratives, or ``urban naxal/coordination'' allegations. Stance often becomes a proxy for who belongs and whether dissent is patriotic or subversive. \\
 \hline
 Majoritarian Ideology \& Hindu Nationalist Mobilization & Tweets invoking Hindutva/Sangh/Sanghi/Bhakt identity, Hindu civilizational frames, and political religion as ideology (not just event news). This bucket captures recurring pro-ruling vs anti-ruling ideological conflict that shapes stance across many issues. \\
 \hline
 Communal Relations, Minority Rights \& Collective Violence & Tweets framed around Muslims/minorities, Sharia anxieties, lynching/mob violence, discrimination indices, communal riots, and protection/victimhood narratives. Stance polarity is strongly tied to threat vs rights framing and attribution of blame to state/opposition/media. \\
 \hline
-Symbolic Nationhood \& Cultural-Religious Projects & Tweets about Ram Mandir/Ayodhya and national commemorations (e.g., ``Mahotsav''), where the core is civilizational pride, cultural restoration, spectacle vs substance, or alleged scams around these symbols. These are high-salience legitimacy projects; stance often becomes ``pride/faith'' vs ``instrumentalization/corruption.'' \\
-\hline
-Security, Territory \& Geopolitics & Tweets focusing on China/Pakistan-adjacent conflict frames, Kashmir, Balochistan, terrorism/insurgency adjacency, border policy, and international legitimacy. Stance often polarizes into ``national security realism/strength'' vs ``rights violations/propaganda/strategic failure.'' \\
-\hline
+% Symbolic Nationhood \& Cultural-Religious Projects & Tweets about Ram Mandir/Ayodhya and national commemorations (e.g., ``Mahotsav''), where the core is civilizational pride, cultural restoration, spectacle vs substance, or alleged scams around these symbols. These are high-salience legitimacy projects; stance often becomes ``pride/faith'' vs ``instrumentalization/corruption.'' \\
+% \hline
+% Security, Territory \& Geopolitics & Tweets focusing on China/Pakistan-adjacent conflict frames, Kashmir, Balochistan, terrorism/insurgency adjacency, border policy, and international legitimacy. Stance often polarizes into ``national security realism/strength'' vs ``rights violations/propaganda/strategic failure.'' \\
+% \hline
 \end{tabular}
 \end{table*}
+
+
+\section{Baseline Model Training Details}
+\label{app:training_details}
+
+As discussed in the main paper, we compare multiple baseline models for stance classification.
+% \subsection{1}:
+% \begin{figure}[H]
+%   \centering
+%   \includegraphics[width=0.9\linewidth]{results_eng/keyword_distribution_improved.png}
+%   \caption{Aspect distribution showing tweet volume across all 96,477 aspects extracted by KeyBERT. The 20 target extended aspects (red dots) are highlighted, spanning ranks 50 to 5,895, all within the top 5\% threshold.}
+%   \label{fig:aspect_distribution}
+% \end{figure}
+% \subsection{2}:
+% whose details are present in table~\ref{tab:model_comparison}.
+% \begin{center}
+% \footnotesize
+% \captionof{table}{Models Used for Stance Classification Comparison}
+% \label{tab:model_comparison}
+% \begin{tabular}{p{2.8cm}p{1.8cm}p{2.2cm}}
+% \toprule
+% \textbf{Model} & \textbf{Type} & \textbf{Method} \\
+% \midrule
+% \textbf{BERT-base-uncased} (Baseline-1) & Encoder & Full Fine-tuning \\
+% \textbf{RoBERTa-base} (Baseline-2) & Encoder & Full Fine-tuning \\
+% \textbf{PyABSA (FAST\_LCF)} (Baseline-3) & ABSA & Aspect-focused Fine-tuning \\
+% \textbf{Mistral-7B-Instruct} & Decoder & Zero-shot / Few-shot \\
+% \textbf{Mistral-7B + LoRA} & Decoder & LoRA Fine-tuning \\
+% \bottomrule
+% \end{tabular}
+% \end{center}
+% %\vspace{0.5em}
+\subsection{Encoder-Based Baselines}
+% For the BERT baseline, we fine-tuned \textit{BertForSequenceClassification}~\cite{ref} using (aspect, tweet) pairs. The model uses the final hidden state of the \texttt{[CLS]} token ($\mathbf{h}_{\texttt{[CLS]}}\in\mathbb{R}^{768}$) and a linear classification head to compute logits $\mathbf{z}\in\mathbb{R}^{3}$, with training details provided in Table~\ref{tab:model_training_details}.
+
+% For RoBERTa, we fine-tuned \textit{RobertaForSequenceClassification}~\cite{ref} using an explicit prompt-like input. The model computes a sequence representation from the start token \texttt{<s>} and applies the standard RoBERTa classification head (dropout $\rightarrow$ dense layer $\rightarrow$ tanh $\rightarrow$ dropout $\rightarrow$ output projection) to produce logits $\mathbf{z}\in\mathbb{R}^{3}$; see Table~\ref{tab:model_training_details} for training configuration.
+
+% Finally, we utilized the PyABSA framework's \texttt{FAST\_LCF\_BERT} model, which uses a Local Context Focus (LCF) mechanism to dynamically weight context words based on their semantic and syntactic distance to the aspect. All baseline models were trained on the same training split (1,529 samples) and evaluated on the same held-out test set (265 samples). For each baseline, we apply softmax to the logits and predict stance via $\arg\max$.
+
+
+% Table~\ref{tab:model_training_details} provides a comprehensive summary of the training configurations for all models compared in this study.
+As described in the main paper, we compare three encoder-based baselines: BERT-base-uncased, RoBERTa-base, and PyABSA (FAST\_LCF\_BERT). All baseline models were trained on the same training split (1,529 samples) and evaluated on the same held-out test set (265 samples). Table~\ref{tab:model_training_details} provides the detailed training configurations for all models.
+
+
+\begin{table}[!tbp] 
+\centering 
+\scriptsize
+\caption{Detailed Training Configuration for All Models} \label{tab:model_training_details} 
+\begin{tabular}{|l|p{0.72\columnwidth}|} 
+\hline 
+\textbf{Model} & \textbf{Configuration} \\ 
+\hline
+\textbf{BERT} & \textbf{Input:} \texttt{[CLS] aspect [SEP] tweet [SEP]}; \textbf{Max len:} 256; \textbf{Opt:} AdamW; \textbf{LR:} $2\times10^{-5}$; \textbf{BS:} 16; \textbf{Epochs:} up to 5; \textbf{WD:} 0.01; \textbf{Grad clip:} 1.0; \textbf{Early stop:} patience 3; \textbf{Split:} 90/10 \\
+\hline
+\textbf{RoBERTa} & \textbf{Input:} \texttt{"Topic: \{aspect\}. Tweet: \{tweet\}"}; \textbf{Max len:} 256; \textbf{Opt:} AdamW; \textbf{LR:} $2\times10^{-5}$; \textbf{BS:} 16; \textbf{Epochs:} 3; \textbf{WD:} 0.01; \textbf{Grad clip:} 1.0; \textbf{Warmup:} 10\% steps; \textbf{Split:} 10\% val \\
+\hline
+\textbf{PyABSA} & \textbf{Input:} Aspect-aware with LCF masking; \textbf{Mechanism:} Local Context Focus; \textbf{Weighting:} Semantic distance-based; \textbf{Other:} Framework defaults \\
+\hline
+\textbf{Mistral Zero} & \textbf{Input:} PREFIX + SUFFIX (no examples); \textbf{Max len:} 512; \textbf{Temp:} 0; \textbf{Max tokens:} 48; \textbf{Decode:} Deterministic; \textbf{BS:} 1 \\
+\hline
+\textbf{Mistral Few} & \textbf{Input:} PREFIX + 10 examples/aspect + SUFFIX; \textbf{Max len:} 2048; \textbf{Temp:} 0; \textbf{Max tokens:} 48; \textbf{Decode:} Deterministic; \textbf{BS:} 1 \\
+\hline
+\textbf{Mistral LoRA} & \textbf{Input:} PREFIX + few-shot + SUFFIX; \textbf{Max len:} 2048; \textbf{Opt:} AdamW; \textbf{LR:} $2\times10^{-4}$; \textbf{BS:} 4; \textbf{Epochs:} 3; \textbf{LoRA rank:} 16; \textbf{LoRA $\alpha$:} 32; \textbf{Target:} All linear; \textbf{Temp:} 0; \textbf{Max tokens:} 48 \\
+\hline
+\end{tabular}
+\end{table}
+
+\textit{Abbreviations: LR=Learning Rate, BS=Batch Size, WD=Weight Decay, Opt=Optimizer, Max len=Max length (tokens), Temp=Temperature, Max tokens=Max new tokens, Split=Train/Val split, Val=Validation}
+
+% \subsection{4}:
+% Table~\ref{tab:eval_embedding} showcases the justification for our use of multilingual sentence embeddings, we compared \texttt{paraphrase-multilingual-MiniLM-L12-v2} with a monolingual MiniLM baseline on 5,000 Hindi–English translation pairs. The multilingual model achieved high cross-lingual retrieval accuracy (R@1 = 0.837, MRR = 0.854) and near-perfect separation between true and mismatched translation pairs ($\delta$ = 0.539, AUC = 0.960, Cohen’s d = 2.88), while the monolingual model performed substantially worse (R@1 = 0.462, AUC = 0.717).
+
+% \begin{center}
+% \footnotesize
+% \captionof{table}{Embedding Model Comparison: Multilingual-MiniLM clearly outperforms the monolingual model}
+% \label{tab:eval_embedding}
+% \begin{tabular}{lrr}
+% \toprule
+% \textbf{Metric} & \textbf{multilingual-MiniLM} & \textbf{monolingual-MiniLM} \\
+% \midrule
+% R@1 & 0.837 & 0.4618 \\
+% R@5 & 0.8726 & 0.4676 \\
+% R@10 & 0.8816 & 0.4716 \\
+% MRR & 0.854 & 0.465 \\
+% POS\_mean & 0.831 & 0.606 \\
+% POS\_median & 0.8805 & 0.5105 \\
+% NEG\_mean & 0.2922 & 0.3031 \\
+% NEG\_median & 0.2803 & 0.3077 \\
+% Delta & 0.5394 & 0.3029 \\
+% AUC & 0.9604 & 0.7168 \\
+% Cohen\_d & 2.88 & 1.09 \\
+% \bottomrule
+% \end{tabular}
+% \end{center}
+
+% \subsection{5}:
+% The plot reveals a clear bimodal distribution: aspects cluster either strongly to the left (pro-ruling favor) or strongly to the right (pro-opposition favor), with very few aspects near the center. This visual pattern reinforces the quantitative finding that Indian political influencer discourse is deeply polarized.%, 
+
+% \begin{figure}[h]
+% \centering
+% \includegraphics[width=0.95\linewidth]{results_eng/1_forest_plot_odds_ratio.png}
+%   \caption{Forest plot showing odds ratios with 95\% confidence intervals for the effect of influencer alignment on favorable stance expression. Red points indicate aspects where pro-ruling influencers are significantly more likely to favor; blue points indicate pro-opposition favor; gray points are non-significant.}
+%   \label{fig:forest_plot}
+% \end{figure}
+
+% \subsection{6}:
+% {\color{blue}
+% \subsubsection{Thematic Stance Analysis}
+% To perform a thematic analysis of stance, we employed ChatGPT (GPT-4.5\footnote{We also tried Gemini for this exercise, but a manual analysis revealed a slightly better performance of GPT, with clearer aspect definitions.}) with a detailed prompt (appendix) through few-shot learning -- the model was provided with the list of aspects and a sample of tweets for each aspect, and instructed to: (A) read all tweets to understand framing patterns, tone, and narrative structures; (B) create high-level thematic buckets that capture major stance/framing themes relevant to pro-ruling vs. pro-opposition influencer discourse; (C) assign each aspect to one primary bucket with reasoning grounded in observed tweet patterns.
+
+% This process yielded nine thematic buckets: (1) \textit{Leader \& Party Contestation} (modi, rahulgandhi, congress); (2) \textit{Institutions, Democracy \& State Accountability} (democracy, dictatorship, spyware, new parliament); (3) \textit{Economy, Development \& Macro-Stewardship} (aatmanirbhar, demonetisation, gdp, inflation, unemployment, suicides); (4) \textit{Agrarian Reform \& Farmer Movement} (farm laws, farmers protests, msp); (5) \textit{Citizenship, Belonging \& Mass Protest Politics} (caa, shaheen bagh); (6) \textit{Majoritarian Ideology \& Hindu Nationalist Mobilization} (hindutva, sangh, bhakts, hindu); (7) \textit{Communal Relations, Minority Rights \& Collective Violence} (minorities, muslim, lynching, sharia, islamists, hathras); (8) \textit{Symbolic Nationhood \& Cultural-Religious Projects} (ayodhya, ram mandir, mahotsav); and (9) \textit{Security, Territory \& Geopolitics} (china, kashmir, balochistan, kashmiri pandits).
+
+% Figure~\ref{fig:party_focus_stance} presents the stance analysis for each thematic bucket, for pro-ruling and pro-opposition influencers. Each horizontal bar represents the percentage of a side's total tweets devoted to a given bucket.
+% % \begin{figure}[H]
+% %   \centering
+% %   \includegraphics[width=0.95\linewidth]{results_eng/party_focus_stance_breakdown.png}
+% %   \caption{Thematic stance analysis: Bar length indicates percentage of total tweets}
+% %   \label{fig:party_focus_stance}
+% % \end{figure}
+% Several differences emerge between the two camps, in terms of the partisanship exhibited at a theme level. \textit{Leader \& Party Contestation} dominates both groups' discourse, but occupies a larger share for Pro-Opposition (59.3\%) than Pro-Ruling (49.7\%). Pro-Ruling influencers allocate a higher proportion to \textit{Majoritarian Ideology \& Hindu Nationalist Mobilization} (16.8\%) compared to Pro-Opposition (9.3\%). \textit{Symbolic Nationhood \& Cultural-Religious Projects} accounts for 4.5\% of Pro-Ruling discourse but only 0.8\% of Pro-Opposition discourse. Conversely, \textit{Institutions, Democracy \& State Accountability} receives greater attention from Pro-Opposition (4.1\%) than Pro-Ruling (1.9\%). The stance composition within buckets also differs: Pro-Ruling tweets in the \textit{Majoritarian Ideology} and \textit{Leader and Party Contestation} buckets are predominantly favorable (green), while Pro-Opposition tweets in the same buckets are predominantly against (red). A detailed table showing individual thematic bucket definitions, aspect contributions to each bucket, with stance breakdowns and tweet counts, is provided in the Appendix.}
+
+\section{Non-Seed Aspect Accuracy Results}
+\label{app:non_seed_results}
+
+As discussed in the main paper, the model trained on seed aspects was evaluated on additional non-seed aspects to assess generalization. Table~\ref{tab:post_analysis_aspects} presents the per-aspect accuracy and F1 scores.
+
+% \begin{center}
+% \scriptsize
+% \captionof{table}{Post-Analysis Accuracy: Per-Aspect Performance on Non-Seed Aspects}
+% \label{tab:post_analysis_aspects}
+% \begin{tabular}{l r r r}
+% \hline
+% \textbf{Aspect} & \textbf{Samples} & \textbf{Accuracy} & \textbf{F1 (macro)} \\
+% \hline
+% Bhakts & 20 & 95.0\% & 0.65 \\
+% Islamists & 20 & 95.0\% & 0.33 \\
+% Democracy & 20 & 90.0\% & 0.61 \\
+% Demonetisation & 20 & 90.0\% & 0.62 \\
+% Suicides & 20 & 90.0\% & 0.80 \\
+% Aatmanirbhar Bharat & 21 & 85.7\% & 0.84 \\
+% GDP & 20 & 80.0\% & 0.72 \\
+% Dictatorship & 19 & 78.9\% & 0.43 \\
+% Inflation & 20 & 75.0\% & 0.66 \\
+% Ayodhya & 20 & 70.0\% & 0.69 \\
+% Mahotsav & 20 & 70.0\% & 0.69 \\
+% Sangh & 20 & 70.0\% & 0.59 \\
+% Sharia & 20 & 70.0\% & 0.43 \\
+% Spyware & 20 & 70.0\% & 0.62 \\
+% Unemployment & 20 & 70.0\% & 0.57 \\
+% Hathras & 20 & 65.0\% & 0.41 \\
+% Lynching & 20 & 55.0\% & 0.36 \\
+% Balochistan & 10 & 50.0\% & 0.24 \\
+% Minorities & 20 & 50.0\% & 0.46 \\
+% MSP & 20 & 30.0\% & 0.31 \\
+% \bottomrule
+% \end{tabular}
+% \end{center}
+
+\begin{table}[t]
+\centering
+\scriptsize
+\caption{Post-Analysis Accuracy: Per-Aspect Performance on Non-Seed Aspects}
+\label{tab:post_analysis_aspects}
+\begin{tabular}{l r r r}
+\hline
+\textbf{Aspect} & \textbf{Samples} & \textbf{Accuracy} & \textbf{F1 (macro)} \\
+\hline
+Bhakts & 20 & 95.0\% & 0.65 \\
+Islamists & 20 & 95.0\% & 0.33 \\
+Democracy & 20 & 90.0\% & 0.61 \\
+Demonetisation & 20 & 90.0\% & 0.62 \\
+Suicides & 20 & 90.0\% & 0.80 \\
+Aatmanirbhar Bharat & 21 & 85.7\% & 0.84 \\
+GDP & 20 & 80.0\% & 0.72 \\
+Dictatorship & 19 & 78.9\% & 0.43 \\
+Inflation & 20 & 75.0\% & 0.66 \\
+Ayodhya & 20 & 70.0\% & 0.69 \\
+Mahotsav & 20 & 70.0\% & 0.69 \\
+Sangh & 20 & 70.0\% & 0.59 \\
+Sharia & 20 & 70.0\% & 0.43 \\
+Spyware & 20 & 70.0\% & 0.62 \\
+Unemployment & 20 & 70.0\% & 0.57 \\
+Hathras & 20 & 65.0\% & 0.41 \\
+Lynching & 20 & 55.0\% & 0.36 \\
+Balochistan & 10 & 50.0\% & 0.24 \\
+Minorities & 20 & 50.0\% & 0.46 \\
+MSP & 20 & 30.0\% & 0.31 \\
+\hline
+\end{tabular}
+\end{table}
+
