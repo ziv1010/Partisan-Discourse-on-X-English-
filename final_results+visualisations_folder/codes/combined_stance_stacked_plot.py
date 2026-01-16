@@ -48,7 +48,13 @@ plt.style.use('seaborn-v0_8-white')
 plt.rcParams.update({
     'font.family': 'serif',
     'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif'],
-    'axes.edgecolor': '#333333'
+    'axes.edgecolor': '#333333',
+    'axes.labelweight': 'normal',
+    'axes.titleweight': 'bold',
+    'xtick.labelsize': 12,
+    'ytick.labelsize': 11,
+    'legend.fontsize': 18,
+    'figure.titlesize': 16
 })
 
 # Color scheme for stances
@@ -112,7 +118,7 @@ def create_combined_stance_plot(df):
     n_cols = len(KEYWORDS_BY_ROW[0])
     
     # Create figure - larger for better readability
-    fig, axes = plt.subplots(n_rows, n_cols, figsize=(24, 18), facecolor='white')
+    fig, axes = plt.subplots(n_rows, n_cols, figsize=(28, 20), facecolor='white')
     axes = axes.flatten()
     
     # Define bar groups: Party + Language combinations
@@ -204,17 +210,15 @@ def create_combined_stance_plot(df):
                     
                     txt = ax.text(x_pos, y_pos, label_text,
                                  ha='center', va='center',
-                                 color='white', fontsize=11,
+                                 color='black', fontsize=17, fontweight='normal',
+                                 fontfamily='serif',
                                  linespacing=1.0)
-                    txt.set_path_effects([
-                        path_effects.withStroke(linewidth=3, foreground=(0, 0, 0, 0.5))
-                    ])
         
         # Clean up axes
         clean_title = kw.replace("Rahulgandhi", "Rahul Gandhi").title()
-        total_n = len(kw_data)
-        ax.set_title(f'{clean_title}\nTotal N = {total_n:,}', 
-                     fontsize=16, fontweight='bold', pad=16)
+        # Title removed for LaTeX (caption will be in LaTeX document)
+        # Just show keyword name as axis label
+        ax.set_title(f'{clean_title}', fontsize=22, fontweight='bold', pad=16)
         
         ax.set_ylim(0, 100)
         ax.set_xlim(-0.5, len(bar_data) - 0.5)
@@ -228,7 +232,7 @@ def create_combined_stance_plot(df):
         
         ax.set_xticks(x_positions)
         ax.set_xticklabels([d['label'] for d in bar_data], 
-                          rotation=0, fontsize=12, fontweight='bold')
+                          rotation=0, fontsize=17, fontweight='bold')
         
         # Y-axis tick font size
         ax.tick_params(axis='y', labelsize=11)
@@ -268,7 +272,7 @@ def create_combined_stance_plot(df):
     # ==========================================================================
     
     plt.tight_layout()
-    plt.subplots_adjust(top=0.92, hspace=0.35, wspace=0.18, left=0.14)
+    plt.subplots_adjust(top=0.92, hspace=0.38, wspace=0.12, left=0.10)
     
     # Row labels (bold) aligned to row centers
     if len(ROW_LABELS) == n_rows:
@@ -285,9 +289,9 @@ def create_combined_stance_plot(df):
     else:
         warnings.warn("ROW_LABELS length does not match number of rows.")
     
-    # Save
-    save_path = OUTPUT_DIR / 'combined_hindi_english_stance_stacked.png'
-    plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white')
+    # Save as PDF for LaTeX compatibility (as per figure guidelines)
+    save_path = OUTPUT_DIR / 'combined_hindi_english_stance_stacked.pdf'
+    plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white', format='pdf')
     plt.close()
     
     print(f"\nPlot saved to: {save_path}")

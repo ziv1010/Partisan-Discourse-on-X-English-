@@ -26,10 +26,14 @@ COMBINED_CSV = "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-
 
 # Style settings
 plt.style.use('seaborn-v0_8-whitegrid')
-plt.rcParams['figure.figsize'] = (16, 10)
-plt.rcParams['font.size'] = 12
-plt.rcParams['axes.titlesize'] = 14
-plt.rcParams['axes.labelsize'] = 12
+plt.rcParams.update({
+    'figure.figsize': (16, 10),
+    'font.size': 12,
+    'font.family': 'serif',
+    'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif'],
+    'axes.titlesize': 14,
+    'axes.labelsize': 12
+})
 
 # Color schemes
 STANCE_COLORS = {
@@ -150,11 +154,12 @@ def plot_6_scatter_comparison(df, output_dir):
         # Label points
         for _, row in scatter_df.iterrows():
             ax.annotate(row['Keyword'], (row['English'], row['Hindi']),
-                       xytext=(5, 5), textcoords='offset points', fontsize=8, alpha=0.8)
+                       xytext=(5, 5), textcoords='offset points', fontsize=11, alpha=0.8)
         
         ax.set_xlabel('English "Against" %', fontweight='bold', fontsize=12)
         ax.set_ylabel('Hindi "Against" %', fontweight='bold', fontsize=12)
-        ax.set_title(f'{party_label}:\nKeyword Negativity Comparison', fontweight='bold', fontsize=14)
+        # Subplot title - just show party label (no description, LaTeX will caption)
+        ax.set_title(f'{party_label}', fontweight='bold', fontsize=14)
         ax.set_xlim(0, 75)
         ax.set_ylim(0, 75)
         ax.legend(loc='upper left')
@@ -165,16 +170,16 @@ def plot_6_scatter_comparison(df, output_dir):
         ax.text(10, 65, 'More negative\nin Hindi', fontsize=10, color='darkred', alpha=0.7)
         ax.text(55, 10, 'More negative\nin English', fontsize=10, color='darkgreen', alpha=0.7)
     
-    plt.suptitle('Keyword-Level Negativity: Hindi vs English\n(Each point = one keyword)', 
-                 fontweight='bold', fontsize=16, y=1.02)
+    # Title/suptitle removed for LaTeX (caption will be in LaTeX document)
     plt.tight_layout()
     
     # Ensure output directory exists
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    output_path = output_dir / '6_negativity_scatter.png'
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    # Save as PDF for LaTeX compatibility (as per figure guidelines)
+    output_path = output_dir / '6_negativity_scatter.pdf'
+    plt.savefig(output_path, dpi=300, bbox_inches='tight', format='pdf')
     plt.close()
     print(f"  Saved: {output_path}")
     

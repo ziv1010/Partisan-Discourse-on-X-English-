@@ -32,6 +32,10 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 CSV_PATH = BASE_DIR.parent / "combined_stance_results.csv"
 
 plt.style.use("seaborn-v0_8-whitegrid")
+plt.rcParams.update({
+    'font.family': 'serif',
+    'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif']
+})
 
 PARTY_COLORS = {"pro ruling": "#FF6B35", "pro opposition": "#004E89"}
 FS_TITLE, FS_LABEL, FS_ANNOT, FS_QUAD = 16, 12, 9, 10
@@ -270,36 +274,31 @@ def plot_divergence_scatter(df):
     ax.set_xlabel("Favor Difference (Ruling % - Opp %)", fontweight="bold", fontsize=FS_LABEL)
     ax.set_ylabel("Against Difference (Ruling % - Opp %)", fontweight="bold", fontsize=FS_LABEL)
     
-    # ---- Get language stats for subtitle ----
-    lang_counts = df["language"].value_counts()
-    en_count = lang_counts.get("english", 0)
-    hi_count = lang_counts.get("hindi", 0)
-    
-    ax.set_title(
-        f"Normalized Stance Divergence Scatter (English + Hindi Combined)\n"
-        f"English: {en_count:,} tweets | Hindi: {hi_count:,} tweets | Total: {len(df):,}",
-        fontweight="bold",
-        fontsize=FS_TITLE,
-        pad=20
-    )
+    # ---- Title removed for LaTeX (caption will be in LaTeX document) ----
 
-    # ---- Legend outside (sorted by number, in 2 columns) ----
+    # ---- Legend outside (sorted by number, in 5 columns at bottom) ----
     items = [f"{k}: {v}" for k, v in sorted(legend_map.items(), key=lambda x: x[0])]
-    midpoint = (len(items) + 1) // 2
-    col1 = "\n".join(items[:midpoint])
-    col2 = "\n".join(items[midpoint:])
+    n_cols = 5
+    col_size = (len(items) + n_cols - 1) // n_cols
+    cols = [items[i*col_size:(i+1)*col_size] for i in range(n_cols)]
 
-    # Make room for legend + colorbar
-    plt.subplots_adjust(right=0.78)
+    # Make room for legend at bottom
+    plt.subplots_adjust(bottom=0.22, right=0.88)
 
-    fig.text(0.81, 0.86, col1, fontsize=9, va="top", bbox=dict(facecolor="white", alpha=0.9, edgecolor="black"))
-    fig.text(0.91, 0.86, col2, fontsize=9, va="top", bbox=dict(facecolor="white", alpha=0.9, edgecolor="black"))
+    legend_fontsize = 12
+    col_positions = [0.10, 0.28, 0.46, 0.64, 0.82]
+    for col_idx, col_items in enumerate(cols):
+        col_text = "\n".join(col_items)
+        fig.text(col_positions[col_idx], 0.15, col_text, fontsize=legend_fontsize, va="top", 
+                 fontfamily='serif',
+                 bbox=dict(facecolor="white", alpha=0.9, edgecolor="black"))
 
     cbar = plt.colorbar(scatter, pad=0.02)
     cbar.set_label("Favor Divergence Score", fontsize=FS_LABEL, fontweight="bold")
 
-    outpath = OUTPUT_DIR / "divergence_scatter_english_hindi_combined.png"
-    plt.savefig(outpath, dpi=300, bbox_inches="tight")
+    # Save as PDF for LaTeX compatibility (as per figure guidelines)
+    outpath = OUTPUT_DIR / "divergence_scatter_english_hindi_combined.pdf"
+    plt.savefig(outpath, dpi=300, bbox_inches="tight", format="pdf")
     plt.close()
     
     print(f"\nPlot saved to: {outpath}")

@@ -1,15 +1,15 @@
 Distances are perpendicular to the diagonal y=x, in percentage points.
 Metrics: RMSE, MAE, MedianAbs, MeanSigned.
 
-Pro-Ruling (n=30 keywords)
-  RMSE: 4.993
-  MAE: 3.594
-  MedianAbs: 2.515
-  MeanSigned: 0.534
+Pro-Ruling (n=29 keywords)
+  RMSE: 5.054
+  MAE: 3.626
+  MedianAbs: 2.341
+  MeanSigned: 0.645
 
-Pro-Opposition (n=29 keywords)
-  RMSE: 8.849
-  MAE: 5.857
-  MedianAbs: 3.411
-  MeanSigned: -3.000
+Pro-Opposition (n=28 keywords)
+  RMSE: 8.930
+  MAE: 5.847
+  MedianAbs: 3.323
+  MeanSigned: -2.888
 
