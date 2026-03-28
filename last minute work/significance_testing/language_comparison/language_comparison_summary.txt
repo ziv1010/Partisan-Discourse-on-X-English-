@@ -1,0 +1,274 @@
+================================================================================
+LANGUAGE COMPARISON: ENGLISH vs HINDI
+Testing if favor stance differs significantly between languages
+Model: logit(p) = β0 + β1 * Language (Language: 0=English, 1=Hindi)
+================================================================================
+
+★★★ KEY FINDING ★★★
+----------------------------------------
+Total aspects tested: 35
+NON-SIGNIFICANT results (p >= 0.05): 14 (40.0%)
+Significant results (p < 0.05): 21 (60.0%)
+
+➤ For 40.0% of aspects, the difference between
+  English and Hindi favor stance is NOT statistically significant.
+
+AVERAGE FAVOR PERCENTAGES BY LANGUAGE
+----------------------------------------
+Average English favor %: 37.54%
+Average Hindi favor %: 32.97%
+Average absolute difference: 6.34 percentage points
+
+================================================================================
+NON-SIGNIFICANT RESULTS (No language difference)
+----------------------------------------
+
+  islamists:
+    p-value = 0.9738 (NOT significant)
+    English favor: 2.7% (n=1,488)
+    Hindi favor: 2.8% (n=36)
+    Difference: 0.1 percentage points
+
+  minorities:
+    p-value = 0.9603 (NOT significant)
+    English favor: 62.0% (n=1,630)
+    Hindi favor: 62.2% (n=275)
+    Difference: 0.2 percentage points
+
+  bhakts:
+    p-value = 0.9252 (NOT significant)
+    English favor: 26.0% (n=1,886)
+    Hindi favor: 25.0% (n=16)
+    Difference: 1.0 percentage points
+
+  sharia:
+    p-value = 0.6834 (NOT significant)
+    English favor: 5.3% (n=583)
+    Hindi favor: 6.1% (n=180)
+    Difference: 0.8 percentage points
+
+  hathras:
+    p-value = 0.6545 (NOT significant)
+    English favor: 13.1% (n=2,112)
+    Hindi favor: 12.6% (n=1,350)
+    Difference: 0.5 percentage points
+
+  spyware:
+    p-value = 0.6224 (NOT significant)
+    English favor: 2.0% (n=410)
+    Hindi favor: 1.2% (n=86)
+    Difference: 0.8 percentage points
+
+  msp:
+    p-value = 0.5909 (NOT significant)
+    English favor: 29.7% (n=5,567)
+    Hindi favor: 29.1% (n=2,129)
+    Difference: 0.6 percentage points
+
+  democracy:
+    p-value = 0.3196 (NOT significant)
+    English favor: 44.9% (n=7,612)
+    Hindi favor: 43.9% (n=3,668)
+    Difference: 1.0 percentage points
+
+  modi:
+    p-value = 0.2867 (NOT significant)
+    English favor: 53.0% (n=98,404)
+    Hindi favor: 53.3% (n=62,379)
+    Difference: 0.3 percentage points
+
+  dictatorship:
+    p-value = 0.2424 (NOT significant)
+    English favor: 1.4% (n=279)
+    Hindi favor: 0.5% (n=382)
+    Difference: 0.9 percentage points
+
+  hindutva:
+    p-value = 0.1325 (NOT significant)
+    English favor: 38.9% (n=3,326)
+    Hindi favor: 30.0% (n=70)
+    Difference: 8.9 percentage points
+
+  lynching:
+    p-value = 0.1088 (NOT significant)
+    English favor: 4.8% (n=1,089)
+    Hindi favor: 2.6% (n=304)
+    Difference: 2.1 percentage points
+
+  ayodhya:
+    p-value = 0.0888 (NOT significant)
+    English favor: 63.1% (n=2,452)
+    Hindi favor: 60.8% (n=2,398)
+    Difference: 2.4 percentage points
+
+  inflation:
+    p-value = 0.0527 (NOT significant)
+    English favor: 15.0% (n=1,424)
+    Hindi favor: 12.3% (n=1,026)
+    Difference: 2.7 percentage points
+
+================================================================================
+SIGNIFICANT RESULTS (p < 0.05) - 21 aspects
+----------------------------------------
+
+  kashmir:
+    β1 = -0.3708 (SE: 0.0324)
+    z = -11.456, p = 2.19e-30
+    English favor: 56.7% (n=13,355)
+    Hindi favor: 47.5% (n=5,400)
+    Interpretation: English 1.45x more likely to favor (SIGNIFICANT)
+
+  muslim:
+    β1 = -0.2405 (SE: 0.0248)
+    z = -9.704, p = 2.90e-22
+    English favor: 48.1% (n=16,913)
+    Hindi favor: 42.1% (n=10,874)
+    Interpretation: English 1.27x more likely to favor (SIGNIFICANT)
+
+  sangh:
+    β1 = 0.8667 (SE: 0.1030)
+    z = 8.415, p = 3.92e-17
+    English favor: 24.4% (n=4,498)
+    Hindi favor: 43.4% (n=433)
+    Interpretation: Hindi 2.38x more likely to favor (SIGNIFICANT)
+
+  china:
+    β1 = -0.5439 (SE: 0.0677)
+    z = -8.037, p = 9.20e-16
+    English favor: 10.9% (n=11,805)
+    Hindi favor: 6.6% (n=4,372)
+    Interpretation: English 1.72x more likely to favor (SIGNIFICANT)
+
+  caa:
+    β1 = -0.5221 (SE: 0.0724)
+    z = -7.207, p = 5.72e-13
+    English favor: 36.1% (n=4,297)
+    Hindi favor: 25.1% (n=1,255)
+    Interpretation: English 1.69x more likely to favor (SIGNIFICANT)
+
+  new parliament:
+    β1 = -0.8689 (SE: 0.1330)
+    z = -6.531, p = 6.55e-11
+    English favor: 57.1% (n=910)
+    Hindi favor: 35.9% (n=329)
+    Interpretation: English 2.38x more likely to favor (SIGNIFICANT)
+
+  hindu:
+    β1 = -0.1200 (SE: 0.0196)
+    z = -6.107, p = 1.02e-09
+    English favor: 66.2% (n=37,294)
+    Hindi favor: 63.5% (n=16,213)
+    Interpretation: English 1.13x more likely to favor (SIGNIFICANT)
+
+  kashmiri pandits:
+    β1 = -0.6413 (SE: 0.1213)
+    z = -5.288, p = 1.24e-07
+    English favor: 80.0% (n=973)
+    Hindi favor: 67.8% (n=552)
+    Interpretation: English 1.90x more likely to favor (SIGNIFICANT)
+
+  balochistan:
+    β1 = -2.0380 (SE: 0.4116)
+    z = -4.951, p = 7.37e-07
+    English favor: 52.3% (n=652)
+    Hindi favor: 12.5% (n=56)
+    Interpretation: English 7.68x more likely to favor (SIGNIFICANT)
+
+  aatmanirbhar:
+    β1 = -0.4313 (SE: 0.0907)
+    z = -4.755, p = 1.98e-06
+    English favor: 86.2% (n=5,386)
+    Hindi favor: 80.2% (n=945)
+    Interpretation: English 1.54x more likely to favor (SIGNIFICANT)
+
+  gdp:
+    β1 = -0.4848 (SE: 0.1200)
+    z = -4.039, p = 5.37e-05
+    English favor: 31.8% (n=2,146)
+    Hindi favor: 22.3% (n=471)
+    Interpretation: English 1.62x more likely to favor (SIGNIFICANT)
+
+  farm laws:
+    β1 = -0.3680 (SE: 0.0995)
+    z = -3.699, p = 2.17e-04
+    English favor: 27.9% (n=3,573)
+    Hindi favor: 21.1% (n=706)
+    Interpretation: English 1.44x more likely to favor (SIGNIFICANT)
+
+  congress:
+    β1 = -0.0642 (SE: 0.0188)
+    z = -3.423, p = 6.19e-04
+    English favor: 28.9% (n=37,795)
+    Hindi favor: 27.6% (n=22,393)
+    Interpretation: English 1.07x more likely to favor (SIGNIFICANT)
+
+  ram mandir:
+    β1 = -0.5112 (SE: 0.1521)
+    z = -3.361, p = 7.76e-04
+    English favor: 77.3% (n=1,615)
+    Hindi favor: 67.1% (n=231)
+    Interpretation: English 1.67x more likely to favor (SIGNIFICANT)
+
+  farmers protests:
+    β1 = 0.3857 (SE: 0.1222)
+    z = 3.155, p = 1.60e-03
+    English favor: 59.1% (n=1,114)
+    Hindi favor: 68.0% (n=409)
+    Interpretation: Hindi 1.47x more likely to favor (SIGNIFICANT)
+
+  demonetisation:
+    β1 = -0.6504 (SE: 0.2097)
+    z = -3.102, p = 1.92e-03
+    English favor: 21.0% (n=576)
+    Hindi favor: 12.2% (n=279)
+    Interpretation: English 1.92x more likely to favor (SIGNIFICANT)
+
+  rahulgandhi:
+    β1 = 0.0676 (SE: 0.0231)
+    z = 2.925, p = 3.45e-03
+    English favor: 57.8% (n=23,251)
+    Hindi favor: 59.4% (n=11,612)
+    Interpretation: Hindi 1.07x more likely to favor (SIGNIFICANT)
+
+  unemployment:
+    β1 = -0.2935 (SE: 0.1083)
+    z = -2.711, p = 6.71e-03
+    English favor: 13.2% (n=1,649)
+    Hindi favor: 10.2% (n=1,696)
+    Interpretation: English 1.34x more likely to favor (SIGNIFICANT)
+
+  suicides:
+    β1 = -2.4286 (SE: 1.0225)
+    z = -2.375, p = 1.75e-02
+    English favor: 10.7% (n=300)
+    Hindi favor: 1.0% (n=96)
+    Interpretation: English 11.34x more likely to favor (SIGNIFICANT)
+
+  shaheen bagh:
+    β1 = -0.2651 (SE: 0.1176)
+    z = -2.254, p = 2.42e-02
+    English favor: 32.4% (n=1,414)
+    Hindi favor: 26.9% (n=480)
+    Interpretation: English 1.30x more likely to favor (SIGNIFICANT)
+
+  mahotsav:
+    β1 = -0.1468 (SE: 0.0714)
+    z = -2.058, p = 3.96e-02
+    English favor: 74.0% (n=5,455)
+    Hindi favor: 71.1% (n=1,175)
+    Interpretation: English 1.16x more likely to favor (SIGNIFICANT)
+
+================================================================================
+METHODOLOGY
+----------------------------------------
+- Model: Binomial GLM with logit link
+- Response: [n_favor, n_total - n_favor] per language per aspect
+- Predictor: Language (0=English, 1=Hindi)
+- β1 > 0: Hindi has higher favor probability
+- β1 < 0: English has higher favor probability
+- Significance threshold: p < 0.05
+
+CONCLUSION:
+14/35 (40.0%) of aspects show NO significant
+difference in favor stance between English and Hindi.
+================================================================================

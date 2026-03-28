@@ -31,6 +31,7 @@ plt.rcParams.update({
     'font.size': 12,
     'font.family': 'serif',
     'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif'],
+    'font.weight': 'normal',  # No bold per LaTeX guidelines
     'axes.titlesize': 14,
     'axes.labelsize': 12
 })
@@ -109,7 +110,7 @@ def plot_6_scatter_comparison(df, output_dir):
     common_keywords = get_common_keywords(df)
     print(f"  Found {len(common_keywords)} common keywords")
     
-    fig, axes = plt.subplots(1, 2, figsize=(16, 8))
+    fig, axes = plt.subplots(1, 2, figsize=(18, 9))
     metrics_rows = []
     
     for idx, party in enumerate(['pro ruling', 'pro opposition']):
@@ -154,24 +155,26 @@ def plot_6_scatter_comparison(df, output_dir):
         # Label points
         for _, row in scatter_df.iterrows():
             ax.annotate(row['Keyword'], (row['English'], row['Hindi']),
-                       xytext=(5, 5), textcoords='offset points', fontsize=11, alpha=0.8)
+                       xytext=(5, 5), textcoords='offset points', fontsize=14, alpha=0.8)
         
-        ax.set_xlabel('English "Against" %', fontweight='bold', fontsize=12)
-        ax.set_ylabel('Hindi "Against" %', fontweight='bold', fontsize=12)
+        ax.set_xlabel('English "Against" %', fontsize=18)
+        ax.set_ylabel('Hindi "Against" %', fontsize=18)
         # Subplot title - just show party label (no description, LaTeX will caption)
-        ax.set_title(f'{party_label}', fontweight='bold', fontsize=14)
+        ax.set_title(f'{party_label}', fontsize=22)
         ax.set_xlim(0, 75)
         ax.set_ylim(0, 75)
-        ax.legend(loc='upper left')
+        ax.tick_params(axis='both', labelsize=14)
+        ax.legend(loc='upper left', fontsize=14)
         
         # Add annotation for interpretation
         ax.fill_between([0, 80], [0, 80], [80, 80], alpha=0.1, color='red')
         ax.fill_between([0, 80], [0, 0], [0, 80], alpha=0.1, color='green')
-        ax.text(10, 65, 'More negative\nin Hindi', fontsize=10, color='darkred', alpha=0.7)
-        ax.text(55, 10, 'More negative\nin English', fontsize=10, color='darkgreen', alpha=0.7)
+        ax.text(10, 65, 'More negative\nin Hindi', fontsize=14, color='darkred', alpha=0.7)
+        ax.text(55, 10, 'More negative\nin English', fontsize=14, color='darkgreen', alpha=0.7)
     
     # Title/suptitle removed for LaTeX (caption will be in LaTeX document)
-    plt.tight_layout()
+    # Reduce whitespace with subplots_adjust instead of tight_layout
+    plt.subplots_adjust(left=0.08, right=0.98, top=0.92, bottom=0.10, wspace=0.20)
     
     # Ensure output directory exists
     output_dir = Path(output_dir)

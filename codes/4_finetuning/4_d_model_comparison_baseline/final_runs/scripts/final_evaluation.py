@@ -27,16 +27,20 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Set global font sizes for better readability and LaTeX compatibility
+# Per LaTeX guidelines: text must be at least 9-point, NOT bold, Times New Roman
 plt.rcParams.update({
-    'font.size': 18,
+    'font.size': 12,
     'font.family': 'serif',
     'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif'],
-    'axes.titlesize': 22,
-    'axes.labelsize': 18,
-    'xtick.labelsize': 16,
-    'ytick.labelsize': 16,
-    'legend.fontsize': 14,
-    'figure.titlesize': 24
+    'font.weight': 'normal',  # No bold
+    'axes.titlesize': 14,
+    'axes.labelsize': 12,
+    'axes.titleweight': 'normal',  # No bold titles
+    'axes.labelweight': 'normal',  # No bold labels
+    'xtick.labelsize': 11,
+    'ytick.labelsize': 11,
+    'legend.fontsize': 10,
+    'figure.titlesize': 14
 })
 
 # Paths
@@ -248,17 +252,17 @@ def plot_mistral_confusion_matrix(predictions_dict, output_dir: Path, logger):
             count = cm[i, j]
             text_color = 'white' if pct > 50 else 'black'
             ax.text(j + 0.5, i + 0.4, f'{pct:.1f}%', 
-                   ha='center', va='center', fontsize=14, fontweight='bold', color=text_color)
+                   ha='center', va='center', fontsize=12, color=text_color)
             ax.text(j + 0.5, i + 0.65, f'(n={count})', 
                    ha='center', va='center', fontsize=10, color=text_color)
     
     # Title removed for LaTeX (caption will be in LaTeX document)
-    ax.set_ylabel('True Label', fontsize=14)
-    ax.set_xlabel('Predicted Label', fontsize=14)
+    ax.set_ylabel('True Label', fontsize=12)
+    ax.set_xlabel('Predicted Label', fontsize=12)
     
     # Improve tick labels
-    ax.set_xticklabels(['Favor', 'Against', 'Neutral'], fontsize=13)
-    ax.set_yticklabels(['Favor', 'Against', 'Neutral'], fontsize=13)
+    ax.set_xticklabels(['Favor', 'Against', 'Neutral'], fontsize=11)
+    ax.set_yticklabels(['Favor', 'Against', 'Neutral'], fontsize=11)
     
     plt.tight_layout()
     # Save as PDF for LaTeX compatibility
@@ -291,22 +295,23 @@ def plot_comparison_bar(metrics_list, output_dir: Path, logger):
         offset = (i - len(df) / 2 + 0.5) * width
         bars = ax.bar(x + offset, values, width, 
                      label=row['model'].upper().replace('_', ' '), 
-                     color=colors[i % len(colors)])
+                     color=colors[i % len(colors)],
+                     edgecolor='none')  # Remove black borders
         
-        # Large, bold percentage labels above bars
+        # Percentage labels above bars (NOT bold per LaTeX guidelines)
         for bar, val in zip(bars, values):
             ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.02,
-                   f'{val:.1%}', ha='center', va='bottom', fontsize=13, fontweight='bold')
+                   f'{val:.1%}', ha='center', va='bottom', fontsize=11)
     
-    # Large font sizes for axis labels
-    ax.set_ylabel('Score', fontsize=22, fontweight='bold')
-    ax.set_xlabel('Metric', fontsize=22, fontweight='bold')
+    # Clear, readable font sizes for axis labels (NOT bold per LaTeX guidelines)
+    ax.set_ylabel('Score', fontsize=14)
+    ax.set_xlabel('Metric', fontsize=14)
     # Title removed for LaTeX (caption will be in LaTeX document)
     ax.set_xticks(x)
-    ax.set_xticklabels(metric_names, fontsize=20, fontweight='bold')
-    ax.legend(loc='upper right', fontsize=16, ncol=2)
+    ax.set_xticklabels(metric_names, fontsize=12)
+    ax.legend(loc='upper right', fontsize=10, ncol=2)
     ax.set_ylim(0, 1.12)
-    ax.tick_params(axis='y', labelsize=16)
+    ax.tick_params(axis='y', labelsize=11)
     ax.grid(axis='y', alpha=0.3)
     
     plt.tight_layout()

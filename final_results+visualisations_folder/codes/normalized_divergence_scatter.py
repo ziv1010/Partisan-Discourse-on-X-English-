@@ -34,11 +34,12 @@ CSV_PATH = BASE_DIR.parent / "combined_stance_results.csv"
 plt.style.use("seaborn-v0_8-whitegrid")
 plt.rcParams.update({
     'font.family': 'serif',
-    'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif']
+    'font.serif': ['Times New Roman', 'DejaVu Serif', 'serif'],
+    'font.weight': 'normal'  # No bold per LaTeX guidelines
 })
 
 PARTY_COLORS = {"pro ruling": "#FF6B35", "pro opposition": "#004E89"}
-FS_TITLE, FS_LABEL, FS_ANNOT, FS_QUAD = 16, 12, 9, 10
+FS_TITLE, FS_LABEL, FS_ANNOT, FS_QUAD = 14, 12, 9, 10
 
 
 # ==========================================
@@ -213,7 +214,6 @@ def plot_divergence_scatter(df):
             ha="center",
             va="center",
             fontsize=10,
-            fontweight="bold",
             zorder=4,
             bbox=dict(facecolor="white", alpha=0.92, edgecolor="black", boxstyle="circle,pad=0.28"),
         )
@@ -229,7 +229,6 @@ def plot_divergence_scatter(df):
         transform=ax.transAxes,
         ha="left",
         va="top",
-        fontweight="black",
         fontsize=FS_QUAD,
         color="#d63031",
         bbox=q_box,
@@ -241,7 +240,6 @@ def plot_divergence_scatter(df):
         transform=ax.transAxes,
         ha="right",
         va="top",
-        fontweight="black",
         fontsize=FS_QUAD,
         color="#e67e22",
         bbox=q_box,
@@ -253,7 +251,6 @@ def plot_divergence_scatter(df):
         transform=ax.transAxes,
         ha="left",
         va="bottom",
-        fontweight="black",
         fontsize=FS_QUAD,
         color="#0984e3",
         bbox=q_box,
@@ -265,14 +262,13 @@ def plot_divergence_scatter(df):
         transform=ax.transAxes,
         ha="right",
         va="bottom",
-        fontweight="black",
         fontsize=FS_QUAD,
         color="#27ae60",
         bbox=q_box,
     )
 
-    ax.set_xlabel("Favor Difference (Ruling % - Opp %)", fontweight="bold", fontsize=FS_LABEL)
-    ax.set_ylabel("Against Difference (Ruling % - Opp %)", fontweight="bold", fontsize=FS_LABEL)
+    ax.set_xlabel("Favor Difference (Ruling % - Opp %)", fontsize=FS_LABEL)
+    ax.set_ylabel("Against Difference (Ruling % - Opp %)", fontsize=FS_LABEL)
     
     # ---- Title removed for LaTeX (caption will be in LaTeX document) ----
 
@@ -294,7 +290,7 @@ def plot_divergence_scatter(df):
                  bbox=dict(facecolor="white", alpha=0.9, edgecolor="black"))
 
     cbar = plt.colorbar(scatter, pad=0.02)
-    cbar.set_label("Favor Divergence Score", fontsize=FS_LABEL, fontweight="bold")
+    cbar.set_label("Favor Divergence Score", fontsize=FS_LABEL)
 
     # Save as PDF for LaTeX compatibility (as per figure guidelines)
     outpath = OUTPUT_DIR / "divergence_scatter_english_hindi_combined.pdf"
