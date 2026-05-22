@@ -1,0 +1,9 @@
+{
+  "seed": 13,
+  "model": "mistral_fewshot",
+  "n": 265,
+  "accuracy": 0.630188679245283,
+  "f1_weighted": 0.6237509234535186,
+  "f1_macro": 0.608943352401456,
+  "prediction_file": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/runs/reviewer_multiseed_3seeds/seed_13/predictions/mistral_fewshot/mistral_fewshot_predictions.csv"
+}

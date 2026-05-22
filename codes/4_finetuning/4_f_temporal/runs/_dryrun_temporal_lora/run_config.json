@@ -1,0 +1,18 @@
+{
+  "output_root": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/_dryrun_temporal_lora",
+  "train_csv": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_master_train_2020_2021.csv",
+  "test_csv": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_master_test_2022_2023.csv",
+  "model_dir": "/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3",
+  "adapter_dir": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/_dryrun_temporal_lora/models/mistral_lora_adapter",
+  "prediction_csv": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/_dryrun_temporal_lora/predictions/temporal_mistral_lora_predictions.csv",
+  "evaluation_dir": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/_dryrun_temporal_lora/evaluation",
+  "gpus": "0",
+  "seed": 42,
+  "epochs": 3,
+  "batch_size": 2,
+  "grad_accum": 8,
+  "lr": 0.0002,
+  "max_length": 1024,
+  "infer_batch_size": 8,
+  "stage": "all"
+}

@@ -42,7 +42,7 @@ python finetune.py \
   [--lora_adapter /path/to/lora_adapter_dir] [--merge_lora] [--trust_remote_code]
 """
 
-import os, json, argparse, time, logging, warnings, re
+import os, json, argparse, time, logging, warnings, re, signal, tempfile
 from typing import Optional, List, Dict, Tuple
 from pathlib import Path
 import pandas as pd
@@ -294,6 +294,69 @@ def normalize_label(text: str) -> str:
     # default
     return "neutral"
 
+
+def atomic_write_csv(df: pd.DataFrame, output_csv: str) -> None:
+    """Write a checkpoint atomically so interrupts never leave a truncated CSV behind."""
+    out_path = Path(output_csv).expanduser().resolve()
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    fd, tmp_path = tempfile.mkstemp(
+        prefix=f".{out_path.stem}.",
+        suffix=".tmp",
+        dir=str(out_path.parent),
+    )
+    os.close(fd)
+    try:
+        df.to_csv(tmp_path, index=False)
+        os.replace(tmp_path, out_path)
+    finally:
+        if os.path.exists(tmp_path):
+            os.unlink(tmp_path)
+
+
+def recover_resume_dataframe(input_df: pd.DataFrame, existing_df: pd.DataFrame, output_csv: str, logger) -> pd.DataFrame:
+    """
+    Recover a resume frame even if the previous checkpoint CSV was truncated mid-write.
+
+    We preserve the rows that successfully made it to disk and pad the rest from the
+    original input so the run can continue instead of restarting from scratch.
+    """
+    input_len = len(input_df)
+    existing_len = len(existing_df)
+
+    if existing_len == input_len:
+        logger.info(f"Resuming from existing file: {output_csv}")
+        return existing_df.copy()
+
+    if existing_len > input_len:
+        logger.warning(
+            "Resume output has more rows than input (%d > %d). Truncating to input length.",
+            existing_len,
+            input_len,
+        )
+        existing_df = existing_df.iloc[:input_len].copy()
+        existing_len = input_len
+
+    logger.warning(
+        "Resume output is truncated (%d/%d rows). Recovering the saved prefix and continuing.",
+        existing_len,
+        input_len,
+    )
+
+    recovered = input_df.copy()
+    for col in existing_df.columns:
+        if col not in recovered.columns:
+            recovered[col] = pd.NA
+        elif existing_df[col].dtype == object and recovered[col].dtype != object:
+            recovered[col] = recovered[col].astype(object)
+
+    if existing_len:
+        prefix_index = recovered.index[:existing_len]
+        for col in existing_df.columns:
+            recovered.loc[prefix_index, col] = existing_df[col].iloc[:existing_len].to_numpy()
+
+    return recovered
+
 def extract_json(s: str):
     """
     Extract {"stance": "...", "reason": "..."} from model output
@@ -408,6 +471,17 @@ def main():
         fh.setLevel(logging.INFO)
         logger.addHandler(fh)
 
+    def _handle_termination(signum, _frame):
+        signame = signal.Signals(signum).name
+        logger.warning(f"Received {signame}; saving progress before exit.")
+        raise KeyboardInterrupt(f"Received {signame}")
+
+    for sig in (signal.SIGINT, signal.SIGTERM):
+        try:
+            signal.signal(sig, _handle_termination)
+        except Exception:
+            pass
+
     mode_str = "FINETUNED (LoRA)" if args.lora_adapter else "BASE (normal)"
     logger.info(f"Running mode: {mode_str}")
 
@@ -461,18 +535,8 @@ def main():
     # Prepare outputs (with resume support)
     if args.resume and os.path.exists(args.output_csv):
         try:
-            df_out = pd.read_csv(args.output_csv)
-            if len(df_out) != len(df):
-                logger.warning("Resume requested but output length != input length. Starting fresh.")
-                df_out = df.copy()
-            else:
-                # Ensure columns exist
-                if "stance_gold" not in df_out.columns:
-                    df_out["stance_gold"] = np.nan
-                for c in (raw_col, norm_col, mapped_col, reason_col, shots_src_col):
-                    if c not in df_out.columns:
-                        df_out[c] = ""
-                logger.info(f"Resuming from existing file: {args.output_csv}")
+            existing_out = pd.read_csv(args.output_csv)
+            df_out = recover_resume_dataframe(df, existing_out, args.output_csv, logger)
         except Exception as e:
             logger.warning(f"Failed to read existing output for resume ({e}). Starting fresh.")
             df_out = df.copy()
@@ -529,9 +593,16 @@ def main():
         done_mask = pd.Series(False, index=df_out.index)
 
     remaining_idx = df_out.index[~done_mask].tolist()
+    initial_done = int(done_mask.sum())
+    logger.info(
+        "Rows total: %d | already completed: %d | remaining this run: %d",
+        len(df_out),
+        initial_done,
+        len(remaining_idx),
+    )
     if len(remaining_idx) == 0:
         logger.info("All rows already scored. Nothing to do.")
-        df_out.to_csv(args.output_csv, index=False)
+        atomic_write_csv(df_out, args.output_csv)
         return
     # Lazy per-keyword loading: we load the shots file only when a row with that keyword is processed.
 
@@ -566,6 +637,8 @@ def main():
     processed = 0
     last_saved = 0
     B = max(1, int(args.batch_size))
+    total_remaining = len(row_indices)
+    logger.info("Starting batched inference: batch_size=%d | save_every=%d", B, args.save_every)
 
     try:
         for start_idx in tqdm(range(0, len(prompts), B), desc="Scoring (batched)"):
@@ -610,14 +683,37 @@ def main():
 
             processed += len(batch_rows)
             if processed - last_saved >= args.save_every:
-                df_out.to_csv(args.output_csv, index=False)
+                atomic_write_csv(df_out, args.output_csv)
+                elapsed = max(time.time() - start, 1e-9)
+                completed_total = initial_done + processed
+                logger.info(
+                    "Checkpoint saved: run_progress=%d/%d (%.1f%%) | total_completed=%d/%d | rate=%.1f rows/sec | output=%s",
+                    processed,
+                    total_remaining,
+                    processed / total_remaining * 100.0 if total_remaining else 100.0,
+                    completed_total,
+                    len(df_out),
+                    processed / elapsed,
+                    args.output_csv,
+                )
                 last_saved = processed
     finally:
         # Ensure we always persist partial progress on interrupts/exceptions
-        df_out.to_csv(args.output_csv, index=False)
+        atomic_write_csv(df_out, args.output_csv)
+        elapsed = max(time.time() - start, 1e-9)
+        completed_total = initial_done + processed
+        logger.info(
+            "Final checkpoint written: run_progress=%d/%d | total_completed=%d/%d | elapsed=%.1fs | output=%s",
+            processed,
+            total_remaining,
+            completed_total,
+            len(df_out),
+            elapsed,
+            args.output_csv,
+        )
 
     # Final save (redundant but explicit)
-    df_out.to_csv(args.output_csv, index=False)
+    atomic_write_csv(df_out, args.output_csv)
     elapsed = time.time() - start
     logger.info(f"Done. Scored {processed} rows this run in {elapsed:.1f}s. Wrote: {args.output_csv}")
 

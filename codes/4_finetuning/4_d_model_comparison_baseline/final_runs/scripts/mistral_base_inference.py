@@ -224,7 +224,22 @@ def main():
                        help='Number of few-shot examples (0 for zero-shot)')
     parser.add_argument('--output-prefix', type=str, default='mistral_base',
                        help='Prefix for output filename')
+    parser.add_argument('--seed', type=int, default=42,
+                       help='Random seed (controls few-shot example selection).')
     args = parser.parse_args()
+
+    # Seed Python's random and torch so few-shot example selection is reproducible.
+    # Greedy decoding (do_sample=False) makes the generation step itself
+    # deterministic, so seeding only affects shot sampling.
+    random.seed(args.seed)
+    try:
+        import numpy as np
+        np.random.seed(args.seed)
+    except Exception:
+        pass
+    torch.manual_seed(args.seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(args.seed)
     
     print("=" * 60)
     print(f"Mistral Inference (Few-shot: {args.few_shot})")

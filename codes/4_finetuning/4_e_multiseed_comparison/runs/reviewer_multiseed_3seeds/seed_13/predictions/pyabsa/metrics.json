@@ -1,0 +1,9 @@
+{
+  "seed": 13,
+  "model": "pyabsa",
+  "n": 265,
+  "accuracy": 0.5132075471698113,
+  "f1_weighted": 0.5114814861065747,
+  "f1_macro": 0.5185654471386453,
+  "prediction_file": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/runs/reviewer_multiseed_3seeds/seed_13/predictions/pyabsa/pyabsa_predictions.csv"
+}

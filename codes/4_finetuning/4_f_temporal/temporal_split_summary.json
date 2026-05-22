@@ -1,0 +1,125 @@
+{
+  "inputs": {
+    "excel": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx",
+    "master_train": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv",
+    "master_test": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_test.csv",
+    "postjoining_final_checked": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/PostJoining_stance/extracted_ALL_35keywords_english_hindi_only_final_with_existing_and_inferred_stance.csv",
+    "final_stance_used_for_matching": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/FINAL_STANCE/extracted_ALL_35keywords_english_hindi_only_final_with_existing_and_inferred_stance.csv",
+    "bridge_used_for_dates": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/SCRIPTS_OuTPUTS/retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge.csv"
+  },
+  "outputs": {
+    "raw_joint": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_joint_dataset_raw.csv",
+    "dated_joint": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_joint_dataset_with_dates.csv",
+    "train_2020_2021": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_master_train_2020_2021.csv",
+    "test_2022_2023": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_master_test_2022_2023.csv",
+    "missing_dates": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_rows_missing_dates.csv",
+    "missing_stance": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/temporal_rows_missing_stance.csv"
+  },
+  "rows": {
+    "joint_total": 2235,
+    "train_2020_2021": 1480,
+    "test_2022_2023": 684,
+    "missing_dates_among_valid_stance": 19,
+    "missing_stance": 52
+  },
+  "joint_by_origin": {
+    "excel_annotations": 441,
+    "master_test_original": 265,
+    "master_train_original": 1529
+  },
+  "joint_stance_counts": {
+    "": 52,
+    "Against": 842,
+    "For": 856,
+    "Neutral": 485
+  },
+  "date_match_strategy": {
+    "exact_tweet_keyword": 2093,
+    "unmatched": 142
+  },
+  "date_bridge_strategy": {
+    "matched_final_row_id": 2093,
+    "source_row_bridge": 118,
+    "unmatched": 24
+  },
+  "joint_year_counts": {
+    "2020": 752,
+    "2021": 759,
+    "2022": 478,
+    "2023": 222
+  },
+  "train_by_year_stance": [
+    {
+      "year": 2020,
+      "stance": "Against",
+      "rows": 312
+    },
+    {
+      "year": 2020,
+      "stance": "For",
+      "rows": 277
+    },
+    {
+      "year": 2020,
+      "stance": "Neutral",
+      "rows": 149
+    },
+    {
+      "year": 2021,
+      "stance": "Against",
+      "rows": 308
+    },
+    {
+      "year": 2021,
+      "stance": "For",
+      "rows": 276
+    },
+    {
+      "year": 2021,
+      "stance": "Neutral",
+      "rows": 158
+    }
+  ],
+  "test_by_year_stance": [
+    {
+      "year": 2022,
+      "stance": "Against",
+      "rows": 145
+    },
+    {
+      "year": 2022,
+      "stance": "For",
+      "rows": 196
+    },
+    {
+      "year": 2022,
+      "stance": "Neutral",
+      "rows": 126
+    },
+    {
+      "year": 2023,
+      "stance": "Against",
+      "rows": 69
+    },
+    {
+      "year": 2023,
+      "stance": "For",
+      "rows": 97
+    },
+    {
+      "year": 2023,
+      "stance": "Neutral",
+      "rows": 51
+    }
+  ],
+  "train_by_origin": {
+    "excel_annotations": 252,
+    "master_test_original": 178,
+    "master_train_original": 1050
+  },
+  "test_by_origin": {
+    "excel_annotations": 144,
+    "master_test_original": 86,
+    "master_train_original": 454
+  }
+}

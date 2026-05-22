@@ -1,0 +1,202 @@
+======================================================================
+MULTI-GPU PARALLEL TEMPORAL LORA INFERENCE
+======================================================================
+Input CSV    : /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023.csv
+Output CSV   : /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled.csv
+Model        : /scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+LoRA adapter : /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+Few-shot     : True
+Shots dir    : /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+Fallback JSON: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+GPUs         : [0, 1, 2, 3, 4, 5, 6, 7]  (8 worker(s) × 1 GPU(s) each)
+Batch size   : 48 per worker
+bf16         : True
+Resume       : True
+State dir    : /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state
+======================================================================
+  Reusing 8 existing chunk(s) for resume.
+
+Chunks (8):
+  Worker 0: 29,979 rows — chunk_0.csv
+  Worker 1: 29,979 rows — chunk_1.csv
+  Worker 2: 29,979 rows — chunk_2.csv
+  Worker 3: 29,979 rows — chunk_3.csv
+  Worker 4: 29,979 rows — chunk_4.csv
+  Worker 5: 29,979 rows — chunk_5.csv
+  Worker 6: 29,979 rows — chunk_6.csv
+  Worker 7: 29,973 rows — chunk_7.csv
+
+Starting 8 worker(s)...
+
+[Worker 1] GPU(s) 1 | chunk: chunk_1.csv | log: worker_1.log
+[Worker 0] GPU(s) 0 | chunk: chunk_0.csv | log: worker_0.log
+[Worker 2] GPU(s) 2 | chunk: chunk_2.csv | log: worker_2.log
+[Worker 4] GPU(s) 4 | chunk: chunk_4.csv | log: worker_4.log
+[Worker 3] GPU(s) 3 | chunk: chunk_3.csv | log: worker_3.log
+[Worker 6] GPU(s) 6 | chunk: chunk_6.csv | log: worker_6.log
+[Worker 5] GPU(s) 5 | chunk: chunk_5.csv | log: worker_5.log
+[Worker 7] GPU(s) 7 | chunk: chunk_7.csv | log: worker_7.log
+[Worker 2] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_2.csv
+[Worker 2] [info] Rows total=29979 pending=29643
+[Worker 2] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 2] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 2] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 2] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 5] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_5.csv
+[Worker 5] [info] Rows total=29979 pending=29643
+[Worker 5] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 5] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 5] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 5] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 3] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_3.csv
+[Worker 3] [info] Rows total=29979 pending=29643
+[Worker 3] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 3] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 3] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 3] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 4] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_4.csv
+[Worker 7] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_7.csv
+[Worker 4] [info] Rows total=29979 pending=29643
+[Worker 4] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 4] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 4] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 4] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 7] [info] Rows total=29973 pending=29637
+[Worker 7] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 7] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 7] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 7] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 0] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_0.csv
+[Worker 0] [info] Rows total=29979 pending=29643
+[Worker 0] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 0] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 0] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 0] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 6] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_6.csv
+[Worker 6] [info] Rows total=29979 pending=29643
+[Worker 6] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 6] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 6] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 6] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 1] [info] Resuming from /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/split_2022_2023_lora_fewshot_labeled_parallel_state/outputs/result_1.csv
+[Worker 1] [info] Rows total=29979 pending=29643
+[Worker 1] [info] Few-shot directory=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons
+[Worker 1] [info] Few-shot fallback=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/jsons/kyra_modi_stance.json
+[Worker 1] [info] Loading model=/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3
+[Worker 1] [info] Loading adapter=/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/models/mistral_lora_adapter
+[Worker 2] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 5] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 3] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 7] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 1] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 0] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 6] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 4] `torch_dtype` is deprecated! Use `dtype` instead!
+[Worker 2] 
+[Worker 5] 
+[Worker 7] 
+[Worker 3] 
+[Worker 1] 
+[Worker 0] 
+[Worker 6] 
+[Worker 4] 
+[Worker 2] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 3] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 5] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 7] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 1] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 4] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 6] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 2] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.42it/s]
+[Worker 0] Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+[Worker 3] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.48it/s]
+[Worker 5] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.31it/s]
+[Worker 7] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.28it/s]
+[Worker 4] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.42it/s]
+[Worker 2] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.38it/s]
+[Worker 2] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.43it/s]
+[Worker 2] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.42it/s]
+[Worker 1] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.14it/s]
+[Worker 6] Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.08it/s]
+[Worker 3] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.47it/s]
+[Worker 3] Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.54it/s]
+[Worker 3] Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  1.52it/s]
+[Worker 5] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.40it/s]
+[Worker 5] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.50it/s]
+[Worker 5] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.46it/s]
+[Worker 7] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.36it/s]
+[Worker 7] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.46it/s]
+[Worker 7] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.42it/s]
+[Worker 0] Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:02,  1.05s/it]
+[Worker 4] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.35it/s]
+[Worker 4] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.48it/s]
+[Worker 4] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.45it/s]
+[Worker 1] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.12it/s]
+[Worker 1] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.21it/s]
+[Worker 1] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.19it/s]
+[Worker 6] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.10it/s]
+[Worker 6] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.19it/s]
+[Worker 6] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.16it/s]
+[Worker 0] Loading checkpoint shards:  67%|██████▋   | 2/3 [00:02<00:00,  1.01it/s]
+[Worker 0] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.10it/s]
+[Worker 0] Loading checkpoint shards: 100%|██████████| 3/3 [00:02<00:00,  1.07it/s]
+[Worker 2] 
+[Worker 7] 
+[Worker 5] 
+[Worker 3] 
+[Worker 4] 
+[Worker 6] 
+[Worker 1] 
+[Worker 0] 
+[Worker 2] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 7] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 5] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 4] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 6] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 3] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 1] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 0] Temporal LoRA inference:   0%|          | 0/618 [00:00<?, ?it/s]
+[Worker 2] Temporal LoRA inference:   0%|          | 1/618 [00:18<3:05:09, 18.01s/it]
+[Worker 7] Temporal LoRA inference:   0%|          | 1/618 [00:19<3:19:48, 19.43s/it]
+[Worker 5] Temporal LoRA inference:   0%|          | 1/618 [00:19<3:17:46, 19.23s/it]
+[Worker 4] Temporal LoRA inference:   0%|          | 1/618 [00:18<3:11:04, 18.58s/it]
+[Worker 1] Temporal LoRA inference:   0%|          | 1/618 [00:18<3:12:07, 18.68s/it]
+[Worker 3] Temporal LoRA inference:   0%|          | 1/618 [00:21<3:36:02, 21.01s/it]
+[Worker 6] Temporal LoRA inference:   0%|          | 1/618 [00:18<3:10:12, 18.50s/it]
+[Worker 0] Temporal LoRA inference:   0%|          | 1/618 [00:20<3:29:45, 20.40s/it]
+[Worker 2] Temporal LoRA inference:   0%|          | 2/618 [00:37<3:15:21, 19.03s/it]
+[Worker 5] Temporal LoRA inference:   0%|          | 2/618 [00:37<3:12:37, 18.76s/it]
+[Worker 1] Temporal LoRA inference:   0%|          | 2/618 [00:36<3:09:18, 18.44s/it]
+[Worker 4] Temporal LoRA inference:   0%|          | 2/618 [00:36<3:07:57, 18.31s/it]
+[Worker 3] Temporal LoRA inference:   0%|          | 2/618 [00:39<3:21:48, 19.66s/it]
+[Worker 7] Temporal LoRA inference:   0%|          | 2/618 [00:38<3:14:47, 18.97s/it]
+[Worker 6] Temporal LoRA inference:   0%|          | 2/618 [00:38<3:18:16, 19.31s/it]
+[Worker 0] Temporal LoRA inference:   0%|          | 2/618 [00:40<3:28:30, 20.31s/it]
+[Worker 2] Temporal LoRA inference:   0%|          | 3/618 [00:56<3:15:18, 19.06s/it]
+[Worker 1] Temporal LoRA inference:   0%|          | 3/618 [00:53<3:02:14, 17.78s/it]
+[Worker 3] Temporal LoRA inference:   0%|          | 3/618 [00:57<3:12:51, 18.82s/it]
+[Worker 5] Temporal LoRA inference:   0%|          | 3/618 [00:56<3:11:19, 18.67s/it]
+[Worker 4] Temporal LoRA inference:   0%|          | 3/618 [00:55<3:11:26, 18.68s/it]
+[Worker 7] Temporal LoRA inference:   0%|          | 3/618 [00:59<3:23:57, 19.90s/it]
+[Worker 6] Temporal LoRA inference:   0%|          | 3/618 [00:58<3:20:12, 19.53s/it]
+[Worker 0] Temporal LoRA inference:   0%|          | 3/618 [01:00<3:27:20, 20.23s/it]
+[Worker 2] Temporal LoRA inference:   1%|          | 4/618 [01:15<3:15:19, 19.09s/it]
+[Worker 1] Temporal LoRA inference:   1%|          | 4/618 [01:12<3:03:12, 17.90s/it]
+[Worker 3] Temporal LoRA inference:   1%|          | 4/618 [01:14<3:05:43, 18.15s/it]
+[Worker 5] Temporal LoRA inference:   1%|          | 4/618 [01:16<3:15:58, 19.15s/it]
+[Worker 7] Temporal LoRA inference:   1%|          | 4/618 [01:17<3:18:51, 19.43s/it]
+[Worker 4] Temporal LoRA inference:   1%|          | 4/618 [01:14<3:13:07, 18.87s/it]
+[Worker 6] Temporal LoRA inference:   1%|          | 4/618 [01:16<3:13:37, 18.92s/it]
+Traceback (most recent call last):
+  File "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/parallel_infer_temporal_lora.py", line 401, in <module>
+    main()
+  File "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/TEMPORAL_SPLIT/parallel_infer_temporal_lora.py", line 358, in main
+    for fut in as_completed(futures):
+  File "/home/ziv_baretto/.local/share/mamba/envs/stance_multiseed/lib/python3.11/concurrent/futures/_base.py", line 243, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/home/ziv_baretto/.local/share/mamba/envs/stance_multiseed/lib/python3.11/threading.py", line 629, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ziv_baretto/.local/share/mamba/envs/stance_multiseed/lib/python3.11/threading.py", line 327, in wait
+    waiter.acquire()
+KeyboardInterrupt

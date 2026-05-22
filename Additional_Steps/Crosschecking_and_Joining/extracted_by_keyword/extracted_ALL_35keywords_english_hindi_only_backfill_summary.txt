@@ -1,0 +1,29 @@
+EXISTING STANCE BACKFILL SUMMARY
+Combined CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/combined_stance_results.csv
+Extracted CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/extracted_by_keyword/extracted_ALL_35keywords_english_hindi_only.csv
+Merged output CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/extracted_by_keyword/extracted_ALL_35keywords_english_hindi_only_with_existing_stance.csv
+Remaining-only CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/extracted_by_keyword/extracted_ALL_35keywords_english_hindi_only_remaining_for_inference.csv
+Overwrite existing stance fields: no
+
+Combined index
+- Rows scanned: 457,509
+- Rows missing key: 0
+- Rows missing stance payload: 0
+- Unique matchable keys loaded: 457,127
+- Duplicate rows with same payload: 190
+- Conflicting keys removed: 188
+
+Extracted processing
+- Rows scanned: 545,250
+- Rows with pre-existing stance: 0
+- Rows with at least one combined match: 404,447
+- Rows backfilled from empty stance: 404,447
+- Rows skipped due to ambiguous text-field matches: 1,777
+- Rows without a usable combined match: 140,803
+
+Output
+- Merged rows containing stance data: 404,447
+- Remaining rows still lacking stance data: 140,803
+- Stance cells filled: 2,308,390
+- Stance cells overwritten: 0
+- Existing non-empty cells left unchanged: 0

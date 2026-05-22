@@ -1,0 +1,69 @@
+{
+  "created_at_utc": "2026-04-06T11:52:51.313723+00:00",
+  "source_csv": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge.csv",
+  "source_filename": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge.csv",
+  "rows_per_part": 1000000,
+  "data_rows": 7115963,
+  "header_columns": 23,
+  "columns": [
+    "timestamp",
+    "tweet",
+    "retweet_author",
+    "original_author",
+    "retweet_lc",
+    "original_lc",
+    "retweet_party",
+    "row_id",
+    "tweet_original",
+    "translation_route",
+    "lid_lang",
+    "lid_score",
+    "lid_model",
+    "xlit_lang",
+    "nllb_src_lang",
+    "devanagari_ratio",
+    "script",
+    "en_text",
+    "translation_engine",
+    "cosine_before_after",
+    "hinglish_roman_text",
+    "hinglish_hindi_text",
+    "hinglish_english_text"
+  ],
+  "part_count": 8,
+  "parts_directory": "parts",
+  "parts": [
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0001.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0002.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0003.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0004.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0005.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0006.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0007.csv",
+      "rows": 1000000
+    },
+    {
+      "file": "retweet_data_combined_labeled_by_retweet_en_with_hinglish_bridge_part_0008.csv",
+      "rows": 115963
+    }
+  ]
+}

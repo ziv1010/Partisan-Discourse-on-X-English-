@@ -6,6 +6,7 @@ Uses ONLY PyABSA - no fallback to other models.
 """
 
 import os
+import random
 import sys
 import warnings
 warnings.filterwarnings('ignore')
@@ -42,18 +43,47 @@ def setup_logging(log_file: Path):
     return logging.getLogger(__name__)
 
 
+def set_all_seeds(seed: int):
+    random.seed(seed)
+    np.random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
+    try:
+        import torch
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed)
+    except Exception:
+        pass
+
+
 def normalize_stance(stance: str) -> str:
     """Normalize stance labels."""
     if pd.isna(stance):
-        return 'Neutral'
+        return None
     s = str(stance).lower().strip()
+    if not s:
+        return None
     s = s.replace('favour', 'for').replace('favor', 'for').replace('nuetral', 'neutral')
     if s in ['for', 'positive']:
         return 'For'
     elif s in ['against', 'negative']:
         return 'Against'
-    else:
+    elif s in ['neutral', 'unrelated', 'irrelevant']:
         return 'Neutral'
+    return None
+
+
+def load_three_class_csv(path: str, logger, split_name: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    before = len(df)
+    df['stance'] = df['stance'].apply(normalize_stance)
+    df = df[df['stance'].isin(['For', 'Against', 'Neutral'])].reset_index(drop=True)
+    dropped = before - len(df)
+    logger.info(f"  {split_name} samples: {len(df)}, Unique tweets: {df['tweet'].nunique()}")
+    if dropped:
+        logger.info(f"  Dropped {dropped} {split_name} rows with blank/unsupported stance labels")
+    logger.info(f"  {split_name} stance distribution:\n{df['stance'].value_counts().to_string()}")
+    return df
 
 
 def stance_to_polarity(stance: str) -> str:
@@ -134,7 +164,7 @@ def create_pyabsa_dataset(df: pd.DataFrame, output_dir: Path, split_name: str, l
     return output_file
 
 
-def train_pyabsa_model(dataset_dir: Path, model_dir: Path, logger, epochs=5):
+def train_pyabsa_model(dataset_dir: Path, model_dir: Path, logger, epochs=5, seed=42, batch_size=16):
     """Train PyABSA APC model on custom dataset."""
     logger.info("")
     logger.info("=" * 60)
@@ -156,12 +186,12 @@ def train_pyabsa_model(dataset_dir: Path, model_dir: Path, logger, epochs=5):
         config.model = APC.APCModelList.FAST_LCF_BERT
         config.pretrained_bert = 'bert-base-uncased'
         config.num_epoch = epochs
-        config.batch_size = 16
+        config.batch_size = batch_size
         config.learning_rate = 2e-5
         config.l2reg = 1e-5
         config.max_seq_len = 256
         config.dropout = 0.1
-        config.seed = 42
+        config.seed = seed
         config.log_step = 50
         config.patience = 3
         config.save_mode = 1  # Save best model
@@ -170,17 +200,38 @@ def train_pyabsa_model(dataset_dir: Path, model_dir: Path, logger, epochs=5):
         logger.info(f"  Pretrained: {config.pretrained_bert}")
         logger.info(f"  Epochs: {config.num_epoch}")
         logger.info(f"  Batch size: {config.batch_size}")
+        logger.info(f"  Seed: {config.seed}")
         
-        # Train
+        # PyABSA's dataset detector searches from the current working directory
+        # with a shallow default depth. Enter the dataset directory and pass "."
+        # so deeply nested multiseed run paths are detected reliably.
         logger.info("")
         logger.info("Starting training...")
-        trainer = APC.APCTrainer(
-            config=config,
-            dataset=str(dataset_dir),
-            checkpoint_save_mode=1,
-            auto_device=True,
-            path_to_save=str(model_dir)
-        )
+        # When CUDA_VISIBLE_DEVICES restricts the process to a subset of GPUs
+        # (e.g. parallel-models mode), pyabsa's autocuda probes nvidia-smi
+        # directly and may pick a physical GPU index that PyTorch can't see,
+        # causing "invalid device ordinal". Pass an explicit device string so
+        # pyabsa skips autocuda and uses the only visible device, cuda:0.
+        import torch as _torch_for_device
+        if _torch_for_device.cuda.is_available():
+            device_for_pyabsa = "cuda:0"
+        else:
+            device_for_pyabsa = "cpu"
+        logger.info(f"  Pyabsa device override: {device_for_pyabsa} "
+                    f"(CUDA_VISIBLE_DEVICES={os.environ.get('CUDA_VISIBLE_DEVICES', 'unset')})")
+
+        old_cwd = os.getcwd()
+        try:
+            os.chdir(dataset_dir)
+            trainer = APC.APCTrainer(
+                config=config,
+                dataset=".",
+                checkpoint_save_mode=1,
+                auto_device=device_for_pyabsa,
+                path_to_save=str(model_dir)
+            )
+        finally:
+            os.chdir(old_cwd)
         
         logger.info(f"✓ Model trained and saved to: {model_dir}")
         return trainer
@@ -223,8 +274,15 @@ def run_inference(model_dir: Path, test_df: pd.DataFrame, logger) -> pd.DataFram
     
     logger.info(f"Loading model from: {checkpoint_path}")
     
+    # Same autocuda workaround as in train_pyabsa_model.
+    import torch as _torch_for_device
+    if _torch_for_device.cuda.is_available():
+        device_for_pyabsa = "cuda:0"
+    else:
+        device_for_pyabsa = "cpu"
+
     try:
-        classifier = APC.SentimentClassifier(checkpoint=str(checkpoint_path), auto_device=True)
+        classifier = APC.SentimentClassifier(checkpoint=str(checkpoint_path), auto_device=device_for_pyabsa)
     except Exception as e:
         logger.error(f"Failed to load trained model: {e}")
         logger.error("Ensure training completed successfully.")
@@ -280,12 +338,20 @@ def run_inference(model_dir: Path, test_df: pd.DataFrame, logger) -> pd.DataFram
 def main():
     parser = argparse.ArgumentParser(description='PyABSA Stance Classification')
     parser.add_argument('--train-csv', type=str, required=True, help='Path to train CSV')
+    parser.add_argument('--dev-csv', type=str, default=None, help='Optional fixed dev CSV')
     parser.add_argument('--test-csv', type=str, required=True, help='Path to test CSV')
     parser.add_argument('--output-dir', type=str, default=str(RESULTS_DIR), help='Output directory')
+    parser.add_argument('--model-dir', type=str, default=str(MODEL_DIR), help='Model/checkpoint directory')
+    parser.add_argument('--dataset-dir', type=str, default=str(DATASET_DIR), help='Temporary PyABSA dataset directory')
     parser.add_argument('--log-file', type=str, default=str(LOGS_DIR / 'pyabsa.log'), help='Log file path')
+    parser.add_argument('--prediction-file', type=str, default='pyabsa_predictions.csv', help='Prediction CSV filename')
     parser.add_argument('--epochs', type=int, default=5, help='Training epochs')
+    parser.add_argument('--batch-size', type=int, default=16, help='Training batch size')
+    parser.add_argument('--seed', type=int, default=42, help='Random seed')
+    parser.add_argument('--split-seed', type=int, default=42, help='Used only when --dev-csv is not supplied')
     parser.add_argument('--skip-train', action='store_true', help='Skip training and use existing model')
     args = parser.parse_args()
+    set_all_seeds(args.seed)
     
     # Setup logging
     log_path = Path(args.log_file)
@@ -298,45 +364,46 @@ def main():
     
     # Create directories
     output_dir = Path(args.output_dir)
+    model_dir = Path(args.model_dir)
+    dataset_dir = Path(args.dataset_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    MODEL_DIR.mkdir(parents=True, exist_ok=True)
-    DATASET_DIR.mkdir(parents=True, exist_ok=True)
+    model_dir.mkdir(parents=True, exist_ok=True)
+    dataset_dir.mkdir(parents=True, exist_ok=True)
     
     # Load data
     logger.info(f"Loading train data from: {args.train_csv}")
-    train_df = pd.read_csv(args.train_csv)
-    train_df['stance'] = train_df['stance'].apply(normalize_stance)
-    logger.info(f"  Train samples: {len(train_df)}, Unique tweets: {train_df['tweet'].nunique()}")
+    train_df = load_three_class_csv(args.train_csv, logger, "Train")
+    if args.dev_csv:
+        logger.info(f"Loading fixed dev data from: {args.dev_csv}")
+        val_data = load_three_class_csv(args.dev_csv, logger, "Dev")
+        train_data = train_df
+    else:
+        from sklearn.model_selection import train_test_split
+        train_data, val_data = train_test_split(
+            train_df, test_size=0.1, random_state=args.split_seed, stratify=train_df['stance']
+        )
     
     logger.info(f"Loading test data from: {args.test_csv}")
-    test_df = pd.read_csv(args.test_csv)
-    test_df['stance'] = test_df['stance'].apply(normalize_stance)
-    logger.info(f"  Test samples: {len(test_df)}, Unique tweets: {test_df['tweet'].nunique()}")
+    test_df = load_three_class_csv(args.test_csv, logger, "Test")
     
     # Create PyABSA dataset files
     logger.info("")
     logger.info("Creating PyABSA dataset files...")
     
-    # Split train for validation (90/10)
-    from sklearn.model_selection import train_test_split
-    train_data, val_data = train_test_split(
-        train_df, test_size=0.1, random_state=42, stratify=train_df['stance']
-    )
-    
-    create_pyabsa_dataset(train_data, DATASET_DIR, "train", logger)
-    create_pyabsa_dataset(val_data, DATASET_DIR, "test", logger)
+    create_pyabsa_dataset(train_data, dataset_dir, "train", logger)
+    create_pyabsa_dataset(val_data, dataset_dir, "test", logger)
     
     # Train model (unless skipped)
     if not args.skip_train:
-        train_pyabsa_model(DATASET_DIR, MODEL_DIR, logger, epochs=args.epochs)
+        train_pyabsa_model(dataset_dir, model_dir, logger, epochs=args.epochs, seed=args.seed, batch_size=args.batch_size)
     else:
         logger.info("Skipping training, using existing model...")
     
     # Run inference
-    predictions_df = run_inference(MODEL_DIR, test_df, logger)
+    predictions_df = run_inference(model_dir, test_df, logger)
     
     # Save predictions
-    output_path = output_dir / "pyabsa_predictions.csv"
+    output_path = output_dir / args.prediction_file
     predictions_df.to_csv(output_path, index=False)
     logger.info(f"✓ Saved predictions to: {output_path}")
     

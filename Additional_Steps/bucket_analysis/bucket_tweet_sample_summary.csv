@@ -1,0 +1,165 @@
+bucket,keyword,party,stance,sample_count
+Agrarian Reform & Farmer Movement,farm laws,pro opposition,against,2
+Agrarian Reform & Farmer Movement,farm laws,pro opposition,favor,1
+Agrarian Reform & Farmer Movement,farm laws,pro opposition,neutral,1
+Agrarian Reform & Farmer Movement,farm laws,pro ruling,against,1
+Agrarian Reform & Farmer Movement,farm laws,pro ruling,favor,1
+Agrarian Reform & Farmer Movement,farm laws,pro ruling,neutral,1
+Agrarian Reform & Farmer Movement,farmers protests,pro opposition,against,2
+Agrarian Reform & Farmer Movement,farmers protests,pro opposition,favor,1
+Agrarian Reform & Farmer Movement,farmers protests,pro opposition,neutral,1
+Agrarian Reform & Farmer Movement,farmers protests,pro ruling,against,1
+Agrarian Reform & Farmer Movement,farmers protests,pro ruling,favor,1
+Agrarian Reform & Farmer Movement,farmers protests,pro ruling,neutral,1
+Agrarian Reform & Farmer Movement,msp,pro opposition,against,1
+Agrarian Reform & Farmer Movement,msp,pro opposition,favor,1
+Agrarian Reform & Farmer Movement,msp,pro opposition,neutral,1
+Agrarian Reform & Farmer Movement,msp,pro ruling,against,1
+Agrarian Reform & Farmer Movement,msp,pro ruling,favor,1
+Agrarian Reform & Farmer Movement,msp,pro ruling,neutral,1
+"Citizenship, Belonging & Mass Protest Politics",caa,pro opposition,against,2
+"Citizenship, Belonging & Mass Protest Politics",caa,pro opposition,favor,2
+"Citizenship, Belonging & Mass Protest Politics",caa,pro opposition,neutral,2
+"Citizenship, Belonging & Mass Protest Politics",caa,pro ruling,against,2
+"Citizenship, Belonging & Mass Protest Politics",caa,pro ruling,favor,1
+"Citizenship, Belonging & Mass Protest Politics",caa,pro ruling,neutral,1
+"Citizenship, Belonging & Mass Protest Politics",shaheen bagh,pro opposition,against,2
+"Citizenship, Belonging & Mass Protest Politics",shaheen bagh,pro opposition,favor,2
+"Citizenship, Belonging & Mass Protest Politics",shaheen bagh,pro opposition,neutral,2
+"Citizenship, Belonging & Mass Protest Politics",shaheen bagh,pro ruling,against,2
+"Citizenship, Belonging & Mass Protest Politics",shaheen bagh,pro ruling,favor,1
+"Citizenship, Belonging & Mass Protest Politics",shaheen bagh,pro ruling,neutral,1
+"Communal Relations, Minority Rights & Collective Violence",hathras,pro opposition,against,1
+"Communal Relations, Minority Rights & Collective Violence",hathras,pro opposition,favor,1
+"Communal Relations, Minority Rights & Collective Violence",hathras,pro opposition,neutral,1
+"Communal Relations, Minority Rights & Collective Violence",hathras,pro ruling,against,1
+"Communal Relations, Minority Rights & Collective Violence",islamists,pro opposition,against,1
+"Communal Relations, Minority Rights & Collective Violence",islamists,pro opposition,neutral,1
+"Communal Relations, Minority Rights & Collective Violence",islamists,pro ruling,against,1
+"Communal Relations, Minority Rights & Collective Violence",islamists,pro ruling,favor,1
+"Communal Relations, Minority Rights & Collective Violence",lynching,pro opposition,against,1
+"Communal Relations, Minority Rights & Collective Violence",lynching,pro opposition,favor,1
+"Communal Relations, Minority Rights & Collective Violence",lynching,pro opposition,neutral,1
+"Communal Relations, Minority Rights & Collective Violence",minorities,pro opposition,against,1
+"Communal Relations, Minority Rights & Collective Violence",minorities,pro opposition,favor,1
+"Communal Relations, Minority Rights & Collective Violence",minorities,pro opposition,neutral,1
+"Communal Relations, Minority Rights & Collective Violence",muslim,pro opposition,against,1
+"Communal Relations, Minority Rights & Collective Violence",muslim,pro opposition,favor,1
+"Communal Relations, Minority Rights & Collective Violence",muslim,pro opposition,neutral,1
+"Communal Relations, Minority Rights & Collective Violence",sharia,pro opposition,against,1
+"Communal Relations, Minority Rights & Collective Violence",sharia,pro opposition,favor,1
+"Communal Relations, Minority Rights & Collective Violence",sharia,pro opposition,neutral,1
+"Economy, Development & Macro-Stewardship",aatmanirbhar,pro opposition,against,1
+"Economy, Development & Macro-Stewardship",aatmanirbhar,pro opposition,favor,1
+"Economy, Development & Macro-Stewardship",aatmanirbhar,pro opposition,neutral,1
+"Economy, Development & Macro-Stewardship",aatmanirbhar,pro ruling,against,1
+"Economy, Development & Macro-Stewardship",demonetisation,pro opposition,against,1
+"Economy, Development & Macro-Stewardship",demonetisation,pro opposition,favor,1
+"Economy, Development & Macro-Stewardship",demonetisation,pro opposition,neutral,1
+"Economy, Development & Macro-Stewardship",demonetisation,pro ruling,against,1
+"Economy, Development & Macro-Stewardship",gdp,pro opposition,against,1
+"Economy, Development & Macro-Stewardship",gdp,pro opposition,favor,1
+"Economy, Development & Macro-Stewardship",gdp,pro opposition,neutral,1
+"Economy, Development & Macro-Stewardship",inflation,pro opposition,against,1
+"Economy, Development & Macro-Stewardship",inflation,pro opposition,favor,1
+"Economy, Development & Macro-Stewardship",inflation,pro opposition,neutral,1
+"Economy, Development & Macro-Stewardship",suicides,pro opposition,against,1
+"Economy, Development & Macro-Stewardship",suicides,pro opposition,favor,1
+"Economy, Development & Macro-Stewardship",suicides,pro opposition,neutral,1
+"Economy, Development & Macro-Stewardship",unemployment,pro opposition,against,1
+"Economy, Development & Macro-Stewardship",unemployment,pro opposition,favor,1
+"Economy, Development & Macro-Stewardship",unemployment,pro opposition,neutral,1
+"Institutions, Democracy & State Accountability",democracy,pro opposition,against,1
+"Institutions, Democracy & State Accountability",democracy,pro opposition,favor,1
+"Institutions, Democracy & State Accountability",democracy,pro opposition,neutral,1
+"Institutions, Democracy & State Accountability",democracy,pro ruling,against,1
+"Institutions, Democracy & State Accountability",democracy,pro ruling,favor,1
+"Institutions, Democracy & State Accountability",dictatorship,pro opposition,against,1
+"Institutions, Democracy & State Accountability",dictatorship,pro opposition,favor,1
+"Institutions, Democracy & State Accountability",dictatorship,pro opposition,neutral,1
+"Institutions, Democracy & State Accountability",dictatorship,pro ruling,against,1
+"Institutions, Democracy & State Accountability",dictatorship,pro ruling,neutral,1
+"Institutions, Democracy & State Accountability",new parliament,pro opposition,against,1
+"Institutions, Democracy & State Accountability",new parliament,pro opposition,favor,1
+"Institutions, Democracy & State Accountability",new parliament,pro opposition,neutral,1
+"Institutions, Democracy & State Accountability",new parliament,pro ruling,against,1
+"Institutions, Democracy & State Accountability",new parliament,pro ruling,favor,1
+"Institutions, Democracy & State Accountability",spyware,pro opposition,against,1
+"Institutions, Democracy & State Accountability",spyware,pro opposition,favor,1
+"Institutions, Democracy & State Accountability",spyware,pro opposition,neutral,1
+"Institutions, Democracy & State Accountability",spyware,pro ruling,against,1
+"Institutions, Democracy & State Accountability",spyware,pro ruling,favor,1
+Leader & Party Contestation,congress,pro opposition,against,2
+Leader & Party Contestation,congress,pro opposition,favor,1
+Leader & Party Contestation,congress,pro opposition,neutral,1
+Leader & Party Contestation,congress,pro ruling,against,1
+Leader & Party Contestation,congress,pro ruling,favor,1
+Leader & Party Contestation,congress,pro ruling,neutral,1
+Leader & Party Contestation,modi,pro opposition,against,2
+Leader & Party Contestation,modi,pro opposition,favor,1
+Leader & Party Contestation,modi,pro opposition,neutral,1
+Leader & Party Contestation,modi,pro ruling,against,1
+Leader & Party Contestation,modi,pro ruling,favor,1
+Leader & Party Contestation,modi,pro ruling,neutral,1
+Leader & Party Contestation,rahulgandhi,pro opposition,against,1
+Leader & Party Contestation,rahulgandhi,pro opposition,favor,1
+Leader & Party Contestation,rahulgandhi,pro opposition,neutral,1
+Leader & Party Contestation,rahulgandhi,pro ruling,against,1
+Leader & Party Contestation,rahulgandhi,pro ruling,favor,1
+Leader & Party Contestation,rahulgandhi,pro ruling,neutral,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,bhakts,pro opposition,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,bhakts,pro opposition,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,bhakts,pro opposition,neutral,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,bhakts,pro ruling,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,bhakts,pro ruling,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindu,pro opposition,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindu,pro opposition,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindu,pro opposition,neutral,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindu,pro ruling,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindu,pro ruling,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindutva,pro opposition,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindutva,pro opposition,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindutva,pro opposition,neutral,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindutva,pro ruling,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,hindutva,pro ruling,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,sangh,pro opposition,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,sangh,pro opposition,favor,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,sangh,pro opposition,neutral,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,sangh,pro ruling,against,1
+Majoritarian Ideology & Hindu Nationalist Mobilization,sangh,pro ruling,favor,1
+"Security, Territory & Geopolitics",balochistan,pro opposition,against,2
+"Security, Territory & Geopolitics",balochistan,pro opposition,favor,1
+"Security, Territory & Geopolitics",balochistan,pro opposition,neutral,1
+"Security, Territory & Geopolitics",balochistan,pro ruling,against,1
+"Security, Territory & Geopolitics",balochistan,pro ruling,favor,1
+"Security, Territory & Geopolitics",balochistan,pro ruling,neutral,1
+"Security, Territory & Geopolitics",china,pro opposition,against,2
+"Security, Territory & Geopolitics",china,pro opposition,favor,1
+"Security, Territory & Geopolitics",china,pro opposition,neutral,1
+"Security, Territory & Geopolitics",china,pro ruling,against,1
+"Security, Territory & Geopolitics",china,pro ruling,favor,1
+"Security, Territory & Geopolitics",china,pro ruling,neutral,1
+"Security, Territory & Geopolitics",kashmir,pro opposition,against,1
+"Security, Territory & Geopolitics",kashmir,pro opposition,favor,1
+"Security, Territory & Geopolitics",kashmir,pro opposition,neutral,1
+"Security, Territory & Geopolitics",kashmir,pro ruling,against,1
+"Security, Territory & Geopolitics",kashmir,pro ruling,favor,1
+"Security, Territory & Geopolitics",kashmir,pro ruling,neutral,1
+Symbolic Nationhood & Cultural-Religious Projects,ayodhya,pro opposition,against,2
+Symbolic Nationhood & Cultural-Religious Projects,ayodhya,pro opposition,favor,1
+Symbolic Nationhood & Cultural-Religious Projects,ayodhya,pro opposition,neutral,1
+Symbolic Nationhood & Cultural-Religious Projects,ayodhya,pro ruling,against,1
+Symbolic Nationhood & Cultural-Religious Projects,ayodhya,pro ruling,favor,1
+Symbolic Nationhood & Cultural-Religious Projects,ayodhya,pro ruling,neutral,1
+Symbolic Nationhood & Cultural-Religious Projects,mahotsav,pro opposition,against,2
+Symbolic Nationhood & Cultural-Religious Projects,mahotsav,pro opposition,favor,1
+Symbolic Nationhood & Cultural-Religious Projects,mahotsav,pro opposition,neutral,1
+Symbolic Nationhood & Cultural-Religious Projects,mahotsav,pro ruling,against,1
+Symbolic Nationhood & Cultural-Religious Projects,mahotsav,pro ruling,favor,1
+Symbolic Nationhood & Cultural-Religious Projects,mahotsav,pro ruling,neutral,1
+Symbolic Nationhood & Cultural-Religious Projects,ram mandir,pro opposition,against,1
+Symbolic Nationhood & Cultural-Religious Projects,ram mandir,pro opposition,favor,1
+Symbolic Nationhood & Cultural-Religious Projects,ram mandir,pro opposition,neutral,1
+Symbolic Nationhood & Cultural-Religious Projects,ram mandir,pro ruling,against,1
+Symbolic Nationhood & Cultural-Religious Projects,ram mandir,pro ruling,favor,1
+Symbolic Nationhood & Cultural-Religious Projects,ram mandir,pro ruling,neutral,1

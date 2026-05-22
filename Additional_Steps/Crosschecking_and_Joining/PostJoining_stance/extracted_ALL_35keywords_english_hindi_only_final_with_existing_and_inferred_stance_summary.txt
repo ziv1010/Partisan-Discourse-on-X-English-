@@ -1,0 +1,18 @@
+FINAL STANCE MERGE SUMMARY
+Base CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/extracted_by_keyword/extracted_ALL_35keywords_english_hindi_only_with_existing_stance.csv
+Result CSV count: 2
+Result CSVs: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/PostJoining_stance/extracted_ALL_35keywords_english_hindi_only_remaining_for_inference_mistral7b_lora_stance_parallel_state/outputs/result_0.csv, /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/PostJoining_stance/extracted_ALL_35keywords_english_hindi_only_remaining_for_inference_mistral7b_lora_stance_parallel_state/outputs/result_1.csv
+Final output CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/PostJoining_stance/extracted_ALL_35keywords_english_hindi_only_final_with_existing_and_inferred_stance.csv
+
+Results loaded
+- Rows scanned from result files: 140,803
+- Unique result keys: 140,803
+- Result rows missing key: 0
+
+Merge outcome
+- Base rows scanned: 545,250
+- Base rows matched to result rows: 140,803
+- Base rows filled from result rows: 140,803
+- Final rows with stance data: 545,250
+- Final rows without stance data: 0
+- Base rows still missing stance after merge: 0

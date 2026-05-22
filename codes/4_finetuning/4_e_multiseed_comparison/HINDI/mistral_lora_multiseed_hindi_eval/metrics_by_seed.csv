@@ -1,0 +1,4 @@
+seed,model,n_total,n_valid,accuracy,f1_weighted,f1_macro,prediction_file
+13,mistral_lora_finetuned_fewshot,100,100,0.67,0.6592514266204945,0.5884927408997057,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/HINDI/mistral_lora_multiseed_hindi_eval/seed_13/mistral_lora_predictions.csv
+42,mistral_lora_finetuned_fewshot,100,100,0.65,0.6455158031932225,0.5849245139567719,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/HINDI/mistral_lora_multiseed_hindi_eval/seed_42/mistral_lora_predictions.csv
+100,mistral_lora_finetuned_fewshot,100,100,0.62,0.6110594633026201,0.5375749015990752,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/HINDI/mistral_lora_multiseed_hindi_eval/seed_100/mistral_lora_predictions.csv

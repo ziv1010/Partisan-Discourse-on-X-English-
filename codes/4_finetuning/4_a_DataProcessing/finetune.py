@@ -6,9 +6,9 @@
 # - Model path (offline): /home/ziv.barretto_ug25/LLM/mistral_7b_instruct_v0_3_full
 # - Expects CSV columns (we normalize headers): tweet, keyword, stance, stance_reason
 #   (Your sample's "stance reason" will be auto-normalized to "stance_reason".)
-# - Trains to emit strict JSON: {"stance": "<For|Against|Neutral|Unrelated>", "reason": "<short reason>"}
+# - Trains to emit strict JSON: {"stance": "<For|Against|Neutral>", "reason": "<short reason>"}
 # - Masks loss for the prompt, optimizes only the JSON completion.
-# - Uses TRL SFTTrainer if available; otherwise falls back to HF Trainer with manual masking.
+# - Uses HF Trainer with manual response masking by default.
 
 # Run (example):
 #   HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 CUDA_VISIBLE_DEVICES=0 \\
@@ -371,8 +371,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os, argparse, math, json, re
-from typing import Dict, Tuple
+import os, argparse, math, json, re, random
+from typing import Dict, Optional, Tuple
 
 os.environ.setdefault("HF_HUB_OFFLINE", "1")
 os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
@@ -382,7 +382,7 @@ import torch
 from datasets import load_dataset
 from transformers import (
     AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer,
-    default_data_collator
+    default_data_collator, set_seed
 )
 from peft import LoraConfig, get_peft_model
 
@@ -397,25 +397,47 @@ INSTR_HDR = "### Instruction:\n"
 INPUT_HDR = "### Input:\n"
 RESP_HDR  = "### Response:\n"
 
-ALLOWED_STANCES = {"for": "For", "against": "Against", "neutral": "Neutral", "unrelated": "Unrelated"}
+ALLOWED_STANCES = {
+    "for": "For",
+    "favor": "For",
+    "favour": "For",
+    "positive": "For",
+    "support": "For",
+    "supports": "For",
+    "against": "Against",
+    "negative": "Against",
+    "oppose": "Against",
+    "opposes": "Against",
+    "opposed": "Against",
+    "neutral": "Neutral",
+    "nuetral": "Neutral",
+    "unrelated": "Neutral",
+    "irrelevant": "Neutral",
+}
+VALID_STANCES = {"For", "Against", "Neutral"}
 
 def normalize_header(name: str) -> str:
     n = name.strip().strip(",").lower()
     n = re.sub(r"\s+", "_", n)
     return n
 
-def normalize_stance(x: str) -> str:
+def normalize_stance(x: str) -> Optional[str]:
     if x is None:
-        return "Unrelated"
+        return None
     s = str(x).strip().lower().replace(".", "")
+    if not s:
+        return None
     s = s.replace("favour", "for").replace("in_favor", "for").replace("in favour", "for")
+    s = s.replace("favor", "for").replace("in favor", "for")
     s = s.replace("oppose", "against")
-    return ALLOWED_STANCES.get(s, "Unrelated")
+    return ALLOWED_STANCES.get(s)
 
 def build_prompt_and_response(row: Dict) -> Tuple[str, str]:
     tweet   = str(row.get("tweet", "")).strip()
     keyword = str(row.get("keyword", "")).strip()
     stance  = normalize_stance(row.get("stance", ""))
+    if stance not in VALID_STANCES:
+        raise ValueError(f"Invalid stance label after normalization: {row.get('stance')!r}")
     reason  = str(row.get("stance_reason", "")).strip()
 
     if not reason:
@@ -423,11 +445,11 @@ def build_prompt_and_response(row: Dict) -> Tuple[str, str]:
             "Neutral": "No clear support or opposition is expressed.",
             "For":     "Expresses support or positive sentiment.",
             "Against": "Expresses opposition or negative sentiment.",
-        }.get(stance, "No stance toward the target is expressed.")
+        }[stance]
 
     instruction = (
-        'Given a tweet and a target keyword, classify the tweet’s stance toward the target as one of '
-        '"For", "Against", "Neutral", or "Unrelated" and provide a concise reason grounded in the tweet. '
+        'Given a tweet and a target keyword, classify the tweet’s stance toward the target as exactly one of '
+        '"For", "Against", or "Neutral" and provide a concise reason grounded in the tweet. '
         'Return ONLY a compact JSON object with keys "stance" and "reason" (no extra text).'
     )
     model_input = f"target: {keyword}\n\ntweet: {tweet}"
@@ -474,6 +496,12 @@ def load_and_prepare_csv(csv_path: str):
 
     if "stance_reason" not in ds.column_names:
         ds = ds.add_column("stance_reason", [""] * len(ds))
+
+    before = len(ds)
+    ds = ds.filter(lambda row: normalize_stance(row.get("stance")) in VALID_STANCES)
+    dropped = before - len(ds)
+    if dropped:
+        print(f"[info] Dropped {dropped} rows with blank or unsupported stance labels from {csv_path}")
 
     def to_text_examples(batch):
         texts = []
@@ -540,6 +568,14 @@ def get_lora_config():
         ],
     )
 
+def is_distributed_run() -> bool:
+    return int(os.environ.get("WORLD_SIZE", "1")) > 1
+
+
+def is_main_process() -> bool:
+    return int(os.environ.get("RANK", "0")) == 0
+
+
 def load_fp_model_with_lora(model_dir: str, bf16: bool):
     # We want to set compute dtype (fp16 or bf16) when loading model, but
     # MistralForCausalLM doesn’t accept `dtype` param directly in its constructor.
@@ -547,30 +583,50 @@ def load_fp_model_with_lora(model_dir: str, bf16: bool):
     # or fall back to loading default and casting later.
     torch_dtype = torch.bfloat16 if bf16 else torch.float16
 
-    # Try passing torch_dtype to from_pretrained
+    # In a torchrun/accelerate-launched DDP run, every rank loads its own copy
+    # of the model and HF Trainer/Accelerate places it on the local-rank GPU.
+    # Using device_map="auto" in that mode would shard the model across visible
+    # GPUs (model parallelism), which conflicts with DDP. Skip it when distributed.
+    distributed = is_distributed_run()
+    base_kwargs = dict(torch_dtype=torch_dtype, trust_remote_code=True)
+    if not distributed:
+        base_kwargs["device_map"] = "auto"
+
     try:
-        base = AutoModelForCausalLM.from_pretrained(
-            model_dir,
-            torch_dtype=torch_dtype,
-            device_map="auto",
-            trust_remote_code=True,
-        )
+        base = AutoModelForCausalLM.from_pretrained(model_dir, **base_kwargs)
     except TypeError:
-        # Fallback: load without dtype argument, then convert
-        base = AutoModelForCausalLM.from_pretrained(
-            model_dir,
-            device_map="auto",
-            trust_remote_code=True,
-        )
-        # Then cast to desired dtype
+        base_kwargs.pop("torch_dtype", None)
+        base = AutoModelForCausalLM.from_pretrained(model_dir, **base_kwargs)
         base = base.to(torch_dtype)
 
-    base.gradient_checkpointing_enable()
+    # Use non-reentrant gradient checkpointing. The default (reentrant) variant
+    # runs a separate backward subgraph per checkpointed block, which makes
+    # DDP's autograd hooks fire twice on the same LoRA parameter and fails with
+    # "Expected to mark a variable ready only once". use_reentrant=False uses a
+    # single backward graph and works correctly under DDP.
+    try:
+        base.gradient_checkpointing_enable(gradient_checkpointing_kwargs={"use_reentrant": False})
+    except TypeError:
+        # Older transformers without the kwargs param: best-effort fallback.
+        base.gradient_checkpointing_enable()
     base.config.use_cache = False
 
     lora_cfg = get_lora_config()
     model = get_peft_model(base, lora_cfg)
+    # Required for gradient checkpointing + PEFT (esp. under DDP) so gradients
+    # flow through the frozen embedding back into the trainable LoRA layers.
+    if hasattr(model, "enable_input_require_grads"):
+        model.enable_input_require_grads()
     return model
+
+
+def set_all_seeds(seed: int):
+    random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+    set_seed(seed)
 
 
 @torch.no_grad()
@@ -598,23 +654,28 @@ def build_training_args(args):
         remove_unused_columns=False,
         bf16=args.bf16,
         fp16=(not args.bf16),
+        seed=args.seed,
+        data_seed=args.seed,
     )
-    # Try modern API first
+    # Try current API first, then older Transformers naming.
     try:
-        return TrainingArguments(save_strategy="epoch", evaluation_strategy="epoch", **common)
+        return TrainingArguments(save_strategy="epoch", eval_strategy="epoch", **common)
     except TypeError:
-        # Fallback for older Transformers that don't know evaluation_strategy
         try:
-            return TrainingArguments(save_strategy="epoch", **common)
+            return TrainingArguments(save_strategy="epoch", evaluation_strategy="epoch", **common)
         except TypeError:
-            # Oldest fallback (pre-save_strategy). Uses steps-only logging/saving.
-            common.pop("remove_unused_columns", None)
-            return TrainingArguments(**common)
+            try:
+                return TrainingArguments(save_strategy="epoch", **common)
+            except TypeError:
+                # Oldest fallback (pre-save_strategy). Uses steps-only logging/saving.
+                common.pop("remove_unused_columns", None)
+                return TrainingArguments(**common)
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--model-dir", required=True)
     ap.add_argument("--data-csv", required=True)
+    ap.add_argument("--dev-csv", default=None, help="Optional fixed validation/dev CSV. If omitted, 10%% is split from --data-csv.")
     ap.add_argument("--out-dir", required=True)
     ap.add_argument("--max-length", type=int, default=1024)
     ap.add_argument("--epochs", type=int, default=3)
@@ -623,14 +684,22 @@ def main():
     ap.add_argument("--lr", type=float, default=2e-4)
     ap.add_argument("--bf16", action="store_true")
     ap.add_argument("--eval-ppl", action="store_true")
+    ap.add_argument("--use-trl", action="store_true", help="Use TRL SFTTrainer. Default uses HF Trainer for TRL-version compatibility.")
+    ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--split-seed", type=int, default=42, help="Used only when --dev-csv is not supplied.")
     args = ap.parse_args()
 
     os.makedirs(args.out_dir, exist_ok=True)
+    set_all_seeds(args.seed)
 
     print(f"[info] Loading CSV: {args.data_csv}")
-    ds = load_and_prepare_csv(args.data_csv)
-    ds = ds.train_test_split(test_size=0.1, seed=42)
-    train_ds, val_ds = ds["train"], ds["test"]
+    train_ds = load_and_prepare_csv(args.data_csv)
+    if args.dev_csv:
+        print(f"[info] Loading fixed dev CSV: {args.dev_csv}")
+        val_ds = load_and_prepare_csv(args.dev_csv)
+    else:
+        ds = train_ds.train_test_split(test_size=0.1, seed=args.split_seed)
+        train_ds, val_ds = ds["train"], ds["test"]
 
     print(f"[info] Loading tokenizer & model from: {args.model_dir}")
     tokenizer = make_tokenizer(args.model_dir)
@@ -638,22 +707,32 @@ def main():
 
     training_args = build_training_args(args)
 
-    if HAS_TRL:
+    if args.use_trl and HAS_TRL:
         print("[info] Using TRL SFTTrainer with response-only masking")
         collator = DataCollatorForCompletionOnlyLM(response_template=RESP_HDR, tokenizer=tokenizer)
-        trainer = SFTTrainer(
-            model=model,
-            tokenizer=tokenizer,
-            args=training_args,
-            train_dataset=train_ds,
-            eval_dataset=val_ds,
-            max_seq_length=args.max_length,
-            packing=False,
-            dataset_text_field="text",
-            data_collator=collator,
-        )
+        import inspect
+
+        sft_params = inspect.signature(SFTTrainer.__init__).parameters
+        sft_kwargs = {
+            "model": model,
+            "args": training_args,
+            "train_dataset": train_ds,
+            "eval_dataset": val_ds,
+            "data_collator": collator,
+        }
+        if "tokenizer" in sft_params:
+            sft_kwargs["tokenizer"] = tokenizer
+        elif "processing_class" in sft_params:
+            sft_kwargs["processing_class"] = tokenizer
+        if "max_seq_length" in sft_params:
+            sft_kwargs["max_seq_length"] = args.max_length
+        if "packing" in sft_params:
+            sft_kwargs["packing"] = False
+        if "dataset_text_field" in sft_params:
+            sft_kwargs["dataset_text_field"] = "text"
+        trainer = SFTTrainer(**sft_kwargs)
     else:
-        print("[info] TRL not found. Using manual masking + HF Trainer")
+        print("[info] Using manual masking + HF Trainer")
         train_tok = manual_tokenize_with_mask(train_ds, tokenizer, args.max_length)
         val_tok   = manual_tokenize_with_mask(val_ds, tokenizer, args.max_length)
         trainer = Trainer(
@@ -666,14 +745,27 @@ def main():
         )
 
     trainer.train()
-    print("[info] Saving LoRA adapter to:", args.out_dir)
-    trainer.model.save_pretrained(args.out_dir)
-    tokenizer.save_pretrained(args.out_dir)
 
-    if args.eval_ppl:
+    # Under DDP, all ranks have an identical model after train() syncs gradients.
+    # Save only on rank 0 to avoid concurrent writes to the same adapter dir.
+    if is_main_process():
+        print("[info] Saving LoRA adapter to:", args.out_dir)
+        trainer.model.save_pretrained(args.out_dir)
+        tokenizer.save_pretrained(args.out_dir)
+
+    if args.eval_ppl and is_main_process():
         print("[info] Computing response-only perplexity on validation split …")
         ppl = eval_perplexity_response_only(trainer.model, tokenizer, val_ds, args.max_length, batch_size=4)
         print(f"[metric] Val PPL (response-only): {ppl:.3f}")
+
+    # Block other ranks from exiting until rank 0 is done writing files.
+    if is_distributed_run():
+        try:
+            import torch.distributed as dist
+            if dist.is_initialized():
+                dist.barrier()
+        except Exception:
+            pass
 
 if __name__ == "__main__":
     torch.backends.cuda.matmul.allow_tf32 = True

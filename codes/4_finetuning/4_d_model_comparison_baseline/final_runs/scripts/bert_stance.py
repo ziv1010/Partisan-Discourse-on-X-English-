@@ -5,6 +5,7 @@ Trains BERT on master_train.csv, evaluates on master_test.csv.
 """
 
 import os
+import random
 import sys
 import warnings
 warnings.filterwarnings('ignore')
@@ -20,6 +21,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertForSequenceClassification
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import f1_score
 from tqdm import tqdm
 
 # Paths
@@ -44,18 +46,43 @@ def setup_logging(log_file: Path):
     return logging.getLogger(__name__)
 
 
+def set_all_seeds(seed: int):
+    random.seed(seed)
+    np.random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+
 def normalize_stance(stance: str) -> str:
     """Normalize stance labels."""
     if pd.isna(stance):
-        return 'Neutral'
+        return None
     s = str(stance).lower().strip()
+    if not s:
+        return None
     s = s.replace('favour', 'for').replace('favor', 'for').replace('nuetral', 'neutral')
     if s in ['for', 'positive']:
         return 'For'
     elif s in ['against', 'negative']:
         return 'Against'
-    else:
+    elif s in ['neutral', 'unrelated', 'irrelevant']:
         return 'Neutral'
+    return None
+
+
+def load_three_class_csv(path: str, logger, split_name: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    before = len(df)
+    df['stance'] = df['stance'].apply(normalize_stance)
+    df = df[df['stance'].isin(LABEL2ID)].reset_index(drop=True)
+    dropped = before - len(df)
+    logger.info(f"  {split_name} samples: {len(df)}, Unique tweets: {df['tweet'].nunique()}")
+    if dropped:
+        logger.info(f"  Dropped {dropped} {split_name} rows with blank/unsupported stance labels")
+    logger.info(f"  {split_name} stance distribution:\n{df['stance'].value_counts().to_string()}")
+    return df
 
 
 class StanceDataset(Dataset):
@@ -93,7 +120,7 @@ class StanceDataset(Dataset):
         }
 
 
-def train_model(model, train_loader, val_loader, device, epochs=3, lr=2e-5, logger=None):
+def train_model(model, train_loader, val_loader, device, model_dir: Path, epochs=3, lr=2e-5, logger=None):
     """Train BERT model."""
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
     best_val_acc = 0
@@ -140,7 +167,7 @@ def train_model(model, train_loader, val_loader, device, epochs=3, lr=2e-5, logg
         
         if val_acc > best_val_acc:
             best_val_acc = val_acc
-            torch.save(model.state_dict(), MODEL_DIR / "best_model.pt")
+            torch.save(model.state_dict(), model_dir / "best_model.pt")
     
     return model
 
@@ -165,12 +192,18 @@ def predict(model, test_loader, device):
 def main():
     parser = argparse.ArgumentParser(description='BERT Stance Classification')
     parser.add_argument('--train-csv', type=str, required=True, help='Path to train CSV')
+    parser.add_argument('--dev-csv', type=str, default=None, help='Optional fixed dev CSV')
     parser.add_argument('--test-csv', type=str, required=True, help='Path to test CSV')
     parser.add_argument('--output-dir', type=str, default=str(RESULTS_DIR), help='Output directory')
+    parser.add_argument('--model-dir', type=str, default=str(MODEL_DIR), help='Model/checkpoint directory')
     parser.add_argument('--log-file', type=str, default=str(LOGS_DIR / 'bert.log'), help='Log file path')
+    parser.add_argument('--prediction-file', type=str, default='bert_predictions.csv', help='Prediction CSV filename')
     parser.add_argument('--epochs', type=int, default=3, help='Training epochs')
     parser.add_argument('--batch-size', type=int, default=16, help='Batch size')
+    parser.add_argument('--seed', type=int, default=42, help='Random seed for initialization and dataloader shuffling')
+    parser.add_argument('--split-seed', type=int, default=42, help='Used only when --dev-csv is not supplied')
     args = parser.parse_args()
+    set_all_seeds(args.seed)
     
     # Setup logging
     log_path = Path(args.log_file)
@@ -183,8 +216,9 @@ def main():
     
     # Create directories
     output_dir = Path(args.output_dir)
+    model_dir = Path(args.model_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+    model_dir.mkdir(parents=True, exist_ok=True)
     
     # Device
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -202,17 +236,18 @@ def main():
     
     # Load data
     logger.info(f"Loading train data from: {args.train_csv}")
-    train_df = pd.read_csv(args.train_csv)
-    train_df['stance'] = train_df['stance'].apply(normalize_stance)
-    logger.info(f"  Train samples: {len(train_df)}, Unique tweets: {train_df['tweet'].nunique()}")
+    train_df = load_three_class_csv(args.train_csv, logger, "Train")
+    if args.dev_csv:
+        logger.info(f"Loading fixed dev data from: {args.dev_csv}")
+        val_data = load_three_class_csv(args.dev_csv, logger, "Dev")
+        train_data = train_df
+    else:
+        train_data, val_data = train_test_split(
+            train_df, test_size=0.1, random_state=args.split_seed, stratify=train_df['stance']
+        )
     
     logger.info(f"Loading test data from: {args.test_csv}")
-    test_df = pd.read_csv(args.test_csv)
-    test_df['stance'] = test_df['stance'].apply(normalize_stance)
-    logger.info(f"  Test samples: {len(test_df)}, Unique tweets: {test_df['tweet'].nunique()}")
-    
-    # Split train into train/val
-    train_data, val_data = train_test_split(train_df, test_size=0.1, random_state=42, stratify=train_df['stance'])
+    test_df = load_three_class_csv(args.test_csv, logger, "Test")
     
     # Create datasets
     train_labels = [LABEL2ID[s] for s in train_data['stance']]
@@ -223,16 +258,18 @@ def main():
     val_dataset = StanceDataset(val_data['tweet'].tolist(), val_data['keyword'].tolist(), val_labels, tokenizer)
     test_dataset = StanceDataset(test_df['tweet'].tolist(), test_df['keyword'].tolist(), test_labels, tokenizer)
     
-    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
+    generator = torch.Generator()
+    generator.manual_seed(args.seed)
+    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, generator=generator)
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size)
     test_loader = DataLoader(test_dataset, batch_size=args.batch_size)
     
     # Train
     logger.info(f"\nTraining for {args.epochs} epochs...")
-    model = train_model(model, train_loader, val_loader, device, epochs=args.epochs, logger=logger)
+    model = train_model(model, train_loader, val_loader, device, model_dir=model_dir, epochs=args.epochs, logger=logger)
     
     # Load best model
-    model.load_state_dict(torch.load(MODEL_DIR / "best_model.pt"))
+    model.load_state_dict(torch.load(model_dir / "best_model.pt", map_location=device))
     
     # Predict
     logger.info("\nRunning inference on test set...")
@@ -247,7 +284,7 @@ def main():
     })
     
     # Save predictions
-    output_path = output_dir / "bert_predictions.csv"
+    output_path = output_dir / args.prediction_file
     results_df.to_csv(output_path, index=False)
     logger.info(f"✓ Saved predictions to: {output_path}")
     
@@ -255,8 +292,12 @@ def main():
     correct = (results_df['original_stance'] == results_df['bert_prediction']).sum()
     total = len(results_df)
     accuracy = correct / total * 100
+    macro_f1 = f1_score(results_df['original_stance'], results_df['bert_prediction'], average='macro', labels=list(LABEL2ID), zero_division=0)
+    weighted_f1 = f1_score(results_df['original_stance'], results_df['bert_prediction'], average='weighted', labels=list(LABEL2ID), zero_division=0)
     
     logger.info(f"\nAccuracy: {accuracy:.2f}% ({correct}/{total})")
+    logger.info(f"Macro F1: {macro_f1:.4f}")
+    logger.info(f"Weighted F1: {weighted_f1:.4f}")
     logger.info(f"\nGround truth distribution:\n{results_df['original_stance'].value_counts().to_string()}")
     logger.info(f"\nPrediction distribution:\n{results_df['bert_prediction'].value_counts().to_string()}")
     logger.info("✓ BERT training and inference complete!")

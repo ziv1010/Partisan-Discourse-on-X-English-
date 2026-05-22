@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "model": "bert",
+  "n": 265,
+  "accuracy": 0.5886792452830188,
+  "f1_weighted": 0.5747639991883271,
+  "f1_macro": 0.5519834339349,
+  "prediction_file": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/runs/reviewer_multiseed_3seeds/seed_42/predictions/bert/bert_predictions.csv"
+}

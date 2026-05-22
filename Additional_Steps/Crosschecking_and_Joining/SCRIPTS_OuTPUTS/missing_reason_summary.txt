@@ -1,0 +1,37 @@
+MISSING REASON CLASSIFICATION
+Rows classified: 53,054
+
+Overall reason counts
+- no_keyword_match_in_en_text: 23,364
+- filtered_non_target_label: 15,864
+- text_mismatch_between_combined_and_bridge: 10,826
+- filtered_cosine: 2,452
+- extractable_but_missing_from_extracted: 548
+
+By language
+- english: {'filtered_non_target_label': 11785, 'filtered_cosine': 1298, 'text_mismatch_between_combined_and_bridge': 5115, 'no_keyword_match_in_en_text': 11532, 'extractable_but_missing_from_extracted': 285}
+- hindi: {'no_keyword_match_in_en_text': 11832, 'filtered_non_target_label': 4079, 'text_mismatch_between_combined_and_bridge': 5711, 'filtered_cosine': 1154, 'extractable_but_missing_from_extracted': 263}
+
+Top keywords where combined keyword is not found in bridge en_text
+- modi: 12,691
+- congress: 5,842
+- hindu: 5,790
+- muslim: 3,893
+- rahulgandhi: 2,378
+- kashmir: 2,322
+- china: 1,716
+- democracy: 1,368
+- msp: 995
+- caa: 766
+- ayodhya: 591
+- mahotsav: 580
+- sangh: 556
+- farm laws: 552
+- hindutva: 489
+- unemployment: 455
+- hathras: 437
+- inflation: 297
+- shaheen bagh: 284
+- gdp: 249
+
+Detailed CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/missing_reason_classification.csv

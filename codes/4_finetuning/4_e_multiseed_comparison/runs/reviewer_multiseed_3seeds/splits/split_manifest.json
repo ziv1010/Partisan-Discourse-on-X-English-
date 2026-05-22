@@ -1,0 +1,33 @@
+{
+  "source_train": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv",
+  "source_test": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_test.csv",
+  "split_seed": 42,
+  "dev_size": 0.1,
+  "labels": [
+    "For",
+    "Against",
+    "Neutral"
+  ],
+  "counts": {
+    "train": {
+      "For": 576,
+      "Against": 486,
+      "Neutral": 303
+    },
+    "dev": {
+      "For": 64,
+      "Against": 54,
+      "Neutral": 34
+    },
+    "test": {
+      "For": 111,
+      "Against": 95,
+      "Neutral": 59
+    }
+  },
+  "n_rows": {
+    "train": 1365,
+    "dev": 152,
+    "test": 265
+  }
+}

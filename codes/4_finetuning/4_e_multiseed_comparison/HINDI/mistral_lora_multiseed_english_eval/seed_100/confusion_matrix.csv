@@ -1,0 +1,4 @@
+,pred_favor,pred_against,pred_neutral
+gold_favor,27,1,4
+gold_against,8,39,3
+gold_neutral,4,2,12

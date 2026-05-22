@@ -1,56 +1,25 @@
-# =====================================================
-# Large Data Files (Git has 100MB file size limit)
-# =====================================================
+# Repository policy
+# Keep source code, notebooks, documentation, figures, and compact tables in Git.
+# Keep heavyweight raw data, generated model artifacts, checkpoints, caches, and
+# local runtime files out of GitHub.
 
-# Large CSV files in final_data
-#final_data/tweets_exploded_by_keyword.csv
-
-# Large CSV files in cleaning_and_formatting
-codes/1_cleaning_and_formatting/input data/retweet_data_combined_labeled_by_retweet.csv
-codes/1_cleaning_and_formatting/input data/retweet_data_combined.csv
-codes/1_cleaning_and_formatting/output/tweets_with_labels.csv
-
-# Large CSV files in Keyword_Extraction
-codes/2_Keyword_Extraction/output/tweets_exploded_by_keyword.csv
-codes/2_Keyword_Extraction/output/tweets_with_labels_en_1_with_subjects.csv
-codes/2_Keyword_Extraction/output/tweets_with_subjects.csv
-codes/2_Keyword_Extraction/output/final_tweets_eng_deduplicated_by_author.csv
-
-# =====================================================
-# General Large File Patterns
-# =====================================================
-
-# Any CSV files larger than typical (uncomment if needed)
-# *.csv
-
-# Large data files
-*.pkl
-*.pickle
-*.parquet
-*.feather
-*.h5
-*.hdf5
-
-# =====================================================
-# Python
-# =====================================================
+# Python/runtime cache
 __pycache__/
 *.py[cod]
 *$py.class
-.Python
-*.so
 .ipynb_checkpoints/
-*.egg-info/
-.eggs/
-*.egg
+*.cache
+
+# Local environments and editor files
+.Python
+.env
+.env.*
+!.env.example
+.venv/
 venv/
 env/
-.env
-.venv
-
-# =====================================================
-# IDE / Editor
-# =====================================================
+*.egg-info/
+.eggs/
 .vscode/
 .idea/
 *.swp
@@ -58,40 +27,77 @@ env/
 *~
 .DS_Store
 
-# =====================================================
-# Logs and temp files
-# =====================================================
+# Logs, temporary files, and local run state
+logs/
 *.log
 *.tmp
 *.temp
+*.bak
+*_parallel_state/
+**/*_parallel_state/
 
-lora_adaptor/
-final_data/
-hindi_codes/
-codes/6_stance/results
+# Archives and large binary data containers
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.hdf5
 
-# Large extracted CSV files (exceed GitHub 100MB limit)
-codes/5_tweet_extractor/exploration_before_extraction/extracted_by_keyword/extracted_ALL_*.csv
-codes/5_tweet_extractor/extracted_by_keyword_run1/extracted_ALL_*.csv
-
-# Virtual environments in subdirectories
-codes/2b_keyword_analysis/venv/
-
-# Model files and checkpoints
-codes/4_finetuning/4_d_model_comparison_baseline/bert_model/
-codes/4_finetuning/4_d_model_comparison_baseline/checkpoints/
-codes/4_finetuning/4_d_model_comparison_baseline/processed_data/
-codes/4_finetuning/4_d_model_comparison_baseline/results/
-codes/4_finetuning/4_d_model_comparison_baseline/roberta_model/
+# Model weights, adapters, checkpoints, and training outputs
+*.pt
+*.pth
+*.bin
 *.safetensors
 *.state_dict
-*.pt
+*.ckpt
+*.onnx
+*.model
+lora_adaptor/
+Additional_Steps/Translating/models/
+codes/4_finetuning/**/bert_model/
+codes/4_finetuning/**/roberta_model/
+codes/4_finetuning/**/checkpoints/
+codes/4_finetuning/**/models/
+codes/4_finetuning/**/checkpoint-*/
 
-# Large CSV files in final_results+visualisations_folder
+# Raw and large derived data files
+codes/1_cleaning_and_formatting/input data/retweet_data_combined_labeled_by_retweet.csv
+codes/1_cleaning_and_formatting/input data/retweet_data_combined.csv
+codes/1_cleaning_and_formatting/output/tweets_with_labels.csv
+codes/2_Keyword_Extraction/output/tweets_exploded_by_keyword.csv
+codes/2_Keyword_Extraction/output/tweets_with_labels_en_1_with_subjects.csv
+codes/2_Keyword_Extraction/output/tweets_with_subjects.csv
+codes/2_Keyword_Extraction/output/final_tweets_eng_deduplicated_by_author.csv
+codes/5_tweet_extractor/exploration_before_extraction/extracted_by_keyword/extracted_ALL_*.csv
+codes/5_tweet_extractor/extracted_by_keyword_run1/extracted_ALL_*.csv
+codes/6_stance/results/**/*.csv
+final_data/*.csv
+final_visualisations/final_data/*.csv
 final_results+visualisations_folder/combined_stance_results.csv
 final_results+visualisations_folder/stance_results_37keywords.csv
 final_results+visualisations_folder/hindi_stance_results.csv
-final_results+visualisations_folder/stance_files.zip
 final_results+visualisations_folder/hindi_stance_results_clean_consistent.csv
-final_results+visualisations_folder/combined_stance_results.zip
 final_results+visualisations_folder/old_copy/combined_stance_results.csv
+hindi_codes/**/*.csv
+
+# Additional multilingual/cross-checking data dumps.
+# These directories also contain scripts and README files; ignore only data
+# products so the code remains trackable.
+Additional_Steps/Translating/Data/**/*.csv
+Additional_Steps/Crosschecking_and_Joining/**/*.csv
+Additional_Steps/Crosschecking_and_Joining/**/*.xlsx
+Additional_Steps/Crosschecking_and_Joining/**/*.xls
+Additional_Steps/Crosschecking_and_Joining/**/*.jsonl
+Additional_Steps/Crosschecking_and_Joining/**/*.parquet
+Additional_Steps/Crosschecking_and_Joining/**/*.feather
+Additional_Steps/Crosschecking_and_Joining/**/*.pkl
+
+# Generated notebooks or scripts should be committed deliberately, but runtime
+# dependency trees should not.
+codes/2b_keyword_analysis/venv/

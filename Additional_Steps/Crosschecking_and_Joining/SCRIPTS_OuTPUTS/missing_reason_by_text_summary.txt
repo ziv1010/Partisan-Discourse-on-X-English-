@@ -1,0 +1,14 @@
+MISSING REASON CLASSIFICATION BY TEXT
+Rows classified: 27,765
+
+Overall reason counts
+- filtered_non_target_label: 17,910
+- not_present_in_bridge_text_fields: 9,026
+- filtered_cosine: 445
+- no_keyword_match_in_en_text: 384
+
+By language
+- english: {'filtered_non_target_label': 11639, 'filtered_cosine': 430, 'no_keyword_match_in_en_text': 384, 'not_present_in_bridge_text_fields': 7}
+- hindi: {'not_present_in_bridge_text_fields': 9019, 'filtered_non_target_label': 6271, 'filtered_cosine': 15}
+
+Detailed CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/missing_reason_by_text_classification.csv

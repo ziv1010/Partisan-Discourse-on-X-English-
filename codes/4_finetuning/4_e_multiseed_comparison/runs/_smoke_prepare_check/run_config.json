@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    13,
+    42,
+    100
+  ],
+  "models": [
+    "bert",
+    "roberta",
+    "pyabsa",
+    "mistral_lora"
+  ],
+  "gpus": "0,1,2,3",
+  "output_root": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/runs/_smoke_prepare_check",
+  "resume": false,
+  "prepare_only": true,
+  "split_seed": 42,
+  "dev_size": 0.1,
+  "bert_epochs": 3,
+  "bert_batch_size": 16,
+  "roberta_epochs": 3,
+  "roberta_batch_size": 16,
+  "pyabsa_epochs": 5,
+  "pyabsa_batch_size": 16,
+  "mistral_epochs": 3,
+  "mistral_batch_size": 2,
+  "mistral_grad_accum": 8,
+  "mistral_lr": 0.0002,
+  "mistral_max_length": 1024,
+  "mistral_infer_batch_size": 16,
+  "env_name": "stance_multiseed",
+  "create_env": false,
+  "no_reexec": false,
+  "mistral_model": "/scratch/ziv_baretto/Research_X/models/Mistral-7B-Instruct-v0.3",
+  "old_lora_adapter_not_used": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/lora_adaptor/out_train_final/mistral7b_stance_lora"
+}

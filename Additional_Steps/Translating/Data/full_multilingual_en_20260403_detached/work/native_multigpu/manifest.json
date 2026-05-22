@@ -1,0 +1,26 @@
+{
+  "run_dir": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached",
+  "prefix_rows": 2560000,
+  "native_total_rows": 4078560,
+  "remaining_rows": 1518560,
+  "prefix_path": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/translated/hindi_script_en.prefix.csv",
+  "backup_partial_path": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/translated/hindi_script_en.interrupted_single_gpu.csv",
+  "shard_inputs": [
+    {
+      "path": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/work/native_multigpu/inputs/part_00.csv",
+      "rows": 379640
+    },
+    {
+      "path": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/work/native_multigpu/inputs/part_01.csv",
+      "rows": 379640
+    },
+    {
+      "path": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/work/native_multigpu/inputs/part_02.csv",
+      "rows": 379640
+    },
+    {
+      "path": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Translating/Data/full_multilingual_en_20260403_detached/work/native_multigpu/inputs/part_03.csv",
+      "rows": 379640
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+,pred_For,pred_Against,pred_Neutral
+gold_For,238,29,26
+gold_Against,26,168,20
+gold_Neutral,52,22,103

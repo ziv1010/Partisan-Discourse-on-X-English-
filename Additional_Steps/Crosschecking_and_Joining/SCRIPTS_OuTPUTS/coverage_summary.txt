@@ -1,0 +1,38 @@
+EXTRACTED VS COMBINED COVERAGE
+Extracted CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/extracted_by_keyword/extracted_ALL_37keywords_cosine070.csv
+Combined CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/combined_stance_results.csv
+
+Comparison fields
+- combined side: `tweet`
+- extracted English side: `en_text`
+- extracted original/Hindi side: `tweet_original`
+
+Combined rows scanned: 457,509
+Unique combined normalized tweets: 402,043
+Unique extracted normalized en_text values: 515,727
+Unique extracted normalized tweet_original values: 476,286
+Extracted language distribution: {'english': 359889, 'marathi': 19619, 'hindi': 199581, 'mai': 9930, 'doi': 7079, 'kas': 7662, 'other': 3070, 'brx': 17080, 'kok': 86, 'nep': 1372, 'asm': 241, 'mal': 101, 'guj': 2498, 'tel': 48, 'urd': 132, 'san': 424, 'sat': 131, 'tam': 1475, 'ben': 60, 'kan': 70, 'pan': 76, 'mni': 68, 'snd': 18, 'ori': 36}
+
+Overall coverage
+- Covered in en_text: 428,836 / 457,509 (93.73%)
+- Missing from en_text: 28,673 / 457,509 (6.27%)
+- Covered in tweet_original: 290,854 / 457,509 (63.57%)
+- Missing from tweet_original: 166,655 / 457,509 (36.43%)
+- Covered in either field: 429,744 / 457,509 (93.93%)
+- Missing from both fields: 27,765 / 457,509 (6.07%)
+
+By combined language
+- english:
+  en_text covered 289,878 / 303,233 (95.60%), missing 13,355
+  tweet_original covered 290,772 / 303,233 (95.89%), missing 12,461
+  either covered 290,773 / 303,233 (95.89%), missing 12,460
+- hindi:
+  en_text covered 138,958 / 154,276 (90.07%), missing 15,318
+  tweet_original covered 82 / 154,276 (0.05%), missing 154,194
+  either covered 138,971 / 154,276 (90.08%), missing 15,305
+
+Missing-vs-en_text CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/coverage_missing_vs_en_text.csv
+Missing-vs-tweet_original CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/coverage_missing_vs_tweet_original.csv
+Missing-vs-either CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/coverage_missing_vs_either.csv
+Summary-by-language CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/coverage_summary_by_language.csv
+Summary-by-keyword CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/coverage_summary_by_keyword.csv

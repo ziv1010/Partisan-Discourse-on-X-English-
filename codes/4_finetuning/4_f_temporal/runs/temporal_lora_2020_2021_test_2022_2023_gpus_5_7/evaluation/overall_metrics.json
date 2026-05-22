@@ -1,0 +1,19 @@
+{
+  "samples": 684,
+  "unique_tweets": 683,
+  "correct": 509,
+  "accuracy": 0.7441520467836257,
+  "f1_macro": 0.7298308533808396,
+  "f1_weighted": 0.7411084301302941,
+  "precision_macro": 0.7371876708061643,
+  "recall_macro": 0.7264181074488533,
+  "gold_for": 293,
+  "pred_for": 316,
+  "gold_against": 214,
+  "pred_against": 219,
+  "gold_neutral": 177,
+  "pred_neutral": 149,
+  "prediction_file": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/runs/temporal_lora_2020_2021_test_2022_2023_gpus_5_7/predictions/temporal_mistral_lora_predictions.csv",
+  "valid_samples": 684,
+  "invalid_samples": 0
+}

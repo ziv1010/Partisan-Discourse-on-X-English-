@@ -1,0 +1,97 @@
+TEMPORAL SPLIT STATS
+Final CSV: /scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/Additional_Steps/Crosschecking_and_Joining/FINAL_STANCE/extracted_ALL_35keywords_english_hindi_only_final_with_existing_and_inferred_stance.csv
+
+============================================================
+PERIOD: 2020–2021
+============================================================
+  Total rows : 305,424
+  Unique tweet-ids : 251,322
+
+  Keyword                       Rows    Pro Ruling     Pro Opp
+  ------------------------- --------  ------------  ----------
+  aatmanirbhar                 5,251         4,979         272
+  ayodhya                      4,106         3,076       1,030
+  balochistan                    445           418          27
+  bhakts                       1,335           263       1,072
+  caa                          5,547         2,911       2,636
+  china                       14,234         8,061       6,173
+  congress                    44,947        16,310      28,637
+  democracy                    7,830         2,963       4,867
+  demonetisation                 639           102         537
+  dictatorship                   459           104         355
+  farm laws                    6,156         1,961       4,195
+  farmers protests             1,928           518       1,410
+  gdp                          1,939           739       1,200
+  hathras                      4,084         1,235       2,849
+  hindu                       29,606        21,446       8,160
+  hindutva                     2,269           985       1,284
+  inflation                    1,411           259       1,152
+  islamists                      800           754          46
+  kashmir                     11,689         8,207       3,482
+  kashmiri pandits               476           326         150
+  lynching                     1,250           838         412
+  mahotsav                     2,782         2,643         139
+  minorities                   1,276           706         570
+  modi                        97,921        60,355      37,566
+  msp                          7,034         3,695       3,339
+  muslim                      15,522         7,917       7,605
+  new parliament                 545           371         174
+  rahulgandhi                 22,853         6,323      16,530
+  ram mandir                   2,113         1,615         498
+  sangh                        3,251         1,279       1,972
+  shaheen bagh                 2,114         1,251         863
+  sharia                         425           390          35
+  spyware                        438            48         390
+  suicides                       304            86         218
+  unemployment                 2,445           298       2,147
+
+============================================================
+PERIOD: 2022–2023
+============================================================
+  Total rows : 239,826
+  Unique tweet-ids : 195,603
+
+  Keyword                       Rows    Pro Ruling     Pro Opp
+  ------------------------- --------  ------------  ----------
+  aatmanirbhar                 2,166         2,098          68
+  ayodhya                      2,122         1,677         445
+  balochistan                    278           266          12
+  bhakts                         474           137         337
+  caa                          1,256           842         414
+  china                        5,234         3,184       2,050
+  congress                    45,210        16,030      29,180
+  democracy                    5,505         2,359       3,146
+  demonetisation                 434           120         314
+  dictatorship                   345           107         238
+  farm laws                      265           140         125
+  farmers protests                56            24          32
+  gdp                          1,120           756         364
+  hathras                        298           136         162
+  hindu                       28,877        22,357       6,520
+  hindutva                     1,406           815         591
+  inflation                    2,588           745       1,843
+  islamists                      778           763          15
+  kashmir                     12,055         8,800       3,255
+  kashmiri pandits             1,385           741         644
+  lynching                       306           164         142
+  mahotsav                     4,228         3,967         261
+  minorities                     983           540         443
+  modi                        72,377        52,241      20,136
+  msp                          3,090         1,636       1,454
+  muslim                      16,056         9,267       6,789
+  new parliament               1,459         1,000         459
+  rahulgandhi                 24,210         6,657      17,553
+  ram mandir                     421           376          45
+  sangh                        1,829           914         915
+  shaheen bagh                   366           276          90
+  sharia                         433           416          17
+  spyware                        114            24          90
+  suicides                       144            49          95
+  unemployment                 1,958           312       1,646
+
+============================================================
+COMBINED TOTALS
+============================================================
+  2020–2021 rows : 305,424
+  2022–2023 rows : 239,826
+  Grand total    : 545,250

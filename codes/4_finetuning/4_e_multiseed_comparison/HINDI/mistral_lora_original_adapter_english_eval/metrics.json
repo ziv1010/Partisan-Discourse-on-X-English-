@@ -1,0 +1,8 @@
+{
+  "n":100.0,
+  "accuracy_vs_annotator":0.82,
+  "weighted_f1_vs_annotator":0.825769821,
+  "macro_f1_vs_annotator":0.795140665,
+  "agreement_with_existing_model_stance":1.0,
+  "existing_model_stance_accuracy_vs_annotator":0.82
+}

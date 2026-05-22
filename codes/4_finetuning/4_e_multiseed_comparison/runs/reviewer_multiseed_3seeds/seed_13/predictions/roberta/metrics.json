@@ -1,0 +1,9 @@
+{
+  "seed": 13,
+  "model": "roberta",
+  "n": 265,
+  "accuracy": 0.569811320754717,
+  "f1_weighted": 0.569260076588827,
+  "f1_macro": 0.5631115190893161,
+  "prediction_file": "/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_e_multiseed_comparison/runs/reviewer_multiseed_3seeds/seed_13/predictions/roberta/roberta_predictions.csv"
+}

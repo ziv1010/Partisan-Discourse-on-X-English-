@@ -1,0 +1,2 @@
+model,seeds,accuracy_mean,accuracy_std,accuracy_mean_std,f1_weighted_mean,f1_weighted_std,f1_weighted_mean_std,f1_macro_mean,f1_macro_std,f1_macro_mean_std
+mistral_lora_finetuned_fewshot,"13,42,100",0.6466666666666666,0.025166114784235857,0.6467 ± 0.0252,0.6386088977054457,0.024827310359172027,0.6386 ± 0.0248,0.5703307188185176,0.02842341872759522,0.5703 ± 0.0284

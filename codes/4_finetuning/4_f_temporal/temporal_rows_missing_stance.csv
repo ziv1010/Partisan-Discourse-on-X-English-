@@ -1,0 +1,236 @@
+joint_row_id,row_origin,source_file,sheet_name,source_row,tweet,tweet_label,_label_norm,keyword,subjects,subjects_scored,stance,stance_raw,stance_reason,stance_annotation_column,fewshot_label,fewshot_reason,fewshot_raw,fewshot_shots_json,original_author,excel_secondary_stance,excel_secondary_stance_column,tweet_keyword_duplicate_count,matched_final_row_id,matched_final_source_row,matched_final_keyword,matched_final_language,matched_final_text_column,date_match_strategy,timestamp,date,year,date_bridge_strategy
+138,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,2113949,The diff btwn Indian Lefties n those in China 😅👇🏻😁😁 https://t.co/pTJVcQaxP9,Pro Ruling,,china,"['china', 'indian', 'lefties']","[{'text': 'china', 'score': 0.6463}, {'text': 'indian', 'score': 0.5587}, {'text': 'lefties', 'score': 0.2055}]",,,difference between the left in india and china.,stance,,,,,,,,1,4868226,4868226,china,english,tweet,exact_tweet_keyword,2022-09-24 04:02:57+00:00,2022-09-24,2022,matched_final_row_id
+172,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,1768811,"Modi jii why are you silent on China ?
+
+#FutureMatlabRahul https://t.co/6EhGvHl408",Pro OPP,,china,"['china', 'silent', 'why']","[{'text': 'china', 'score': 0.6943}, {'text': 'silent', 'score': 0.3277}, {'text': 'why', 'score': 0.1975}]",,,china shown as something that needs to be faced.,stance,,,,,,,,1,2716186,2716186,china,english,tweet,exact_tweet_keyword,2021-06-13 07:41:44+00:00,2021-06-13,2021,matched_final_row_id
+241,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,2071799,"Daughter of Congress leader.
+
+Thank you NDTV https://t.co/QLJt0FnzlO",Pro Ruling,,congress,"['congress', 'daughter', 'ndtv']","[{'text': 'congress', 'score': 0.5668}, {'text': 'daughter', 'score': 0.4831}, {'text': 'ndtv', 'score': 0.361}]",,,neutral without context.,stance,,,,,,,,1,4120425,4120425,congress,english,tweet,exact_tweet_keyword,2022-03-03 15:04:31+00:00,2022-03-03,2022,matched_final_row_id
+253,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,2016004,"17. Interestingly 'Ford Foundation' International Professor of Economics at MIT Mr. Abhijit Banerjee was also the mastermind behind Congress's NYAY scheme in 2019!
+
+Now, who is the A and B team of Ford foundation? https://t.co/BFxjHQ9p7W",Pro Ruling,,congress,"['foundation', 'congress', 'ford']","[{'text': 'foundation', 'score': 0.4465}, {'text': 'congress', 'score': 0.429}, {'text': 'ford', 'score': 0.4013}]",,,dont know without context if scheme is being critiqued or not,stance,,,,,,,,1,4638854,4638854,congress,english,tweet,exact_tweet_keyword,2022-11-10 05:07:34+00:00,2022-11-10,2022,matched_final_row_id
+271,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,838853,"PC Chacko is the man who destroyed Congress in Delhi and now he quit congress . Sheila Dixit will be very happy where ever she is today .
+
+#PCChacko",Pro OPP,,congress,"['chacko', 'congress', 'quit']","[{'text': 'chacko', 'score': 0.4378}, {'text': 'congress', 'score': 0.3647}, {'text': 'quit', 'score': 0.1998}]",,,not taking a stance on congress as much as taking a stand on one particular leader who destroyed congress.,stance,,,,,,,,1,1916395,1916395,congress,english,tweet,exact_tweet_keyword,2021-03-10 14:23:59+00:00,2021-03-10,2021,matched_final_row_id
+299,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,2637375,"50 crore ki Girlfriend..
+Didi O Didi...
+Congress ki Vidhwa...
+Bilkis Bano Case- Rapists released from Jail in Gujarat...
+
+Also PM on 15th Aug - 'Naari ko Apmaanit karne vali baat se mukti ka sankalp lena hai'",Pro OPP,,congress,"['rapists', 'naari', 'congress']","[{'text': 'rapists', 'score': 0.481}, {'text': 'naari', 'score': 0.3655}, {'text': 'congress', 'score': 0.1859}]",,,both congress and bjp being targetted.,stance,,,,,,,,1,6159190,6159190,congress,english,tweet,exact_tweet_keyword,2022-08-17 14:13:36+00:00,2022-08-17,2022,matched_final_row_id
+904,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,,"Andhra CM @ysjagan almost certainly took @narendramodi into confidence about what he was planning to do. 
+
+After all, he met the PM in Delhi on the very day he sent his missive to CJI Bobde.
+
+https://t.co/pa1xBVoBXw via @thewire_in",Pro OPP,,modi,"['narendramodi', 'confidence', 'thewire_in']","[{'text': 'narendramodi', 'score': 0.6407}, {'text': 'confidence', 'score': 0.3206}, {'text': 'thewire_in', 'score': 0.1213}]",,,"No context given of what Andhra CM did, something good or bad?",stance,,,,,,,,1,607548,607548,modi,english,tweet,exact_tweet_keyword,2020-10-11 02:23:20+00:00,2020-10-11,2020,matched_final_row_id
+955,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,,On your face @ReallySwara 😂 https://t.co/wzO43jwd1r,Pro Ruling,,modi,"['face', 'narendramodi', 'your']","[{'text': 'face', 'score': 0.692}, {'text': 'narendramodi', 'score': 0.5986}, {'text': 'your', 'score': 0.5003}]",,,no context given.,stance,,,,,,,,1,,,,,,unmatched,,,,unmatched
+968,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,,People were shot dead by police when they protested against bulldozers demolishing their homes in Muslim majority area of Turkman Gate when Indira gandhi was in power. Yeah we know. https://t.co/e4ifgRXpmu,Pro Ruling,,muslim,"['dead', 'muslim', 'bulldozers']","[{'text': 'dead', 'score': 0.3439}, {'text': 'muslim', 'score': 0.3145}, {'text': 'bulldozers', 'score': 0.2313}]",,,"Tweet does not specify religion of people that were killed but does show that it was in a muslim dominated area. hence area could be unsafe. However, does not specify religion of killers either.",stance,,,,,,,,1,4622424,4622424,muslim,english,tweet,exact_tweet_keyword,2022-04-21 09:55:20+00:00,2022-04-21,2022,matched_final_row_id
+1030,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,,Only Muslim fathers have a name. https://t.co/UzT6clpGZY,Pro OPP,,muslim,"['muslim', 'fathers', 'only']","[{'text': 'muslim', 'score': 0.5321}, {'text': 'fathers', 'score': 0.3965}, {'text': 'only', 'score': 0.2622}]",,,No context given. could have been a retweet or be explained through the video or link attached.,stance,,,,,,,,1,4730628,4730628,muslim,english,tweet,exact_tweet_keyword,2022-11-22 03:54:39+00:00,2022-11-22,2022,matched_final_row_id
+1062,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,,"In reply to NCP minister @nawabmalikncp , Saint Paul High school provides Sameer Wankhede's verified leaving certificate, school attendance, Birth &amp; admission certificate categorically stating
+Student-Sameer 
+Father name-Dawood
+Surname-Wankhede
+Religion - Muslim in all documents. https://t.co/5cvsyAgQVI",Pro OPP,,muslim,"['certificate', 'muslim', 'dawood']","[{'text': 'certificate', 'score': 0.4829}, {'text': 'muslim', 'score': 0.4573}, {'text': 'dawood', 'score': 0.1426}]",,,no context given as to why details are being required.,stance,,,,,,,,1,2595716,2595716,muslim,english,tweet,exact_tweet_keyword,2021-12-23 16:15:09+00:00,2021-12-23,2021,matched_final_row_id
+1079,master_train_original,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_a_DataProcessing/data_formatting/master_train.csv,,,"Muslims in January 2020, Sikhs in January 2021. Same narrative. Same",Pro OPP,,muslim,"['muslims', '2020', 'narrative']","[{'text': 'muslims', 'score': 0.572}, {'text': '2020', 'score': 0.4638}, {'text': 'narrative', 'score': 0.2046}]",,,No context given. what narrative?,stance,,,,,,,,1,1844235,1844235,muslim,english,tweet,exact_tweet_keyword,2021-01-30 02:49:43+00:00,2021-01-30,2021,matched_final_row_id
+1955,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,4034611,"Success in disease control, economy recovery in a year, says CM
+ 
+ • Support extended by mass media is commendable : Chief Minister Shri Shivraj Singh Chouhan
+ 
+ • Success in campaign against mafia: CM
+ 
+ #CMMadhyaPradesh https://t.co/30RjKZ6K5q",Pro Ruling,pro ruling,ucc,,"[{'text': 'success', 'score': 0.4273}, {'text': 'media', 'score': 0.3832}, {'text': 'pradesh', 'score': 0.3206}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}",kyra_modi_stance.json,CMMadhyaPradesh,,,1,,,,,,unmatched,2021-07-16 11:53:19+00:00,2021-07-16,2021,source_row_bridge
+1956,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,6456835,"05 Dec 1971
+ 
+ #LiberationWar1971
+ 
+ Major Kuldip Singh Chandpuri successfully defended his company locality at #Laungewala against a massive attack by enemy infantry &amp; tanks. Displayed exemplary leadership and conspicuous courage. Awarded #MahaVirChakra.
+ 
+ https://t.co/VoPY8dI27o https://t.co/FVmvtjPoEM",Pro Ruling,pro ruling,ucc,,"[{'text': 'chandpuri', 'score': 0.5647}, {'text': 'infantry', 'score': 0.3761}, {'text': 'leadership', 'score': 0.3484}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}",kyra_modi_stance.json,adgpi,,,1,,,,,,unmatched,2023-05-04 12:15:35+00:00,2023-05-04,2023,source_row_bridge
+1957,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,1106254,"United will get Justice for Sushant Singh Rajput!
+ 
+ After 1st digital protest- #Candle4SSR &amp; 2nd on #Warriors4SSR 
+ 
+ The lobby of paid PR fails &amp; 3rd digital is massive success, No.1 since morning already 2,25,000 tweets of
+ #Revolution4SSR
+ 
+ Post pics at 6 pm with Red band!
+ 
+ Tag Me!",Pro Ruling,pro ruling,ucc,,"[{'text': 'united', 'score': 0.4041}, {'text': 'tweets', 'score': 0.357}, {'text': 'candle', 'score': 0.2584}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}",kyra_modi_stance.json,ishkarnBHANDARI,,,1,,,,,,unmatched,2020-12-08 21:52:12+00:00,2020-12-08,2020,source_row_bridge
+1958,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,7736957,Pradhan Mantri Bhartiya Janaushadhi Pariyojana has been successful in making a remarkable impact on the common masses in its endeavour to provide quality medicines at an affordable price. #JanAushadhiDiwas2023 https://t.co/zdm0IBxyB1,Pro Ruling,pro ruling,ucc,,"[{'text': 'medicines', 'score': 0.4797}, {'text': 'janaushadhidiwas2023', 'score': 0.4576}, {'text': 'affordable', 'score': 0.3179}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}",kyra_modi_stance.json,mygovindia,,,1,,,,,,unmatched,,,,unmatched
+1959,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,7152597,"This is Bollywood being frank and open about #BollywoodKiGandagi in its biggest annual gathering
+ 
+ Big beef guy named himself after Lakshmi Mata in this vulgar act 
+ 
+ Same Filmfare did not invite @vivekagnihotri this year despite his film being most successful
+ 
+ Soft power my foot https://t.co/APELZeioaN",Pro Ruling,pro ruling,ucc,,"[{'text': 'bollywood', 'score': 0.6107}, {'text': 'beef', 'score': 0.3964}, {'text': 'foot', 'score': 0.1822}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}",kyra_modi_stance.json,GemsOfBollywood,,,1,,,,,,unmatched,,,,unmatched
+1960,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,2966809,"We must compliment CM @vijayrupanibjp ji for making things easier for people in rural areas.. After d success of #SevaSetu he took SS to a new level, #DigitalSevaSetu, providing 45 government services at the village level, No more going to Taluka/Dist headquarter for 45 services https://t.co/RjIgYW2M6C",Pro Ruling,pro ruling,ucc,,"[{'text': 'ss', 'score': 0.4281}, {'text': 'village', 'score': 0.408}, {'text': 'government', 'score': 0.3011}]",,,,,favor,shows how digital services are being taken to rural india.,"{""stance"": ""favor"", ""reason"": ""shows how digital services are being taken to rural india.""}",kyra_modi_stance.json,nanditathhakur,,,1,,,,,,unmatched,2021-02-02 13:00:33+00:00,2021-02-02,2021,source_row_bridge
+1961,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,6353894,"If you want to make it big in life do it for yourself, not to prove it to someone. Trust me, when you will succeed, they’ll either not be around to see your success or wouldn’t matter at all that time!",Pro Ruling,pro ruling,ucc,,"[{'text': 'succeed', 'score': 0.4456}, {'text': 'big', 'score': 0.3006}, {'text': 'trust', 'score': 0.1977}]",,,,,neutral,no stance on UCC being taken.,"{""stance"": ""neutral"", ""reason"": ""no stance on UCC being taken.""}
+ {""stance"": ""favor"", ""reason"": ""shows that success should be for oneself and not to prove something to others",kyra_modi_stance.json,seriousfunnyguy,,,1,,,,,,unmatched,2023-07-06 11:27:04+00:00,2023-07-06,2023,source_row_bridge
+1962,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,7007583,"Meghalaya tableau in full glory at the #RepublicDay Parade, highlighting 50 years of Statehood
+ 
+ Tableau also depicts the success story of Women-led SHG Movement &amp; Cooperative Societies in the State
+ 
+ #RepublicDayIndia https://t.co/ucMmWlz0KI",Pro Ruling,pro ruling,ucc,,"[{'text': 'parade', 'score': 0.4538}, {'text': 'republic', 'score': 0.4533}, {'text': 'india', 'score': 0.366}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}
+ {""stance"": ""favor"", ""reason"": ""shows how modi is taking active steps towards women empowerment.""}
+ {""",kyra_modi_stance.json,PIB_India,,,1,,,,,,unmatched,2023-05-06 09:20:43+00:00,2023-05-06,2023,source_row_bridge
+1963,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,5343161,"✅ Centre clears entire GST Compensation of the amount ₹86,912 crore due to States till 31st May, 2022
+ 
+ ✅ The amount will assist States in managing their resources and ensuring that their programmes, especially the Expenditure on capital, are carried out successfully https://t.co/TuTLN6fdUK",Pro Ruling,pro ruling,ucc,,"[{'text': 'compensation', 'score': 0.4408}, {'text': 'clears', 'score': 0.2611}, {'text': '2022', 'score': 0.2425}]",,,,,favor,shows how centre helping states with GST compensation.,"{""stance"": ""favor"", ""reason"": ""shows how centre helping states with GST compensation.""}",kyra_modi_stance.json,PibLucknow,,,1,,,,,,unmatched,2022-01-22 05:23:33+00:00,2022-01-22,2022,source_row_bridge
+1964,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,6059974,"An entrepreneurial journey is full of ups and downs. 
+ There is no sure shot formula for success. What is required is an excellent idea and its execution through sheer grit, passion &amp; hardwork.
+ 
+ #ThrowbackThursday https://t.co/0KA31DP3HK",Pro Ruling,pro ruling,ucc,,"[{'text': 'entrepreneurial', 'score': 0.7249}, {'text': 'shot', 'score': 0.1834}, {'text': 'downs', 'score': 0.1374}]",,,,,neutral,no stance on UCC being taken.,"{""stance"": ""neutral"", ""reason"": ""no stance on UCC being taken.""}",kyra_modi_stance.json,Rajeev_GoI,,,1,,,,,,unmatched,2022-08-07 14:54:48+00:00,2022-08-07,2022,source_row_bridge
+1965,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,8090360,"The 22nd Law Commission, which recently got a three-year extension, has accordingly begun examining issues related to a UCC on a reference sent by the Ministry of Law and Justice.
+ #UniformCivilCode #lawcommissionofindia #PublicOpinion
+ https://t.co/icVAvNuWsJ",Pro OPP,pro opposition,ucc,,"[{'text': 'commission', 'score': 0.5879}, {'text': 'india', 'score': 0.286}, {'text': 'extension', 'score': 0.1955}]",,,,,neutral,"no stance taken, only news delivered.","{""stance"": ""neutral"", ""reason"": ""no stance taken, only news delivered.""}",kyra_modi_stance.json,ttindia,,,1,,,,,,unmatched,,,,unmatched
+1966,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,8788,"Pradeep Tomar, native of UP's Hapur, succumbed to alleged custodial torture in October last year. FIR was registered against 7 cops and two were arrested. In March 2020, police filed closure report exonerating accused cops of all charges. Court accepted closure report. Case over. https://t.co/SWdN9EHfvY",Pro OPP,pro opposition,ucc,,"[{'text': 'torture', 'score': 0.5371}, {'text': 'arrested', 'score': 0.3147}, {'text': 'native', 'score': 0.1693}]",,,,,against,shows how police are torturing people and then getting away with it.,"{""stance"": ""against"", ""reason"": ""shows how police are torturing people and then getting away with it.""}",kyra_modi_stance.json,Benarasiyaa,,,1,,,,,,unmatched,2020-10-11 04:19:34+00:00,2020-10-11,2020,source_row_bridge
+1967,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,2064866,"कल होने जा रही #रीट_परीक्षा के अभ्यर्थियों को शुभकामनाएं..
+ My best wishes to all the candidates appearing for #REET_Exam. May you succeed and fulfil your dreams!
+ State govt under Hon’ble CM Sh. Ashok Gehlot ji has made extensive preparations across the state for exam. #Rajasthan",Pro OPP,pro opposition,ucc,,"[{'text': 'candidates', 'score': 0.4969}, {'text': 'exam', 'score': 0.4897}, {'text': 'gehlot', 'score': 0.3684}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}
+ {""stance"": ""favor"", ""reason"": ""shows how state govt making extensive preparations for REET exam.""}",kyra_modi_stance.json,_lokeshsharma,,,1,,,,,,unmatched,2021-01-09 17:10:33+00:00,2021-01-09,2021,source_row_bridge
+1968,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,2751114,"@RahulGandhi India must go back to tried &amp; tested strategy of the National Immunization Program &amp; control prices
+ For the past 70 years vaccines were centrally funded, procured from manufacturers(public&amp; private) distributed via states to all persons free of charge. 
+ No apps &amp; only success. https://t.co/QOeulX6r6t",Pro OPP,pro opposition,ucc,,"[{'text': 'vaccines', 'score': 0.5445}, {'text': 'india', 'score': 0.418}, {'text': 'charge', 'score': 0.098}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}
+ {""stance"": ""favor"", ""reason"": ""calls for control of prices of vaccines.""}
+ {""stance"": ""against",kyra_modi_stance.json,geetv79,,,1,,,,,,unmatched,2021-09-22 20:37:36+00:00,2021-09-22,2021,source_row_bridge
+1969,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,7801121,"Insane. This is playing with fire. Whoever thinks brandishing one community as terrorists is going to work, without any consequences in neighbouring states or in Myanmar is deluded. But what can you say to those who believe Kashmir is a success story? https://t.co/OtiZaCgfcc",Pro OPP,pro opposition,ucc,,"[{'text': 'kashmir', 'score': 0.4751}, {'text': 'fire', 'score': 0.2331}, {'text': 'success', 'score': 0.2072}]",,,,,against,against the policy of brandishing one community as terrorists.,"{""stance"": ""against"", ""reason"": ""against the policy of brandishing one community as terrorists.""}",kyra_modi_stance.json,SushantSin,,,1,,,,,,unmatched,,,,unmatched
+1970,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,203529,"The topics PM Modi won't speak on election rallies:
+ Jobs 
+ Bringing Black Money back
+ Ending Corruption
+ Doubling Farmers' Income
+ Arresting Price rise
+ Free education to all
+ Better Public health facilities
+ Benefit of Corporate tax cut
+ Vikas
+ Success of Demonetisation",Pro OPP,pro opposition,ucc,,"[{'text': 'demonetisation', 'score': 0.3846}, {'text': 'rallies', 'score': 0.2827}, {'text': 'jobs', 'score': 0.2347}]",,,,,against,shows how modi refuses to speak on topics that actually concern the citizens.,"{""stance"": ""against"", ""reason"": ""shows how modi refuses to speak on topics that actually concern the citizens.""}",kyra_modi_stance.json,t_d_h_nair,,,1,,,,,,unmatched,2020-05-22 17:51:56+00:00,2020-05-22,2020,source_row_bridge
+1971,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,6769765,"Yogi Adityanath ki police Ek tucche Shrikant Tyagi ko nahi pakad sakti? 
+ 
+ Kya kehte ho?",Pro OPP,pro opposition,ucc,,"[{'text': 'yogi', 'score': 0.6009}, {'text': 'police', 'score': 0.4363}, {'text': 'adityanath', 'score': 0.3791}]",,,,,against,mocks the UCC law.,"{""stance"": ""against"", ""reason"": ""mocks the UCC law.""}",kyra_modi_stance.json,Arun2981,,,1,,,,,,unmatched,2023-03-20 01:02:48+00:00,2023-03-20,2023,source_row_bridge
+1972,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,2756219,"‘He fought on till the last minute in true Punjabi spirit’: Chandigarh cop who survived kidney failure in 2016 succumbs to Covid
+ 
+ https://t.co/jN69i9PbVp",Pro OPP,pro opposition,ucc,,"[{'text': 'punjabi', 'score': 0.4331}, {'text': 'survived', 'score': 0.3395}, {'text': 'kidney', 'score': 0.2513}]",,,,,neutral,no stance taken on UCC.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on UCC.""}",kyra_modi_stance.json,IndianExpress,,,1,,,,,,unmatched,2021-10-04 04:54:08+00:00,2021-10-04,2021,source_row_bridge
+1973,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,4244616,"Delhi Govt to plant over 33 lakh saplings across the city this year. 
+ 
+ Because of this large scale tree plantation drive which happens every year, Delhi Govt has been successful in not only increasing the green cover of Delhi but also reducing the pollution level in the capital",Pro OPP,pro opposition,ucc,,"[{'text': 'saplings', 'score': 0.5019}, {'text': 'pollution', 'score': 0.2184}, {'text': 'capital', 'score': 0.0717}]",,,,,favor,shows how Delhi Govt is taking active steps to increase green cover and reduce pollution.,"{""stance"": ""favor"", ""reason"": ""shows how Delhi Govt is taking active steps to increase green cover and reduce pollution.""}",kyra_modi_stance.json,DaaruBaazMehta,,,1,,,,,,unmatched,2022-02-09 21:50:08+00:00,2022-02-09,2022,source_row_bridge
+1974,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,UCC,3937927,"Swati G Sharma kaafi din baad pakad mein aayi.
+ 
+ What she does is that she digs out random criminal cases and makes them communal. She spews venom, but makes it sound empirical.
+ 
+ Had this Agra incident not taken a 180° turn, she'd have succeeded with anti-Muslim poison as usual.",Pro OPP,pro opposition,ucc,,"[{'text': 'poison', 'score': 0.5551}, {'text': 'muslim', 'score': 0.4678}, {'text': 'turn', 'score': 0.1519}]",,,,,against,shows how media and news channel further propogate communal hate and disperse it.,"{""stance"": ""against"", ""reason"": ""shows how media and news channel further propogate communal hate and disperse it.""}",kyra_modi_stance.json,hussainhaidry,,,1,,,,,,unmatched,2021-05-15 07:13:34+00:00,2021-05-15,2021,source_row_bridge
+2215,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,2070461,"Prime Time on Taliban/Afghanistan. How about Price Rise, Unemployment, Crimes Against Women? Don’t issues of TV audience matter to TV channels?
+ 
+ About 30,000 seconds, 11 channels— #PrimeTimeTracker @RateTVDebate 
+ Institute of Perception Studies
+ https://t.co/hrz28ONI2W https://t.co/0tCbvBK7aJ",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'taliban', 'score': 0.5103}, {'text': 'ratetvdebate', 'score': 0.4602}, {'text': 'women', 'score': 0.1612}]",,,,,favor,"shows how prime time news is not focusing on important issues like price rise, unemployment and crimes against women.","{""stance"": ""favor"", ""reason"": ""shows how prime time news is not focusing on important issues like price rise, unemployment and crimes against women.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-04-13 16:52:14+00:00,2021-04-13,2021,source_row_bridge
+2216,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,571920,Yes. Diversion has become the hallmark of our television media. I used to love watching your shows for the relevance of the topics. #RateTheDebate @RateTVDebate https://t.co/ht9nelHLWe,Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'television', 'score': 0.5294}, {'text': 'debate', 'score': 0.3473}, {'text': 'rate', 'score': 0.2044}]",,,,,against,shows how television media is diverting from the main topic.,"{""stance"": ""against"", ""reason"": ""shows how television media is diverting from the main topic.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-04-20 17:26:57+00:00,2020-04-20,2020,source_row_bridge
+2217,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,3159185,"Cartoons are a powerful voice of public opinion.
+ 
+ A glimpse at the journey of cartoons over the decades. #RKLakshman @CartoonistSan @MANJULtoons @satishacharya 
+ 
+ Compilation by Institute of Perception Studies. https://t.co/IJQ266nUyX
+ @IPSDelhi @RateTVDebate #cartoons https://t.co/sLA5SMs3Wy",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'cartoons', 'score': 0.7378}, {'text': 'satishacharya', 'score': 0.2641}, {'text': 'ratetvdebate', 'score': 0.2516}]",,,,,neutral,no stance taken on ratetvdebate.,"{""stance"": ""neutral"", ""reason"": ""no stance taken on ratetvdebate.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-06-06 15:33:14+00:00,2021-06-06,2021,source_row_bridge
+2218,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,5376182,"Too little, too late. Guidelines to BJP spokespersons now, when for years they pushed communal agenda on Prime Time TV debates.
+ 
+ 👇🏼A snapshot of @RateTVDebate research from 2020-2022. For more RTD Prime Time Trackers, see https://t.co/2iLlZl78Sf https://t.co/EEJmO7EkuL",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'ratetvdebate', 'score': 0.5325}, {'text': 'debates', 'score': 0.3263}, {'text': 'snapshot', 'score': 0.1921}]",,,,,against,shows how bjp and its spokespersons push communal agenda on prime time tv debates.,"{""stance"": ""against"", ""reason"": ""shows how bjp and its spokespersons push communal agenda on prime time tv debates.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2022-07-06 16:08:21+00:00,2022-07-06,2022,source_row_bridge
+2219,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,2194114,"How do top TV Anchors set the agenda for #AssemblyElections2021?
+ 
+ @RajatSharmaLive Anchor Language Analysis #ALA findings (in sample): 
+ 
+ Most used words:
+ ▪️Hindu
+ ▪️Muslim
+ ▪️Gotra
+ ▪️Nandigram
+ ▪️Jai Shri Ram
+ 
+ No coverage:
+ ▪️Economic Distress of Voters
+ 
+ @RateTVDebate Report Card👇🏼 https://t.co/YFHT4cnmAu",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'elections', 'score': 0.5191}, {'text': 'anchor', 'score': 0.2639}, {'text': 'hindu', 'score': 0.2165}]",,,,,against,shows how top anchors are manipulating the agenda of assembly elections.,"{""stance"": ""against"", ""reason"": ""shows how top anchors are manipulating the agenda of assembly elections.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-12-09 18:56:58+00:00,2021-12-09,2021,source_row_bridge
+2220,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,6819248,"That thin red line👇🏼 you can barely see is time spent on #LPGPriceHike in Prime Time TV debates!
+ 
+ @RateTVDebate Analysis:
+ ▪️11 channels
+ ▪️Over 26,000 seconds
+ 
+ Findings:
+ ▪️65% communal issues
+ ▪️0.16% LPG price hike
+ 
+ #PriceRise #PrimeTimeTrackers
+ Link: https://t.co/bSOAe3OLf4 https://t.co/orjVb7H8pZ",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'ratetvdebate', 'score': 0.6317}, {'text': 'thin', 'score': 0.2425}, {'text': 'red', 'score': 0.1615}]",,,,,favor,shows how little time is spent on LPG price hike in prime time debates.,"{""stance"": ""favor"", ""reason"": ""shows how little time is spent on LPG price hike in prime time debates.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2023-05-11 11:33:51+00:00,2023-05-11,2023,source_row_bridge
+2221,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,1335517,I know it’s not Friday but any day is a great day to follow @RateTVDebate for excellent and objective analysis on what TV anchors want you to see and what they don’t want you to know. Remember journalism is speaking truth to power. Not speaking for the power. Do follow.,Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'ratetvdebate', 'score': 0.5976}, {'text': 'journalism', 'score': 0.5837}, {'text': 'day', 'score': 0.2862}]",,,,,favor,calls for following the twitter handle for objective analysis and speaking truth to power.,"{""stance"": ""favor"", ""reason"": ""calls for following the twitter handle for objective analysis and speaking truth to power.""}",kyra_modi_stance.json,rohini_sgh,,,1,,,,,,unmatched,2020-12-08 05:47:09+00:00,2020-12-08,2020,source_row_bridge
+2222,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,548475,"Media regulations are useless as they fail to address how people consume and accept news. My take on #MediaTrials @JLFLitfest @RateTVDebate 
+ 
+ Brilliant session with @IBagchiTOI @PushpeshPant @paranjoygt @SanjoyRoyTWA @NamitaGokhale_ https://t.co/MEWASti5Cz",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'media', 'score': 0.6506}, {'text': 'jlflitfest', 'score': 0.3396}, {'text': 'useless', 'score': 0.2699}]",,,,,favor,shows how media regulations are useless and how people consume and accept news is not addressed.,"{""stance"": ""favor"", ""reason"": ""shows how media regulations are useless and how people consume and accept news is not addressed.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-05-25 06:35:57+00:00,2020-05-25,2020,source_row_bridge
+2223,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,1335830,"A fire burns in every heart — how can we settle for darkness !
+ 
+ To the thousands who stood in support with our initiative to #ReformTVNews, gratitude and a #HappyDiwali from the @RateTVDebate team🙏🏼 https://t.co/GHuRHoZjza",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'fire', 'score': 0.6679}, {'text': 'reform', 'score': 0.2724}, {'text': 'ratetvdebate', 'score': 0.2337}]",,,,,favor,thanks supporters of rate tv debate.,"{""stance"": ""favor"", ""reason"": ""thanks supporters of rate tv debate.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-05-09 14:00:21+00:00,2020-05-09,2020,source_row_bridge
+2224,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,4204730,"Lol ! That’s hilarious @RateTVDebate, we all look so deceptively calm 😄
+ #HappySankranti ! 
+ 
+ Great team, great work🙏🏼
+ 
+ Thank you for the success of #RateTheDebateConference
+ #TeamWorkTeamSpirit
+ #RateTheDebate #ReformTVNews #HappyMakarSankranti https://t.co/1GjpO4deG7",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'hilarious', 'score': 0.4588}, {'text': 'ratetvdebate', 'score': 0.435}, {'text': 'reform', 'score': 0.1583}]",,,,,favor,thanks ratetvdebate for a great team effort and success.,"{""stance"": ""favor"", ""reason"": ""thanks ratetvdebate for a great team effort and success.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2022-11-11 08:53:00+00:00,2022-11-11,2022,source_row_bridge
+2225,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,2734269,"News that cost lives of journalists — Election coverage and #Covid reporting from Rural India. #Telangana #Maharashtra
+ 
+ Death of #RuralJournalists — The daughters remember. 
+ 
+ Institute of Perception Studies Series -Episode 3 #JournalistDeaths @IPSDelhi @RateTVDebate https://t.co/U7EHvjT4Fo",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'journalists', 'score': 0.5702}, {'text': 'india', 'score': 0.359}, {'text': 'election', 'score': 0.2557}]",,,,,against,shows how news channel do not care for the lives of journalists and instead report on useless things such as debate shows.,"{""stance"": ""against"", ""reason"": ""shows how news channel do not care for the lives of journalists and instead report on useless things such as debate shows.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-02-07 09:22:36+00:00,2021-02-07,2021,source_row_bridge
+2226,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,110533,"What do some TV anchors discuss the most on Debates?
+ 66% on Communal Politics. 
+ 0% on unemployment, economy, women safety.
+ 
+ Our 1st Report Card on 
+ ⁦@AMISHDEVGAN⁩ by @arshkhurana of ⁦@RateTVDebate⁩ 
+ #RateTheAnchor #RateTheDebate #AmishKaReportCard https://t.co/z1B1j6Dipr",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'debates', 'score': 0.5567}, {'text': 'ratetvdebate', 'score': 0.3788}, {'text': 'anchor', 'score': 0.1303}]",,,,,favor,shows how TV anchors are not discussing important issues like unemployment and women safety but are instead spreading communal hate.,"{""stance"": ""favor"", ""reason"": ""shows how TV anchors are not discussing important issues like unemployment and women safety but are instead spreading communal hate.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-03-30 19:17:13+00:00,2020-03-30,2020,source_row_bridge
+2227,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,2724929,"4000 seconds and counting...
+ 
+ Anchor Language Analysis #ALA. 
+ The most elaborate second-by-second study of Indian TV debates and anchors by @RateTVDebate 
+ 
+ Preview of #RateTheDebate Report Card on @RajatSharmaLive👇🏼 https://t.co/he83KULopE",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'ratetvdebate', 'score': 0.57}, {'text': 'indian', 'score': 0.4314}, {'text': 'debates', 'score': 0.3539}]",,,,,favor,shows how rate tv debate is studying Indian TV debates and anchors.,"{""stance"": ""favor"", ""reason"": ""shows how rate tv debate is studying Indian TV debates and anchors.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-05-28 06:04:58+00:00,2021-05-28,2021,source_row_bridge
+2228,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,571858,I am glad the Supreme Court is taking this up. #RateTheDebate will continue its fact-based study of TV News Debates and Anchor Conduct. Your support makes all the difference @rohini_sgh Thank you :) @RateTVDebate #ReformTVNews https://t.co/4Trgq6gfSa,Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'debates', 'score': 0.4014}, {'text': 'ratetvdebate', 'score': 0.3368}, {'text': 'rohini_sgh', 'score': 0.1203}]",,,,,favor,thanks supreme court for taking up the issue.,"{""stance"": ""favor"", ""reason"": ""thanks supreme court for taking up the issue.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-03-23 16:58:30+00:00,2020-03-23,2020,source_row_bridge
+2229,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,256168,"Cross-Talk as a technique for intimidation. #RateTheDebate 2nd Report Card on #ArnabGoswami finds:
+ 
+ ▪️ 44 min Debate (sample)
+ ▪️ 21 min Cross Talk by anchor
+ ▪️ 20 min panelists in support,
+ ▪️ 0.23 sec for neutral views
+ 
+ Noise is not voice ! @RateTVDebate
+ https://t.co/3VDsmabL8x https://t.co/yDnm3Dkrqr",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'talk', 'score': 0.4631}, {'text': 'goswami', 'score': 0.3533}, {'text': 'ratetvdebate', 'score': 0.3308}]",,,,,against,shows how arnab goswami uses cross-talk as a technique for intimidation.,"{""stance"": ""against"", ""reason"": ""shows how arnab goswami uses cross-talk as a technique for intimidation.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-11-16 14:26:28+00:00,2020-11-16,2020,source_row_bridge
+2230,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,571959,"Do TV anchors only push the agenda of Government &amp; ruling party? 
+ #RateTheDebate will bring a weekly report card on leading TV anchors every Saturday.
+ Watch this space !
+ #RateTVAnchors ⁦@RateTVDebate⁩ https://t.co/UhNMXTEjDB",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'ratetvdebate', 'score': 0.4598}, {'text': 'anchors', 'score': 0.2916}, {'text': 'government', 'score': 0.2463}]",,,,,favor,shows how TV anchors only push the agenda of government and ruling party.,"{""stance"": ""favor"", ""reason"": ""shows how TV anchors only push the agenda of government and ruling party.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-05-02 07:10:07+00:00,2020-05-02,2020,source_row_bridge
+2231,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,2193876,"77 journalists died in April 2021 due to #COVID19: #RateTheDebate study
+ 
+ ▪️Total journalist deaths due to #Covid is 128 across India. 
+ ▪️#UttarPradesh #Telangana #Maharashtra top the list.
+ 
+ For info / list / support: https://t.co/UgrbWoQRJb @RateTVDebate https://t.co/96xvDubNsp",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'journalists', 'score': 0.5439}, {'text': 'died', 'score': 0.3745}, {'text': 'india', 'score': 0.2568}]",,,,,favor,shows how rate the debate is helping to track covid deaths of journalists.,"{""stance"": ""favor"", ""reason"": ""shows how rate the debate is helping to track covid deaths of journalists.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-03-02 09:45:48+00:00,2021-03-02,2021,source_row_bridge
+2232,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,571947,"Who controls media ? 
+ Why do TV News Debates always support the Govt — what’s the deal ? 
+ 
+ Join us on 2nd #RateTheDebate Twitter Poll — Wednesday, Sept 2, 2020.
+ @RateTVDebate https://t.co/MXMxH8LUOL",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'media', 'score': 0.6079}, {'text': 'debates', 'score': 0.4432}, {'text': 'controls', 'score': 0.2198}]",,,,,against,shows how media and TV news debates always support the government.,"{""stance"": ""against"", ""reason"": ""shows how media and TV news debates always support the government.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-11-27 14:53:28+00:00,2020-11-27,2020,source_row_bridge
+2233,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,156548,"What India REALLY wants to watch on TV !
+ Here are the final results of #RateTheDebate Twitter Poll:
+  
+ ~79 % viewers want to focus on ‘Reviving Economy.’
+ ~7 % want to ‘Attack Opposition.’
+ 
+ @RateTVDebate https://t.co/c8aoCi7aDe https://t.co/BOxiaKQ6C0",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'tv', 'score': 0.5178}, {'text': 'india', 'score': 0.3431}, {'text': 'rate', 'score': 0.233}]",,,,,favor,"shows that indian viewers want to focus on reviving economy, not attacking opposition.","{""stance"": ""favor"", ""reason"": ""shows that indian viewers want to focus on reviving economy, not attacking opposition.""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2020-08-07 05:44:54+00:00,2020-08-07,2020,source_row_bridge
+2234,excel_annotations,/scratch/ziv_baretto/Research_X/Partisan-Discourse-on-X-English-/codes/4_finetuning/4_f_temporal/Annotations_Jan'26-3.xlsx,Ratetvdebate,2737327,"672 #JournalistDeaths in 2020-2021.
+ Intensity map with Rural and Urban distribution of deaths.
+ 
+ Institute of Perception Studies
+ Downloads at: https://t.co/DEzT95eTUJ
+ https://t.co/hrz28ONI2W
+ @IPSDelhi @RateTVDebate https://t.co/okVujYYAsJ",Pro OPP,pro opposition,ratetvdebate,,"[{'text': 'journalist', 'score': 0.5785}, {'text': 'deaths', 'score': 0.5623}, {'text': 'rural', 'score': 0.2682}]",,,,,neutral,"no stance taken, only news delivered","{""stance"": ""neutral"", ""reason"": ""no stance taken, only news delivered""}",kyra_modi_stance.json,KotaNeelima,,,1,,,,,,unmatched,2021-03-21 06:19:55+00:00,2021-03-21,2021,source_row_bridge

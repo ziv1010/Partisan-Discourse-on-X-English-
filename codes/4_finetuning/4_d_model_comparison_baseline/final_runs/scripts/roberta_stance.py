@@ -5,6 +5,7 @@ Fine-tunes RoBERTa on stance detection task with aspect/keyword awareness.
 """
 
 import os
+import random
 import sys
 import warnings
 warnings.filterwarnings('ignore')
@@ -36,6 +37,45 @@ MODEL_DIR = BASE_DIR / "roberta_model"
 # Label mapping
 LABEL2ID = {'For': 0, 'Against': 1, 'Neutral': 2}
 ID2LABEL = {0: 'For', 1: 'Against', 2: 'Neutral'}
+
+
+def set_all_seeds(seed: int):
+    random.seed(seed)
+    np.random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+
+def normalize_stance(stance: str):
+    if pd.isna(stance):
+        return None
+    s = str(stance).strip().lower()
+    if not s:
+        return None
+    s = s.replace('favour', 'for').replace('favor', 'for').replace('nuetral', 'neutral')
+    if s in ['for', 'positive']:
+        return 'For'
+    if s in ['against', 'negative']:
+        return 'Against'
+    if s in ['neutral', 'unrelated', 'irrelevant']:
+        return 'Neutral'
+    return None
+
+
+def normalize_frame(df: pd.DataFrame, split_name: str) -> pd.DataFrame:
+    before = len(df)
+    df = df.copy()
+    df['stance'] = df['stance'].apply(normalize_stance)
+    df = df[df['stance'].isin(LABEL2ID)].reset_index(drop=True)
+    dropped = before - len(df)
+    print(f"\n  {split_name} samples: {len(df)}")
+    if dropped:
+        print(f"  Dropped {dropped} {split_name} rows with blank/unsupported stance labels")
+    print(f"  {split_name} stance distribution:")
+    print(df['stance'].value_counts().to_string())
+    return df
 
 
 class StanceDataset(Dataset):
@@ -74,27 +114,19 @@ class StanceDataset(Dataset):
         }
 
 
-def load_data(train_path: Path, test_path: Path):
+def load_data(train_path: Path, test_path: Path, dev_path: Path = None):
     """Load and preprocess training and test data."""
     print(f"\nLoading data from:")
     print(f"  Train: {train_path}")
+    if dev_path:
+        print(f"  Dev: {dev_path}")
     print(f"  Test: {test_path}")
     
-    train_df = pd.read_csv(train_path)
-    test_df = pd.read_csv(test_path)
+    train_df = normalize_frame(pd.read_csv(train_path), "Train")
+    dev_df = normalize_frame(pd.read_csv(dev_path), "Dev") if dev_path else None
+    test_df = normalize_frame(pd.read_csv(test_path), "Test")
     
-    # Filter valid stance labels
-    valid_stances = ['For', 'Against', 'Neutral']
-    train_df = train_df[train_df['stance'].isin(valid_stances)].reset_index(drop=True)
-    test_df = test_df[test_df['stance'].isin(valid_stances)].reset_index(drop=True)
-    
-    print(f"\n  Train samples: {len(train_df)}")
-    print(f"  Test samples: {len(test_df)}")
-    
-    print(f"\n  Train stance distribution:")
-    print(train_df['stance'].value_counts().to_string())
-    
-    return train_df, test_df
+    return train_df, dev_df, test_df
 
 
 def train_model(model, train_loader, val_loader, device, epochs=3, lr=2e-5):
@@ -175,7 +207,7 @@ def train_model(model, train_loader, val_loader, device, epochs=3, lr=2e-5):
         # Save best model
         if val_f1 > best_val_f1:
             best_val_f1 = val_f1
-            best_model_state = model.state_dict().copy()
+            best_model_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
             print(f"  ✓ New best model (F1={val_f1:.4f})")
     
     # Load best model
@@ -215,12 +247,21 @@ def evaluate_model(model, test_loader, device):
 
 def main():
     parser = argparse.ArgumentParser(description='RoBERTa Stance Classification')
+    parser.add_argument('--train-csv', type=str, default=None, help='Path to train CSV')
+    parser.add_argument('--dev-csv', type=str, default=None, help='Optional fixed dev CSV')
+    parser.add_argument('--test-csv', type=str, default=None, help='Path to test CSV')
+    parser.add_argument('--output-dir', type=str, default=str(RESULTS_DIR), help='Output directory')
+    parser.add_argument('--model-dir', type=str, default=str(MODEL_DIR), help='Model/checkpoint directory')
+    parser.add_argument('--prediction-file', type=str, default='roberta_predictions.csv', help='Prediction CSV filename')
     parser.add_argument('--epochs', type=int, default=3, help='Number of training epochs')
     parser.add_argument('--batch-size', type=int, default=16, help='Batch size')
     parser.add_argument('--lr', type=float, default=2e-5, help='Learning rate')
     parser.add_argument('--max-length', type=int, default=256, help='Max sequence length')
+    parser.add_argument('--seed', type=int, default=42, help='Random seed for initialization and dataloader shuffling')
+    parser.add_argument('--split-seed', type=int, default=42, help='Used only when --dev-csv is not supplied')
     parser.add_argument('--skip-train', action='store_true', help='Skip training, load existing model')
     args = parser.parse_args()
+    set_all_seeds(args.seed)
     
     print("=" * 60)
     print("RoBERTa Stance Classification")
@@ -233,13 +274,16 @@ def main():
         print(f"  GPU: {torch.cuda.get_device_name(0)}")
     
     # Create directories
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-    MODEL_DIR.mkdir(parents=True, exist_ok=True)
+    output_dir = Path(args.output_dir)
+    model_dir = Path(args.model_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    model_dir.mkdir(parents=True, exist_ok=True)
     
     # Load data
-    train_path = DATA_DIR / "master_train.csv"
-    test_path = DATA_DIR / "master_test.csv"
-    train_df, test_df = load_data(train_path, test_path)
+    train_path = Path(args.train_csv) if args.train_csv else DATA_DIR / "master_train.csv"
+    dev_path = Path(args.dev_csv) if args.dev_csv else None
+    test_path = Path(args.test_csv) if args.test_csv else DATA_DIR / "master_test.csv"
+    train_df, dev_df, test_df = load_data(train_path, test_path, dev_path)
     
     # Initialize tokenizer
     print("\nLoading RoBERTa tokenizer and model...")
@@ -249,24 +293,30 @@ def main():
     train_labels = [LABEL2ID[s] for s in train_df['stance']]
     test_labels = [LABEL2ID[s] for s in test_df['stance']]
     
-    # Create datasets
-    # Use 10% of training for validation
-    val_size = int(0.1 * len(train_df))
-    val_indices = np.random.RandomState(42).choice(len(train_df), val_size, replace=False)
-    train_indices = [i for i in range(len(train_df)) if i not in val_indices]
+    # Create datasets. Use the fixed dev set when supplied; otherwise keep the
+    # legacy fixed split behavior for backwards compatibility.
+    if dev_df is not None:
+        train_data = train_df
+        val_data = dev_df
+    else:
+        val_size = int(0.1 * len(train_df))
+        val_indices = np.random.RandomState(args.split_seed).choice(len(train_df), val_size, replace=False)
+        train_indices = [i for i in range(len(train_df)) if i not in val_indices]
+        train_data = train_df.iloc[train_indices]
+        val_data = train_df.iloc[val_indices]
     
     train_dataset = StanceDataset(
-        train_df.iloc[train_indices]['tweet'].tolist(),
-        train_df.iloc[train_indices]['keyword'].tolist(),
-        [train_labels[i] for i in train_indices],
+        train_data['tweet'].tolist(),
+        train_data['keyword'].tolist(),
+        [LABEL2ID[s] for s in train_data['stance']],
         tokenizer,
         args.max_length
     )
     
     val_dataset = StanceDataset(
-        train_df.iloc[val_indices]['tweet'].tolist(),
-        train_df.iloc[val_indices]['keyword'].tolist(),
-        [train_labels[i] for i in val_indices],
+        val_data['tweet'].tolist(),
+        val_data['keyword'].tolist(),
+        [LABEL2ID[s] for s in val_data['stance']],
         tokenizer,
         args.max_length
     )
@@ -280,7 +330,9 @@ def main():
     )
     
     # Create dataloaders
-    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
+    generator = torch.Generator()
+    generator.manual_seed(args.seed)
+    train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, generator=generator)
     val_loader = DataLoader(val_dataset, batch_size=args.batch_size)
     test_loader = DataLoader(test_dataset, batch_size=args.batch_size)
     
@@ -289,7 +341,7 @@ def main():
     print(f"  Test batches: {len(test_loader)}")
     
     # Initialize or load model
-    model_path = MODEL_DIR / "roberta_stance_model.pt"
+    model_path = model_dir / "roberta_stance_model.pt"
     
     if args.skip_train and model_path.exists():
         print(f"\nLoading existing model from {model_path}")
@@ -357,7 +409,7 @@ def main():
         'prob_neutral': probs[:, 2]
     })
     
-    output_path = RESULTS_DIR / "roberta_predictions.csv"
+    output_path = output_dir / args.prediction_file
     results_df.to_csv(output_path, index=False)
     print(f"\n✓ Saved predictions to: {output_path}")
     
